@@ -1,0 +1,56 @@
+{
+  "_note": "STRAW MAN, narrow by design. Ground truth labels are authored against THIS file, so it is versioned and hashed before labeling starts (see 'provenance'). In the repo it lands at the root as bidder-profile.json and is loaded by the `decide` node.",
+  "schema": 1,
+  "profile_id": "eap-software-narrow-2026-10-11",
+  "name": "EAP Software Solutions — narrow straw man",
+  "summary": "A small independent cloud, AI-platform and data engineering practice. Bids on scoped advisory and implementation projects it can staff itself and deliver remotely. Does not supply software products, does not run operations, does not staff sites.",
+  "bidder": {
+    "kind": "independent consultancy",
+    "size": "1–10 people, no bench",
+    "base": "Dallas–Fort Worth, Texas",
+    "presence": "remote-first, US-wide",
+    "travel": "up to ~25%, project-based"
+  },
+  "capabilities": [
+    { "area": "cloud migration and target-state architecture", "detail": "assessment, migration strategy, landing zones, cut-over planning on AWS and Azure", "evidence": "portfolio: full-stack-serving (container → Kubernetes → observability, measured and gated)" },
+    { "area": "AI and ML platform engineering", "detail": "inference serving, model evaluation harnesses, RAG and agent pipelines, LLM application engineering", "evidence": "portfolio: ebpf-inference-observability, agent-fail-eval, job-search" },
+    { "area": "data platform and integration engineering", "detail": "pipelines, warehouse modelling, API and system integration", "evidence": "prior data engineering work" },
+    { "area": "infrastructure automation", "detail": "IaC (Terraform/CDK/troposphere), container platforms, CI/CD", "evidence": "portfolio: full-stack-serving" },
+    { "area": "identity and security architecture", "detail": "IAM and zero-trust *strategy* — design and advice, not 24×7 security operations", "evidence": "prior architecture work" }
+  ],
+  "accepted_delivery_models": [
+    "fixed-scope advisory or assessment engagement",
+    "discovery and strategy engagement producing a plan",
+    "implementation project delivering working software",
+    "ongoing advisory retainer at fractional commitment (≤ 2 days/week)"
+  ],
+  "excluded_delivery_models": [
+    "supplying a hosted product, platform or software licences (the firm ships services, not SKUs)",
+    "24×7 monitoring, service desk or managed-IT operations",
+    "staff augmentation or body-shop placements",
+    "regular on-site staffing, or an emergency on-site response commitment, outside DFW",
+    "hardware, cabling, physical security or network operations"
+  ],
+  "excluded_capability_areas": [
+    "functional SAP / Oracle / Workday configuration",
+    "ERP and student information system functional implementation",
+    "records management and document-management products",
+    "clinical, financial-services or public-sector work requiring a licence the firm does not hold",
+    "any engagement requiring a security clearance or US-federal clearance sponsorship"
+  ],
+  "certifications_held": [],
+  "certifications_not_held": ["Microsoft Solutions Partner", "SAP Partner", "AWS Premier / MSP tier", "any reseller authorisation"],
+  "decision_rules_of_thumb": [
+    "If the issuer is buying a product and the services are incidental, no-bid: the firm cannot supply the product.",
+    "If the winner must monitor, page or staff something continuously, no-bid: that is an operations business.",
+    "If winning requires a recurring on-site presence the firm cannot make, no-bid: geography is a hard constraint, not a scoring penalty.",
+    "If the requirement names a vendor-specific functional stack the firm does not hold (SAP, Workday, student systems, D365 functional configuration), no-bid unless the work is platform engineering underneath it.",
+    "Advisory, discovery and strategy engagements in cloud, IAM, data or AI are the core of the practice and are the default bid."
+  ],
+  "provenance": {
+    "derived_from": "Capability statements that exist independently of the fixture set (portfolio repos, prior professional work). The fixtures were then inspected for DISCRIMINATION ONLY — to confirm the profile yields a spread rather than a uniform answer — and were not used to add or remove capabilities.",
+    "circularity_risk": "Designing a profile while looking at the documents it will be judged on makes the labels partly self-fulfilling. Mitigation: this file is frozen and hashed before any label is authored, and the operating point is pre-registered (same pattern as the full-stack-serving ADR 0009 pre-registration).",
+    "frozen_on": "2026-10-11",
+    "authorship": "drafted by personal-agent; to be adopted by Steven as the label-authoring baseline"
+  }
+}
