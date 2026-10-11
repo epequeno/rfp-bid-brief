@@ -206,8 +206,8 @@ def decide(profile: dict, extraction: Extraction) -> Decision:
     recommendation = NO_BID if reasons else BID
 
     notes = [
-        "deterministic verdict: no calibrated probability is available yet, so the pre-registered "
-        "operating point (tau = 0.50) does not apply to this brief",
+        "deterministic verdict: this layer emits a verdict, not a probability — the probability "
+        "channel, the pre-registered operating point and the census are under Decision below",
         f"profile {profile.get('profile_id')} — {len(reasons)} exclusion(s) matched, "
         f"{len(considered)} requirement(s) considered and not excluded",
     ]

@@ -4,9 +4,23 @@
 
 Primary reason class: **In scope**
 
-> deterministic verdict: no calibrated probability is available yet, so the pre-registered operating point (tau = 0.50) does not apply to this brief
+> deterministic verdict: this layer emits a verdict, not a probability — the probability channel, the pre-registered operating point and the census are under Decision below
 > profile eap-software-narrow-2026-10-11 — 0 exclusion(s) matched, 0 requirement(s) considered and not excluded
 > no exclusion in the profile is triggered by this solicitation
+
+## Decision
+
+**Probability channel** `typesafe/jev-1.13` (resolved `typesafe/jev-1.13-20260917`, served by TypeSafe): **P(bid) = 0.8600** → BID at the pre-registered operating point τ = 0.50.
+
+**Comparator** `microsoft/microsoft-decision-1` (resolved `microsoft/microsoft-decision-1-20261009`, served by Azure): P(bid) = 0.9707 → BID.
+
+**Census of 14 served decision models on this fixture: 14 bid, 0 no-bid** (probabilities 0.809–1.000).
+
+Every model in the census read this solicitation the same way.
+
+The deterministic rules layer above reaches the **same** call as the channel.
+
+_Caveat that travels with the number: 11 fixtures, 4 of them bid, and one call per (model, fixture). Per-model calibration and the Brier scores are in `results/calibration.json`._
 
 ## Why
 

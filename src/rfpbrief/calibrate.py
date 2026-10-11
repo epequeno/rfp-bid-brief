@@ -213,3 +213,83 @@ def to_json(scores: list[ModelScore], disagreement_data: dict, tau: float) -> di
 
 def load(path) -> dict:
     return json.loads(open(path).read())
+
+
+@dataclass
+class FixtureVerdict:
+    """One fixture's place in the census, ready to render.
+
+    Counts are derived from the recorded answers rather than from the calibration table, so a brief can
+    be rendered from `results/decisions.json` alone.
+    """
+
+    fixture: str
+    tau: float
+    total: int
+    bid: int
+    no_bid: int
+    lo: float | None
+    hi: float | None
+    channel: dict | None
+    comparator: dict | None
+    sample_fixtures: int = 0
+    sample_positives: int = 0
+
+    @property
+    def contested(self) -> bool:
+        """True when the census is not unanimous. Unanimity is not correctness — but a split is a
+        fixture whose call is genuinely close, and that is worth more to a reader than a number."""
+        return 0 < self.bid < self.total
+
+
+def _model_entry(answers: list[dict], slug: str, tau: float, fixture: str) -> dict | None:
+    """One model's answer *for this fixture*.
+
+    The fixture filter is the whole point. Without it this returns the first answer from the pinned
+    slug regardless of document, so a brief presents a probability belonging to another solicitation —
+    a number attached to the wrong evidence, which is the failure mode this repository is about.
+    """
+    for a in answers:
+        requested = a.get("model_requested") or ""
+        if a.get("fixture") != fixture:
+            continue
+        if requested != slug and not requested.startswith(slug):
+            continue
+        if a.get("noul") is None:
+            return None
+        return {
+            "slug": requested,
+            "probability": float(a["noul"]),
+            "call": _decide(float(a["noul"]), tau),
+            "resolved": a.get("resolved_model"),
+            "provider": a.get("provider"),
+        }
+    return None
+
+
+def fixture_verdict(decisions: dict, calibration: dict | None, fixture: str,
+                    channel: str = "", comparator: str = "") -> FixtureVerdict:
+    """Build the census view for one fixture. `calibration` may be absent: the counts do not need it."""
+    from .decision_model import CHANNEL, COMPARATOR
+
+    channel = channel or CHANNEL
+    comparator = comparator or COMPARATOR
+    calibration = calibration or {}
+    tau = float(decisions.get("operating_point_tau") or calibration.get("operating_point_tau") or 0.5)
+    values = [float(a["noul"]) for a in decisions.get("answers", [])
+              if a.get("fixture") == fixture and a.get("noul") is not None]
+    sample = calibration.get("sample") or {}
+    answers = decisions.get("answers", [])
+    return FixtureVerdict(
+        fixture=fixture,
+        tau=tau,
+        total=len(values),
+        bid=sum(1 for v in values if v >= tau),
+        no_bid=sum(1 for v in values if v < tau),
+        lo=min(values) if values else None,
+        hi=max(values) if values else None,
+        channel=_model_entry(answers, channel, tau, fixture),
+        comparator=_model_entry(answers, comparator, tau, fixture),
+        sample_fixtures=int(sample.get("fixtures") or 0),
+        sample_positives=int(sample.get("positives") or 0),
+    )

@@ -146,8 +146,11 @@ def test_removing_the_exclusions_flips_the_call(extraction) -> None:
 
 
 def test_the_probability_is_not_fabricated(decision) -> None:
+    """The rules layer emits a verdict and no probability — the number comes from the census, which is
+    measured, rather than from this function, which is not. The second assertion used to require the
+    note to say no probability "is available yet"; that became false the moment the census ran."""
     assert decision.probability is None
-    assert any("no calibrated probability" in n for n in decision.notes)
+    assert any("emits a verdict, not a probability" in n for n in decision.notes)
 
 
 # ── brief: the artifact ───────────────────────────────────────────────────────────────────────

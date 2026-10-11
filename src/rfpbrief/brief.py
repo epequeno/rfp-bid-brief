@@ -13,6 +13,7 @@ fabricated quotation reaches a reader with a page number attached.
 
 from __future__ import annotations
 
+from .calibrate import FixtureVerdict
 from .decide import BID, Decision
 from .extract import Citation, Extraction
 from .spans import Document
@@ -35,7 +36,80 @@ def _citation_line(c: Citation) -> str:
     return f'"{c.quote}" (page {c.page}, span `{c.span_id}`)'
 
 
-def render(decision: Decision, extraction: Extraction, doc: Document) -> str:
+def _call(probability: float, tau: float) -> str:
+    return "BID" if probability >= tau else "NO-BID"
+
+
+def _decision_section(decision: Decision, verdict: FixtureVerdict | None) -> list[str]:
+    """The probability channel, the comparator, and what the census as a whole did.
+
+    A brief with no census says exactly that. It does not print a default, a placeholder, or a number
+    nobody measured — the same rule the extraction gate applies to citations, applied to probabilities.
+    """
+    out: list[str] = ["## Decision", ""]
+    if verdict is None or not verdict.total:
+        out.append(
+            "No decision census is on file for this fixture, so **no probability is shown** — none has "
+            "been measured. `just census` asks every served decision model the same frozen question "
+            "(about $0.007 for the whole set) and records the answers under `results/census/`."
+        )
+        out.append("")
+        return out
+
+    if verdict.channel:
+        c = verdict.channel
+        out.append(
+            f"**Probability channel** `{c['slug']}` (resolved `{c['resolved']}`, served by "
+            f"{c['provider']}): **P(bid) = {c['probability']:.4f}** → "
+            f"{_call(c['probability'], verdict.tau)} at the pre-registered operating point "
+            f"τ = {verdict.tau:.2f}."
+        )
+        out.append("")
+    if verdict.comparator:
+        m = verdict.comparator
+        out.append(
+            f"**Comparator** `{m['slug']}` (resolved `{m['resolved']}`, served by {m['provider']}): "
+            f"P(bid) = {m['probability']:.4f} → {_call(m['probability'], verdict.tau)}."
+        )
+        out.append("")
+    out.append(
+        f"**Census of {verdict.total} served decision models on this fixture: "
+        f"{verdict.bid} bid, {verdict.no_bid} no-bid** (probabilities "
+        f"{verdict.lo:.3f}–{verdict.hi:.3f})."
+    )
+    out.append("")
+    if verdict.contested:
+        out.append(
+            "**The models disagree with each other here.** That makes this call close however it is "
+            "labelled — a recommendation is not the same thing as a settled question — and it marks "
+            "this fixture as the one to re-read first."
+        )
+    else:
+        out.append("Every model in the census read this solicitation the same way.")
+    out.append("")
+    if verdict.channel:
+        same = _call(verdict.channel["probability"], verdict.tau) == TITLE_OF[decision.recommendation]
+        out.append(
+            "The deterministic rules layer above reaches the **same** call as the channel."
+            if same else
+            "The deterministic rules layer above **disagrees** with the channel. Two judges, two "
+            "answers — and neither is averaged away to make them one."
+        )
+        out.append("")
+    if verdict.sample_fixtures:
+        out.append(
+            f"_Caveat that travels with the number: {verdict.sample_fixtures} fixtures, "
+            f"{verdict.sample_positives} of them bid, and one call per (model, fixture). Per-model "
+            "calibration and the Brier scores are in `results/calibration.json`._"
+        )
+    else:
+        out.append("_One call per (model, fixture); see `results/calibration.json`._")
+    out.append("")
+    return out
+
+
+def render(decision: Decision, extraction: Extraction, doc: Document,
+           verdict: FixtureVerdict | None = None) -> str:
     subject = extraction.facts.get("subject")
     issuer = extraction.facts.get("issuer")
     title = subject.value if subject else doc.fixture
@@ -51,6 +125,7 @@ def render(decision: Decision, extraction: Extraction, doc: Document) -> str:
     for note in decision.notes:
         out.append(f"> {note}")
     out.append("")
+    out.extend(_decision_section(decision, verdict))
 
     if decision.recommendation == BID:
         out.append("## Why")

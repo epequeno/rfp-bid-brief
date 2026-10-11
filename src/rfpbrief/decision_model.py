@@ -48,6 +48,11 @@ from .spans import Document
 REPO = Path(__file__).resolve().parents[2]
 DECISIONS_URL = "https://openrouter.ai/api/alpha/decisions"
 
+# ADR 0008 pins these two. The census resolves each to a *dated build* at call time, and the resolved
+# version is what gets reported: the same weights behind another host is a different measurement.
+CHANNEL = "typesafe/jev-1.13"
+COMPARATOR = "microsoft/microsoft-decision-1"
+
 # Frozen. Changing either of these invalidates every number produced before the change, so they are
 # constants with a hash rather than prompt strings assembled at the call site.
 QUESTION = "Should this firm bid on this solicitation?"
@@ -223,13 +228,25 @@ class Census:
     answers: list[dict] = field(default_factory=list)
     state_sha256: str = ""
 
-    def digest(self) -> str:
-        """Identity of this run: the frozen request plus the exact states every model was shown."""
+    def state_digest(self) -> str:
+        """The state every model was shown, independent of the answers it gave."""
         import hashlib
         return hashlib.sha256(
-            (self.request_sha256 + "".join(self.answers[i].get("state", "")
-                                           for i in range(len(self.answers)))).encode()
-        ).hexdigest()[:12]
+            "".join(f'{a.get("fixture")}\x00{a.get("state_sha256")}\x00' for a in self.answers).encode()
+        ).hexdigest()
+
+    def answers_digest(self) -> str:
+        """The measurement itself. Two runs of an unchanged state differ here, and that difference is
+        the thing a repeat is for — so it belongs in the filename, not only in the file."""
+        import hashlib
+        return hashlib.sha256(
+            "".join(f'{a.get("fixture")}\x00{a.get("model_requested")}\x00{a.get("noul")}\x00'
+                    for a in self.answers).encode()
+        ).hexdigest()
+
+    def digest(self) -> str:
+        """Content-addressed identity, enough to tell any two censuses apart for good."""
+        return f"{self.state_digest()[:8]}-{self.answers_digest()[:8]}"
 
     def to_json(self) -> dict:
         return {

@@ -184,7 +184,7 @@ def cmd_brief(args: argparse.Namespace) -> int:
     ex = extract.for_fixture(doc, Path(args.extractions) if args.extractions else None)
     profile = json.loads((REPO / "bidder-profile.json").read_text(encoding="utf-8"))
     decision = decide.decide(profile, ex)
-    markdown = brief.render(decision, ex, doc)
+    markdown = brief.render(decision, ex, doc, _census_verdict(path.name))
     out = Path(args.out) if args.out else REPO / "results" / "briefs" / f"{path.stem}.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(markdown, encoding="utf-8")
@@ -192,6 +192,22 @@ def cmd_brief(args: argparse.Namespace) -> int:
         print(markdown)
     print(f"→ {_display(out)}", file=sys.stderr)
     return 0
+
+
+def _census_verdict(fixture: str):
+    """The census view for one fixture, or None when the census has not been run.
+
+    None rather than a default is deliberate: a brief with no census must say so rather than display a
+    number that nothing measured.
+    """
+    from . import calibrate
+
+    dec = REPO / "results" / "decisions.json"
+    if not dec.exists():
+        return None
+    cal = REPO / "results" / "calibration.json"
+    calibration = json.loads(cal.read_text(encoding="utf-8")) if cal.exists() else None
+    return calibrate.fixture_verdict(json.loads(dec.read_text(encoding="utf-8")), calibration, fixture)
 
 
 def _display(path: Path) -> str:
@@ -404,7 +420,9 @@ def cmd_census(args: argparse.Namespace) -> int:
     out.write_text(json.dumps(payload, indent=1) + "\n", encoding="utf-8")
     # Archive under a content-addressed name: a re-run with a changed state must not silently
     # replace the previous measurement, which is exactly the mistake this repository criticises.
-    archive = REPO / "results" / "census" / f"{taken}-{payload['state_sha256'][:12]}.json"
+    # Keyed on BOTH the state and the answers: identical states can produce different measurements,
+    # and a repeat that overwrites its predecessor measures nothing.
+    archive = REPO / "results" / "census" / f"{taken}-{result.digest()}.json"
     archive.parent.mkdir(parents=True, exist_ok=True)
     archive.write_text(json.dumps(payload, indent=1) + "\n", encoding="utf-8")
     print(f"  archived as {_display(archive)}")

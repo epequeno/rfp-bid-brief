@@ -4,8 +4,22 @@
 
 Primary reason class: **Functional stack not held**
 
-> deterministic verdict: no calibrated probability is available yet, so the pre-registered operating point (tau = 0.50) does not apply to this brief
+> deterministic verdict: this layer emits a verdict, not a probability — the probability channel, the pre-registered operating point and the census are under Decision below
 > profile eap-software-narrow-2026-10-11 — 1 exclusion(s) matched, 0 requirement(s) considered and not excluded
+
+## Decision
+
+**Probability channel** `typesafe/jev-1.13` (resolved `typesafe/jev-1.13-20260917`, served by TypeSafe): **P(bid) = 0.2300** → NO-BID at the pre-registered operating point τ = 0.50.
+
+**Comparator** `microsoft/microsoft-decision-1` (resolved `microsoft/microsoft-decision-1-20261009`, served by Azure): P(bid) = 0.7311 → BID.
+
+**Census of 14 served decision models on this fixture: 7 bid, 7 no-bid** (probabilities 0.131–0.856).
+
+**The models disagree with each other here.** That makes this call close however it is labelled — a recommendation is not the same thing as a settled question — and it marks this fixture as the one to re-read first.
+
+The deterministic rules layer above reaches the **same** call as the channel.
+
+_Caveat that travels with the number: 11 fixtures, 4 of them bid, and one call per (model, fixture). Per-model calibration and the Brier scores are in `results/calibration.json`._
 
 ## Why not
 
