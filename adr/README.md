@@ -23,4 +23,8 @@ Consequences.
 | [0001](0001-span-id-citations.md) | Span-ID citations as a structural guarantee | accepted |
 | [0002](0002-required-bidder-profile.md) | A bidder profile is a required input | accepted |
 | [0003](0003-pre-register-the-operating-point.md) | Pre-register the operating point, and freeze the profile before labelling | accepted |
-| [0004](0004-citations-locate-inside-spans.md) | Citations locate a quote inside a span, at word boundaries | accepted |
+| [0004](0004-citations-locate-inside-spans.md) | Citations locate a quote inside a span, at word boundaries *(first way to pass; ADR 0005 adds a second)* | accepted |
+| [0005](0005-citations-verify-at-page-level.md) | A citation is verified at page level, because spans are ours and pages are the document's | accepted |
+| [0006](0006-the-gate-is-a-repair-channel.md) | The citation gate is a repair channel, bounded to one attempt | accepted |
+| [0007](0007-the-probability-channel-is-pluggable.md) | The probability channel is pluggable, and its first choice is not callable yet | accepted |
+| [0008](0008-two-decision-models-are-callable.md) | Two decision models are callable today, on a surface the probe did not know about | accepted |
