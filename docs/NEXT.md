@@ -14,7 +14,7 @@ decisions that are not mine to make.
 | `extract` (model) | pinned model + one bounded repair attempt; refusals filed apart from data | `extractions/model/`, `extractions/repeats/` |
 | `decide` | deterministic verdict against the frozen profile; no probability invented (ADR 0002) | `src/rfpbrief/decide.py` |
 | `brief` | one page per fixture, every quote re-verified against the span index | `results/briefs/` |
-| decision census | **14 served decision models × 11 fixtures = 154 decisions for $0.007** (ADR 0009) | `results/decisions.json`, `results/census/` |
+| decision census | **14 served decision models × 11 fixtures = 154 decisions for $0.007** (ADR 0009), repeated four times for $0.028 (ADR 0010) | `results/decisions.json`, `results/census/`, `results/census-repeats/` |
 | calibration | per-model accuracy, Brier, reliability, and where the census splits | `results/calibration.json` |
 
 Run `just` for the recipe list; `just check` runs everything offline (fixture hashes, 87 tests, span
@@ -25,17 +25,18 @@ reproducibility, extraction validation, baselines).
 - **Span index:** 5,706 spans; median span 61–139 characters.
 - **Citations:** 8/11 model extractions passed the gate first try; with the repair channel, **0
   refusals**. First-attempt cleanliness across three runs was **7–8/11** — a range, not a rate.
-- **Decisions:** 7 of 14 models reproduce **all eleven** labels at τ = 0.50; the other 7 miss one
-  fixture and only that one.
+- **Decisions:** **7–8 of 14** models reproduce **all eleven** labels at τ = 0.50 (the count moves by one
+  across four repeats); the rest miss one fixture and only that one.
 - **Calibration:** every model is within one call of every other, while **Brier spans 0.0021–0.0724**
   — a factor of 34. Accuracy is nearly identical; calibration is not. That is the project's thesis,
   as data.
-- **Agreement:** ten fixtures unanimous; **one split** — `energy-trust-of-oregon-crm-migration-to-d365`,
-  7 bid / 7 no_bid, probabilities 0.13–0.86.
+- **Agreement:** ten fixtures unanimous in every run; **one split in every run** —
+  `energy-trust-of-oregon-crm-migration-to-d365`, bid count **7, 6, 6, 7** across four repeats,
+  probabilities 0.13–0.86.
 - **The limits, which do not move:** eleven fixtures, four positives. Fourteen models is 154
   decisions and still **eleven independent label comparisons per model**. No number from this repo
-  should be quoted without the sample size, and the decision census was called **once** per
-  (model, fixture) — model nondeterminism is untested.
+  should be quoted without the sample size, and the census is **not exactly reproducible**: one
+  decision in 616 changed sides across four repeats, so the counts carry ranges (`adr/0010`).
 
 ## Next steps, in value order
 
@@ -47,12 +48,19 @@ pre-registered operating point does not apply"*. That was true when written and 
 `P(bid)`, the pre-registered τ, the resulting call, the **census disagreement for that fixture**, and
 a second model's number as an opinion. Regenerate all eleven.
 
-### 2. Measure the decision layer's stability (small, mine, ~$0.007 per run)
+### 2. ✅ Done — the decision layer's stability is measured (`adr/0010`)
 
-`results/variance.json` covers the **extractor** only. The census was one call per pair. Given how
-loudly extractor nondeterminism bit us, assuming the decision layer is stable is exactly the
-assumption not to leave untested. Three repeats, then report the spread the same way: a range, never
-a point.
+Four censuses of one frozen state, $0.028. **Stable in structure, near-stable in numbers, not
+reproducible.** Five of fourteen models are identical to the last digit; nine drift ≤ 0.07; two drift
+~0.44 and one of those (`inception/mercury-decide`) **crossed τ on one fixture in one run of four** —
+exactly one decision in 616 changed sides. The same ten fixtures were unanimous in every run and the
+same single fixture split in every run, while the counts moved: **7 of 14 perfect became 7–8**, and the
+split's bid count went **7, 6, 6, 7**.
+
+The channel survives: Jev drifted 0.07 and produced the same verdict on all eleven fixtures, four runs
+running. Full table in `results/census-repeats/README.md`. ADR 0009's single-run figures are qualified
+by ADR 0010 rather than edited into it — an accepted record that gets rewritten when a later
+measurement disagrees stops being a record of what was decided.
 
 ### 3. The Energy Trust split — **a decision for the owner** (see below)
 

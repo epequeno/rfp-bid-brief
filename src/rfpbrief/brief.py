@@ -96,14 +96,21 @@ def _decision_section(decision: Decision, verdict: FixtureVerdict | None) -> lis
             "answers — and neither is averaged away to make them one."
         )
         out.append("")
+    if verdict.contested:
+        repeats = ("Repeats move individual probabilities by up to 0.45 and this fixture's bid count "
+                   "between 6 and 7, so read the count above as one draw")
+    else:
+        repeats = ("Repeats move individual probabilities by up to 0.45; this page's structure was "
+                   "unchanged across four runs")
     if verdict.sample_fixtures:
         out.append(
             f"_Caveat that travels with the number: {verdict.sample_fixtures} fixtures, "
-            f"{verdict.sample_positives} of them bid, and one call per (model, fixture). Per-model "
-            "calibration and the Brier scores are in `results/calibration.json`._"
+            f"{verdict.sample_positives} of them bid, one call per (model, fixture). {repeats} "
+            "(`results/census-repeats/README.md`). Per-model calibration and Brier scores: "
+            "`results/calibration.json`._"
         )
     else:
-        out.append("_One call per (model, fixture); see `results/calibration.json`._")
+        out.append(f"_One call per (model, fixture); {repeats}. See `results/calibration.json`._")
     out.append("")
     return out
 

@@ -19,7 +19,7 @@ Primary reason class: **Functional stack not held**
 
 The deterministic rules layer above reaches the **same** call as the channel.
 
-_Caveat that travels with the number: 11 fixtures, 4 of them bid, and one call per (model, fixture). Per-model calibration and the Brier scores are in `results/calibration.json`._
+_Caveat that travels with the number: 11 fixtures, 4 of them bid, one call per (model, fixture). Repeats move individual probabilities by up to 0.45 and this fixture's bid count between 6 and 7, so read the count above as one draw (`results/census-repeats/README.md`). Per-model calibration and Brier scores: `results/calibration.json`._
 
 ## Why not
 

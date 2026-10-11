@@ -19,7 +19,7 @@ Every model in the census read this solicitation the same way.
 
 The deterministic rules layer above reaches the **same** call as the channel.
 
-_Caveat that travels with the number: 11 fixtures, 4 of them bid, and one call per (model, fixture). Per-model calibration and the Brier scores are in `results/calibration.json`._
+_Caveat that travels with the number: 11 fixtures, 4 of them bid, one call per (model, fixture). Repeats move individual probabilities by up to 0.45; this page's structure was unchanged across four runs (`results/census-repeats/README.md`). Per-model calibration and Brier scores: `results/calibration.json`._
 
 ## Why not
 

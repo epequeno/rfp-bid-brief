@@ -93,3 +93,11 @@ def test_the_reported_probability_is_the_one_recorded_for_that_fixture():
         assert v.channel["probability"] == recorded[(f, "typesafe/jev-1.13")], f
         assert v.comparator["probability"] == recorded[(f, "microsoft/microsoft-decision-1")], f
         assert v.lo <= v.channel["probability"] <= v.hi, f
+
+
+def test_the_caveat_says_the_count_is_one_draw():
+    """ADR 0010: four repeats moved this fixture's bid count 7, 6, 6, 7. A page that prints "7 bid"
+    without saying so is presenting a draw as a fact."""
+    verdict = calibrate.fixture_verdict(_decisions(), _calibration(), SPLIT)
+    text = "\n".join(brief._decision_section(_decision(), verdict))
+    assert "one draw" in text and "census-repeats" in text
