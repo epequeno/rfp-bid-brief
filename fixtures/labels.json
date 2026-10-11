@@ -5,17 +5,23 @@
   "authored_by": "Steven Pequeno (the labels) with personal-agent (proposed reasoning, reviewed and agreed 2026-10-11)",
   "authored_against": {
     "profile_id": "eap-software-narrow-2026-10-11",
-    "profile_sha256": "aa89a2f462db431453d13e7c2aff7a772c2c9c5542e87ee40515d893795e7fa1"
+    "profile_sha256": "aa89a2f462db431453d13e7c2aff7a772c2c9c5542e87ee40515d893795e7fa1",
+    "note": "The labels below were authored against this profile. The profile was later revised (see refrozen) and every label re-checked against the added class."
   },
   "operating_point_tau": 0.5,
   "held_out": true,
-  "balance": { "bid": 4, "no_bid": 7, "total": 11 },
+  "balance": {
+    "bid": 4,
+    "no_bid": 7,
+    "total": 11
+  },
   "reason_classes": {
     "in_scope": "the profile's core work: scoped advisory, discovery or implementation in cloud, IAM, data or AI",
     "product_not_services": "the issuer is buying a product or licences and the services are incidental",
     "functional_stack_not_held": "winning requires vendor-specific functional expertise the profile excludes (ERP or student systems, SAP/Oracle/Workday configuration, Dynamics functional work)",
     "operations_not_projects": "the work is continuous monitoring, service desk or managed operations rather than a project",
-    "geography": "winning requires a recurring on-site presence the profile cannot commit to"
+    "geography": "winning requires a recurring on-site presence the profile cannot commit to",
+    "not_qualified": "a minimum track record, contract vehicle, credential or clearance makes the firm ineligible before capability is assessed \u2014 unreachable rather than unsuitable"
   },
   "baseline_note": "The title-only keyword baseline is expected to fail on at least three of these. u-maine-system and hacc both read as AI or software work by title and are product purchases; tahoe reads as a plain IT consulting engagement and is a geography no-bid. If the baseline does not fail there, the pipeline is adding nothing and that is the finding (adr/0003).",
   "labels": [
@@ -32,7 +38,7 @@
       "label": "bid",
       "reason_class": "in_scope",
       "title_signal": "consistent",
-      "evidence": "consulting services for the following as described in Section 3 – Scope of Services ... Cloud Migration Discovery and Strategic Services ... Identity & Access Management (IAM) strategy, and Zero Trust Network Access (ZTNA) strategy",
+      "evidence": "consulting services for the following as described in Section 3 \u2013 Scope of Services ... Cloud Migration Discovery and Strategic Services ... Identity & Access Management (IAM) strategy, and Zero Trust Network Access (ZTNA) strategy",
       "rationale": "Pure advisory: discovery, strategy and target-state design in cloud, identity and zero trust, which is the profile's core. Three-year initial term with renewals, and evaluation is qualitative rather than price-dominated.",
       "counterargument": "Requires travel to Indianapolis and out-of-state registration, both mechanical rather than disqualifying."
     },
@@ -42,7 +48,7 @@
       "reason_class": "product_not_services",
       "title_signal": "misleading",
       "evidence": "A Cloud-based SaaS solution only (no on-prem or self-hosted alternatives). Vendors must provide fully managed hosting, updates, scaling, monitoring, and security.",
-      "rationale": "A records-management product procurement with implementation attached. The award turns on supplying and running the platform — hosting, updates, scaling, monitoring — which the profile excludes."
+      "rationale": "A records-management product procurement with implementation attached. The award turns on supplying and running the platform \u2014 hosting, updates, scaling, monitoring \u2014 which the profile excludes."
     },
     {
       "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
@@ -60,7 +66,7 @@
       "title_signal": "consistent",
       "evidence": "retain a qualified consultant team ... to provide Information Technology Services and Management including on-site support",
       "rationale": "A three-year operations retainer with three renewal options, providing ongoing IT services and management. The word consultant does not make it advisory: the shape is continuous service delivery, not a project with an end.",
-      "counterargument": "The profile does accept fractional retainers, up to about two days a week — but not a three-year operations commitment with on-site support."
+      "counterargument": "The profile does accept fractional retainers, up to about two days a week \u2014 but not a three-year operations commitment with on-site support."
     },
     {
       "fixture": "tahoe-transportation-district-it-consulting-2025.pdf",
@@ -77,7 +83,7 @@
       "title_signal": "consistent",
       "evidence": "experience and ability to provide Enterprise Resource Planning",
       "rationale": "A 64-page procure-to-award for an ERP and student information system, with selection resting on demonstrated ERP implementation experience and total cost. Functional ERP and student-systems delivery is explicitly outside the profile.",
-      "counterargument": "Large, well funded and multi-year — attractive on money alone, which is the trap the profile exists to catch."
+      "counterargument": "Large, well funded and multi-year \u2014 attractive on money alone, which is the trap the profile exists to catch."
     },
     {
       "fixture": "city-of-spicer-mn-managed-it-services-2026.pdf",
@@ -93,7 +99,7 @@
       "reason_class": "in_scope",
       "title_signal": "consistent",
       "evidence": "soliciting proposals from qualified consultant firms to develop a Six-Year Information Technology Strategic Plan",
-      "rationale": "A pure advisory deliverable — a six-year IT strategic plan for a city with about 60 users — with no on-site, licence, monitoring or hosting requirement anywhere in the text. Small in value, squarely in scope.",
+      "rationale": "A pure advisory deliverable \u2014 a six-year IT strategic plan for a city with about 60 users \u2014 with no on-site, licence, monitoring or hosting requirement anywhere in the text. Small in value, squarely in scope.",
       "counterargument": "The contract is small enough that declining it would be a policy choice about revenue, not a capability judgement."
     },
     {
@@ -111,7 +117,17 @@
       "title_signal": "misleading",
       "evidence": "The engagement will include advisory, implementation, and knowledge transfer components.",
       "rationale": "AI integration, a Microsoft Fabric migration, a Dynamics 365 migration for a 211 call centre and an intelligent virtual assistant, specified as projects with deliverables and a one-year term. The work is squarely in scope even though the title says only consultant.",
-      "counterargument": "The summary line reads as staff augmentation — act as an extension of our Information Systems team, on an as-needed basis — which the profile excludes. Agreed as a bid: the deliverables are project-shaped, so this is the label with the least margin in the set."
+      "counterargument": "The summary line reads as staff augmentation \u2014 act as an extension of our Information Systems team, on an as-needed basis \u2014 which the profile excludes. Agreed as a bid: the deliverables are project-shaped, so this is the label with the least margin in the set."
     }
-  ]
+  ],
+  "refrozen": {
+    "on": "2026-10-11",
+    "profile_id": "eap-software-narrow-2026-10-11-r2",
+    "profile_sha256": "792024998f3d435f8913e06cb6382a39e0f74d9dac0c13ce7c52f8a578915de8",
+    "revision": 2,
+    "reason": "fifth exclusion class added: not_qualified (ineligible before capability is assessed)",
+    "effect": "no existing label changed; tau unchanged at 0.50; the eleven labels remain valid against the revised profile",
+    "check_performed": "pattern search over all eleven fixtures for minimum-experience, contract-vehicle, credential and eligibility phrasings \u2014 zero matches",
+    "note": "The new class currently has no fixture that triggers it. It is expressible but unexercised, which is recorded here rather than hidden."
+  }
 }

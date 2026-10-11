@@ -70,7 +70,15 @@ Fourteen models over eleven fixtures does not add statistical power. The fix is 
 toward **in-scope** solicitations: the set is 4 bid / 11 today, and positives are what precision and
 calibration need.
 
-**Round 3 is sourced, verified and staged — awaiting a decision.** Seven new candidates (8.3 MB,
+**Round 3 is admitted — seven fixtures in, set now eighteen.** The profile was revised in the same
+change (fifth exclusion class `not_qualified`, `adr/0012`), which makes this a **re-freeze**: new profile
+sha256 recorded beside the old one, all eleven existing labels re-checked against the new class (zero
+triggers, so no label changed and τ stands), and **every census and calibration figure on file was
+measured under profile v1** — they carry v1 `state_sha256` and must be re-run once the new labels land.
+Span indexes for all eighteen are built and reproducible: **8,497 spans, up from 5,706**.
+
+Still outstanding for the new seven: hand-authored extractions (mine) and labels (yours, pre-filled from
+the evidence). Nothing has been run against a model — the ADR 0003 order holds. Seven new candidates (8.3 MB,
 HTTP 200, real text layers, no employer/client relationship, no vendor responses) sit in
 `outbox/2026-10-11-fixture-expansion/candidates/` with proposed labels and evidence per document in
 `CANDIDATES.md`. Two are bid-likely, five are not, and **that ratio is the finding**: the bid-likely

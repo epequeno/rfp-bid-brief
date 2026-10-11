@@ -1,6 +1,6 @@
 # Span indexes — first spike, 2026-10-11
 
-Eleven indexes, one per fixture, built by `uv run rfpbrief build`. Each is regenerable from its
+Eighteen indexes, one per fixture, built by `uv run rfpbrief build` (`just parse <fixture>`). Each is regenerable from its
 fixture and records the engine that produced it, so `just verify-spans` can fail loudly when either
 has moved.
 

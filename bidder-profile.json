@@ -1,32 +1,57 @@
 {
   "_note": "STRAW MAN, narrow by design. Ground truth labels are authored against THIS file, so it is versioned and hashed before labeling starts (see 'provenance'). In the repo it lands at the root as bidder-profile.json and is loaded by the `decide` node.",
   "schema": 1,
-  "profile_id": "eap-software-narrow-2026-10-11",
-  "name": "EAP Software Solutions — narrow straw man",
+  "profile_id": "eap-software-narrow-2026-10-11-r2",
+  "name": "EAP Software Solutions \u2014 narrow straw man",
   "summary": "A small independent cloud, AI-platform and data engineering practice. Bids on scoped advisory and implementation projects it can staff itself and deliver remotely. Does not supply software products, does not run operations, does not staff sites.",
   "bidder": {
     "kind": "independent consultancy",
-    "size": "1–10 people, no bench",
-    "base": "Dallas–Fort Worth, Texas",
+    "size": "1\u201310 people, no bench",
+    "base": "Dallas\u2013Fort Worth, Texas",
     "presence": "remote-first, US-wide",
-    "travel": "up to ~25%, project-based"
+    "travel": "up to ~25%, project-based",
+    "experience": {
+      "comparable_engagements": "3\u20135 multi-month engagements in cloud, data and AI platform engineering; no prior K-12 implementations and no public-sector ERP or student-systems implementations",
+      "contract_vehicles": "none \u2014 no cooperative contract, state contract vehicle or framework agreement",
+      "partner_authorisations": "none (see certifications_not_held)"
+    }
   },
   "capabilities": [
-    { "area": "cloud migration and target-state architecture", "detail": "assessment, migration strategy, landing zones, cut-over planning on AWS and Azure", "evidence": "portfolio: full-stack-serving (container → Kubernetes → observability, measured and gated)" },
-    { "area": "AI and ML platform engineering", "detail": "inference serving, model evaluation harnesses, RAG and agent pipelines, LLM application engineering", "evidence": "portfolio: ebpf-inference-observability, agent-fail-eval, job-search" },
-    { "area": "data platform and integration engineering", "detail": "pipelines, warehouse modelling, API and system integration", "evidence": "prior data engineering work" },
-    { "area": "infrastructure automation", "detail": "IaC (Terraform/CDK/troposphere), container platforms, CI/CD", "evidence": "portfolio: full-stack-serving" },
-    { "area": "identity and security architecture", "detail": "IAM and zero-trust *strategy* — design and advice, not 24×7 security operations", "evidence": "prior architecture work" }
+    {
+      "area": "cloud migration and target-state architecture",
+      "detail": "assessment, migration strategy, landing zones, cut-over planning on AWS and Azure",
+      "evidence": "portfolio: full-stack-serving (container \u2192 Kubernetes \u2192 observability, measured and gated)"
+    },
+    {
+      "area": "AI and ML platform engineering",
+      "detail": "inference serving, model evaluation harnesses, RAG and agent pipelines, LLM application engineering",
+      "evidence": "portfolio: ebpf-inference-observability, agent-fail-eval, job-search"
+    },
+    {
+      "area": "data platform and integration engineering",
+      "detail": "pipelines, warehouse modelling, API and system integration",
+      "evidence": "prior data engineering work"
+    },
+    {
+      "area": "infrastructure automation",
+      "detail": "IaC (Terraform/CDK/troposphere), container platforms, CI/CD",
+      "evidence": "portfolio: full-stack-serving"
+    },
+    {
+      "area": "identity and security architecture",
+      "detail": "IAM and zero-trust *strategy* \u2014 design and advice, not 24\u00d77 security operations",
+      "evidence": "prior architecture work"
+    }
   ],
   "accepted_delivery_models": [
     "fixed-scope advisory or assessment engagement",
     "discovery and strategy engagement producing a plan",
     "implementation project delivering working software",
-    "ongoing advisory retainer at fractional commitment (≤ 2 days/week)"
+    "ongoing advisory retainer at fractional commitment (\u2264 2 days/week)"
   ],
   "excluded_delivery_models": [
     "supplying a hosted product, platform or software licences (the firm ships services, not SKUs)",
-    "24×7 monitoring, service desk or managed-IT operations",
+    "24\u00d77 monitoring, service desk or managed-IT operations",
     "staff augmentation or body-shop placements",
     "regular on-site staffing, or an emergency on-site response commitment, outside DFW",
     "hardware, cabling, physical security or network operations"
@@ -39,18 +64,37 @@
     "any engagement requiring a security clearance or US-federal clearance sponsorship"
   ],
   "certifications_held": [],
-  "certifications_not_held": ["Microsoft Solutions Partner", "SAP Partner", "AWS Premier / MSP tier", "any reseller authorisation"],
+  "certifications_not_held": [
+    "Microsoft Solutions Partner",
+    "SAP Partner",
+    "AWS Premier / MSP tier",
+    "any reseller authorisation"
+  ],
   "decision_rules_of_thumb": [
     "If the issuer is buying a product and the services are incidental, no-bid: the firm cannot supply the product.",
     "If the winner must monitor, page or staff something continuously, no-bid: that is an operations business.",
     "If winning requires a recurring on-site presence the firm cannot make, no-bid: geography is a hard constraint, not a scoring penalty.",
     "If the requirement names a vendor-specific functional stack the firm does not hold (SAP, Workday, student systems, D365 functional configuration), no-bid unless the work is platform engineering underneath it.",
-    "Advisory, discovery and strategy engagements in cloud, IAM, data or AI are the core of the practice and are the default bid."
+    "Advisory, discovery and strategy engagements in cloud, IAM, data or AI are the core of the practice and are the default bid.",
+    "If a minimum track record, a contract vehicle or a credential makes the firm ineligible before capability is even assessed, no-bid: the work is unreachable rather than merely unwinnable, and no amount of proposal quality changes it."
   ],
   "provenance": {
-    "derived_from": "Capability statements that exist independently of the fixture set (portfolio repos, prior professional work). The fixtures were then inspected for DISCRIMINATION ONLY — to confirm the profile yields a spread rather than a uniform answer — and were not used to add or remove capabilities.",
+    "derived_from": "Capability statements that exist independently of the fixture set (portfolio repos, prior professional work). The fixtures were then inspected for DISCRIMINATION ONLY \u2014 to confirm the profile yields a spread rather than a uniform answer \u2014 and were not used to add or remove capabilities.",
     "circularity_risk": "Designing a profile while looking at the documents it will be judged on makes the labels partly self-fulfilling. Mitigation: this file is frozen and hashed before any label is authored, and the operating point is pre-registered (same pattern as the full-stack-serving ADR 0009 pre-registration).",
     "frozen_on": "2026-10-11",
-    "authorship": "drafted by personal-agent; to be adopted by Steven as the label-authoring baseline"
-  }
+    "authorship": "drafted by personal-agent; to be adopted by Steven as the label-authoring baseline",
+    "revision": {
+      "revision": 2,
+      "revised_on": "2026-10-11",
+      "why": "Sourcing round 3 surfaced two documents that turn on eligibility rather than capability \u2014 one requiring 'at least five (5) successful Texas K-12 implementations', another open only to holders of a pre-awarded statewide contract. No existing exclusion class could express 'we cannot bid on this even if we wanted to', which is a verdict a bid-triage tool has to be able to produce.",
+      "effect_on_existing_labels": "None. All eleven fixtures were re-checked for eligibility and minimum-experience gates by pattern search and none triggers the new class, so the previously authored labels and the pre-registered operating point survive this revision. That check is a pattern search, not an exhaustive reading, and is recorded as such.",
+      "supersedes": "eap-software-narrow-2026-10-11"
+    }
+  },
+  "excluded_eligibility_gates": [
+    "a minimum number of prior comparable implementations the firm does not have, stated as a qualification rather than scored",
+    "holding a pre-awarded contract vehicle, cooperative contract or vendor partnership tier the firm lacks",
+    "a certification, licence, reseller authorisation or tier status the firm does not hold",
+    "a security clearance or federal clearance sponsorship"
+  ]
 }

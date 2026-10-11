@@ -1,0 +1,2225 @@
+{
+ "schema": "span-index/1",
+ "fixture": "allentown-school-district-data-warehousing-services-2026.pdf",
+ "fixture_sha256": "87aa0da0ac74c581281b6c417ba4dcc3b2f60f601906aa12e57b51b97bc4f694",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "2f169ce2d8a1fc6a3b20727e48f049f03028f6d3085551f599556737c5e5185c",
+   "chars": 129
+  },
+  {
+   "number": 2,
+   "sha256": "107c78d91d87a4ce9c1ffb3ee5039775368be8929566e7af9b687c91ae94b947",
+   "chars": 478
+  },
+  {
+   "number": 3,
+   "sha256": "4f87393b155055b3e35eacead7ba1c78553b2338941be52ccde3580f3fb717bd",
+   "chars": 1921
+  },
+  {
+   "number": 4,
+   "sha256": "aa39e81f87b95c748218b72a15106eaaf962405b9fb6ff5ccfacc302bb02453b",
+   "chars": 1664
+  },
+  {
+   "number": 5,
+   "sha256": "26efd9855d4ccb250ac99094387d36b64239279dc02ec24ab4ffa507bc00ece2",
+   "chars": 1445
+  },
+  {
+   "number": 6,
+   "sha256": "d840d35e59b44a452c2a4a031f9370dd714704712f877f9de9e03af18cf03f02",
+   "chars": 1849
+  },
+  {
+   "number": 7,
+   "sha256": "f36319a78e8cecfdc536cf13e9dc5447aa0a636315a050c3b10b8511458b26ad",
+   "chars": 1616
+  },
+  {
+   "number": 8,
+   "sha256": "3d68837334cc994a24779ce356e5bac57a2f49eef89db3979ae69e3e2f876c95",
+   "chars": 1820
+  },
+  {
+   "number": 9,
+   "sha256": "c02ebadca035762b985bc4d97ff20e7684fd76cf73b4f3e0fe8e493e6958d0bc",
+   "chars": 1515
+  },
+  {
+   "number": 10,
+   "sha256": "c2d7cd2b165a989ab45b114bc40abc46b52247d979da8fb80ed45393afd82051",
+   "chars": 2151
+  },
+  {
+   "number": 11,
+   "sha256": "f1d4943bc7ba6be650f014db37ab3e13d6defe885a7568c4a576aa4ddc114155",
+   "chars": 1966
+  },
+  {
+   "number": 12,
+   "sha256": "62dba527ace2fe3f321981ce6d745211d974fb244f9d7f5ae97c0102a7701d9a",
+   "chars": 1862
+  },
+  {
+   "number": 13,
+   "sha256": "59f43097a5b3deed2f6bf0f1bfb53ac5dc3c79c3f0d7b37cebccc1bc41332df7",
+   "chars": 835
+  },
+  {
+   "number": 14,
+   "sha256": "28a64469640d8caa21ffbb17a325a0c571b8820b66c426a67978f73e54c53a0b",
+   "chars": 1707
+  },
+  {
+   "number": 15,
+   "sha256": "d1592c6f8b9de618e66f9c2867bd0da1beeae8e29445fc4f0bbb05cf94adabcf",
+   "chars": 2573
+  },
+  {
+   "number": 16,
+   "sha256": "57ac4ac34e4dcd02a94d198addf4b6fff9e49d69c31bbcc69afde5fffb1acf55",
+   "chars": 2151
+  },
+  {
+   "number": 17,
+   "sha256": "5f86f2652e67cf7e6a65ef6c826b2377238e9719924bd33fc27df1f26c107316",
+   "chars": 2672
+  },
+  {
+   "number": 18,
+   "sha256": "b0c5a48dfb6b3e3a0dc065ee327a4281ae4fef65e8bc906073132bdc5a93bed9",
+   "chars": 2450
+  },
+  {
+   "number": 19,
+   "sha256": "e778f27a60e9a9247500ac0c6da55464d3d8a6d2770af2428888a95eea562f4e",
+   "chars": 2685
+  }
+ ],
+ "span_count": 264,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 129,
+   "chars": 129,
+   "text": "​\n\nREQUEST FOR PROPOSAL\n\nfor\nData Warehousing Services\n\nProposals Due:\nNo later than 4:00 p.m. EST on Friday, February 6, 2026\n\n1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 301,
+   "chars": 301,
+   "text": "TABLE OF CONTENTS\nTable of Contents\n\n2\n\n1.​ Introduction\n\n3\n\n2.​ Project Overview\n\n3\n\n3.​ Scope of Work\n\n5\n\n4.​ Deliverables\n\n6\n\n5.​ Proposal Requirements\n\n6\n\n6.​ Evaluation Criteria\n\n9\n\n7.​ Submission Details\n\n11\n\n8.​ RFP Addenda\n\n12\n\n9.​ Cost and Pricing Data\n\n12\n\n10.​Timeline\n\n12\n\n11.​Unacceptable"
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 301,
+   "end": 478,
+   "chars": 177,
+   "text": " Work\n\n13\n\n12.​Exhibit A – Base Services vs. Optional Services\n\n14\n\n13.​Exhibit B - Indemnification\n\n15\n\n14.​Exhibit C - Insurance\n\n16\n\n15.​Exhibit D - Termination Clause\n\n19\n\n2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 3,
+   "end": 229,
+   "chars": 226,
+   "text": "Introduction\nThe Allentown School District (ASD) invites proposals from qualified vendors to provide\nenterprise Data Warehousing Services that support both instructional improvement and\ndistrictwide operational effectiveness. "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 229,
+   "end": 338,
+   "chars": 109,
+   "text": "The District intends to award one (1) contract to a single\nvendor to serve as a long-term strategic partner.\n"
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 338,
+   "end": 540,
+   "chars": 202,
+   "text": "The selected vendor will support ASD’s goals related to instructional excellence, Multi-Tiered\nSystems of Support (MTSS), compliance and reporting, operational efficiency, and\ndata-informed leadership.\n"
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 540,
+   "end": 543,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 543,
+   "end": 760,
+   "chars": 217,
+   "text": "PROJECT OVERVIEW\n2.1 Background and Context\nThe Allentown School District is a large, urban public school district serving a diverse student\npopulation and operating a complex instructional and operational ecosystem. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 760,
+   "end": 1072,
+   "chars": 312,
+   "text": "The District\nmaintains multiple enterprise systems, including but not limited to:\n●​ Student Information System (SIS) exported data\n●​ Assessment and instructional platforms\n●​ Attendance, discipline, and MTSS systems\n●​ Facilities, work order, and asset management systems\n●​ Transportation, safety, nutrition, "
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 1072,
+   "end": 1359,
+   "chars": 287,
+   "text": "and technology systems\n●​ PDE reporting data sets, including PIMS\nThe District seeks to consolidate these disparate data sources into a single, authoritative data\nwarehouse, requiring key services such as ETL (extract, transform, load) processing, cloud data\nwarehousing, data modeling, "
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1359,
+   "end": 1435,
+   "chars": 76,
+   "text": "and ongoing optimization to ensure data quality, security, and\nscalability.\n"
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 1435,
+   "end": 1626,
+   "chars": 191,
+   "text": "2.2 Purpose of the RFP\nThe purpose of this RFP is to procure comprehensive data warehousing services from a single\nvendor capable of supporting both instructional and operational data needs.\n"
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 1626,
+   "end": 1921,
+   "chars": 295,
+   "text": "2.3 Project Objectives\nThe objectives of this project include, but are not limited to:\n●​ Centralize instructional and operational data\n●​ Support longitudinal student analysis and MTSS\n●​ Provide operational dashboards for district departments\n●​ Support PDE, PIMS, ESSA, and Act 82 reporting\n3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 230,
+   "chars": 230,
+   "text": "●​ Improve data quality, governance, and access\n2.4 Contract Terms and Award Structure\nThe District intends to award one (1) contract for an initial three (3) year term, with optional\nannual renewals at the District’s discretion.\n"
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 230,
+   "end": 529,
+   "chars": 299,
+   "text": "2.5 Project Timeline\nThe District anticipates the following general timeline (subject to change at the District’s\ndiscretion):\n●​ RFP Issuance: January 26, 2026\n●​ Deadline for Questions: February 2, 2026\n●​ Proposal Submission Deadline: February 6, 2026\n●​ Evaluation and Shortlisting: February 9, "
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 529,
+   "end": 830,
+   "chars": 301,
+   "text": "2026\n●​ Interviews/Presentations (if applicable): Week of February 9, 2026\n●​ Anticipated Award Date: February 26, 2026\n●​ Anticipated Contract Start Date: March 2, 2026\n2.6 District Roles and Responsibilities\nThe District will:\n●​ Designate a primary point of contact for coordination and approvals.\n"
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 830,
+   "end": 915,
+   "chars": 85,
+   "text": "●​ Provide reasonable access to District staff, information, and existing materials.\n"
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 915,
+   "end": 970,
+   "chars": 55,
+   "text": "●​ Review and approve deliverables in a timely manner.\n"
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 970,
+   "end": 1057,
+   "chars": 87,
+   "text": "●​ Maintain final authority over all communications, messaging, and public statements.\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 1057,
+   "end": 1162,
+   "chars": 105,
+   "text": "2.8 Vendor Role\nThe selected vendor shall:\n●​ Act as a professional advisor and partner to the District.\n"
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 1162,
+   "end": 1231,
+   "chars": 69,
+   "text": "●​ Coordinate closely with District leadership and designated staff.\n"
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 1231,
+   "end": 1315,
+   "chars": 84,
+   "text": "●​ Comply with all applicable federal, state, and local laws and District policies.\n"
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 1315,
+   "end": 1389,
+   "chars": 74,
+   "text": "●​ Maintain confidentiality and protect District and student information.\n"
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 1389,
+   "end": 1466,
+   "chars": 77,
+   "text": "●​ Deliver services in accordance with the Scope of Work and contract terms.\n"
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 1466,
+   "end": 1584,
+   "chars": 118,
+   "text": "2.9 Budget and Funding\nThe District anticipates funding this project through approved operating and/or special funds.\n"
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 1584,
+   "end": 1662,
+   "chars": 78,
+   "text": "The District has not established a guaranteed minimum or maximum expenditure.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 1663,
+   "end": 1664,
+   "chars": 1,
+   "text": "4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 95,
+   "chars": 95,
+   "text": "2.10 Reservation of Rights\nThe District reserves the right to:\n●​ Reject any or all proposals.\n"
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 95,
+   "end": 143,
+   "chars": 48,
+   "text": "●​ Waive minor irregularities or informalities.\n"
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 143,
+   "end": 195,
+   "chars": 52,
+   "text": "●​ Request additional information or clarification.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 195,
+   "end": 248,
+   "chars": 53,
+   "text": "●​ Modify the scope, schedule, or terms of this RFP.\n"
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 248,
+   "end": 328,
+   "chars": 80,
+   "text": "●​ Cancel this RFP at any time if deemed to be in the District’s best interest.\n"
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 328,
+   "end": 331,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 331,
+   "end": 581,
+   "chars": 250,
+   "text": "SCOPE OF WORK\n3.1​Data Integration and Management\nThe vendor shall:\n●​ Integrate SIS exports, assessment data, MTSS, and operational systems\n●​ Support PDE/PIMS data structures and submissions\n●​ Ingest facilities, transportation, safety, nutrition, "
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 581,
+   "end": 893,
+   "chars": 312,
+   "text": "and IT data\n●​ Migrate a minimum of five (5) years of historical data from all data sources\n●​ Support future integrations without re-architecture\n3.2​Reporting, Dashboards, and Analytics\n●​ Instructional dashboards for performance, growth, MTSS\n●​ Operational dashboards for facilities, transportation, safety, "
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 893,
+   "end": 904,
+   "chars": 11,
+   "text": "nutrition, "
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 904,
+   "end": 1217,
+   "chars": 313,
+   "text": "and IT\n●​ Role-based access and reporting\n●​ Ad hoc and scheduled reporting\n3.3​Instructional Analytics and MTSS Support\n●​ Progress monitoring and intervention tracking\n●​ Alignment with Data Wise frameworks\n●​ Longitudinal student growth analysis\n3.4​Operational Analytics\n●​ Cross-department analysis\n●​ Cost, "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 1217,
+   "end": 1445,
+   "chars": 228,
+   "text": "efficiency, and performance monitoring\n●​ Cabinet- and Board-level reporting\n3.5​Security, Compliance, and Governance\n●​ FERPA compliance\n●​ Cybersecurity controls and audit trails\n●​ Role-based permissions and data governance\n5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 239,
+   "chars": 239,
+   "text": "●​ Periodic reviews and risk assessment analysis\n●​ Adherence to Allentown School District Board Policies, including but not limited to 800,\n815.1, and 830.1 (https://go.boarddocs.com/pa/alen/Board.nsf/Public# )\n3.6​Hosting, Architecture, "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 239,
+   "end": 481,
+   "chars": 242,
+   "text": "and Technology\n●​ Secure cloud-hosted solution (preferred)\n●​ Role-based permissions to accommodate District access to the hosted data\n●​ Backup, redundancy, and disaster recovery\n●​ Scalable modern architecture\n3.7 Implementation, Training, "
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 481,
+   "end": 665,
+   "chars": 184,
+   "text": "and Support\n●​ Implementation plan aligned to the academic calendar\n●​ Role-based training (instructional and operational)\n●​ Dedicated project manager\n●​ Ongoing technical support\n4. "
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 665,
+   "end": 768,
+   "chars": 103,
+   "text": "DELIVERABLES\nThe selected vendor shall be responsible for providing the deliverables identified below. "
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 768,
+   "end": 852,
+   "chars": 84,
+   "text": "These\ndeliverables represent anticipated outputs associated with the Scope of Work. "
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 852,
+   "end": 944,
+   "chars": 92,
+   "text": "The District may\nrequest some or all deliverables based on priorities, funding, and timing.\n"
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 944,
+   "end": 1072,
+   "chars": 128,
+   "text": "Proposers may recommend additional deliverables that enhance value to the District, provided\nsuch items are clearly identified.\n"
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 1072,
+   "end": 1380,
+   "chars": 308,
+   "text": "●​ Data warehouse architecture documentation\n●​ Integrated and validated datasets from all sources\n●​ Instructional and MTSS dashboards\n●​ Operational dashboards and executive reports\n●​ PDE/PIMS-aligned reporting outputs\n●​ Training materials and sessions\n●​ Usage, performance, and data quality reports\n5. "
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 1380,
+   "end": 1483,
+   "chars": 103,
+   "text": "PROPOSAL REQUIREMENTS\nProposals must be clear, complete, and responsive to this Request for Proposals. "
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 1483,
+   "end": 1554,
+   "chars": 71,
+   "text": "Each proposal\nshall follow the format and organization outlined below. "
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 1554,
+   "end": 1652,
+   "chars": 98,
+   "text": "Failure to comply with these\nrequirements may result in the proposal being deemed non-responsive.\n"
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 1652,
+   "end": 1764,
+   "chars": 112,
+   "text": "5.1 General Submission Requirements\n●​ Proposals shall be submitted by the date and time specified in this RFP.\n"
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 1764,
+   "end": 1848,
+   "chars": 84,
+   "text": "●​ Proposals shall be valid for a minimum of 120 days from the submission deadline.\n"
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 1848,
+   "end": 1849,
+   "chars": 1,
+   "text": "6"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 105,
+   "chars": 105,
+   "text": "●​ All costs associated with proposal preparation and submission are the responsibility of\nthe proposer.\n"
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 105,
+   "end": 180,
+   "chars": 75,
+   "text": "●​ Proposals shall be signed by an individual authorized to bind the firm.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 180,
+   "end": 296,
+   "chars": 116,
+   "text": "●​ The District reserves the right to request clarification, additional information, or\nsupplemental documentation.\n"
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 296,
+   "end": 401,
+   "chars": 105,
+   "text": "5.2 Proposal Organization and Format\nProposals shall be organized using the following numbered sections. "
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 401,
+   "end": 486,
+   "chars": 85,
+   "text": "Proposers are strongly\nencouraged to adhere to this format to facilitate evaluation.\n"
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 486,
+   "end": 637,
+   "chars": 151,
+   "text": "5.3 Executive Summary\nProvide a concise overview (no more than two pages) that includes:\n●​ Firm understanding of the District’s needs and objectives.\n"
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 637,
+   "end": 698,
+   "chars": 61,
+   "text": "●​ Summary of the proposed approach and key differentiators.\n"
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 698,
+   "end": 743,
+   "chars": 45,
+   "text": "●​ Unique strengths or value-added services.\n"
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 743,
+   "end": 787,
+   "chars": 44,
+   "text": "●​ Commitment to meeting the Scope of Work.\n"
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 787,
+   "end": 883,
+   "chars": 96,
+   "text": "5.4 Firm Background and Qualifications\nProvide:\n●​ Legal name, address, and years in operation.\n"
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 883,
+   "end": 947,
+   "chars": 64,
+   "text": "●​ Description of firm size, structure, and areas of expertise.\n"
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 947,
+   "end": 1035,
+   "chars": 88,
+   "text": "●​ Experience providing data warehousing services to public-sector and/or K–12 clients.\n"
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 1035,
+   "end": 1148,
+   "chars": 113,
+   "text": "●​ Disclosure of any pending litigation, conflicts of interest, or adverse findings related to\npublic contracts.\n"
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 1148,
+   "end": 1325,
+   "chars": 177,
+   "text": "5.5 Relevant Experience and References\nProvide:\n●​ Descriptions of at least three (3) comparable engagements, preferably for public school\ndistricts or similar public entities.\n"
+  },
+  {
+   "id": "p7-s14",
+   "page": 7,
+   "start": 1325,
+   "end": 1397,
+   "chars": 72,
+   "text": "●​ For each engagement include:\no​ Client name and contact information.\n"
+  },
+  {
+   "id": "p7-s15",
+   "page": 7,
+   "start": 1397,
+   "end": 1428,
+   "chars": 31,
+   "text": "o​ Scope of services provided.\n"
+  },
+  {
+   "id": "p7-s16",
+   "page": 7,
+   "start": 1428,
+   "end": 1455,
+   "chars": 27,
+   "text": "o​ Duration of engagement.\n"
+  },
+  {
+   "id": "p7-s17",
+   "page": 7,
+   "start": 1455,
+   "end": 1499,
+   "chars": 44,
+   "text": "o​ Measurable outcomes or results achieved.\n"
+  },
+  {
+   "id": "p7-s18",
+   "page": 7,
+   "start": 1499,
+   "end": 1570,
+   "chars": 71,
+   "text": "●​ Contact information for references may be verified by the District.\n"
+  },
+  {
+   "id": "p7-s19",
+   "page": 7,
+   "start": 1570,
+   "end": 1616,
+   "chars": 46,
+   "text": "5.6 Proposed Team and Staffing Plan\nProvide:\n7"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 64,
+   "chars": 64,
+   "text": "●​ Identification of the proposed project manager/account lead.\n"
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 64,
+   "end": 124,
+   "chars": 60,
+   "text": "●​ Roles and responsibilities of all proposed team members.\n"
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 124,
+   "end": 185,
+   "chars": 61,
+   "text": "●​ Resumes or biographies demonstrating relevant experience.\n"
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 185,
+   "end": 266,
+   "chars": 81,
+   "text": "●​ Explanation of staffing levels, availability, and continuity/backup coverage.\n"
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 266,
+   "end": 325,
+   "chars": 59,
+   "text": "●​ Description of subcontractors, if any, and their roles.\n"
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 325,
+   "end": 525,
+   "chars": 200,
+   "text": "5.7 Technical Approach and Work Plan\nProvide a detailed narrative describing how the proposer will perform the Scope of Work,\nincluding:\n●​ Discovery and onboarding approach for the first 30–60 days.\n"
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 525,
+   "end": 580,
+   "chars": 55,
+   "text": "●​ Strategy development and campaign planning process.\n"
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 580,
+   "end": 626,
+   "chars": 46,
+   "text": "●​ Content development and approval workflow.\n"
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 626,
+   "end": 711,
+   "chars": 85,
+   "text": "●​ Project management methodology, communication cadence, and escalation procedures.\n"
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 711,
+   "end": 764,
+   "chars": 53,
+   "text": "●​ Timeline showing key milestones and deliverables.\n"
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 764,
+   "end": 870,
+   "chars": 106,
+   "text": "5.8 Measurement, Reporting, and Performance Management\nProvide:\n●​ Proposed performance metrics and KPIs.\n"
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 870,
+   "end": 920,
+   "chars": 50,
+   "text": "●​ Reporting frequency and sample report formats.\n"
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 920,
+   "end": 1145,
+   "chars": 225,
+   "text": "5.9 Equity, Accessibility, and Compliance\nDescribe how the proposer will:\n●​ Ensure data is accessible\n●​ Protect student and District data and comply with applicable privacy, confidentiality, and\ncybersecurity requirements.\n"
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 1145,
+   "end": 1225,
+   "chars": 80,
+   "text": "●​ Manage approvals, permissions, and content governance in a K–12 environment.\n"
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 1225,
+   "end": 1535,
+   "chars": 310,
+   "text": "●​ Detail any use of Artificial Intelligence in any aspect of the work and safeguards\nestablished to prevent District data from being used in any manner not established in this\nscope of work\n5.10 Cost Proposal\nProvide a detailed cost proposal that includes:\n●​ Pricing structure (e.g., retainer, hourly rates, "
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 1535,
+   "end": 1563,
+   "chars": 28,
+   "text": "deliverable-based pricing).\n"
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 1563,
+   "end": 1611,
+   "chars": 48,
+   "text": "●​ Identification of all costs and assumptions.\n"
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 1611,
+   "end": 1649,
+   "chars": 38,
+   "text": "●​ Any optional or alternate pricing.\n"
+  },
+  {
+   "id": "p8-s18",
+   "page": 8,
+   "start": 1649,
+   "end": 1713,
+   "chars": 64,
+   "text": "●​ Clear identification of items not included in the base cost.\n"
+  },
+  {
+   "id": "p8-s19",
+   "page": 8,
+   "start": 1713,
+   "end": 1819,
+   "chars": 106,
+   "text": "●​ Confirmation that pricing includes all labor, materials, travel, and overhead unless\notherwise stated.\n"
+  },
+  {
+   "id": "p8-s20",
+   "page": 8,
+   "start": 1819,
+   "end": 1820,
+   "chars": 1,
+   "text": "8"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 109,
+   "chars": 109,
+   "text": "Costs shall be presented in a separate, clearly labeled section or attachment, if requested by the\nDistrict.\n"
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 109,
+   "end": 251,
+   "chars": 142,
+   "text": "5.11 Value-Added Services (Optional)\nProposers may include:\n●​ Additional services, innovations, or tools that enhance value to the District.\n"
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 251,
+   "end": 352,
+   "chars": 101,
+   "text": "●​ These services should be clearly identified as optional and not required for baseline\nevaluation.\n"
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 352,
+   "end": 490,
+   "chars": 138,
+   "text": "5.12 Insurance, Legal, and Contractual Requirements\nProvide:\n●​ Evidence of ability to meet insurance requirements specified in this RFP.\n"
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 490,
+   "end": 589,
+   "chars": 99,
+   "text": "●​ Acceptance of the District’s standard contract terms or identification of requested\nexceptions.\n"
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 589,
+   "end": 692,
+   "chars": 103,
+   "text": "●​ Statement confirming compliance with all applicable federal, state, and local laws and\nregulations.\n"
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 692,
+   "end": 882,
+   "chars": 190,
+   "text": "5.13 Required Forms and Certifications\nInclude all required forms, certifications, and affidavits identified elsewhere in this RFP,\nincluding but not limited to:\n●​ Non-collusion affidavit.\n"
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 882,
+   "end": 922,
+   "chars": 40,
+   "text": "●​ Certification of non-discrimination.\n"
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 922,
+   "end": 974,
+   "chars": 52,
+   "text": "●​ Certification regarding debarment or suspension.\n"
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 974,
+   "end": 1024,
+   "chars": 50,
+   "text": "●​ Any additional forms required by the District.\n"
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 1024,
+   "end": 1117,
+   "chars": 93,
+   "text": "5.14 Exceptions and Assumptions\nClearly identify:\n●​ Any exceptions to the RFP requirements.\n"
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 1117,
+   "end": 1258,
+   "chars": 141,
+   "text": "●​ Any assumptions upon which the proposal is based.​\nFailure to disclose exceptions or assumptions may result in rejection of the proposal.\n"
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 1258,
+   "end": 1378,
+   "chars": 120,
+   "text": "5.15 Proposal Completeness\nProposals shall be complete, clear, and sufficiently detailed to permit thorough evaluation.\n"
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 1378,
+   "end": 1491,
+   "chars": 113,
+   "text": "Proposals that are incomplete, conditional, or non-responsive may be rejected at the District’s\nsole discretion.\n"
+  },
+  {
+   "id": "p9-s14",
+   "page": 9,
+   "start": 1491,
+   "end": 1494,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p9-s15",
+   "page": 9,
+   "start": 1494,
+   "end": 1515,
+   "chars": 21,
+   "text": "EVALUATION CRITERIA\n9"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 241,
+   "chars": 241,
+   "text": "6.1 Evaluation Process and Best-Value Award\nProposals will be evaluated to determine the offeror that provides the best overall value to the\nDistrict, considering technical merit, demonstrated experience, responsiveness, capacity, and\ncost. "
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 241,
+   "end": 375,
+   "chars": 134,
+   "text": "The District may request clarifications, conduct interviews/presentations, and negotiate\nscope and pricing with one or more offerors. "
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 375,
+   "end": 517,
+   "chars": 142,
+   "text": "The District reserves the right to reject any or all\nproposals, waive minor informalities, and make an award in the District’s best interest.\n"
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 517,
+   "end": 675,
+   "chars": 158,
+   "text": "6.2 Minimum Responsiveness Requirements (Pass/Fail)\nProposals must, at a minimum:\n●​ Be received by the stated deadline and contain all required submissions.\n"
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 675,
+   "end": 818,
+   "chars": 143,
+   "text": "●​ Demonstrate ability to meet required insurance, confidentiality, and cybersecurity/data\nprotection requirements (as applicable in the RFP).\n"
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 818,
+   "end": 917,
+   "chars": 99,
+   "text": "●​ Identify a dedicated project lead/account manager and confirm availability to perform the\nwork.\n"
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 917,
+   "end": 1014,
+   "chars": 97,
+   "text": "●​ Provide at least three (3) relevant references, preferably public-sector and/or K–12\nclients.\n"
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 1014,
+   "end": 1075,
+   "chars": 61,
+   "text": "●​ Provide a complete cost proposal in the format requested.\n"
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 1075,
+   "end": 1168,
+   "chars": 93,
+   "text": "Failure to meet minimum requirements may result in the proposal being deemed non-responsive.\n"
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 1168,
+   "end": 1290,
+   "chars": 122,
+   "text": "6.3 Technical Evaluation Criteria and Weights (100 Points Total)\nThe District intends to use the weighted criteria below. "
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 1290,
+   "end": 1356,
+   "chars": 66,
+   "text": "The District may score proposals using\nthe rubric in Section 6.4.\n"
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 1356,
+   "end": 1626,
+   "chars": 270,
+   "text": "•​\n•​\n•​\n•​\n•​\n\nUnderstanding of instructional & operational needs – 25\nTechnical approach and scalability – 25\nK–12/public sector experience – 20\nProject team qualifications – 15\nCost and overall value – 15\n\n6.4 Scoring Rubric\nTo improve consistency and defensibility, "
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 1626,
+   "end": 1725,
+   "chars": 99,
+   "text": "evaluators may use the following scale for each\ncriterion:\n●​ 5 – Excellent: Exceeds requirements; "
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 1725,
+   "end": 1768,
+   "chars": 43,
+   "text": "highly detailed, low risk, superior value.\n"
+  },
+  {
+   "id": "p10-s14",
+   "page": 10,
+   "start": 1768,
+   "end": 1806,
+   "chars": 38,
+   "text": "●​ 4 – Good: Meets requirements well; "
+  },
+  {
+   "id": "p10-s15",
+   "page": 10,
+   "start": 1806,
+   "end": 1818,
+   "chars": 12,
+   "text": "clear plan; "
+  },
+  {
+   "id": "p10-s16",
+   "page": 10,
+   "start": 1818,
+   "end": 1837,
+   "chars": 19,
+   "text": "low/moderate risk.\n"
+  },
+  {
+   "id": "p10-s17",
+   "page": 10,
+   "start": 1837,
+   "end": 1884,
+   "chars": 47,
+   "text": "●​ 3 – Acceptable: Meets minimum requirements; "
+  },
+  {
+   "id": "p10-s18",
+   "page": 10,
+   "start": 1884,
+   "end": 1907,
+   "chars": 23,
+   "text": "some gaps/uncertainty; "
+  },
+  {
+   "id": "p10-s19",
+   "page": 10,
+   "start": 1907,
+   "end": 1922,
+   "chars": 15,
+   "text": "moderate risk.\n"
+  },
+  {
+   "id": "p10-s20",
+   "page": 10,
+   "start": 1922,
+   "end": 1969,
+   "chars": 47,
+   "text": "●​ 2 – Marginal: Partially meets requirements; "
+  },
+  {
+   "id": "p10-s21",
+   "page": 10,
+   "start": 1969,
+   "end": 1987,
+   "chars": 18,
+   "text": "significant gaps; "
+  },
+  {
+   "id": "p10-s22",
+   "page": 10,
+   "start": 1987,
+   "end": 2002,
+   "chars": 15,
+   "text": "elevated risk.\n"
+  },
+  {
+   "id": "p10-s23",
+   "page": 10,
+   "start": 2002,
+   "end": 2043,
+   "chars": 41,
+   "text": "●​ 1 – Poor: Does not meet requirements; "
+  },
+  {
+   "id": "p10-s24",
+   "page": 10,
+   "start": 2043,
+   "end": 2061,
+   "chars": 18,
+   "text": "unclear approach; "
+  },
+  {
+   "id": "p10-s25",
+   "page": 10,
+   "start": 2061,
+   "end": 2072,
+   "chars": 11,
+   "text": "high risk.\n"
+  },
+  {
+   "id": "p10-s26",
+   "page": 10,
+   "start": 2072,
+   "end": 2149,
+   "chars": 77,
+   "text": "●​ 0 – Non-responsive: No meaningful information provided for the criterion.\n"
+  },
+  {
+   "id": "p10-s27",
+   "page": 10,
+   "start": 2149,
+   "end": 2151,
+   "chars": 2,
+   "text": "10"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 147,
+   "chars": 147,
+   "text": "6.5 Interviews/Presentations (Optional) and Their Role\nAt the District’s discretion, finalists may be invited to an interview and/or presentation.\n"
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 147,
+   "end": 412,
+   "chars": 265,
+   "text": "Interviews may be scored as part of the criteria above and may include:\n●​ Walkthrough of proposed first 60 days\n●​ Review of relevant work samples and results\n●​ Proposed workflow for approvals, communications, and response\n●​ Clarification of staffing, capacity, "
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 412,
+   "end": 526,
+   "chars": 114,
+   "text": "and pricing assumptions\n6.6 Reference Checks\nThe District may conduct reference checks for one or more finalists. "
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 526,
+   "end": 647,
+   "chars": 121,
+   "text": "Reference feedback may be\nused to validate scoring for experience, performance, responsiveness, quality, and timeliness.\n"
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 647,
+   "end": 766,
+   "chars": 119,
+   "text": "6.7 Tie-Breakers (If Needed)\nIf proposals are substantially equal in total score, the District may consider, in order:\n"
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 766,
+   "end": 1081,
+   "chars": 315,
+   "text": "1.​ Higher technical score (Sections A–F combined)\n2.​ Stronger relevant K–12/public-sector references and demonstrated results\n3.​ Lower overall cost / better total value\n6.8 Final Award\nThe District intends to award to the responsible offeror whose proposal is determined to be most\nadvantageous to the District, "
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 1081,
+   "end": 1155,
+   "chars": 74,
+   "text": "considering the evaluation criteria and successful contract\nnegotiations.\n"
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 1156,
+   "end": 1159,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 1159,
+   "end": 1428,
+   "chars": 269,
+   "text": "Submission Details\n7.1 Proposal Due Date\n●​ Deadline: Friday, February 6, 2026 no later than 4:00 PM EST\n●​ Format: PDF, submitted electronically to rfp@allentownsd.org Subject line should read\nas follows: “RFP – DATA WAREHOUSING SERVICES – COMPANY NAME”\n●​ Questions: "
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 1428,
+   "end": 1549,
+   "chars": 121,
+   "text": "rfp@allentownsd.org Subject line should read as follows: “RFP –\nQUESTION(S) – DATA WAREHOUSING SERVICES – COMPANY NAME”.\n"
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 1549,
+   "end": 1607,
+   "chars": 58,
+   "text": "No proposal received after the deadline will be accepted. "
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 1607,
+   "end": 1705,
+   "chars": 98,
+   "text": "Please send via email, Friday, February\n6, 2026 no later than 4:00 PM EST to rfp@allentownsd.org. "
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 1705,
+   "end": 1828,
+   "chars": 123,
+   "text": "All questions must be submitted via\nemail by no later than 11:00 AM EST February 2, 2026 to the above noted email address. "
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 1828,
+   "end": 1966,
+   "chars": 138,
+   "text": "An\naddendum will then be posted on the District’s website at:\nwww.allentownsd.org/offices/financial-operational-services/bids-and-rfps\n\n11"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 150,
+   "chars": 150,
+   "text": "Requests for any information concerning this solicitation are to be referred to the Department of\nProcurement at rfp@allentownsd.org or 484-765-4245.\n"
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 151,
+   "end": 154,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 154,
+   "end": 367,
+   "chars": 213,
+   "text": "RFP Addenda\nIn the event that modifications or additions to the RFP become necessary, such items will be\nposted on the District’s website at www.allentownsd.org under Offices > Financial Services >\nBids and RFPs.\n"
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 367,
+   "end": 497,
+   "chars": 130,
+   "text": "8.1 Supporting Documentation\nAll documentation submitted with the proposal will become the property of Allentown School\nDistrict.\n"
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 497,
+   "end": 816,
+   "chars": 319,
+   "text": "8.2 Informality of Proposal and Acceptance, Rejection or Selection of Proposal\nThe Allentown School District expressly reserves the right to reject any or all proposals (in\nwhole or in part, with or without cause, even if all stated requirements are met), to waive any\ninformalities or irregularities in the proposals, "
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 816,
+   "end": 961,
+   "chars": 145,
+   "text": "and to accept that proposal or the combination of\nproposals which is in the best interest of the Allentown School District, in part or in whole. "
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 961,
+   "end": 1028,
+   "chars": 67,
+   "text": "The\nDistrict reserves the right to negotiate terms and conditions.\n"
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 1028,
+   "end": 1283,
+   "chars": 255,
+   "text": "8.3 Execution of this “Request for Proposal”\nThe proposal must be signed by an official authorized to bind the respondent, and it must contain\na statement to the effect that the proposal is firm for a period of at least 120 days from the date of\nreceipt.\n"
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 1283,
+   "end": 1408,
+   "chars": 125,
+   "text": "Proposals must be accompanied by the RFP of the Allentown School District, which is to be\nincorporated therein by reference. "
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 1408,
+   "end": 1488,
+   "chars": 80,
+   "text": "The District shall review the proposals pursuant to the criteria\nstated herein.\n"
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 1489,
+   "end": 1492,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 1492,
+   "end": 1652,
+   "chars": 160,
+   "text": "Cost and Pricing Data\nThe cost and/or price of this project will need to be a complete project cost, no additional fees, or\n“add-on” services will be accepted.\n"
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 1653,
+   "end": 1657,
+   "chars": 4,
+   "text": "10. "
+  },
+  {
+   "id": "p12-s13",
+   "page": 12,
+   "start": 1657,
+   "end": 1862,
+   "chars": 205,
+   "text": "Timeline\n●​ RFP Issued: January 26, 2026\n●​ Questions Due: February 2, 2026\n●​ Proposal Submission Deadline: February 6, 2026\n●​ Selection Announcement: February 26, 2026\n●​ Project Start: March 2, 2026\n12"
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "11. "
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 4,
+   "end": 256,
+   "chars": 252,
+   "text": "Unacceptable Work\nIf it is determined that the developers design and development work was unacceptable, because it\ndid not meet the Standards, Programs, Activities, and Functions, the developer may, at the\nwritten request of the District, be required, "
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 256,
+   "end": 340,
+   "chars": 84,
+   "text": "to provide redesign at its own expense and resubmit a\nrevised design or assessment. "
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 340,
+   "end": 501,
+   "chars": 161,
+   "text": "Failure to submit acceptable work in a timely manner shall\nconstitute sufficient grounds for the District to withhold payment and to pursue all lawful\nrecourse.\n"
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 501,
+   "end": 610,
+   "chars": 109,
+   "text": "The vendor may be terminated at any time upon thirty (30) days written notice by either party\nwithout cause. "
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 610,
+   "end": 832,
+   "chars": 222,
+   "text": "However, if the vendor fails to comply with any of the terms specified in this\nArticle due to gross negligence or irreprehensible harm to the District, the District may terminate\nthis contract with seven (7) days’ notice.\n"
+  },
+  {
+   "id": "p13-s6",
+   "page": 13,
+   "start": 833,
+   "end": 835,
+   "chars": 2,
+   "text": "13"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 258,
+   "chars": 258,
+   "text": "EXHIBIT A\nAllentown School District\n\nBase Services vs. Optional Services\nThis Exhibit is intended to distinguish between Base Services included within the core\ncontract award and Optional Services that may be requested by the District on an\nas-needed basis. "
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 258,
+   "end": 359,
+   "chars": 101,
+   "text": "The District reserves the right to procure any or all services listed below at\nits discretion.​\n​\nA. "
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 359,
+   "end": 673,
+   "chars": 314,
+   "text": "Base Services​\nThe following services shall be considered Base Services and are expected to be included in\nthe proposer’s core pricing:\n●​ Enterprise data warehouse architecture and design\n●​ Integration with SIS, PDE/PIMS, and identified instructional systems\n●​ Integration with operational systems (Facilities, "
+  },
+  {
+   "id": "p14-s3",
+   "page": 14,
+   "start": 673,
+   "end": 931,
+   "chars": 258,
+   "text": "Transportation, Safety & Security,\nChild Nutrition, Technology)\n●​ Migration of a minimum of five (5) years of historical data\n●​ Instructional dashboards (student performance, growth, MTSS)\n●​ Operational dashboards (work orders, ridership, safety metrics, "
+  },
+  {
+   "id": "p14-s4",
+   "page": 14,
+   "start": 931,
+   "end": 1163,
+   "chars": 232,
+   "text": "participation rates)\n●​ Role-based access and reporting\n●​ Data governance framework and documentation\n●​ Hosting, backup, and disaster recovery\n●​ Initial and ongoing training\n●​ Ongoing technical support and system maintenance\nB. "
+  },
+  {
+   "id": "p14-s5",
+   "page": 14,
+   "start": 1163,
+   "end": 1440,
+   "chars": 277,
+   "text": "Optional / As-Needed Services​\nThe following services may be requested by the District but are not guaranteed:\n●​ Additional system integrations beyond those identified at award\n●​ Advanced analytics, predictive modeling, or AI-driven insights\n●​ Custom School Board, Cabinet, "
+  },
+  {
+   "id": "p14-s6",
+   "page": 14,
+   "start": 1440,
+   "end": 1707,
+   "chars": 267,
+   "text": "or public-facing dashboards\n●​ Extended historical data migration beyond five (5) years\n●​ Data governance consulting beyond baseline requirements\n●​ Custom report development beyond standard offerings\n●​ On-site professional development beyond contracted levels​\n\n14"
+  },
+  {
+   "id": "p15-s0",
+   "page": 15,
+   "start": 0,
+   "end": 57,
+   "chars": 57,
+   "text": "EXHIBIT B\nAllentown School District\n1.​ INDEMNIFICATION.\n"
+  },
+  {
+   "id": "p15-s1",
+   "page": 15,
+   "start": 57,
+   "end": 321,
+   "chars": 264,
+   "text": "(a)​ [COMPANY] agrees to defend, indemnify and hold harmless the ALLENTOWN SCHOOL\nDISTRICT and its agents and employees, from and against any and all demands, claims,\nsuits, causes of action, damages, losses, penalties, and/or expenses, including attorney’s fees,\n"
+  },
+  {
+   "id": "p15-s2",
+   "page": 15,
+   "start": 321,
+   "end": 611,
+   "chars": 290,
+   "text": "arising out of or resulting from [COMPANY's] performance of the work required by the\n[COMPANY], regardless of whether such demand, claim, suit, cause of action, loss, penalty,\nor expense is incident to or arises out of conditions or omissions permitted or acts performed\nby any indemnitee.\n"
+  },
+  {
+   "id": "p15-s3",
+   "page": 15,
+   "start": 611,
+   "end": 921,
+   "chars": 310,
+   "text": "(b)​The [COMPANY] agrees to assume the entire responsibility and liability for all damages or\ninjury to all persons, and to all property, arising out of or in any manner connected with the\nexecution of the Work under this Agreement for Sale and Purchase of Property and to the\nfullest extent permitted by law, "
+  },
+  {
+   "id": "p15-s4",
+   "page": 15,
+   "start": 921,
+   "end": 1172,
+   "chars": 251,
+   "text": "the [COMPANY] shall defend and indemnify the\nALLENTOWN SCHOOL DISTRICT from all such claims including without limitation\nclaims for which the ALLENTOWN SCHOOL DISTRICT may be or may be claimed to be\nliable by reason of its own independent negligence.\n"
+  },
+  {
+   "id": "p15-s5",
+   "page": 15,
+   "start": 1172,
+   "end": 1440,
+   "chars": 268,
+   "text": "(c)​ The COMPANY agrees to assume its entire responsibility and liability for all damages or\ninjury to all persons, whether its employees or otherwise, and to all property arising out of or\nin any manner connected with the execution of the \"work\" under this contract.\n"
+  },
+  {
+   "id": "p15-s6",
+   "page": 15,
+   "start": 1440,
+   "end": 1633,
+   "chars": 193,
+   "text": "(d)​Specifically, [COMPANY] also agrees to indemnify the ALLENTOWN SCHOOL\nDISTRICT from liability for ALLENTOWN SCHOOL DISTRICT's own negligence which\nresults in harm to [COMPANY's] employees.\n"
+  },
+  {
+   "id": "p15-s7",
+   "page": 15,
+   "start": 1633,
+   "end": 1929,
+   "chars": 296,
+   "text": "(e)​ The [COMPANY's] obligation under this section shall not be limited in any way by any\nlimitation on the amount or type of damages, compensation or benefits payable by or for the\n[COMPANY] under worker's or workmen's compensation acts, disability benefits acts or\nother employee benefit acts.\n"
+  },
+  {
+   "id": "p15-s8",
+   "page": 15,
+   "start": 1929,
+   "end": 2237,
+   "chars": 308,
+   "text": "(f)​ The [COMPANY] shall defend and indemnify the ALLENTOWN SCHOOL DISTRICT\nfrom all such claims, including without limitation, claims for which the ALLENTOWN\nSCHOOL DISTRICT may or may be claimed to be liable in whole or in part, and legal fees\nand disbursements paid or incurred to defend any such claims, "
+  },
+  {
+   "id": "p15-s9",
+   "page": 15,
+   "start": 2237,
+   "end": 2337,
+   "chars": 100,
+   "text": "as well as legal fees paid or\nincurred in connection with enforcing the provisions of this section.\n"
+  },
+  {
+   "id": "p15-s10",
+   "page": 15,
+   "start": 2337,
+   "end": 2570,
+   "chars": 233,
+   "text": "(g)​The [COMPANY] further agrees to obtain, maintain and pay for such general liability\ninsurance coverage as will insure the provisions of this section and other contractual\nindemnification assumed by the [COMPANY] in the contract.\n"
+  },
+  {
+   "id": "p15-s11",
+   "page": 15,
+   "start": 2571,
+   "end": 2573,
+   "chars": 2,
+   "text": "15"
+  },
+  {
+   "id": "p16-s0",
+   "page": 16,
+   "start": 0,
+   "end": 142,
+   "chars": 142,
+   "text": "EXHIBIT C\nAllentown School District\n1.​ INSURANCE\n(a)​ Contractor shall purchase and maintain insurance as outlined in following section (3), "
+  },
+  {
+   "id": "p16-s1",
+   "page": 16,
+   "start": 142,
+   "end": 435,
+   "chars": 293,
+   "text": "which\nwill provide primary liability coverage to Contractor and ALLENTOWN SCHOOL\nDISTRICT for claims which may arise out of or result from Contractor’s operations under\nthe Contract, including without limitation (i) claims because of bodily injury, occupational\nsickness or disease, or death, "
+  },
+  {
+   "id": "p16-s2",
+   "page": 16,
+   "start": 435,
+   "end": 586,
+   "chars": 151,
+   "text": "whether to Contractor’s employees or others and whether or not\nunder a workers’ compensation or other similar act or law for the benefit of employees; "
+  },
+  {
+   "id": "p16-s3",
+   "page": 16,
+   "start": 586,
+   "end": 703,
+   "chars": 117,
+   "text": "and\n(ii) claims because of injury to or destruction of tangible property, including loss of use\nresulting therefrom.\n"
+  },
+  {
+   "id": "p16-s4",
+   "page": 16,
+   "start": 703,
+   "end": 788,
+   "chars": 85,
+   "text": "(b)​Certificates of insurance from the insurance carrier, or their authorized agent, "
+  },
+  {
+   "id": "p16-s5",
+   "page": 16,
+   "start": 788,
+   "end": 1103,
+   "chars": 315,
+   "text": "with the\nappropriate additional named insured endorsement attached showing ALLENTOWN\nSCHOOL DISTRICT as an additional named insured for primary liability coverage and\nstating the limits of liability and expiration date which are reasonably acceptable to\nALLENTOWN SCHOOL DISTRICT shall be filed with and accepted by"
+  },
+  {
+   "id": "p16-s6",
+   "page": 16,
+   "start": 1103,
+   "end": 1159,
+   "chars": 56,
+   "text": " ALLENTOWN\nSCHOOL DISTRICT before operations are begun.\n"
+  },
+  {
+   "id": "p16-s7",
+   "page": 16,
+   "start": 1159,
+   "end": 1301,
+   "chars": 142,
+   "text": "(c)​ Please have your insurance representative prepare and forward an acceptable Certificate of\nInsurance to:\nALLENTOWN SCHOOL DISTRICT\n31 S. "
+  },
+  {
+   "id": "p16-s8",
+   "page": 16,
+   "start": 1301,
+   "end": 1339,
+   "chars": 38,
+   "text": "Penn Street, Allentown, PA 18102\n​\n2. "
+  },
+  {
+   "id": "p16-s9",
+   "page": 16,
+   "start": 1339,
+   "end": 1363,
+   "chars": 24,
+   "text": "INSURANCE REQUIREMENTS.\n"
+  },
+  {
+   "id": "p16-s10",
+   "page": 16,
+   "start": 1363,
+   "end": 1397,
+   "chars": 34,
+   "text": "(a) Commercial General Liability.\n"
+  },
+  {
+   "id": "p16-s11",
+   "page": 16,
+   "start": 1397,
+   "end": 1536,
+   "chars": 139,
+   "text": "(i) Minimum acceptable limit of coverage is $1,000,000 per occurrence, $2,000,000\naggregate, $2,000,000 products and completed operations.\n"
+  },
+  {
+   "id": "p16-s12",
+   "page": 16,
+   "start": 1536,
+   "end": 1833,
+   "chars": 297,
+   "text": "(ii) Coverage must be written on a Standard ISO General Liability form (CG0001) and must\nnot contain any specific exclusions relating to contractual, products/completed operations\nliability, contractor’s protective liability, and explosion, collapse, and underground (XCU)\nproperty damage hazard.\n"
+  },
+  {
+   "id": "p16-s13",
+   "page": 16,
+   "start": 1833,
+   "end": 1913,
+   "chars": 80,
+   "text": "(iii) Depending on the nature and scope of work, higher limits may be required.\n"
+  },
+  {
+   "id": "p16-s14",
+   "page": 16,
+   "start": 1913,
+   "end": 1952,
+   "chars": 39,
+   "text": "(b) Business Auto Liability Insurance.\n"
+  },
+  {
+   "id": "p16-s15",
+   "page": 16,
+   "start": 1952,
+   "end": 2083,
+   "chars": 131,
+   "text": "(i) Minimum acceptable limit of coverage is $1,000,000 per occurrence combined single\nlimit for bodily injury and property damage.\n"
+  },
+  {
+   "id": "p16-s16",
+   "page": 16,
+   "start": 2083,
+   "end": 2148,
+   "chars": 65,
+   "text": "(ii) Coverage must include owned, hired, and non-owned vehicles.\n"
+  },
+  {
+   "id": "p16-s17",
+   "page": 16,
+   "start": 2149,
+   "end": 2151,
+   "chars": 2,
+   "text": "16"
+  },
+  {
+   "id": "p17-s0",
+   "page": 17,
+   "start": 0,
+   "end": 27,
+   "chars": 27,
+   "text": "(c) Workers' Compensation.\n"
+  },
+  {
+   "id": "p17-s1",
+   "page": 17,
+   "start": 27,
+   "end": 109,
+   "chars": 82,
+   "text": "(i) Must provide benefits as mandated by the state worker's compensation statute.\n"
+  },
+  {
+   "id": "p17-s2",
+   "page": 17,
+   "start": 109,
+   "end": 245,
+   "chars": 136,
+   "text": "(ii) Minimum acceptable employers’ liability limit is $500,000 for bodily injury by accident\nand $500,000 for bodily injury by disease.\n"
+  },
+  {
+   "id": "p17-s3",
+   "page": 17,
+   "start": 245,
+   "end": 411,
+   "chars": 166,
+   "text": "(d)​Excess Liability Insurance with a minimum acceptable limit of coverage of $1,000,000 (or\nthe final limit decided to be appropriate) per occurrence and aggregate. "
+  },
+  {
+   "id": "p17-s4",
+   "page": 17,
+   "start": 411,
+   "end": 567,
+   "chars": 156,
+   "text": "Such coverage shall\nbe excess of the general liability insurance, business auto liability insurance, and employer’s\nliability as required by this Addendum. "
+  },
+  {
+   "id": "p17-s5",
+   "page": 17,
+   "start": 567,
+   "end": 630,
+   "chars": 63,
+   "text": "ALLENTOWN SCHOOL DISTRICT must be\nnamed as additional insured.\n"
+  },
+  {
+   "id": "p17-s6",
+   "page": 17,
+   "start": 630,
+   "end": 792,
+   "chars": 162,
+   "text": "(e)​ If professional services are involved - Professional (E&O) Liability Insurance with minimum\nacceptable limits of $1,000,000 per claim, $3,000,000 aggregate.\n"
+  },
+  {
+   "id": "p17-s7",
+   "page": 17,
+   "start": 792,
+   "end": 978,
+   "chars": 186,
+   "text": "(f)​ If any work involves or includes handling, transporting, disposing or performing work or\noperations with hazardous substances or constituents, contaminants, waste, toxic materials, "
+  },
+  {
+   "id": "p17-s8",
+   "page": 17,
+   "start": 978,
+   "end": 1113,
+   "chars": 135,
+   "text": "or\nany potential pollutants – Environmental/Pollution Liability Insurance with minimum\nacceptable limits of $3,000,000 per occurrence. "
+  },
+  {
+   "id": "p17-s9",
+   "page": 17,
+   "start": 1113,
+   "end": 1176,
+   "chars": 63,
+   "text": "ALLENTOWN SCHOOL DISTRICT must\nbe named as additional insured.\n"
+  },
+  {
+   "id": "p17-s10",
+   "page": 17,
+   "start": 1176,
+   "end": 1388,
+   "chars": 212,
+   "text": "(g)​ If the contractor is providing web-based/cyber services or has access to the owner's computer\nsystems, websites, networks or other online content, Cyber Liability and Data Breach\ncoverage shall be provided. "
+  },
+  {
+   "id": "p17-s11",
+   "page": 17,
+   "start": 1388,
+   "end": 1624,
+   "chars": 236,
+   "text": "Policy should include 3rd party privacy liability, network\nsecurity liability, media liability & data breach coverage, with minimum limits of $2,000,000\nper claim, through the term of this agreement and for at least one (1) year after.\n"
+  },
+  {
+   "id": "p17-s12",
+   "page": 17,
+   "start": 1624,
+   "end": 1687,
+   "chars": 63,
+   "text": "ALLENTOWN SCHOOL DISTRICT must be named as additional insured.\n"
+  },
+  {
+   "id": "p17-s13",
+   "page": 17,
+   "start": 1687,
+   "end": 1690,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p17-s14",
+   "page": 17,
+   "start": 1690,
+   "end": 1720,
+   "chars": 30,
+   "text": "OTHER INSURANCE REQUIREMENTS.\n"
+  },
+  {
+   "id": "p17-s15",
+   "page": 17,
+   "start": 1720,
+   "end": 1955,
+   "chars": 235,
+   "text": "(a)​ Contractor shall purchase insurance from and maintain in an ALLENTOWN SCHOOL\nDISTRICT or companies with an A.M. Best rating of “A” or better and lawfully authorized\nto do business in the jurisdiction in which the work is located.\n"
+  },
+  {
+   "id": "p17-s16",
+   "page": 17,
+   "start": 1955,
+   "end": 2106,
+   "chars": 151,
+   "text": "(b)​Coverage must be written on an “occurrence” basis and shall be maintained without\ninterruption from date of commencement of work until completion. "
+  },
+  {
+   "id": "p17-s17",
+   "page": 17,
+   "start": 2106,
+   "end": 2240,
+   "chars": 134,
+   "text": "The contractor is\nresponsible to pay any and all deductibles and/or self-insured retentions that may apply to the\nrequired insurance.\n"
+  },
+  {
+   "id": "p17-s18",
+   "page": 17,
+   "start": 2240,
+   "end": 2393,
+   "chars": 153,
+   "text": "(c)​ The Contractor shall continuously provide up-dated and current certificates(s) of insurance\nthroughout the term of the project as coverage expires.\n"
+  },
+  {
+   "id": "p17-s19",
+   "page": 17,
+   "start": 2393,
+   "end": 2559,
+   "chars": 166,
+   "text": "(d)​ALLENTOWN SCHOOL DISTRICT must be named as \"additional insured\" with regards to\ngeneral liability, cyber, auto liability and pollution liability (if applicable).\n"
+  },
+  {
+   "id": "p17-s20",
+   "page": 17,
+   "start": 2559,
+   "end": 2669,
+   "chars": 110,
+   "text": "(e)​ Cancellation Clause: The certificate of insurance must provide a thirty (30) day notice of\ncancellation.\n"
+  },
+  {
+   "id": "p17-s21",
+   "page": 17,
+   "start": 2670,
+   "end": 2672,
+   "chars": 2,
+   "text": "17"
+  },
+  {
+   "id": "p18-s0",
+   "page": 18,
+   "start": 0,
+   "end": 266,
+   "chars": 266,
+   "text": "(f)​ Contractor’s coverage naming the ALLENTOWN SCHOOL DISTRICT as additional\ninsured shall include an Endorsement specifying that the Contractor’s coverage is primary to\nany other coverage available to the ALLENTOWN SCHOOL DISTRICT, including, without,\nlimitation, "
+  },
+  {
+   "id": "p18-s1",
+   "page": 18,
+   "start": 266,
+   "end": 438,
+   "chars": 172,
+   "text": "coverage maintained by the ALLENTOWN SCHOOL DISTRICT wherein the\nALLENTOWN SCHOOL DISTRICT is the named insured, and that no act or omission shall\ninvalidate the coverage.\n"
+  },
+  {
+   "id": "p18-s2",
+   "page": 18,
+   "start": 438,
+   "end": 563,
+   "chars": 125,
+   "text": "(g)​Contractor shall require all COMPANYs (of every tier) to meet the same insurance criteria as\nrequired of the Contractor. "
+  },
+  {
+   "id": "p18-s3",
+   "page": 18,
+   "start": 563,
+   "end": 651,
+   "chars": 88,
+   "text": "The COMPANY's insurance must name the ALLENTOWN\nSCHOOL DISTRICT as additional insureds. "
+  },
+  {
+   "id": "p18-s4",
+   "page": 18,
+   "start": 651,
+   "end": 816,
+   "chars": 165,
+   "text": "The Contractor shall maintain each\nCOMPANY’s certificate of insurance on file and provide such information to the\nALLENTOWN SCHOOL DISTRICT for review upon request.\n"
+  },
+  {
+   "id": "p18-s5",
+   "page": 18,
+   "start": 816,
+   "end": 950,
+   "chars": 134,
+   "text": "(h)​Contractor is responsible to pay any and all deductibles and/or self-insured retentions that\nmay apply to the required insurance.\n"
+  },
+  {
+   "id": "p18-s6",
+   "page": 18,
+   "start": 950,
+   "end": 1266,
+   "chars": 316,
+   "text": "(i)​ Failure of Contractor to obtain and maintain the required insurance shall constitute a breach\nof contract and Contractor will be liable to ALLENTOWN SCHOOL DISTRICT for any and\nall cost, liabilities, damages, and penalties (including attorney’s fees, court, and settlement\nexpenses) resulting from such breach, "
+  },
+  {
+   "id": "p18-s7",
+   "page": 18,
+   "start": 1266,
+   "end": 1380,
+   "chars": 114,
+   "text": "unless ALLENTOWN SCHOOL DISTRICT provides\nContractor with a written waiver of the specific insurance requirement.\n"
+  },
+  {
+   "id": "p18-s8",
+   "page": 18,
+   "start": 1380,
+   "end": 1606,
+   "chars": 226,
+   "text": "(j)​ None of the requirements contained herein as to the types, limits, or ALLENTOWN\nSCHOOL DISTRICT’s approval of insurance coverage to be maintained by Contractor are\nintended to and shall not in any manner, limit, qualify, "
+  },
+  {
+   "id": "p18-s9",
+   "page": 18,
+   "start": 1606,
+   "end": 1784,
+   "chars": 178,
+   "text": "or quantify the liabilities and\nobligations assumed by Contractor under the Contract Documents, any other agreement with\nALLENTOWN SCHOOL DISTRICT, or otherwise provided by law.\n"
+  },
+  {
+   "id": "p18-s10",
+   "page": 18,
+   "start": 1784,
+   "end": 2093,
+   "chars": 309,
+   "text": "(k)​Failure of Contractor to provide insurance as herein required or failure of ALLENTOWN\nSCHOOL DISTRICT to require evidence of insurance or to notify Contractor of any breach\nby Contractor of the requirements of this Section shall not be deemed to be a waiver of any\nof the terms of the Contract Documents, "
+  },
+  {
+   "id": "p18-s11",
+   "page": 18,
+   "start": 2093,
+   "end": 2253,
+   "chars": 160,
+   "text": "nor shall they be deemed to be a waiver of the\nobligation of the Contractor to defend, indemnify, and hold harmless the indemnified parties\nas required herein. "
+  },
+  {
+   "id": "p18-s12",
+   "page": 18,
+   "start": 2253,
+   "end": 2447,
+   "chars": 194,
+   "text": "The obligation to procure and maintain any insurance required is a\nseparate responsibility of Contractor and independent of the duty to furnish a copy or\ncertificate of such insurance policies.\n"
+  },
+  {
+   "id": "p18-s13",
+   "page": 18,
+   "start": 2448,
+   "end": 2450,
+   "chars": 2,
+   "text": "18"
+  },
+  {
+   "id": "p19-s0",
+   "page": 19,
+   "start": 0,
+   "end": 316,
+   "chars": 316,
+   "text": "EXHIBIT D\nAllentown School District\nTERMINATION CLAUSE\n1.​ Vendor Violation or Breach of Contract Terms\nIn addition to other terms stated in the Contract, Vendor at no cost to the District shall promptly\ncorrect any errors, omissions or defects in any product, services, or other item Vendor is required\nto deliver. "
+  },
+  {
+   "id": "p19-s1",
+   "page": 19,
+   "start": 316,
+   "end": 497,
+   "chars": 181,
+   "text": "The District reserves the right to reject any item reasonably determined by the District\nas containing errors, omissions or defects or otherwise failing to conform to the Contract. "
+  },
+  {
+   "id": "p19-s2",
+   "page": 19,
+   "start": 497,
+   "end": 753,
+   "chars": 256,
+   "text": "If\nVendor fails to make corrections within a reasonable time, in addition to any other remedies\navailable at law or in equity, District may at its option: (1) Make corrections and offset the cost\nof correction against any balance remaining owed to Vendor, "
+  },
+  {
+   "id": "p19-s3",
+   "page": 19,
+   "start": 753,
+   "end": 832,
+   "chars": 79,
+   "text": "and Vendor shall reimburse the\nDistrict for any cost in excess of the balance. "
+  },
+  {
+   "id": "p19-s4",
+   "page": 19,
+   "start": 832,
+   "end": 954,
+   "chars": 122,
+   "text": "(2) Terminate the Contract, in which case Vendor at\nno cost to District shall remove any tangible items provided to date. "
+  },
+  {
+   "id": "p19-s5",
+   "page": 19,
+   "start": 954,
+   "end": 1132,
+   "chars": 178,
+   "text": "(3) Accept delivery not in\naccordance with the Contract, instead of requiring removal or correction, in which case the\ncontract sum will be reduced as appropriate and equitable. "
+  },
+  {
+   "id": "p19-s6",
+   "page": 19,
+   "start": 1132,
+   "end": 1210,
+   "chars": 78,
+   "text": "Such adjustment shall be affected\nwhether or not final payment has been made. "
+  },
+  {
+   "id": "p19-s7",
+   "page": 19,
+   "start": 1210,
+   "end": 1448,
+   "chars": 238,
+   "text": "Duties and obligations imposed by the Contract and\nthe rights and remedies available thereunder shall be in addition to and not in limitation of duties,\nobligations, rights and remedies otherwise imposed or available by law or in equity. "
+  },
+  {
+   "id": "p19-s8",
+   "page": 19,
+   "start": 1448,
+   "end": 1723,
+   "chars": 275,
+   "text": "No action or\nfailure to act by the District shall constitute a waiver of a right or duty afforded them under the\nContract, nor shall such action or failure to act constitute approval of or acquiescence in a breach\nthereunder, except as may be specifically agreed in writing. "
+  },
+  {
+   "id": "p19-s9",
+   "page": 19,
+   "start": 1723,
+   "end": 1784,
+   "chars": 61,
+   "text": "This term shall apply without\nregard to the Contract amount.\n"
+  },
+  {
+   "id": "p19-s10",
+   "page": 19,
+   "start": 1784,
+   "end": 1803,
+   "chars": 19,
+   "text": "Does Vendor agree? "
+  },
+  {
+   "id": "p19-s11",
+   "page": 19,
+   "start": 1803,
+   "end": 2114,
+   "chars": 311,
+   "text": "YES ​\n\n_ Initials of Authorized Representative of Vendor\n\n2.​ District Termination for Cause and for Convenience\nIn addition to other terms stated in the Contract, District reserves the right by written\nnotice to terminate the Contract effective on a future date specified in the notice, with\nor without cause. "
+  },
+  {
+   "id": "p19-s12",
+   "page": 19,
+   "start": 2114,
+   "end": 2169,
+   "chars": 55,
+   "text": "Cause means violation or breach of any Contract terms. "
+  },
+  {
+   "id": "p19-s13",
+   "page": 19,
+   "start": 2169,
+   "end": 2385,
+   "chars": 216,
+   "text": "If the\nContract is terminated without cause, the District shall pay the Vendor for any product,\nservices, or other item Vendor is required to deliver and which has been satisfactorily\ndelivered prior to termination. "
+  },
+  {
+   "id": "p19-s14",
+   "page": 19,
+   "start": 2385,
+   "end": 2544,
+   "chars": 159,
+   "text": "If the District has paid the Vendor for goods or services\nnot yet provided as of the date of termination, the Vendor shall immediately refund\nsuch payment(s). "
+  },
+  {
+   "id": "p19-s15",
+   "page": 19,
+   "start": 2544,
+   "end": 2605,
+   "chars": 61,
+   "text": "This term shall apply without regard to the Contract amount.\n"
+  },
+  {
+   "id": "p19-s16",
+   "page": 19,
+   "start": 2605,
+   "end": 2624,
+   "chars": 19,
+   "text": "Does Vendor agree? "
+  },
+  {
+   "id": "p19-s17",
+   "page": 19,
+   "start": 2624,
+   "end": 2685,
+   "chars": 61,
+   "text": "YES ​\n\n__ Initials of Authorized Representative of Vendor\n\n19"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 19
+ }
+}

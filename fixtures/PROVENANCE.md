@@ -1,6 +1,6 @@
 # Fixture provenance
 
-Eleven third-party documents, all retrieved **2026-10-11** from the issuing organisation's own
+Eighteen third-party documents, all retrieved **2026-10-11** from the issuing organisation's own
 website, all verified at retrieval time to be real PDFs with an extractable text layer (no OCR
 anywhere in this repo — OCR is a non-goal of the decision layer).
 
@@ -27,6 +27,13 @@ searching — and it is why four plausible-looking candidates were rejected.
 | 9 | `palm-beach-mpo-rfp-2026-07-it-services.pdf` | Palm Beach Metropolitan Planning Organization, FL | IT services and management | 27 |
 | 10 | `tahoe-transportation-district-it-consulting-2025.pdf` | Tahoe Transportation District, CA/NV | IT consulting and support | 43 |
 | 11 | `u-maine-system-rfp-2026-065-enterprise-genai-services.pdf` | University of Maine System | Enterprise generative AI services | 48 |
+| 12 | `indian-river-county-utilities-technology-master-plan-rfp.pdf` | Indian River County Dept. of Utility Services (IRCDUS), FL (county utility) | Utilities Technology Master Plan and Customer Information System — consulting services | 16 |
+| 13 | `allentown-school-district-data-warehousing-services-2026.pdf` | Allentown School District, PA (school district) | Data warehousing services | 19 |
+| 14 | `cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf` | a Texas independent school district (ISD), name not printed on page 1 | Enterprise data warehouse and performance management software | 57 |
+| 15 | `kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf` | Kansas City Kansas Community College (community college) | Data warehouse and analytics platform | 19 |
+| 16 | `college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf` | College of Western Idaho (community college) | AI technologies and services for faculty and students | 20 |
+| 17 | `judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf` | Judicial Council of California (state court system) | Master agreements for technical staff augmentation services | 20 |
+| 18 | `savec-alaska-managed-it-services-2026.pdf` | Southwest Alaska Vocational & Educational Center (non-profit) | Managed IT services: help desk, network administration, on-site support | 5 |
 
 ## Source URLs
 
@@ -76,4 +83,11 @@ b38b517f17db024f12a3a282c267e9f8fb1ccad863170e57a7af66420d0b8c97  mass-tech-ai-h
 ff7a200c37a8306d55d633cbfb26dfa5068c2771a55183a02b0b633b7ea5f302  palm-beach-mpo-rfp-2026-07-it-services.pdf
 69633f114695bcd910017781cc0ee98eb8400d3371e489a90886797dd79d8f32  tahoe-transportation-district-it-consulting-2025.pdf
 42d5c1c1581e8da02782152d9bde11ae3556ea9d114f0318687fbbb3d64b0d5a  u-maine-system-rfp-2026-065-enterprise-genai-services.pdf
+87aa0da0ac74c581281b6c417ba4dcc3b2f60f601906aa12e57b51b97bc4f694 allentown-school-district-data-warehousing-services-2026.pdf
+7a0a2b2e4317583c4e10c4432cc55b78a111db807d3e8732c321623eead4164e cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf
+40d0d488ccb27b291705f6f2c76ac98ea7d9f0530a9de80c3b04d704b074aa39 college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf
+fda10cb752e7b189e2b90e737ff1e3f822ff7f7264cc0c87b26585ef5b956b95 indian-river-county-utilities-technology-master-plan-rfp.pdf
+164170ccea518ed31a16285e135ba9ba5688406ea3dbcd7117708d68374dde1d judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf
+45e485ac4d0cea2d659a999b02bc1f99d577042c4b3b8b0afc77d89b2b822bb0 kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf
+e6dfc120042ac98af20dfb3d014841b2c17c004f5fbe5566b1cf3362e643972c savec-alaska-managed-it-services-2026.pdf
 ```

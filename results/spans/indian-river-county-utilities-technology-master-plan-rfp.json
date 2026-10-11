@@ -1,0 +1,2906 @@
+{
+ "schema": "span-index/1",
+ "fixture": "indian-river-county-utilities-technology-master-plan-rfp.pdf",
+ "fixture_sha256": "fda10cb752e7b189e2b90e737ff1e3f822ff7f7264cc0c87b26585ef5b956b95",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "b8e0ba47e12b2ee1d08d448823984cc3410d8eee5fe6f0d94d7fed0ac03f42b7",
+   "chars": 687
+  },
+  {
+   "number": 2,
+   "sha256": "604d2911a2df349ca45ac783cdfa7d25dd29048f19baf45ae0945de4cad9cebb",
+   "chars": 3804
+  },
+  {
+   "number": 3,
+   "sha256": "2b054bcf2a45820a57ee45f691b7a2f8ef8b8acbbbf6c8af5374d91e8d5541b7",
+   "chars": 4124
+  },
+  {
+   "number": 4,
+   "sha256": "fdb8c3075da96a7e250ad718c0b2f68fb0f80bd31cb0e7a79e66398ae2ca09ea",
+   "chars": 3687
+  },
+  {
+   "number": 5,
+   "sha256": "f8427607e045e299d09d9ee1fede3cc7c7b5675f4fe9a3edcdcefe33b59cd675",
+   "chars": 3200
+  },
+  {
+   "number": 6,
+   "sha256": "5481f417999800d8faf872f6aecd1f69a1dbc7cace3faf16460bb40a0bbeedf0",
+   "chars": 3485
+  },
+  {
+   "number": 7,
+   "sha256": "bc4ba30c8f15f9cf7ff13efbe9cf19800ec24d78b3a5b7da1ae4e6ecb24dc2e6",
+   "chars": 1091
+  },
+  {
+   "number": 8,
+   "sha256": "f6108beee39f6095d4a56f7b65abd203db18468af5dace1781bf9eab9492ac87",
+   "chars": 3230
+  },
+  {
+   "number": 9,
+   "sha256": "9725ab4fbfa0d60284d34aeb979f455eee46a90f14332387d82b9b423b161d8e",
+   "chars": 4076
+  },
+  {
+   "number": 10,
+   "sha256": "1da1ff41a670bb382be959383aedd9d7544da264364dbb62faa80def30269b06",
+   "chars": 3308
+  },
+  {
+   "number": 11,
+   "sha256": "591ce5c9cd10079e75dae74f73cf2517ca9e7c513a2eba84bd3f8f5e1ec38557",
+   "chars": 1647
+  },
+  {
+   "number": 12,
+   "sha256": "c88b4bf5a5d4ff08298f14a8c9dd11e774c6a06c08112017a14e139af9307743",
+   "chars": 3497
+  },
+  {
+   "number": 13,
+   "sha256": "01181044352fd4e21df7cfb324c081574b2b64ac442fdedeec30e1e25931a3b0",
+   "chars": 4285
+  },
+  {
+   "number": 14,
+   "sha256": "267e0e1d7a0855919d7286491e66bfd0d9df00c3f465e0f18b0d97f98213434c",
+   "chars": 4361
+  },
+  {
+   "number": 15,
+   "sha256": "b6cc9dfe154399ca45cf5f837de80299d659ba2a5eaa34332d613834761ae328",
+   "chars": 3159
+  },
+  {
+   "number": 16,
+   "sha256": "05db75d7ec8f1b1cf7679c04bea4ca513365c9640ae691f7b2b743e0145115ad",
+   "chars": 876
+  }
+ ],
+ "span_count": 351,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 290,
+   "chars": 290,
+   "text": "Request for Proposals\nProject Name:\n\nUtilities Technology Master Plan (UTMP)\nand Customer Information System (CIS)\nConsulting Services\nProject ID’s: 00.25.513 and 00.25.521\n\nRFP #:\n\n2026003\n\nPre-Proposal Conference time/location: N/A\n\nProposal Due Date: October 24, 2025\nProposal Due Time: "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 290,
+   "end": 377,
+   "chars": 87,
+   "text": "2:00 P.M.\nAll responses must be submitted electronically through the Bonfire platform. "
+  },
+  {
+   "id": "p1-s2",
+   "page": 1,
+   "start": 377,
+   "end": 416,
+   "chars": 39,
+   "text": "Hard copy submittals are not accepted.\n"
+  },
+  {
+   "id": "p1-s3",
+   "page": 1,
+   "start": 416,
+   "end": 552,
+   "chars": 136,
+   "text": "Initial screening, ranking, final ranking, and negotiations will be in accordance with the criteria specified within\nthis solicitation. "
+  },
+  {
+   "id": "p1-s4",
+   "page": 1,
+   "start": 552,
+   "end": 687,
+   "chars": 135,
+   "text": "The Board of County Commissioners reserves the right to accept or reject any and all submittals\nand to waive any and all informalities."
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 185,
+   "chars": 185,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nScope of Services\nUtility Services Overview\nIndian River County (IRC) is located in the southeastern and east-central portions of Florida. "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 185,
+   "end": 267,
+   "chars": 82,
+   "text": "Seated in Vero Beach,\nthe County has approximately 503 square miles of land area. "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 267,
+   "end": 318,
+   "chars": 51,
+   "text": "As of the 2023 census, the population was 169,795.\n"
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 318,
+   "end": 568,
+   "chars": 250,
+   "text": "The IRC Department of Utility Services (IRCDUS) was formed over 30 years ago when the County’s water,\nwastewater, and solid waste utility services were consolidated under one department within Indian River County\nBoard of County Commissioners (BCC). "
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 568,
+   "end": 668,
+   "chars": 100,
+   "text": "Today, IRCDUS provides water, wastewater, and solid waste services to\na population of over 150,000.\n"
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 668,
+   "end": 871,
+   "chars": 203,
+   "text": "The water system, the largest in the County, provides service to over 57,000 accounts, including residential and\ncommercial customers within an urban service area (USA) of approximately 41 square miles. "
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 871,
+   "end": 1182,
+   "chars": 311,
+   "text": "The water system\nincludes two (2) water production facilities (WPF) with a total of sixteen (16) source water wells, two (2)\ndemineralized concentrate treatment facilities, approximately nine hundred (900) miles of transmission and\ndistribution pipelines, and ten (10) million gallons of treated water storage. "
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 1182,
+   "end": 1463,
+   "chars": 281,
+   "text": "The wastewater system, with four (4)\nwater reclamation facilities (WRF), over four-hundred and eighty-four (484) miles of sanitary sewers, and fourhundred and twenty-eight (428) lift stations, is also the largest such system in the County and serves approximately\n38,000 accounts. "
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 1463,
+   "end": 1633,
+   "chars": 170,
+   "text": "IRCDUS maintains and operates a reuse system comprising approximately forty-five (45) miles\nof pipeline, three-million gallons of storage, and supply pumping facilities.\n"
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1633,
+   "end": 1825,
+   "chars": 192,
+   "text": "The Solid Waste Disposal District (SWDD) is a dependent district of IRC created by the BCC on June 20, 1995,\npursuant to the authority and procedures of Chapter 125.01(5)(a), Laws of Florida. "
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 1825,
+   "end": 1986,
+   "chars": 161,
+   "text": "SWDD provides for the disposal\nof all Municipal Solid Waste (MSW) generated in IRC at the IRC landfill as well as five (5) Customer Convenience\nCenters (CCC’s). "
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 1986,
+   "end": 2294,
+   "chars": 308,
+   "text": "Its purpose is to have an efficient and environmentally sound solid and hazardous waste\nmanagement system to prevent disease spreading, to promote orderly growth within the County, and to meet\nexisting and projected demands for waste management, including collection and disposal of solid waste, yard waste,\n"
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 2294,
+   "end": 2322,
+   "chars": 28,
+   "text": "bulk waste and recyclables. "
+  },
+  {
+   "id": "p2-s13",
+   "page": 2,
+   "start": 2322,
+   "end": 2542,
+   "chars": 220,
+   "text": "SWDD has begun utilizing a leachate evaporator for leachate management via a\npartnership with Indian River Sustainability Center which concentrates the leachate for disposal back into the\nlandfill and emits water vapor. "
+  },
+  {
+   "id": "p2-s14",
+   "page": 2,
+   "start": 2542,
+   "end": 2635,
+   "chars": 93,
+   "text": "SWDD also captures landfill gas to create Renewable Natural Gas under a private\npartnership. "
+  },
+  {
+   "id": "p2-s15",
+   "page": 2,
+   "start": 2635,
+   "end": 2701,
+   "chars": 66,
+   "text": "SWDD funding is from non-ad valorem assessments and tipping fees.\n"
+  },
+  {
+   "id": "p2-s16",
+   "page": 2,
+   "start": 2702,
+   "end": 2764,
+   "chars": 62,
+   "text": "RFP Intent\nThis Project represents a dual-purpose engagement. "
+  },
+  {
+   "id": "p2-s17",
+   "page": 2,
+   "start": 2764,
+   "end": 2797,
+   "chars": 33,
+   "text": "The selected Consultant will:\n1. "
+  },
+  {
+   "id": "p2-s18",
+   "page": 2,
+   "start": 2797,
+   "end": 2952,
+   "chars": 155,
+   "text": "UTMP Development: Develop a strategic, forward-looking UTMP to guide IRCDUS modernization\nefforts and technology investments over the next five (5) years.\n"
+  },
+  {
+   "id": "p2-s19",
+   "page": 2,
+   "start": 2952,
+   "end": 2955,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p2-s20",
+   "page": 2,
+   "start": 2955,
+   "end": 3218,
+   "chars": 263,
+   "text": "CIS Selection: Lead a structured process of assessments, requirements gathering, and evaluation of vendor\nsolutions, that will lead to the selection of a best-fit CIS solution that aligns with IRCDUS operational goals\nand the County’s enterprise IT architecture.\n"
+  },
+  {
+   "id": "p2-s21",
+   "page": 2,
+   "start": 3218,
+   "end": 3359,
+   "chars": 141,
+   "text": "This RFP is intended to provide potential Firms or Consultants with the necessary information to build a Proposal\nthat meets IRCDUS’s needs. "
+  },
+  {
+   "id": "p2-s22",
+   "page": 2,
+   "start": 3359,
+   "end": 3572,
+   "chars": 213,
+   "text": "Proposals should address the objectives, tasks, and deliverables detailed in this RFP\nand provide information on the Firm’s practices, experience, and offerings that will meet or exceed the IRCDUS’s\nexpectations.\n"
+  },
+  {
+   "id": "p2-s23",
+   "page": 2,
+   "start": 3572,
+   "end": 3804,
+   "chars": 232,
+   "text": "The Scope of Services for the UTMP includes a comprehensive review of IRCDUS’s existing business processes,\ninformation technology (IT) and operational technology (OT) environments, staffing levels and competencies, to\n\nPage 2 of 16"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 242,
+   "chars": 242,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nidentify gaps and opportunities relative to best practices and future-state vision, and the development of a strategic\ndigital roadmap and associated budgets aligned with the BCC Strategic Goals.\n"
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 242,
+   "end": 445,
+   "chars": 203,
+   "text": "In July 2010, IRCDUS selected CIS Infinity, a widely used Customer Information and Billing System developed\nby Advanced Utility Systems/Harris Computer, to replace its aging utility billing application. "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 445,
+   "end": 550,
+   "chars": 105,
+   "text": "The implementation\nsaw full “go-live” status by November 2011, with CIS Infinity formally in production. "
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 550,
+   "end": 713,
+   "chars": 163,
+   "text": "The transition included\nintegration with external credit/debit tools (e.g., ONLINE Utility Exchange) to enhance delinquency management\nand credit risk mitigation. "
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 713,
+   "end": 836,
+   "chars": 123,
+   "text": "The CIS Infinity deployment represented a significant technological investment, yielding\nseveral operational improvements.\n"
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 836,
+   "end": 935,
+   "chars": 99,
+   "text": "Over a decade since its deployment, CIS Infinity continues to support essential utility functions. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 935,
+   "end": 1238,
+   "chars": 303,
+   "text": "However, growth\nin utility demand, complexity in rate management, increasing customer expectations, evolving regulatory\nrequirements, expanded customer service needs, the shift toward cloud infrastructure, and the County’s broader IT\nmodernization goals have rendered the system due for a reassessment. "
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 1238,
+   "end": 1380,
+   "chars": 142,
+   "text": "More specifically:\n\n\n\nThe existing maintenance contract is nearing expiration, necessitating timely strategic planning and\ndecision-making.\n"
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1380,
+   "end": 1595,
+   "chars": 215,
+   "text": "IRCDUS and the County now aim to optimize its wider technology transformation by evaluating the\nfeasibility of on-premises architecture versus cloud-based Software-as-a-Service (SaaS) platform for its\nfuture-state.\n"
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 1596,
+   "end": 1751,
+   "chars": 155,
+   "text": "As a mission-critical system with a direct impact on customer service and revenue management, the CIS is one of\nIRCDUS most significant technology assets. "
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 1751,
+   "end": 1817,
+   "chars": 66,
+   "text": "Replacing it with a modern SaaS solution is a strategic priority. "
+  },
+  {
+   "id": "p3-s11",
+   "page": 3,
+   "start": 1817,
+   "end": 2098,
+   "chars": 281,
+   "text": "As\nsuch, the selected Firm will also assist IRCDUS in assessing its CIS requirements, evaluating upgrade and/or\nreplacement options, and supporting the selection of the new CIS solution that meets the Department’s customer\nservice, business, operational, and technical objectives. "
+  },
+  {
+   "id": "p3-s12",
+   "page": 3,
+   "start": 2098,
+   "end": 2214,
+   "chars": 116,
+   "text": "Firms are required to be independent and have no business,\npersonal nor financial affiliations with any CIS vendor. "
+  },
+  {
+   "id": "p3-s13",
+   "page": 3,
+   "start": 2214,
+   "end": 2395,
+   "chars": 181,
+   "text": "IRCDUS also requires Firms to provide objective and\nvendor-neutral perspectives, as well as exercise discretion and confidentiality during the CIS evaluation and\nselection process.\n"
+  },
+  {
+   "id": "p3-s14",
+   "page": 3,
+   "start": 2396,
+   "end": 2467,
+   "chars": 71,
+   "text": "Current Technology Landscape\nThis information is confidential per F.S. "
+  },
+  {
+   "id": "p3-s15",
+   "page": 3,
+   "start": 2467,
+   "end": 2600,
+   "chars": 133,
+   "text": "119.0725, is incorporated into this request for proposals, and will be\nprovided after execution of a non-disclosure agreement (NDA). "
+  },
+  {
+   "id": "p3-s16",
+   "page": 3,
+   "start": 2600,
+   "end": 2642,
+   "chars": 42,
+   "text": "Every proposer must review this document; "
+  },
+  {
+   "id": "p3-s17",
+   "page": 3,
+   "start": 2642,
+   "end": 2729,
+   "chars": 87,
+   "text": "and\nproposals submitted by firms that have not accessed the document will be rejected. "
+  },
+  {
+   "id": "p3-s18",
+   "page": 3,
+   "start": 2729,
+   "end": 2947,
+   "chars": 218,
+   "text": "The NDA is provided in the\npublic files section of Bonfire, and shall be submitted, with evidence of authority to sign, via email to\npurchasing@indianriver.gov no less than 14 days prior to the due date for proposals.\n"
+  },
+  {
+   "id": "p3-s19",
+   "page": 3,
+   "start": 2948,
+   "end": 3075,
+   "chars": 127,
+   "text": "IRCDUS Key Priorities\nIRCDUS is committed to modernizing its operations and strengthening long-term organizational resilience. "
+  },
+  {
+   "id": "p3-s20",
+   "page": 3,
+   "start": 3075,
+   "end": 3363,
+   "chars": 288,
+   "text": "As the\nCounty experiences steady population growth and rising service demands, it recognizes that modernization is not\nsolely a technical requirement, it is a business-driven initiative essential to improving operational performance,\nfinancial stewardship, and customer service delivery. "
+  },
+  {
+   "id": "p3-s21",
+   "page": 3,
+   "start": 3363,
+   "end": 3590,
+   "chars": 227,
+   "text": "Evolving the IRCDUS’s technology landscape is central to\nmeeting current and future expectations, enabling data-driven decision-making, and aligning people, processes, and\nplatforms with the County’s long-term strategic goals. "
+  },
+  {
+   "id": "p3-s22",
+   "page": 3,
+   "start": 3590,
+   "end": 3784,
+   "chars": 194,
+   "text": "This Project reflects IRCDUS’s commitment to modernizing\nits technology ecosystem and improving customer experience through better service delivery, data transparency,\nand enterprise alignment. "
+  },
+  {
+   "id": "p3-s23",
+   "page": 3,
+   "start": 3784,
+   "end": 3988,
+   "chars": 204,
+   "text": "The selected Firm will be expected to address the following priorities:\nCustomer Experience Improvement\nOne core objective of this engagement is to improve how IRCDUS interacts with and serves customers. "
+  },
+  {
+   "id": "p3-s24",
+   "page": 3,
+   "start": 3988,
+   "end": 4124,
+   "chars": 136,
+   "text": "The future\nCIS and supporting systems should enable enhanced customer self-service, personalized communications, real-time\n\nPage 3 of 16"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 96,
+   "chars": 96,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nconsumption alerts, and flexible payment options. "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 96,
+   "end": 302,
+   "chars": 206,
+   "text": "The Consultant should define requirements that support a digitalfirst customer experience and enable Customer Service Representatives (CSRs) to deliver faster, more accurate,\nand more empathetic responses.\n"
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 302,
+   "end": 550,
+   "chars": 248,
+   "text": "System Integration and Meter-to-Cash Transparency\nThe Consultant must emphasize the integration of all critical systems across the meter-to-cash lifecycle, including\nCIS, Advanced Metering Infrastructure (AMI), Geographic Information System (GIS), "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 550,
+   "end": 681,
+   "chars": 131,
+   "text": "Computerized Maintenance\nManagement System (CMMS) for work order management, Finance (ERP), and Document Management Systems\n(DMS). "
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 681,
+   "end": 843,
+   "chars": 162,
+   "text": "The goal is to enable real-time, end-to-end data transparency that supports accurate billing, proactive\ncustomer outreach, and efficient service call resolution. "
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 843,
+   "end": 1031,
+   "chars": 188,
+   "text": "System interoperability must reduce handoffs, eliminate\ndata silos, and provide CSRs with comprehensive access to customer account history, meter data, service orders,\nand payment status.\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 1031,
+   "end": 1234,
+   "chars": 203,
+   "text": "Foundation for Enterprise Transformation\nThis Project may become part of a broader County initiative to establish a modern, enterprise-wide operating model\nthat aligns people, technology, and processes. "
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 1234,
+   "end": 1393,
+   "chars": 159,
+   "text": "The Consultant may evaluate the County’s current IT (including\nutility operations) holistically and identify strategies that support long-term transformation. "
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 1393,
+   "end": 1653,
+   "chars": 260,
+   "text": "This includes aligning\nsystems and staffing with industry best practices, standardizing business processes, improving cross-departmental\ncollaboration, and adopting cloud-first technologies that support scalability, sustainability, and organizational\nagility.\n"
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 1653,
+   "end": 1820,
+   "chars": 167,
+   "text": "Strategic Technology Roadmap (UTMP)\nThe UTMP must serve as a practical, prioritized roadmap to guide the IRCDUS’s technology investments over the\nnext five (5) years. "
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 1820,
+   "end": 1945,
+   "chars": 125,
+   "text": "It should provide short-, mid-, and long-term recommendations across infrastructure,\napplications, staffing, and governance. "
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 1945,
+   "end": 2153,
+   "chars": 208,
+   "text": "Emphasis should be placed on readiness for cloud migration, cybersecurity\nposture, data management practices, systems integrations, and the flexibility to adapt to future technologies and\nregulatory changes.\n"
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 2153,
+   "end": 2423,
+   "chars": 270,
+   "text": "Cybersecurity and Regulatory Compliance\nGiven the sensitivity of utility customer data and financial transactions, the selected Consultant must ensure that\nsystem requirements and future-state architecture meet modern cybersecurity standards and regulatory obligations.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 2423,
+   "end": 2574,
+   "chars": 151,
+   "text": "The Plan should address identity and access management, encryption, audit trails, incident response, disaster\nrecovery, and system recovery practices.\n"
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 2574,
+   "end": 2886,
+   "chars": 312,
+   "text": "Organizational Readiness and Change Management\nThe Consultant must assess IRCDUS’s readiness for change across Departments/Divisions, skill sets, and\norganizational culture, and recommend a Change Management strategy that ensures user adoption, minimizes\noperational disruption, and builds long-term capability. "
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 2886,
+   "end": 3031,
+   "chars": 145,
+   "text": "Training plans, communications strategies, and stakeholder\nengagement should be addressed in both the UTMP development and CIS selection phases.\n"
+  },
+  {
+   "id": "p4-s16",
+   "page": 4,
+   "start": 3031,
+   "end": 3311,
+   "chars": 280,
+   "text": "Total Cost of Ownership and Sustainability\nA comparative cost analysis must be developed for CIS solutions and broader IT initiatives, factoring in all\ncomponents of ownership, licensing, implementation, hosting, support, integrations, staff resources, and long-term\nscalability. "
+  },
+  {
+   "id": "p4-s17",
+   "page": 4,
+   "start": 3311,
+   "end": 3429,
+   "chars": 118,
+   "text": "The Consultant should provide budget-aligned recommendations to support capital and operating fiscal\nplanning cycles.\n"
+  },
+  {
+   "id": "p4-s18",
+   "page": 4,
+   "start": 3430,
+   "end": 3661,
+   "chars": 231,
+   "text": "Project Goals and Objectives\nThe Consultant will work closely with the County’s Information Technology staff, County departments, and\nmanagement stakeholders to perform a high-level analysis of IRCDUS current technology landscape. "
+  },
+  {
+   "id": "p4-s19",
+   "page": 4,
+   "start": 3661,
+   "end": 3687,
+   "chars": 26,
+   "text": "The CIS will\n\nPage 4 of 16"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 228,
+   "chars": 228,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nbe addressed early in the engagement due to the urgency of upcoming contract decisions and the system’s\nimportance to utility billing, customer engagement, and financial management.\n"
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 228,
+   "end": 336,
+   "chars": 108,
+   "text": "As part of the CIS effort, the Consultant will:\n\n\n\n\n\n\n\n\nAssess the County’s current CIS environment.\n"
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 336,
+   "end": 548,
+   "chars": 212,
+   "text": "Document current business processes, identify potential gaps, and assist with identifying potential process\nimprovements\nDocument functional and technical requirements necessary for a user-friendly CIS platform.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 548,
+   "end": 618,
+   "chars": 70,
+   "text": "Conduct a market scan of available SaaS and on-premises CIS products.\n"
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 618,
+   "end": 697,
+   "chars": 79,
+   "text": "Facilitate vendor engagement, procurement strategy, and contract negotiations.\n"
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 697,
+   "end": 872,
+   "chars": 175,
+   "text": "Deliver a comparative evaluation of viable CIS solutions, including functionality, scalability, vendor\nreputation, implementation risk, and five-year total cost of ownership.\n"
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 872,
+   "end": 1011,
+   "chars": 139,
+   "text": "Analyze staff resource impacts and risks associated with data conversion, business continuity, and customer\nbilling during the transition.\n"
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 1012,
+   "end": 1171,
+   "chars": 159,
+   "text": "Findings related to the CIS will be documented and shared with IRCDUS leadership early in the engagement to\nsupport budget planning and procurement timelines.\n"
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 1171,
+   "end": 1299,
+   "chars": 128,
+   "text": "In parallel with the CIS selection work, the Consultant will conduct a broader IT assessment across IRCDUS to\ndevelop the UTMP. "
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 1299,
+   "end": 1439,
+   "chars": 140,
+   "text": "This includes evaluating staffing, software and hardware assets, enterprise system usage,\ncybersecurity posture, and technology governance. "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 1439,
+   "end": 1641,
+   "chars": 202,
+   "text": "The analysis will identify gaps and opportunities to improve\nbusiness processes, reduce redundancies, and enhance service delivery, particularly through cloud-based\ntechnologies and system integration. "
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 1641,
+   "end": 1900,
+   "chars": 259,
+   "text": "The UTMP must address the following key requirements:\nBusiness-Driven Technology Alignment\nThe UTMP must be rooted in business priorities, including operational efficiency, customer experience\nimprovement, regulatory compliance, and financial sustainability. "
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 1900,
+   "end": 2080,
+   "chars": 180,
+   "text": "The Plan must evaluate how technology can\nenable core utility and enterprise functions and identify opportunities to streamline and digitize business processes\nacross departments.\n"
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 2080,
+   "end": 2332,
+   "chars": 252,
+   "text": "IT Administration and Data Management Responsibility\nThe Consultant must clearly define what elements of IT administration and data management remain within the\nCounty’s responsibility, particularly as more systems transition to cloud-based platforms. "
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 2332,
+   "end": 2431,
+   "chars": 99,
+   "text": "This includes:\n\n\n\nRoles and responsibilities for managing data quality, access, and performance.\n"
+  },
+  {
+   "id": "p5-s15",
+   "page": 5,
+   "start": 2431,
+   "end": 2562,
+   "chars": 131,
+   "text": "Clarifying which parts of system infrastructure and application support can or should be shifted to vendors\nunder cloud contracts.\n"
+  },
+  {
+   "id": "p5-s16",
+   "page": 5,
+   "start": 2563,
+   "end": 2797,
+   "chars": 234,
+   "text": "Contractual and Cloud Governance Considerations\nThe UTMP must include guidance for the County on managing cloud-based system contracts, particularly in areas\nwhere vendors embed terms related to bandwidth, storage, or data residency. "
+  },
+  {
+   "id": "p5-s17",
+   "page": 5,
+   "start": 2797,
+   "end": 2935,
+   "chars": 138,
+   "text": "The Consultant should:\n\n\n\n\nIdentify common pitfalls in cloud service contracts (e.g., hidden bandwidth fees, vague performance terms).\n"
+  },
+  {
+   "id": "p5-s18",
+   "page": 5,
+   "start": 2935,
+   "end": 3029,
+   "chars": 94,
+   "text": "Provide best practices for structuring vendor agreements that protect the County’s interests.\n"
+  },
+  {
+   "id": "p5-s19",
+   "page": 5,
+   "start": 3029,
+   "end": 3187,
+   "chars": 158,
+   "text": "Address concerns around data being hosted in foreign jurisdictions (e.g., Canada) and the potential for\nboard-level restrictions on data location and access.\n"
+  },
+  {
+   "id": "p5-s20",
+   "page": 5,
+   "start": 3188,
+   "end": 3200,
+   "chars": 12,
+   "text": "Page 5 of 16"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 202,
+   "chars": 202,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nIntegration of Critical Systems for Operational Visibility\nThe County requires a roadmap for integrating systems for data transparency and decision making. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 202,
+   "end": 403,
+   "chars": 201,
+   "text": "The UTMP\nmust:\n\n\n\nIdentify how systems such as CIS, SCADA, GIS, CMMS, and other operational platforms can be integrated\nto provide a transparent, end-to-end view of customer and infrastructure data.\n"
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 403,
+   "end": 605,
+   "chars": 202,
+   "text": "Emphasize the need for Customer Service Representatives to access data such as service history, meterreads, or billing issues from one platform or dashboard to effectively serve customers in real time.\n"
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 606,
+   "end": 829,
+   "chars": 223,
+   "text": "Practical Use of Cloud-Based SCADA and Operational Tools\nAs cloud-based SCADA systems become more common, the Consultant must evaluate where and how the County\ncan responsibly adopt cloud for real-time operational systems. "
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 829,
+   "end": 940,
+   "chars": 111,
+   "text": "The UTMP must:\n\n\n\nAssess the feasibility and timing of moving SCADA and related infrastructure to the cloud.\n"
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 940,
+   "end": 1098,
+   "chars": 158,
+   "text": "Provide recommendations on the level of control, latency, and security needed to safely manage utility\ninfrastructure using remote, vendor-managed platforms.\n"
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 1099,
+   "end": 1225,
+   "chars": 126,
+   "text": "Data Usability and Reporting Flexibility\nThe UTMP must address how data can be structured and made usable across departments. "
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 1225,
+   "end": 1335,
+   "chars": 110,
+   "text": "This includes:\n\n\n\nReducing reliance on manual reporting or IT intervention to extract key performance data.\n"
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 1335,
+   "end": 1534,
+   "chars": 199,
+   "text": "Providing guidance on how to architect systems so staff can independently generate actionable reports, such\nas isolating specific data points, without needing custom development or external support.\n"
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 1535,
+   "end": 1690,
+   "chars": 155,
+   "text": "Change Readiness and System Familiarization\nThe Consultant must help the County understand what it means to adopt new technologies and platforms at scale.\n"
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 1690,
+   "end": 1837,
+   "chars": 147,
+   "text": "This includes:\n\n\n\nDocumenting what adjustments staff must make as systems shift from traditional on-premise to vendormanaged cloud environments.\n"
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 1837,
+   "end": 1967,
+   "chars": 130,
+   "text": "Identifying steps the County can take now to prepare teams for changes in system access, support models,\nand reporting workflows.\n"
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 1968,
+   "end": 2169,
+   "chars": 201,
+   "text": "Resource Requirements\nThe Consultant shall provide estimates of the resource requirements with high-level range of costs necessary to\nimplement the prioritized recommendations defined within the Plan. "
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 2169,
+   "end": 2455,
+   "chars": 286,
+   "text": "These estimates must include both external\nimplementation costs and internal IRCDUS and/or County resource requirements, identifying the specific roles,\nskillsets, and approximate time commitments (full-time equivalent or FTE) needed from staff throughout the\nimplementation lifecycle. "
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 2455,
+   "end": 2609,
+   "chars": 154,
+   "text": "The cost schedule should be structured to reflect phased investments over time and\naligned with the County’s capacity for adoption and Change Management.\n"
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 2609,
+   "end": 2751,
+   "chars": 142,
+   "text": "For the CIS in particular, the Consultant will provide a comprehensive resource recommendation strategy to support\nsuccessful implementation. "
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 2751,
+   "end": 2893,
+   "chars": 142,
+   "text": "This strategy must outline the critical project roles, governance model, and decisionmaking structure required during the CIS implementation. "
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 2893,
+   "end": 3206,
+   "chars": 313,
+   "text": "The Consultant will also define the internal County\nresource needs, specifying both full-time and part-time roles (e.g., project managers, subject matter experts, testing\ncoordinators, trainers, and operational leads), including time commitment estimates for each phase of the project\n(e.g., procurement, design, "
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 3206,
+   "end": 3247,
+   "chars": 41,
+   "text": "testing, deployment, and stabilization).\n"
+  },
+  {
+   "id": "p6-s19",
+   "page": 6,
+   "start": 3247,
+   "end": 3394,
+   "chars": 147,
+   "text": "In addition, the Consultant must provide guidance on the staffing strategy required to maintain business continuity\nduring the CIS implementation. "
+  },
+  {
+   "id": "p6-s20",
+   "page": 6,
+   "start": 3394,
+   "end": 3485,
+   "chars": 91,
+   "text": "This includes identifying operational functions that may be impacted by staff\n\nPage 6 of 16"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 177,
+   "chars": 177,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nreassignment to the project and recommending appropriate backfill staffing to support day-to-day operations during\nthe transition. "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 177,
+   "end": 355,
+   "chars": 178,
+   "text": "The County expects the Consultant to leverage their experience to propose effective strategies for\nbalancing project and operational needs without compromising service delivery.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 355,
+   "end": 498,
+   "chars": 143,
+   "text": "Deliverables\nThis UTMP should provide IRCDUS with a practical and informed strategy for transitioning from legacy systems\nto modern platforms. "
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 498,
+   "end": 709,
+   "chars": 211,
+   "text": "It must focus not only on system upgrades, but also on the necessary operational, contractual,\nand organizational shifts required to manage data and deliver utility services effectively in a cloud-first future.\n"
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 709,
+   "end": 851,
+   "chars": 142,
+   "text": "All findings, recommendations, and strategic priorities, including CIS, will be consolidated into the final Utilities\nTechnology Master Plan. "
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 851,
+   "end": 1078,
+   "chars": 227,
+   "text": "The UTMP will provide a practical, actionable roadmap that aligns with Indian River\nCounty’s operational objectives, financial plans, and long-term vision for a scalable, resilient, and customer-centric\ntechnology environment.\n"
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 1079,
+   "end": 1091,
+   "chars": 12,
+   "text": "Page 7 of 16"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 120,
+   "chars": 120,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nSubmittal Instructions\nFormat of Submittals\nResponses should be succinct; "
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 120,
+   "end": 193,
+   "chars": 73,
+   "text": "therefore, page limits are established for each section of the Proposal. "
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 193,
+   "end": 296,
+   "chars": 103,
+   "text": "Pages in excess\nof the referenced limits will result in a reduced score for each section in violation. "
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 296,
+   "end": 351,
+   "chars": 55,
+   "text": "Images of licenses and\ncertifications are not desired. "
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 351,
+   "end": 419,
+   "chars": 68,
+   "text": "Please provide only information relevant to the requested services.\n"
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 419,
+   "end": 494,
+   "chars": 75,
+   "text": "Proposals should not be marked “confidential”, “trade secret” or the like. "
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 494,
+   "end": 765,
+   "chars": 271,
+   "text": "Any information submitted that is exempt\nfrom disclosure, in accordance with Florida Statute, MUST be submitted as a separate file, and include the reference\nin Florida Statute that authorizes the County to withhold that specific information from public record requests. "
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 765,
+   "end": 896,
+   "chars": 131,
+   "text": "The\nCounty reserves the right to not consider Proposals containing excessive exempt material, at the County’s sole\ninterpretation. "
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 896,
+   "end": 976,
+   "chars": 80,
+   "text": "This includes submittals summarily marked as exempt, confidential, or the like.\n"
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 976,
+   "end": 1162,
+   "chars": 186,
+   "text": "Proposals shall be prepared to display only on 8½ x 11 sheets (no legal or ledger sheets) with font size for text not\nbeing smaller than 11 pt equivalent for Calibri or Times New Roman.\n"
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1163,
+   "end": 1286,
+   "chars": 123,
+   "text": "Information to Be Submitted\nProposers shall respond to each selection criteria in this RFP in the same order as requested. "
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1286,
+   "end": 1398,
+   "chars": 112,
+   "text": "Proposals shall be\nassembled into a single searchable PDF file, complete with bookmarks linked to all sections.\n"
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 1398,
+   "end": 1495,
+   "chars": 97,
+   "text": "Only provide information that is solicited herein or necessary for the proposal to be effective. "
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 1495,
+   "end": 1560,
+   "chars": 65,
+   "text": "Do not provide\nelaborate graphics unless specifically requested. "
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 1560,
+   "end": 1689,
+   "chars": 129,
+   "text": "Generic literature or marketing materials are not desired and may\nhave a negative impact on the overall ranking of the proposal.\n"
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 1689,
+   "end": 1855,
+   "chars": 166,
+   "text": "Consultants are required to clearly demonstrate how their qualifications, experience, methodology, and resources\nmeet the goals and requirements defined in this RFP.\n"
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 1855,
+   "end": 1911,
+   "chars": 56,
+   "text": "Proposals shall be organized by sections as follows:\n1. "
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 1911,
+   "end": 2047,
+   "chars": 136,
+   "text": "Firm Information Form: The Firm Information Form must be completed and accompanied by the\nrequested litigation history and W-9 form(s).\n"
+  },
+  {
+   "id": "p8-s18",
+   "page": 8,
+   "start": 2047,
+   "end": 2062,
+   "chars": 15,
+   "text": "No page limit.\n"
+  },
+  {
+   "id": "p8-s19",
+   "page": 8,
+   "start": 2062,
+   "end": 2065,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p8-s20",
+   "page": 8,
+   "start": 2065,
+   "end": 2108,
+   "chars": 43,
+   "text": "Cover Letter: An introduction to the Firm. "
+  },
+  {
+   "id": "p8-s21",
+   "page": 8,
+   "start": 2108,
+   "end": 2200,
+   "chars": 92,
+   "text": "If there is more than one Firm, describe the teaming\narrangement and specify the lead firm. "
+  },
+  {
+   "id": "p8-s22",
+   "page": 8,
+   "start": 2200,
+   "end": 2294,
+   "chars": 94,
+   "text": "Provide an overview of the key aspects of the Proposal and valueadded services if applicable. "
+  },
+  {
+   "id": "p8-s23",
+   "page": 8,
+   "start": 2294,
+   "end": 2338,
+   "chars": 44,
+   "text": "Do not include any fee or cost information. "
+  },
+  {
+   "id": "p8-s24",
+   "page": 8,
+   "start": 2338,
+   "end": 2608,
+   "chars": 270,
+   "text": "The letter shall be signed by an\nofficer or representative on company letterhead and includes primary contact information, a clear statement\nof interest, and confirmation that the firm is independent, vendor-neutral, and free from any financial\ninterest in CIS vendors.\n"
+  },
+  {
+   "id": "p8-s25",
+   "page": 8,
+   "start": 2608,
+   "end": 2625,
+   "chars": 17,
+   "text": "Maximum 2 pages.\n"
+  },
+  {
+   "id": "p8-s26",
+   "page": 8,
+   "start": 2625,
+   "end": 2628,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p8-s27",
+   "page": 8,
+   "start": 2628,
+   "end": 2777,
+   "chars": 149,
+   "text": "Executive Summary: A brief overview of the Firm’s understanding of the Indian River County Department\nof Utility Services priorities and objectives. "
+  },
+  {
+   "id": "p8-s28",
+   "page": 8,
+   "start": 2777,
+   "end": 2894,
+   "chars": 117,
+   "text": "Include a summary of key differentiators and a statement of\nwhy the Firm is best suited for this Project engagement.\n"
+  },
+  {
+   "id": "p8-s29",
+   "page": 8,
+   "start": 2894,
+   "end": 2911,
+   "chars": 17,
+   "text": "Maximum 2 pages.\n"
+  },
+  {
+   "id": "p8-s30",
+   "page": 8,
+   "start": 2911,
+   "end": 2914,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p8-s31",
+   "page": 8,
+   "start": 2914,
+   "end": 3175,
+   "chars": 261,
+   "text": "Qualifications of the Firm: Provide an overview of the Firm’s history, structure, and core areas of\nexpertise, including documentation of experience demonstrating the capability to perform the required\nservices for water, wastewater, and solid waste utilities. "
+  },
+  {
+   "id": "p8-s32",
+   "page": 8,
+   "start": 3175,
+   "end": 3230,
+   "chars": 55,
+   "text": "Please emphasize the Firm’s experience in\n\nPage 8 of 16"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 209,
+   "chars": 209,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\ndeveloping Utility Technology Master Plans and performing CIS assessments and selections for municipal\nor utility organizations of comparable size and complexity. "
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 209,
+   "end": 303,
+   "chars": 94,
+   "text": "Describe any prior experience with Florida\nmunicipalities or similar regulatory environments. "
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 303,
+   "end": 367,
+   "chars": 64,
+   "text": "If multiple Firms are involved, provide the same for all\nFirms. "
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 367,
+   "end": 530,
+   "chars": 163,
+   "text": "Provide samples of a comparable technology master plan and a CIS solicitation document (e.g.,\nRFP) completed by the Firm/Consultant as appendices to the Proposal.\n"
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 530,
+   "end": 574,
+   "chars": 44,
+   "text": "Maximum 6 pages excluding sample documents.\n"
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 574,
+   "end": 577,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 577,
+   "end": 788,
+   "chars": 211,
+   "text": "Qualifications and Experience of the Project Team: Provide biographies and qualifications of the key\npersonnel assigned to this project, including project manager, technical leaders, and subject matter experts.\n"
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 788,
+   "end": 874,
+   "chars": 86,
+   "text": "Include documentation of relevant certifications and any other pertinent information. "
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 874,
+   "end": 1016,
+   "chars": 142,
+   "text": "Provide no more a\none-page biography for key staff, focusing on their qualifications and project experience that are relevant\nto the Project. "
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 1016,
+   "end": 1081,
+   "chars": 65,
+   "text": "Full resumes are optional but can be included in the appendices. "
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 1081,
+   "end": 1241,
+   "chars": 160,
+   "text": "Provide an organizational\nchart of the team depicting roles and responsibilities of each team member, and identification of any\nsubcontractors and their roles. "
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 1241,
+   "end": 1398,
+   "chars": 157,
+   "text": "Demonstrate that the personnel as a team or individually have successfully\ncompleted services like those specified in the scope of services within this RFP. "
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 1398,
+   "end": 1493,
+   "chars": 95,
+   "text": "Indicate the team members’\nworkload on other projects and their availability for this Project.\n"
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 1493,
+   "end": 1555,
+   "chars": 62,
+   "text": "Maximum 4 pages plus 1 page biography for each key personnel.\n"
+  },
+  {
+   "id": "p9-s14",
+   "page": 9,
+   "start": 1555,
+   "end": 1558,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p9-s15",
+   "page": 9,
+   "start": 1558,
+   "end": 1743,
+   "chars": 185,
+   "text": "Project Understanding and Approach: Provide a narrative demonstrating the Firm’s understanding of\nthe IRCDUS current environment, including challenges, priorities, and strategic goals. "
+  },
+  {
+   "id": "p9-s16",
+   "page": 9,
+   "start": 1743,
+   "end": 1893,
+   "chars": 150,
+   "text": "Describe the\nproposed methodologies and detail workplan by phases and tasks, including deliverables, for both the\nUTMP development and CIS selection. "
+  },
+  {
+   "id": "p9-s17",
+   "page": 9,
+   "start": 1893,
+   "end": 2007,
+   "chars": 114,
+   "text": "Separate approaches and methodologies for UTMP development\nand CIS selection shall be described where applicable. "
+  },
+  {
+   "id": "p9-s18",
+   "page": 9,
+   "start": 2007,
+   "end": 2125,
+   "chars": 118,
+   "text": "Describe how the Firm will engage stakeholders,\ngather detailed requirements, and deliver actionable recommendations. "
+  },
+  {
+   "id": "p9-s19",
+   "page": 9,
+   "start": 2125,
+   "end": 2261,
+   "chars": 136,
+   "text": "Include the specific approaches to\ntechnology master planning and CIS selection to address the key RFP priorities outlined in this RFP.\n"
+  },
+  {
+   "id": "p9-s20",
+   "page": 9,
+   "start": 2261,
+   "end": 2368,
+   "chars": 107,
+   "text": "Describe the proposed tools, frameworks, or accelerators to support plan development and vendor selection.\n"
+  },
+  {
+   "id": "p9-s21",
+   "page": 9,
+   "start": 2368,
+   "end": 2385,
+   "chars": 17,
+   "text": "Maximum 6 pages.\n"
+  },
+  {
+   "id": "p9-s22",
+   "page": 9,
+   "start": 2385,
+   "end": 2388,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p9-s23",
+   "page": 9,
+   "start": 2388,
+   "end": 2569,
+   "chars": 181,
+   "text": "Proposed Project Schedule: Provide a proposed schedule commencing with an estimated notice-toproceed (NTP) date of January 1, 2026, that shows duration, start and completion dates. "
+  },
+  {
+   "id": "p9-s24",
+   "page": 9,
+   "start": 2569,
+   "end": 2817,
+   "chars": 248,
+   "text": "The schedule\nshould be depicted utilizing a Gantt chart format broken down by phases and major tasks (e.g., discovery,\nassessment, analysis, planning, vendor selection) outlined in the proposed workplan and include key\nmilestones and deliverables. "
+  },
+  {
+   "id": "p9-s25",
+   "page": 9,
+   "start": 2817,
+   "end": 2892,
+   "chars": 75,
+   "text": "Separate schedules may be provided for UTMP development and CIS\nselection. "
+  },
+  {
+   "id": "p9-s26",
+   "page": 9,
+   "start": 2892,
+   "end": 2973,
+   "chars": 81,
+   "text": "Identify any assumptions and dependencies that may impact the proposed schedule.\n"
+  },
+  {
+   "id": "p9-s27",
+   "page": 9,
+   "start": 2973,
+   "end": 3028,
+   "chars": 55,
+   "text": "Maximum 3 - 8-1/2” x 11” pages or 2 - 11” x 17” pages.\n"
+  },
+  {
+   "id": "p9-s28",
+   "page": 9,
+   "start": 3028,
+   "end": 3031,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p9-s29",
+   "page": 9,
+   "start": 3031,
+   "end": 3271,
+   "chars": 240,
+   "text": "Project References: Provide sufficient documentation and client references for a minimum of three (3)\nrelevant projects completed in the last five (5) years to support your Firm’s capability and experience to\nperform the required services. "
+  },
+  {
+   "id": "p9-s30",
+   "page": 9,
+   "start": 3271,
+   "end": 3350,
+   "chars": 79,
+   "text": "At least two (2) refences shall be either UTMP development or a CIS\nselection. "
+  },
+  {
+   "id": "p9-s31",
+   "page": 9,
+   "start": 3350,
+   "end": 3388,
+   "chars": 38,
+   "text": "Project references should include:\na. "
+  },
+  {
+   "id": "p9-s32",
+   "page": 9,
+   "start": 3388,
+   "end": 3406,
+   "chars": 18,
+   "text": "Name of client\nb. "
+  },
+  {
+   "id": "p9-s33",
+   "page": 9,
+   "start": 3406,
+   "end": 3450,
+   "chars": 44,
+   "text": "Contact name, title, email, phone number\nc. "
+  },
+  {
+   "id": "p9-s34",
+   "page": 9,
+   "start": 3450,
+   "end": 3504,
+   "chars": 54,
+   "text": "A brief description of the engagement and outcomes\nd. "
+  },
+  {
+   "id": "p9-s35",
+   "page": 9,
+   "start": 3504,
+   "end": 3591,
+   "chars": 87,
+   "text": "Describe any unique challenges or key objectives that were addressed by the project\ne. "
+  },
+  {
+   "id": "p9-s36",
+   "page": 9,
+   "start": 3591,
+   "end": 3665,
+   "chars": 74,
+   "text": "Identify any of the proposed personnel involved along with their roles\nf. "
+  },
+  {
+   "id": "p9-s37",
+   "page": 9,
+   "start": 3665,
+   "end": 3744,
+   "chars": 79,
+   "text": "Project duration and year completed\nMaximum 1 page for each project reference.\n"
+  },
+  {
+   "id": "p9-s38",
+   "page": 9,
+   "start": 3744,
+   "end": 3747,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p9-s39",
+   "page": 9,
+   "start": 3747,
+   "end": 3843,
+   "chars": 96,
+   "text": "Price Proposal: Provide the proposed fee schedule and commercial terms to complete the Project. "
+  },
+  {
+   "id": "p9-s40",
+   "page": 9,
+   "start": 3843,
+   "end": 3927,
+   "chars": 84,
+   "text": "Include\nlabor hours by role, billing rates, and other direct reimbursable expenses. "
+  },
+  {
+   "id": "p9-s41",
+   "page": 9,
+   "start": 3927,
+   "end": 4076,
+   "chars": 149,
+   "text": "The fee schedule shall be aligned\nwith the proposed workplan and deliverables (in tabular format) broken out by the UTMP development and\nPage 9 of 16"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 84,
+   "chars": 84,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nCIS assessment and selection support. "
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 84,
+   "end": 170,
+   "chars": 86,
+   "text": "Separate fees may be provided for value-added services or optional\nservices (if any).\n"
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 170,
+   "end": 349,
+   "chars": 179,
+   "text": "Describe any alternate pricing structures (e.g., fixed fee, blended rate) if available, and the proposed\napproach for pricing additional services that may be requested by IRCDUS.\n"
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 349,
+   "end": 364,
+   "chars": 15,
+   "text": "No page limit.\n"
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 364,
+   "end": 368,
+   "chars": 4,
+   "text": "10. "
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 368,
+   "end": 525,
+   "chars": 157,
+   "text": "Required Forms and Supporting Documents: All forms listed below are provided on Bonfire with the\nRFP and will be uploaded separately from the pdf submittal. "
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 525,
+   "end": 647,
+   "chars": 122,
+   "text": "Failure to submit the completed forms and\nsupporting documents will result in the Proposal being declared non-responsive. "
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 647,
+   "end": 766,
+   "chars": 119,
+   "text": "The following information\nis required for contractual purposes and does not require review by the selection committee:\n"
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 766,
+   "end": 1063,
+   "chars": 297,
+   "text": " Sworn statement on Disclosure of Relationships\n Certification Regarding Prohibition Against Contracting with Scrutinized Companies form\n Anti-Human Trafficking Affidavit\n Foreign Ownership Affidavit\n County’s Sample agreement with any requested changes indicated in track changes (optional,\n"
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 1063,
+   "end": 1178,
+   "chars": 115,
+   "text": "however no changes will be considered to the agreement after the deadline for receipt of proposals)\nNo page limit.\n"
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 1178,
+   "end": 1182,
+   "chars": 4,
+   "text": "11. "
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 1182,
+   "end": 1285,
+   "chars": 103,
+   "text": "Appendices: Include any additional information required or suggested to be included in the Appendices.\n"
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 1285,
+   "end": 1300,
+   "chars": 15,
+   "text": "No page limit.\n"
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 1301,
+   "end": 1441,
+   "chars": 140,
+   "text": "Method of Selection\nThe County shall convene a Selection Committee to evaluate all submittals deemed responsive by the Purchasing\nDivision. "
+  },
+  {
+   "id": "p10-s14",
+   "page": 10,
+   "start": 1441,
+   "end": 1547,
+   "chars": 106,
+   "text": "If no submittals are deemed responsive, the selection process will stop, and no contract will be awarded.\n"
+  },
+  {
+   "id": "p10-s15",
+   "page": 10,
+   "start": 1547,
+   "end": 1655,
+   "chars": 108,
+   "text": "The Selection Committee will determine “next steps” should less than two responsive submittals be received.\n"
+  },
+  {
+   "id": "p10-s16",
+   "page": 10,
+   "start": 1655,
+   "end": 1725,
+   "chars": 70,
+   "text": "The responsibility of the Selection Committee shall be as follows:\na. "
+  },
+  {
+   "id": "p10-s17",
+   "page": 10,
+   "start": 1725,
+   "end": 1961,
+   "chars": 236,
+   "text": "Each Committee member shall independently review and evaluate each submittal by assigning a number\nof points for each criterion, as established in the solicitation, and then totaling the number of points for all\ncriteria for each Firm.\n"
+  },
+  {
+   "id": "p10-s18",
+   "page": 10,
+   "start": 1961,
+   "end": 1964,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p10-s19",
+   "page": 10,
+   "start": 1964,
+   "end": 2078,
+   "chars": 114,
+   "text": "As a \"Committee of the whole\", develop a combined ranking order of all Submittals meeting minimum\nqualifications. "
+  },
+  {
+   "id": "p10-s20",
+   "page": 10,
+   "start": 2078,
+   "end": 2141,
+   "chars": 63,
+   "text": "The ranking of Firms shall be done in the following manner:\n1. "
+  },
+  {
+   "id": "p10-s21",
+   "page": 10,
+   "start": 2141,
+   "end": 2311,
+   "chars": 170,
+   "text": "The total number of points received by each Firm from all Committee members shall be totaled\nand divided by the number of Committee members, to produce an average score.\n"
+  },
+  {
+   "id": "p10-s22",
+   "page": 10,
+   "start": 2311,
+   "end": 2314,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p10-s23",
+   "page": 10,
+   "start": 2314,
+   "end": 2481,
+   "chars": 167,
+   "text": "The Firm receiving the highest average score shall be ranked the # 1 Firm, and the process repeated\nuntil all Firms have been ranked according to their average score.\n"
+  },
+  {
+   "id": "p10-s24",
+   "page": 10,
+   "start": 2481,
+   "end": 2484,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p10-s25",
+   "page": 10,
+   "start": 2484,
+   "end": 2634,
+   "chars": 150,
+   "text": "In the event of a tie, the ranking of tied Firms shall be determined by consensus scoring, based on\ndiscussion on the tied Firms among the committee.\n"
+  },
+  {
+   "id": "p10-s26",
+   "page": 10,
+   "start": 2634,
+   "end": 2637,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p10-s27",
+   "page": 10,
+   "start": 2637,
+   "end": 2871,
+   "chars": 234,
+   "text": "After the initial ranking is established, the Committee may discuss the scores and their reasons\nbehind them, and each member may modify their ranking or scores of Firms accordingly until the\nCommittee is satisfied with the rankings.\n"
+  },
+  {
+   "id": "p10-s28",
+   "page": 10,
+   "start": 2871,
+   "end": 2874,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p10-s29",
+   "page": 10,
+   "start": 2874,
+   "end": 3071,
+   "chars": 197,
+   "text": "After interviews, and based upon information learned during the interviews, each Committee\nmember will rank the Firms in order of preference and a consolidated final Committee ranking\nestablished.\n"
+  },
+  {
+   "id": "p10-s30",
+   "page": 10,
+   "start": 3071,
+   "end": 3074,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p10-s31",
+   "page": 10,
+   "start": 3074,
+   "end": 3308,
+   "chars": 234,
+   "text": "The County may, solely at its own option, seek additional Submittals with this or a similar Submittal in the\nevent the County, solely at its own option, determines that the quantity and/or quality of Submittals received\n\nPage 10 of 16"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 180,
+   "chars": 180,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nis insufficient to meet the County's needs and/or that award of a contract arising from this RFP would not\nbe in the public interest.\n"
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 180,
+   "end": 183,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 183,
+   "end": 435,
+   "chars": 252,
+   "text": "The Committee shall forward its recommendations in accordance with the ranking to the Indian River\nCounty Board of County Commissioners, which shall, at its sole option, authorize negotiations of a contract\npursuant to the requirements of Florida law.\n"
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 435,
+   "end": 438,
+   "chars": 3,
+   "text": "e. "
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 438,
+   "end": 569,
+   "chars": 131,
+   "text": "The Indian River County Board of County Commissioners possesses sole authority to award a contract for\nthe services sought herein.\n"
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 570,
+   "end": 723,
+   "chars": 153,
+   "text": "Scoring Criteria\nEach responsive submittal will be evaluated and scored according to each of the criteria in the following table:\nEvaluation Criteria\n1.\n"
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 723,
+   "end": 726,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 726,
+   "end": 729,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 729,
+   "end": 732,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 732,
+   "end": 735,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 735,
+   "end": 738,
+   "chars": 3,
+   "text": "6.\n"
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 739,
+   "end": 1054,
+   "chars": 315,
+   "text": "Maximum Points\n\nQualifications of the Firm* (Section 4)\nQualifications and Experience of the Project Team (Section 5)\nProject Understanding and Approach (Section 6)\nProposed Project Schedule (Section 7)\nProject References (Section 8)\nPrice Proposal (Section 9)\n\n25\n15\n25\n10\n15\n10\n100\n\nTOTAL\n\nAnticipated Procurement"
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 1054,
+   "end": 1168,
+   "chars": 114,
+   "text": " Timeline\nThe anticipated schedule for procurement of services described herein is summarized in the table below. "
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 1168,
+   "end": 1281,
+   "chars": 113,
+   "text": "The County\nreserves the right to modify, amend any or all dates included in the schedule at its sole discretion.\n"
+  },
+  {
+   "id": "p11-s14",
+   "page": 11,
+   "start": 1281,
+   "end": 1290,
+   "chars": 9,
+   "text": "Event\n1.\n"
+  },
+  {
+   "id": "p11-s15",
+   "page": 11,
+   "start": 1290,
+   "end": 1293,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p11-s16",
+   "page": 11,
+   "start": 1293,
+   "end": 1296,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p11-s17",
+   "page": 11,
+   "start": 1296,
+   "end": 1299,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p11-s18",
+   "page": 11,
+   "start": 1299,
+   "end": 1302,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p11-s19",
+   "page": 11,
+   "start": 1302,
+   "end": 1305,
+   "chars": 3,
+   "text": "6.\n"
+  },
+  {
+   "id": "p11-s20",
+   "page": 11,
+   "start": 1306,
+   "end": 1612,
+   "chars": 306,
+   "text": "Advertise for Proposals\nProposals Due before 2:00 p.m. on (submit on Bonfire)\nInitial Selection Committee Meeting\nInterviews (if held)\nAgreement presented to BCC for final approval\nContract term commences\n\nDate\nSeptember 26, 2025\nFriday, October 24, 2025\nNovember 6, 2025\nWeek of November 17th\nDecember 9, "
+  },
+  {
+   "id": "p11-s21",
+   "page": 11,
+   "start": 1612,
+   "end": 1647,
+   "chars": 35,
+   "text": "2025\nJanuary 1, 2026\n\nPage 11 of 16"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 212,
+   "chars": 212,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nGeneral Terms and Conditions\nBy submitting a Proposal in response to this request, the Firm/Consultant acknowledges the instructions\nand information provided herein.\n"
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 212,
+   "end": 229,
+   "chars": 17,
+   "text": "Cone of Silence. "
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 229,
+   "end": 457,
+   "chars": 228,
+   "text": "Potential respondents and their agents must not communicate in any way with the\nBoard of Commissioners, County Administrator, or any County staff other than Purchasing personnel in\nreference to or relation to this solicitation. "
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 457,
+   "end": 586,
+   "chars": 129,
+   "text": "This restriction is effective from the time of RFP issue until\nthe Board of County Commissioners meets to authorize final award. "
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 586,
+   "end": 637,
+   "chars": 51,
+   "text": "Such communication may result in\ndisqualification.\n"
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 637,
+   "end": 789,
+   "chars": 152,
+   "text": "Interpretations: All questions about the meaning or intent of the Request for Proposals are to be\nsubmitted to the County through the Bonfire platform. "
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 789,
+   "end": 935,
+   "chars": 146,
+   "text": "Interpretations, modifications, responses, or\nclarifications considered necessary by County in reply to such questions will be issued by Addenda. "
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 935,
+   "end": 1003,
+   "chars": 68,
+   "text": "Only\nquestions answered or changes made by Addenda will be binding. "
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 1003,
+   "end": 1098,
+   "chars": 95,
+   "text": "Oral and other interpretations,\nmodifications, or clarifications will be without legal effect. "
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 1098,
+   "end": 1168,
+   "chars": 70,
+   "text": "All such Addenda shall become part of the RFP\nand contract documents.\n"
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 1168,
+   "end": 1310,
+   "chars": 142,
+   "text": "Submission: All Proposals and required documents must be submitted electronically via the Bonfire\nportal, prior to the closing date and time. "
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 1310,
+   "end": 1407,
+   "chars": 97,
+   "text": "Verbal, printed, emailed, or faxed submissions will not be\nconsidered, nor will late submittals. "
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 1407,
+   "end": 1518,
+   "chars": 111,
+   "text": "The County will not reimburse any consultant for costs associated\nwith preparation or submittal of a Proposal.\n"
+  },
+  {
+   "id": "p12-s13",
+   "page": 12,
+   "start": 1518,
+   "end": 1714,
+   "chars": 196,
+   "text": "Public Record Exemption: Correspondence, materials, and documents received pursuant to this\nRequest for Proposals become public records subject to the provisions of Chapter 119, Florida Statutes.\n"
+  },
+  {
+   "id": "p12-s14",
+   "page": 12,
+   "start": 1714,
+   "end": 1968,
+   "chars": 254,
+   "text": "Should the Consultant assert any exemptions to the requirements of Chapter 119, Florida Statutes, and\nrelated statutes, the burden of establishing such exemption, by the way of injunctive or other relief as\nprovided by law, shall be upon the Consultant.\n"
+  },
+  {
+   "id": "p12-s15",
+   "page": 12,
+   "start": 1968,
+   "end": 2082,
+   "chars": 114,
+   "text": "Proposal Rejection: Failure to comply with all the enclosed instructions may result in rejection of the\nProposal.\n"
+  },
+  {
+   "id": "p12-s16",
+   "page": 12,
+   "start": 2082,
+   "end": 2339,
+   "chars": 257,
+   "text": "Prohibition Against Considering Social, Political or Ideological Interests in Government\nContracting: As provided in section 287.05701, Florida Statutes, as amended, the County may not\nrequest documentation of, or consider a Consultant's social, political, "
+  },
+  {
+   "id": "p12-s17",
+   "page": 12,
+   "start": 2339,
+   "end": 2516,
+   "chars": 177,
+   "text": "or ideological interests when\ndetermining if the Consultant is responsible and may not give preference to a Consultant based on its\nsocial, political, or ideological interests.\n"
+  },
+  {
+   "id": "p12-s18",
+   "page": 12,
+   "start": 2516,
+   "end": 2684,
+   "chars": 168,
+   "text": "Right to Protest: Any actual or prospective responding party who is aggrieved in connection with a\ncompetitive selection process may protest to the Purchasing Manager. "
+  },
+  {
+   "id": "p12-s19",
+   "page": 12,
+   "start": 2684,
+   "end": 2866,
+   "chars": 182,
+   "text": "The protest shall be submitted to\nthe Purchasing Manager in writing within five (5) calendar days after the party knows or should have\nknown of the facts giving rise to the protest. "
+  },
+  {
+   "id": "p12-s20",
+   "page": 12,
+   "start": 2866,
+   "end": 3062,
+   "chars": 196,
+   "text": "If the protest is not resolved by mutual agreement, the\nPurchasing Manager shall promptly issue a decision in writing, after consulting the using Department\nand the Office of the County Attorney.\n"
+  },
+  {
+   "id": "p12-s21",
+   "page": 12,
+   "start": 3062,
+   "end": 3178,
+   "chars": 116,
+   "text": "Committee Meetings: Notice of committee meetings will be posted to the RFP’s project posting on the\nBonfire portal. "
+  },
+  {
+   "id": "p12-s22",
+   "page": 12,
+   "start": 3178,
+   "end": 3483,
+   "chars": 305,
+   "text": "Any portion of a meeting pursuant to a competitive solicitation, at which negotiation\nstrategies are discussed, a vendor makes an oral presentation, or answers questions as part of a\ncompetitive solicitation is exempt from the Public Meeting requirements in Chapter 286.011 (per Chapter\n286.0113(1)(b)1).\n"
+  },
+  {
+   "id": "p12-s23",
+   "page": 12,
+   "start": 3484,
+   "end": 3497,
+   "chars": 13,
+   "text": "Page 12 of 16"
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 305,
+   "chars": 305,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nApplicable Law and Venue: The resulting Agreement and all rights and duties of the parties hereto\nshall be governed by the laws of the State of Florida, including but not limited to the provisions of the\nFlorida Uniform Commercial Code Chapters 671-679 F.S., "
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 305,
+   "end": 366,
+   "chars": 61,
+   "text": "for any terms and conditions not specifically\nstated within. "
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 366,
+   "end": 638,
+   "chars": 272,
+   "text": "Venue for any lawsuit brought by either party against the other party or otherwise arising\nout of this Contract shall be in Indian River County, Florida, or, in the event of a federal jurisdiction, in\nthe United States District Court for the Southern District of Florida.\n"
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 638,
+   "end": 877,
+   "chars": 239,
+   "text": "Conflict of Interest: Any entity submitting a bid, proposal, or SOQ, or entering into a contract with\nthe County shall disclose any relationship that may exist between the contracting entity and a County\nCommissioner or a County Employee. "
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 877,
+   "end": 1184,
+   "chars": 307,
+   "text": "The relationship with a County Commissioner or a County\nEmployee that must be disclosed is as follows: current County employee or commissioner, father,\nmother, son, daughter, brother, sister, uncle, aunt, first cousin, nephew, niece, husband, wife, fatherin-law, mother-in-law, daughter-in-law, son-in-law, "
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 1184,
+   "end": 1342,
+   "chars": 158,
+   "text": "brother-in-law, sister-in-law, stepfather,\nstepmother, stepson, stepdaughter, stepbrother, stepsister, half-brother, half-sister, grandparent, or\ngrandchild. "
+  },
+  {
+   "id": "p13-s6",
+   "page": 13,
+   "start": 1342,
+   "end": 1514,
+   "chars": 172,
+   "text": "The term “affiliate” includes those officers, directors, executives, partners, shareholders,\nemployees, members, and agents who are active in the management of the entity. "
+  },
+  {
+   "id": "p13-s7",
+   "page": 13,
+   "start": 1514,
+   "end": 1605,
+   "chars": 91,
+   "text": "The disclosure of\nrelationships shall be a sworn statement made on a County-approved form. "
+  },
+  {
+   "id": "p13-s8",
+   "page": 13,
+   "start": 1605,
+   "end": 1690,
+   "chars": 85,
+   "text": "Failure to submit the form\nwill be cause for rejection of the bid, proposal, or SOQ.\n"
+  },
+  {
+   "id": "p13-s9",
+   "page": 13,
+   "start": 1690,
+   "end": 1881,
+   "chars": 191,
+   "text": "The following firm(s) are not permitted to participate on any Team, due to conflict of interest related to\nparticipation in the development of the project specifications and/or solicitation. "
+  },
+  {
+   "id": "p13-s10",
+   "page": 13,
+   "start": 1881,
+   "end": 1970,
+   "chars": 89,
+   "text": "Any Proposal submitted\nthat includes a listed firm on their team will not be considered.\n"
+  },
+  {
+   "id": "p13-s11",
+   "page": 13,
+   "start": 1970,
+   "end": 1973,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p13-s12",
+   "page": 13,
+   "start": 1973,
+   "end": 2250,
+   "chars": 277,
+   "text": "N/A\nPublic Entity Crimes: Pursuant to Florida Statutes Section 287.133(2)(a), all consultants/teams are\nhereby notified that a person or affiliate who has been placed on the convicted vendor list following a\nconviction for a public entity crime may not submit a bid, proposal, "
+  },
+  {
+   "id": "p13-s13",
+   "page": 13,
+   "start": 2250,
+   "end": 2426,
+   "chars": 176,
+   "text": "or reply on a contract to provide any\ngoods or services to a public entity (defined as the State of Florida, any of its departments or agencies, or\nany political subdivision); "
+  },
+  {
+   "id": "p13-s14",
+   "page": 13,
+   "start": 2426,
+   "end": 2570,
+   "chars": 144,
+   "text": "may not submit a bid, proposal, or reply on a contract with a public entity for\nthe construction or repair of a public building or public work; "
+  },
+  {
+   "id": "p13-s15",
+   "page": 13,
+   "start": 2570,
+   "end": 2660,
+   "chars": 90,
+   "text": "may not submit bids, proposals, or replies\non leases of real property to a public entity; "
+  },
+  {
+   "id": "p13-s16",
+   "page": 13,
+   "start": 2660,
+   "end": 2792,
+   "chars": 132,
+   "text": "may not be awarded or perform work as a contractor, supplier,\nsubcontractor, or consultant under a contract with any public entity; "
+  },
+  {
+   "id": "p13-s17",
+   "page": 13,
+   "start": 2792,
+   "end": 3047,
+   "chars": 255,
+   "text": "and may not transact business with\nany public entity in excess of the threshold amount provided in Florida Statutes Section 287.017 for\nCATEGORY TWO [currently $35,000] for a period of 36 months from the date of being placed on the\nconvicted vendor list. "
+  },
+  {
+   "id": "p13-s18",
+   "page": 13,
+   "start": 3047,
+   "end": 3366,
+   "chars": 319,
+   "text": "A \"public entity crime\" means a violation of any state or federal law by a person\nwith respect to and directly related to the transaction of business with any public entity or with an agency\nor political subdivision of any other state or with the United States, including, but not limited to, any bid,\nproposal, reply, "
+  },
+  {
+   "id": "p13-s19",
+   "page": 13,
+   "start": 3366,
+   "end": 3626,
+   "chars": 260,
+   "text": "or contract for goods or services, any lease for real property, or any contract for the\nconstruction or repair of a public building or public work, involving antitrust, fraud, theft, bribery,\ncollusion, racketeering, conspiracy, or material misrepresentation.\n"
+  },
+  {
+   "id": "p13-s20",
+   "page": 13,
+   "start": 3626,
+   "end": 3886,
+   "chars": 260,
+   "text": "Foreign Ownership: By submittal of a response to this RFP, Consultant attests is not owned by, does\nnot have a principal place of business in, and is not established by the laws of, a foreign country of concern\nas defined in Section 287.138, Florida Statutes.\n"
+  },
+  {
+   "id": "p13-s21",
+   "page": 13,
+   "start": 3886,
+   "end": 4033,
+   "chars": 147,
+   "text": "Suspension and Debarment: County will not make award to parties listed on the government-wide\nexclusions in the System for Award Management (SAM). "
+  },
+  {
+   "id": "p13-s22",
+   "page": 13,
+   "start": 4033,
+   "end": 4115,
+   "chars": 82,
+   "text": "The bidder/proposer/consultant agrees to\ncomply with the requirements of 2 C.F.R. "
+  },
+  {
+   "id": "p13-s23",
+   "page": 13,
+   "start": 4115,
+   "end": 4119,
+   "chars": 4,
+   "text": "pt. "
+  },
+  {
+   "id": "p13-s24",
+   "page": 13,
+   "start": 4119,
+   "end": 4147,
+   "chars": 28,
+   "text": "180, subpart C and 2 C.F.R. "
+  },
+  {
+   "id": "p13-s25",
+   "page": 13,
+   "start": 4147,
+   "end": 4151,
+   "chars": 4,
+   "text": "pt. "
+  },
+  {
+   "id": "p13-s26",
+   "page": 13,
+   "start": 4151,
+   "end": 4267,
+   "chars": 116,
+   "text": "3000, subpart C while this\noffer is valid and throughout the period of any contract that may arise from this offer. "
+  },
+  {
+   "id": "p13-s27",
+   "page": 13,
+   "start": 4267,
+   "end": 4285,
+   "chars": 18,
+   "text": "The\n\nPage 13 of 16"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 177,
+   "chars": 177,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nbidder/proposer/consultant further agrees to include a provision requiring such compliance in its lower\ntier covered transactions. "
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 177,
+   "end": 312,
+   "chars": 135,
+   "text": "The bidder/proposer/consultant further agrees to include a provision requiring\nsuch compliance in its lower tier covered transactions. "
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 312,
+   "end": 602,
+   "chars": 290,
+   "text": "By submittal of its response to this solicitation,\nbidder/proposer/consultant asserts neither it nor its principals is presently debarred, suspended or\nproposed for debarment, declared ineligible, or voluntarily excluded from participation in this work by\nany Federal department or agency. "
+  },
+  {
+   "id": "p14-s3",
+   "page": 14,
+   "start": 602,
+   "end": 808,
+   "chars": 206,
+   "text": "For work funded by federal grant, bidder/proposer/consultant is\nrequired to have an active registration with the System for Award Management (SAM)\n(https://www.sam.gov) prior to execution of the agreement.\n"
+  },
+  {
+   "id": "p14-s4",
+   "page": 14,
+   "start": 808,
+   "end": 1023,
+   "chars": 215,
+   "text": "Scrutinized Companies Lists: The Consultant certifies that it and those related entities of Consultant\nas defined by Florida law are not on the Scrutinized Companies that Boycott Israel List, created pursuant\nto s. "
+  },
+  {
+   "id": "p14-s5",
+   "page": 14,
+   "start": 1023,
+   "end": 1101,
+   "chars": 78,
+   "text": "215.4725 of the Florida Statutes, and are not engaged in a boycott of Israel. "
+  },
+  {
+   "id": "p14-s6",
+   "page": 14,
+   "start": 1101,
+   "end": 1189,
+   "chars": 88,
+   "text": "In addition, if this\nagreement is for goods or services of one million dollars or more, "
+  },
+  {
+   "id": "p14-s7",
+   "page": 14,
+   "start": 1189,
+   "end": 1439,
+   "chars": 250,
+   "text": "Consultant certifies that it and those\nrelated entities of respondent as defined by Florida law are not on the Scrutinized Companies with\nActivities in Sudan List or the Scrutinized Companies with Activities in the Iran Petroleum Energy Sector\nList, "
+  },
+  {
+   "id": "p14-s8",
+   "page": 14,
+   "start": 1439,
+   "end": 1560,
+   "chars": 121,
+   "text": "created pursuant to Section 215.473 of the Florida Statutes and are not engaged in business\noperations in Cuba or Syria. "
+  },
+  {
+   "id": "p14-s9",
+   "page": 14,
+   "start": 1560,
+   "end": 1876,
+   "chars": 316,
+   "text": "The County may terminate this Contract if Consultant is found to have\nsubmitted a false certification as provided under section 287.135(5), Florida Statutes, been placed on the\nScrutinized Companies with Activities in Sudan List or the Scrutinized Companies with Activities in the\nIran Petroleum Energy Sector List, "
+  },
+  {
+   "id": "p14-s10",
+   "page": 14,
+   "start": 1876,
+   "end": 1982,
+   "chars": 106,
+   "text": "or been engaged in business operations in Cuba or Syria, as defined\nby section 287.135, Florida Statutes. "
+  },
+  {
+   "id": "p14-s11",
+   "page": 14,
+   "start": 1982,
+   "end": 2176,
+   "chars": 194,
+   "text": "The County may terminate this Contract if the Consultant, including\nall wholly owned subsidiaries, majority-owned subsidiaries, and parent companies that exist for the\npurpose of making profit, "
+  },
+  {
+   "id": "p14-s12",
+   "page": 14,
+   "start": 2176,
+   "end": 2348,
+   "chars": 172,
+   "text": "is found to have been placed on the Scrutinized Companies that Boycott Israel\nList or is engaged in a boycott of Israel as set forth in section 215.4725, Florida Statutes.\n"
+  },
+  {
+   "id": "p14-s13",
+   "page": 14,
+   "start": 2348,
+   "end": 2361,
+   "chars": 13,
+   "text": "Accordingly, "
+  },
+  {
+   "id": "p14-s14",
+   "page": 14,
+   "start": 2361,
+   "end": 2677,
+   "chars": 316,
+   "text": "firms responding to this solicitation shall return with their response an executed copy of the\nattached “Certification Regarding Prohibition Against Contracting With Scrutinized Companies.” Failure\nto return this executed form with submitted bid/proposal/statement of qualifications will result in the\nresponse being"
+  },
+  {
+   "id": "p14-s15",
+   "page": 14,
+   "start": 2677,
+   "end": 2735,
+   "chars": 58,
+   "text": " deemed non-responsive and eliminated from consideration.\n"
+  },
+  {
+   "id": "p14-s16",
+   "page": 14,
+   "start": 2735,
+   "end": 2963,
+   "chars": 228,
+   "text": "Non-Discrimination: The County will not knowingly do business with vendors, firms, or contractors\nwho discriminate on the basis of race, color or national origin, sex, sexual orientation, gender identity,\nage and/or disability. "
+  },
+  {
+   "id": "p14-s17",
+   "page": 14,
+   "start": 2963,
+   "end": 3274,
+   "chars": 311,
+   "text": "Through the course of providing services to the County, Contractors shall\naffirmatively comply with all applicable provisions of Title VI of the Civil Rights Act of 1964, the Civil\nRights Restoration Act of 1987 and the Florida Civil Rights Act of 1992, as well as all other applicable\nregulations, guidelines, "
+  },
+  {
+   "id": "p14-s18",
+   "page": 14,
+   "start": 3274,
+   "end": 3289,
+   "chars": 15,
+   "text": "and standards. "
+  },
+  {
+   "id": "p14-s19",
+   "page": 14,
+   "start": 3289,
+   "end": 3477,
+   "chars": 188,
+   "text": "Any person who believes their rights have been violated should\nreport such discrimination to the County’s Title VI/Nondiscrimination Coordinator through the office of\nthe County Attorney.\n"
+  },
+  {
+   "id": "p14-s20",
+   "page": 14,
+   "start": 3477,
+   "end": 3557,
+   "chars": 80,
+   "text": "No Coercion: Consultant attests it does not use coercion for labor or services.\n"
+  },
+  {
+   "id": "p14-s21",
+   "page": 14,
+   "start": 3557,
+   "end": 3812,
+   "chars": 255,
+   "text": "E-Verify: Consultant must be registered with and use, at their sole expense, the Department of\nHomeland Security’s E-Verify system (www.e-verify.gov) to confirm the employment eligibility of all\nnewly hired employees, as required by Section 448.095, F.S. "
+  },
+  {
+   "id": "p14-s22",
+   "page": 14,
+   "start": 3812,
+   "end": 3960,
+   "chars": 148,
+   "text": "County, consultant, and subconsultants may\nnot enter into a contract unless each party to the contract registers with and uses the E-Verify system.\n"
+  },
+  {
+   "id": "p14-s23",
+   "page": 14,
+   "start": 3960,
+   "end": 4055,
+   "chars": 95,
+   "text": "Consultant is responsible for obtaining proof of E-Verify registration for all subconsultants. "
+  },
+  {
+   "id": "p14-s24",
+   "page": 14,
+   "start": 4055,
+   "end": 4118,
+   "chars": 63,
+   "text": "This\nrequirement applies to any provider of services or goods.\n"
+  },
+  {
+   "id": "p14-s25",
+   "page": 14,
+   "start": 4118,
+   "end": 4347,
+   "chars": 229,
+   "text": "Assignment/Delegation: No right, obligation or interest in an awarded Agreement may be assigned\nor delegated by the Consultant without prior written consent of the County, without prejudice to County’s\nother rights and remedies.\n"
+  },
+  {
+   "id": "p14-s26",
+   "page": 14,
+   "start": 4348,
+   "end": 4361,
+   "chars": 13,
+   "text": "Page 14 of 16"
+  },
+  {
+   "id": "p15-s0",
+   "page": 15,
+   "start": 0,
+   "end": 309,
+   "chars": 309,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\nIndemnification: Consultant shall defend, indemnify and hold harmless the County and its\ncommissioners, officers, employees and agents, from any and all losses, damages, expenses (including\nreasonable attorneys fees) and other liabilities of any type whatsoever, "
+  },
+  {
+   "id": "p15-s1",
+   "page": 15,
+   "start": 309,
+   "end": 547,
+   "chars": 238,
+   "text": "arising out of or relating to any\nnegligence, intentional tort, breach of contract, or breach of applicable law by the Consultant, or its\nemployees, agents, subcontractors, or other persons or entities performing work under the contract.\n"
+  },
+  {
+   "id": "p15-s2",
+   "page": 15,
+   "start": 547,
+   "end": 779,
+   "chars": 232,
+   "text": "Records/Audit: The Consultant shall maintain books, records, and documents pertinent to\nperformance under this Invitation and any resulting Agreement in accordance with generally accepted\naccounting principles consistently applied. "
+  },
+  {
+   "id": "p15-s3",
+   "page": 15,
+   "start": 779,
+   "end": 1016,
+   "chars": 237,
+   "text": "The County and the Florida Office of the Inspector General\nshall have inspection and audit rights to such records for audit purposes during the term of the contract\nand for three years following the termination of obligations hereunder. "
+  },
+  {
+   "id": "p15-s4",
+   "page": 15,
+   "start": 1016,
+   "end": 1246,
+   "chars": 230,
+   "text": "Records which relate to any\nlitigation, appeals or settlements of claims arising from performance under this work or purchase shall\nbe made available until a final disposition has been made of such litigation, appeals, or claims.\n"
+  },
+  {
+   "id": "p15-s5",
+   "page": 15,
+   "start": 1246,
+   "end": 1401,
+   "chars": 155,
+   "text": "Public Access: The Consultant shall allow public access to all documents and materials in accordance\nwith the provisions of Chapter 119, Florida Statutes.\n"
+  },
+  {
+   "id": "p15-s6",
+   "page": 15,
+   "start": 1401,
+   "end": 1616,
+   "chars": 215,
+   "text": "Insurance:\n Owners and Contractors Insurance: The Consultant shall not commence work until they\nhave obtained all the insurance required under this section, and until such insurance has been\napproved by the owner, "
+  },
+  {
+   "id": "p15-s7",
+   "page": 15,
+   "start": 1616,
+   "end": 1905,
+   "chars": 289,
+   "text": "nor shall the contractor allow any subcontractor to commence work until\nthe subcontractor has obtained the insurance required for a contractor herein and such insurance\nhas been approved unless the subcontractor’s work is covered by the protections afforded by the\nConsultant’s insurance.\n"
+  },
+  {
+   "id": "p15-s8",
+   "page": 15,
+   "start": 1905,
+   "end": 2112,
+   "chars": 207,
+   "text": "\n\nWorker’s Compensation Insurance: The Consultant shall procure and maintain worker’s\ncompensation insurance to the extent required by law for all their employees to be engaged in\nwork under this contract. "
+  },
+  {
+   "id": "p15-s9",
+   "page": 15,
+   "start": 2112,
+   "end": 2338,
+   "chars": 226,
+   "text": "In case any employees are to be engaged in hazardous work under this\ncontract and are not protected under the worker’s compensation statute, the Contractor shall\nprovide adequate coverage for the protection of such employees.\n"
+  },
+  {
+   "id": "p15-s10",
+   "page": 15,
+   "start": 2339,
+   "end": 2579,
+   "chars": 240,
+   "text": "\n\nPublic Liability Insurance: The Consultant shall procure and maintain broad form\ncommercial general liability insurance (including contractual coverage) and commercial\nautomobile liability insurance in amounts not less than shown below. "
+  },
+  {
+   "id": "p15-s11",
+   "page": 15,
+   "start": 2579,
+   "end": 2726,
+   "chars": 147,
+   "text": "The owner shall be an\nadditional named insured on this insurance with respect to all claims arising out of the operations\nor work to be performed.\n"
+  },
+  {
+   "id": "p15-s12",
+   "page": 15,
+   "start": 2726,
+   "end": 3031,
+   "chars": 305,
+   "text": "Commercial General (Public)\nLiability, other than Automobile\n\n$1,000,000.00 Combined single\nlimit for Bodily Injury and Property\nDamage\n\nAutomobile\n\nCommercial General\nPremises / Operations\nIndependent Contractors\nProducts / Completed Operations\nPersonal Injury\nContractual Liability\nExplosion, Collapse, "
+  },
+  {
+   "id": "p15-s13",
+   "page": 15,
+   "start": 3031,
+   "end": 3159,
+   "chars": 128,
+   "text": "and Underground Property\nDamage\nOwner Leased Automobiles\nNon-Owned Automobiles\nHired Automobiles\nOwned Automobiles\nPage 15 of 16"
+  },
+  {
+   "id": "p16-s0",
+   "page": 16,
+   "start": 0,
+   "end": 281,
+   "chars": 281,
+   "text": "RFP 2026003 For UTMP CIS Consulting Services\n\n$1,000,000.00 Combined single\nlimit Bodily Injury and Damage\nLiability\n\nProfessional Liability Insurance\n\n\n\n$1,000,000 per occurrence\n$2,000,000 aggregate combined single limit\n$5,000 maximum deductible per claim\n\nProof of Insurance: "
+  },
+  {
+   "id": "p16-s1",
+   "page": 16,
+   "start": 281,
+   "end": 409,
+   "chars": 128,
+   "text": "The Consultant shall furnish the owner a certificate of insurance in a form\nacceptable to the owner for the insurance required. "
+  },
+  {
+   "id": "p16-s2",
+   "page": 16,
+   "start": 409,
+   "end": 597,
+   "chars": 188,
+   "text": "Such certificate or an endorsement provided\nby the contractor must state that the owner will be given thirty (30) days written notice prior to\ncancellation or material change in coverage. "
+  },
+  {
+   "id": "p16-s3",
+   "page": 16,
+   "start": 597,
+   "end": 702,
+   "chars": 105,
+   "text": "Copies of an endorsement-naming owner as\nAdditional Insured must accompany the Certificate of Insurance.\n"
+  },
+  {
+   "id": "p16-s4",
+   "page": 16,
+   "start": 703,
+   "end": 826,
+   "chars": 123,
+   "text": "Note: Any and all special conditions attached hereto, which may vary from these General\nConditions, shall have precedence.\n"
+  },
+  {
+   "id": "p16-s5",
+   "page": 16,
+   "start": 826,
+   "end": 876,
+   "chars": 50,
+   "text": "End of General Terms and Conditions\n\nPage 16 of 16"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 16
+ }
+}

@@ -1,0 +1,3174 @@
+{
+ "schema": "span-index/1",
+ "fixture": "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf",
+ "fixture_sha256": "40d0d488ccb27b291705f6f2c76ac98ea7d9f0530a9de80c3b04d704b074aa39",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "7e023b4011c3dd9e1f7ea314a5fdac12801194910937edbb85be7227267e15e2",
+   "chars": 509
+  },
+  {
+   "number": 2,
+   "sha256": "a453875f907fe857f87127f5548a8fd150f6e8581f37abf761ce51ab8bcb6e42",
+   "chars": 4380
+  },
+  {
+   "number": 3,
+   "sha256": "e6ec98e01077a85c904eb3f9ed9d9006557bd6d39545376c87af39b9ae0139e3",
+   "chars": 2746
+  },
+  {
+   "number": 4,
+   "sha256": "c3ae3ee6f8fdff36330fb72214bb09205443f93578e7dcb8a64e32c06a5c4ada",
+   "chars": 2505
+  },
+  {
+   "number": 5,
+   "sha256": "19be037a70761f793c1b499e97910b3ea13c8f44a6b479cabcf0df2aaa9a082d",
+   "chars": 2398
+  },
+  {
+   "number": 6,
+   "sha256": "c00e2931f792aae30b22ca43e93efe53d2b92b1bbfc355b631a10ec71dd3a797",
+   "chars": 2919
+  },
+  {
+   "number": 7,
+   "sha256": "93ca50b1f977c974f7204abc665b7294f2fbfd33ecc1e81ca986618f69a03efd",
+   "chars": 2845
+  },
+  {
+   "number": 8,
+   "sha256": "25bad35df23210359b663455528f797d0413c638bb71d44a09d66a97cf61424e",
+   "chars": 2938
+  },
+  {
+   "number": 9,
+   "sha256": "40d73a1bb448b52d164b3767a5533b9f2a0fdd47231a8170397f07dc0e48912c",
+   "chars": 3030
+  },
+  {
+   "number": 10,
+   "sha256": "fffbbc8dc42a43993badc8b7b4930877eff8d93833abd6324f6f94c2d081d604",
+   "chars": 2740
+  },
+  {
+   "number": 11,
+   "sha256": "1604d6f193cf3a65fece93b55651b1b10a9edc007f58577c28b304491a83da57",
+   "chars": 2682
+  },
+  {
+   "number": 12,
+   "sha256": "9e081a1fb1b1c89b2df5ffb97cba2fcb165339ac867a87989544b0dc6d094a85",
+   "chars": 778
+  },
+  {
+   "number": 13,
+   "sha256": "cd80d91faf77a8ad4ba31d3fc76f574ad3bab1accd8447bd587e749bb4c2228a",
+   "chars": 611
+  },
+  {
+   "number": 14,
+   "sha256": "509cfc7dfb6f109b9f4a62a4dd90098cbe652b9f9456ed45546de2aca1e440e5",
+   "chars": 3429
+  },
+  {
+   "number": 15,
+   "sha256": "9be42413490bb73612bc365605331f549014049595ef8d7a09e1f65942d21b5b",
+   "chars": 2842
+  },
+  {
+   "number": 16,
+   "sha256": "f2f9268c791763485fd54ddd47ef470586313e58743fe0fbd4b49236d9fc7457",
+   "chars": 3405
+  },
+  {
+   "number": 17,
+   "sha256": "49b65aa17131162b4a5f3936cd4cc9022140dc433bad0ff57850e8a300ab4cdb",
+   "chars": 2947
+  },
+  {
+   "number": 18,
+   "sha256": "5c1bca8d81688899a7f9972260ca145d12f3c24ea821e6e2c9f26599415fa925",
+   "chars": 2757
+  },
+  {
+   "number": 19,
+   "sha256": "32c3fdfd001dbae93bcde58f8f4dd1707be1b5db0b49cab9a182d864ac7e79c2",
+   "chars": 1939
+  },
+  {
+   "number": 20,
+   "sha256": "8356ffb73b921cf28d2387882e3e16bf4d70c9ffc697dba2db895bc8e92c825c",
+   "chars": 1571
+  }
+ ],
+ "span_count": 382,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 295,
+   "chars": 295,
+   "text": "COLLEGE OF WESTERN IDAHO\nREQUEST FOR PROPOSALS\nRFP 05-2024\nArtificial Intelligence (AI) Technologies\nand Services for Faculty and Students\nPROPOSAL DUE: Friday, August 30, 2024 AT 5:00 PM MT\nSealed Enveloped, Hand Delivered, FED EX, or UPS Delivery\nCollege of Western Idaho\nAttn: Daniel Reines, "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 295,
+   "end": 509,
+   "chars": 214,
+   "text": "Procurement Coordinator\nRe: RFP 05-2024 AI Software,\n6056 Birch Lane, Nampa, ID 83687\n\nOr, attached in PDF format (zip okay) emailed to\ndanielreines@cwi.edu and cc: contract@cwi.edu\nSubject: RFP 05-2024 AI Software"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 96,
+   "chars": 96,
+   "text": "Contents\nREQUEST FOR PROPOSALS – ARTIFICIAL INTELLIGENCE (AI) TECHNOLOGIES AND SERVICES ....... "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 96,
+   "end": 101,
+   "chars": 5,
+   "text": "3\n1. "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 101,
+   "end": 252,
+   "chars": 151,
+   "text": "Introduction ......................................................................................................................................... "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 252,
+   "end": 257,
+   "chars": 5,
+   "text": "3\n1. "
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 257,
+   "end": 425,
+   "chars": 168,
+   "text": "1 Purpose .........................................................................................................................................................3\n1. "
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 425,
+   "end": 737,
+   "chars": 312,
+   "text": "2 Authority ........................................................................................................................................................4\n\n2 Instructions to Proposers .................................................................................................................... "
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 737,
+   "end": 803,
+   "chars": 66,
+   "text": "4\n2 .1 BID SUBMISSION DELIVERY INSTRUCTIONS – FED EX or UPS ONLY; "
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 803,
+   "end": 1032,
+   "chars": 229,
+   "text": "TRACKING REQUIRED ...............4\n2.2 Schedule of Events .......................................................................................................................................5\n2.3 Contact with College Personnel"
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 1032,
+   "end": 1333,
+   "chars": 301,
+   "text": " ..................................................................................................................5\n2.4 Proposal Opening ..........................................................................................................................................5\n2.5 Errors in Proposals"
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1333,
+   "end": 1644,
+   "chars": 311,
+   "text": " ........................................................................................................................................5\n2.6 Withdrawing Proposals .................................................................................................................................5\n2.7 Limitations"
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 1644,
+   "end": 1963,
+   "chars": 319,
+   "text": " .....................................................................................................................................................6\n2.8 Public Records ..............................................................................................................................................6\n\n3. "
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 1963,
+   "end": 2103,
+   "chars": 140,
+   "text": "Submittal Requirements..................................................................................................................... "
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 2103,
+   "end": 2291,
+   "chars": 188,
+   "text": "7\n3.1 Proposal Content ..........................................................................................................................................7\n3.2 Eligibility for Award"
+  },
+  {
+   "id": "p2-s13",
+   "page": 2,
+   "start": 2291,
+   "end": 2434,
+   "chars": 143,
+   "text": " ........................................................................................................................................7\n\n4. "
+  },
+  {
+   "id": "p2-s14",
+   "page": 2,
+   "start": 2434,
+   "end": 2570,
+   "chars": 136,
+   "text": "Proposal Evaluation and Award ......................................................................................................... "
+  },
+  {
+   "id": "p2-s15",
+   "page": 2,
+   "start": 2570,
+   "end": 2762,
+   "chars": 192,
+   "text": "7\n4.1 Evaluation Criteria.........................................................................................................................................7\nProposal Evaluation Criteria"
+  },
+  {
+   "id": "p2-s16",
+   "page": 2,
+   "start": 2762,
+   "end": 3081,
+   "chars": 319,
+   "text": " ...............................................................................................................................8\n4.2 Unresponsive Proposals ...............................................................................................................................8\n4.3 Interviews and Demonstrations"
+  },
+  {
+   "id": "p2-s17",
+   "page": 2,
+   "start": 3081,
+   "end": 3370,
+   "chars": 289,
+   "text": " ...................................................................................................................9\n4.4 Discussions and Negotiations .....................................................................................................................9\n4.5 Contract Period"
+  },
+  {
+   "id": "p2-s18",
+   "page": 2,
+   "start": 3370,
+   "end": 3680,
+   "chars": 310,
+   "text": " .............................................................................................................................................9\n4.6 Contract Award .............................................................................................................................................9\n\n5. "
+  },
+  {
+   "id": "p2-s19",
+   "page": 2,
+   "start": 3680,
+   "end": 3825,
+   "chars": 145,
+   "text": "Evaluation Criteria............................................................................................................................. "
+  },
+  {
+   "id": "p2-s20",
+   "page": 2,
+   "start": 3825,
+   "end": 3973,
+   "chars": 148,
+   "text": "10\nAppendix A Signature Block ..................................................................................................................... "
+  },
+  {
+   "id": "p2-s21",
+   "page": 2,
+   "start": 3973,
+   "end": 4103,
+   "chars": 130,
+   "text": "13\nAppendix B\n\nTerms and Conditions of Contract ................................................................................. "
+  },
+  {
+   "id": "p2-s22",
+   "page": 2,
+   "start": 4103,
+   "end": 4242,
+   "chars": 139,
+   "text": "14\n\nAppendix – C Insurance Requirements .................................................................................................. "
+  },
+  {
+   "id": "p2-s23",
+   "page": 2,
+   "start": 4242,
+   "end": 4378,
+   "chars": 136,
+   "text": "19\nAppendix – D Conflict of Interest/Debarment ........................................................................................ "
+  },
+  {
+   "id": "p2-s24",
+   "page": 2,
+   "start": 4378,
+   "end": 4380,
+   "chars": 2,
+   "text": "20"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 82,
+   "chars": 82,
+   "text": "REQUEST FOR PROPOSALS – ARTIFICIAL INTELLIGENCE (AI)\nTECHNOLOGIES AND SERVICES\n1. "
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 82,
+   "end": 335,
+   "chars": 253,
+   "text": "Introduction\nThe College of Western Idaho (“CWI” or “College”) is a public, open-access and comprehensive\ncommunity college, providing higher education programs to residents of Western Idaho, with\nfacilities currently located in Nampa and Boise, Idaho. "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 335,
+   "end": 417,
+   "chars": 82,
+   "text": "CWI is committed to providing affordable\naccess to quality teaching and learning. "
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 417,
+   "end": 637,
+   "chars": 220,
+   "text": "The College offers a full range of academic and\nprofessional-technical courses leading to an Associate of Arts or Science degree, transfer degrees,\nprofessional-technical degrees, continuing education, and certificates. "
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 637,
+   "end": 797,
+   "chars": 160,
+   "text": "It also offers basic\nacademic skills to help prepare for a GED, dual credit for high school students, and fast-track\ncareer training for working professionals.\n"
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 798,
+   "end": 801,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 801,
+   "end": 1094,
+   "chars": 293,
+   "text": "1 Purpose\nThe purpose of this Request for Proposals (“RFP”) is to solicit proposals for artificial intelligence (AI)\ntechnologies and services that will be accessed and used by faculty and students in the design,\ndevelopment, and delivery of instruction from qualified entities (“Proposers”). "
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 1094,
+   "end": 1226,
+   "chars": 132,
+   "text": "CWI envisions using\nFrontier AI technologies and services that will integrate with the Blackboard Learning Management\nSystem (LMS). "
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1226,
+   "end": 1395,
+   "chars": 169,
+   "text": "For the purposes of this RFP, CWI defines “Frontier AI” as highly-capable, generalpurpose foundational AI models that are capable of performing a wide variety of tasks. "
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 1395,
+   "end": 1704,
+   "chars": 309,
+   "text": "As of 2024,\nthis includes, but is not limited to, the following:\n•\n•\n•\n•\n•\n\nMicrosoft – Copilot\nOpenAI – ChatGPT\nAnthropic – Claude\nGoogle – Gemini\nMeta – Llama\n\nCWI is particularly interested in using Frontier AI models to support the application of four types of\nAI technologies in the design, development, "
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 1704,
+   "end": 1736,
+   "chars": 32,
+   "text": "and delivery of instruction:\n1. "
+  },
+  {
+   "id": "p3-s11",
+   "page": 3,
+   "start": 1736,
+   "end": 1802,
+   "chars": 66,
+   "text": "Generalized AI models – Copilot, ChaptGPT, Claude, Gemini, Llama.\n"
+  },
+  {
+   "id": "p3-s12",
+   "page": 3,
+   "start": 1802,
+   "end": 1805,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p3-s13",
+   "page": 3,
+   "start": 1805,
+   "end": 1937,
+   "chars": 132,
+   "text": "Specialized GPTs or bots – AI bots that guide students step-by-step through learning\nactivities that have been designed by faculty.\n"
+  },
+  {
+   "id": "p3-s14",
+   "page": 3,
+   "start": 1937,
+   "end": 1940,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p3-s15",
+   "page": 3,
+   "start": 1940,
+   "end": 2057,
+   "chars": 117,
+   "text": "Web-based AI agents – AI agents that perform tasks autonomously or semi-autonomously\nusing browser-based tools (e.g. "
+  },
+  {
+   "id": "p3-s16",
+   "page": 3,
+   "start": 2057,
+   "end": 2146,
+   "chars": 89,
+   "text": "finding web pages about a particular research topic and\nwriting a summary of key ideas).\n"
+  },
+  {
+   "id": "p3-s17",
+   "page": 3,
+   "start": 2146,
+   "end": 2149,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p3-s18",
+   "page": 3,
+   "start": 2149,
+   "end": 2292,
+   "chars": 143,
+   "text": "Computer-based AI agents – AI agents that perform tasks autonomously or semiautonomously using applications found on the user’s computer (e.g. "
+  },
+  {
+   "id": "p3-s19",
+   "page": 3,
+   "start": 2292,
+   "end": 2402,
+   "chars": 110,
+   "text": "using the AI agent in\nMicrosoft’s Copilot+PC to create transcripts of audio and video files on the computer).\n"
+  },
+  {
+   "id": "p3-s20",
+   "page": 3,
+   "start": 2402,
+   "end": 2485,
+   "chars": 83,
+   "text": "CWI must ensure that any AI technologies and services implemented will conform to:\n"
+  },
+  {
+   "id": "p3-s21",
+   "page": 3,
+   "start": 2485,
+   "end": 2746,
+   "chars": 261,
+   "text": "(a) Federal and state regulations\n(b) Financial aid rules and regulations under the Gramm Leach Bliley Act and Federal Student\nAid Regulations of the US Department of Education\n(c) Northwest Commission on College and Universities (NWCCU) accreditation standards"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 217,
+   "chars": 217,
+   "text": "(d) Family Educational Rights and Privacy Act (FERPA) FERPA law\n(e) Copyright law\n(f) American with Disabilities Act\n(g) Federal rules on Distance Education and Innovation\n(h) Title IX Education Amendment of 1972\n\n1. "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 217,
+   "end": 281,
+   "chars": 64,
+   "text": "2 Authority\nThis RFP is issued under Idaho Code 67-2801 et seq. "
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 281,
+   "end": 406,
+   "chars": 125,
+   "text": "All proposals submitted in response to this\nsolicitation by Proposer shall be subject to the State of Idaho procurement law. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 406,
+   "end": 478,
+   "chars": 72,
+   "text": "Both state and\nfederal law prohibits bribes, gratuities, and kickbacks. "
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 478,
+   "end": 670,
+   "chars": 192,
+   "text": "All responses to this RFP become the\nproperty of the College and will be available for public records requests upon completion of the\ncontract negotiation process unless exempt under the law. "
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 670,
+   "end": 696,
+   "chars": 26,
+   "text": "See Public Records below.\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 696,
+   "end": 841,
+   "chars": 145,
+   "text": "Response to this RFP is voluntary and does not constitute a commitment, implied or otherwise, for\nCWI to take procurement action in this matter. "
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 841,
+   "end": 932,
+   "chars": 91,
+   "text": "The College will not be responsible for any costs\nincurred in furnishing this information. "
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 932,
+   "end": 1056,
+   "chars": 124,
+   "text": "CWI requests that no copyrighted information, or personally\nidentifiable information, be submitted in response to this RFP.\n"
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 1057,
+   "end": 1149,
+   "chars": 92,
+   "text": "2 Instructions to Proposers\n2 .1 BID SUBMISSION DELIVERY INSTRUCTIONS – FED EX or UPS ONLY; "
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 1149,
+   "end": 1214,
+   "chars": 65,
+   "text": "TRACKING\nREQUIRED\nAll responses must be delivered as follows:\n1. "
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 1214,
+   "end": 1412,
+   "chars": 198,
+   "text": "Sealed envelope or digital proposal materials must be delivered in a sealed\npackage, and received on or before August 30, 2024 at 5:00 PM MT to the address\nnoted on the front title page of the RFP. "
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 1412,
+   "end": 1604,
+   "chars": 192,
+   "text": "Sealed Proposals should be clearly labeled\n“RFP 05-2024 Artificial Intelligence (AI) Technologies and Services” to avoid\ninadvertent opening of the materials prior to the public opening date.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 1604,
+   "end": 1607,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 1607,
+   "end": 1777,
+   "chars": 170,
+   "text": "Physical proposal submissions must include one set in hard copy format on\nstandard 8.5x11 paper to allow easy scanning, electronic copy on a USB Flash Drive\nis optional.\n"
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 1777,
+   "end": 1780,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p4-s16",
+   "page": 4,
+   "start": 1780,
+   "end": 1830,
+   "chars": 50,
+   "text": "Emailed proposals must be attached in PDF format. "
+  },
+  {
+   "id": "p4-s17",
+   "page": 4,
+   "start": 1830,
+   "end": 1871,
+   "chars": 41,
+   "text": "Zipped files are acceptable if\nrequired. "
+  },
+  {
+   "id": "p4-s18",
+   "page": 4,
+   "start": 1871,
+   "end": 1969,
+   "chars": 98,
+   "text": "Attachments and zip files will not be opened, shared, or viewed prior to\nthe public opening date.\n"
+  },
+  {
+   "id": "p4-s19",
+   "page": 4,
+   "start": 1969,
+   "end": 1972,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p4-s20",
+   "page": 4,
+   "start": 1972,
+   "end": 2173,
+   "chars": 201,
+   "text": "The FED EX or UPS delivery is to be sent to the following address:\nCollege of Western Idaho\nAttn: Daniel Reines, Procurement Coordinator\nRe: RFP 05-2024 AI Software\n6056 Birch Lane, Nampa, ID 83687\n5. "
+  },
+  {
+   "id": "p4-s21",
+   "page": 4,
+   "start": 2173,
+   "end": 2272,
+   "chars": 99,
+   "text": "Proposers may email Daniel Reines at danielreines@cwi.edu verify CWI’s receipt of\ntheir responses. "
+  },
+  {
+   "id": "p4-s22",
+   "page": 4,
+   "start": 2272,
+   "end": 2345,
+   "chars": 73,
+   "text": "A list of all Proposals received will be posted publicly on our\nwebsite.\n"
+  },
+  {
+   "id": "p4-s23",
+   "page": 4,
+   "start": 2345,
+   "end": 2348,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p4-s24",
+   "page": 4,
+   "start": 2348,
+   "end": 2505,
+   "chars": 157,
+   "text": "Once sealed bids are received, no other communication with CWI should occur\nuntil after evaluations, interviews have been scheduled, or an intent to award is"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 8,
+   "chars": 8,
+   "text": "posted. "
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 8,
+   "end": 86,
+   "chars": 78,
+   "text": "Any other communication will be considered unofficial and non-binding on\nCWI.\n"
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 86,
+   "end": 189,
+   "chars": 103,
+   "text": "Proposals received after the designated time and date indicated will not be considered for\nevaluation.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 190,
+   "end": 501,
+   "chars": 311,
+   "text": "2.2 Schedule of Events\nRequest for Proposal Issued and Advertised\nQuestion Period Ends\nQuestions and Answers Posted\nProposals Due\nEvaluation Period\nTentative Interview/Demonstrations for\nQualified Proposals\nIntent to Award\n* Dates subject to change\n\nAugust 2, 2024 and August 9, 2024\nAugust 22, 2024\nAugust 27, "
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 501,
+   "end": 820,
+   "chars": 319,
+   "text": "2024 by 5:00 PM MST\nAugust 30, 2024 by 5:00 PM MST\nSeptember 2 - 6, 2024\nSeptember 9 – 20, 2024\nNo later than September 30, 2024\n\n2.3 Contact with College Personnel\nQuestions Prior to Bid Submission – All Proposers submitting questions regarding this RFP prior to\nbid submission, must email questions to Daniel Reines, "
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 820,
+   "end": 895,
+   "chars": 75,
+   "text": "Procurement Coordinator, at\ndanielreines@cwi.edu and cc: contract@cwi.edu. "
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 895,
+   "end": 1073,
+   "chars": 178,
+   "text": "Please write in the subject line of all emails,\n“Q&A RFP 05-2024 Artificial Intelligence (AI) Technologies and Services.” All questions must be\nsubmitted on or before August 22, "
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 1073,
+   "end": 1279,
+   "chars": 206,
+   "text": "2024 at 5:00 PM MT. CWI will attempt to answer all questions as\nquickly as possible and all questions and responses will be shared publicly on CWI’s website\n(noted below) on August 27, 2024 by 5:00 PM MST.\n"
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 1279,
+   "end": 1388,
+   "chars": 109,
+   "text": "The College reserves the right to modify the Scope and Specifications of this RFP, as circumstances\nrequire. "
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 1388,
+   "end": 1456,
+   "chars": 68,
+   "text": "The RFP and all subsequent addenda may be found on the CWI website. "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 1456,
+   "end": 1764,
+   "chars": 308,
+   "text": "It will be the\nresponsibility of the Proposers to check for updates and/or amendments at:\nhttp://cwi.edu/info/procurement-division-contractspurchasing\n\n2.4 Proposal Opening\nAll proposals received by the time and due date will be publicly opened by representatives of the\nEvaluation Committee on September 2, "
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 1764,
+   "end": 1882,
+   "chars": 118,
+   "text": "2024 at 9:00 AM MT at the College of Western Idaho\nAdministration Building, 6056 Birch Lane, Suite 200, Nampa, Idaho. "
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 1882,
+   "end": 1953,
+   "chars": 71,
+   "text": "At the time of opening only the\nnames of the Proposers will be shared. "
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 1953,
+   "end": 2043,
+   "chars": 90,
+   "text": "The opening document with the names of the Proposers be\nshared publicly on CWI’s website.\n"
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 2044,
+   "end": 2120,
+   "chars": 76,
+   "text": "2.5 Errors in Proposals\nCWI will not be liable for any errors in proposals. "
+  },
+  {
+   "id": "p5-s15",
+   "page": 5,
+   "start": 2120,
+   "end": 2188,
+   "chars": 68,
+   "text": "Modifications to proposals will not be accepted\nafter the deadline.\n"
+  },
+  {
+   "id": "p5-s16",
+   "page": 5,
+   "start": 2189,
+   "end": 2398,
+   "chars": 209,
+   "text": "2.6 Withdrawing Proposals\nProposers may withdraw a proposal at any time prior to the deadline by submitting an email to\ndanielreines@cwi.edu and cc: contract@cwi.edu sent by an authorized representative of the"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 10,
+   "chars": 10,
+   "text": "Proposer. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 10,
+   "end": 125,
+   "chars": 115,
+   "text": "After withdrawing a proposal, the Proposer may submit another proposal at any time prior\nto the proposal due date.\n"
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 126,
+   "end": 227,
+   "chars": 101,
+   "text": "2.7 Limitations\nThe College will not be obligated in any way by any Proposer’s response to this RFP. "
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 227,
+   "end": 406,
+   "chars": 179,
+   "text": "Selection of a\nproposal and the accompanying award of a contract are to be based on evaluation criteria\nestablished in this RFP and described in the Evaluation and Award Section. "
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 406,
+   "end": 462,
+   "chars": 56,
+   "text": "The selection is at the\nsole discretion of the College.\n"
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 462,
+   "end": 626,
+   "chars": 164,
+   "text": "The issuance of this RFP does not constitute an assurance that any contract will be entered into by\nany parties and the College expressly reserves the right to:\n1. "
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 626,
+   "end": 693,
+   "chars": 67,
+   "text": "Request additional information and data from any or all Proposers.\n"
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 693,
+   "end": 696,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 696,
+   "end": 815,
+   "chars": 119,
+   "text": "Supplement, amend, or otherwise modify the RFP or cancel this request with or\nwithout the substitution of another RFP.\n"
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 815,
+   "end": 818,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 818,
+   "end": 962,
+   "chars": 144,
+   "text": "Disqualify any Proposer who fails to provide information or data requested\nherein or who provides inaccurate or misleading information or data.\n"
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 962,
+   "end": 965,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 965,
+   "end": 1048,
+   "chars": 83,
+   "text": "Disqualify any Proposer on the basis of any real or apparent conflict of interest.\n"
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 1048,
+   "end": 1051,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 1051,
+   "end": 1127,
+   "chars": 76,
+   "text": "Disqualify any Proposer on the basis of past performance on other projects.\n"
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 1127,
+   "end": 1130,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 1130,
+   "end": 1328,
+   "chars": 198,
+   "text": "College may negotiate with any Proposer to this RFP and shall have the sole\ndiscretion to choose the best combination of qualifications and price for the\nproject and services described in this RFP.\n"
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 1328,
+   "end": 1331,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 1331,
+   "end": 1481,
+   "chars": 150,
+   "text": "College shall have the sole discretion to select one or none of the Proposers to\nprovide the services, or portions thereof, as described in this RFP.\n"
+  },
+  {
+   "id": "p6-s19",
+   "page": 6,
+   "start": 1482,
+   "end": 1743,
+   "chars": 261,
+   "text": "2.8 Public Records\nPursuant to Idaho Code section 74-101 et seq., information or documents received by CWI in a\nproposal from a Proposer may be open to public inspection and copying following the\nannouncement of a contract award, unless exempt from disclosure. "
+  },
+  {
+   "id": "p6-s20",
+   "page": 6,
+   "start": 1743,
+   "end": 2052,
+   "chars": 309,
+   "text": "If a proposal contains any\ninformation that is considered exempt under Idaho Code 74-101 et seq., such information must be\nclearly marked with the following clause:\n“This information is exempt under the Idaho Public Records Act”\nProposer must also provide the applicable Idaho code supporting the exemptions. "
+  },
+  {
+   "id": "p6-s21",
+   "page": 6,
+   "start": 2052,
+   "end": 2145,
+   "chars": 93,
+   "text": "College\nassumes no liability for disclosure of proprietary material submitted by a Proposer. "
+  },
+  {
+   "id": "p6-s22",
+   "page": 6,
+   "start": 2145,
+   "end": 2365,
+   "chars": 220,
+   "text": "If the exempt\nstatus of this information submitted by the Proposer is challenged, the information will not be\nreleased until the Proposer has been notified of the challenge and has been given the opportunity\nto respond. "
+  },
+  {
+   "id": "p6-s23",
+   "page": 6,
+   "start": 2365,
+   "end": 2609,
+   "chars": 244,
+   "text": "Proposers agree to defend and hold CWI harmless from and against any disputes\narising from their designation of information as exempt and to indemnify CWI for any costs,\nattorney fees, and penalties incurred by CWI related to any such dispute. "
+  },
+  {
+   "id": "p6-s24",
+   "page": 6,
+   "start": 2609,
+   "end": 2648,
+   "chars": 39,
+   "text": "Variation of this term is\nnot offered.\n"
+  },
+  {
+   "id": "p6-s25",
+   "page": 6,
+   "start": 2648,
+   "end": 2777,
+   "chars": 129,
+   "text": "A Proposer shall not label an entire document as “exempt” merely because a portion of that\ndocument is or may be a trade secret. "
+  },
+  {
+   "id": "p6-s26",
+   "page": 6,
+   "start": 2777,
+   "end": 2919,
+   "chars": 142,
+   "text": "If a proposal is marked as “exempt” in its entirety, it will be\nconsidered public record in its entirety, and will be disclosed, if requested."
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 3,
+   "end": 162,
+   "chars": 159,
+   "text": "Submittal Requirements\n3.1 Proposal Content\nEach official paper response should clearly indicate the company’s name, address, and web\naddress (if applicable). "
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 162,
+   "end": 299,
+   "chars": 137,
+   "text": "Each response should also include the company’s contact(s) responsible\nfor the proposal, their phone numbers, and their email addresses.\n"
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 299,
+   "end": 473,
+   "chars": 174,
+   "text": "Proposers to this RFP are responsible for all costs associated with preparing their proposals,\nanswering all questions, and providing the College with requested information. "
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 473,
+   "end": 667,
+   "chars": 194,
+   "text": "If selected to\nprovide product demonstrations, Proposers are also responsible for all costs associated with the\ndemonstrations including, but not limited to, transportation, lodging, and meals. "
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 667,
+   "end": 761,
+   "chars": 94,
+   "text": "The College is\nunder no obligation to incur or reimburse any Proposer for any proposal costs. "
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 761,
+   "end": 833,
+   "chars": 72,
+   "text": "It is likely that\nproduct demonstrations will be by video conferencing.\n"
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 833,
+   "end": 896,
+   "chars": 63,
+   "text": "Proposals must respond to all required items in this proposal. "
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 896,
+   "end": 995,
+   "chars": 99,
+   "text": "Please ensure that Exhibit A and\nExhibit D are completed, signed, and included with your proposal.\n"
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 995,
+   "end": 1075,
+   "chars": 80,
+   "text": "This will allow the College’s Evaluators to more objectively compare proposals. "
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 1075,
+   "end": 1238,
+   "chars": 163,
+   "text": "All proposals\nshould respond directly to all requirements and questions posed in these sections of this RFP and\ncomment on capabilities to meet such requirements. "
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 1238,
+   "end": 1281,
+   "chars": 43,
+   "text": "Emphasis should be on clarity and brevity.\n"
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 1281,
+   "end": 1371,
+   "chars": 90,
+   "text": "Any additional material that a Proposer deems necessary should be attached as appendices.\n"
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 1372,
+   "end": 1665,
+   "chars": 293,
+   "text": "3.2 Eligibility for Award\nIn order for a Proposer to be eligible for an awarded contract, the proposal must be responsive to\nthis RFP and Evaluators must be able to determine that the Proposer is responsible and has the\nresources and capacity to perform the resulting contract satisfactorily.\n"
+  },
+  {
+   "id": "p7-s14",
+   "page": 7,
+   "start": 1665,
+   "end": 1813,
+   "chars": 148,
+   "text": "Eligible Proposers, at a minimum, must meet the following requirements and state they are able to\nmeet the follow requirements in the proposals:\n1. "
+  },
+  {
+   "id": "p7-s15",
+   "page": 7,
+   "start": 1813,
+   "end": 1943,
+   "chars": 130,
+   "text": "Be qualified as an established Proposer regularly engaged in the type of business\nnecessary to fulfill the contract requirements.\n"
+  },
+  {
+   "id": "p7-s16",
+   "page": 7,
+   "start": 1943,
+   "end": 1946,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p7-s17",
+   "page": 7,
+   "start": 1946,
+   "end": 2180,
+   "chars": 234,
+   "text": "The proposer must disclose in its proposal any conditions or foreseeable\ncircumstances (i.e., mergers, acquisitions, etc.) that would have an adverse effect\non its ability to honor all terms of the contract or service it can provide. "
+  },
+  {
+   "id": "p7-s18",
+   "page": 7,
+   "start": 2180,
+   "end": 2275,
+   "chars": 95,
+   "text": "(if no adverse\nconditions or circumstances are foreseeable, provide a response stating so.)\n3. "
+  },
+  {
+   "id": "p7-s19",
+   "page": 7,
+   "start": 2275,
+   "end": 2394,
+   "chars": 119,
+   "text": "Be able to comply with the required performance schedule, taking into\nconsideration all existing business commitments.\n"
+  },
+  {
+   "id": "p7-s20",
+   "page": 7,
+   "start": 2394,
+   "end": 2397,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p7-s21",
+   "page": 7,
+   "start": 2397,
+   "end": 2497,
+   "chars": 100,
+   "text": "Have necessary personnel and management capable of performing requirements\non a resulting contract.\n"
+  },
+  {
+   "id": "p7-s22",
+   "page": 7,
+   "start": 2497,
+   "end": 2500,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p7-s23",
+   "page": 7,
+   "start": 2500,
+   "end": 2595,
+   "chars": 95,
+   "text": "Be otherwise qualified and eligible to receive an award under applicable laws and\nregulations.\n"
+  },
+  {
+   "id": "p7-s24",
+   "page": 7,
+   "start": 2596,
+   "end": 2599,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p7-s25",
+   "page": 7,
+   "start": 2599,
+   "end": 2788,
+   "chars": 189,
+   "text": "Proposal Evaluation and Award\n4.1 Evaluation Criteria\nAn Evaluation Committee will carefully review all proposals submitted to determine which proposal\nbest meets the needs of the College. "
+  },
+  {
+   "id": "p7-s26",
+   "page": 7,
+   "start": 2788,
+   "end": 2845,
+   "chars": 57,
+   "text": "CWI may choose to use competitive negotiations to develop"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 152,
+   "chars": 152,
+   "text": "the final contract or agreement with the Proposer whose proposal best suits the needs of the\nCollege, based upon the sole discretion of the Evaluators.\n"
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 152,
+   "end": 206,
+   "chars": 54,
+   "text": "Proposals will be evaluated based on the table below. "
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 206,
+   "end": 379,
+   "chars": 173,
+   "text": "If CWI is not able to select a Proposal after\nthe initial evaluation, they may place select multiple Proposals receiving the most total points to be\nplaced on a short list. "
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 379,
+   "end": 477,
+   "chars": 98,
+   "text": "Proposers on the short list will be invited for an interview and demonstration\nof their products. "
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 477,
+   "end": 598,
+   "chars": 121,
+   "text": "Upon completion of all interviews and demonstrations, the CWI evaluation team\nmay adjust their initial evaluation score. "
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 598,
+   "end": 705,
+   "chars": 107,
+   "text": "At CWI discretion they may choose to issue an Intent to\nAward to the Proposer receiving the highest score.\n"
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 706,
+   "end": 881,
+   "chars": 175,
+   "text": "Proposal Evaluation Criteria\nQualifying Criteria\n1 The Proposal will support or integrate with assistive technology and accessibility tools P/F\nfor persons with disabilities.\n"
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 881,
+   "end": 1185,
+   "chars": 304,
+   "text": "P/F\n2 The Proposer provided responses to all requirements in Section 3.2 and returned\nsigned Appendix A and Appendix D\nScored Criteria (Section 5)\n3 Response to Question 15 has been evaluated by CWI IT and determined that it\n20\nadheres to strict privacy and security standards to ensure the safety of the"
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 1185,
+   "end": 1234,
+   "chars": 49,
+   "text": " existing\ninformation technology infrastructure.\n"
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 1234,
+   "end": 1467,
+   "chars": 233,
+   "text": "4 Responses to Question 13 and Question 14 will be reviewed by CWI Legal and\n20\nevaluated based on how CWI perceives Proposer’s ability to adapt quickly to new or\nchanging laws or CWI policies regarding Ai technologies and services.\n"
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1467,
+   "end": 1619,
+   "chars": 152,
+   "text": "20\n5 The Proposal technology has easy, user-friendly access for faculty and students\n(access to the software via the Blackboard LMS will be preferred).\n"
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1619,
+   "end": 1821,
+   "chars": 202,
+   "text": "20\n6 The Proposal technology and services will give students and faculty access to the\nlatest versions of one or more Frontier AI models, including any updates to the models\nduring the contract period.\n"
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 1821,
+   "end": 1924,
+   "chars": 103,
+   "text": "7 The Proposal allows faculty and students to engage in a wide variety of instructional 20\nactivities. "
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 1924,
+   "end": 2128,
+   "chars": 204,
+   "text": "(Scoring will be based on CWI’s perceived total value of the quality, not\nquantity, of the instructional activities.)\n20\n8 The Proposal technology and services will provide timely responses and feedback.\n"
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 2128,
+   "end": 2401,
+   "chars": 273,
+   "text": "(For example, faculty and students should not have to wait more than a few seconds\nfor responses to simple prompts.)\n20\n9 There is sufficient documentation, technical support, and training to ensure that\nfaculty and students can successfully access and use the technology.\n"
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 2401,
+   "end": 2471,
+   "chars": 70,
+   "text": "10 Ongoing customer support and technical troubleshooting assistance. "
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 2471,
+   "end": 2692,
+   "chars": 221,
+   "text": "(Preference will 20\nbe given for access to live human support if issues cannot be resolved through\nautomated systems.)\n20\n11 The Proposal technology interface, navigation, and use is easy to understand and\nuser-friendly.\n"
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 2692,
+   "end": 2796,
+   "chars": 104,
+   "text": "12 Total cost (implementation and on-going costs) and CWI’s perceived value to students 20\nand faculty.\n"
+  },
+  {
+   "id": "p8-s18",
+   "page": 8,
+   "start": 2797,
+   "end": 2938,
+   "chars": 141,
+   "text": "4.2 Unresponsive Proposals\nProposals not meeting the following requirements may be deemed unresponsive and may not be\nafforded consideration:"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 3,
+   "end": 133,
+   "chars": 130,
+   "text": "A submitted proposal may be deemed unresponsive if the Proposer does not\nspecifically offer all services as specified in the RFP.\n"
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 133,
+   "end": 136,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 136,
+   "end": 268,
+   "chars": 132,
+   "text": "The proposal must acknowledge that all services, terms, and conditions specified in\nthis proposal are included in the quoted price.\n"
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 268,
+   "end": 271,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 271,
+   "end": 431,
+   "chars": 160,
+   "text": "The proposal must state that this RFP and the proposal submitted by the Proposer in\nresponse to this RFP will be made a material part of any contract executed.\n"
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 432,
+   "end": 654,
+   "chars": 222,
+   "text": "4.3 Interviews and Demonstrations\nIf CWI finds it necessary, Proposers with the highest scores after the initial review will be invited to\ninterview and provide a demonstration of their proposed technologies and services. "
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 654,
+   "end": 818,
+   "chars": 164,
+   "text": "The focus of\nthe demonstration will be to see how the technology is accessed, how it operates, and answer any\nfollow up questions the CWI Evaluation team may have.\n"
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 818,
+   "end": 909,
+   "chars": 91,
+   "text": "The Proposers will be evaluated on the same criteria used in the initial evaluation above. "
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 909,
+   "end": 1078,
+   "chars": 169,
+   "text": "The\nEvaluation Committee will use the same initial score card from above and change or adjust any\nscores they deem appropriate based on the interview and demonstration.\n"
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 1079,
+   "end": 1381,
+   "chars": 302,
+   "text": "4.4 Discussions and Negotiations\nCollege reserves the right to conduct discussions with Proposers, to accept revisions of proposals,\nto negotiate price changes, or to negotiate separately with any source whatsoever, if no acceptable\nproposals are submitted in order to best serve the interests of CWI. "
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 1381,
+   "end": 1491,
+   "chars": 110,
+   "text": "The College also reserves the\nright to negotiate final pricing for any contract entered into with a Proposer.\n"
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 1492,
+   "end": 1660,
+   "chars": 168,
+   "text": "4.5 Contract Period\nThe intent of this RFP is to contract with the successful Proposer for one (1) year with the option to\nrenew for three successive one year periods. "
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 1660,
+   "end": 1726,
+   "chars": 66,
+   "text": "The contract may be extended under the same terms\nand conditions. "
+  },
+  {
+   "id": "p9-s14",
+   "page": 9,
+   "start": 1726,
+   "end": 1794,
+   "chars": 68,
+   "text": "Each option to renew must be in writing and signed by both parties.\n"
+  },
+  {
+   "id": "p9-s15",
+   "page": 9,
+   "start": 1795,
+   "end": 1989,
+   "chars": 194,
+   "text": "4.6 Contract Award\nThe award, if any, shall be made to the Proposer whose proposal is determined to be the most\nadvantageous to the College based on the evaluation factors described in the RFP. "
+  },
+  {
+   "id": "p9-s16",
+   "page": 9,
+   "start": 1989,
+   "end": 2062,
+   "chars": 73,
+   "text": "Price, although a\nconsideration, may not be the sole determining factor. "
+  },
+  {
+   "id": "p9-s17",
+   "page": 9,
+   "start": 2062,
+   "end": 2215,
+   "chars": 153,
+   "text": "This RFP does not commit to awarding a\ncontract, pay any costs incurred in the preparation of a proposal, or contract for the services\ndescribed herein.\n"
+  },
+  {
+   "id": "p9-s18",
+   "page": 9,
+   "start": 2215,
+   "end": 2439,
+   "chars": 224,
+   "text": "College will name the apparent successful Proposer in a “Notice of Intent to Award.” Identification\nof the apparent successful Proposer is procedural only and creates no right in the named Proposer\nto award of the contract.\n"
+  },
+  {
+   "id": "p9-s19",
+   "page": 9,
+   "start": 2439,
+   "end": 2641,
+   "chars": 202,
+   "text": "The resultant contract will constitute the College’s acceptance of the signed and dated proposal in\nresponse to the Request for Proposals 05-2024 Artificial Intelligence (AI) Technologies and\nServices. "
+  },
+  {
+   "id": "p9-s20",
+   "page": 9,
+   "start": 2641,
+   "end": 2805,
+   "chars": 164,
+   "text": "This RFP, its appendices and any amendments, and the Proposal submitted by the\nsuccessful Proposer will be incorporated into and become part of the final contract. "
+  },
+  {
+   "id": "p9-s21",
+   "page": 9,
+   "start": 2805,
+   "end": 3030,
+   "chars": 225,
+   "text": "The contract,\nin its incorporated, composite form, represents the entire agreement between the Proposer and\nCollege and supersedes all prior negotiations, representations, understandings or agreements,\neither written or oral."
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 163,
+   "chars": 163,
+   "text": "Where Proposer’s proposal differs or conflicts with from the College’s RFP or its Appendices, as\nprovided in this solicitation, the terms of this RFP shall apply. "
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 163,
+   "end": 416,
+   "chars": 253,
+   "text": "Where Proposer’s proposal, any\nlicenses, service terms, or other terms supplements the RFP and its Appendices, the supplemental\nterms and conditions shall apply only if specifically reviewed, approved, and accepted by the\nCollege in a written Addendum. "
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 416,
+   "end": 703,
+   "chars": 287,
+   "text": "License, service, maintenance, or any other type of agreements\ndesired by the firm to be signed by the College, are only binding upon the College to the extent they\nare in full agreement with the RFP and have been specifically reviewed, approved, and accepted by\nthe College in writing.\n"
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 704,
+   "end": 707,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 707,
+   "end": 827,
+   "chars": 120,
+   "text": "Evaluation Questions\nPlease use the following format to provide a response to the following instructions and questions. "
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 827,
+   "end": 954,
+   "chars": 127,
+   "text": "The\nquestions numbers correspond to the evaluation criteria above and scorecards that will be used by the\nCWI Evaluation Team.\n"
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 954,
+   "end": 1052,
+   "chars": 98,
+   "text": "Introduction:\nPlease describe your company, staff resources, references, history, and experience.\n"
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 1052,
+   "end": 1241,
+   "chars": 189,
+   "text": "Question 1\n\nPlease describe how the technology and services will adhere to strict privacy and\nsecurity standards to ensure the safety of the existing information technology\ninfrastructure.\n"
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 1242,
+   "end": 1424,
+   "chars": 182,
+   "text": "Question 2\n\nPlease describe how the technology and services will ensure student\nconfidentiality in line with FERPA laws and accreditation guidelines, as well as\nother relevant laws. "
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 1424,
+   "end": 1702,
+   "chars": 278,
+   "text": "(For example, does it provide commercial data protection to\nensure student information and student work is not used for training current or\nfuture AI models?)\n\nQuestion 3\n\nDo the technology and services comply with copyright laws and allow for fair use\nby faculty and students?\n"
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 1703,
+   "end": 1820,
+   "chars": 117,
+   "text": "Question 4\n\nPlease describe how the technology and services will ensure accessibility for\npersons with disabilities.\n"
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 1821,
+   "end": 1976,
+   "chars": 155,
+   "text": "Question 5\n\nPlease describe how students and faculty will access the technology and\nservices, including how they will be able to interact with each other. "
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 1976,
+   "end": 2040,
+   "chars": 64,
+   "text": "Will this\ntechnology integrate and allow access via Blackboard?\n"
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 2041,
+   "end": 2128,
+   "chars": 87,
+   "text": "Question 6\n\nPlease describe what Frontier AI model(s) the technology and services use. "
+  },
+  {
+   "id": "p10-s14",
+   "page": 10,
+   "start": 2128,
+   "end": 2284,
+   "chars": 156,
+   "text": "Do the\ntechnology and services include access to the most current updates, the latest\ncapabilities, and on-going upgrades as the Frontier AI models evolve?\n"
+  },
+  {
+   "id": "p10-s15",
+   "page": 10,
+   "start": 2285,
+   "end": 2436,
+   "chars": 151,
+   "text": "Question 7\n\nPlease describe the variety of tools and functions that students and faculty will\nhave access to that can enhance the learning experience. "
+  },
+  {
+   "id": "p10-s16",
+   "page": 10,
+   "start": 2436,
+   "end": 2673,
+   "chars": 237,
+   "text": "(For example, will the\ntechnology and services allow faculty to create a variety of AI bots that follow\nspecific instructions that will allow students in discussion groups to interact with\neach other and with the bots in different ways? "
+  },
+  {
+   "id": "p10-s17",
+   "page": 10,
+   "start": 2673,
+   "end": 2740,
+   "chars": 67,
+   "text": "What will the technology look like\nfrom the student’s perspective?)"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 117,
+   "chars": 117,
+   "text": "Question 8\n\nPlease describe the average response time of the AI technology to prompts from\nthe faculty and students.\n"
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 118,
+   "end": 245,
+   "chars": 127,
+   "text": "Question 9\n\nPlease describe the documentation, technical support, and training that will be\navailable to faculty and students.\n"
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 246,
+   "end": 339,
+   "chars": 93,
+   "text": "Question 10 Please describe the customer service and on-going support that will be provided.\n"
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 339,
+   "end": 440,
+   "chars": 101,
+   "text": "CWI will prefer access to live human support if issues cannot be resolved through\nautomated systems.\n"
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 440,
+   "end": 658,
+   "chars": 218,
+   "text": "Question 11 Please provide a demonstration of the interface by providing either (a)\nscreenshots, (b) a short YouTube video link, or (c) other way to give the team a\nvisual representation of how the interface operates. "
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 658,
+   "end": 760,
+   "chars": 102,
+   "text": "(This area will be evaluated on\nhow user-friendly the interface is perceived by the Evaluation Team).\n"
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 760,
+   "end": 885,
+   "chars": 125,
+   "text": "Question 12 Please describe the process and timeline for implementation including a\nbreakdown of the total costs for 1 year.\n"
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 885,
+   "end": 1055,
+   "chars": 170,
+   "text": "Question 13 As AI technology continues to quickly develop resulting AI regulations, industry\npractices, and CWI policy are certain to change and develop at a rapid pace.\n"
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 1055,
+   "end": 1244,
+   "chars": 189,
+   "text": "Please provide a statement of your ability to adapt and work with CWI to remain\nregarding AI legal issues, including but not limited to, data security, copyright\ninfringement, and privacy.\n"
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 1244,
+   "end": 1438,
+   "chars": 194,
+   "text": "Question 14 What are your polices to ensure your product and service complies with\napplicable federal and state laws as it pertains to data security, FERPA, copyright\ninfringement, and privacy?\n"
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 1438,
+   "end": 1542,
+   "chars": 104,
+   "text": "Question15 IT Security:\n•\n\n•\n•\n•\n•\n•\n\n•\n\n•Security Framework: To which security framework do you align? "
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 1542,
+   "end": 1761,
+   "chars": 219,
+   "text": "Examples: National\nInstitute of Standards and Technology Cybersecurity Framework(NIST CF), NIST 800171/CMMC, State Requirements, Personal Identifiable Information(PII), Center for\nInternet Security Standards(CIS), ect.\n"
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 1761,
+   "end": 1885,
+   "chars": 124,
+   "text": "Data Collection: What types of data will your software collect, and what are the\npurposes for collecting each type of data?\n"
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 1885,
+   "end": 1933,
+   "chars": 48,
+   "text": "Data Storage: How and where is the data stored? "
+  },
+  {
+   "id": "p11-s14",
+   "page": 11,
+   "start": 1933,
+   "end": 1999,
+   "chars": 66,
+   "text": "What measures are in place to ensure\nthe security of stored data?\n"
+  },
+  {
+   "id": "p11-s15",
+   "page": 11,
+   "start": 1999,
+   "end": 2134,
+   "chars": 135,
+   "text": "Data Processing: Describe how the data will be processed by your AI technologies,\nincluding any transformations or analyses performed.\n"
+  },
+  {
+   "id": "p11-s16",
+   "page": 11,
+   "start": 2134,
+   "end": 2230,
+   "chars": 96,
+   "text": "Data Sharing: Explain under what circumstances, if any, data will be shared with third\nparties. "
+  },
+  {
+   "id": "p11-s17",
+   "page": 11,
+   "start": 2230,
+   "end": 2275,
+   "chars": 45,
+   "text": "How is data protected during such transfers?\n"
+  },
+  {
+   "id": "p11-s18",
+   "page": 11,
+   "start": 2275,
+   "end": 2368,
+   "chars": 93,
+   "text": "User Consent and Control: How do you obtain user consent for data collection and\nprocessing? "
+  },
+  {
+   "id": "p11-s19",
+   "page": 11,
+   "start": 2368,
+   "end": 2474,
+   "chars": 106,
+   "text": "What mechanisms are in place for users to control their data, including\naccess, correction, and deletion?\n"
+  },
+  {
+   "id": "p11-s20",
+   "page": 11,
+   "start": 2474,
+   "end": 2682,
+   "chars": 208,
+   "text": "Data Security: Describe the security protocols and technologies implemented to\nprotect data from unauthorized access, breaches, and cyber threats, including\nencryption methods for data at rest and in transit."
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 196,
+   "chars": 196,
+   "text": "•\n\n•\n•\n\n•\n\nIncident Response: Outline your incident response plan in the event of a data breach or\nsecurity incident, including detection, containment, investigation, and notification\nprocedures.\n"
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 196,
+   "end": 359,
+   "chars": 163,
+   "text": "Risk Management: Describe your approach to continuously monitor, assess, and\nmitigate potential security risks associated with data usage in your AI technologies.\n"
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 359,
+   "end": 471,
+   "chars": 112,
+   "text": "Access Control: What is the minimum level of access to the system or data that your AI\ntechnology will require? "
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 471,
+   "end": 590,
+   "chars": 119,
+   "text": "How do you ensure that your AI technology is contained and\ndoesn’t grant itself any more access than what is required?\n"
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 590,
+   "end": 778,
+   "chars": 188,
+   "text": "Employee Training: Detail the training programs and policies in place to ensure that your\nemployees are aware of and adhere to privacy and security best practices related to data\nhandling."
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 85,
+   "chars": 85,
+   "text": "Appendix A Signature Block\nPlease return this page with each copy of your submittal.\n"
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 85,
+   "end": 256,
+   "chars": 171,
+   "text": "The undersigned, an authorized agent of his/her company, hereby certifies:\n( ) They have reviewed and understands all terms, conditions, and specifications herein stated.\n"
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 256,
+   "end": 326,
+   "chars": 70,
+   "text": "( ) Proposer has reviewed and understands section 2.8 Public Records.\n"
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 326,
+   "end": 398,
+   "chars": 72,
+   "text": "( ) The Proposer is qualified to perform work and services as included.\n"
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 398,
+   "end": 478,
+   "chars": 80,
+   "text": "( ) The pricing contained in the proposal is valid for 120 days from submittal.\n"
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 479,
+   "end": 611,
+   "chars": 132,
+   "text": "Signature\nName and Title\nCompany Name\nAddress, City, State, Zip Code\nPhone Number and Email\nFederal Tax ID Number\nDate of Submission"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 193,
+   "chars": 193,
+   "text": "Appendix B\n\nTerms and Conditions of Contract\n\nThe resultant contract will constitute the College’s acceptance of the signed and dated proposal in\nresponse to the Request for Proposals 05-2024. "
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 193,
+   "end": 356,
+   "chars": 163,
+   "text": "The RFP and its Appendices and any amendments,\nand the Responding Proposal submitted by the successful Proposer will be incorporated into and\nbecome the contract. "
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 356,
+   "end": 413,
+   "chars": 57,
+   "text": "The following terms and conditions will be incorporated. "
+  },
+  {
+   "id": "p14-s3",
+   "page": 14,
+   "start": 413,
+   "end": 596,
+   "chars": 183,
+   "text": "By submitting an\noffer the Proposer warrants they have reviewed these terms and conditions and can abide by them\nupon any acceptance of a proposal by the College of Western Idaho:\n1. "
+  },
+  {
+   "id": "p14-s4",
+   "page": 14,
+   "start": 596,
+   "end": 817,
+   "chars": 221,
+   "text": "Governing Law/Jurisdiction\nThe contract resulting from this RFP solicitation shall be governed in all respects (validity,\nconstruction, capacity, performance) by the laws of the State of Idaho or applicable federal laws.\n"
+  },
+  {
+   "id": "p14-s5",
+   "page": 14,
+   "start": 817,
+   "end": 960,
+   "chars": 143,
+   "text": "The venue or jurisdiction of any claim arising from this contract shall be in the federal and/or district\ncourts located in Ada County, Idaho.\n"
+  },
+  {
+   "id": "p14-s6",
+   "page": 14,
+   "start": 960,
+   "end": 963,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p14-s7",
+   "page": 14,
+   "start": 963,
+   "end": 987,
+   "chars": 24,
+   "text": "Compliance with Laws\na. "
+  },
+  {
+   "id": "p14-s8",
+   "page": 14,
+   "start": 987,
+   "end": 1241,
+   "chars": 254,
+   "text": "Proposer shall agree to fully cooperate with any audit or investigation, and comply with all\nrequirements of federal, state and local laws and regulations applicable to firm, firm’s\nservice or to the property provided by firm pursuant to this agreement.\n"
+  },
+  {
+   "id": "p14-s9",
+   "page": 14,
+   "start": 1241,
+   "end": 1244,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p14-s10",
+   "page": 14,
+   "start": 1244,
+   "end": 1428,
+   "chars": 184,
+   "text": "Verification:\nProposer’s obligations under this section include the verification process under Idaho Code\nSection 67-7903 requiring documentation of lawful presence for all employees.\n"
+  },
+  {
+   "id": "p14-s11",
+   "page": 14,
+   "start": 1428,
+   "end": 1431,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p14-s12",
+   "page": 14,
+   "start": 1431,
+   "end": 1745,
+   "chars": 314,
+   "text": "Anti-Discrimination:\nAcceptance of this agreement binds the Proposer to the terms and conditions of Section\n601, Title VI, Civil Rights Act of 1964, in that \"No person in the United States shall, on the\ngrounds of race, color, national origin, or sex, be excluded from participation in, be denied\nthe benefits of, "
+  },
+  {
+   "id": "p14-s13",
+   "page": 14,
+   "start": 1745,
+   "end": 2051,
+   "chars": 306,
+   "text": "or be subject to discrimination under any program or activity receiving\nFederal financial assistance.\" In addition, \"No otherwise qualified individual with a disability\nin the United States shall, solely by reason of his or her disability, be excluded from the\nparticipation in, be denied the benefits of, "
+  },
+  {
+   "id": "p14-s14",
+   "page": 14,
+   "start": 2051,
+   "end": 2204,
+   "chars": 153,
+   "text": "or be subjected to discrimination under any\nprogram or activity receiving Federal financial assistance\" (Section 504 of the Rehabilitation\nAct of 1973). "
+  },
+  {
+   "id": "p14-s15",
+   "page": 14,
+   "start": 2204,
+   "end": 2471,
+   "chars": 267,
+   "text": "Furthermore, for contracts involving federal funds, the applicable provisions\nand requirements of Executive Order 11246 as amended, Section 402 of the Vietnam Era\nVeterans Readjustment Assistance Act of 1974, Section 701 of Title VII of the Civil Rights\nAct of 1964, "
+  },
+  {
+   "id": "p14-s16",
+   "page": 14,
+   "start": 2471,
+   "end": 2791,
+   "chars": 320,
+   "text": "the Age Discrimination in Employment Act of 1967 (ADEA), 29 USC Sections\n621, et seq., the Age Discrimination Act of 1975, Title IX of the Education Amendments of\n1972, U.S. Department of Interior regulations at 43 CFR Part 17, and the Americans with\nDisabilities Act of 1990, are also incorporated into this agreement. "
+  },
+  {
+   "id": "p14-s17",
+   "page": 14,
+   "start": 2791,
+   "end": 2971,
+   "chars": 180,
+   "text": "The Proposer shall\ncomply with pertinent amendments to such laws made during the term of the agreement\nand with all federal and state rules and regulations implementing such laws. "
+  },
+  {
+   "id": "p14-s18",
+   "page": 14,
+   "start": 2971,
+   "end": 3061,
+   "chars": 90,
+   "text": "The Proposer\nmust include this provision in every subcontract relating to this agreement.\n"
+  },
+  {
+   "id": "p14-s19",
+   "page": 14,
+   "start": 3061,
+   "end": 3064,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p14-s20",
+   "page": 14,
+   "start": 3064,
+   "end": 3205,
+   "chars": 141,
+   "text": "FERPA:\nThe privacy of student record information is protected under the federal Family Educational\nRights and Privacy Act (FERPA), 20 U.S.C. "
+  },
+  {
+   "id": "p14-s21",
+   "page": 14,
+   "start": 3205,
+   "end": 3220,
+   "chars": 15,
+   "text": "Section 1232g. "
+  },
+  {
+   "id": "p14-s22",
+   "page": 14,
+   "start": 3220,
+   "end": 3429,
+   "chars": 209,
+   "text": "If at any time during the course of\nactivities under this agreement, the Proposer is provided access to individual student\ninformation, or to a system that contains individual student information, the Proposer"
+  },
+  {
+   "id": "p15-s0",
+   "page": 15,
+   "start": 0,
+   "end": 249,
+   "chars": 249,
+   "text": "agrees to maintain that information in compliance with FERPA, and agrees not to use or\ndisclose that information or create or maintain copies of that information for any purpose\nnot directly related to and expressly authorized under this agreement.\n"
+  },
+  {
+   "id": "p15-s1",
+   "page": 15,
+   "start": 249,
+   "end": 252,
+   "chars": 3,
+   "text": "7.\n"
+  },
+  {
+   "id": "p15-s2",
+   "page": 15,
+   "start": 252,
+   "end": 255,
+   "chars": 3,
+   "text": "e. "
+  },
+  {
+   "id": "p15-s3",
+   "page": 15,
+   "start": 255,
+   "end": 402,
+   "chars": 147,
+   "text": "HIPPA: If at any time during the course of activities under this agreement, the Proposer is\nprovided access to Protected Health Information (PHI), "
+  },
+  {
+   "id": "p15-s4",
+   "page": 15,
+   "start": 402,
+   "end": 705,
+   "chars": 303,
+   "text": "the firm shall comply with the\nStandards for Privacy of Individually Identifiable Information under the Health Insurance\nPortability and Accountability Act of 1996 contained in 45 CFR Parts 160 and 164 (the\n“HIPAA Privacy Standards”) as of the effective date of the HIPAA Privacy Standards on April\n14, "
+  },
+  {
+   "id": "p15-s5",
+   "page": 15,
+   "start": 705,
+   "end": 734,
+   "chars": 29,
+   "text": "2003 or as later determined. "
+  },
+  {
+   "id": "p15-s6",
+   "page": 15,
+   "start": 734,
+   "end": 979,
+   "chars": 245,
+   "text": "The Proposer will use all security and privacy safeguards\nnecessary to protect Protected Health Information (PHI), as defined by HIPAA, and shall\nimmediately report to the College all improper use or disclosure of PHI of which it becomes\naware.\n"
+  },
+  {
+   "id": "p15-s7",
+   "page": 15,
+   "start": 979,
+   "end": 982,
+   "chars": 3,
+   "text": "f. "
+  },
+  {
+   "id": "p15-s8",
+   "page": 15,
+   "start": 982,
+   "end": 1187,
+   "chars": 205,
+   "text": "Proposer certifies they are not currently owned or operated by the government of China and\nwill not for the duration of the contract be owned or operated by the government of China in\naccordance with I.C. "
+  },
+  {
+   "id": "p15-s9",
+   "page": 15,
+   "start": 1187,
+   "end": 1198,
+   "chars": 11,
+   "text": "§ 67-2359.\n"
+  },
+  {
+   "id": "p15-s10",
+   "page": 15,
+   "start": 1198,
+   "end": 1201,
+   "chars": 3,
+   "text": "g. "
+  },
+  {
+   "id": "p15-s11",
+   "page": 15,
+   "start": 1201,
+   "end": 1245,
+   "chars": 44,
+   "text": "Certification Concerning Boycott of Israel. "
+  },
+  {
+   "id": "p15-s12",
+   "page": 15,
+   "start": 1245,
+   "end": 1522,
+   "chars": 277,
+   "text": "Pursuant to Idaho Code section 67-2346, if\npayments under the Contract exceed one hundred thousand dollars ($100,000) and\nContractor employs ten or more persons, Contractor certifies that it is not currently\nengaged in, and will not for the duration of the Contract engage in, "
+  },
+  {
+   "id": "p15-s13",
+   "page": 15,
+   "start": 1522,
+   "end": 1599,
+   "chars": 77,
+   "text": "a boycott of goods or\nservices from Israel or territories under its control. "
+  },
+  {
+   "id": "p15-s14",
+   "page": 15,
+   "start": 1599,
+   "end": 1703,
+   "chars": 104,
+   "text": "The terms in this section defined in Idaho\nCode section 67-2346 shall have the meaning defined therein.\n"
+  },
+  {
+   "id": "p15-s15",
+   "page": 15,
+   "start": 1703,
+   "end": 1706,
+   "chars": 3,
+   "text": "h. "
+  },
+  {
+   "id": "p15-s16",
+   "page": 15,
+   "start": 1706,
+   "end": 1999,
+   "chars": 293,
+   "text": "Contractor warrant and represents that it is not currently engaged in, and will not for the\nduration of the contract engage in, a boycott of any individual or company because the\nindividual or company:\n(a) Engages in or supports the exploration, production, utilization, transportation,\nsale, "
+  },
+  {
+   "id": "p15-s17",
+   "page": 15,
+   "start": 1999,
+   "end": 2114,
+   "chars": 115,
+   "text": "or manufacture of fossil fuel-based energy, timber, minerals, hydroelectric\npower, nuclear energy, or agriculture; "
+  },
+  {
+   "id": "p15-s18",
+   "page": 15,
+   "start": 2114,
+   "end": 2250,
+   "chars": 136,
+   "text": "or\n(b) Engages in or supports the manufacture, distribution, sale, or use of firearms, as\ndefined in section 18-3302(2)(d), Idaho Code.\n"
+  },
+  {
+   "id": "p15-s19",
+   "page": 15,
+   "start": 2251,
+   "end": 2254,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p15-s20",
+   "page": 15,
+   "start": 2254,
+   "end": 2403,
+   "chars": 149,
+   "text": "Confidential Information\nProposer and its employees agree to maintain the confidentiality of any sensitive or personal data\nrelating to the College. "
+  },
+  {
+   "id": "p15-s21",
+   "page": 15,
+   "start": 2403,
+   "end": 2545,
+   "chars": 142,
+   "text": "Proposer and its employees may be privy to financial, personnel or other\ninformation that the College regards as proprietary or confidential. "
+  },
+  {
+   "id": "p15-s22",
+   "page": 15,
+   "start": 2545,
+   "end": 2670,
+   "chars": 125,
+   "text": "The Proposer shall not disclose\nsuch confidential information to any third party without the express consent of the College.\n"
+  },
+  {
+   "id": "p15-s23",
+   "page": 15,
+   "start": 2670,
+   "end": 2734,
+   "chars": 64,
+   "text": "“Confidential Information” includes (but is not limited to):\n1. "
+  },
+  {
+   "id": "p15-s24",
+   "page": 15,
+   "start": 2734,
+   "end": 2842,
+   "chars": 108,
+   "text": "Personnel records, personal information that is non-public, health records,\nprofessional discipline records."
+  },
+  {
+   "id": "p16-s0",
+   "page": 16,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p16-s1",
+   "page": 16,
+   "start": 3,
+   "end": 119,
+   "chars": 116,
+   "text": "Trade secrets, information protected by copyright laws, patents or pending patent\napplications, production records.\n"
+  },
+  {
+   "id": "p16-s2",
+   "page": 16,
+   "start": 119,
+   "end": 122,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p16-s3",
+   "page": 16,
+   "start": 122,
+   "end": 222,
+   "chars": 100,
+   "text": "Proprietary information both financial and technical, appraisals, proposals,\npromotional marketing.\n"
+  },
+  {
+   "id": "p16-s4",
+   "page": 16,
+   "start": 222,
+   "end": 225,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p16-s5",
+   "page": 16,
+   "start": 225,
+   "end": 468,
+   "chars": 243,
+   "text": "Standard of Performance\nThe parties acknowledge that the College in selecting the Proposer to perform the services of this\nRFP and is relying upon the Proposer's reputation for excellence in the performance of the services\nrequired hereunder. "
+  },
+  {
+   "id": "p16-s6",
+   "page": 16,
+   "start": 468,
+   "end": 608,
+   "chars": 140,
+   "text": "The Proposer shall be responsible for the professional quality and technical\naccuracy of their advice and other services furnished by them. "
+  },
+  {
+   "id": "p16-s7",
+   "page": 16,
+   "start": 608,
+   "end": 800,
+   "chars": 192,
+   "text": "The Proposer shall perform services\nwith the degree of skill that is normally exercised by recognized professionals and with the standard\nof care with respect to services of a similar nature. "
+  },
+  {
+   "id": "p16-s8",
+   "page": 16,
+   "start": 800,
+   "end": 919,
+   "chars": 119,
+   "text": "The rights of the College provided for under this\ncontract are in addition to any rights and remedies provided by law.\n"
+  },
+  {
+   "id": "p16-s9",
+   "page": 16,
+   "start": 919,
+   "end": 1080,
+   "chars": 161,
+   "text": "The Proposer shall devote such time to performance of its duties under this contract as is\nreasonably necessary for the satisfactory performance of such duties. "
+  },
+  {
+   "id": "p16-s10",
+   "page": 16,
+   "start": 1080,
+   "end": 1195,
+   "chars": 115,
+   "text": "Nothing in the foregoing\nshall be construed to alter the requirement that time is of the essence in this contract.\n"
+  },
+  {
+   "id": "p16-s11",
+   "page": 16,
+   "start": 1195,
+   "end": 1198,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p16-s12",
+   "page": 16,
+   "start": 1198,
+   "end": 1403,
+   "chars": 205,
+   "text": "Independent Contractor Status\nIt is understood and agreed that in the performance of the services under this contract, Parties\nshall at all times act as independent contractors with respect to each other. "
+  },
+  {
+   "id": "p16-s13",
+   "page": 16,
+   "start": 1403,
+   "end": 1543,
+   "chars": 140,
+   "text": "Nothing herein shall be\nconstrued to create a joint venture or partnership between the parties hereto or an\nemployee/employer relationship. "
+  },
+  {
+   "id": "p16-s14",
+   "page": 16,
+   "start": 1543,
+   "end": 1616,
+   "chars": 73,
+   "text": "Parties shall act as independent contractors pursuant to this\nagreement. "
+  },
+  {
+   "id": "p16-s15",
+   "page": 16,
+   "start": 1616,
+   "end": 1864,
+   "chars": 248,
+   "text": "Neither party hereto shall have any express or implied right or authority to assume or\ncreate any obligations on behalf of or in the name of the other party or to bind the other party to any\ncontract, agreement or undertaking with any third party.\n"
+  },
+  {
+   "id": "p16-s16",
+   "page": 16,
+   "start": 1864,
+   "end": 1990,
+   "chars": 126,
+   "text": "Proposer shall supply, at its sole expense, all equipment, tools, materials and/or supplies to\naccomplish the work performed. "
+  },
+  {
+   "id": "p16-s17",
+   "page": 16,
+   "start": 1990,
+   "end": 2285,
+   "chars": 295,
+   "text": "The College shall not be responsible for providing worker’s\ncompensation coverage for firm nor shall the Proposer be entitled to any benefits including but not\nlimited to vacation pay, sick leave, PERSI, retirement benefits, health, life, dental, disability and\nunemployment insurance benefits.\n"
+  },
+  {
+   "id": "p16-s18",
+   "page": 16,
+   "start": 2285,
+   "end": 2288,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p16-s19",
+   "page": 16,
+   "start": 2288,
+   "end": 2553,
+   "chars": 265,
+   "text": "Indemnification\nTo the extent permitted by law, the Proposer shall defend, indemnify and hold harmless the College\nits officers, board members, agents and employees from any and all claims, damages, costs,\nexpenses, and actions, including reasonable attorney fees, "
+  },
+  {
+   "id": "p16-s20",
+   "page": 16,
+   "start": 2553,
+   "end": 2873,
+   "chars": 320,
+   "text": "caused by or that arise from the breach\nof this agreement by the Proposer, or wrongful acts or omissions of the Proposer, its employees,\nagents, or subcontractors under this contract that cause death or injury or damage to property, or\narising out of Proposer’s failure to comply with any state or federal statute, law, "
+  },
+  {
+   "id": "p16-s21",
+   "page": 16,
+   "start": 2873,
+   "end": 2892,
+   "chars": 19,
+   "text": "regulation or act.\n"
+  },
+  {
+   "id": "p16-s22",
+   "page": 16,
+   "start": 2892,
+   "end": 2895,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p16-s23",
+   "page": 16,
+   "start": 2895,
+   "end": 3107,
+   "chars": 212,
+   "text": "Dispute Resolution\nBefore commencing litigation, each party agrees to notify the other party of any dispute arising out\nof or relating to this contract, and to attempt to resolve any such dispute by negotiation. "
+  },
+  {
+   "id": "p16-s24",
+   "page": 16,
+   "start": 3107,
+   "end": 3264,
+   "chars": 157,
+   "text": "If the\nParties are unable to resolve the dispute in thirty (30) days of such notice, the Parties agree to\nendeavor to resolve the dispute through mediation. "
+  },
+  {
+   "id": "p16-s25",
+   "page": 16,
+   "start": 3264,
+   "end": 3367,
+   "chars": 103,
+   "text": "Parties agree that disputes will first be\nsubmitted to mediation by written notice to the other party. "
+  },
+  {
+   "id": "p16-s26",
+   "page": 16,
+   "start": 3367,
+   "end": 3405,
+   "chars": 38,
+   "text": "In mediation, the parties will work in"
+  },
+  {
+   "id": "p17-s0",
+   "page": 17,
+   "start": 0,
+   "end": 66,
+   "chars": 66,
+   "text": "good faith to resolve any differences with the aid of a mediator. "
+  },
+  {
+   "id": "p17-s1",
+   "page": 17,
+   "start": 66,
+   "end": 241,
+   "chars": 175,
+   "text": "The mediator will be selected by\nmutual agreement, but if an agreement as to the selection cannot be reached, one shall be\ndesignated by the American Arbitration Association. "
+  },
+  {
+   "id": "p17-s2",
+   "page": 17,
+   "start": 241,
+   "end": 315,
+   "chars": 74,
+   "text": "The mediator shall determine the conduct and\nthe format of the mediation. "
+  },
+  {
+   "id": "p17-s3",
+   "page": 17,
+   "start": 315,
+   "end": 364,
+   "chars": 49,
+   "text": "Each party will bear its own costs in mediation. "
+  },
+  {
+   "id": "p17-s4",
+   "page": 17,
+   "start": 364,
+   "end": 438,
+   "chars": 74,
+   "text": "All other fees and\nexpenses shall be divided equally between the\nparties. "
+  },
+  {
+   "id": "p17-s5",
+   "page": 17,
+   "start": 438,
+   "end": 618,
+   "chars": 180,
+   "text": "Either party may initiate litigation within the State or federal courts located within the state\nof Idaho to resolve the dispute if it is not resolved by negotiation or mediation.\n"
+  },
+  {
+   "id": "p17-s6",
+   "page": 17,
+   "start": 618,
+   "end": 621,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p17-s7",
+   "page": 17,
+   "start": 621,
+   "end": 935,
+   "chars": 314,
+   "text": "Force Majeure\nNeither party shall be liable or deemed to be in default for any Force Majeure delay in shipment or\nperformance occasioned by unforeseeable causes beyond the control and without the fault or\nnegligence of the parties, including, but not restricted to, acts of God or the public enemy, fires,\nfloods, "
+  },
+  {
+   "id": "p17-s8",
+   "page": 17,
+   "start": 935,
+   "end": 1132,
+   "chars": 197,
+   "text": "epidemics, quarantine, restrictions, strikes, freight embargoes, unusually severe weather,\nprovided that in all cases the parties shall notify the other promptly in writing of any cause for delay.\n"
+  },
+  {
+   "id": "p17-s9",
+   "page": 17,
+   "start": 1132,
+   "end": 1245,
+   "chars": 113,
+   "text": "If reasonably possible, the firm shall make every reasonable effort to complete performance as\nsoon as possible.\n"
+  },
+  {
+   "id": "p17-s10",
+   "page": 17,
+   "start": 1245,
+   "end": 1249,
+   "chars": 4,
+   "text": "10. "
+  },
+  {
+   "id": "p17-s11",
+   "page": 17,
+   "start": 1249,
+   "end": 1326,
+   "chars": 77,
+   "text": "Terms of Payment\nTerms of payment will be negotiated for the final contract. "
+  },
+  {
+   "id": "p17-s12",
+   "page": 17,
+   "start": 1326,
+   "end": 1477,
+   "chars": 151,
+   "text": "Invoices will be submitted separately to\nthe College on a monthly basis which clearly delineates what services are being billed for during the\nperiod. "
+  },
+  {
+   "id": "p17-s13",
+   "page": 17,
+   "start": 1477,
+   "end": 1653,
+   "chars": 176,
+   "text": "Each invoice shall include the date the service was rendered, the name of the attorney, a\ndescription of the service provided, the time expended, attorneys’ fees and expenses. "
+  },
+  {
+   "id": "p17-s14",
+   "page": 17,
+   "start": 1653,
+   "end": 1726,
+   "chars": 73,
+   "text": "Invoices will\nbe paid by the College on a net thirty (30) payment basis.\n"
+  },
+  {
+   "id": "p17-s15",
+   "page": 17,
+   "start": 1726,
+   "end": 1730,
+   "chars": 4,
+   "text": "11. "
+  },
+  {
+   "id": "p17-s16",
+   "page": 17,
+   "start": 1730,
+   "end": 1974,
+   "chars": 244,
+   "text": "Assignment of Rights\nNeither party may assign, transfer or delegate any or all of its rights or obligations under this\ncontract, without the prior written consent of the other party, which consent shall not be\nunreasonably withheld or delayed. "
+  },
+  {
+   "id": "p17-s17",
+   "page": 17,
+   "start": 1974,
+   "end": 2059,
+   "chars": 85,
+   "text": "No assignment shall relieve the assigning party of any of its\nobligations hereunder. "
+  },
+  {
+   "id": "p17-s18",
+   "page": 17,
+   "start": 2059,
+   "end": 2168,
+   "chars": 109,
+   "text": "Any attempted assignment, transfer or other conveyance in violation of the\nforegoing shall be null and void. "
+  },
+  {
+   "id": "p17-s19",
+   "page": 17,
+   "start": 2168,
+   "end": 2312,
+   "chars": 144,
+   "text": "This contract shall be binding upon and shall inure to the benefit of\nthe parties hereto and their respective successors and permitted assigns.\n"
+  },
+  {
+   "id": "p17-s20",
+   "page": 17,
+   "start": 2312,
+   "end": 2316,
+   "chars": 4,
+   "text": "12. "
+  },
+  {
+   "id": "p17-s21",
+   "page": 17,
+   "start": 2316,
+   "end": 2447,
+   "chars": 131,
+   "text": "Incorporation by Reference\nThe following documents are hereby made part of this agreement and incorporated herein by\nreference:\n1. "
+  },
+  {
+   "id": "p17-s22",
+   "page": 17,
+   "start": 2447,
+   "end": 2499,
+   "chars": 52,
+   "text": "CWI’s RFP 05-2024 for AI Software and Appendices\n2. "
+  },
+  {
+   "id": "p17-s23",
+   "page": 17,
+   "start": 2499,
+   "end": 2561,
+   "chars": 62,
+   "text": "Related Addendums or Amendments to RFP 05-2024 AI Software\n3. "
+  },
+  {
+   "id": "p17-s24",
+   "page": 17,
+   "start": 2561,
+   "end": 2792,
+   "chars": 231,
+   "text": "Selected Response Proposal to RFP 05-2024 AI Software\nIn the event of any conflict between the terms and provisions of this contract and those of any other\nincorporated documents, the following order of precedence shall govern:\n1.\n"
+  },
+  {
+   "id": "p17-s25",
+   "page": 17,
+   "start": 2792,
+   "end": 2795,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p17-s26",
+   "page": 17,
+   "start": 2795,
+   "end": 2798,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p17-s27",
+   "page": 17,
+   "start": 2798,
+   "end": 2801,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p17-s28",
+   "page": 17,
+   "start": 2802,
+   "end": 2947,
+   "chars": 145,
+   "text": "Applicable Law\nCWI’s RFP 05-2024 AI Software and Appendices\nRelated Service Addendums and/or Amendments to RFP 05-2024\nSelected Response Proposal"
+  },
+  {
+   "id": "p18-s0",
+   "page": 18,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "13. "
+  },
+  {
+   "id": "p18-s1",
+   "page": 18,
+   "start": 4,
+   "end": 279,
+   "chars": 275,
+   "text": "Non-Waiver\nThe failure of either party to exercise any of its rights under this agreement for a breach thereof shall\nnot be deemed to be a waiver of such rights, nor shall the same be deemed to be a waiver of any\nsubsequent breach, either of the same provision or otherwise.\n"
+  },
+  {
+   "id": "p18-s2",
+   "page": 18,
+   "start": 279,
+   "end": 283,
+   "chars": 4,
+   "text": "14. "
+  },
+  {
+   "id": "p18-s3",
+   "page": 18,
+   "start": 283,
+   "end": 411,
+   "chars": 128,
+   "text": "Amendments\nThis contract may only be amended, modified, or supplemented by an agreement in writing signed\nby each party hereto. "
+  },
+  {
+   "id": "p18-s4",
+   "page": 18,
+   "start": 411,
+   "end": 560,
+   "chars": 149,
+   "text": "No waiver by any party of any of the provisions hereof shall be effective unless\nexplicitly set forth in writing and signed by the party so waiving.\n"
+  },
+  {
+   "id": "p18-s5",
+   "page": 18,
+   "start": 560,
+   "end": 564,
+   "chars": 4,
+   "text": "15. "
+  },
+  {
+   "id": "p18-s6",
+   "page": 18,
+   "start": 564,
+   "end": 687,
+   "chars": 123,
+   "text": "Termination\nPursuant to Idaho Code and College policy, the College may enter into contracts, including leases\nand rentals, "
+  },
+  {
+   "id": "p18-s7",
+   "page": 18,
+   "start": 687,
+   "end": 914,
+   "chars": 227,
+   "text": "for periods of time exceeding one (1) year provided that such contracts contain no\npenalty to or restriction upon the College in the event cancellation is necessitated by a lack of\nfinancing for any such contract or contracts. "
+  },
+  {
+   "id": "p18-s8",
+   "page": 18,
+   "start": 914,
+   "end": 1183,
+   "chars": 269,
+   "text": "The College reserves the right to terminate this\ncontract without penalty if, in its sole judgment, the College of Western Idaho Board of Trustees\nfails, neglects, or refuses to appropriate sufficient funds as may be required for the College to\ncontinue such payments, "
+  },
+  {
+   "id": "p18-s9",
+   "page": 18,
+   "start": 1183,
+   "end": 1277,
+   "chars": 94,
+   "text": "or requires any return or “give-back” of funds required for the College to\ncontinue payments.\n"
+  },
+  {
+   "id": "p18-s10",
+   "page": 18,
+   "start": 1277,
+   "end": 1411,
+   "chars": 134,
+   "text": "Termination for Convenience:\nThe College or the Proposer may terminate this contract upon 120 calendar days’ advanced written\nnotice. "
+  },
+  {
+   "id": "p18-s11",
+   "page": 18,
+   "start": 1411,
+   "end": 1561,
+   "chars": 150,
+   "text": "In the event of termination, Proposer will advise the College of the extent to which\nperformance has been completed and deliver any work in progress. "
+  },
+  {
+   "id": "p18-s12",
+   "page": 18,
+   "start": 1561,
+   "end": 1661,
+   "chars": 100,
+   "text": "Proposer will be paid for all\nwork performed and expenses incurred through the date of termination.\n"
+  },
+  {
+   "id": "p18-s13",
+   "page": 18,
+   "start": 1661,
+   "end": 1981,
+   "chars": 320,
+   "text": "Termination for Breach:\nThe Parties may terminate the contract (and/or any order issued pursuant to the contract) when the\nbreaching Party has been provided written notice of default or non-compliance and has failed to\ncure the default or noncompliance within a reasonable time, not to exceed thirty (30) calendar\ndays. "
+  },
+  {
+   "id": "p18-s14",
+   "page": 18,
+   "start": 1981,
+   "end": 2183,
+   "chars": 202,
+   "text": "The Parties, upon termination for default or non-compliance, reserves the right to take any\nlegal action they may deem necessary including, without limitation to offset damages against any\npayment due.\n"
+  },
+  {
+   "id": "p18-s15",
+   "page": 18,
+   "start": 2183,
+   "end": 2187,
+   "chars": 4,
+   "text": "16. "
+  },
+  {
+   "id": "p18-s16",
+   "page": 18,
+   "start": 2187,
+   "end": 2298,
+   "chars": 111,
+   "text": "Proposer Signature\nAn authorized signature is required in Appendix A for a proposal to be considered eligible. "
+  },
+  {
+   "id": "p18-s17",
+   "page": 18,
+   "start": 2298,
+   "end": 2607,
+   "chars": 309,
+   "text": "A\nrepresentative of the Proposer’s signature on the face of this solicitation certifies that this proposal\nis made without prior understanding, contract, or connection with any corporation, firm or person\nsubmitting a proposal for the same services and is in all respects fair and without collusion or\nfraud. "
+  },
+  {
+   "id": "p18-s18",
+   "page": 18,
+   "start": 2607,
+   "end": 2757,
+   "chars": 150,
+   "text": "Proposer agrees to abide by all conditions of this solicitation and certifies that the signatory\nis authorized to sign this proposal for the Proposer."
+  },
+  {
+   "id": "p19-s0",
+   "page": 19,
+   "start": 0,
+   "end": 140,
+   "chars": 140,
+   "text": "Appendix – C Insurance Requirements\nGENERAL REQUIREMENTS\nProposer shall provide evidence of insurance coverage as set out in this Appendix. "
+  },
+  {
+   "id": "p19-s1",
+   "page": 19,
+   "start": 140,
+   "end": 403,
+   "chars": 263,
+   "text": "The intent of the\nrequired insurance is to protect the College should there be any claims, suits, actions, costs or\ndamages arising from the any negligent or intentional act or omission of the firm or its agents while\nperforming under the terms of this contract.\n"
+  },
+  {
+   "id": "p19-s2",
+   "page": 19,
+   "start": 403,
+   "end": 519,
+   "chars": 116,
+   "text": "Before the start of the contract, the Proposer shall provide evidence of such coverage as set out in\nthis Appendix. "
+  },
+  {
+   "id": "p19-s3",
+   "page": 19,
+   "start": 519,
+   "end": 622,
+   "chars": 103,
+   "text": "All insurance provided shall be issued by companies admitted to do business within\nthe state of Idaho. "
+  },
+  {
+   "id": "p19-s4",
+   "page": 19,
+   "start": 622,
+   "end": 770,
+   "chars": 148,
+   "text": "The College will be provided notice thirty (30) days written notice of any\ncancellation, non-renewal or material changes to the insurance provided.\n"
+  },
+  {
+   "id": "p19-s5",
+   "page": 19,
+   "start": 770,
+   "end": 961,
+   "chars": 191,
+   "text": "Failure on the part of the Proposer to procure and maintain required insurance shall constitute a\nmaterial breach of contract upon which the College may immediately terminate this agreement.\n"
+  },
+  {
+   "id": "p19-s6",
+   "page": 19,
+   "start": 961,
+   "end": 1193,
+   "chars": 232,
+   "text": "PROFESSIONAL LIABLITY\nProposer shall maintain Professional Liability (Errors & Omissions) insurance on a claim made\nbasis, covering claims made during the policy period and reported within three (3) years of the date\nof occurrence. "
+  },
+  {
+   "id": "p19-s7",
+   "page": 19,
+   "start": 1193,
+   "end": 1271,
+   "chars": 78,
+   "text": "Limits of liability shall be not less than five million dollars ($5,000,000). "
+  },
+  {
+   "id": "p19-s8",
+   "page": 19,
+   "start": 1271,
+   "end": 1366,
+   "chars": 95,
+   "text": "All insurers\nshall have a Best’s rating of A- or better and be licensed and admitted in Idaho.\n"
+  },
+  {
+   "id": "p19-s9",
+   "page": 19,
+   "start": 1366,
+   "end": 1495,
+   "chars": 129,
+   "text": "WORKER’S COMPENSATION\nProposer shall maintain Worker’s Compensation coverage that meets statutory limits and as\nrequired by law.\n"
+  },
+  {
+   "id": "p19-s10",
+   "page": 19,
+   "start": 1495,
+   "end": 1779,
+   "chars": 284,
+   "text": "CYBER INSURANCE\nProposer shall maintain network risk and cyber liability coverage (including coverage for\nunauthorized access, failure of security breach of privacy perils, as well as breach notification\ncosts and legal defense) in an amount not less than $1,000,000 per occurrence . "
+  },
+  {
+   "id": "p19-s11",
+   "page": 19,
+   "start": 1779,
+   "end": 1939,
+   "chars": 160,
+   "text": "Such insurance\nshall be maintained in force at all times during the term of the Contract and for a period of two years\nafter services are completed by Proposer."
+  },
+  {
+   "id": "p20-s0",
+   "page": 20,
+   "start": 0,
+   "end": 271,
+   "chars": 271,
+   "text": "Appendix – D Conflict of Interest/Debarment\nCONFLICT OF INTEREST\nNo employee of College of Western Idaho (or close relative), with the exception of the person(s)\nidentified below, has a direct or indirect financial interest in the Offeror or in the proposed\ntransaction. "
+  },
+  {
+   "id": "p20-s1",
+   "page": 20,
+   "start": 271,
+   "end": 463,
+   "chars": 192,
+   "text": "Proposer neither employs, nor is negotiating to employ, any College of Western Idaho\nemployee, Board of Trustee member or close relative, with the exception of the person(s) identified\nbelow. "
+  },
+  {
+   "id": "p20-s2",
+   "page": 20,
+   "start": 463,
+   "end": 591,
+   "chars": 128,
+   "text": "Proposer did not participate, directly or indirectly, in the preparation of specifications upon\nwhich the RFP or offer is made.\n"
+  },
+  {
+   "id": "p20-s3",
+   "page": 20,
+   "start": 591,
+   "end": 768,
+   "chars": 177,
+   "text": "List below the name(s) of any College of Western Idaho employee, Board of Trustee member or\nclose relative who now or within the preceding 12 months: (1) works for the Offeror; "
+  },
+  {
+   "id": "p20-s4",
+   "page": 20,
+   "start": 768,
+   "end": 918,
+   "chars": 150,
+   "text": "(2) has an\nownership interest in the Proposer (other than an owner of less than 1% of Offeror’s stock, if\nProposer is a publicly traded corporation); "
+  },
+  {
+   "id": "p20-s5",
+   "page": 20,
+   "start": 918,
+   "end": 994,
+   "chars": 76,
+   "text": "(3) is a partner, officer, director, trustee or consultant to\nthe Proposer; "
+  },
+  {
+   "id": "p20-s6",
+   "page": 20,
+   "start": 994,
+   "end": 1076,
+   "chars": 82,
+   "text": "(4) has received grant, travel, honoraria or other similar support from Proposer; "
+  },
+  {
+   "id": "p20-s7",
+   "page": 20,
+   "start": 1076,
+   "end": 1135,
+   "chars": 59,
+   "text": "or (5)\nhas a right to receive royalties from the Proposer.\n"
+  },
+  {
+   "id": "p20-s8",
+   "page": 20,
+   "start": 1135,
+   "end": 1307,
+   "chars": 172,
+   "text": "CERTIFICATION\nThe undersigned hereby certifies that he/she has read the above CONFLICT OF INTEREST and and\nthat he/she understands and will comply with these requirements. "
+  },
+  {
+   "id": "p20-s9",
+   "page": 20,
+   "start": 1307,
+   "end": 1520,
+   "chars": 213,
+   "text": "The undersigned further certifies\nthat they have the authority to certify compliance for the Proposer named and that the information\ncontained in this document is true and accurate to the best of their knowledge.\n"
+  },
+  {
+   "id": "p20-s10",
+   "page": 20,
+   "start": 1521,
+   "end": 1571,
+   "chars": 50,
+   "text": "Signature\nName and Title\nCompany Name\nAddress\nDate"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 20
+ }
+}

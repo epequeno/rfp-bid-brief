@@ -1,0 +1,867 @@
+{
+ "schema": "span-index/1",
+ "fixture": "savec-alaska-managed-it-services-2026.pdf",
+ "fixture_sha256": "e6dfc120042ac98af20dfb3d014841b2c17c004f5fbe5566b1cf3362e643972c",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "7dd336f020752266f5e43beea0b2bbcb9b7adeb3322cef481589b04879d60aa0",
+   "chars": 1835
+  },
+  {
+   "number": 2,
+   "sha256": "b3786b83e238eebdb3494de07b6b38c32a44da52618dab8846807a3107267a32",
+   "chars": 1916
+  },
+  {
+   "number": 3,
+   "sha256": "9e391d77050827ba05274f1a34e43659764e045dee45539e4b05d2081e26ff3f",
+   "chars": 1731
+  },
+  {
+   "number": 4,
+   "sha256": "4227937ef27887bc11bb488b9d7cf95f8d501072b57d07d6abd96090dfbbb660",
+   "chars": 2005
+  },
+  {
+   "number": 5,
+   "sha256": "e9d5e5487c9b849bb9c9a2987a13ac6489b53d47884b44c69d2bf13048ac8226",
+   "chars": 1215
+  }
+ ],
+ "span_count": 103,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 14,
+   "chars": 14,
+   "text": "Mailing: P.O. "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 14,
+   "end": 240,
+   "chars": 226,
+   "text": "Box 615\nKing Salmon, AK 99613\nPhysical: 123 Thelma Drive\nNaknek, AK 99633\n\nSouthwest Alaska Vocational & Educational Center\nTraining Alaskans to Fill Alaskan Jobs\n\nVoice: 907.246.4600\nFax: 907.246.4607\nwww.savec.org\n\nJuly 14, "
+  },
+  {
+   "id": "p1-s2",
+   "page": 1,
+   "start": 240,
+   "end": 512,
+   "chars": 272,
+   "text": "2026\n\nREQUEST FOR PROPOSALS (RFP)\nManaged Information Technology Services\nSouthwest Alaska Vocational & Educational Center (SAVEC)\nPO Box 615\nKing Salmon, Alaska 99613\nPhysical Address:\n123 Thelma Drive\nNaknek, Alaska 99633\nProposal Due Date: July 24, 2026\nContract Term: "
+  },
+  {
+   "id": "p1-s3",
+   "page": 1,
+   "start": 512,
+   "end": 561,
+   "chars": 49,
+   "text": "One (1) Year with Option for Annual Renewals\n\nI. "
+  },
+  {
+   "id": "p1-s4",
+   "page": 1,
+   "start": 561,
+   "end": 823,
+   "chars": 262,
+   "text": "INTRODUCTION\nThe Southwest Alaska Vocational & Educational Center (SAVEC) is soliciting proposals from qualified\nInformation Technology (IT) service providers to provide comprehensive managed IT services for its\nworkforce training and administrative operations. "
+  },
+  {
+   "id": "p1-s5",
+   "page": 1,
+   "start": 823,
+   "end": 1025,
+   "chars": 202,
+   "text": "SAVEC seeks a responsive, proactive technology\npartner capable of providing remote and on-site support, cybersecurity, network administration,\ntechnology planning, user support, and strategic guidance.\n"
+  },
+  {
+   "id": "p1-s6",
+   "page": 1,
+   "start": 1026,
+   "end": 1030,
+   "chars": 4,
+   "text": "II. "
+  },
+  {
+   "id": "p1-s7",
+   "page": 1,
+   "start": 1030,
+   "end": 1170,
+   "chars": 140,
+   "text": "ORGANIZATIONAL BACKGROUND\nSAVEC is a nonprofit regional workforce development organization serving the Bristol Bay region and\nrural Alaska. "
+  },
+  {
+   "id": "p1-s8",
+   "page": 1,
+   "start": 1170,
+   "end": 1290,
+   "chars": 120,
+   "text": "SAVEC provides vocational education, workforce development, and industry training\nprograms throughout Southwest Alaska.\n"
+  },
+  {
+   "id": "p1-s9",
+   "page": 1,
+   "start": 1290,
+   "end": 1430,
+   "chars": 140,
+   "text": "SAVEC operates a computer training lab that supports workforce development, information technology,\nand other vocational training programs. "
+  },
+  {
+   "id": "p1-s10",
+   "page": 1,
+   "start": 1430,
+   "end": 1519,
+   "chars": 89,
+   "text": "Reliable operation of the lab and classroom technology is\nessential to program delivery.\n"
+  },
+  {
+   "id": "p1-s11",
+   "page": 1,
+   "start": 1520,
+   "end": 1525,
+   "chars": 5,
+   "text": "III. "
+  },
+  {
+   "id": "p1-s12",
+   "page": 1,
+   "start": 1525,
+   "end": 1643,
+   "chars": 118,
+   "text": "CURRENT TECHNOLOGY ENVIRONMENT\nThe information below is intended to assist vendors in preparing an accurate proposal. "
+  },
+  {
+   "id": "p1-s13",
+   "page": 1,
+   "start": 1643,
+   "end": 1713,
+   "chars": 70,
+   "text": "Quantities are\napproximate and may change during the contract period.\n"
+  },
+  {
+   "id": "p1-s14",
+   "page": 1,
+   "start": 1713,
+   "end": 1757,
+   "chars": 44,
+   "text": "Organization\n• Two (2) full-time employees.\n"
+  },
+  {
+   "id": "p1-s15",
+   "page": 1,
+   "start": 1757,
+   "end": 1834,
+   "chars": 77,
+   "text": "• One (1) part-time Administrative Assistant/Custodian position anticipated.\n"
+  },
+  {
+   "id": "p1-s16",
+   "page": 1,
+   "start": 1834,
+   "end": 1835,
+   "chars": 1,
+   "text": "1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 56,
+   "chars": 56,
+   "text": "Computer Equipment\n• Three (3) staff desktop computers.\n"
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 56,
+   "end": 107,
+   "chars": 51,
+   "text": "• Eight (8) student computers in the computer lab.\n"
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 107,
+   "end": 151,
+   "chars": 44,
+   "text": "• Three (3) classroom instructor computers.\n"
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 151,
+   "end": 195,
+   "chars": 44,
+   "text": "• Network printer(s)/multifunction devices.\n"
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 195,
+   "end": 268,
+   "chars": 73,
+   "text": "• Approximately fourteen (14) Windows-based computers requiring support.\n"
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 268,
+   "end": 374,
+   "chars": 106,
+   "text": "• Two (2) SMART Boards used for classroom instruction\nNetwork Environment\n• Business internet connection.\n"
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 374,
+   "end": 404,
+   "chars": 30,
+   "text": "• Wired and wireless network.\n"
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 404,
+   "end": 439,
+   "chars": 35,
+   "text": "• Shared printers and peripherals.\n"
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 439,
+   "end": 545,
+   "chars": 106,
+   "text": "• Wireless network utilizing Ubiquiti wireless access points\n• Firewall, switches, and network equipment.\n"
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 545,
+   "end": 789,
+   "chars": 244,
+   "text": "Software Environment\n• Windows operating systems\n• Microsoft Office\n• QuickBooks\n• Adobe Acrobat\n• Web browsers\n• Other workforce training software as needed\nSAVEC is not currently utilizing Microsoft 365 due to the ongoing subscription costs. "
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 789,
+   "end": 927,
+   "chars": 138,
+   "text": "Vendors may\nprovide recommendations for future migration but should not assume Microsoft 365 administration is\npart of the base contract.\n"
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 927,
+   "end": 1133,
+   "chars": 206,
+   "text": "Future Growth\nSAVEC anticipates expanding its technology infrastructure over the coming years as workforce training\nprograms and the planned Regional Workforce Training & Education Center continue to grow. "
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 1133,
+   "end": 1232,
+   "chars": 99,
+   "text": "Vendors\nshould identify how additional users and devices would be incorporated into their pricing.\n"
+  },
+  {
+   "id": "p2-s13",
+   "page": 2,
+   "start": 1233,
+   "end": 1237,
+   "chars": 4,
+   "text": "IV. "
+  },
+  {
+   "id": "p2-s14",
+   "page": 2,
+   "start": 1237,
+   "end": 1258,
+   "chars": 21,
+   "text": "SCOPE OF SERVICES\nA. "
+  },
+  {
+   "id": "p2-s15",
+   "page": 2,
+   "start": 1258,
+   "end": 1379,
+   "chars": 121,
+   "text": "Managed IT Support\n•\n•\n•\n•\n•\n•\n•\n•\n\nManaged IT support for desktops, printers, networking equipment, and future devices.\n"
+  },
+  {
+   "id": "p2-s16",
+   "page": 2,
+   "start": 1379,
+   "end": 1419,
+   "chars": 40,
+   "text": "Help Desk support (remote and on-site).\n"
+  },
+  {
+   "id": "p2-s17",
+   "page": 2,
+   "start": 1419,
+   "end": 1469,
+   "chars": 50,
+   "text": "Cybersecurity monitoring and endpoint protection.\n"
+  },
+  {
+   "id": "p2-s18",
+   "page": 2,
+   "start": 1469,
+   "end": 1493,
+   "chars": 24,
+   "text": "Network administration.\n"
+  },
+  {
+   "id": "p2-s19",
+   "page": 2,
+   "start": 1493,
+   "end": 1536,
+   "chars": 43,
+   "text": "Data backup and disaster recovery support.\n"
+  },
+  {
+   "id": "p2-s20",
+   "page": 2,
+   "start": 1536,
+   "end": 1679,
+   "chars": 143,
+   "text": "Documentation including network diagrams, administrator credentials, software licenses,\nequipment inventory, and disaster recovery procedures.\n"
+  },
+  {
+   "id": "p2-s21",
+   "page": 2,
+   "start": 1679,
+   "end": 1717,
+   "chars": 38,
+   "text": "Quarterly technology review meetings.\n"
+  },
+  {
+   "id": "p2-s22",
+   "page": 2,
+   "start": 1717,
+   "end": 1915,
+   "chars": 198,
+   "text": "A comprehensive IT assessment within the first 60 days including an asset inventory, cybersecurity\nassessment, backup review, disaster recovery recommendations, and a three-year technology\nroadmap.\n"
+  },
+  {
+   "id": "p2-s23",
+   "page": 2,
+   "start": 1915,
+   "end": 1916,
+   "chars": 1,
+   "text": "2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 51,
+   "chars": 51,
+   "text": "•\n\nCloud migration planning if requested by SAVEC.\n"
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 52,
+   "end": 55,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 55,
+   "end": 235,
+   "chars": 180,
+   "text": "Transition Services\n•\n•\n•\n•\n•\n•\n•\n•\n\nCoordinate with SAVEC and the incumbent IT service provider to ensure an orderly transition of\nservices with minimal disruption to operations.\n"
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 235,
+   "end": 271,
+   "chars": 36,
+   "text": "Review the existing IT environment.\n"
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 271,
+   "end": 370,
+   "chars": 99,
+   "text": "Coordinate the transfer of administrator credentials, passwords, and system access owned by\nSAVEC.\n"
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 370,
+   "end": 491,
+   "chars": 121,
+   "text": "Transfer available network diagrams, equipment inventories, software licensing information, and\ntechnical documentation.\n"
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 491,
+   "end": 624,
+   "chars": 133,
+   "text": "Coordinate access to servers, workstations, network equipment, wireless infrastructure, backup\nsystems, and other technology assets.\n"
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 624,
+   "end": 706,
+   "chars": 82,
+   "text": "Verify that critical systems are operational before completion of the transition.\n"
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 706,
+   "end": 796,
+   "chars": 90,
+   "text": "Prepare a written transition summary documenting the systems assumed under the agreement.\n"
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 796,
+   "end": 931,
+   "chars": 135,
+   "text": "Identify any unavailable documentation during the transition and work with SAVEC to recreate or\ndocument the information as necessary.\n"
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 932,
+   "end": 935,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p3-s11",
+   "page": 3,
+   "start": 935,
+   "end": 989,
+   "chars": 54,
+   "text": "Classroom Technology Support\n•\n•\n•\n•\n•\n\nSMART Boards.\n"
+  },
+  {
+   "id": "p3-s12",
+   "page": 3,
+   "start": 989,
+   "end": 1021,
+   "chars": 32,
+   "text": "Student computer lab equipment.\n"
+  },
+  {
+   "id": "p3-s13",
+   "page": 3,
+   "start": 1021,
+   "end": 1070,
+   "chars": 49,
+   "text": "Instructor computer located in the computer lab.\n"
+  },
+  {
+   "id": "p3-s14",
+   "page": 3,
+   "start": 1070,
+   "end": 1107,
+   "chars": 37,
+   "text": "Audio/visual equipment as installed.\n"
+  },
+  {
+   "id": "p3-s15",
+   "page": 3,
+   "start": 1107,
+   "end": 1127,
+   "chars": 20,
+   "text": "Classroom printers.\n"
+  },
+  {
+   "id": "p3-s16",
+   "page": 3,
+   "start": 1128,
+   "end": 1131,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p3-s17",
+   "page": 3,
+   "start": 1131,
+   "end": 1204,
+   "chars": 73,
+   "text": "Strategic Technology Planning\n•\n•\n•\n•\n•\n\nHardware replacement schedules.\n"
+  },
+  {
+   "id": "p3-s18",
+   "page": 3,
+   "start": 1204,
+   "end": 1240,
+   "chars": 36,
+   "text": "Software licensing recommendations.\n"
+  },
+  {
+   "id": "p3-s19",
+   "page": 3,
+   "start": 1240,
+   "end": 1268,
+   "chars": 28,
+   "text": "Cybersecurity improvements.\n"
+  },
+  {
+   "id": "p3-s20",
+   "page": 3,
+   "start": 1268,
+   "end": 1285,
+   "chars": 17,
+   "text": "Budget planning.\n"
+  },
+  {
+   "id": "p3-s21",
+   "page": 3,
+   "start": 1285,
+   "end": 1316,
+   "chars": 31,
+   "text": "Technology lifecycle planning.\n"
+  },
+  {
+   "id": "p3-s22",
+   "page": 3,
+   "start": 1317,
+   "end": 1517,
+   "chars": 200,
+   "text": "Vendors may also describe optional Virtual Chief Information Officer (vCIO) services that provide\nexecutive-level technology planning, budgeting, project oversight, and long-term technology strategy.\n"
+  },
+  {
+   "id": "p3-s23",
+   "page": 3,
+   "start": 1518,
+   "end": 1521,
+   "chars": 3,
+   "text": "V. "
+  },
+  {
+   "id": "p3-s24",
+   "page": 3,
+   "start": 1521,
+   "end": 1731,
+   "chars": 210,
+   "text": "RESPONSE TIME REQUIREMENTS\nPriority\n\nRequired Response Time\n\nCritical System Failure Within one (1) hour\nHigh Priority Issue\nWithin four (4) business hours\nRoutine Support Request Within one (1) business day\n\n3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 126,
+   "chars": 126,
+   "text": "Vendors shall describe their procedures for after-hours emergency support and their escalation process\nfor unresolved issues.\n"
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 127,
+   "end": 131,
+   "chars": 4,
+   "text": "VI. "
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 131,
+   "end": 165,
+   "chars": 34,
+   "text": "PROPOSAL REQUIREMENTS\nInclude:\n1. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 165,
+   "end": 181,
+   "chars": 16,
+   "text": "Cover Letter\n2. "
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 181,
+   "end": 201,
+   "chars": 20,
+   "text": "Company Overview\n3. "
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 201,
+   "end": 244,
+   "chars": 43,
+   "text": "Experience with nonprofit organizations\n4. "
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 244,
+   "end": 279,
+   "chars": 35,
+   "text": "Experience serving rural Alaska\n5. "
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 279,
+   "end": 296,
+   "chars": 17,
+   "text": "Staffing Plan\n6. "
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 296,
+   "end": 328,
+   "chars": 32,
+   "text": "Service delivery methodology\n7. "
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 328,
+   "end": 342,
+   "chars": 14,
+   "text": "Sample SLA\n8. "
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 342,
+   "end": 362,
+   "chars": 20,
+   "text": "Three references\n9. "
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 362,
+   "end": 406,
+   "chars": 44,
+   "text": "Proof of insurance and business license\n10. "
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 406,
+   "end": 427,
+   "chars": 21,
+   "text": "Pricing proposal\n11. "
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 427,
+   "end": 460,
+   "chars": 33,
+   "text": "Cybersecurity qualifications\n12. "
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 460,
+   "end": 554,
+   "chars": 94,
+   "text": "Transition plan\n\n• The firm's approach to assuming responsibility for SAVEC's IT environment.\n"
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 554,
+   "end": 622,
+   "chars": 68,
+   "text": "• The process used to assess a new client's technology environment.\n"
+  },
+  {
+   "id": "p4-s16",
+   "page": 4,
+   "start": 622,
+   "end": 721,
+   "chars": 99,
+   "text": "• The information and documentation the firm would request from SAVEC and the current IT\nprovider.\n"
+  },
+  {
+   "id": "p4-s17",
+   "page": 4,
+   "start": 721,
+   "end": 812,
+   "chars": 91,
+   "text": "• How the firm will minimize disruption to SAVEC's daily operations during the transition.\n"
+  },
+  {
+   "id": "p4-s18",
+   "page": 4,
+   "start": 812,
+   "end": 868,
+   "chars": 56,
+   "text": "• The estimated timeline for completing the transition.\n"
+  },
+  {
+   "id": "p4-s19",
+   "page": 4,
+   "start": 869,
+   "end": 873,
+   "chars": 4,
+   "text": "13. "
+  },
+  {
+   "id": "p4-s20",
+   "page": 4,
+   "start": 873,
+   "end": 1019,
+   "chars": 146,
+   "text": "Description of vCIO services (optional) or coordination with an owner-representative if SAVEC elects\nto retain an independent technology advisor.\n"
+  },
+  {
+   "id": "p4-s21",
+   "page": 4,
+   "start": 1020,
+   "end": 1025,
+   "chars": 5,
+   "text": "VII. "
+  },
+  {
+   "id": "p4-s22",
+   "page": 4,
+   "start": 1025,
+   "end": 1106,
+   "chars": 81,
+   "text": "PRICING\nVendors shall complete the Pricing Proposal Form included as Appendix A.\n"
+  },
+  {
+   "id": "p4-s23",
+   "page": 4,
+   "start": 1106,
+   "end": 1338,
+   "chars": 232,
+   "text": "SAVEC reserves the right to reject any or all proposals, waive minor informalities, request additional\ninformation from proposers, negotiate with one or more proposers, and award a contract in the best\ninterest of the organization.\n"
+  },
+  {
+   "id": "p4-s24",
+   "page": 4,
+   "start": 1339,
+   "end": 1345,
+   "chars": 6,
+   "text": "VIII. "
+  },
+  {
+   "id": "p4-s25",
+   "page": 4,
+   "start": 1345,
+   "end": 1537,
+   "chars": 192,
+   "text": "EVALUATION CRITERIA\nExperience with similar organizations – 25\nExperience in Rural Alaska – 20\nResponsiveness and Support Model – 20\nTechnical Expertise – 15\nCybersecurity – 10\nCost – 10\n\nIX. "
+  },
+  {
+   "id": "p4-s26",
+   "page": 4,
+   "start": 1537,
+   "end": 1676,
+   "chars": 139,
+   "text": "CONTRACT TERM\nThe initial term shall be one (1) year with annual renewal options based upon satisfactory performance\nand mutual agreement. "
+  },
+  {
+   "id": "p4-s27",
+   "page": 4,
+   "start": 1676,
+   "end": 1807,
+   "chars": 131,
+   "text": "SAVEC reserves the right not to renew the agreement based on performance,\nresponsiveness, service levels, or organizational needs.\n"
+  },
+  {
+   "id": "p4-s28",
+   "page": 4,
+   "start": 1807,
+   "end": 1987,
+   "chars": 180,
+   "text": "At the conclusion or termination of the Agreement, the Contractor shall cooperate with SAVEC and any\nsuccessor IT service provider to facilitate an orderly transition of services. "
+  },
+  {
+   "id": "p4-s29",
+   "page": 4,
+   "start": 1987,
+   "end": 2005,
+   "chars": 18,
+   "text": "All SAVEC-owned\n\n4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 195,
+   "chars": 195,
+   "text": "documentation, administrator credentials, passwords, software licensing information, network\ndiagrams, configuration files, and other operational records shall be provided to SAVEC upon request.\n"
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 196,
+   "end": 199,
+   "chars": 3,
+   "text": "X. "
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 199,
+   "end": 304,
+   "chars": 105,
+   "text": "SUBMISSION INSTRUCTIONS\nProposals must be received no later than 1:00 p.m. Alaska Time on July 28, 2026.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 304,
+   "end": 569,
+   "chars": 265,
+   "text": "Electronic proposals shall be submitted in PDF format to:\nAnnette Caruso\nExecutive Director\nSouthwest Alaska Vocational & Educational Center (SAVEC)\nannettewilsoncaruso@gmail.com\nQuestions regarding this RFP shall be submitted by email no later than July 21, 2026.\n"
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 570,
+   "end": 876,
+   "chars": 306,
+   "text": "Appendix A\nItem\n\nProposed Cost\n\nMonthly Managed Services\n\n$______\n\nHourly Remote Support\n\n$______\n\nHourly On-Site Support\n\n$______\n\nEmergency After-Hours Support\n\n$______\n\nTravel Rate\n\n$______\n\nNew Computer Setup\n\n$______\n\nNew User Setup\n\n$______\n\nAdditional Workstation (Monthly)\n\n$______\n\nAdditional User"
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 876,
+   "end": 1181,
+   "chars": 305,
+   "text": " (Monthly)\n\n$______\n\nProject Work\n\n$______\n\nAppendix B\nEquipment\nStaff Computers\nStudent Lab Computers\nClassroom Instructor Computers\nSMART Boards\nFull-Time Employees\nFuture Part-Time Employee\nWindows Computers Supported\nWireless Network\nInternet Connection\n\nApproximate Quantity\n3\n8\n3\n2\n2\n1\nApproximately"
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 1181,
+   "end": 1215,
+   "chars": 34,
+   "text": " 14\nUbiquiti\nBusiness Broadband\n\n5"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 5
+ }
+}

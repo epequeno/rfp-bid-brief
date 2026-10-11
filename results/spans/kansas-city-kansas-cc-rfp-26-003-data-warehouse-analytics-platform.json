@@ -1,0 +1,2569 @@
+{
+ "schema": "span-index/1",
+ "fixture": "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf",
+ "fixture_sha256": "45e485ac4d0cea2d659a999b02bc1f99d577042c4b3b8b0afc77d89b2b822bb0",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "2d4fcf7ec95527d8d275f79c78468558d1c2b24a3b1060b18c88b33e889ca87c",
+   "chars": 372
+  },
+  {
+   "number": 2,
+   "sha256": "113b4baa434a576110ad3887ab881f3e28b498ec6165384d62b24daf04015b2f",
+   "chars": 484
+  },
+  {
+   "number": 3,
+   "sha256": "e308d3956dff61cb3d89de10933ca1a478458f77895046cc1e402adce3738b3f",
+   "chars": 229
+  },
+  {
+   "number": 4,
+   "sha256": "0df833d13f1e46909155a4db34173bc65f3011d7b0035628e52f6c6350cd95ce",
+   "chars": 717
+  },
+  {
+   "number": 5,
+   "sha256": "549b46ea30f4c693e17c85dbb733d38a39c8141da052ed9752ae6db2b9a1f446",
+   "chars": 2784
+  },
+  {
+   "number": 6,
+   "sha256": "90263bbc6a73f7f3a80730bfbcc1bc16200d2fa5f9e539e4d6b679b07aca2677",
+   "chars": 2301
+  },
+  {
+   "number": 7,
+   "sha256": "982f07f99d6164effd8746513f38691335a66af0349e67a17e14fa4b130fd130",
+   "chars": 1597
+  },
+  {
+   "number": 8,
+   "sha256": "527f6927c1d4d4e50a56a99d5f89c4ddf38957673225dc3b9dd5ded0d3490f87",
+   "chars": 3009
+  },
+  {
+   "number": 9,
+   "sha256": "692d05ebcd1cc2cf89e3c02513f3533a3d7b267668c6be01b8a0a646a2131719",
+   "chars": 2785
+  },
+  {
+   "number": 10,
+   "sha256": "1b619396d80974553b468d85526e85f99fed9b65fba732ef64703120ee1127f1",
+   "chars": 3065
+  },
+  {
+   "number": 11,
+   "sha256": "5874ac510b98e4ed7a0e1e98c2d7a255786102ae47b4b0a8da6ef53f3f8d0f65",
+   "chars": 3093
+  },
+  {
+   "number": 12,
+   "sha256": "7f05e60cae98ebff0d6f3981af52298880552bc727421d66c2982e4e4ade602f",
+   "chars": 2989
+  },
+  {
+   "number": 13,
+   "sha256": "cf3d1fd020248c37688c4cbd38cb053ba01cce0da4f71c58286fe259f2ce37fb",
+   "chars": 2616
+  },
+  {
+   "number": 14,
+   "sha256": "07fb1623f644214db97b6496c9f4becb9a01cb88c7d8d2d72d5fdda0158a099b",
+   "chars": 2302
+  },
+  {
+   "number": 15,
+   "sha256": "26622dbd78f305b09065ae8ca90d1ca6ce12bf882dbf3e8c7fa39a5f4517101c",
+   "chars": 2541
+  },
+  {
+   "number": 16,
+   "sha256": "28212cb3ee5338760bbfc95e3c6b8a35bd90c993019312981c023b444a7c2c1b",
+   "chars": 315
+  },
+  {
+   "number": 17,
+   "sha256": "76350357b87feb40fde1e7aebf40ce313b5b3ec9178665e3d81c7da312ef2116",
+   "chars": 2087
+  },
+  {
+   "number": 18,
+   "sha256": "54910f1c1d463485a595b6b6809e6868feb6546af9db7aa439951a7669b000e5",
+   "chars": 2987
+  },
+  {
+   "number": 19,
+   "sha256": "c8470ac3e1e6d27bc0aca7ed17515d846041bd3167b8381ff21cd7355ea3532b",
+   "chars": 2272
+  }
+ ],
+ "span_count": 307,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 314,
+   "chars": 314,
+   "text": "1\n\nRequest for Proposal/Bid 26-003\n\nData Warehouse and Analytics\nPlatform\n\nRFP/Bid Issued:\nQuestion/clarification\ndeadline:\n\nMarch 19, 2026\n\nProposals/Bids Due:\n\nApril 15, 2026 10:00 AM CST\nLinda Burgess\nPurchasing Specialist\nKansas City Kansas Community College\n7250 State Avenue, Kansas City Kansas 66112\nEmail: "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 314,
+   "end": 372,
+   "chars": 58,
+   "text": "lburgess@kckcc.edu\n\nBuyer:\n\nMarch 30, 2026 10:00 AM CST\n\n1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 222,
+   "chars": 222,
+   "text": "FORM A\nRESPONDENT ACKNOWLEDGEMENT\nRFP 26-003\nThe undersigned certifies that he/she has the authority to bind this company in an agreement to supply\nthe service in accordance with all terms and conditions specified herein. "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 222,
+   "end": 266,
+   "chars": 44,
+   "text": "Please type or print the\ninformation below.\n"
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 267,
+   "end": 352,
+   "chars": 85,
+   "text": "Respondent is REQUIRED to complete, sign, and return this form with their submittal.\n"
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 352,
+   "end": 484,
+   "chars": 132,
+   "text": "Company Name\n\nAuthorized Person (Print)\n\nAddress\n\nSignature\n\nCity/State/Zip\n\nTitle\n\nPhone #\n\nDate\n\nFax #\n\nTax ID #\n\nEmail Address\n\n2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 229,
+   "chars": 229,
+   "text": "TABLE OF CONTENTS\n\nRFP NO. 26-003\n\nPROFILE OF KANSAS CITY KANSAS COMMUNITY COLLEGE\n\nPAGE 4\n\nINSTRUCTIONS FOR SUBMITTING PROPOSAL\n\nPAGE 5\n\nSCOPE OF SERVICES / PROPOSAL REQUIREMENTS\n\nPAGE 8\n\nGENERAL TERMS AND CONDITIONS\n\nPAGE 17\n\n3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 264,
+   "chars": 264,
+   "text": "RFP INFORMATION, INSTRUCTIONS, FORMS\nREQUEST FOR PROPOSALS NO. 25-XXX\nPROFILE OF KANSAS CITY, KANSAS COMMUNITY COLLEGE\nKansas City Kansas Community College is a centrally located public 2-year institution in the Kansas City\nmetropolitan area, in northeast Kansas. "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 264,
+   "end": 349,
+   "chars": 85,
+   "text": "The College was founded in 1923 and is accredited by the Higher\nLearning Commission. "
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 349,
+   "end": 523,
+   "chars": 174,
+   "text": "KCKCC’s Main Campus and Technical Education Centers are within the city limits\nof Kansas City, Kansas, located within Wyandotte County near State Avenue and College Parkway. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 523,
+   "end": 614,
+   "chars": 91,
+   "text": "The\nCollege also serves Leavenworth County with a satellite center, Pioneer Career Center.\n"
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 614,
+   "end": 717,
+   "chars": 103,
+   "text": "The stated mission of KCKCC is “Inspire individuals and enrich our community one student at a time.”\n\n4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 132,
+   "chars": 132,
+   "text": "INSTRUCTIONS FOR SUBMITTING PROPOSALS\nSECTION 1: GENERAL INSTRUCTIONS\nAll submittals must be in accordance with these instructions.\n"
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 132,
+   "end": 135,
+   "chars": 3,
+   "text": "A. "
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 135,
+   "end": 278,
+   "chars": 143,
+   "text": "Must submit three (1) original paper copies of the submittal response in a sealed envelope,\nlabeled with the project number and project title. "
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 278,
+   "end": 362,
+   "chars": 84,
+   "text": "A pdf copy of the proposal should be emailed\nto lburgess@kckcc.edu by the deadline. "
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 362,
+   "end": 540,
+   "chars": 178,
+   "text": "Paper copies should be mailed or delivered to 7250 State\nAvenue, Kansas City, Kansas 66112, Attention: Linda Burgess, Purchasing Specialist,\nAdministrative Offices, Upper Jewel.\n"
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 540,
+   "end": 543,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 543,
+   "end": 763,
+   "chars": 220,
+   "text": "The College reserves the right to waive defects and informalities in submittals, to reject any or all\nsubmittals, or to accept any submittals as may be deemed in the best interest of the College, in\nits sole discretion.\n"
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 763,
+   "end": 766,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 766,
+   "end": 963,
+   "chars": 197,
+   "text": "Any submittal may be withdrawn at any time prior to the time specified herein for the opening of\nsubmittals, but no submittal may be withdrawn for a period of ninety (90) days after the submittal.\n"
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 963,
+   "end": 966,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 966,
+   "end": 1119,
+   "chars": 153,
+   "text": "Any exceptions taken to the terms, conditions, or specifications of the RFP must be clearly noted\nin the submittal as follows: Exceptions to RFP 26-003. "
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 1119,
+   "end": 1409,
+   "chars": 290,
+   "text": "If not so noted, then the successful\nrespondent expressly agrees to the terms, conditions, and specifications of the RFP in its entirety\nand any exception after submittal will be held invalid and/or cause to reject the submittal, in\nwhole or in part, at the sole discretion of the College.\n"
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 1409,
+   "end": 1412,
+   "chars": 3,
+   "text": "E. "
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 1412,
+   "end": 1579,
+   "chars": 167,
+   "text": "Questions and information pertaining to any item of this request may be obtained by submitting\na request via email prior to the submittal deadline as noted on Page 1. "
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 1579,
+   "end": 1729,
+   "chars": 150,
+   "text": "Except in writing as noted\non page 1, no other communication will take place between respondents and employees of the\nCollege during the RFP process.\n"
+  },
+  {
+   "id": "p5-s15",
+   "page": 5,
+   "start": 1729,
+   "end": 1732,
+   "chars": 3,
+   "text": "F. "
+  },
+  {
+   "id": "p5-s16",
+   "page": 5,
+   "start": 1732,
+   "end": 1854,
+   "chars": 122,
+   "text": "Services shall not be subcontracted or assigned, in whole or in part, without the express written\nconsent of the College. "
+  },
+  {
+   "id": "p5-s17",
+   "page": 5,
+   "start": 1854,
+   "end": 2007,
+   "chars": 153,
+   "text": "Areas of work that cannot be accomplished by the respondent must be\nidentified in the submittal, including the identification of other firms to be used. "
+  },
+  {
+   "id": "p5-s18",
+   "page": 5,
+   "start": 2007,
+   "end": 2158,
+   "chars": 151,
+   "text": "However,\nultimate responsibility for the goods/services and all obligations relating to the goods/services\nwill remain with the successful respondent.\n"
+  },
+  {
+   "id": "p5-s19",
+   "page": 5,
+   "start": 2158,
+   "end": 2161,
+   "chars": 3,
+   "text": "G. "
+  },
+  {
+   "id": "p5-s20",
+   "page": 5,
+   "start": 2161,
+   "end": 2259,
+   "chars": 98,
+   "text": "It is the responsibility of each respondent to become familiar with the requirements of this RFP.\n"
+  },
+  {
+   "id": "p5-s21",
+   "page": 5,
+   "start": 2259,
+   "end": 2397,
+   "chars": 138,
+   "text": "Lack of knowledge concerning the RFP’s requirements will not relieve the respondent of\nconditions submitted in response to the submittal.\n"
+  },
+  {
+   "id": "p5-s22",
+   "page": 5,
+   "start": 2397,
+   "end": 2400,
+   "chars": 3,
+   "text": "H. "
+  },
+  {
+   "id": "p5-s23",
+   "page": 5,
+   "start": 2400,
+   "end": 2586,
+   "chars": 186,
+   "text": "If it becomes necessary to revise this RFP in whole or in part, an addendum will be provided to all\nrespondents on record as having received the RFP and posted on the College’s website. "
+  },
+  {
+   "id": "p5-s24",
+   "page": 5,
+   "start": 2586,
+   "end": 2783,
+   "chars": 197,
+   "text": "It is\nimportant to note, however, that it remains the responsibility of the respondent to determine\nif any addenda have been issued and to obtain those addenda prior to submitting their\nsubmittal.\n"
+  },
+  {
+   "id": "p5-s25",
+   "page": 5,
+   "start": 2783,
+   "end": 2784,
+   "chars": 1,
+   "text": "5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "I.\n"
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 4,
+   "end": 133,
+   "chars": 129,
+   "text": "The College will not be liable for any costs that a respondent may incur in the preparation of or\npresentation of the submittal.\n"
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 134,
+   "end": 137,
+   "chars": 3,
+   "text": "J.\n"
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 138,
+   "end": 258,
+   "chars": 120,
+   "text": "In all cases, no verbal communication will override written communication, and only written\ncommunications are binding.\n"
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 259,
+   "end": 262,
+   "chars": 3,
+   "text": "K. "
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 262,
+   "end": 393,
+   "chars": 131,
+   "text": "The College shall not be obligated to return the respondent’s submittal once submitted, whether\nor not the submittal is withdrawn.\n"
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 393,
+   "end": 522,
+   "chars": 129,
+   "text": "SECTION 2: EVALUATION CRITERIA\nEvaluation will be in accordance with the College’s policies and practices and purchasing policy. "
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 522,
+   "end": 662,
+   "chars": 140,
+   "text": "The\nCollege shall base its selections for professional services required for a project upon, but not limited\nto, the following criteria:\nA. "
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 662,
+   "end": 697,
+   "chars": 35,
+   "text": "Approach to the Scope of Services. "
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 697,
+   "end": 808,
+   "chars": 111,
+   "text": "The scope of the services offered and the extent to which\nthey meet or exceed the requirements of the College.\n"
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 808,
+   "end": 811,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 811,
+   "end": 822,
+   "chars": 11,
+   "text": "Personnel. "
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 822,
+   "end": 918,
+   "chars": 96,
+   "text": "Professional credentials and experience of all personnel who will be involved with the\nproject. "
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 918,
+   "end": 1035,
+   "chars": 117,
+   "text": "The specialized experience and technical competence of the respondent with respect to\nthe type of services required.\n"
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 1035,
+   "end": 1038,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 1038,
+   "end": 1068,
+   "chars": 30,
+   "text": "Capacity to Perform the Work. "
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 1068,
+   "end": 1248,
+   "chars": 180,
+   "text": "The capacity and capability of the respondent to perform the work\nin question, including specialized services, within the time limitations fixed for the completion of\nthe project. "
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 1248,
+   "end": 1346,
+   "chars": 98,
+   "text": "Total resources of the respondent that can be applied to the Project, including project\nschedule.\n"
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 1346,
+   "end": 1349,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p6-s19",
+   "page": 6,
+   "start": 1349,
+   "end": 1361,
+   "chars": 12,
+   "text": "Experience. "
+  },
+  {
+   "id": "p6-s20",
+   "page": 6,
+   "start": 1361,
+   "end": 1508,
+   "chars": 147,
+   "text": "The past record of performance of the respondent with respect to such factors as\ncontrol of costs, quality of work, and ability to meet schedules. "
+  },
+  {
+   "id": "p6-s21",
+   "page": 6,
+   "start": 1508,
+   "end": 1706,
+   "chars": 198,
+   "text": "Previous experience with similar\nor like services as outlined in this RFP, including references, level of satisfaction of present and\nformer clients with accounts of comparable size and complexity.\n"
+  },
+  {
+   "id": "p6-s22",
+   "page": 6,
+   "start": 1706,
+   "end": 1709,
+   "chars": 3,
+   "text": "E. "
+  },
+  {
+   "id": "p6-s23",
+   "page": 6,
+   "start": 1709,
+   "end": 1722,
+   "chars": 13,
+   "text": "Familiarity. "
+  },
+  {
+   "id": "p6-s24",
+   "page": 6,
+   "start": 1722,
+   "end": 1810,
+   "chars": 88,
+   "text": "The respondent's proximity to and familiarity with the College and/or higher\neducation. "
+  },
+  {
+   "id": "p6-s25",
+   "page": 6,
+   "start": 1810,
+   "end": 1953,
+   "chars": 143,
+   "text": "Understanding of the scope and work required as evidenced by the submittal and the\nability of the respondent to deliver services as requested.\n"
+  },
+  {
+   "id": "p6-s26",
+   "page": 6,
+   "start": 1953,
+   "end": 1956,
+   "chars": 3,
+   "text": "F. "
+  },
+  {
+   "id": "p6-s27",
+   "page": 6,
+   "start": 1956,
+   "end": 1970,
+   "chars": 14,
+   "text": "Fee Proposal. "
+  },
+  {
+   "id": "p6-s28",
+   "page": 6,
+   "start": 1970,
+   "end": 2092,
+   "chars": 122,
+   "text": "Selection will be made based upon the most responsible respondent in the sole\ndiscretion of the College, including costs. "
+  },
+  {
+   "id": "p6-s29",
+   "page": 6,
+   "start": 2092,
+   "end": 2299,
+   "chars": 207,
+   "text": "A responsible respondent is a firm who has the capability\nand experience in all aspects to perform fully the contract requirements and the integrity and\nreliability which will assure good faith performance.\n"
+  },
+  {
+   "id": "p6-s30",
+   "page": 6,
+   "start": 2300,
+   "end": 2301,
+   "chars": 1,
+   "text": "6"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 117,
+   "chars": 117,
+   "text": "SECTION 3: PROPOSAL SUBMITTALS\nBid/Proposal Format – the following should be clearly identified in your proposal:\n1. "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 117,
+   "end": 190,
+   "chars": 73,
+   "text": "Respondent Acknowledgement Sheet – Completed copy of page 2 of this RFP.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 190,
+   "end": 193,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 193,
+   "end": 302,
+   "chars": 109,
+   "text": "Company Overview and History - Describe your company, officers, number of employees,\nand operating policies. "
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 302,
+   "end": 435,
+   "chars": 133,
+   "text": "State the number of years your organization has been in business\nand the financial stability of your company (no more than 2 pages).\n"
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 435,
+   "end": 438,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 438,
+   "end": 537,
+   "chars": 99,
+   "text": "Experience/References – Describe your experience in performing the services requested in\nthis RFP. "
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 537,
+   "end": 723,
+   "chars": 186,
+   "text": "Indicate if you have previously contracted with KCKCC, and if any contract with\nKCKCC was terminated or declared in default by the College due to performance, breach, or\nother concerns. "
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 723,
+   "end": 852,
+   "chars": 129,
+   "text": "Provide three (3) references, preferably those that include current and\nformer public higher education clients for similar work.\n"
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 852,
+   "end": 855,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 855,
+   "end": 1047,
+   "chars": 192,
+   "text": "Key Personnel – Identify key personnel who would be assigned to this project to provide the\nservices described in the Scope of Work, highlighting the primary point of contact for the\nCollege. "
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 1047,
+   "end": 1107,
+   "chars": 60,
+   "text": "Include an organizational chart and resumes as appropriate.\n"
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 1107,
+   "end": 1110,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 1111,
+   "end": 1178,
+   "chars": 67,
+   "text": "Project Approach – Describe in detail the approach to the project. "
+  },
+  {
+   "id": "p7-s14",
+   "page": 7,
+   "start": 1178,
+   "end": 1279,
+   "chars": 101,
+   "text": "Provide a detailed, taskoriented timeline for the project as it relates to the project requirements.\n"
+  },
+  {
+   "id": "p7-s15",
+   "page": 7,
+   "start": 1280,
+   "end": 1283,
+   "chars": 3,
+   "text": "6.\n"
+  },
+  {
+   "id": "p7-s16",
+   "page": 7,
+   "start": 1284,
+   "end": 1401,
+   "chars": 117,
+   "text": "Fee Proposal – Describe how your firm is compensated for services and describe all fees for\nservices on our account. "
+  },
+  {
+   "id": "p7-s17",
+   "page": 7,
+   "start": 1401,
+   "end": 1473,
+   "chars": 72,
+   "text": "Include itemized costs for all components and features to be\ndelivered. "
+  },
+  {
+   "id": "p7-s18",
+   "page": 7,
+   "start": 1473,
+   "end": 1595,
+   "chars": 122,
+   "text": "Unless stated, the College shall assume that no other fees will be assessed in\nconnection with the provision of services.\n"
+  },
+  {
+   "id": "p7-s19",
+   "page": 7,
+   "start": 1596,
+   "end": 1597,
+   "chars": 1,
+   "text": "7"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 242,
+   "chars": 242,
+   "text": "SCOPE OF SERVICES\nSECTION 1: Institutional Context and Current Environment\nOur college has a long-standing practice of collecting and reporting institutional data, but the college\ncontinues to face challenges in translating data into timely, "
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 242,
+   "end": 321,
+   "chars": 79,
+   "text": "actionable information used consistently by\neducators and operational leaders. "
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 321,
+   "end": 392,
+   "chars": 71,
+   "text": "The primary student information system is the Ellucian Colleague SaaS.\n"
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 392,
+   "end": 549,
+   "chars": 157,
+   "text": "Supporting systems and data sources include Blackboard LMS, Student Planning for degree planning, and\na range of spreadsheets and locally developed reports. "
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 549,
+   "end": 705,
+   "chars": 156,
+   "text": "These sources are not consistently connected,\nwhich limits the college’s ability to analyze the full student experience across departments and across time.\n"
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 705,
+   "end": 947,
+   "chars": 242,
+   "text": "Institutional Effectiveness and related offices currently respond to requests by extracting information from\nColleague SaaS and other systems, then distributing results through Excel files or custom reports\ndeveloped in Power BI and Tableau. "
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 947,
+   "end": 1121,
+   "chars": 174,
+   "text": "While internal dashboards exist, parts of the underlying logic depend\non undocumented processes or individual staff knowledge rather than standardized, reusable data models.\n"
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 1121,
+   "end": 1265,
+   "chars": 144,
+   "text": "This affects maintainability and makes it harder for users outside a small technical group to trust, interpret,\nand apply results consistently. "
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 1265,
+   "end": 1397,
+   "chars": 132,
+   "text": "Additionally, recurring reporting, including six-month and annual strategic\nplan updates, remains highly manual and time-consuming.\n"
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 1397,
+   "end": 1577,
+   "chars": 180,
+   "text": "Important datasets such as National Student Clearinghouse outcomes and certain grant-related or\ncategorical group data are difficult to incorporate reliably into regular analysis. "
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1577,
+   "end": 1744,
+   "chars": 167,
+   "text": "The absence of a\ncomprehensive, institution-wide data dictionary further contributes to inconsistent definitions and limits a\nshared understanding across departments.\n"
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1744,
+   "end": 1747,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 1747,
+   "end": 2021,
+   "chars": 274,
+   "text": "Our College’s Analytics Objectives\nOur college is seeking a platform that improves data utilization across the institution, supporting consistent\ndecision-making and coordinated action across academic, student support, enrollment, and institutional\neffectiveness functions. "
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 2021,
+   "end": 2227,
+   "chars": 206,
+   "text": "The goal is not only to enhance reporting, but to expand access to reliable analytics\nbeyond a small group of technical users while improving transparency, reliability, interpretability, and\nrepeatability.\n"
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 2227,
+   "end": 2489,
+   "chars": 262,
+   "text": "Our college’s priorities emphasize student success and institutional effectiveness, including a focus on\nretention and persistence outcomes for low-income and underrepresented students and a need for\nanalytics that support transparent review of equity outcomes. "
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 2489,
+   "end": 2687,
+   "chars": 198,
+   "text": "The solution should also strengthen the\ncollege’s ability to understand program progress toward credential completion, identify students who are\nclose to completion but not progressing as expected, "
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 2687,
+   "end": 2820,
+   "chars": 133,
+   "text": "and support outreach and intervention workflows\nthrough shared visibility into relevant student indicators and intervention history.\n"
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 2820,
+   "end": 2823,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p8-s18",
+   "page": 8,
+   "start": 2823,
+   "end": 3007,
+   "chars": 184,
+   "text": "Outcomes the Solution Must Support\nThis procurement is intended to support the following outcome areas, which should be reflected in the\nproposed solution and implementation approach.\n"
+  },
+  {
+   "id": "p8-s19",
+   "page": 8,
+   "start": 3008,
+   "end": 3009,
+   "chars": 1,
+   "text": "8"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 213,
+   "chars": 213,
+   "text": "3.1 Broad Access and Consistent Interpretation of Data\nThe solution must broaden access to analysis for faculty, advisors, student affairs, enrollment\nmanagement, academic leadership, and other appropriate roles. "
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 213,
+   "end": 382,
+   "chars": 169,
+   "text": "The intent is to enable more users to\nexplore data, ask questions, and use evidence in daily work, supported by training and adoption support\nthat builds data literacy.\n"
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 382,
+   "end": 673,
+   "chars": 291,
+   "text": "3.2 Retention, Persistence, and Gap Measurement and Improvement\nThe solution must support analysis of retention, persistence, course success, developmental\neducation outcomes, three-year graduation rates, and related measures, including disaggregation by\nstudent subgroups to identify gaps. "
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 673,
+   "end": 903,
+   "chars": 230,
+   "text": "Our College is seeking transparent, pre-delivered analytics that\nsurface historical patterns and leading indicators in an interpretable way, supporting targeted\ninterventions and allowing the college to evaluate impact over time.\n"
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 903,
+   "end": 1211,
+   "chars": 308,
+   "text": "3.3 Proactive Outreach through Early Indicators\nThe solution must strengthen proactive support by surfacing early indicators derived from historical\ntrends and current-term data, including examples such as course performance patterns, withdrawal\nhistory, credit accumulation trends, developmental placement, "
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 1211,
+   "end": 1269,
+   "chars": 58,
+   "text": "and limited LMS engagement in\nBlackboard where available.\n"
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 1269,
+   "end": 1488,
+   "chars": 219,
+   "text": "3.4 Clear Visibility into Credential Progress and Completion Readiness\nThe solution must incorporate degree planning or audit data to show progress toward credential\ncompletion at both the student and aggregate levels. "
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 1488,
+   "end": 1673,
+   "chars": 185,
+   "text": "The platform must find near completers, support\nreview of auto-graduation candidates, and detect when students deviate from their intended program\nrequirements or fall out of sequence. "
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 1673,
+   "end": 1782,
+   "chars": 109,
+   "text": "These insights must support targeted actions that help students\nregain alignment and progress to completion.\n"
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 1782,
+   "end": 2083,
+   "chars": 301,
+   "text": "3.5 Faster Reporting and Self-Service Analysis\nThe solution must reduce dependence on long turnaround times for reporting by enabling users to\nanswer typical questions on demand, such as retention by program, course success trends, service\nutilization, and progress toward key performance indicators. "
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 2083,
+   "end": 2212,
+   "chars": 129,
+   "text": "Users must be able to explore data through\ndashboards or report-building tools that support drill-down and comparative analysis.\n"
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 2212,
+   "end": 2460,
+   "chars": 248,
+   "text": "3.6 Connected Data Foundation\nThe solution must integrate data from Colleague SaaS, Blackboard, Student Planning, National Student\nClearinghouse, and other relevant sources into a centralized analytics environment with clearly defined\ndata models. "
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 2460,
+   "end": 2575,
+   "chars": 115,
+   "text": "Our College expects “near real-time” data processing to refresh dashboards and\nanalytics by the start of each day. "
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 2575,
+   "end": 2692,
+   "chars": 117,
+   "text": "A robust data dictionary must accompany the solution to document\ndefinitions, logic, and shared reporting standards. "
+  },
+  {
+   "id": "p9-s14",
+   "page": 9,
+   "start": 2692,
+   "end": 2784,
+   "chars": 92,
+   "text": "The data environment must support longitudinal\nanalysis such as multi-year cohort tracking.\n"
+  },
+  {
+   "id": "p9-s15",
+   "page": 9,
+   "start": 2784,
+   "end": 2785,
+   "chars": 1,
+   "text": "9"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 188,
+   "chars": 188,
+   "text": "3.7 Governance and Security\nThe solution must support a structured and sustainable data governance framework that promotes\nclarity, accountability, and consistency across the institution. "
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 188,
+   "end": 452,
+   "chars": 264,
+   "text": "The platform should enable clearly\ndefined data ownership and stewardship roles, support standardized definitions and shared reporting\nlogic, and provide transparency into how data flows from Ellucian Colleague SaaS and other source\nsystems into analytic outputs. "
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 452,
+   "end": 649,
+   "chars": 197,
+   "text": "A centralized data dictionary or metadata capability must accompany\nthe solution so that definitions, calculation logic, and reporting standards are documented and\naccessible to appropriate users. "
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 649,
+   "end": 825,
+   "chars": 176,
+   "text": "The college expects governance practices to be embedded into the\nimplementation approach, including guidance on roles, documentation, and ongoing stewardship\nresponsibilities.\n"
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 825,
+   "end": 945,
+   "chars": 120,
+   "text": "The solution must also include embedded data quality capabilities that support continuous monitoring\nof data integrity. "
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 945,
+   "end": 1159,
+   "chars": 214,
+   "text": "Vendors should describe how anomalies are identified, how data lineage is traceable\nto source systems, and how the platform supports collaboration between technical and functional\noffices to resolve discrepancies. "
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 1159,
+   "end": 1293,
+   "chars": 134,
+   "text": "Data quality processes must be sustainable and operational rather\nthan dependent on undocumented knowledge or one-time configuration.\n"
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 1293,
+   "end": 1479,
+   "chars": 186,
+   "text": "From a security perspective, the platform must comply with FERPA and applicable regulatory\nrequirements and support role-based access controls aligned to institutional responsibilities. "
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 1479,
+   "end": 1624,
+   "chars": 145,
+   "text": "The\nsystem must integrate with the college’s single sign-on environment and ensure encryption of data in\ntransit and, where applicable, at rest. "
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 1624,
+   "end": 1749,
+   "chars": 125,
+   "text": "Comprehensive logging, monitoring, and audit reporting must be\navailable to support institutional accountability and review. "
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 1749,
+   "end": 2011,
+   "chars": 262,
+   "text": "Vendors must also describe incident\nresponse protocols, data retention controls, and, if cloud hosted, the security certifications, hosting\nenvironment, and business continuity and disaster recovery practices that ensure system availability\nand data protection.\n"
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 2011,
+   "end": 2014,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 2014,
+   "end": 2198,
+   "chars": 184,
+   "text": "Requirements Vendors Must Address in their Proposals\nVendors must propose a comprehensive solution that addresses both end-user capabilities and technical\nimplementation requirements. "
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 2198,
+   "end": 2319,
+   "chars": 121,
+   "text": "Vendors should demonstrate how their proposed platform addresses and\nfulfills the requirements outlined in this section.\n"
+  },
+  {
+   "id": "p10-s14",
+   "page": 10,
+   "start": 2319,
+   "end": 2614,
+   "chars": 295,
+   "text": "4.1 Platform Capabilities and User Functionality\nThe proposed analytics platform must provide a robust, flexible set of capabilities that enable our\ncollege to understand student progress, evaluate outcomes, and support data-informed decisionmaking across academic, student affairs, enrollment, "
+  },
+  {
+   "id": "p10-s15",
+   "page": 10,
+   "start": 2614,
+   "end": 2657,
+   "chars": 43,
+   "text": "and institutional effectiveness functions. "
+  },
+  {
+   "id": "p10-s16",
+   "page": 10,
+   "start": 2657,
+   "end": 2815,
+   "chars": 158,
+   "text": "The\nsolution should emphasize transparency, consistency, and usability, enabling insight without requiring\nusers to be technical experts or data specialists.\n"
+  },
+  {
+   "id": "p10-s17",
+   "page": 10,
+   "start": 2815,
+   "end": 2987,
+   "chars": 172,
+   "text": "Self-Service Reporting and Exploratory Analysis\nThe solution must enable users to answer common analytical questions without reliance on IT staff or\nlong turnaround times. "
+  },
+  {
+   "id": "p10-s18",
+   "page": 10,
+   "start": 2987,
+   "end": 3065,
+   "chars": 78,
+   "text": "Users should be able to filter, compare, and explore data through intuitive\n10"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 32,
+   "chars": 32,
+   "text": "dashboards and reporting tools. "
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 32,
+   "end": 220,
+   "chars": 188,
+   "text": "The platform should support ad-hoc analysis such as comparing\noutcomes across programs, examining trends over time, or identifying specific student populations that\nmeet defined criteria. "
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 220,
+   "end": 314,
+   "chars": 94,
+   "text": "Reports and visualizations should be easy to share and export for further analysis\nor action.\n"
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 314,
+   "end": 440,
+   "chars": 126,
+   "text": "Strategic Plan and KPI Reporting\nThe solution must support reporting aligned to institutional strategic goals and objectives. "
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 440,
+   "end": 642,
+   "chars": 202,
+   "text": "This includes\nthe ability to track and report on retention, persistence, completion, course success,, program velocity,\nand end-of-term GPA metrics, with disaggregation by relevant student populations. "
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 642,
+   "end": 804,
+   "chars": 162,
+   "text": "The platform should\nreduce the manual effort needed to produce recurring strategic plan updates and enable consistent,\nrepeatable reporting tied to defined KPIs. "
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 804,
+   "end": 922,
+   "chars": 118,
+   "text": "Leadership should be able to view progress over time and\nunderstand how outcomes align with institutional priorities.\n"
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 922,
+   "end": 1179,
+   "chars": 257,
+   "text": "Cohort Definition and Longitudinal Tracking\nThe solution must support the creation and analysis of student cohorts based on a wide range of criteria,\nincluding entering term, academic program, student characteristics, participation in specific initiatives,\n"
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 1179,
+   "end": 1254,
+   "chars": 75,
+   "text": "and key performance indicator target populations such as Title III groups. "
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 1254,
+   "end": 1472,
+   "chars": 218,
+   "text": "The system must support\nlongitudinal analysis using point-in-time snapshots so cohorts can be evaluated consistently over time\nacross enrollment, retention, persistence, course success, completion, and other outcomes. "
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 1472,
+   "end": 1587,
+   "chars": 115,
+   "text": "Users\nshould be able to compare cohorts across terms and years to identify trends, gaps, and areas of\nimprovement.\n"
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 1587,
+   "end": 1787,
+   "chars": 200,
+   "text": "Advisor, Faculty, and Leadership Dashboards\nThe platform must provide role-appropriate dashboards designed for advisors, faculty, department\nleadership, executive stakeholders, and board of trustees. "
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 1787,
+   "end": 1929,
+   "chars": 142,
+   "text": "These dashboards should surface relevant\nindicators related to student progress, academic momentum, course outcomes, and program\nperformance. "
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 1929,
+   "end": 2072,
+   "chars": 143,
+   "text": "Advisors should be able to view caseload-level insights related to credit accumulation,\ncourse performance patterns, and completion readiness. "
+  },
+  {
+   "id": "p11-s14",
+   "page": 11,
+   "start": 2072,
+   "end": 2165,
+   "chars": 93,
+   "text": "Faculty should be able to view course-level\noutcomes and patterns across sections and terms. "
+  },
+  {
+   "id": "p11-s15",
+   "page": 11,
+   "start": 2165,
+   "end": 2272,
+   "chars": 107,
+   "text": "Leadership dashboards should support high-level\nviews aligned to strategic goals, and KPI reporting needs. "
+  },
+  {
+   "id": "p11-s16",
+   "page": 11,
+   "start": 2272,
+   "end": 2392,
+   "chars": 120,
+   "text": "All dashboards must allow users to drill from\naggregate trends into more detailed views to support analysis and action.\n"
+  },
+  {
+   "id": "p11-s17",
+   "page": 11,
+   "start": 2392,
+   "end": 2576,
+   "chars": 184,
+   "text": "Early Indicators and Insight-Based Student Risk Context\nThe solution must surface interpretable indicators that suggest when students may benefit from\nadditional attention or support. "
+  },
+  {
+   "id": "p11-s18",
+   "page": 11,
+   "start": 2576,
+   "end": 2853,
+   "chars": 277,
+   "text": "These indicators should be based on observable historical and currentterm patterns, such as academic performance trends, developmental education placement, credit\nmomentum, course withdrawal and repeat behavior, and relevant engagement signals from Blackboard\nwhere available. "
+  },
+  {
+   "id": "p11-s19",
+   "page": 11,
+   "start": 2853,
+   "end": 2974,
+   "chars": 121,
+   "text": "The system should present insights that help users understand patterns associated\nwith student progress and persistence. "
+  },
+  {
+   "id": "p11-s20",
+   "page": 11,
+   "start": 2974,
+   "end": 3091,
+   "chars": 117,
+   "text": "These insights are intended to support decision-making, not to\nreplace existing advising or case management systems.\n"
+  },
+  {
+   "id": "p11-s21",
+   "page": 11,
+   "start": 3091,
+   "end": 3093,
+   "chars": 2,
+   "text": "11"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 232,
+   "chars": 232,
+   "text": "Completion, Auto-Grad Identification, and Momentum Analysis\nThe solution must ingest degree planning or audit data for all academic programs and produce clear,\nstructured insights into student progress toward credential completion. "
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 232,
+   "end": 395,
+   "chars": 163,
+   "text": "It must support monitoring\ncompletion pathways, finding students who qualify for automatic graduation review, and surfacing near\ncompleters for targeted outreach. "
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 395,
+   "end": 558,
+   "chars": 163,
+   "text": "The system should also find cases where students are formally\ndeclared in one program but have already met the completion requirements for a different credential.\n"
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 558,
+   "end": 678,
+   "chars": 120,
+   "text": "In addition, the solution must detect when students diverge from intended program requirements or fall\nout of sequence. "
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 678,
+   "end": 855,
+   "chars": 177,
+   "text": "These capabilities must support proactive intervention for students who are close to\ngraduating but are not currently enrolled or who have stopped out just short of completion.\n"
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 855,
+   "end": 1171,
+   "chars": 316,
+   "text": "Program, Course, and Outcome Analytics\nThe proposed solution must provide integrated, multi-year analytics that connect student program\nhistory, enrollment activity, completion outcomes, course performance, credit production,\ninstructional staffing, and relevant financial data into a unified reporting environment. "
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 1171,
+   "end": 1348,
+   "chars": 177,
+   "text": "The platform must\nsupport longitudinal analysis of program declare, enroll, and completion trends by program, credential\ntype, department, modality, term, and student subgroup.\n"
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 1348,
+   "end": 1594,
+   "chars": 246,
+   "text": "The College is also interested in the ability to blend and braid disparate data domains—including\nenrollment, academic, and financial data—to provide a more comprehensive view of program viability,\nresource utilization, and return on investment. "
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 1594,
+   "end": 1747,
+   "chars": 153,
+   "text": "The system must enable aligned analysis of\ninstructional volume, revenue and cost indicators, and student outcomes within a single analytical\nframework.\n"
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 1747,
+   "end": 1994,
+   "chars": 247,
+   "text": "At the course and discipline level, the solution must provide academic-year reporting on unduplicated\nstudents, enrollments, credit hours, and faculty staffing by course prefix, including classification by\nfaculty type (e.g., full-time, adjunct). "
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 1994,
+   "end": 2266,
+   "chars": 272,
+   "text": "The platform must enable identification of patterns affecting\nstudent momentum and institutional performance, such as low completion conversion, highwithdrawal courses, subgroup disparities, and alignment between instructional volume, financial\nperformance, and staffing.\n"
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 2266,
+   "end": 2483,
+   "chars": 217,
+   "text": "Vendors must demonstrate standardized academic year logic, drill-down capability, and governancealigned metric definitions with traceable data lineage across student, academic, financial, and human\nresources systems.\n"
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 2483,
+   "end": 2765,
+   "chars": 282,
+   "text": "Integrated Analysis of Student Support Services\nWhere data is available, the solution should support analysis of student support usage, such as tutoring,\nwriting center engagement, or other academic support services, and allow outcomes to be examined in\nrelation to those supports. "
+  },
+  {
+   "id": "p12-s13",
+   "page": 12,
+   "start": 2765,
+   "end": 2887,
+   "chars": 122,
+   "text": "The emphasis is on analytical insight into patterns and effectiveness, not on\nmanaging or recording service interactions. "
+  },
+  {
+   "id": "p12-s14",
+   "page": 12,
+   "start": 2887,
+   "end": 2987,
+   "chars": 100,
+   "text": "The system should be able to consume relevant data from\nexisting systems to support these analyses.\n"
+  },
+  {
+   "id": "p12-s15",
+   "page": 12,
+   "start": 2987,
+   "end": 2989,
+   "chars": 2,
+   "text": "12"
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 112,
+   "chars": 112,
+   "text": "Usability\nThe platform must be usable by non-technical users and support broad adoption across the institution.\n"
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 112,
+   "end": 244,
+   "chars": 132,
+   "text": "The interface should be web-based, intuitive, and designed to support data exploration without\nrequiring advanced technical skills. "
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 244,
+   "end": 347,
+   "chars": 103,
+   "text": "Users should be able to save views, apply filters, and move easily\nbetween summary and detailed views. "
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 347,
+   "end": 542,
+   "chars": 195,
+   "text": "Different user roles should have access to content aligned to\ntheir responsibilities while drawing from the same underlying data source to ensure consistency and\naccuracy across the institution.\n"
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 542,
+   "end": 678,
+   "chars": 136,
+   "text": "Training and Adoption Support\nThe vendor must provide training and onboarding support to ensure successful adoption across our\nCollege. "
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 678,
+   "end": 913,
+   "chars": 235,
+   "text": "Training should begin during implementation and support a phased approach that builds\ninternal expertise, including a train-the-trainer model for power users and practical, firsthand\ninstruction for end users using institutional data. "
+  },
+  {
+   "id": "p13-s6",
+   "page": 13,
+   "start": 913,
+   "end": 1045,
+   "chars": 132,
+   "text": "Documentation, recorded sessions, and self-service\nresources should be available to support ongoing learning and staff transitions.\n"
+  },
+  {
+   "id": "p13-s7",
+   "page": 13,
+   "start": 1045,
+   "end": 1133,
+   "chars": 88,
+   "text": "4.2 Technical Requirements\nThe platform must meet the following technical requirements.\n"
+  },
+  {
+   "id": "p13-s8",
+   "page": 13,
+   "start": 1133,
+   "end": 1343,
+   "chars": 210,
+   "text": "Data Integration and Sources\nThe platform must integrate Ellucian Colleague SaaS as the primary source, plus Blackboard, Student\nPlanning, National Student Clearinghouse, and other relevant databases or files. "
+  },
+  {
+   "id": "p13-s9",
+   "page": 13,
+   "start": 1343,
+   "end": 1595,
+   "chars": 252,
+   "text": "Integration must\ninclude extraction, transformation, and organization into a coherent data model with schemas that\nsupport analysis across student demographics, course enrollments and outcomes, term-by-term\nretention status, and credential completion. "
+  },
+  {
+   "id": "p13-s10",
+   "page": 13,
+   "start": 1595,
+   "end": 1713,
+   "chars": 118,
+   "text": "Proposals must describe initial load, ongoing updates, and\ndata quality controls for changes, duplicates, and errors.\n"
+  },
+  {
+   "id": "p13-s11",
+   "page": 13,
+   "start": 1713,
+   "end": 1878,
+   "chars": 165,
+   "text": "Data Warehouse and Data Refresh Processing\nThe platform must include an analytical database that serves as a centralized source of truth for\nreporting and analysis. "
+  },
+  {
+   "id": "p13-s12",
+   "page": 13,
+   "start": 1878,
+   "end": 2055,
+   "chars": 177,
+   "text": "The platform should support regularly refreshed data, including daily updates\nand “near real-time” availability, when necessary, through reliable and automated data processing.\n"
+  },
+  {
+   "id": "p13-s13",
+   "page": 13,
+   "start": 2055,
+   "end": 2141,
+   "chars": 86,
+   "text": "Data refresh processes should require minimal manual effort from institutional staff. "
+  },
+  {
+   "id": "p13-s14",
+   "page": 13,
+   "start": 2141,
+   "end": 2289,
+   "chars": 148,
+   "text": "The system must\nalso support the retention of historical snapshots, enabling analysis of trends over time rather than only\ncurrent state reporting.\n"
+  },
+  {
+   "id": "p13-s15",
+   "page": 13,
+   "start": 2289,
+   "end": 2527,
+   "chars": 238,
+   "text": "Snapshots for Longitudinal Tracking\nThe platform must support point-in-time snapshot capture so the college can freeze datasets at key\npoints such as census and end of term and retrieve them later for consistent longitudinal measurement.\n"
+  },
+  {
+   "id": "p13-s16",
+   "page": 13,
+   "start": 2527,
+   "end": 2586,
+   "chars": 59,
+   "text": "Vendors must describe how historical versions are managed.\n"
+  },
+  {
+   "id": "p13-s17",
+   "page": 13,
+   "start": 2586,
+   "end": 2616,
+   "chars": 30,
+   "text": "Scalability and Performance\n13"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 110,
+   "chars": 110,
+   "text": "The system must scale to manage multi-year data volumes and concurrent users without performance\ndegradation. "
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 110,
+   "end": 244,
+   "chars": 134,
+   "text": "Vendors must describe the architecture, hosting model, and performance techniques\nsuch as caching, indexing, or in-memory processing.\n"
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 244,
+   "end": 404,
+   "chars": 160,
+   "text": "Security and Compliance\nThe platform must support FERPA-compliant data handling, role-based access controls, and\nintegration with the college’s single sign-on. "
+  },
+  {
+   "id": "p14-s3",
+   "page": 14,
+   "start": 404,
+   "end": 469,
+   "chars": 65,
+   "text": "Data must be encrypted in transit and, if cloud hosted, at\nrest. "
+  },
+  {
+   "id": "p14-s4",
+   "page": 14,
+   "start": 469,
+   "end": 535,
+   "chars": 66,
+   "text": "Vendors must describe security protocols and governance features.\n"
+  },
+  {
+   "id": "p14-s5",
+   "page": 14,
+   "start": 535,
+   "end": 685,
+   "chars": 150,
+   "text": "Data Access and Interoperability\nThe platform should support flexible access to analytical data using industry-standard connectivity\nmethods or APIs. "
+  },
+  {
+   "id": "p14-s6",
+   "page": 14,
+   "start": 685,
+   "end": 936,
+   "chars": 251,
+   "text": "The platform must enable integration with existing reporting and visualization tools,\nincluding Power BI and Tableau, allowing the college to continue leveraging current investments while\nextending analytics capabilities through the proposed product. "
+  },
+  {
+   "id": "p14-s7",
+   "page": 14,
+   "start": 936,
+   "end": 1097,
+   "chars": 161,
+   "text": "The data architecture should support\nefficient querying, reporting, and downstream use across multiple tools without introducing\nunnecessary technical barriers.\n"
+  },
+  {
+   "id": "p14-s8",
+   "page": 14,
+   "start": 1097,
+   "end": 1180,
+   "chars": 83,
+   "text": "Minimal IT Maintenance\nThe system must require minimal maintenance by Our College. "
+  },
+  {
+   "id": "p14-s9",
+   "page": 14,
+   "start": 1180,
+   "end": 1303,
+   "chars": 123,
+   "text": "The vendor must provide information\non where the data is stored and what happens with the data at the end of the contract. "
+  },
+  {
+   "id": "p14-s10",
+   "page": 14,
+   "start": 1303,
+   "end": 1407,
+   "chars": 104,
+   "text": "Cloud-hosted\nproducts must include vendor-managed updates, backups, and patching with minimal downtime.\n"
+  },
+  {
+   "id": "p14-s11",
+   "page": 14,
+   "start": 1407,
+   "end": 1522,
+   "chars": 115,
+   "text": "Vendors must clearly describe division of responsibilities and provide monitoring, alerting, and support\nchannels.\n"
+  },
+  {
+   "id": "p14-s12",
+   "page": 14,
+   "start": 1522,
+   "end": 1646,
+   "chars": 124,
+   "text": "Implementation Approach and Incremental Value Delivery\nOur College recognizes that implementations of this scale take time. "
+  },
+  {
+   "id": "p14-s13",
+   "page": 14,
+   "start": 1646,
+   "end": 1867,
+   "chars": 221,
+   "text": "Vendors must propose an\nimplementation approach that delivers meaningful value incrementally, including usable capabilities\nwithin the first six months, followed by continued releases that expand functionality over time.\n"
+  },
+  {
+   "id": "p14-s14",
+   "page": 14,
+   "start": 1867,
+   "end": 1870,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p14-s15",
+   "page": 14,
+   "start": 1870,
+   "end": 2017,
+   "chars": 147,
+   "text": "Partner Qualifications and Expectations\nOur College seeks a vendor with experience delivering analytics products in environments like the college.\n"
+  },
+  {
+   "id": "p14-s16",
+   "page": 14,
+   "start": 2017,
+   "end": 2055,
+   "chars": 38,
+   "text": "Proposals must address the following.\n"
+  },
+  {
+   "id": "p14-s17",
+   "page": 14,
+   "start": 2055,
+   "end": 2200,
+   "chars": 145,
+   "text": "Relevant Higher Education Experience\nDemonstrated experience with community colleges or broad-access institutions, with examples and\nreferences. "
+  },
+  {
+   "id": "p14-s18",
+   "page": 14,
+   "start": 2200,
+   "end": 2299,
+   "chars": 99,
+   "text": "Experience with Colleague SaaS, Blackboard, and similar systems should referenced in the\nproposal.\n"
+  },
+  {
+   "id": "p14-s19",
+   "page": 14,
+   "start": 2300,
+   "end": 2302,
+   "chars": 2,
+   "text": "14"
+  },
+  {
+   "id": "p15-s0",
+   "page": 15,
+   "start": 0,
+   "end": 202,
+   "chars": 202,
+   "text": "Proven Success and Impact\nVendors should provide case studies or evidence of how their product has supported measurable\nimprovements in student outcomes and operational efficiency at peer institutions.\n"
+  },
+  {
+   "id": "p15-s1",
+   "page": 15,
+   "start": 202,
+   "end": 408,
+   "chars": 206,
+   "text": "Expertise with Required Integrations\nThe college prefers vendors who have pre-built connectors or prior experience integrating with Ellucian\nColleague SaaS and the other systems listed in the requirements. "
+  },
+  {
+   "id": "p15-s2",
+   "page": 15,
+   "start": 408,
+   "end": 553,
+   "chars": 145,
+   "text": "Knowledge of Colleague SaaS’s data\nstructures and experience merging data from SIS, LMS, and other data sources will be a significant\nadvantage. "
+  },
+  {
+   "id": "p15-s3",
+   "page": 15,
+   "start": 553,
+   "end": 687,
+   "chars": 134,
+   "text": "The ideal vendor has a deep understanding of higher education data and already knows how\nto map and link these datasets for analysis.\n"
+  },
+  {
+   "id": "p15-s4",
+   "page": 15,
+   "start": 687,
+   "end": 884,
+   "chars": 197,
+   "text": "Technical Support and Training Commitment\nA support model that includes an implementation team, escalation paths, and training for both\ntechnical users and end users, with ongoing support options.\n"
+  },
+  {
+   "id": "p15-s5",
+   "page": 15,
+   "start": 884,
+   "end": 1004,
+   "chars": 120,
+   "text": "Community College Mission Alignment\nThis is not a mandatory requirement, but an added factor the college will consider. "
+  },
+  {
+   "id": "p15-s6",
+   "page": 15,
+   "start": 1004,
+   "end": 1094,
+   "chars": 90,
+   "text": "Our College is\nmission driven to serve its community and improve lives through education. "
+  },
+  {
+   "id": "p15-s7",
+   "page": 15,
+   "start": 1094,
+   "end": 1166,
+   "chars": 72,
+   "text": "The college values partners\nwho share an understanding of this mission. "
+  },
+  {
+   "id": "p15-s8",
+   "page": 15,
+   "start": 1166,
+   "end": 1320,
+   "chars": 154,
+   "text": "If the company has a particular focus on community\ncolleges or guided by a mission to improve student success, we ask vendors to describe that alignment.\n"
+  },
+  {
+   "id": "p15-s9",
+   "page": 15,
+   "start": 1320,
+   "end": 1323,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p15-s10",
+   "page": 15,
+   "start": 1323,
+   "end": 1506,
+   "chars": 183,
+   "text": "Implementation Approach and Expected Deliverables\nOur College is requesting a clear description of how the vendor will execute implementation through defined\nphases and deliverables. "
+  },
+  {
+   "id": "p15-s11",
+   "page": 15,
+   "start": 1506,
+   "end": 1634,
+   "chars": 128,
+   "text": "Vendors must describe sequencing, dependencies, governance, and how they will\ndeliver incremental value throughout the project.\n"
+  },
+  {
+   "id": "p15-s12",
+   "page": 15,
+   "start": 1634,
+   "end": 1936,
+   "chars": 302,
+   "text": "Expected phases include project initiation, alignment on goals and data needs, core system configuration\nand data integration beginning with Colleague SaaS, development of analytic content and reporting views,\nvalidation with campus stakeholders, user enablement, and a staged rollout into production.\n"
+  },
+  {
+   "id": "p15-s13",
+   "page": 15,
+   "start": 1936,
+   "end": 1939,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p15-s14",
+   "page": 15,
+   "start": 1939,
+   "end": 2176,
+   "chars": 237,
+   "text": "Proposal Response Format\nProposals must include an executive summary along with clear documentation describing the proposed\nsolution, its architecture, and how it addresses the functional and technical requirements outlined in this\nRFP. "
+  },
+  {
+   "id": "p15-s15",
+   "page": 15,
+   "start": 2176,
+   "end": 2419,
+   "chars": 243,
+   "text": "Vendors should also provide an implementation approach, including project oversight and governance,\ninformation on organizational experience and client references, a detailed pricing structure, and any\nstandard contractual or legal materials. "
+  },
+  {
+   "id": "p15-s16",
+   "page": 15,
+   "start": 2419,
+   "end": 2480,
+   "chars": 61,
+   "text": "Additional support materials may be included as appropriate.\n"
+  },
+  {
+   "id": "p15-s17",
+   "page": 15,
+   "start": 2480,
+   "end": 2538,
+   "chars": 58,
+   "text": "Proposals should be clearly organized and easy to review.\n"
+  },
+  {
+   "id": "p15-s18",
+   "page": 15,
+   "start": 2539,
+   "end": 2541,
+   "chars": 2,
+   "text": "15"
+  },
+  {
+   "id": "p16-s0",
+   "page": 16,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p16-s1",
+   "page": 16,
+   "start": 3,
+   "end": 312,
+   "chars": 309,
+   "text": "Evaluation and Selection Process\nProposals will be evaluated based on alignment to our college’s goals and intended outcomes, functional\ncapabilities, technical approach and data accessibility, vendor experience and support, implementation\napproach, delivery of early value, and total cost relative to value.\n"
+  },
+  {
+   "id": "p16-s2",
+   "page": 16,
+   "start": 313,
+   "end": 315,
+   "chars": 2,
+   "text": "16"
+  },
+  {
+   "id": "p17-s0",
+   "page": 17,
+   "start": 0,
+   "end": 66,
+   "chars": 66,
+   "text": "GENERAL CONTRACT TERMS AND CONDITIONS\nSECTION 1: GENERAL TERMS\nA. "
+  },
+  {
+   "id": "p17-s1",
+   "page": 17,
+   "start": 66,
+   "end": 81,
+   "chars": 15,
+   "text": "Governing Law. "
+  },
+  {
+   "id": "p17-s2",
+   "page": 17,
+   "start": 81,
+   "end": 182,
+   "chars": 101,
+   "text": "A standard contract document will be negotiated once the successful respondent(s)\nhas been selected. "
+  },
+  {
+   "id": "p17-s3",
+   "page": 17,
+   "start": 182,
+   "end": 277,
+   "chars": 95,
+   "text": "Per state statute, Form DA-146a is required and the State of Kansas will be the\ngoverning law.\n"
+  },
+  {
+   "id": "p17-s4",
+   "page": 17,
+   "start": 277,
+   "end": 280,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p17-s5",
+   "page": 17,
+   "start": 280,
+   "end": 304,
+   "chars": 24,
+   "text": "Independent Contractor. "
+  },
+  {
+   "id": "p17-s6",
+   "page": 17,
+   "start": 304,
+   "end": 395,
+   "chars": 91,
+   "text": "The respondent is now and shall remain a separate and independent\nentity from the College.\n"
+  },
+  {
+   "id": "p17-s7",
+   "page": 17,
+   "start": 395,
+   "end": 398,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p17-s8",
+   "page": 17,
+   "start": 398,
+   "end": 409,
+   "chars": 11,
+   "text": "Submittal. "
+  },
+  {
+   "id": "p17-s9",
+   "page": 17,
+   "start": 409,
+   "end": 681,
+   "chars": 272,
+   "text": "The submittal received from the successful respondent, along with the RFP, will be\nincorporated into the Agreement between the College and the respondent, and all provisions\ntherein shall be provided by the respondent in accordance with the requirements of the submittal,\n"
+  },
+  {
+   "id": "p17-s10",
+   "page": 17,
+   "start": 681,
+   "end": 779,
+   "chars": 98,
+   "text": "unless superseded by the terms and conditions of the Agreement, RFP, or any subsequent\namendment. "
+  },
+  {
+   "id": "p17-s11",
+   "page": 17,
+   "start": 779,
+   "end": 885,
+   "chars": 106,
+   "text": "No contract award shall exist until an agreement is approved by the College and\nexecuted by both parties.\n"
+  },
+  {
+   "id": "p17-s12",
+   "page": 17,
+   "start": 885,
+   "end": 888,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p17-s13",
+   "page": 17,
+   "start": 888,
+   "end": 894,
+   "chars": 6,
+   "text": "Term. "
+  },
+  {
+   "id": "p17-s14",
+   "page": 17,
+   "start": 894,
+   "end": 980,
+   "chars": 86,
+   "text": "The agreement shall include the project schedule and acceptance of the final product. "
+  },
+  {
+   "id": "p17-s15",
+   "page": 17,
+   "start": 980,
+   "end": 1067,
+   "chars": 87,
+   "text": "The\ninitial term of the agreement shall be one (1) year with four (4) renewable years. "
+  },
+  {
+   "id": "p17-s16",
+   "page": 17,
+   "start": 1067,
+   "end": 1220,
+   "chars": 153,
+   "text": "The contract will\nautomatically renew unless the College provides notice at least thirty (30) days prior to the\nexpiration of the annual renewal period.\n"
+  },
+  {
+   "id": "p17-s17",
+   "page": 17,
+   "start": 1220,
+   "end": 1223,
+   "chars": 3,
+   "text": "E. "
+  },
+  {
+   "id": "p17-s18",
+   "page": 17,
+   "start": 1223,
+   "end": 1234,
+   "chars": 11,
+   "text": "Insurance. "
+  },
+  {
+   "id": "p17-s19",
+   "page": 17,
+   "start": 1234,
+   "end": 1339,
+   "chars": 105,
+   "text": "While performing the services, the respondent will maintain minimum insurance\ncoverage specified herein. "
+  },
+  {
+   "id": "p17-s20",
+   "page": 17,
+   "start": 1339,
+   "end": 1477,
+   "chars": 138,
+   "text": "The College will be listed as an additional insured in respect to general\nliability, automobile liability, and umbrella/excess insurance. "
+  },
+  {
+   "id": "p17-s21",
+   "page": 17,
+   "start": 1477,
+   "end": 1644,
+   "chars": 167,
+   "text": "However, the addition of the College as\nan additional insured shall not in any way nullify coverage for claims or actions the College may have\nagainst the respondent. "
+  },
+  {
+   "id": "p17-s22",
+   "page": 17,
+   "start": 1644,
+   "end": 1760,
+   "chars": 116,
+   "text": "The respondent will provide the College certificates evidencing the required\ncoverage prior to commencing services.\n"
+  },
+  {
+   "id": "p17-s23",
+   "page": 17,
+   "start": 1760,
+   "end": 1996,
+   "chars": 236,
+   "text": "Type of Coverage\n\nLimits of Liability\n\nWorkers’ Compensation\n\nStatutory\n\nEmployers’ Liability\n\n$500,000\n\nComprehensive General Liability\n\n$1,000,000 per occurrence,\n$2,000,000 aggregate\n\nAutomobile Liability\n\n$1,000,000 per occurrence,\n"
+  },
+  {
+   "id": "p17-s24",
+   "page": 17,
+   "start": 1996,
+   "end": 2087,
+   "chars": 91,
+   "text": "$2,000,000 aggregate\n\nUmbrella\n\n$2,000,000\n\nProfessional Liability\n\n$1,000,000 per claim\n17"
+  },
+  {
+   "id": "p18-s0",
+   "page": 18,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "F. "
+  },
+  {
+   "id": "p18-s1",
+   "page": 18,
+   "start": 3,
+   "end": 40,
+   "chars": 37,
+   "text": "Equal Employment Opportunity Clause.\n"
+  },
+  {
+   "id": "p18-s2",
+   "page": 18,
+   "start": 40,
+   "end": 97,
+   "chars": 57,
+   "text": "Respondent hereby agrees to the following provisions:\n1. "
+  },
+  {
+   "id": "p18-s3",
+   "page": 18,
+   "start": 97,
+   "end": 343,
+   "chars": 246,
+   "text": "No Discrimination\nThe respondent will not discriminate against any employee or applicant for employment\nbecause of race, color, religion, sex, sexual orientation, gender identity, or national origin, or any\nother classification protected by law. "
+  },
+  {
+   "id": "p18-s4",
+   "page": 18,
+   "start": 343,
+   "end": 603,
+   "chars": 260,
+   "text": "The respondent will ensure that applicants are employed,\nand that employees are treated during employment without regard to their race, color, religion,\nsex, sexual orientation, gender identity, or national origin or any other classification protected\nby law.\n"
+  },
+  {
+   "id": "p18-s5",
+   "page": 18,
+   "start": 603,
+   "end": 606,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p18-s6",
+   "page": 18,
+   "start": 606,
+   "end": 819,
+   "chars": 213,
+   "text": "Posting Non-Discrimination Notices\nThe respondent agrees to post in conspicuous places, available to employees and applicants for\nemployment, notices setting forth the provisions of this nondiscrimination clause.\n"
+  },
+  {
+   "id": "p18-s7",
+   "page": 18,
+   "start": 819,
+   "end": 1116,
+   "chars": 297,
+   "text": "The respondent will, in all solicitations or advertisements for employees placed by or on behalf\nof the respondent, state that all qualified applicants will receive consideration for employment\nwithout regard to race, color, religion, sex, sexual orientation, gender identity, or national origin,\n"
+  },
+  {
+   "id": "p18-s8",
+   "page": 18,
+   "start": 1116,
+   "end": 1162,
+   "chars": 46,
+   "text": "or any other classification protected by law.\n"
+  },
+  {
+   "id": "p18-s9",
+   "page": 18,
+   "start": 1162,
+   "end": 1165,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p18-s10",
+   "page": 18,
+   "start": 1165,
+   "end": 1460,
+   "chars": 295,
+   "text": "No Retaliation\nThe respondent will not discharge, or in any other manner discriminate against, any employee\nor applicant for employment because such employee or applicant has inquired about, discussed,\nor disclosed the compensation of the employee or applicant or another employee or applicant,\n"
+  },
+  {
+   "id": "p18-s11",
+   "page": 18,
+   "start": 1460,
+   "end": 1505,
+   "chars": 45,
+   "text": "or for filing a complaint of discrimination. "
+  },
+  {
+   "id": "p18-s12",
+   "page": 18,
+   "start": 1505,
+   "end": 1823,
+   "chars": 318,
+   "text": "This provision shall not apply to instances in which an\nemployee who has access to the compensation information of other employees or applicants as\na part of such employee's essential job functions discloses the compensation of such other\nemployees or applicants to individuals who do not otherwise have access to such"
+  },
+  {
+   "id": "p18-s13",
+   "page": 18,
+   "start": 1823,
+   "end": 2104,
+   "chars": 281,
+   "text": " information,\nunless such disclosure is in response to a formal complaint or charge, in furtherance of an\ninvestigation, proceeding, hearing, or action, including an investigation conducted by the\nemployer, or is consistent with the respondent's legal duty to furnish information.\n"
+  },
+  {
+   "id": "p18-s14",
+   "page": 18,
+   "start": 2104,
+   "end": 2107,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p18-s15",
+   "page": 18,
+   "start": 2107,
+   "end": 2318,
+   "chars": 211,
+   "text": "Noncompliance\nIn the event of the respondent's noncompliance with the nondiscrimination clauses of this\ncontract or with any of the said rules, regulations, or orders, this contract may be canceled,\nterminated, "
+  },
+  {
+   "id": "p18-s16",
+   "page": 18,
+   "start": 2318,
+   "end": 2564,
+   "chars": 246,
+   "text": "or suspended in whole or in part and the respondent may be declared ineligible for\nfurther government contracts or federally assisted construction contracts in accordance with\nprocedures authorized in Executive Order 11246 of September 24, 1965, "
+  },
+  {
+   "id": "p18-s17",
+   "page": 18,
+   "start": 2564,
+   "end": 2778,
+   "chars": 214,
+   "text": "and such other\nsanctions may be imposed and remedies invoked as provided in Executive Order 11246 of\nSeptember 24, 1965, or by rule, regulation, or order of the Secretary of Labor, or as otherwise\nprovided by law.\n"
+  },
+  {
+   "id": "p18-s18",
+   "page": 18,
+   "start": 2778,
+   "end": 2781,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p18-s19",
+   "page": 18,
+   "start": 2781,
+   "end": 2987,
+   "chars": 206,
+   "text": "Subcontractors\nThe respondent will include the nondiscrimination provisions herein in every subcontract or\npurchase order unless exempted by rules, regulations, or orders of the Secretary of Labor issued\n18"
+  },
+  {
+   "id": "p19-s0",
+   "page": 19,
+   "start": 0,
+   "end": 147,
+   "chars": 147,
+   "text": "pursuant to section 204 of Executive Order 11246 of September 24, 1965, so that such\nprovisions will be binding upon each subcontractor or vendor.\n"
+  },
+  {
+   "id": "p19-s1",
+   "page": 19,
+   "start": 147,
+   "end": 150,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p19-s2",
+   "page": 19,
+   "start": 150,
+   "end": 436,
+   "chars": 286,
+   "text": "Secretary of Labor Compliance\nThe respondent agrees that it will assist and cooperate actively with the administering agency\nand the Secretary of Labor in obtaining the compliance of respondent and subcontractors with\nthe equal employment opportunity clause and the rules, regulations, "
+  },
+  {
+   "id": "p19-s3",
+   "page": 19,
+   "start": 436,
+   "end": 633,
+   "chars": 197,
+   "text": "and relevant orders of the\nSecretary of Labor, that it will furnish the administering agency and the Secretary of Labor such\ninformation as they may require for the supervision of such compliance, "
+  },
+  {
+   "id": "p19-s4",
+   "page": 19,
+   "start": 633,
+   "end": 773,
+   "chars": 140,
+   "text": "and that it will\notherwise assist the administering agency in the discharge of the agency's primary responsibility\nfor securing compliance.\n"
+  },
+  {
+   "id": "p19-s5",
+   "page": 19,
+   "start": 773,
+   "end": 776,
+   "chars": 3,
+   "text": "G. "
+  },
+  {
+   "id": "p19-s6",
+   "page": 19,
+   "start": 776,
+   "end": 798,
+   "chars": 22,
+   "text": "Debarred Contractors. "
+  },
+  {
+   "id": "p19-s7",
+   "page": 19,
+   "start": 798,
+   "end": 1040,
+   "chars": 242,
+   "text": "The respondent further agrees that it will refrain from entering into any\ncontract or contract modification subject to Executive Order 11246 of September 24, 1965, with\na contractor debarred from, or who has not demonstrated eligibility for, "
+  },
+  {
+   "id": "p19-s8",
+   "page": 19,
+   "start": 1040,
+   "end": 1140,
+   "chars": 100,
+   "text": "government contracts\nand federally assisted construction contracts pursuant to the Executive Order, "
+  },
+  {
+   "id": "p19-s9",
+   "page": 19,
+   "start": 1140,
+   "end": 1408,
+   "chars": 268,
+   "text": "and will carry out\nsuch sanctions and penalties for violation of the equal employment opportunity clause as may be\nimposed upon contractors and subcontractors by the administering agency or the Secretary of\nLabor pursuant to Part II, Subpart D of the Executive Order. "
+  },
+  {
+   "id": "p19-s10",
+   "page": 19,
+   "start": 1408,
+   "end": 1678,
+   "chars": 270,
+   "text": "In addition, the respondent agrees\nthat if it fails or refuses to comply with these undertakings, the administering agency may take\nany or all of the following actions: cancel, terminate, or suspend in whole or in part this grant\n(contract, loan, insurance, guarantee); "
+  },
+  {
+   "id": "p19-s11",
+   "page": 19,
+   "start": 1678,
+   "end": 1903,
+   "chars": 225,
+   "text": "refrain from extending any further assistance to the\nrespondent under the program with respect to which the failure or refund occurred until\nsatisfactory assurance of future compliance has been received from such respondent; "
+  },
+  {
+   "id": "p19-s12",
+   "page": 19,
+   "start": 1903,
+   "end": 1986,
+   "chars": 83,
+   "text": "and refer\nthe case to the Department of Justice for appropriate legal proceedings.\n"
+  },
+  {
+   "id": "p19-s13",
+   "page": 19,
+   "start": 1986,
+   "end": 1989,
+   "chars": 3,
+   "text": "H. "
+  },
+  {
+   "id": "p19-s14",
+   "page": 19,
+   "start": 1989,
+   "end": 2021,
+   "chars": 32,
+   "text": "Smoke and Tobacco-Free College. "
+  },
+  {
+   "id": "p19-s15",
+   "page": 19,
+   "start": 2021,
+   "end": 2161,
+   "chars": 140,
+   "text": "The respondent agrees to abide by the Smoke and TobaccoFree College policy for all employees and subcontractors while at College locations.\n"
+  },
+  {
+   "id": "p19-s16",
+   "page": 19,
+   "start": 2161,
+   "end": 2164,
+   "chars": 3,
+   "text": "I.\n"
+  },
+  {
+   "id": "p19-s17",
+   "page": 19,
+   "start": 2165,
+   "end": 2186,
+   "chars": 21,
+   "text": "Sales Tax Exemption. "
+  },
+  {
+   "id": "p19-s18",
+   "page": 19,
+   "start": 2186,
+   "end": 2269,
+   "chars": 83,
+   "text": "The College is exempt from sales tax and it should be excluded from all\nproposals.\n"
+  },
+  {
+   "id": "p19-s19",
+   "page": 19,
+   "start": 2270,
+   "end": 2272,
+   "chars": 2,
+   "text": "19"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 19
+ }
+}

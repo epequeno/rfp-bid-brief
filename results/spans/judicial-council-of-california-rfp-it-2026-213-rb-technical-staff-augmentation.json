@@ -1,0 +1,3238 @@
+{
+ "schema": "span-index/1",
+ "fixture": "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf",
+ "fixture_sha256": "164170ccea518ed31a16285e135ba9ba5688406ea3dbcd7117708d68374dde1d",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "35efabb5eb8e332f6b7d101059081173c8ce4f8e324182c47640a2fafc484fa6",
+   "chars": 279
+  },
+  {
+   "number": 2,
+   "sha256": "977f9c8126cbf6722ca9ac02a01d1717283d667837fdf98a08c027d587fd0d49",
+   "chars": 3177
+  },
+  {
+   "number": 3,
+   "sha256": "ae54ecb4608ba8beda91002470f28644b7260997d60e2eb8e862fe139ac8ec94",
+   "chars": 1048
+  },
+  {
+   "number": 4,
+   "sha256": "f7cd15eaaa35d1d72c237ce31991d2536fe97d7138e01e7dec77c990efe178fe",
+   "chars": 3026
+  },
+  {
+   "number": 5,
+   "sha256": "1011564e4bb249ad118d0337bede54d64390cef2e5004c0ddd5cfa0a3aa46d30",
+   "chars": 3004
+  },
+  {
+   "number": 6,
+   "sha256": "02de7137341ece3370dd085861e237239966833ec1e8c7c4dcfeb257756e49ef",
+   "chars": 1953
+  },
+  {
+   "number": 7,
+   "sha256": "473acd01422d7ebd282cbbc5f5332974cc9cb98a4f804155d9f642ee9811f6cb",
+   "chars": 2983
+  },
+  {
+   "number": 8,
+   "sha256": "b0b66cfb963a1dc3de0732895cd771e490bc39445c4849fc10129999dfd9243e",
+   "chars": 2886
+  },
+  {
+   "number": 9,
+   "sha256": "e34afaebdb3d96fb371db690254eccf3fb70c08a9d2653d0c770098efa36c2e8",
+   "chars": 2702
+  },
+  {
+   "number": 10,
+   "sha256": "a8f61e4380734e47b83a156bde94ecffbcda43a01bc79b79ffa2152396d51db9",
+   "chars": 2575
+  },
+  {
+   "number": 11,
+   "sha256": "07ae91f947f6f4f2f228a0dae5f1fc092b27babee7060b36411c8ded9e0192c4",
+   "chars": 2737
+  },
+  {
+   "number": 12,
+   "sha256": "e7b06ef3c956f7d478a0e3865ea64497b199de39b98c50b6905f7d2e1300239a",
+   "chars": 2892
+  },
+  {
+   "number": 13,
+   "sha256": "ff6aa42c7f8844572d1cc2d5b36f93ab161e9307506e950bdeab371fbca80aae",
+   "chars": 2649
+  },
+  {
+   "number": 14,
+   "sha256": "fe191fe55b90e5e33b28bd875d9a057f34bf77bc813c9bcb33f9dff27686a37c",
+   "chars": 2286
+  },
+  {
+   "number": 15,
+   "sha256": "7be5b34f8ca0b7ecf3146784bab4d22aa3404394a678fd81a278455172a1acf0",
+   "chars": 3257
+  },
+  {
+   "number": 16,
+   "sha256": "586a4a7f39d61ef71ae6c97e160594619fa08039543343018bd7ac1229ff646c",
+   "chars": 2810
+  },
+  {
+   "number": 17,
+   "sha256": "259386b67d4eac7904407f767c36072e48730685a6cecf4c2aac249c8301440c",
+   "chars": 3183
+  },
+  {
+   "number": 18,
+   "sha256": "c0b1c39d6c0714a711b5e6e3712d3133c85131e9cd3f706f84896ab1f81cb48a",
+   "chars": 2675
+  },
+  {
+   "number": 19,
+   "sha256": "aba6613fbd3fd963f4b848308f31b6e7191e994e5dbd30fa21b7c0ac290d37bd",
+   "chars": 2766
+  },
+  {
+   "number": 20,
+   "sha256": "7a4d90b5fce9cc57fa9002e5c3207136649f26745ab2f29143cd00ac1c81b72d",
+   "chars": 840
+  }
+ ],
+ "span_count": 390,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 272,
+   "chars": 272,
+   "text": "Request for\nProposals (RFP)\nJudicial Council of California\nREGARDING:\nMASTER AGREEMENTS FOR TECHNICAL\nSTAFF AUGMENTATION SERVICES\nRFP NUMBER:\nRFP-IT-2026-213-RB\nPROPOSALS DUE:\nAUGUST 21, 2026\nNO LATER THAN 1:00 PM PACIFIC TIME (PT)\n\nJBCM RFP IT Goods-Services vJCC – Rev. "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 272,
+   "end": 279,
+   "chars": 7,
+   "text": "07-2022"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 243,
+   "chars": 243,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n455 Golden Gate Avenue · San Francisco, California 94102-3688\nTelephone 415-865-4200 · Fax 415-865-4205\n\nREQUEST FOR PROPOSALS\nTABLE OF CONTENTS\n1.\n"
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 243,
+   "end": 364,
+   "chars": 121,
+   "text": "BACKGROUND INFORMATION ................................................................................................. "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 364,
+   "end": 369,
+   "chars": 5,
+   "text": "3\n2.\n"
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 369,
+   "end": 479,
+   "chars": 110,
+   "text": "DESCRIPTION OF GOODS AND/OR SERVICES ........................................................................ "
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 479,
+   "end": 484,
+   "chars": 5,
+   "text": "3\n3.\n"
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 484,
+   "end": 616,
+   "chars": 132,
+   "text": "TIMELINE FOR THIS RFP ............................................................................................................. "
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 616,
+   "end": 621,
+   "chars": 5,
+   "text": "3\n4.\n"
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 621,
+   "end": 742,
+   "chars": 121,
+   "text": "RFP ATTACHMENTS AND LINKS .............................................................................................. "
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 742,
+   "end": 747,
+   "chars": 5,
+   "text": "5\n5.\n"
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 747,
+   "end": 874,
+   "chars": 127,
+   "text": "PAYMENT INFORMATION .......................................................................................................... "
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 874,
+   "end": 879,
+   "chars": 5,
+   "text": "7\n6.\n"
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 879,
+   "end": 952,
+   "chars": 73,
+   "text": "PRE-PROPOSAL CONFERENCE ................................................ "
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 952,
+   "end": 959,
+   "chars": 7,
+   "text": "Error! "
+  },
+  {
+   "id": "p2-s13",
+   "page": 2,
+   "start": 959,
+   "end": 981,
+   "chars": 22,
+   "text": "Bookmark not defined.\n"
+  },
+  {
+   "id": "p2-s14",
+   "page": 2,
+   "start": 981,
+   "end": 984,
+   "chars": 3,
+   "text": "7.\n"
+  },
+  {
+   "id": "p2-s15",
+   "page": 2,
+   "start": 984,
+   "end": 1113,
+   "chars": 129,
+   "text": "RESPONDING TO THIS RFP ......................................................................................................... "
+  },
+  {
+   "id": "p2-s16",
+   "page": 2,
+   "start": 1113,
+   "end": 1118,
+   "chars": 5,
+   "text": "8\n8.\n"
+  },
+  {
+   "id": "p2-s17",
+   "page": 2,
+   "start": 1118,
+   "end": 1249,
+   "chars": 131,
+   "text": "PROPOSAL CONTENTS ................................................................................................................ "
+  },
+  {
+   "id": "p2-s18",
+   "page": 2,
+   "start": 1249,
+   "end": 1254,
+   "chars": 5,
+   "text": "9\n9.\n"
+  },
+  {
+   "id": "p2-s19",
+   "page": 2,
+   "start": 1254,
+   "end": 1385,
+   "chars": 131,
+   "text": "SELECTION PROCESS ................................................................................................................ "
+  },
+  {
+   "id": "p2-s20",
+   "page": 2,
+   "start": 1385,
+   "end": 1392,
+   "chars": 7,
+   "text": "12\n10.\n"
+  },
+  {
+   "id": "p2-s21",
+   "page": 2,
+   "start": 1392,
+   "end": 1514,
+   "chars": 122,
+   "text": "EVALUATION OF PROPOSALS ................................................................................................. "
+  },
+  {
+   "id": "p2-s22",
+   "page": 2,
+   "start": 1514,
+   "end": 1521,
+   "chars": 7,
+   "text": "13\n11.\n"
+  },
+  {
+   "id": "p2-s23",
+   "page": 2,
+   "start": 1521,
+   "end": 1622,
+   "chars": 101,
+   "text": "CONFIDENTIAL OR PROPRIETARY INFORMATION ............................................................ "
+  },
+  {
+   "id": "p2-s24",
+   "page": 2,
+   "start": 1622,
+   "end": 1629,
+   "chars": 7,
+   "text": "13\n12.\n"
+  },
+  {
+   "id": "p2-s25",
+   "page": 2,
+   "start": 1629,
+   "end": 1728,
+   "chars": 99,
+   "text": "CONTRACT TERMS AND ADMINISTRATIVE RULES .......................................................... "
+  },
+  {
+   "id": "p2-s26",
+   "page": 2,
+   "start": 1728,
+   "end": 1735,
+   "chars": 7,
+   "text": "14\n13.\n"
+  },
+  {
+   "id": "p2-s27",
+   "page": 2,
+   "start": 1735,
+   "end": 1855,
+   "chars": 120,
+   "text": "SMALL BUSINESS PREFERENCE ............................................................................................. "
+  },
+  {
+   "id": "p2-s28",
+   "page": 2,
+   "start": 1855,
+   "end": 1862,
+   "chars": 7,
+   "text": "14\n14.\n"
+  },
+  {
+   "id": "p2-s29",
+   "page": 2,
+   "start": 1862,
+   "end": 1956,
+   "chars": 94,
+   "text": "DISABLED VETERAN BUSINESS ENTERPRISE INCENTIVE .............................................. "
+  },
+  {
+   "id": "p2-s30",
+   "page": 2,
+   "start": 1956,
+   "end": 1963,
+   "chars": 7,
+   "text": "15\n15.\n"
+  },
+  {
+   "id": "p2-s31",
+   "page": 2,
+   "start": 1963,
+   "end": 2089,
+   "chars": 126,
+   "text": "LABOR CODE PROVISIONS ....................................................................................................... "
+  },
+  {
+   "id": "p2-s32",
+   "page": 2,
+   "start": 2089,
+   "end": 2096,
+   "chars": 7,
+   "text": "17\n16.\n"
+  },
+  {
+   "id": "p2-s33",
+   "page": 2,
+   "start": 2096,
+   "end": 2206,
+   "chars": 110,
+   "text": "GENERATIVE ARTIFICIAL INTELLIGENCE........................................................................... "
+  },
+  {
+   "id": "p2-s34",
+   "page": 2,
+   "start": 2206,
+   "end": 2213,
+   "chars": 7,
+   "text": "18\n17.\n"
+  },
+  {
+   "id": "p2-s35",
+   "page": 2,
+   "start": 2213,
+   "end": 2320,
+   "chars": 107,
+   "text": "ADMINISTRATIVE RULES GOVERNING RFPs ...................................................................... "
+  },
+  {
+   "id": "p2-s36",
+   "page": 2,
+   "start": 2320,
+   "end": 2327,
+   "chars": 7,
+   "text": "18\n18.\n"
+  },
+  {
+   "id": "p2-s37",
+   "page": 2,
+   "start": 2327,
+   "end": 2423,
+   "chars": 96,
+   "text": "PROTESTs ...................................................................................... "
+  },
+  {
+   "id": "p2-s38",
+   "page": 2,
+   "start": 2423,
+   "end": 2430,
+   "chars": 7,
+   "text": "Error! "
+  },
+  {
+   "id": "p2-s39",
+   "page": 2,
+   "start": 2430,
+   "end": 2452,
+   "chars": 22,
+   "text": "Bookmark not defined.\n"
+  },
+  {
+   "id": "p2-s40",
+   "page": 2,
+   "start": 2452,
+   "end": 2467,
+   "chars": 15,
+   "text": "ATTACHMENTS\nA.\n"
+  },
+  {
+   "id": "p2-s41",
+   "page": 2,
+   "start": 2467,
+   "end": 2524,
+   "chars": 57,
+   "text": "ADMINISTRATIVE RULES GOVERNING REQUESTS FOR PROPOSALS\nB.\n"
+  },
+  {
+   "id": "p2-s42",
+   "page": 2,
+   "start": 2524,
+   "end": 2601,
+   "chars": 77,
+   "text": "JUDICIAL COUNCIL STANDARD TERMS AND CONDITIONS (sample contract document)\nC.\n"
+  },
+  {
+   "id": "p2-s43",
+   "page": 2,
+   "start": 2601,
+   "end": 2628,
+   "chars": 27,
+   "text": "SUBMISSION OF QUESTIONS\nD.\n"
+  },
+  {
+   "id": "p2-s44",
+   "page": 2,
+   "start": 2628,
+   "end": 2645,
+   "chars": 17,
+   "text": "COST PROPOSAL\nE.\n"
+  },
+  {
+   "id": "p2-s45",
+   "page": 2,
+   "start": 2645,
+   "end": 2690,
+   "chars": 45,
+   "text": "EVALUATION CRITERIA & PROPOSAL SUBMISSION\nF.\n"
+  },
+  {
+   "id": "p2-s46",
+   "page": 2,
+   "start": 2690,
+   "end": 2738,
+   "chars": 48,
+   "text": "BUSINESS & TECHNICAL REQUIREMENTS & RESPONSE\nG.\n"
+  },
+  {
+   "id": "p2-s47",
+   "page": 2,
+   "start": 2738,
+   "end": 2764,
+   "chars": 26,
+   "text": "GENERAL CERTIFICATIONS\nH.\n"
+  },
+  {
+   "id": "p2-s48",
+   "page": 2,
+   "start": 2764,
+   "end": 2790,
+   "chars": 26,
+   "text": "DARFUR CONTRACTING ACT\nI.\n"
+  },
+  {
+   "id": "p2-s49",
+   "page": 2,
+   "start": 2790,
+   "end": 2823,
+   "chars": 33,
+   "text": "UNRUH AND FEHA CERTIFICATIONS\nJ.\n"
+  },
+  {
+   "id": "p2-s50",
+   "page": 2,
+   "start": 2823,
+   "end": 2847,
+   "chars": 24,
+   "text": "IRAN CONTRACTING ACT\nK.\n"
+  },
+  {
+   "id": "p2-s51",
+   "page": 2,
+   "start": 2847,
+   "end": 2868,
+   "chars": 21,
+   "text": "PAYEE DATA RECORD\nL.\n"
+  },
+  {
+   "id": "p2-s52",
+   "page": 2,
+   "start": 2868,
+   "end": 2898,
+   "chars": 30,
+   "text": "SMALL BUSINESS DECLARATION\nM.\n"
+  },
+  {
+   "id": "p2-s53",
+   "page": 2,
+   "start": 2898,
+   "end": 2919,
+   "chars": 21,
+   "text": "BIDDER DECLARAION\nN.\n"
+  },
+  {
+   "id": "p2-s54",
+   "page": 2,
+   "start": 2919,
+   "end": 3177,
+   "chars": 258,
+   "text": "DVBE DECLARATION\nLINKS\nBIDDER’S ACCEPTANCE OF TERMS AND CONDITIONS\n(https://courts.ca.gov/system/files/file/jbcm-acceptance-terms-and-conditions.pdf)\nGENERAL CERTIFICATIONS FORM\n(https://courts.ca.gov/system/files/file/jbcm-general-certifications.pdf)\nPage 1"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 135,
+   "chars": 135,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n455 Golden Gate Avenue · San Francisco, "
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 135,
+   "end": 373,
+   "chars": 238,
+   "text": "California 94102-3688\nTelephone 415-865-4200 · Fax 415-865-4205\n\nREQUEST FOR PROPOSALS\nDARFUR CONTRACTING ACT CERTIFICATION\n(https://courts.ca.gov/system/files/file/jbcm-darfur-certification.pdf)\nUNRUH CIVIL RIGHTS ACT AND CALIFORNIA FEHA"
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 373,
+   "end": 688,
+   "chars": 315,
+   "text": " CERTIFICATION\n(https://courts.ca.gov/system/files/file/jbcm-unruh-feha-certification.pdf)\nIRAN CONTRACTING ACT CERTIFICATION\n(https://courts.ca.gov/system/files/file/jbcm-iran-certification.pdf)\nPAYEE DATA RECORD FORM (STD 204)\n(https://www.documents.dgs.ca.gov/dgs/fmc/pdf/std204.pdf)\nPAYEE DATA RECORD SUPPLEMENT"
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 688,
+   "end": 960,
+   "chars": 272,
+   "text": " (STD 205)\n(https://www.documents.dgs.ca.gov/dgs/fmc/pdf/std205.pdf)\nSMALL BUSINESS DECLARATION\n(https://courts.ca.gov/system/files/file/jbcm-small-business-declaration.pdf)\nBIDDER DECLARATION\n(https://courts.ca.gov/system/files/file/jbcm-dvbe-bidder-declaration.pdf)\nDVBE"
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 960,
+   "end": 1048,
+   "chars": 88,
+   "text": " DECLARATION\n(https://courts.ca.gov/system/files/file/jbcm-dvbe-declaration.pdf)\n\nPage 2"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 98,
+   "chars": 98,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n1. "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 98,
+   "end": 296,
+   "chars": 198,
+   "text": "BACKGROUND INFORMATION\n1.1\n\nThe Judicial Council of California (“Judicial Council”), chaired by the Chief Justice of California, is\nthe chief policy making agency of the California judicial system. "
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 296,
+   "end": 531,
+   "chars": 235,
+   "text": "The California Constitution directs\nthe Council to improve the administration of justice by surveying judicial business, recommending\nimprovements to the courts, and making recommendations annually to the Governor and the\nLegislature. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 531,
+   "end": 669,
+   "chars": 138,
+   "text": "The Judicial Council also adopts rules for court administration, practice, and procedure,\nand performs other functions prescribed by law.\n"
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 670,
+   "end": 881,
+   "chars": 211,
+   "text": "1.2\n\nThe Judicial Council is currently responsible for the development, acquisition, implementation, and\nsupport of automated systems in the supreme and appellate courts, trial courts, and the Judicial Council.\n"
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 881,
+   "end": 957,
+   "chars": 76,
+   "text": "Various technology initiatives are currently being developed and supported. "
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 957,
+   "end": 1176,
+   "chars": 219,
+   "text": "The Judicial Council\nanticipates contracting for technical consultants on an as-needed basis to assist with its various\ntechnology initiatives to support automated systems in the California courts and Judicial Council.\n"
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 1177,
+   "end": 1311,
+   "chars": 134,
+   "text": "1.3\n\nThe following positions were awarded Work Orders from the prior Master Agreements for Technical\nStaff Augmentation Services RFP:\n"
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 1311,
+   "end": 1593,
+   "chars": 282,
+   "text": "Quantity\n2\n3\n2\n7\n27\n4\n15\n4\n2\n16\n11\n\nClassification\nBusiness Systems Analyst\nSr. Business Systems Analyst\nDatabase Administrator\nEnterprise IT Architect\nIT Developer\nIT Developer Lead\nIT Project Manager\nIT Program Manager\nNetwork Engineer\nTechnical Analyst\nSR. Technical Analyst\n\n2. "
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 1593,
+   "end": 1904,
+   "chars": 311,
+   "text": "DESCRIPTION OF GOODS AND/OR SERVICES\n2.1\n\nThe Judicial Council seeks to identify and retain qualified technical staff augmentation staffing\nagencies under a number of master agreements to supply the Judicial Council, Supreme Court, and\nAppellate courts, each a “Participant,” with high-quality, cost-effective, "
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 1904,
+   "end": 1934,
+   "chars": 30,
+   "text": "professional technical\nstaff. "
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 1934,
+   "end": 2116,
+   "chars": 182,
+   "text": "The master agreement holders will serve as the qualified bid list for Participant’s professional\ntechnical staff requirements for the duration of the master agreement contract term. "
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 2116,
+   "end": 2335,
+   "chars": 219,
+   "text": "This RFP is\nthe means for prospective technical staff augmentation staffing agencies to submit their\nqualifications to the Judicial Council and request selection for award of a master agreement as a\nresult of this RFP.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 2336,
+   "end": 2586,
+   "chars": 250,
+   "text": "2.2\n\nJudicial Council intends to award up to sixteen (16) master agreements to the highest scoring\nproposers for an initial two (2) year term, with three (3) consecutive one-year option terms to renew,\nfor a potential maximum term of five (5) years. "
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 2586,
+   "end": 2722,
+   "chars": 136,
+   "text": "The initial term and pricing of each master\nagreement is anticipated to cover the period of November 1, 2026, through October 31, 2028. "
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 2722,
+   "end": 3026,
+   "chars": 304,
+   "text": "If the\nJudicial Council elects to extend the term of these master agreements by exercising any of the three\n(3) one-year options to renew, any agreed upon price adjustment (whether an increase or decrease)\nmay not exceed the average percentage change in the 12-month average of the Consumer Price\n\nPage 3"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 231,
+   "chars": 231,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\nIndex (CPI) below, for the previous three years ending on December 31 of the year just prior to the\napplicable year of the Option Term.\n"
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 231,
+   "end": 417,
+   "chars": 186,
+   "text": "http://data.bls.gov/timeseries/CUUR0000SA0?output_view=pct_12mths\n2.3\n\nOver the last year, the Judicial Council spent approximately $8 million on technical staff\naugmentation personnel. "
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 417,
+   "end": 655,
+   "chars": 238,
+   "text": "However, the Judicial Council does not guarantee that master agreement\nawardees will receive a specific volume of work, a specific total contract amount, or a specific\norder value under any master agreement executed pursuant to this RFP. "
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 655,
+   "end": 893,
+   "chars": 238,
+   "text": "Additionally, there will be\nno limit on the number of Work Orders the Judicial Council may issue under a master agreement,\nnor will there be any specific limitation on the quantity, minimum and/or maximum value of\nindividual Work Orders.\n"
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 894,
+   "end": 1201,
+   "chars": 307,
+   "text": "2.4\n\nThis RFP will cover professional technical staff requirement needs for the JCC located in San\nFrancisco and Sacramento, California and the needs for the Supreme Court located in San\nFrancisco, and the Courts of Appeal located in San Francisco, Los Angeles, Sacramento, San\nDiego, Fresno, and San Jose. "
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 1201,
+   "end": 1478,
+   "chars": 277,
+   "text": "It is the expectation of the Judicial Council that the majority of\nprofessional technical staff consultant requirement needs under the master agreements anticipated\nby this RFP will be either remote or at the Judicial Council locations in San Francisco or\nSacramento, however, "
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 1478,
+   "end": 1596,
+   "chars": 118,
+   "text": "consultants may be based at other locations as set forth in the Work Orders\nissued pursuant to the master agreements.\n"
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 1597,
+   "end": 1801,
+   "chars": 204,
+   "text": "2.5\n\nScope of Services\n2.5.1\n\nThe technical staff augmentation staffing agencies selected as a result of this RFP will be\nawarded master agreements that will serve as making the master agreement holders, "
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 1801,
+   "end": 1983,
+   "chars": 182,
+   "text": "the\nqualified bidders list for the Judicial Council’s professional technical staff augmentation\nrequirements for the duration of master agreement contract term and any option terms.\n"
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 1984,
+   "end": 2137,
+   "chars": 153,
+   "text": "2.5.2\n\nPursuant to the Work Order Process and Administration (set forth in Attachment B to this\nRFP), the Participant, as staffing requirements dictate, "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 2137,
+   "end": 2339,
+   "chars": 202,
+   "text": "will solicit master agreement\nholders for proposals to fill individual professional technical staff augmentation\nrequirements by issuing Work Order Request Forms (WORF) to the master agreement\nholders.\n"
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 2340,
+   "end": 2625,
+   "chars": 285,
+   "text": "2.5.3\n\nApplying the selection criteria set forth in each individual Work Order Request Forms\nissued pursuant to the Work Order Process and Administration, the Participant will select\nthe proposal that best meets the requirements and award a Work Order to that master\nagreement holder.\n"
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 2626,
+   "end": 2936,
+   "chars": 310,
+   "text": "2.6 Existing Work Orders\n2.6.1\n\nIt is the intent of the Judicial Council that existing contracted professional technical staff\nwill remain under their current existing Work Orders until such Work Orders expire and\nnot be transitioned to a subsequent Master Agreement should the existing contracted\nprofessional"
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 2936,
+   "end": 2997,
+   "chars": 61,
+   "text": " technical staff’s contractor be awarded a Master Agreement.\n"
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 2998,
+   "end": 3004,
+   "chars": 6,
+   "text": "Page 4"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 98,
+   "chars": 98,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n3. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 98,
+   "end": 145,
+   "chars": 47,
+   "text": "TIMELINE FOR THIS RFP\n3.1\n\nSchedule of Events. "
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 145,
+   "end": 267,
+   "chars": 122,
+   "text": "The Judicial Council has developed the following list of key events and dates\nrelated to this RFP (“Schedule of Events”). "
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 267,
+   "end": 338,
+   "chars": 71,
+   "text": "All dates are subject to change at the discretion of Judicial\nCouncil.\n"
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 339,
+   "end": 381,
+   "chars": 42,
+   "text": "No.\n\nKey Events\n\nKey Date / Time (PT)\n\n1.\n"
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 382,
+   "end": 412,
+   "chars": 30,
+   "text": "RFP Issued\n\nJuly 29, 2026\n\n2.\n"
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 413,
+   "end": 533,
+   "chars": 120,
+   "text": "Deadline for Submission of Questions (Attachment C)\nEmail to: Solicitations@jud.ca.gov\n\nAugust 4, 2026 @ 1:00pm\nPST\n\n3.\n"
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 534,
+   "end": 584,
+   "chars": 50,
+   "text": "Questions and answers Posted\n\nAugust 11, 2026\n\n4.\n"
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 585,
+   "end": 774,
+   "chars": 189,
+   "text": "Latest date and time proposal may be submitted\nEmail Non-Cost Proposal to: Solicitations@jud.ca.gov\nEmail Cost Proposal to: IT-2026-213-RB-COST@jud.ca.gov\n\nAugust 21, 2026 @ 1:00pm\nPST\n\n5.\n"
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 775,
+   "end": 856,
+   "chars": 81,
+   "text": "Evaluation of proposals (estimate only)\n\nAugust 24, 2026 –\nSeptember 7, 2026\n\n6.\n"
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 857,
+   "end": 927,
+   "chars": 70,
+   "text": "Public opening of Cost Proposals\n\nSeptember 9, 2026 @\n10:00am PST\n\n7.\n"
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 928,
+   "end": 994,
+   "chars": 66,
+   "text": "Notice of Intent to Award (estimate only)\n\nSeptember 16, 2026\n\n8.\n"
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 995,
+   "end": 1090,
+   "chars": 95,
+   "text": "Negotiations and execution of contract (estimate only)\n\nSeptember 17, 2026October 31, 2026\n\n9.\n"
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 1091,
+   "end": 1151,
+   "chars": 60,
+   "text": "Contract start date (estimate only)\n\nNovember 1, 2026,\n\n10.\n"
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 1152,
+   "end": 1230,
+   "chars": 78,
+   "text": "Contract end date (estimate only)\n\nOctober 31, 2028, plus three\noption years.\n"
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 1231,
+   "end": 1234,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 1234,
+   "end": 1471,
+   "chars": 237,
+   "text": "RFP ATTACHMENTS AND LINKS\nThe following attachments and links are included as part of this RFP:\nAttachment/Link\nAttachment A:\nAdministrative Rules\nGoverning RFPs (IT\nGoods and Services)\n\nDescription\nThese rules govern this solicitation.\n"
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 1472,
+   "end": 1642,
+   "chars": 170,
+   "text": "Attachment B: Judicial If selected, the person or entity submitting a proposal (the “Proposer”) must sign\nCouncil Standard\nthis Judicial Council Standard Form agreement. "
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 1642,
+   "end": 1946,
+   "chars": 304,
+   "text": "If any exceptions are identified\nTerms and Conditions or additional provisions proposed, the Proposer must also submit a red-lined\nversion of the Terms and conditions with its Proposal that clearly identifies all\nproposed changes and provides a written explanation or rationale for each\nproposed change.\n"
+  },
+  {
+   "id": "p6-s19",
+   "page": 6,
+   "start": 1947,
+   "end": 1953,
+   "chars": 6,
+   "text": "Page 5"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 270,
+   "chars": 270,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\nAttachment/Link\n\nDescription\n\nAttachment C: Bidder’s On this form, Proposers may submit written questions and requests for\nSubmission of\ninformation with respect to this RFP. "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 270,
+   "end": 416,
+   "chars": 146,
+   "text": "Questions and requests must be submitted\nQuestions\nto Solicitations@jud.ca.gov with the RFP number and the title of this RFP in the\nsubject line.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 416,
+   "end": 662,
+   "chars": 246,
+   "text": "Attachment D: Cost\nProposal (Pricing)\n\nThe Proposer must complete the Cost Proposal form and submit the completed\nCost Proposal separate from the Non-Cost Proposal IT-2026-213-RBCOST@jud.ca.gov with the RFP number and ‘COST’ in the subject line.\n"
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 663,
+   "end": 879,
+   "chars": 216,
+   "text": "Attachment E\n\nEvaluation Criteria & Proposal Submission Forms\n\nAttachment E-1\n\nMethodologies\n\nAttachment E-2\n\nPlacement History\n\nAttachment E-3\n\nKey Staff\n\nAttachment E-4\n\nProposer’s Acceptance of, or Exceptions to, "
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 879,
+   "end": 1156,
+   "chars": 277,
+   "text": "Master Agreement Terms and\nConditions\n\nAttachment E-5\n\nViability of Firm\n\nAttachment F\n\nBusiness & Technical Requirements & Response\n\nAttachment G: General The Bidder must complete the General Certifications Form and submit the\nCertifications Form\ncompleted form with its bid. "
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 1156,
+   "end": 1466,
+   "chars": 310,
+   "text": "The General Certifications form is available at the\nfollowing\nlink:\nhttps://courts.ca.gov/system/files/file/jbcm-generalcertifications.pdf\nAttachment H: Darfur\nContracting Act\nCertification\n\nThe Bidder must complete the Darfur Contracting Act Certification and submit\nthe completed certification with its bid. "
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 1466,
+   "end": 1770,
+   "chars": 304,
+   "text": "The Darfur Contracting Act Certification\nis available at the following link: https://courts.ca.gov/system/files/file/jbcmdarfur-certification.pdf\n\nAttachment I: Unruh\nThe Bidder must complete the Unruh Civil Rights Act and California Fair\nand FEHA Certification Employment and Housing Act Certification. "
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 1770,
+   "end": 2079,
+   "chars": 309,
+   "text": "The Unruh and FEHA Certification\nis available at the following link: https://courts.ca.gov/system/files/file/jbcmunruh-feha-certification.pdf\nAttachment J: Iran\nContracting Act\nCertification\n\nThe Bidder must complete the Iran Contracting Act Certification and submit the\ncompleted certification with its bid. "
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 2079,
+   "end": 2353,
+   "chars": 274,
+   "text": "The Iran Contracting Act Certification is\navailable at the following link: https://courts.ca.gov/system/files/file/jbcm-irancertification.pdf\n\nAttachment K: Payee\nData Record\n\nThe Proposer must complete the Payee Data Record and submit the completed\nform with its proposal. "
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 2353,
+   "end": 2478,
+   "chars": 125,
+   "text": "The Payee Data Record (STD 204) is available at the\nfollowing link: https://www.documents.dgs.ca.gov/dgs/fmc/pdf/std204.pdf.\n"
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 2478,
+   "end": 2684,
+   "chars": 206,
+   "text": "Additionally, if necessary, the Payee Data Record Supplement (STD 205) is\nrequired (i) if Proposer’s remittance address information is different than the\nmailing address on the Payee Data Record (STD 204); "
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 2684,
+   "end": 2840,
+   "chars": 156,
+   "text": "(ii) for multiple\nremittance addresses, and (iii) for additional Authorized Representatives of the\nPayee not identified on the Payee Data Record (STD 204). "
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 2840,
+   "end": 2976,
+   "chars": 136,
+   "text": "The Payee Data\nRecord Supplement (STD 205) is available at the following link:\nhttps://www.documents.dgs.ca.gov/dgs/fmc/pdf/std205.pdf.\n"
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 2977,
+   "end": 2983,
+   "chars": 6,
+   "text": "Page 6"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 294,
+   "chars": 294,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\nAttachment/Link\n\nDescription\n\nAttachment L: Small\nBusiness Declaration\n\nThe Bidder must complete this form only if it wishes to claim the small business\npreference associated with this solicitation. "
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 294,
+   "end": 503,
+   "chars": 209,
+   "text": "The Small Business Declaration is\navailable at the following link: https://courts.ca.gov/system/files/file/jbcmsmall-business-declaration.pdf\n\nAttachment M: Bidder If Bidder wishes to seek the DVBE incentive, "
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 503,
+   "end": 656,
+   "chars": 153,
+   "text": "Bidder must complete and submit\nDeclaration\nwith its bid the Bidder Declaration https://courts.ca.gov/system/files/file/jbcmdvbe-bidder-declaration.pdf. "
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 656,
+   "end": 753,
+   "chars": 97,
+   "text": "Bidder must submit with the Bidder Declaration all\nmaterials required in the Bidder Declaration.\n"
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 753,
+   "end": 1060,
+   "chars": 307,
+   "text": "Attachment N: DVBE\nDeclaration\n\nIf Bidder wishes to seek the DVBE incentive, Bidder must submit with its bid a\nDVBE Declaration https://courts.ca.gov/system/files/file/jbcm-dvbe-bidderdeclaration.pdf completed and signed by each DVBE that will provide goods\nand/or services in connection with the contract. "
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 1060,
+   "end": 1136,
+   "chars": 76,
+   "text": "If Bidder is itself a DVBE, it\nmust complete and sign the DVBE Declaration. "
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 1136,
+   "end": 1243,
+   "chars": 107,
+   "text": "If Bidder will use DVBE\nsubcontractors, each DVBE subcontractor must complete and sign a DVBE\nDeclaration.\n"
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 1244,
+   "end": 1247,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 1247,
+   "end": 1396,
+   "chars": 149,
+   "text": "PAYMENT INFORMATION\n5.1\n\nPayment terms will be specified in the contract document that will be executed as a result of an award\nmade under this RFP; "
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 1396,
+   "end": 1578,
+   "chars": 182,
+   "text": "however, prospective Contractors are hereby advised that Judicial Council\npayments are made by the State of California, and the State does not make any advance payment for\nservices.\n"
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1579,
+   "end": 1729,
+   "chars": 150,
+   "text": "5.2\n\nPayment provisions are set forth in Attachment B, Appendix B– Pricing and Payment\n\n5.3\n\nThe Judicial council will not make any advance payments.\n"
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1730,
+   "end": 1851,
+   "chars": 121,
+   "text": "5.4\n\nJudicial Council will endeavor to pay invoices within sixty (60) days after receipt of a correct, itemized\ninvoice. "
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 1851,
+   "end": 1948,
+   "chars": 97,
+   "text": "In no event shall Judicial Council be liable for interest or late charges for any late payments.\n"
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 1949,
+   "end": 1952,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 1952,
+   "end": 2069,
+   "chars": 117,
+   "text": "WRITTEN QUESTIONS\n6.1\n\nProposers may submit written questions and requests for information with respect to this RFP. "
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 2069,
+   "end": 2262,
+   "chars": 193,
+   "text": "All\nquestions and requests must be submitted using the Proposer’s Submission of Questions form in\nAttachment C and must be submitted by the deadline indicated in this RFP’s Schedule of Events. "
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 2262,
+   "end": 2412,
+   "chars": 150,
+   "text": "The\nProposer’s Submission of Questions form must be submitted by email to Solicitations@jud.ca.gov with\nthe RFP number and title in the subject line. "
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 2412,
+   "end": 2567,
+   "chars": 155,
+   "text": "The Judicial Council will post any answers to Proposers’\nproperly submitted questions and requests for information as indicated in the Schedule of Events. "
+  },
+  {
+   "id": "p8-s18",
+   "page": 8,
+   "start": 2567,
+   "end": 2879,
+   "chars": 312,
+   "text": "The\nJudicial Council may make updates or other changes to this RFP in response to submitted questions if\nJudicial Council deems such necessary in its discretion and will post updated documents or other\naddendum to this RFP on the Judicial Council website publishing this RFP prior to the due date for\nProposals.\n"
+  },
+  {
+   "id": "p8-s19",
+   "page": 8,
+   "start": 2880,
+   "end": 2886,
+   "chars": 6,
+   "text": "Page 7"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 98,
+   "chars": 98,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n7. "
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 98,
+   "end": 142,
+   "chars": 44,
+   "text": "RESPONDING TO THIS RFP\n7.1\n\nResponsiveness. "
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 142,
+   "end": 269,
+   "chars": 127,
+   "text": "Responsive Proposals will provide straightforward, concise information that fully\nsatisfies this RFP’s specified requirements. "
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 269,
+   "end": 348,
+   "chars": 79,
+   "text": "Proposers should only submit documentation required and\nrequested by this RFP. "
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 348,
+   "end": 427,
+   "chars": 79,
+   "text": "Expensive bindings, color displays, and the like are not necessary or desired. "
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 427,
+   "end": 574,
+   "chars": 147,
+   "text": "In\nresponding to this RFP, Proposers should place emphasis on brevity, conformity to instructions,\nspecified requirements, and clarity of content. "
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 574,
+   "end": 683,
+   "chars": 109,
+   "text": "Any materials submitted with Proposals that are outside\nof this RFP’s specifications will not be considered.\n"
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 684,
+   "end": 706,
+   "chars": 22,
+   "text": "7.2\n\nProposal Format. "
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 706,
+   "end": 779,
+   "chars": 73,
+   "text": "The Judicial Council will only accept Proposals in an electronic format. "
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 779,
+   "end": 980,
+   "chars": 201,
+   "text": "Proposers\nmust submit their Proposals with all required contents in two parts: the Proposer’s non-cost portion of\nthe proposal (“Non-Cost Proposal”) and the Proposer’s Cost Proposal (“Cost Proposal”).\n"
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 981,
+   "end": 1020,
+   "chars": 39,
+   "text": "7.3\n\nProposal Submission Requirements.\n"
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 1021,
+   "end": 1051,
+   "chars": 30,
+   "text": "7.3.1\n\nElectronic Submission. "
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 1051,
+   "end": 1125,
+   "chars": 74,
+   "text": "The Judicial Council will only accept electronically submitted\nProposals. "
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 1125,
+   "end": 1252,
+   "chars": 127,
+   "text": "Non-Cost Proposal and Cost Proposal files must be emailed to the separate email\naddresses indicated in the Schedule of Events. "
+  },
+  {
+   "id": "p9-s14",
+   "page": 9,
+   "start": 1252,
+   "end": 1379,
+   "chars": 127,
+   "text": "Proposers must not combine the Non-Cost\nProposal and Cost Proposal at any time during the solicitation and evaluation process.\n"
+  },
+  {
+   "id": "p9-s15",
+   "page": 9,
+   "start": 1380,
+   "end": 1417,
+   "chars": 37,
+   "text": "7.3.2\n\nNon-Cost Proposal Submission.\n"
+  },
+  {
+   "id": "p9-s16",
+   "page": 9,
+   "start": 1418,
+   "end": 1538,
+   "chars": 120,
+   "text": "7.3.3\n\n7.3.4\n\n7.3.2.1\n\nProposers must submit one (1) electronic file of the Non-Cost Proposal using PDF\nor Word format. "
+  },
+  {
+   "id": "p9-s17",
+   "page": 9,
+   "start": 1538,
+   "end": 1631,
+   "chars": 93,
+   "text": "The Non-Cost Proposal must be submitted to Judicial Council\nseparate from the Cost Proposal.\n"
+  },
+  {
+   "id": "p9-s18",
+   "page": 9,
+   "start": 1632,
+   "end": 1775,
+   "chars": 143,
+   "text": "7.3.2.2\n\nProposers must include the RFP number and the name of the Proposer’s firm in\nthe subject line of the email for the Non-Cost Proposal. "
+  },
+  {
+   "id": "p9-s19",
+   "page": 9,
+   "start": 1775,
+   "end": 1897,
+   "chars": 122,
+   "text": "Proposers must include the\nRFP number and ‘Non-Cost Proposal’ in the name of the electronic file of the NonCost Proposal.\n"
+  },
+  {
+   "id": "p9-s20",
+   "page": 9,
+   "start": 1898,
+   "end": 1924,
+   "chars": 26,
+   "text": "Cost Proposal Submission.\n"
+  },
+  {
+   "id": "p9-s21",
+   "page": 9,
+   "start": 1925,
+   "end": 2070,
+   "chars": 145,
+   "text": "7.3.3.1\n\nProposers must submit one (1) electronic file of the Cost Proposal using the same\nfile format as Attachment D which is attached hereto. "
+  },
+  {
+   "id": "p9-s22",
+   "page": 9,
+   "start": 2070,
+   "end": 2163,
+   "chars": 93,
+   "text": "The Cost Proposal must be\nsubmitted to Judicial Council separate from the Non-Cost Proposal; "
+  },
+  {
+   "id": "p9-s23",
+   "page": 9,
+   "start": 2163,
+   "end": 2257,
+   "chars": 94,
+   "text": "the Cost\nProposal must not be combined or incorporated in any way with the Non-Cost\nProposal.\n"
+  },
+  {
+   "id": "p9-s24",
+   "page": 9,
+   "start": 2258,
+   "end": 2397,
+   "chars": 139,
+   "text": "7.3.3.2\n\nProposers must include the RFP number and the name of the Proposer’s firm in\nthe subject line of the email for the Cost Proposal. "
+  },
+  {
+   "id": "p9-s25",
+   "page": 9,
+   "start": 2397,
+   "end": 2503,
+   "chars": 106,
+   "text": "Proposers must include the RFP\nnumber and ‘Cost’ in the name of the electronic file of the Cost Proposal.\n"
+  },
+  {
+   "id": "p9-s26",
+   "page": 9,
+   "start": 2504,
+   "end": 2527,
+   "chars": 23,
+   "text": "File Size Limitations. "
+  },
+  {
+   "id": "p9-s27",
+   "page": 9,
+   "start": 2527,
+   "end": 2675,
+   "chars": 148,
+   "text": "The Judicial Council may not be able to receive electronic submissions\nwith files equal to or greater than 30MB in size (individually or in total). "
+  },
+  {
+   "id": "p9-s28",
+   "page": 9,
+   "start": 2675,
+   "end": 2702,
+   "chars": 27,
+   "text": "Proposers must make\n\nPage 8"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 175,
+   "chars": 175,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\nan effort to compress all files so that submissions are less than 30MB in size. "
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 175,
+   "end": 314,
+   "chars": 139,
+   "text": "If a file cannot\nbe reduced to below 30MB, then Proposers must divide the file into increments of less than\n30MB sent via multiple emails. "
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 314,
+   "end": 539,
+   "chars": 225,
+   "text": "If multiple emails with incremental documents are required,\nProposers must also reference the portion of the Proposal and file being submitted in the subject\nline of each email (e.g., “Non-Cost Proposal: Part 1 of 3,” etc.). "
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 539,
+   "end": 689,
+   "chars": 150,
+   "text": "The Judicial Council is not\nresponsible for any submissions exceeding 30MB which are systematically rejected due to\nexcessive file size or otherwise.\n"
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 690,
+   "end": 717,
+   "chars": 27,
+   "text": "7.4\n\nSubmission Timelines.\n"
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 718,
+   "end": 808,
+   "chars": 90,
+   "text": "7.4.1\n\nProposals must be delivered by the date and time listed in the Schedule of Events. "
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 808,
+   "end": 845,
+   "chars": 37,
+   "text": "Late\nproposals will not be accepted.\n"
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 846,
+   "end": 955,
+   "chars": 109,
+   "text": "7.4.2\n\nSubmission acceptance will be based on the date and time the emails are received by Judicial\nCouncil. "
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 955,
+   "end": 1166,
+   "chars": 211,
+   "text": "Due to the potential for email transmission delays, which may cause late receipt and\nnon-acceptance of proposals, it is recommended that Proposers email their proposals well in\nadvance of the due date and time. "
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 1166,
+   "end": 1243,
+   "chars": 77,
+   "text": "It is the Proposer’s responsibility to verify their submission\nwas received. "
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 1243,
+   "end": 1385,
+   "chars": 142,
+   "text": "Proposers should confirm that their Proposal was successfully emailed and\nreceived by checking their junk folders for “Undeliverable” emails.\n"
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 1386,
+   "end": 1544,
+   "chars": 158,
+   "text": "7.4.3\n\nProposer(s) assumes all risk for ensuring Judicial Council’s receipt of Proposals no later than\nthe date and time specified in the Schedule of Events.\n"
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 1545,
+   "end": 1548,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 1548,
+   "end": 1590,
+   "chars": 42,
+   "text": "PROPOSAL CONTENTS\n8.1\n\nNon-Cost Proposal. "
+  },
+  {
+   "id": "p10-s14",
+   "page": 10,
+   "start": 1590,
+   "end": 1659,
+   "chars": 69,
+   "text": "The following information must be included in the Non-Cost Proposal. "
+  },
+  {
+   "id": "p10-s15",
+   "page": 10,
+   "start": 1659,
+   "end": 1751,
+   "chars": 92,
+   "text": "Any NonCost Proposal lacking any of the following information may be deemed non-responsive. "
+  },
+  {
+   "id": "p10-s16",
+   "page": 10,
+   "start": 1751,
+   "end": 1890,
+   "chars": 139,
+   "text": "The Non-Cost\nProposal is to be inclusive of resumes, forms, and pictures, and organized according to the numbering\nsystem reflected below.\n"
+  },
+  {
+   "id": "p10-s17",
+   "page": 10,
+   "start": 1891,
+   "end": 1919,
+   "chars": 28,
+   "text": "8.1.1\n\n8.1.2\n\nCover Letter. "
+  },
+  {
+   "id": "p10-s18",
+   "page": 10,
+   "start": 1919,
+   "end": 2049,
+   "chars": 130,
+   "text": "A cover letter that provides the exact business name under which the Proposer\nproposes to conduct business with Judicial Council. "
+  },
+  {
+   "id": "p10-s19",
+   "page": 10,
+   "start": 2049,
+   "end": 2195,
+   "chars": 146,
+   "text": "The cover letter must also indicate the\nfollowing:\n\n8.1.1.1\n\nProposer’s address, telephone, email address, and federal tax identification\nnumber.\n"
+  },
+  {
+   "id": "p10-s20",
+   "page": 10,
+   "start": 2196,
+   "end": 2364,
+   "chars": 168,
+   "text": "8.1.1.2\n\nName, title, address, telephone number, and email address of the individual who\nwill act as the Proposer’s designated representative for purposes of this RFP.\n"
+  },
+  {
+   "id": "p10-s21",
+   "page": 10,
+   "start": 2365,
+   "end": 2378,
+   "chars": 13,
+   "text": "IT Services.\n"
+  },
+  {
+   "id": "p10-s22",
+   "page": 10,
+   "start": 2379,
+   "end": 2575,
+   "chars": 196,
+   "text": "8.1.2.1\n\nFor each key staff member: a resume describing the individual’s background and\nexperience, as well as the individual’s ability and experience in conducting the\nproposed activities\n\nPage 9"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 259,
+   "chars": 259,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n8.1.2.2\n\nThe Proposer’s Technical Proposal must be submitted using Attachment E\nEvaluation Criteria & Proposal Submission Form and Attachment F Technical\nResponse. "
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 259,
+   "end": 461,
+   "chars": 202,
+   "text": "Failure to use Attachment E and Attachment F for submission of the\nTechnical Proposal may result in the proposal being deemed non-responsive and\nrejected at the sole discretion of the Judicial Council.\n"
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 462,
+   "end": 492,
+   "chars": 30,
+   "text": "8.1.3\n\nConflicts of Interest. "
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 492,
+   "end": 810,
+   "chars": 318,
+   "text": "If applicable, provide a statement of any recent, current, or anticipated\ncontractual obligations that relate in any way to similar work, the goods or services, or Judicial\nCouncil that may have a potential to conflict with the Proposer’s ability to provide the goods\nor services described herein to Judicial Council. "
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 810,
+   "end": 948,
+   "chars": 138,
+   "text": "Proposers cannot have any pre-existing or\nobtain any new economic interests (e.g., submit, propose, bid, contract, sub-contract, consult,\n"
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 948,
+   "end": 1131,
+   "chars": 183,
+   "text": "etc. on any work that would or have potential to be a conflict) for goods or services in which\nthe Proposer may be requested to provide under a contract awarded pursuant to this RFP.\n"
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 1132,
+   "end": 1179,
+   "chars": 47,
+   "text": "8.1.4\n\nAcceptance of the Terms and Conditions.\n"
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 1180,
+   "end": 1392,
+   "chars": 212,
+   "text": "8.1.5\n\n8.1.4.1\n\nOn\nthe\nBidder’s\nAcceptance\nof\nTerms\nand\nConditions\nhttps://courts.ca.gov/system/files/file/jbcm-acceptance-terms-and-conditions.pdf,\nthe Proposer must check the appropriate box and sign the form. "
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 1392,
+   "end": 1481,
+   "chars": 89,
+   "text": "If the Proposer\nmarks the second box, it must provide the required additional materials. "
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 1481,
+   "end": 1552,
+   "chars": 71,
+   "text": "An\n“exception” includes any addition, deletion, or other modification.\n"
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 1553,
+   "end": 1798,
+   "chars": 245,
+   "text": "8.1.4.2\n\nIf exceptions are identified, the Proposer must also submit (a) a red-lined version\nof the Terms and Conditions that implements all proposed changes, and (b) a\nwritten explanation or rationale for each exception and/or proposed change.\n"
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 1799,
+   "end": 1936,
+   "chars": 137,
+   "text": "8.1.4.1\n\nNote: A material exception (addition, deletion, or other modification) to a\nMinimum Term will render a proposal non-responsive. "
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 1936,
+   "end": 2036,
+   "chars": 100,
+   "text": "The Judicial Council, in its\nsole discretion, will determine what constitutes a material exception.\n"
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 2037,
+   "end": 2096,
+   "chars": 59,
+   "text": "Certifications, Attachments, and Other Required Materials. "
+  },
+  {
+   "id": "p11-s14",
+   "page": 11,
+   "start": 2096,
+   "end": 2216,
+   "chars": 120,
+   "text": "Complete, sign, and submit\neach of the following Certifications and attachments with the Proposer’s Non-Cost Proposal:\n\n"
+  },
+  {
+   "id": "p11-s15",
+   "page": 11,
+   "start": 2216,
+   "end": 2524,
+   "chars": 308,
+   "text": "8.1.5.1\n\nGeneral Certifications Form (https://courts.ca.gov/system/files/file/jbcmgeneral-certifications.pdf)\n\n8.1.5.2\n\nDarfur Contracting Act Certification\n(https://courts.ca.gov/system/files/file/jbcm-darfur-certification.pdf)\n\n8.1.5.3\n\nUnruh Civil Rights Act and California Fair Employment and Housing\nAct"
+  },
+  {
+   "id": "p11-s16",
+   "page": 11,
+   "start": 2524,
+   "end": 2737,
+   "chars": 213,
+   "text": " Certification (https://courts.ca.gov/system/files/file/jbcm-unruh-fehacertification.pdf)\n\n8.1.5.4\n\nIran Contracting Act Certification\n(https://courts.ca.gov/system/files/file/jbcm-iran-certification.pdf)\n\nPage 10"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 270,
+   "chars": 270,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n8.1.5.5\n\nPayee Data Record (STD 204), which must be completed in the exact name\nof the business entity under which the Proposer proposes to do business with\nJudicial Council. "
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 270,
+   "end": 395,
+   "chars": 125,
+   "text": "The Payee Data Record (STD 204) is available at the\nfollowing link: https://www.documents.dgs.ca.gov/dgs/fmc/pdf/std204.pdf.\n"
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 395,
+   "end": 601,
+   "chars": 206,
+   "text": "Additionally, if necessary, the Payee Data Record Supplement (STD 205) is\nrequired (i) if Proposer’s remittance address information is different than the\nmailing address on the Payee Data Record (STD 204); "
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 601,
+   "end": 757,
+   "chars": 156,
+   "text": "(ii) for multiple\nremittance addresses, and (iii) for additional Authorized Representatives of the\nPayee not identified on the Payee Data Record (STD 204). "
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 757,
+   "end": 893,
+   "chars": 136,
+   "text": "The Payee Data\nRecord Supplement (STD 205) is available at the following link:\nhttps://www.documents.dgs.ca.gov/dgs/fmc/pdf/std205.pdf.\n"
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 894,
+   "end": 931,
+   "chars": 37,
+   "text": "8.1.5.6\n\nSmall Business Declaration. "
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 931,
+   "end": 1141,
+   "chars": 210,
+   "text": "If Bidder wishes to seek the small business\npreference, Bidder must complete and submit with its bid the Small Business\nDeclaration\n(https://courts.ca.gov/system/files/file/jbcm-small-businessdeclaration.pdf). "
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 1141,
+   "end": 1254,
+   "chars": 113,
+   "text": "Bidder must submit with the Small Business Declaration all\nmaterials required in the Small Business Declaration.\n"
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 1255,
+   "end": 1284,
+   "chars": 29,
+   "text": "8.1.5.7\n\nDVBE Certification. "
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 1284,
+   "end": 1473,
+   "chars": 189,
+   "text": "If Bidder wishes to seek the DVBE incentive, Bidder\nmust complete and submit with its bid the Bidder Declaration\n(https://courts.ca.gov/system/files/file/jbcm-dvbe-bidder-declaration.pdf).\n"
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 1473,
+   "end": 1570,
+   "chars": 97,
+   "text": "Bidder must submit with the Bidder Declaration all materials required in the\nBidder Declaration. "
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 1570,
+   "end": 1796,
+   "chars": 226,
+   "text": "Bidder must submit with its bid a DVBE Declaration\n(https://courts.ca.gov/system/files/file/jbcm-dvbe-declaration.pdf) completed\nand signed by each DVBE that will provide goods and/or services in\nconnection with the contract. "
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 1796,
+   "end": 1872,
+   "chars": 76,
+   "text": "If Bidder is itself a DVBE, it must complete and\nsign the DVBE Declaration. "
+  },
+  {
+   "id": "p12-s13",
+   "page": 12,
+   "start": 1872,
+   "end": 1979,
+   "chars": 107,
+   "text": "If Bidder will use DVBE subcontractors, each\nDVBE subcontractor must complete and sign a DVBE Declaration. "
+  },
+  {
+   "id": "p12-s14",
+   "page": 12,
+   "start": 1979,
+   "end": 2098,
+   "chars": 119,
+   "text": "NOTE:\nThe DVBE Declaration is not required if Bidder will qualify for the DVBE\nincentive using a BUP on file with DGS.\n"
+  },
+  {
+   "id": "p12-s15",
+   "page": 12,
+   "start": 2099,
+   "end": 2317,
+   "chars": 218,
+   "text": "8.1.5.8\n\nIf the Proposer is a California corporation, limited liability company (“LLC”),\nlimited partnership (“LP”), or limited liability partnership (“LLP”), proof that\nthe Proposer is in good standing in California. "
+  },
+  {
+   "id": "p12-s16",
+   "page": 12,
+   "start": 2317,
+   "end": 2565,
+   "chars": 248,
+   "text": "If the Proposer is a foreign\ncorporation, LLC, LP, or LLP, and the Proposer conducts or will conduct (if\nawarded a contract) intrastate business in California, proof that the Proposer is\nqualified to do business and in good standing in California. "
+  },
+  {
+   "id": "p12-s17",
+   "page": 12,
+   "start": 2565,
+   "end": 2800,
+   "chars": 235,
+   "text": "If the Proposer is\na foreign corporation, LLC, LP, or LLP, and the Proposer does not (and will\nnot if awarded a contract) conduct intrastate business in California, proof that\nthe Proposer is in good standing in its home jurisdiction.\n"
+  },
+  {
+   "id": "p12-s18",
+   "page": 12,
+   "start": 2801,
+   "end": 2884,
+   "chars": 83,
+   "text": "8.1.5.9\n\nCopies of Proposer’s (and any subcontractors’) current business licenses.\n"
+  },
+  {
+   "id": "p12-s19",
+   "page": 12,
+   "start": 2885,
+   "end": 2892,
+   "chars": 7,
+   "text": "Page 11"
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 115,
+   "chars": 115,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n8.2\n\nCost Proposal.\n"
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 116,
+   "end": 248,
+   "chars": 132,
+   "text": "8.2.1\n\nFor the Proposer’s Cost Proposal, the Proposer is required to complete the Cost Proposal form\nin Attachment D, in Word form. "
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 248,
+   "end": 309,
+   "chars": 61,
+   "text": "Part I through Part IV must be filled out in their entirety.\n"
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 309,
+   "end": 506,
+   "chars": 197,
+   "text": "Failure to use Attachment D for submission of the Cost Proposal, in Word format, may result\nin the proposal being deemed non-responsive and rejected at the sole discretion of the Judicial\nCouncil.\n"
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 507,
+   "end": 562,
+   "chars": 55,
+   "text": "8.2.2\n\nDo not change or edit the form of Attachment D.\n"
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 563,
+   "end": 662,
+   "chars": 99,
+   "text": "8.2.3\n\nAttachment D must be signed by an authorized representative of the Proposer’s organization.\n"
+  },
+  {
+   "id": "p13-s6",
+   "page": 13,
+   "start": 663,
+   "end": 860,
+   "chars": 197,
+   "text": "NOTE: It is unlawful for any person engaged in business within this state to sell or use any article or\nproduct as a “loss leader” as defined in Section 17030 of the Business and Professions Code.\n"
+  },
+  {
+   "id": "p13-s7",
+   "page": 13,
+   "start": 861,
+   "end": 864,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p13-s8",
+   "page": 13,
+   "start": 864,
+   "end": 907,
+   "chars": 43,
+   "text": "SELECTION PROCESS\n9.1\n\nNon-Cost Proposals. "
+  },
+  {
+   "id": "p13-s9",
+   "page": 13,
+   "start": 907,
+   "end": 1036,
+   "chars": 129,
+   "text": "The evaluation team will complete its evaluation of non-cost criteria for all\nProposals using the methods specified in this RFP.\n"
+  },
+  {
+   "id": "p13-s10",
+   "page": 13,
+   "start": 1037,
+   "end": 1056,
+   "chars": 19,
+   "text": "9.1.1\n\nInterviews. "
+  },
+  {
+   "id": "p13-s11",
+   "page": 13,
+   "start": 1056,
+   "end": 1247,
+   "chars": 191,
+   "text": "The Judicial Council may, at its discretion, conduct interviews with Proposers to\nclarify aspects set forth in their proposals or to assist in finalizing the ranking of top-ranked\nproposals. "
+  },
+  {
+   "id": "p13-s12",
+   "page": 13,
+   "start": 1247,
+   "end": 1298,
+   "chars": 51,
+   "text": "The interview process may require a demonstration. "
+  },
+  {
+   "id": "p13-s13",
+   "page": 13,
+   "start": 1298,
+   "end": 1411,
+   "chars": 113,
+   "text": "The interview may also require\na demonstration of equivalence if a brand name is included in the specifications. "
+  },
+  {
+   "id": "p13-s14",
+   "page": 13,
+   "start": 1411,
+   "end": 1506,
+   "chars": 95,
+   "text": "The Proposers\nwill be notified of their interview date and time and any requirements therefor. "
+  },
+  {
+   "id": "p13-s15",
+   "page": 13,
+   "start": 1506,
+   "end": 1602,
+   "chars": 96,
+   "text": "Notifications\nwill be sent to the email address provided as the Proposer’s contact information. "
+  },
+  {
+   "id": "p13-s16",
+   "page": 13,
+   "start": 1602,
+   "end": 1657,
+   "chars": 55,
+   "text": "Interviews\nwill be held remotely via video conference.\n"
+  },
+  {
+   "id": "p13-s17",
+   "page": 13,
+   "start": 1658,
+   "end": 1876,
+   "chars": 218,
+   "text": "9.1.2\n\nAfter the interviews, if any, the adjusted results of the completed Non-Cost Proposal evaluation\nwill be published on the website publishing this RFP, excluding the small business preference\nand DVBE incentive.\n"
+  },
+  {
+   "id": "p13-s18",
+   "page": 13,
+   "start": 1877,
+   "end": 1898,
+   "chars": 21,
+   "text": "9.2\n\nCost Proposals. "
+  },
+  {
+   "id": "p13-s19",
+   "page": 13,
+   "start": 1898,
+   "end": 2015,
+   "chars": 117,
+   "text": "The Cost Proposal will be publicly opened at the date and time and using the method\nnoted in the Schedule of Events. "
+  },
+  {
+   "id": "p13-s20",
+   "page": 13,
+   "start": 2015,
+   "end": 2076,
+   "chars": 61,
+   "text": "The evaluation team will evaluate the opened Cost Proposals.\n"
+  },
+  {
+   "id": "p13-s21",
+   "page": 13,
+   "start": 2077,
+   "end": 2089,
+   "chars": 12,
+   "text": "9.3\n\nAward. "
+  },
+  {
+   "id": "p13-s22",
+   "page": 13,
+   "start": 2089,
+   "end": 2254,
+   "chars": 165,
+   "text": "The highest-scoring Proposer(s) after applying any small business preference, DVBE\nincentive, or discounts will be contacted regarding contract award and execution. "
+  },
+  {
+   "id": "p13-s23",
+   "page": 13,
+   "start": 2254,
+   "end": 2435,
+   "chars": 181,
+   "text": "If a contract is\nawarded under this RFP, Judicial Council will post a Notice of Intent to Award on the website\npublishing this RFP that lists the names of the selected Proposer(s).\n"
+  },
+  {
+   "id": "p13-s24",
+   "page": 13,
+   "start": 2436,
+   "end": 2455,
+   "chars": 19,
+   "text": "9.4\n\nVerification. "
+  },
+  {
+   "id": "p13-s25",
+   "page": 13,
+   "start": 2455,
+   "end": 2641,
+   "chars": 186,
+   "text": "At any time, Judicial Council may contact previous clients and owners to verify the\nexperience and performance of the prospective Proposer, their key personnel, and their sub-Proposers.\n"
+  },
+  {
+   "id": "p13-s26",
+   "page": 13,
+   "start": 2642,
+   "end": 2649,
+   "chars": 7,
+   "text": "Page 12"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 99,
+   "chars": 99,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n10. "
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 99,
+   "end": 148,
+   "chars": 49,
+   "text": "EVALUATION OF PROPOSALS\n10.1\n\nRequired Contents. "
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 148,
+   "end": 304,
+   "chars": 156,
+   "text": "At the time Proposals are opened, each Proposal will be reviewed for minimum\nrequirements of this RFP and the presence or absence of all required contents.\n"
+  },
+  {
+   "id": "p14-s3",
+   "page": 14,
+   "start": 305,
+   "end": 332,
+   "chars": 27,
+   "text": "10.2\n\nProposal Evaluation. "
+  },
+  {
+   "id": "p14-s4",
+   "page": 14,
+   "start": 332,
+   "end": 470,
+   "chars": 138,
+   "text": "The Judicial Council will evaluate responsive Proposals on a 100-point scale\naccording to the following criteria (“Proposal Evaluation”):\n"
+  },
+  {
+   "id": "p14-s5",
+   "page": 14,
+   "start": 470,
+   "end": 784,
+   "chars": 314,
+   "text": "CRITERIA\n\nMAXIMUM NUMBER\nOF CRITERIA\nPOINTS\n\nNON-COST PROPOSALS\nPlacement History\n(Attachment E-2)\nProposers Acceptance of Master Agreement Terms and\nConditions\n(Attachment E-4)\nKey Staff\n(Attachment E-3)\nMethodologies\n(Attachment E-1)\nViability of Firm\n(Attachment E-5)\nDVBE Incentive\nProposer will receive a DVBE"
+  },
+  {
+   "id": "p14-s6",
+   "page": 14,
+   "start": 784,
+   "end": 887,
+   "chars": 103,
+   "text": " incentive if, in Judicial Council’s\nsole determination, Proposer has met all applicable requirements.\n"
+  },
+  {
+   "id": "p14-s7",
+   "page": 14,
+   "start": 887,
+   "end": 1038,
+   "chars": 151,
+   "text": "COST PROPOSALS\nCost Proposal\nProposer’s cost for the services provided in Attachment D\npursuant to the indicated instructions and scoring methodology.\n"
+  },
+  {
+   "id": "p14-s8",
+   "page": 14,
+   "start": 1038,
+   "end": 1094,
+   "chars": 56,
+   "text": "MAXIMUM NUMBER OF POINTS:\n\n15\n10\n3\n17\n12\n3\n\n40\n100\n\n11. "
+  },
+  {
+   "id": "p14-s9",
+   "page": 14,
+   "start": 1094,
+   "end": 1334,
+   "chars": 240,
+   "text": "CONFIDENTIAL OR PROPRIETARY INFORMATION\n11.1\n\nPROPOSALS ARE SUBJECT TO DISCLOSURE TO THIRD PARTIES AND MEMBERS OF THE\nPUBLIC PURSUANT TO APPLICABLE LAWS, INCLUDING PUBLIC DISCLOSURE\nPURSUANT TO RULE 10.500 OF THE CALIFORNIA RULES OF COURT. "
+  },
+  {
+   "id": "p14-s10",
+   "page": 14,
+   "start": 1334,
+   "end": 1536,
+   "chars": 202,
+   "text": "Except as required by\nlaw, Judicial Council will not disclose (i) social security numbers, or (ii) balance sheets or income\nstatements submitted by a Proposer that is not a publicly traded corporation. "
+  },
+  {
+   "id": "p14-s11",
+   "page": 14,
+   "start": 1536,
+   "end": 1672,
+   "chars": 136,
+   "text": "All other information in\nproposals may be disclosed in response to applicable public records requests, or as otherwise required\nby law. "
+  },
+  {
+   "id": "p14-s12",
+   "page": 14,
+   "start": 1672,
+   "end": 1965,
+   "chars": 293,
+   "text": "Such disclosure may be made regardless of whether the proposal (or portions thereof) is marked\n“confidential,” “proprietary,” “copyright ©,” or otherwise, and regardless of any statement in the\nproposal (a) purporting to limit Judicial Council’s right to disclose information in the proposal, "
+  },
+  {
+   "id": "p14-s13",
+   "page": 14,
+   "start": 1965,
+   "end": 2110,
+   "chars": 145,
+   "text": "or (b)\nrequiring Judicial Council to inform or obtain the consent of the Proposer prior to the disclosure of the\nproposal (or portions thereof). "
+  },
+  {
+   "id": "p14-s14",
+   "page": 14,
+   "start": 2110,
+   "end": 2218,
+   "chars": 108,
+   "text": "Any proposal that is password protected, or contains portions that are\npassword protected, may be rejected. "
+  },
+  {
+   "id": "p14-s15",
+   "page": 14,
+   "start": 2218,
+   "end": 2286,
+   "chars": 68,
+   "text": "Submission of any proposal pursuant to this RFP constitutes\n\nPage 13"
+  },
+  {
+   "id": "p15-s0",
+   "page": 15,
+   "start": 0,
+   "end": 224,
+   "chars": 224,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\nacknowledgment and consent by the Proposer to the potential public disclosure of its proposal content,\nas set forth in this RFP. "
+  },
+  {
+   "id": "p15-s1",
+   "page": 15,
+   "start": 224,
+   "end": 342,
+   "chars": 118,
+   "text": "Proposers are accordingly cautioned not to include confidential, proprietary, or\nprivileged information in proposals.\n"
+  },
+  {
+   "id": "p15-s2",
+   "page": 15,
+   "start": 343,
+   "end": 347,
+   "chars": 4,
+   "text": "12. "
+  },
+  {
+   "id": "p15-s3",
+   "page": 15,
+   "start": 347,
+   "end": 412,
+   "chars": 65,
+   "text": "CONTRACT TERMS AND ADMINISTRATIVE RULES\n12.1\n\nIrrevocable Offer. "
+  },
+  {
+   "id": "p15-s4",
+   "page": 15,
+   "start": 412,
+   "end": 565,
+   "chars": 153,
+   "text": "All submitted Proposals shall constitute and be an irrevocable offer by the Proposer\nthat is valid for ninety (90) days following the Proposal due date. "
+  },
+  {
+   "id": "p15-s5",
+   "page": 15,
+   "start": 565,
+   "end": 743,
+   "chars": 178,
+   "text": "In the event a final contract has not\nbeen awarded within this ninety (90) day period, Judicial Council reserves the right to negotiate\nextensions to this period with Proposers. "
+  },
+  {
+   "id": "p15-s6",
+   "page": 15,
+   "start": 743,
+   "end": 861,
+   "chars": 118,
+   "text": "The Judicial Council may release all offers not selected under\nthis RFP upon issuance of a Notice of Intent to Award.\n"
+  },
+  {
+   "id": "p15-s7",
+   "page": 15,
+   "start": 862,
+   "end": 902,
+   "chars": 40,
+   "text": "12.2\n\nAward and Execution of Agreement. "
+  },
+  {
+   "id": "p15-s8",
+   "page": 15,
+   "start": 902,
+   "end": 1113,
+   "chars": 211,
+   "text": "If a satisfactory agreement has not been signed within thirty\n(30) calendar days of Judicial Council’s request for the Proposer to execute a contract, Judicial Council\nreserves the right to terminate the award.\n"
+  },
+  {
+   "id": "p15-s9",
+   "page": 15,
+   "start": 1114,
+   "end": 1137,
+   "chars": 23,
+   "text": "12.3\n\nFuture Requests. "
+  },
+  {
+   "id": "p15-s10",
+   "page": 15,
+   "start": 1137,
+   "end": 1299,
+   "chars": 162,
+   "text": "The Proposer(s) selected under this RFP will not be precluded from consideration\nnor given special status in any future solicitations issued by Judicial Council.\n"
+  },
+  {
+   "id": "p15-s11",
+   "page": 15,
+   "start": 1300,
+   "end": 1320,
+   "chars": 20,
+   "text": "12.4\n\nNo Guarantee. "
+  },
+  {
+   "id": "p15-s12",
+   "page": 15,
+   "start": 1320,
+   "end": 1563,
+   "chars": 243,
+   "text": "The Judicial Council does not guarantee any amount or duration of work under a Master\nAgreement, nor does Judicial Council guarantee that any subsequent projects will be assigned to the\nProposer regardless of being awarded a Master Agreement.\n"
+  },
+  {
+   "id": "p15-s13",
+   "page": 15,
+   "start": 1564,
+   "end": 1593,
+   "chars": 29,
+   "text": "12.5\n\nProvision of the Work. "
+  },
+  {
+   "id": "p15-s14",
+   "page": 15,
+   "start": 1593,
+   "end": 1725,
+   "chars": 132,
+   "text": "Proposers will provide all Services in accordance with the Work Orders to be\nissued by Judicial Council under the Master Agreement. "
+  },
+  {
+   "id": "p15-s15",
+   "page": 15,
+   "start": 1725,
+   "end": 1946,
+   "chars": 221,
+   "text": "Proposers will provide all Services in\ncompliance with the provisions of the Master Agreement along with any additional provisions specified\nin a Work Order such as schedule, key personnel, and sub-Proposer requirements.\n"
+  },
+  {
+   "id": "p15-s16",
+   "page": 15,
+   "start": 1947,
+   "end": 1969,
+   "chars": 22,
+   "text": "12.6\n\nRate Increases. "
+  },
+  {
+   "id": "p15-s17",
+   "page": 15,
+   "start": 1969,
+   "end": 2139,
+   "chars": 170,
+   "text": "Proposers may request, in writing no less than sixty (60) days prior to the start of any\nextension of the term of an awarded agreement, if exercised by Judicial Council, "
+  },
+  {
+   "id": "p15-s18",
+   "page": 15,
+   "start": 2139,
+   "end": 2338,
+   "chars": 199,
+   "text": "that the Proposer’s\nrates be adjusted based on the California Bureau of Labor Statistics’ Consumer Price Index increase\nfor the preceding twelve (12) months prior to the increase becoming effective. "
+  },
+  {
+   "id": "p15-s19",
+   "page": 15,
+   "start": 2338,
+   "end": 2485,
+   "chars": 147,
+   "text": "A Proposer may not be\nentitled to an increase of its rates if the Proposer fails to properly make such a request under the terms\nof its agreement.\n"
+  },
+  {
+   "id": "p15-s20",
+   "page": 15,
+   "start": 2486,
+   "end": 2490,
+   "chars": 4,
+   "text": "13. "
+  },
+  {
+   "id": "p15-s21",
+   "page": 15,
+   "start": 2490,
+   "end": 2725,
+   "chars": 235,
+   "text": "SMALL BUSINESS PREFERENCE\n13.1\n\nEligibility for and application of the small business preference are governed by Judicial Council’s Small\nBusiness Preference Procedures for the Procurement of Information Technology Goods and Services.\n"
+  },
+  {
+   "id": "p15-s22",
+   "page": 15,
+   "start": 2725,
+   "end": 2875,
+   "chars": 150,
+   "text": "The Proposer will receive a small business preference if, in Judicial Council’s sole determination, the\nProposer has met all applicable requirements. "
+  },
+  {
+   "id": "p15-s23",
+   "page": 15,
+   "start": 2875,
+   "end": 3064,
+   "chars": 189,
+   "text": "If the Proposer receives the small business preference,\nthe score assigned to its proposal will be increased by an amount equal to 5% of the points assigned to\nthe highest scored proposal. "
+  },
+  {
+   "id": "p15-s24",
+   "page": 15,
+   "start": 3064,
+   "end": 3249,
+   "chars": 185,
+   "text": "If a DVBE incentive is also offered in connection with this solicitation,\nadditional rules regarding the interaction between the small business preference and the DVBE\nincentive apply.\n"
+  },
+  {
+   "id": "p15-s25",
+   "page": 15,
+   "start": 3250,
+   "end": 3257,
+   "chars": 7,
+   "text": "Page 14"
+  },
+  {
+   "id": "p16-s0",
+   "page": 16,
+   "start": 0,
+   "end": 148,
+   "chars": 148,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n13.2\n\nSmall business participation is not mandatory. "
+  },
+  {
+   "id": "p16-s1",
+   "page": 16,
+   "start": 148,
+   "end": 244,
+   "chars": 96,
+   "text": "Failure to qualify for the small business preference will\nnot render a proposal non-responsive.\n"
+  },
+  {
+   "id": "p16-s2",
+   "page": 16,
+   "start": 245,
+   "end": 524,
+   "chars": 279,
+   "text": "13.3\n\nTo receive the small business preference, the Proposer must be either (i) a Department of General\nServices (“DGS”) certified small business or microbusiness performing a commercially useful\nfunction, or (ii) a DGS-certified small business nonprofit veteran service agency.\n"
+  },
+  {
+   "id": "p16-s3",
+   "page": 16,
+   "start": 525,
+   "end": 758,
+   "chars": 233,
+   "text": "13.4\n\nIf the Proposer wishes to seek the small business preference, the Proposer must complete and submit\nwith its proposal the Small Business Declaration (https://courts.ca.gov/system/files/file/jbcm-smallbusiness-declaration.pdf). "
+  },
+  {
+   "id": "p16-s4",
+   "page": 16,
+   "start": 758,
+   "end": 877,
+   "chars": 119,
+   "text": "The Proposer must submit with the Small Business Declaration all materials\nrequired in the Small Business Declaration.\n"
+  },
+  {
+   "id": "p16-s5",
+   "page": 16,
+   "start": 878,
+   "end": 1031,
+   "chars": 153,
+   "text": "13.5\n\nFailure to complete and submit the Small Business Declaration as required will result in the Proposer\nnot receiving the small business preference. "
+  },
+  {
+   "id": "p16-s6",
+   "page": 16,
+   "start": 1031,
+   "end": 1116,
+   "chars": 85,
+   "text": "In addition, Judicial Council may request additional written\nclarifying information. "
+  },
+  {
+   "id": "p16-s7",
+   "page": 16,
+   "start": 1116,
+   "end": 1238,
+   "chars": 122,
+   "text": "Failure to provide this information as requested will result in the Proposer not\nreceiving the small business preference.\n"
+  },
+  {
+   "id": "p16-s8",
+   "page": 16,
+   "start": 1239,
+   "end": 1371,
+   "chars": 132,
+   "text": "13.6\n\nIf the Proposer receives the small business preference, (i) the Proposer will be required to complete a\npost-contract report; "
+  },
+  {
+   "id": "p16-s9",
+   "page": 16,
+   "start": 1371,
+   "end": 1490,
+   "chars": 119,
+   "text": "and (ii) failure to meet the small business commitment set forth in its proposal will\nconstitute a breach of contract.\n"
+  },
+  {
+   "id": "p16-s10",
+   "page": 16,
+   "start": 1490,
+   "end": 1617,
+   "chars": 127,
+   "text": "FRAUDULENT MISREPREPRETATION IN CONNECTION WITH THE SMALL BUSINESS\nPREFERNCE IS UNLAWFUL AND IS PUNISHABLE BY CIVIL PENALTIES. "
+  },
+  {
+   "id": "p16-s11",
+   "page": 16,
+   "start": 1617,
+   "end": 1654,
+   "chars": 37,
+   "text": "SEE\nGOVERNMENT CODE SECTION 14842.5.\n"
+  },
+  {
+   "id": "p16-s12",
+   "page": 16,
+   "start": 1655,
+   "end": 1659,
+   "chars": 4,
+   "text": "14. "
+  },
+  {
+   "id": "p16-s13",
+   "page": 16,
+   "start": 1659,
+   "end": 1847,
+   "chars": 188,
+   "text": "DISABLED VETERAN BUSINESS ENTERPRISE INCENTIVE\n14.1\n\nThe Judicial Council has a Disabled Veterans Business Enterprise (DVBE) program with a total\nparticipation goal of three percent (3%). "
+  },
+  {
+   "id": "p16-s14",
+   "page": 16,
+   "start": 1847,
+   "end": 1902,
+   "chars": 55,
+   "text": "Qualification for the DVBE incentive is not mandatory. "
+  },
+  {
+   "id": "p16-s15",
+   "page": 16,
+   "start": 1902,
+   "end": 1998,
+   "chars": 96,
+   "text": "Failure\nto qualify for the DVBE incentive will not render a Proposer’s Proposal non-responsive.\n"
+  },
+  {
+   "id": "p16-s16",
+   "page": 16,
+   "start": 1999,
+   "end": 2120,
+   "chars": 121,
+   "text": "14.2\n\nEligibility for and application of the DVBE incentive is governed by Judicial Council’s DVBE Rules\nand Procedures. "
+  },
+  {
+   "id": "p16-s17",
+   "page": 16,
+   "start": 2120,
+   "end": 2251,
+   "chars": 131,
+   "text": "Proposer will receive a DVBE incentive if, in Judicial Council’s sole determination,\nProposer has met all applicable requirements. "
+  },
+  {
+   "id": "p16-s18",
+   "page": 16,
+   "start": 2251,
+   "end": 2371,
+   "chars": 120,
+   "text": "If Proposer receives the DVBE incentive, a number of\npoints will be added to the score assigned to Proposer’s proposal. "
+  },
+  {
+   "id": "p16-s19",
+   "page": 16,
+   "start": 2371,
+   "end": 2447,
+   "chars": 76,
+   "text": "The number of points that will be\nadded is specified in section 10.0 above.\n"
+  },
+  {
+   "id": "p16-s20",
+   "page": 16,
+   "start": 2448,
+   "end": 2605,
+   "chars": 157,
+   "text": "14.3\n\nTo receive the DVBE incentive, at least 3% of the contract goods and/or services must be provided by\na DVBE performing a commercially useful function. "
+  },
+  {
+   "id": "p16-s21",
+   "page": 16,
+   "start": 2605,
+   "end": 2802,
+   "chars": 197,
+   "text": "Or, for solicitations of non-IT goods and IT goods\nand services, Proposer may have an approved Business Utilization Plan (“BUP”) on file with the\nCalifornia Department of General Services (“DGS”).\n"
+  },
+  {
+   "id": "p16-s22",
+   "page": 16,
+   "start": 2803,
+   "end": 2810,
+   "chars": 7,
+   "text": "Page 15"
+  },
+  {
+   "id": "p17-s0",
+   "page": 17,
+   "start": 0,
+   "end": 311,
+   "chars": 311,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n14.4\n\nIf a Proposer wishes to seek the DVBE incentive:\n\n14.4.1 Bidder must complete and submit with its Non-Cost Bid the Bidder Declaration\n(https://courts.ca.gov/system/files/file/jbcm-dvbe-bidder-declaration.pdf). "
+  },
+  {
+   "id": "p17-s1",
+   "page": 17,
+   "start": 311,
+   "end": 408,
+   "chars": 97,
+   "text": "Bidder must submit\nwith the Bidder Declaration all materials required in the Bidder Declaration.\n"
+  },
+  {
+   "id": "p17-s2",
+   "page": 17,
+   "start": 409,
+   "end": 643,
+   "chars": 234,
+   "text": "14.4.2 Bidder\n\nmust\nsubmit\nwith\nits\nbid\na\nDVBE\nDeclaration\n(https://courts.ca.gov/system/files/file/jbcm-dvbe-declaration.pdf) completed and signed by\neach DVBE that will provide goods and/or services in connection with the contract. "
+  },
+  {
+   "id": "p17-s3",
+   "page": 17,
+   "start": 643,
+   "end": 719,
+   "chars": 76,
+   "text": "If Bidder\nis itself a DVBE, it must complete and sign the DVBE Declaration. "
+  },
+  {
+   "id": "p17-s4",
+   "page": 17,
+   "start": 719,
+   "end": 826,
+   "chars": 107,
+   "text": "If Bidder will use DVBE\nsubcontractors, each DVBE subcontractor must complete and sign a DVBE Declaration.\n"
+  },
+  {
+   "id": "p17-s5",
+   "page": 17,
+   "start": 826,
+   "end": 945,
+   "chars": 119,
+   "text": "NOTE: The DVBE Declaration is not required if Bidder will qualify for the DVBE incentive\nusing a BUP on file with DGS.\n"
+  },
+  {
+   "id": "p17-s6",
+   "page": 17,
+   "start": 946,
+   "end": 1065,
+   "chars": 119,
+   "text": "14.5\n\nFailure to complete and submit these forms as required will result in Proposer not receiving the DVBE\nincentive. "
+  },
+  {
+   "id": "p17-s7",
+   "page": 17,
+   "start": 1065,
+   "end": 1150,
+   "chars": 85,
+   "text": "In addition, Judicial Council may request additional written clarifying information. "
+  },
+  {
+   "id": "p17-s8",
+   "page": 17,
+   "start": 1150,
+   "end": 1257,
+   "chars": 107,
+   "text": "Failure\nto provide this information as requested will result in Proposer not receiving the DVBE incentive.\n"
+  },
+  {
+   "id": "p17-s9",
+   "page": 17,
+   "start": 1258,
+   "end": 1418,
+   "chars": 160,
+   "text": "14.6\n\nIf this solicitation is for IT goods and services, the application of the DVBE incentive may be affected\nby application of the small business preference. "
+  },
+  {
+   "id": "p17-s10",
+   "page": 17,
+   "start": 1418,
+   "end": 1572,
+   "chars": 154,
+   "text": "For additional information, see Judicial Council’s\nSmall Business Preference Procedures for the Procurement of Information Technology Goods and\nServices.\n"
+  },
+  {
+   "id": "p17-s11",
+   "page": 17,
+   "start": 1573,
+   "end": 1730,
+   "chars": 157,
+   "text": "14.7\n\nIf Proposer receives the DVBE incentive: (i) Proposer will be required to complete a post-contract\nDVBE certification if DVBE subcontractors are used; "
+  },
+  {
+   "id": "p17-s12",
+   "page": 17,
+   "start": 1730,
+   "end": 1884,
+   "chars": 154,
+   "text": "(ii) Proposer must use any DVBE\nsubcontractor(s) identified in its proposal unless Judicial Council approves in writing the substitution\nof another DVBE; "
+  },
+  {
+   "id": "p17-s13",
+   "page": 17,
+   "start": 1884,
+   "end": 1994,
+   "chars": 110,
+   "text": "and (iii) failure to meet the DVBE commitment set forth in its proposal will\nconstitute a breach of contract.\n"
+  },
+  {
+   "id": "p17-s14",
+   "page": 17,
+   "start": 1995,
+   "end": 2267,
+   "chars": 272,
+   "text": "14.8\n\nIf using DVBE subcontractors, the Proposer must complete and return to Judicial Council a copy of the\npost-contract certification form (https://www.courts.ca.gov/documents/JBCM-Post-ContractCertification-Form.docx), promptly upon completion of the awarded contract, "
+  },
+  {
+   "id": "p17-s15",
+   "page": 17,
+   "start": 2267,
+   "end": 2360,
+   "chars": 93,
+   "text": "and by no later than the\ndate of submission of Proposer’s final invoice to Judicial Council. "
+  },
+  {
+   "id": "p17-s16",
+   "page": 17,
+   "start": 2360,
+   "end": 2596,
+   "chars": 236,
+   "text": "If the Proposer fails to do so, Judicial\nCouncil will withhold $10,000 from the final payment or withhold the full payment if it is less than\n$10,000, until the Proposer submits a complete and accurate post-contract certification form.\n"
+  },
+  {
+   "id": "p17-s17",
+   "page": 17,
+   "start": 2597,
+   "end": 2836,
+   "chars": 239,
+   "text": "14.9\n\nWhen a Proposer fails to comply with the post-contract certification requirement in this section and a\npayment withhold is applied to a contract, Judicial Council shall allow the Proposer to cure the\ndeficiency after written notice. "
+  },
+  {
+   "id": "p17-s18",
+   "page": 17,
+   "start": 2836,
+   "end": 3133,
+   "chars": 297,
+   "text": "Notwithstanding the foregoing or any other law, if after at least 15\ncalendar days, but no more than 30 calendar days, from the date of the written notice the Proposer\nrefuses to comply with the certification requirements, Judicial Council shall permanently deduct\n$10,000 from the final payment, "
+  },
+  {
+   "id": "p17-s19",
+   "page": 17,
+   "start": 3133,
+   "end": 3175,
+   "chars": 42,
+   "text": "or the full payment if less than $10,000.\n"
+  },
+  {
+   "id": "p17-s20",
+   "page": 17,
+   "start": 3176,
+   "end": 3183,
+   "chars": 7,
+   "text": "Page 16"
+  },
+  {
+   "id": "p18-s0",
+   "page": 18,
+   "start": 0,
+   "end": 268,
+   "chars": 268,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\nFRAUDULENT MISREPREPRETATION IN CONNECTION WITH THE DVBE INCENTIVE IS A\nMISDEMEANOR AND IS PUNISHABLE BY IMPRISONMENT OR FINE, AND VIOLATORS\nARE LIABLE FOR CIVIL PENALTIES. "
+  },
+  {
+   "id": "p18-s1",
+   "page": 18,
+   "start": 268,
+   "end": 283,
+   "chars": 15,
+   "text": "SEE MVC 999.9.\n"
+  },
+  {
+   "id": "p18-s2",
+   "page": 18,
+   "start": 284,
+   "end": 288,
+   "chars": 4,
+   "text": "15. "
+  },
+  {
+   "id": "p18-s3",
+   "page": 18,
+   "start": 288,
+   "end": 356,
+   "chars": 68,
+   "text": "LABOR CODE PROVISIONS\n15.1\n\nPrevailing Wages\n\n15.1.1 As applicable, "
+  },
+  {
+   "id": "p18-s4",
+   "page": 18,
+   "start": 356,
+   "end": 666,
+   "chars": 310,
+   "text": "Contractors and their subcontractors shall pay all workers on services performed\npursuant to a contract awarded under this RFP not less than the general prevailing rate of per\ndiem wages and the general prevailing rate for holiday and overtime work as determined by\nthe Director of the California Department of"
+  },
+  {
+   "id": "p18-s5",
+   "page": 18,
+   "start": 666,
+   "end": 815,
+   "chars": 149,
+   "text": " Industrial Relations (“DIR”) for the type of work\nperformed and the locality in which the work is to be performed, pursuant to section 1770 et\nseq. "
+  },
+  {
+   "id": "p18-s6",
+   "page": 18,
+   "start": 815,
+   "end": 845,
+   "chars": 30,
+   "text": "of the California Labor Code. "
+  },
+  {
+   "id": "p18-s7",
+   "page": 18,
+   "start": 845,
+   "end": 1129,
+   "chars": 284,
+   "text": "Copies of the general prevailing rates of per diem wages for\neach craft, classification, or type of worker needed to execute a contract, as determined by the\nDirector of DIR, are on file at Judicial Council’s principal office and available on the internet\nat https://www.dir.ca.gov/.\n"
+  },
+  {
+   "id": "p18-s8",
+   "page": 18,
+   "start": 1130,
+   "end": 1214,
+   "chars": 84,
+   "text": "15.1.2 Each Project may be subject to compliance monitoring and enforcement by DIR. "
+  },
+  {
+   "id": "p18-s9",
+   "page": 18,
+   "start": 1214,
+   "end": 1284,
+   "chars": 70,
+   "text": "Contractors\nshall post job site notices, as prescribed by regulation. "
+  },
+  {
+   "id": "p18-s10",
+   "page": 18,
+   "start": 1284,
+   "end": 1372,
+   "chars": 88,
+   "text": "Contractors shall comply with all\napplicable requirements of Labor Code section 1771.4.\n"
+  },
+  {
+   "id": "p18-s11",
+   "page": 18,
+   "start": 1373,
+   "end": 1562,
+   "chars": 189,
+   "text": "15.2\n\nRegistration\n\n15.2.1 As applicable for the services being performed, Consultants shall comply with the registration\nand compliance monitoring provisions of Labor Code section 1771.4, "
+  },
+  {
+   "id": "p18-s12",
+   "page": 18,
+   "start": 1562,
+   "end": 1718,
+   "chars": 156,
+   "text": "including furnishing its\ncertified payroll records (“CPR(s)”) to the Labor Commissioner of California and complying\nwith any applicable enforcement by DIR. "
+  },
+  {
+   "id": "p18-s13",
+   "page": 18,
+   "start": 1718,
+   "end": 2025,
+   "chars": 307,
+   "text": "Labor Code section 1771.1(a) states the following:\nA contractor or subcontractor shall not be qualified to bid on, be listed in a bid\nproposal, subject to the requirements of Section 4104 of the Public Contract Code, or\nengage in the performance of any contract for public work, as defined in this chapter,\n"
+  },
+  {
+   "id": "p18-s14",
+   "page": 18,
+   "start": 2025,
+   "end": 2118,
+   "chars": 93,
+   "text": "unless currently registered and qualified to perform public work pursuant to Section\n1725.5. "
+  },
+  {
+   "id": "p18-s15",
+   "page": 18,
+   "start": 2118,
+   "end": 2337,
+   "chars": 219,
+   "text": "It is not a violation of this section for an unregistered contractor to submit a\nbid that is authorized by Section 7029.1 of the Business and Professions Code or by\nSection 10164 or 20103.5 of the Public Contract Code, "
+  },
+  {
+   "id": "p18-s16",
+   "page": 18,
+   "start": 2337,
+   "end": 2462,
+   "chars": 125,
+   "text": "provided the contractor is\nregistered to perform public work pursuant to Section 1725.5 at the time the contract\nis awarded.\n"
+  },
+  {
+   "id": "p18-s17",
+   "page": 18,
+   "start": 2463,
+   "end": 2667,
+   "chars": 204,
+   "text": "15.2.2 Contractors required to so comply with said registration and compliance monitoring provisions\nmust provide proof of registration (i.e., the Consultant’s DIR Registration Number) with its\nProposal.\n"
+  },
+  {
+   "id": "p18-s18",
+   "page": 18,
+   "start": 2668,
+   "end": 2675,
+   "chars": 7,
+   "text": "Page 17"
+  },
+  {
+   "id": "p19-s0",
+   "page": 19,
+   "start": 0,
+   "end": 99,
+   "chars": 99,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\n16. "
+  },
+  {
+   "id": "p19-s1",
+   "page": 19,
+   "start": 99,
+   "end": 318,
+   "chars": 219,
+   "text": "GENERATIVE ARTIFICIAL INTELLIGENCE\nDefinitions:\n“Artificial intelligence” or “AI” means technology that enables computers and machines to reason, learn, and\nact in a way that would typically require human intelligence.\n"
+  },
+  {
+   "id": "p19-s2",
+   "page": 19,
+   "start": 318,
+   "end": 599,
+   "chars": 281,
+   "text": "“Generative Artificial Intelligence” or “GenAI” means an artificial intelligence system that can generate derived\nsynthetic content, including text, images, video, audio, code, and data visualizations, that emulates the structure\nand characteristics of the system’s training data.\n"
+  },
+  {
+   "id": "p19-s3",
+   "page": 19,
+   "start": 600,
+   "end": 911,
+   "chars": 311,
+   "text": "16.1\n\nIn its proposal, Proposer must notify Judicial Council if Proposer’s goods or services contain or utilize\nGenAI (or will contain or utilize GenAI), or if GenAI is or will be included in any services, goods, or\ndeliverables that materially impact:\n\n16.1.1 functionality of a Judicial Council system (i.e., "
+  },
+  {
+   "id": "p19-s4",
+   "page": 19,
+   "start": 911,
+   "end": 1181,
+   "chars": 270,
+   "text": "the work using GenAI could have a significant,\nsubstantial effect on the system’s data integrity, availability, confidentiality, or security, and\nfailure to perform such work in accordance with the contract could cause major disruptions to\nJudicial Council operations);\n"
+  },
+  {
+   "id": "p19-s5",
+   "page": 19,
+   "start": 1182,
+   "end": 1488,
+   "chars": 306,
+   "text": "16.1.2 risk to Judicial Council (i.e., the work using GenAI could have a significant, substantial effect\non Judicial Council’s operations, finances, security, or reputation, and failure to perform such\nwork in accordance with the contract would constitute a high likelihood of damage to Judicial\nCouncil); "
+  },
+  {
+   "id": "p19-s6",
+   "page": 19,
+   "start": 1488,
+   "end": 1654,
+   "chars": 166,
+   "text": "or\n\n16.1.3 contract performance (i.e., when failure to conduct work which uses GenAI in accordance with\nthe contract would constitute a material breach of contract).\n"
+  },
+  {
+   "id": "p19-s7",
+   "page": 19,
+   "start": 1655,
+   "end": 1915,
+   "chars": 260,
+   "text": "16.2\n\nProposer’s failure to disclose GenAI to Judicial Council may result in disqualification (at Judicial\nCouncil’s sole discretion), and Judicial Council reserves the right to seek any and all relief it may be\nentitled to as a result of such non-disclosure.\n"
+  },
+  {
+   "id": "p19-s8",
+   "page": 19,
+   "start": 1916,
+   "end": 2174,
+   "chars": 258,
+   "text": "16.3\n\nThe Judicial Council reserves the right to incorporate GenAI-related provisions into the final contract\nand to reject bids/offers that present an unacceptable level of risk to Judicial Council, as determined by\nJudicial Council in its sole discretion.\n"
+  },
+  {
+   "id": "p19-s9",
+   "page": 19,
+   "start": 2175,
+   "end": 2179,
+   "chars": 4,
+   "text": "17. "
+  },
+  {
+   "id": "p19-s10",
+   "page": 19,
+   "start": 2179,
+   "end": 2328,
+   "chars": 149,
+   "text": "ADMINISTRATIVE RULES GOVERNING RFPs\n17.1\n\nThe Judicial Council’s Administrative Rules Governing Requests for Proposals can be found in\nAttachment A. "
+  },
+  {
+   "id": "p19-s11",
+   "page": 19,
+   "start": 2328,
+   "end": 2442,
+   "chars": 114,
+   "text": "By virtue of submission of a Proposal, the Proposer agrees to be bound by said\nAdministrative Rules for this RFP.\n"
+  },
+  {
+   "id": "p19-s12",
+   "page": 19,
+   "start": 2443,
+   "end": 2619,
+   "chars": 176,
+   "text": "17.2\n\nThe Judicial Council reserves the right to reject any and all Proposals, in whole or in part, as well as\nthe right to issue similar requests for proposals in the future. "
+  },
+  {
+   "id": "p19-s13",
+   "page": 19,
+   "start": 2619,
+   "end": 2766,
+   "chars": 147,
+   "text": "This RFP is in no way a contract,\nobligation, or contract and in no way is Judicial Council or the State of California responsible for the\n\nPage 18"
+  },
+  {
+   "id": "p20-s0",
+   "page": 20,
+   "start": 0,
+   "end": 167,
+   "chars": 167,
+   "text": "RFP No. IT-2026-213-RB\nRFP Title: MASTER AGREEMENTS\nFOR TECHNICAL STAFF AUGMENTATION SERVICES\n\ncost of preparation or any expenses incurred in responding to this RFP. "
+  },
+  {
+   "id": "p20-s1",
+   "page": 20,
+   "start": 167,
+   "end": 323,
+   "chars": 156,
+   "text": "A Proposer’s submitted\nProposal will be retained for official files and be subject to public disclosure under rule 10.500 of the\nCalifornia Rules of Court.\n"
+  },
+  {
+   "id": "p20-s2",
+   "page": 20,
+   "start": 324,
+   "end": 328,
+   "chars": 4,
+   "text": "18. "
+  },
+  {
+   "id": "p20-s3",
+   "page": 20,
+   "start": 328,
+   "end": 488,
+   "chars": 160,
+   "text": "PROTESTS\nAny protests will be handled in accordance with Chapter 7 of the Judicial Branch Contracting Manual (see\nwww.courts.ca.gov/documents/jbcl-manual.pdf). "
+  },
+  {
+   "id": "p20-s4",
+   "page": 20,
+   "start": 488,
+   "end": 671,
+   "chars": 183,
+   "text": "Failure of a Proposer to comply with the protest procedures\nset forth in that chapter will render a protest inadequate and non-responsive and will result in rejection of the\nprotest. "
+  },
+  {
+   "id": "p20-s5",
+   "page": 20,
+   "start": 671,
+   "end": 780,
+   "chars": 109,
+   "text": "The deadline for Judicial Council to receive a solicitation specifications protest is the proposal due date.\n"
+  },
+  {
+   "id": "p20-s6",
+   "page": 20,
+   "start": 780,
+   "end": 832,
+   "chars": 52,
+   "text": "Protests must be sent to: Solicitations@jud.ca.gov.\n"
+  },
+  {
+   "id": "p20-s7",
+   "page": 20,
+   "start": 833,
+   "end": 840,
+   "chars": 7,
+   "text": "Page 19"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 20
+ }
+}
