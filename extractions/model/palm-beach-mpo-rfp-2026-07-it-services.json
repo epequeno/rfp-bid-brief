@@ -7,7 +7,7 @@
         {
           "span_id": "p1-s0",
           "page": 1,
-          "quote": "The Palm Beach Metropolitan Planning Organization (MPO)"
+          "quote": "Palm Beach Metropolitan Planning Organization (MPO)"
         }
       ]
     },
@@ -15,9 +15,9 @@
       "value": "Information Technology Services and Management",
       "citations": [
         {
-          "span_id": "p3-s4",
-          "page": 3,
-          "quote": "Information Technology Services and Management including on-site support"
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Information Technology Services and Management"
         }
       ]
     }
@@ -30,7 +30,7 @@
         {
           "span_id": "p18-s2",
           "page": 18,
-          "quote": "Hybrid service model with a strong onsite component for hands-on IT support"
+          "quote": "regular onsite support for tasks that require physical presence"
         }
       ]
     },
@@ -50,9 +50,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p16-s13",
+          "span_id": "p16-s12",
           "page": 16,
-          "quote": "Note that the MPO pays directly for Microsoft, Adobe, Backupify"
+          "quote": "the MPO pays directly for Microsoft, Adobe, Backupify"
         }
       ]
     },
@@ -61,40 +61,42 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p16-s12",
+          "span_id": "p16-s11",
           "page": 16,
-          "quote": "Help Desk Support, Network Monitoring, Back up and Disaster Recovery, Cybersecurity monitoring"
+          "quote": "all-inclusive monthly pricing for recurring services such as:"
         }
       ]
     },
     "functional_stacks": {
-      "value": [
-        "Microsoft 365",
-        "Microsoft Infrastructure"
-      ],
+      "value": [],
       "kind": "list",
       "citations": [
         {
           "span_id": "p17-s7",
           "page": 17,
-          "quote": "Microsoft Infrastructure management, Microsoft 365, and related programs"
-        },
-        {
-          "span_id": "p17-s8",
-          "page": 17,
-          "quote": "Workstation and endpoint support, patching, and maintenance"
+          "quote": "The Respondent shall describe its proposed approach to fulfilling the full scope of operational services"
         }
       ]
     }
   },
-  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
     "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
-    "started_utc": "2026-10-11T22:11:37Z",
-    "finished_utc": "2026-10-11T22:11:56Z",
+    "attempts": 2,
+    "repaired_after_refusal": true,
+    "refusals": [
+      {
+        "attempt": 1,
+        "problems": [
+          "requirements.delivery_model: quote not found in span p16-s11 under the verbatim rule: 'all-inclusive monthly pricing for recurring services such as Help Desk' [nearest text is in p16-s11 (page 16): 'all-inclusive monthly pricing for recurring services such as:'. The quotes differ first at character 60: the document has ':' where the quote has ' ' — copy the document's character.]"
+        ]
+      }
+    ],
+    "started_utc": "2026-10-11T22:27:27Z",
+    "finished_utc": "2026-10-11T22:27:53Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

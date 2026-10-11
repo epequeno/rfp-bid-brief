@@ -5,9 +5,9 @@
       "value": "University of Maine System",
       "citations": [
         {
-          "span_id": "p1-s0",
-          "page": 1,
-          "quote": "REQUEST FOR PROPOSALS #2026-065 Enterprise Generative AI Services"
+          "span_id": "p12-s1",
+          "page": 12,
+          "quote": "University of Maine System"
         }
       ]
     },
@@ -39,9 +39,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p32-s16",
-          "page": 32,
-          "quote": "All work may be performed remotely. The University is requesting licenses for a cloud solution."
+          "span_id": "p11-s0",
+          "page": 11,
+          "quote": "Business-hours support (Monday-Friday, 8 AM - 6 PM EST) is acceptable for standard issues."
         }
       ]
     },
@@ -50,9 +50,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p31-s7",
-          "page": 31,
-          "quote": "The University requires a vendor-hosted, cloud-based SaaS solution per Appendix H Requirement #1 (Required)."
+          "span_id": "p3-s22",
+          "page": 3,
+          "quote": "We are requesting licenses for a cloud solution."
         }
       ]
     },
@@ -61,9 +61,9 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p10-s6",
-          "page": 10,
-          "quote": "UMS envisions a shared-responsibility model: the vendor operates and supports the service per the proposed SLA (availability, updates, security), while UMS handles internal adoption, policy, and campus-level administration."
+          "span_id": "p9-s19",
+          "page": 9,
+          "quote": "Operate and support the service per the proposed SLA"
         }
       ]
     },
@@ -72,21 +72,32 @@
       "kind": "list",
       "citations": [
         {
-          "span_id": "p24-s10",
-          "page": 24,
-          "quote": "Brightspace (LMS) and Shibboleth (IdP) are the primary systems for integration."
+          "span_id": "p31-s4",
+          "page": 31,
+          "quote": "All licenses for a cloud solution, hosted by the Respondent"
         }
       ]
     }
   },
-  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
     "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
-    "started_utc": "2026-10-11T22:12:22Z",
-    "finished_utc": "2026-10-11T22:12:39Z",
+    "attempts": 2,
+    "repaired_after_refusal": true,
+    "refusals": [
+      {
+        "attempt": 1,
+        "problems": [
+          "facts.issuer: quote not found in span p3-s0 under the verbatim rule: 'University of Maine System' [this quote does appear in p12-s1, p12-s19, p12-s5, p13-s0, p13-s11, p13-s14, p13-s18, p14-s13, p14-s14, p14-s15, p14-s16, p16-s2, p16-s26, p20-s4, p21-s17, p23-s8, p33-s19, p38-s17, p5-s14, p6-s17 — the citation names p3-s0. A quote that runs across a span boundary has to name one span and quote only the part inside it.]",
+          "requirements.delivery_model: quote not found in span p9-s19 under the verbatim rule: 'Vendor Responsibilities (post-implementation): Operate and support the' [nearest text is in p9-s19 (page 9): 'ndor Responsibilities (post-implementation): o Operate and support the service per the proposed SLA'. The quotes differ first at character 0: the document has 'n' where the quote has 'V' — copy the document's character.]"
+        ]
+      }
+    ],
+    "started_utc": "2026-10-11T22:28:11Z",
+    "finished_utc": "2026-10-11T22:29:02Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

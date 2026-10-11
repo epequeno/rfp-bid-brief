@@ -12,7 +12,7 @@
       ]
     },
     "subject": {
-      "value": "Information technology consulting and support",
+      "value": "IT Consulting and Support",
       "citations": [
         {
           "span_id": "p2-s0",
@@ -30,7 +30,7 @@
         {
           "span_id": "p7-s13",
           "page": 7,
-          "quote": "On-site support for TTD facilities at South Lake Tahoe, California and Stateline, NV is REQUIRED."
+          "quote": "On-site support for TTD facilities at South Lake Tahoe, California and Stateline, NV is REQUIRED"
         },
         {
           "span_id": "p7-s14",
@@ -46,7 +46,7 @@
         {
           "span_id": "p7-s11",
           "page": 7,
-          "quote": "In case of an emergency, be on-site within four (4) hours"
+          "quote": "be on-site within four (4) hours"
         }
       ]
     },
@@ -66,39 +66,35 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p7-s10",
-          "page": 7,
-          "quote": "Provide support 24 hours a day, 7 days a week"
+          "span_id": "p12-s2",
+          "page": 12,
+          "quote": "two (2) year period, with three (3) option periods"
         }
       ]
     },
     "functional_stacks": {
-      "value": [
-        "Microsoft Business Central",
-        "Microsoft Office 365",
-        "UKG (Kronos)",
-        "Ecolane",
-        "Optibus",
-        "GMV Synchromatics"
-      ],
+      "value": [],
       "kind": "list",
       "citations": [
         {
-          "span_id": "p3-s1",
-          "page": 3,
-          "quote": "Microsoft Dynamics 365 Business Central"
+          "span_id": "p4-s0",
+          "page": 4,
+          "quote": "TTD requires a consultant to manage, support, and implement information technology systems"
         }
       ]
     }
   },
-  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
     "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
-    "started_utc": "2026-10-11T22:11:56Z",
-    "finished_utc": "2026-10-11T22:12:22Z",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:27:53Z",
+    "finished_utc": "2026-10-11T22:28:10Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

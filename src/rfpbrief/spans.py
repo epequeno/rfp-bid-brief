@@ -289,6 +289,38 @@ class Document:
             i = blob.find(target, i + 1)
         return found
 
+    def closest_snippet(self, quote: str) -> tuple[Span, str] | None:
+        """The nearest passage to a quote that was not found, and what it actually says.
+
+        A refusal that says only "not found" leaves a producer typing the same characters again. This
+        finds the best-matching window so the diagnosis can name the character that differs — which
+        is the whole difference between a failure a model can repair and one it cannot.
+
+        Only ever called on a citation that has already failed, so the cost is paid on the rare path.
+        """
+        import difflib
+
+        target = collapse_ws(quote)
+        if not target:
+            return None
+        best: tuple[float, Span, str] | None = None
+        for s in self.spans:
+            hay = s.quote
+            if not hay:
+                continue
+            matcher = difflib.SequenceMatcher(None, target, hay, autojunk=False)
+            block = matcher.find_longest_match(0, len(target), 0, len(hay))
+            if block.size < max(12, len(target) // 4):
+                continue  # nothing worth calling a near miss
+            start = max(0, block.b - block.a)
+            window = hay[start : start + len(target)]
+            ratio = difflib.SequenceMatcher(None, target, window, autojunk=False).ratio()
+            if best is None or ratio > best[0]:
+                best = (ratio, s, window)
+        if best is None:
+            return None
+        return best[1], best[2]
+
     def validate_citation(self, span_id: str, quote: str) -> bool:
         """Does this citation hold? See ADR 0005 for why the locator is page-level.
 

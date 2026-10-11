@@ -15,9 +15,9 @@
       "value": "Enterprise Resource Planning and Student Information Systems",
       "citations": [
         {
-          "span_id": "p1-s0",
-          "page": 1,
-          "quote": "Enterprise Resource Planning and Student Information Systems"
+          "span_id": "p4-s6",
+          "page": 4,
+          "quote": "The purchase of Enterprise Resource Planning and Student Information Systems"
         }
       ]
     }
@@ -28,9 +28,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p4-s4",
+          "span_id": "p4-s6",
           "page": 4,
-          "quote": "solicit offers for the purchase of Enterprise Resource Planning and Student Information Systems from qualified vendors"
+          "quote": "The purchase of Enterprise Resource Planning and Student Information Systems"
         }
       ]
     },
@@ -39,9 +39,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p4-s4",
+          "span_id": "p4-s6",
           "page": 4,
-          "quote": "solicit offers for the purchase of Enterprise Resource Planning and Student Information Systems from qualified vendors"
+          "quote": "The purchase of Enterprise Resource Planning and Student Information Systems"
         }
       ]
     },
@@ -52,41 +52,54 @@
         {
           "span_id": "p4-s4",
           "page": 4,
-          "quote": "solicit offers for the purchase of Enterprise Resource Planning and Student Information Systems"
+          "quote": "The intention of this Request for Proposal (“RFP”) is to solicit offers for the purchase of Enterprise Resource Planning and Student Information Systems"
         }
       ]
     },
     "delivery_model": {
-      "value": "project",
+      "value": "continuous_operations",
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p22-s4",
-          "page": 22,
-          "quote": "Scope of Work Requirements: This Scope of Work is intended to outline the services, materials and special items required"
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "Three (3) year term with up to two (2) one-year renewals"
         }
       ]
     },
     "functional_stacks": {
-      "value": [],
+      "value": [
+        "ERP",
+        "Student Information System"
+      ],
       "kind": "list",
       "citations": [
         {
-          "span_id": "p22-s4",
-          "page": 22,
-          "quote": "Scope of Work Requirements: This Scope of Work is intended to outline the services, materials and special items required for Enterprise Resource Planning and Student Information Systems"
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Enterprise Resource Planning and Student Information Systems"
         }
       ]
     }
   },
-  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
     "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
-    "started_utc": "2026-10-11T22:09:44Z",
-    "finished_utc": "2026-10-11T22:09:59Z",
+    "attempts": 2,
+    "repaired_after_refusal": true,
+    "refusals": [
+      {
+        "attempt": 1,
+        "problems": [
+          "requirements.requires_product_supply: quote not found in span p4-s4 under the verbatim rule: 'the intention of this Request for Proposal (“RFP”) is to solicit offer' [nearest text is in p4-s4 (page 4): 'The intention of this Request for Proposal (“RFP”) is to solicit offers for the purchase of Enterprise Resource Planning and Student Information Systems'. The quotes differ first at character 0: the document has 'T' where the quote has 't' — copy the document's character.]"
+        ]
+      }
+    ],
+    "started_utc": "2026-10-11T22:24:01Z",
+    "finished_utc": "2026-10-11T22:24:27Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

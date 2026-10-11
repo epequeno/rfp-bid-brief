@@ -18,7 +18,7 @@ import re
 import sys
 from pathlib import Path
 
-from . import brief, decide, evaluate, extract, spans
+from . import brief, decide, evaluate, extract, model_extractor, spans
 from .spans import collapse_ws
 
 REPO = Path(__file__).resolve().parents[2]
@@ -206,6 +206,59 @@ def _display(path: Path) -> str:
         return str(p)
 
 
+def _utc_now() -> str:
+    from datetime import datetime, timezone
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def cmd_model_extract(args: argparse.Namespace) -> int:
+    """Run the model-backed extractor on one fixture, with one bounded repair attempt (ADR 0006).
+
+    A refused extraction does NOT land in the extraction directory. It used to, and that was a real
+    flaw: the comparison then read refused values as though they were validated data. Refusals go to
+    a `_refused/` subdirectory, where they are counted and never mistaken for an answer.
+    """
+    path = Path(args.fixture)
+    doc = spans.build(path, fixture_name=path.name)
+    outdir = Path(args.out_dir)
+    outdir.mkdir(parents=True, exist_ok=True)
+    started = _utc_now()
+    run = model_extractor.extract(doc, model=args.model, retries=args.retries,
+                                  caller=model_extractor.call_pi)
+    finished = _utc_now()
+
+    if run.accepted:
+        if not args.no_write:
+            out = outdir / f"{path.stem}.json"
+            out.write_text(
+                json.dumps(model_extractor.annotate(run, run.data, started, finished),
+                           indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
+        note = "repaired on attempt 2" if run.repaired else "first attempt"
+        print(f"{doc.fixture}: validated — {note}")
+        return 0
+
+    refused = outdir / "_refused"
+    refused.mkdir(parents=True, exist_ok=True)
+    (refused / f"{path.stem}.json").write_text(
+        json.dumps({
+            "fixture": doc.fixture,
+            "model": run.model,
+            "attempts": run.attempts,
+            "prompt_sha256": model_extractor.prompt_sha256(),
+            "error": run.error,
+            "refusals": run.refusals,
+        }, indent=1) + "\n",
+        encoding="utf-8",
+    )
+    print(f"{doc.fixture}: REFUSED after {run.attempts} attempt(s)", file=sys.stderr)
+    last = run.refusals[-1]["problems"] if run.refusals else [run.error or "unknown"]
+    for p in last:
+        print(f"  - {p[:200]}", file=sys.stderr)
+    return 1
+
+
 def cmd_baseline(args: argparse.Namespace) -> int:
     """Run the decision layer against every committed label. Writes results/baseline.json."""
     labels = json.loads((REPO / "fixtures" / "labels.json").read_text(encoding="utf-8"))
@@ -350,6 +403,15 @@ def main(argv: list[str] | None = None) -> int:
     cp.add_argument("a")
     cp.add_argument("b")
     cp.set_defaults(func=cmd_compare)
+
+    me = sub.add_parser("model-extract", help="run the model-backed extractor on one fixture")
+    me.add_argument("fixture")
+    me.add_argument("--model", default=model_extractor.DEFAULT_MODEL)
+    me.add_argument("--retries", type=int, default=1,
+                    help="repair attempts after a citation refusal (default 1; ADR 0006)")
+    me.add_argument("--out-dir", default=str(REPO / "extractions" / "model"))
+    me.add_argument("--no-write", action="store_true", help="validate without saving")
+    me.set_defaults(func=cmd_model_extract)
 
     args = ap.parse_args(argv)
     return args.func(args)

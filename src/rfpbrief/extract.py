@@ -17,7 +17,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from .spans import Document
+from .spans import Document, collapse_ws
 
 EXTRACTIONS = Path(__file__).resolve().parents[2] / "extractions"
 
@@ -100,6 +100,24 @@ def validate(doc: Document, data: dict) -> list[str]:
                         hint = (f" [this quote does appear in {homes} — the citation names "
                                 f"{span_id}. A quote that runs across a span boundary has to name "
                                 f"one span and quote only the part inside it.]")
+                    else:
+                        near = doc.closest_snippet(quote)
+                        if near:
+                            span_near, actual = near
+                            target = collapse_ws(quote)
+                            first = next(
+                                (i for i, (a, b) in enumerate(zip(target, actual)) if a != b),
+                                min(len(target), len(actual)),
+                            )
+                            if first < min(len(target), len(actual)):
+                                hint = (f" [nearest text is in {span_near.id} (page {span_near.page}): "
+                                        f"{actual!r}. The quotes differ first at character {first}: "
+                                        f"the document has {actual[first]!r} where the quote has "
+                                        f"{target[first]!r} — copy the document's character.]")
+                            else:
+                                hint = (f" [nearest text is in {span_near.id} (page {span_near.page}): "
+                                        f"{actual!r} — the lengths differ, so part of the quote is "
+                                        f"not in that span.]")
                     problems.append(
                         f"{group}.{name}: quote not found in span {span_id} under the verbatim rule: "
                         f"{quote[:70]!r}{hint}"

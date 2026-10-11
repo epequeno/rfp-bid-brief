@@ -12,12 +12,12 @@
       ]
     },
     "subject": {
-      "value": "Managed Information Technology Services",
+      "value": "Managed information technology services",
       "citations": [
         {
           "span_id": "p2-s1",
           "page": 2,
-          "quote": "managed information technology (IT) services"
+          "quote": "provide managed information technology (IT) services"
         }
       ]
     }
@@ -35,13 +35,13 @@
       ]
     },
     "requires_emergency_onsite_response": {
-      "value": true,
+      "value": false,
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p4-s25",
+          "span_id": "p4-s14",
           "page": 4,
-          "quote": "Less than 4-hour response time for server down emergencies"
+          "quote": "Full-service desk Full-service operations center service Remote management software on all"
         }
       ]
     },
@@ -50,9 +50,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p2-s5",
+          "span_id": "p2-s4",
           "page": 2,
-          "quote": "break fix, routine maintenance and project-related services"
+          "quote": "The city has a Microsoft-based computer network infrastructure"
         }
       ]
     },
@@ -61,34 +61,35 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p4-s13",
+          "span_id": "p4-s14",
           "page": 4,
           "quote": "24x7x365 monitoring of denoted servers and critical network components"
         }
       ]
     },
     "functional_stacks": {
-      "value": [
-        "Microsoft"
-      ],
+      "value": [],
       "kind": "list",
       "citations": [
         {
-          "span_id": "p2-s4",
-          "page": 2,
-          "quote": "Microsoft-based computer network infrastructure"
+          "span_id": "p4-s15",
+          "page": 4,
+          "quote": "Server and network administration (if applicable)"
         }
       ]
     }
   },
-  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
     "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
-    "started_utc": "2026-10-11T22:09:16Z",
-    "finished_utc": "2026-10-11T22:09:43Z",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:23:44Z",
+    "finished_utc": "2026-10-11T22:24:00Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

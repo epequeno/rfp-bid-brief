@@ -7,17 +7,17 @@
         {
           "span_id": "p1-s1",
           "page": 1,
-          "quote": "Energy Trust of Oregon, Inc. (Energy Trust), an Oregon nonprofit corporation, is soliciting proposals from qualified vendors to plan, design, and execute the migration of our existing on‑premises Microsoft CRM implementation to the Microsoft Dynamics 365 cloud CRM platform."
+          "quote": "Energy Trust of Oregon, Inc. (Energy Trust), an Oregon nonprofit corporation, is soliciting proposals"
         }
       ]
     },
     "subject": {
-      "value": "Migration from on-premises Microsoft CRM to Microsoft Dynamics 365 Cloud",
+      "value": "Migration from on-premises Microsoft CRM to Microsoft Dynamics 365 cloud",
       "citations": [
         {
           "span_id": "p1-s0",
           "page": 1,
-          "quote": "Request for Proposal (RFP) Migration from On-Premises Microsoft CRM to Microsoft Dynamics 365 Cloud"
+          "quote": "Migration from On-Premises Microsoft CRM to Microsoft Dynamics 365 Cloud"
         }
       ]
     }
@@ -30,7 +30,7 @@
         {
           "span_id": "p2-s2",
           "page": 2,
-          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support"
         }
       ]
     },
@@ -39,9 +39,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p2-s2",
-          "page": 2,
-          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+          "span_id": "p5-s0",
+          "page": 5,
+          "quote": "Cutover planning and execution support"
         }
       ]
     },
@@ -50,9 +50,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p2-s2",
-          "page": 2,
-          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+          "span_id": "p1-s9",
+          "page": 1,
+          "quote": "We seek an experienced Microsoft partner to deliver a secure, scalable, and well‑governed migration"
         }
       ]
     },
@@ -63,15 +63,14 @@
         {
           "span_id": "p2-s2",
           "page": 2,
-          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support"
         }
       ]
     },
     "functional_stacks": {
       "value": [
-        "Dynamics 365",
-        "Power Platform",
-        "Azure"
+        "Microsoft Dynamics 365",
+        "Power Platform"
       ],
       "kind": "list",
       "citations": [
@@ -84,23 +83,21 @@
           "span_id": "p3-s4",
           "page": 3,
           "quote": "Implementation of Power Automate flows, Power Apps, and business rules as appropriate"
-        },
-        {
-          "span_id": "p3-s1",
-          "page": 3,
-          "quote": "Customization and extension strategy leveraging out‑of‑the‑box capabilities, Power Platform, and Azure services"
         }
       ]
     }
   },
-  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
     "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
-    "started_utc": "2026-10-11T22:10:14Z",
-    "finished_utc": "2026-10-11T22:10:38Z",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:24:49Z",
+    "finished_utc": "2026-10-11T22:25:03Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }
