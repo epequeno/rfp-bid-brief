@@ -1,0 +1,2872 @@
+{
+ "schema": "span-index/1",
+ "fixture": "community-action-partnership-kern-information-systems-consultant.pdf",
+ "fixture_sha256": "373bc828a399a2e7dce746d73bedb1cbdf88e23430b85910130491b6caabbd9c",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "8c2a8831d2a10640d80ecd6ae9125c2c87a68535b187a31913c28b6f4ade4b10",
+   "chars": 337
+  },
+  {
+   "number": 2,
+   "sha256": "328fa22316e4bbe89b9fa883e63213ae80e50b9ef7c7555f7591e0b55fc37446",
+   "chars": 1950
+  },
+  {
+   "number": 3,
+   "sha256": "36f81117c29da677c0a8ddee53bb251b2e56aabeae60fc5f785cd3631a1887e4",
+   "chars": 2676
+  },
+  {
+   "number": 4,
+   "sha256": "44abe7e2e28727b3d12f25b7f7a51d47a3ef887c079bd94f1ca90ce5d6a024ab",
+   "chars": 2629
+  },
+  {
+   "number": 5,
+   "sha256": "aca2f7b12c4ed74fab453ede29213527a4ff10b3ac3fe4e14ce4e2d382afbcac",
+   "chars": 2032
+  },
+  {
+   "number": 6,
+   "sha256": "b6e5ebe3f46ebdbb22f8d783217772a8d52faf0e7f5e4a62b7542a6b89b87073",
+   "chars": 2919
+  },
+  {
+   "number": 7,
+   "sha256": "a1fc2540104a5a95082d9850ea8230283d53f612900699d8554dec112999a303",
+   "chars": 2462
+  },
+  {
+   "number": 8,
+   "sha256": "e63f9cc33e3432ef3c7bc8412e4f92183ace8a9102b6b3989c38e2dd250a8af3",
+   "chars": 1905
+  },
+  {
+   "number": 9,
+   "sha256": "61f585d089101e5dba3bb518a0fbf0510e2417618faaa9fe34d80039b8b2e0da",
+   "chars": 72
+  },
+  {
+   "number": 10,
+   "sha256": "4f1ca2fea8b74fa8ce24bd6471223aa870a1ced555995775e8bbb666619e3a1b",
+   "chars": 73
+  },
+  {
+   "number": 11,
+   "sha256": "29a02a0a34f629d76ba985bb0ee59d8079edd7b9727ee1486280be83fdedd46d",
+   "chars": 3735
+  },
+  {
+   "number": 12,
+   "sha256": "802c25b9973f13150ec3f9cea2ef0f536bf5782fdcf069de82298e50c71bd37d",
+   "chars": 3510
+  },
+  {
+   "number": 13,
+   "sha256": "a1e57db7edeee119c7fb6154189ee52d63ede54f7629f7702c98bba6d3f9ccdd",
+   "chars": 3654
+  },
+  {
+   "number": 14,
+   "sha256": "cb4873cfb00ee3a5b9c903eb04652b2ecc1d712edee27ac8049def3e5d3c6a3b",
+   "chars": 452
+  }
+ ],
+ "span_count": 348,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 207,
+   "chars": 207,
+   "text": "REQUEST FOR PROPOSALS (RFP)\nFOR\nINFORMATION SYSTEMS CONSULTANT\n\nRequest for Proposal Number: CAPK IS 2025-001\nNovember 17th, 2025\n\nCommunity Action Partnership of Kern\n1300 18th Street, Ste 200\nBakersfield, "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 207,
+   "end": 337,
+   "chars": 130,
+   "text": "CA 93301\n661.336.5236\n\nProposals Due by 2:00 p.m. December 18th,2025\n\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 184,
+   "chars": 184,
+   "text": "Community Action Partnership of Kern\n1300 18th Street, Ste 200 · Bakersfield, CA 93301\n(661) 336-5236\nREQUEST FOR PROPOSALS (RFP):\nInformation Systems Consultant\nGENERAL CONDITIONS\nI. "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 184,
+   "end": 330,
+   "chars": 146,
+   "text": "PURPOSE\nCommunity Action Partnership of Kern (CAPK) is soliciting proposals to find a qualified Information\nSystems Consultant service providers.\n"
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 330,
+   "end": 333,
+   "chars": 3,
+   "text": "A. "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 333,
+   "end": 368,
+   "chars": 35,
+   "text": "Proposal Submission Information\n1.\n"
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 368,
+   "end": 371,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 371,
+   "end": 374,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 375,
+   "end": 577,
+   "chars": 202,
+   "text": "Closing Date: Proposals must be submitted no later than 2:00 p.m. December 18th, 2025\nInquiries: Inquiries concerning this RFP should be directed to the Procurement Department,\nat procurement@capk.org.\n"
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 577,
+   "end": 765,
+   "chars": 188,
+   "text": "Costs of Proposal Preparation: All costs incurred in the preparation of a proposal responding\nto this RFP will be the sole responsibility of the Vendor and will not be reimbursed by CAPK.\n"
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 765,
+   "end": 883,
+   "chars": 118,
+   "text": "Unless otherwise stated, all materials submitted by Vendor in response to this RFP shall\nbecome the property of CAPK.\n"
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 884,
+   "end": 887,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 887,
+   "end": 1121,
+   "chars": 234,
+   "text": "Proposal Submission Instruction to Vendors: Your proposal should be addressed as follows:\n\nCommunity Action Partnership of Kern (CAPK)\nRFP IS 2025-001\nATTN: Procurement\n1300 18th Street, Ste 200\nBakersfield, CA 93301\nOr via email to: "
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 1121,
+   "end": 1262,
+   "chars": 141,
+   "text": "procurement@capk.org\nIt is the responsibility of the Vendor to ensure that CAPK receives the proposals by the date and\ntime specified above. "
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 1262,
+   "end": 1301,
+   "chars": 39,
+   "text": "Late proposals will not be considered. "
+  },
+  {
+   "id": "p2-s13",
+   "page": 2,
+   "start": 1301,
+   "end": 1363,
+   "chars": 62,
+   "text": "Confirmation of receipt is the sole\nresponsibility of Vendor. "
+  },
+  {
+   "id": "p2-s14",
+   "page": 2,
+   "start": 1363,
+   "end": 1448,
+   "chars": 85,
+   "text": "Each Vendor must submit its proposal using the enclosed format in\nSection III below. "
+  },
+  {
+   "id": "p2-s15",
+   "page": 2,
+   "start": 1448,
+   "end": 1557,
+   "chars": 109,
+   "text": "If any proposal submitted deviates from the requested proposal format, it may\nbe cause for disqualification. "
+  },
+  {
+   "id": "p2-s16",
+   "page": 2,
+   "start": 1557,
+   "end": 1728,
+   "chars": 171,
+   "text": "This does not, however, preclude the Vendor from offering valueadded alternatives and additional relevant information in addition to the information requested in\nthe RFP. "
+  },
+  {
+   "id": "p2-s17",
+   "page": 2,
+   "start": 1728,
+   "end": 1889,
+   "chars": 161,
+   "text": "The alternatives, however, must be fully explained in written form, and must be\nseparately stated as alternatives in both the proposal content and fee proposal.\n"
+  },
+  {
+   "id": "p2-s18",
+   "page": 2,
+   "start": 1890,
+   "end": 1950,
+   "chars": 60,
+   "text": "Community Action Partnership of Kern\nRFP IS 2025-001\n\nPage 2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 192,
+   "chars": 192,
+   "text": "Expected Timelines:\nDate(s)\n\nEvent\n\n1\n\nNovember 17 , 2025\n\nRFP Released to public\n\n3\n\nDecember 2nd, 2025\n\nDue date for Vendor Questions -Please email to\nProcurement@capk.org\n\n4\n\nDecember 5th, "
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 192,
+   "end": 389,
+   "chars": 197,
+   "text": "2025\n\n5\n\nby 2:00pm December 18\n2025\n\n6\n\nApproximately by January 27\n2026\n\nth\n\nResponses to Vendor questions emailed to Vendors\nth\n\nDUE DATE FOR PROPOSALS FROM VENDORS\nth\n\nNotification of Award\n\nC. "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 389,
+   "end": 497,
+   "chars": 108,
+   "text": "Right to Reject: CAPK reserves the right to reject any and all proposals received in response to this\n\nRFP. "
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 497,
+   "end": 590,
+   "chars": 93,
+   "text": "The Contract for the accepted proposal will be based upon the factors described in this RFP.\n"
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 590,
+   "end": 684,
+   "chars": 94,
+   "text": "CAPK reserves the right to waive any and all informalities or irregularities in any proposal.\n"
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 684,
+   "end": 687,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 687,
+   "end": 792,
+   "chars": 105,
+   "text": "Confidentiality: The Vendor agrees to keep the information related to negotiations in strict\nconfidence. "
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 792,
+   "end": 1087,
+   "chars": 295,
+   "text": "Other than the reports submitted to CAPK, the Vendor agrees not to publish,\nreproduce or otherwise divulge such information in whole or in part, in any manner or form or\nauthorize or permit others to do so, taking such reasonable measures as are necessary to restrict\naccess to the information, "
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1087,
+   "end": 1219,
+   "chars": 132,
+   "text": "while in the Vendor’s possession, to those employees on the Vendor’s\nstaff who must have the information on a \"need-to-know\" basis. "
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 1219,
+   "end": 1395,
+   "chars": 176,
+   "text": "The Vendor agrees to immediately\nnotify, in writing, CAPK’s authorized representative in the event the Vendor determines or has\nreason to suspect a breach of this requirement.\n"
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 1395,
+   "end": 1398,
+   "chars": 3,
+   "text": "E. "
+  },
+  {
+   "id": "p3-s11",
+   "page": 3,
+   "start": 1398,
+   "end": 1532,
+   "chars": 134,
+   "text": "Notification of Award: CAPK anticipates but does not guarantee that the Contract will be awarded\nby approximately January 27th, 2025.\n"
+  },
+  {
+   "id": "p3-s12",
+   "page": 3,
+   "start": 1532,
+   "end": 1680,
+   "chars": 148,
+   "text": "Award will be given to the most responsible Vendor whose service, experience and approach to\nthe project are most compatible with the CAPK’s needs. "
+  },
+  {
+   "id": "p3-s13",
+   "page": 3,
+   "start": 1680,
+   "end": 1769,
+   "chars": 89,
+   "text": "CAPK will be the sole judge in making this\ndetermination and may award multiple vendors.\n"
+  },
+  {
+   "id": "p3-s14",
+   "page": 3,
+   "start": 1769,
+   "end": 1858,
+   "chars": 89,
+   "text": "The resulting contract will have an initial term of one year, with the option to extend.\n"
+  },
+  {
+   "id": "p3-s15",
+   "page": 3,
+   "start": 1858,
+   "end": 1861,
+   "chars": 3,
+   "text": "F. "
+  },
+  {
+   "id": "p3-s16",
+   "page": 3,
+   "start": 1861,
+   "end": 2094,
+   "chars": 233,
+   "text": "Small, Women and/or Minority-Owned Business: Efforts will be made by CAPK to utilize small\nbusinesses, women and minority-owned businesses, with the consideration that the primary\nresponsibility is the most favorable return to CAPK.\n"
+  },
+  {
+   "id": "p3-s17",
+   "page": 3,
+   "start": 2094,
+   "end": 2255,
+   "chars": 161,
+   "text": "A Vendor qualifies as a small business firm if it meets the definition of \"small business\" as\nestablished by the Small Business Administration (13 CFR 121.201).\n"
+  },
+  {
+   "id": "p3-s18",
+   "page": 3,
+   "start": 2255,
+   "end": 2258,
+   "chars": 3,
+   "text": "G. "
+  },
+  {
+   "id": "p3-s19",
+   "page": 3,
+   "start": 2258,
+   "end": 2352,
+   "chars": 94,
+   "text": "Price: All prices and quotations must be typed or written in ink utilizing attached bid form. "
+  },
+  {
+   "id": "p3-s20",
+   "page": 3,
+   "start": 2352,
+   "end": 2398,
+   "chars": 46,
+   "text": "No\nerasures or correction fluid is permitted. "
+  },
+  {
+   "id": "p3-s21",
+   "page": 3,
+   "start": 2398,
+   "end": 2491,
+   "chars": 93,
+   "text": "Errors may be crossed out and corrections printed in\nink by the person signing the proposal.\n"
+  },
+  {
+   "id": "p3-s22",
+   "page": 3,
+   "start": 2492,
+   "end": 2556,
+   "chars": 64,
+   "text": "BID FORMS ARE ATTACHED AND MUST BE SUBMITTED WITH PROPOSAL\n\nII. "
+  },
+  {
+   "id": "p3-s23",
+   "page": 3,
+   "start": 2556,
+   "end": 2676,
+   "chars": 120,
+   "text": "SCOPE OF WORK FOR INFORMATION SYSTEMS CONSULTING SERVICES –\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 212,
+   "chars": 212,
+   "text": "CAPK is seeking proposals from qualified, licensed and bonded entities with demonstrated\nprofessional competence and experience to provide necessary Information Systems Consultant\nservices on an as-needed basis. "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 212,
+   "end": 284,
+   "chars": 72,
+   "text": "This proposal is not an offer to buy and should not be assumed\nas such.\n"
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 284,
+   "end": 287,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 287,
+   "end": 441,
+   "chars": 154,
+   "text": "Project Overview\nCommunity Action Partnership of Kern (CAPK) seeks a qualified consulting partner to act as an\nextension of our Information Systems team. "
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 441,
+   "end": 605,
+   "chars": 164,
+   "text": "The consultant will provide expertise in application\ndevelopment, AI integration, security enhancements, and assist with a strategic migration to\nMicrosoft Fabric. "
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 605,
+   "end": 694,
+   "chars": 89,
+   "text": "The engagement will include advisory, implementation, and knowledge\ntransfer components.\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 694,
+   "end": 697,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 697,
+   "end": 711,
+   "chars": 14,
+   "text": "Objectives\na. "
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 711,
+   "end": 798,
+   "chars": 87,
+   "text": "Enhance CAPK’s application development capabilities for internal and external systems.\n"
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 798,
+   "end": 801,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 801,
+   "end": 902,
+   "chars": 101,
+   "text": "Integrate AI solutions aligned with CAPK’s approved AI Use Policy for ethical and secure\ndeployment.\n"
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 902,
+   "end": 905,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 905,
+   "end": 1083,
+   "chars": 178,
+   "text": "Assist with planning and development of 211 call center database migration to\nDynamics and integration of Intelligent Virtual Assistant using AI and natural language\nprocessing.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 1083,
+   "end": 1086,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 1086,
+   "end": 1169,
+   "chars": 83,
+   "text": "Plan and execute migration to Microsoft Fabric for analytics and data integration.\n"
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 1169,
+   "end": 1172,
+   "chars": 3,
+   "text": "e. "
+  },
+  {
+   "id": "p4-s16",
+   "page": 4,
+   "start": 1172,
+   "end": 1269,
+   "chars": 97,
+   "text": "Ensure cybersecurity posture through assessments, remediation, and best-practice\nimplementation.\n"
+  },
+  {
+   "id": "p4-s17",
+   "page": 4,
+   "start": 1269,
+   "end": 1272,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p4-s18",
+   "page": 4,
+   "start": 1272,
+   "end": 1301,
+   "chars": 29,
+   "text": "Services and Deliverables\na. "
+  },
+  {
+   "id": "p4-s19",
+   "page": 4,
+   "start": 1301,
+   "end": 1347,
+   "chars": 46,
+   "text": "Application Development & Special Projects\ni. "
+  },
+  {
+   "id": "p4-s20",
+   "page": 4,
+   "start": 1347,
+   "end": 1416,
+   "chars": 69,
+   "text": "Develop and maintain custom applications to support CAPK operations.\n"
+  },
+  {
+   "id": "p4-s21",
+   "page": 4,
+   "start": 1416,
+   "end": 1420,
+   "chars": 4,
+   "text": "ii. "
+  },
+  {
+   "id": "p4-s22",
+   "page": 4,
+   "start": 1420,
+   "end": 1502,
+   "chars": 82,
+   "text": "Provide architecture reviews and recommendations for scalability and\nperformance.\n"
+  },
+  {
+   "id": "p4-s23",
+   "page": 4,
+   "start": 1502,
+   "end": 1507,
+   "chars": 5,
+   "text": "iii. "
+  },
+  {
+   "id": "p4-s24",
+   "page": 4,
+   "start": 1507,
+   "end": 1568,
+   "chars": 61,
+   "text": "Deliver technical documentation and training for CAPK staff.\n"
+  },
+  {
+   "id": "p4-s25",
+   "page": 4,
+   "start": 1568,
+   "end": 1571,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p4-s26",
+   "page": 4,
+   "start": 1571,
+   "end": 1589,
+   "chars": 18,
+   "text": "AI Integration\ni. "
+  },
+  {
+   "id": "p4-s27",
+   "page": 4,
+   "start": 1589,
+   "end": 1634,
+   "chars": 45,
+   "text": "Assess current environment for AI readiness.\n"
+  },
+  {
+   "id": "p4-s28",
+   "page": 4,
+   "start": 1634,
+   "end": 1638,
+   "chars": 4,
+   "text": "ii. "
+  },
+  {
+   "id": "p4-s29",
+   "page": 4,
+   "start": 1638,
+   "end": 1707,
+   "chars": 69,
+   "text": "Design and implement AI-driven solutions for operational efficiency.\n"
+  },
+  {
+   "id": "p4-s30",
+   "page": 4,
+   "start": 1707,
+   "end": 1712,
+   "chars": 5,
+   "text": "iii. "
+  },
+  {
+   "id": "p4-s31",
+   "page": 4,
+   "start": 1712,
+   "end": 1784,
+   "chars": 72,
+   "text": "Ensure compliance with CAPK’s AI Use Policy and data privacy standards.\n"
+  },
+  {
+   "id": "p4-s32",
+   "page": 4,
+   "start": 1784,
+   "end": 1788,
+   "chars": 4,
+   "text": "iv. "
+  },
+  {
+   "id": "p4-s33",
+   "page": 4,
+   "start": 1788,
+   "end": 1845,
+   "chars": 57,
+   "text": "Conduct bias and fairness audits for deployed AI models.\n"
+  },
+  {
+   "id": "p4-s34",
+   "page": 4,
+   "start": 1845,
+   "end": 1848,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p4-s35",
+   "page": 4,
+   "start": 1848,
+   "end": 1875,
+   "chars": 27,
+   "text": "211 Service Enhancement\ni. "
+  },
+  {
+   "id": "p4-s36",
+   "page": 4,
+   "start": 1875,
+   "end": 2060,
+   "chars": 185,
+   "text": "Develop a migration plan and data model for the 211 call center database to\nmove into Dynamics 365, ensuring compatibility with existing client relationship\nmanagement (CRM) workflows.\n"
+  },
+  {
+   "id": "p4-s37",
+   "page": 4,
+   "start": 2060,
+   "end": 2064,
+   "chars": 4,
+   "text": "ii. "
+  },
+  {
+   "id": "p4-s38",
+   "page": 4,
+   "start": 2064,
+   "end": 2243,
+   "chars": 179,
+   "text": "Implement an Intelligent Virtual Assistant (IVA) using AI and natural language\nprocessing (NLP) technologies to handle call triage, knowledge base queries, and\nclient engagement.\n"
+  },
+  {
+   "id": "p4-s39",
+   "page": 4,
+   "start": 2243,
+   "end": 2248,
+   "chars": 5,
+   "text": "iii. "
+  },
+  {
+   "id": "p4-s40",
+   "page": 4,
+   "start": 2248,
+   "end": 2414,
+   "chars": 166,
+   "text": "Collaborate with CAPK’s 211 leadership to ensure the solution enhances service\ndelivery while maintaining compliance with data privacy and confidentiality\nstandards.\n"
+  },
+  {
+   "id": "p4-s41",
+   "page": 4,
+   "start": 2414,
+   "end": 2417,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p4-s42",
+   "page": 4,
+   "start": 2417,
+   "end": 2447,
+   "chars": 30,
+   "text": "Microsoft Fabric Migration\ni. "
+  },
+  {
+   "id": "p4-s43",
+   "page": 4,
+   "start": 2447,
+   "end": 2508,
+   "chars": 61,
+   "text": "Evaluate existing data architecture and analytics workflows.\n"
+  },
+  {
+   "id": "p4-s44",
+   "page": 4,
+   "start": 2508,
+   "end": 2512,
+   "chars": 4,
+   "text": "ii. "
+  },
+  {
+   "id": "p4-s45",
+   "page": 4,
+   "start": 2512,
+   "end": 2569,
+   "chars": 57,
+   "text": "Develop migration roadmap for Microsoft Fabric adoption.\n"
+  },
+  {
+   "id": "p4-s46",
+   "page": 4,
+   "start": 2569,
+   "end": 2629,
+   "chars": 60,
+   "text": "Community Action Partnership of Kern\nRFP IS 2025-001\n\nPage 4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 4,
+   "end": 7,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 8,
+   "end": 11,
+   "chars": 3,
+   "text": "6.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 12,
+   "end": 15,
+   "chars": 3,
+   "text": "7.\n"
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 16,
+   "end": 21,
+   "chars": 5,
+   "text": "iii. "
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 21,
+   "end": 87,
+   "chars": 66,
+   "text": "Execute migration with minimal disruption to business operations.\n"
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 87,
+   "end": 91,
+   "chars": 4,
+   "text": "iv. "
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 91,
+   "end": 151,
+   "chars": 60,
+   "text": "Provide post-migration optimization and performance tuning.\n"
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 151,
+   "end": 154,
+   "chars": 3,
+   "text": "e. "
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 154,
+   "end": 176,
+   "chars": 22,
+   "text": "Project Management\ni. "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 176,
+   "end": 246,
+   "chars": 70,
+   "text": "Assign a dedicated project manager to coordinate tasks and timelines.\n"
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 246,
+   "end": 250,
+   "chars": 4,
+   "text": "ii. "
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 250,
+   "end": 321,
+   "chars": 71,
+   "text": "Conduct weekly status meetings and provide bi-weekly progress reports.\n"
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 321,
+   "end": 326,
+   "chars": 5,
+   "text": "iii. "
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 326,
+   "end": 385,
+   "chars": 59,
+   "text": "Maintain transparent communication with CAPK stakeholders.\n"
+  },
+  {
+   "id": "p5-s15",
+   "page": 5,
+   "start": 385,
+   "end": 388,
+   "chars": 3,
+   "text": "f. "
+  },
+  {
+   "id": "p5-s16",
+   "page": 5,
+   "start": 388,
+   "end": 416,
+   "chars": 28,
+   "text": "Compliance and Standards\ni. "
+  },
+  {
+   "id": "p5-s17",
+   "page": 5,
+   "start": 416,
+   "end": 487,
+   "chars": 71,
+   "text": "Adhere to CAPK’s IT governance, AI Use Policy, and security protocols.\n"
+  },
+  {
+   "id": "p5-s18",
+   "page": 5,
+   "start": 487,
+   "end": 491,
+   "chars": 4,
+   "text": "ii. "
+  },
+  {
+   "id": "p5-s19",
+   "page": 5,
+   "start": 491,
+   "end": 584,
+   "chars": 93,
+   "text": "Follow industry best practices for software development, data security, and\ncloud migration.\n"
+  },
+  {
+   "id": "p5-s20",
+   "page": 5,
+   "start": 584,
+   "end": 596,
+   "chars": 12,
+   "text": "Timeline\na. "
+  },
+  {
+   "id": "p5-s21",
+   "page": 5,
+   "start": 596,
+   "end": 655,
+   "chars": 59,
+   "text": "Initial engagement: 12 months (annual options to renew)\nb. "
+  },
+  {
+   "id": "p5-s22",
+   "page": 5,
+   "start": 655,
+   "end": 688,
+   "chars": 33,
+   "text": "Estimated duration: 60 months\nc. "
+  },
+  {
+   "id": "p5-s23",
+   "page": 5,
+   "start": 688,
+   "end": 775,
+   "chars": 87,
+   "text": "Key milestones: Project kickoff, mid-term review, migration completion, final handoff.\n"
+  },
+  {
+   "id": "p5-s24",
+   "page": 5,
+   "start": 775,
+   "end": 800,
+   "chars": 25,
+   "text": "Vendor Qualifications\na. "
+  },
+  {
+   "id": "p5-s25",
+   "page": 5,
+   "start": 800,
+   "end": 870,
+   "chars": 70,
+   "text": "Demonstrated experience in Microsoft ecosystem (Azure, M365, Fabric).\n"
+  },
+  {
+   "id": "p5-s26",
+   "page": 5,
+   "start": 870,
+   "end": 873,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p5-s27",
+   "page": 5,
+   "start": 873,
+   "end": 941,
+   "chars": 68,
+   "text": "Proven track record in AI integration and cybersecurity consulting.\n"
+  },
+  {
+   "id": "p5-s28",
+   "page": 5,
+   "start": 941,
+   "end": 944,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p5-s29",
+   "page": 5,
+   "start": 944,
+   "end": 1039,
+   "chars": 95,
+   "text": "Ability to provide references for similar projects in nonprofit or public sector\nenvironments.\n"
+  },
+  {
+   "id": "p5-s30",
+   "page": 5,
+   "start": 1039,
+   "end": 1055,
+   "chars": 16,
+   "text": "Deliverables\na. "
+  },
+  {
+   "id": "p5-s31",
+   "page": 5,
+   "start": 1055,
+   "end": 1089,
+   "chars": 34,
+   "text": "Technical architecture documents.\n"
+  },
+  {
+   "id": "p5-s32",
+   "page": 5,
+   "start": 1089,
+   "end": 1092,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p5-s33",
+   "page": 5,
+   "start": 1092,
+   "end": 1132,
+   "chars": 40,
+   "text": "AI and security implementation reports.\n"
+  },
+  {
+   "id": "p5-s34",
+   "page": 5,
+   "start": 1132,
+   "end": 1135,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p5-s35",
+   "page": 5,
+   "start": 1135,
+   "end": 1173,
+   "chars": 38,
+   "text": "Migration plan and completion report.\n"
+  },
+  {
+   "id": "p5-s36",
+   "page": 5,
+   "start": 1173,
+   "end": 1176,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p5-s37",
+   "page": 5,
+   "start": 1176,
+   "end": 1228,
+   "chars": 52,
+   "text": "Training materials and knowledge transfer sessions.\n"
+  },
+  {
+   "id": "p5-s38",
+   "page": 5,
+   "start": 1228,
+   "end": 1251,
+   "chars": 23,
+   "text": "Evaluation Criteria\na. "
+  },
+  {
+   "id": "p5-s39",
+   "page": 5,
+   "start": 1251,
+   "end": 1291,
+   "chars": 40,
+   "text": "Relevant experience and certifications.\n"
+  },
+  {
+   "id": "p5-s40",
+   "page": 5,
+   "start": 1291,
+   "end": 1294,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p5-s41",
+   "page": 5,
+   "start": 1294,
+   "end": 1329,
+   "chars": 35,
+   "text": "Proposed methodology and timeline.\n"
+  },
+  {
+   "id": "p5-s42",
+   "page": 5,
+   "start": 1329,
+   "end": 1332,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p5-s43",
+   "page": 5,
+   "start": 1332,
+   "end": 1374,
+   "chars": 42,
+   "text": "Cost-effectiveness and pricing structure.\n"
+  },
+  {
+   "id": "p5-s44",
+   "page": 5,
+   "start": 1374,
+   "end": 1377,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p5-s45",
+   "page": 5,
+   "start": 1377,
+   "end": 1410,
+   "chars": 33,
+   "text": "References and past performance.\n"
+  },
+  {
+   "id": "p5-s46",
+   "page": 5,
+   "start": 1411,
+   "end": 1416,
+   "chars": 5,
+   "text": "III. "
+  },
+  {
+   "id": "p5-s47",
+   "page": 5,
+   "start": 1416,
+   "end": 1487,
+   "chars": 71,
+   "text": "PROPOSAL CONTENT REQUIREMENTS\nProposals must include the following:\nA.\n"
+  },
+  {
+   "id": "p5-s48",
+   "page": 5,
+   "start": 1487,
+   "end": 1490,
+   "chars": 3,
+   "text": "B.\n"
+  },
+  {
+   "id": "p5-s49",
+   "page": 5,
+   "start": 1490,
+   "end": 1493,
+   "chars": 3,
+   "text": "C.\n"
+  },
+  {
+   "id": "p5-s50",
+   "page": 5,
+   "start": 1493,
+   "end": 1496,
+   "chars": 3,
+   "text": "D.\n"
+  },
+  {
+   "id": "p5-s51",
+   "page": 5,
+   "start": 1496,
+   "end": 1499,
+   "chars": 3,
+   "text": "E.\n"
+  },
+  {
+   "id": "p5-s52",
+   "page": 5,
+   "start": 1500,
+   "end": 1600,
+   "chars": 100,
+   "text": "Cover Letter: A one-page cover letter with the name and contact information of the proposed\nVendor.\n"
+  },
+  {
+   "id": "p5-s53",
+   "page": 5,
+   "start": 1600,
+   "end": 1682,
+   "chars": 82,
+   "text": "Description of services to be provided, including informative sheets on services.\n"
+  },
+  {
+   "id": "p5-s54",
+   "page": 5,
+   "start": 1682,
+   "end": 1748,
+   "chars": 66,
+   "text": "Detailed plan of action for all phases of the services requested.\n"
+  },
+  {
+   "id": "p5-s55",
+   "page": 5,
+   "start": 1748,
+   "end": 1781,
+   "chars": 33,
+   "text": "CAPK is not a tax-exempt entity; "
+  },
+  {
+   "id": "p5-s56",
+   "page": 5,
+   "start": 1781,
+   "end": 1815,
+   "chars": 34,
+   "text": "all appropriate taxes will apply. "
+  },
+  {
+   "id": "p5-s57",
+   "page": 5,
+   "start": 1815,
+   "end": 1864,
+   "chars": 49,
+   "text": "All applied taxes must be listed\nas a line item.\n"
+  },
+  {
+   "id": "p5-s58",
+   "page": 5,
+   "start": 1864,
+   "end": 1971,
+   "chars": 107,
+   "text": "Please include any discounts provided to CAPK due to its 501(c)(3) status including any in-kind\ndonations.\n"
+  },
+  {
+   "id": "p5-s59",
+   "page": 5,
+   "start": 1972,
+   "end": 2032,
+   "chars": 60,
+   "text": "Community Action Partnership of Kern\nRFP IS 2025-001\n\nPage 5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "F.\n"
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 4,
+   "end": 7,
+   "chars": 3,
+   "text": "G.\n"
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 7,
+   "end": 10,
+   "chars": 3,
+   "text": "H.\n"
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 10,
+   "end": 13,
+   "chars": 3,
+   "text": "I.\n"
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 14,
+   "end": 160,
+   "chars": 146,
+   "text": "Conflict of Interest: Provide a statement of any potential conflicts Vendor and/or key staff may\nhave regarding providing these services to CAPK. "
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 160,
+   "end": 313,
+   "chars": 153,
+   "text": "The statement should not only include actual\nconflicts, but also any working relationships that may be perceived by disinterested parties as a\nconflict. "
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 313,
+   "end": 394,
+   "chars": 81,
+   "text": "If no potential conflicts of interest are identified, so state in your proposal.\n"
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 394,
+   "end": 478,
+   "chars": 84,
+   "text": "Vendor shall have read and shall be aware of the provisions of Section 1090 et seq. "
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 478,
+   "end": 504,
+   "chars": 26,
+   "text": "and Section\n87100 et seq. "
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 504,
+   "end": 594,
+   "chars": 90,
+   "text": "of the Government Code relating to conflict of interest of public officers and\nemployees. "
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 594,
+   "end": 763,
+   "chars": 169,
+   "text": "No officer or employee of CAPK or member of its governing body shall have any\npecuniary interest, direct or indirect, in the resulting Contract or the proceeds thereof.\n"
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 763,
+   "end": 801,
+   "chars": 38,
+   "text": "Vendor Information Sheet: Appendix A.\n"
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 801,
+   "end": 818,
+   "chars": 17,
+   "text": "W-9: Appendix B.\n"
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 818,
+   "end": 863,
+   "chars": 45,
+   "text": "Additional Terms and Conditions: Appendix C.\n"
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 864,
+   "end": 868,
+   "chars": 4,
+   "text": "IV. "
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 868,
+   "end": 891,
+   "chars": 23,
+   "text": "VENDOR REQUIREMENTS\nA. "
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 891,
+   "end": 1159,
+   "chars": 268,
+   "text": "All responsive proposals shall be reviewed and evaluated by CAPK to determine which proposal\n\nbest meets CAPK’s needs for this project by demonstrating the competency and professional\nqualifications necessary for the satisfactory performance of the required services.\n"
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 1160,
+   "end": 1163,
+   "chars": 3,
+   "text": "V. "
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 1163,
+   "end": 1193,
+   "chars": 30,
+   "text": "PROPOSAL SUBMITTAL PROCESS\nA.\n"
+  },
+  {
+   "id": "p6-s19",
+   "page": 6,
+   "start": 1194,
+   "end": 1197,
+   "chars": 3,
+   "text": "B.\n"
+  },
+  {
+   "id": "p6-s20",
+   "page": 6,
+   "start": 1198,
+   "end": 1432,
+   "chars": 234,
+   "text": "The submission of a proposal shall be an indication that the Vendor has investigated and\nsatisfied itself as to the conditions to be encountered, the character, quality and scope of work\nto be performed, and the requirements of CAPK.\n"
+  },
+  {
+   "id": "p6-s21",
+   "page": 6,
+   "start": 1432,
+   "end": 1708,
+   "chars": 276,
+   "text": "All proposals received by CAPK will be considered a \"Public Record\" as defined in Section 6252 of\nthe California Government code and shall be open to public inspection, except to the extent the\nVendor designates trade secrets or other proprietary material to be confidential. "
+  },
+  {
+   "id": "p6-s22",
+   "page": 6,
+   "start": 1708,
+   "end": 1867,
+   "chars": 159,
+   "text": "Any\ndocumentation which the Vendor believes to be a trade secret must be provided to CAPK in a\nseparate envelope and must be clearly marked as a trade secret. "
+  },
+  {
+   "id": "p6-s23",
+   "page": 6,
+   "start": 1867,
+   "end": 1954,
+   "chars": 87,
+   "text": "CAPK will endeavor to restrict\ndistribution of material and analysis of the proposals. "
+  },
+  {
+   "id": "p6-s24",
+   "page": 6,
+   "start": 1954,
+   "end": 2136,
+   "chars": 182,
+   "text": "Vendors are cautioned that materials\ndesignated as trade secrets may nevertheless be subject to disclosure and CAPK shall in no way be\nliable or responsible for any such disclosure. "
+  },
+  {
+   "id": "p6-s25",
+   "page": 6,
+   "start": 2136,
+   "end": 2297,
+   "chars": 161,
+   "text": "Vendors are advised that CAPK does not wish to\nreceive material designated as trade secrets and requests that Vendors not supply trade secrets\nunless necessary. "
+  },
+  {
+   "id": "p6-s26",
+   "page": 6,
+   "start": 2297,
+   "end": 2473,
+   "chars": 176,
+   "text": "The Vendor's qualification package, and any other supporting materials\nsubmitted to CAPK in response to the request, will not be returned and will become the property of\nCAPK.\n"
+  },
+  {
+   "id": "p6-s27",
+   "page": 6,
+   "start": 2474,
+   "end": 2478,
+   "chars": 4,
+   "text": "VI. "
+  },
+  {
+   "id": "p6-s28",
+   "page": 6,
+   "start": 2478,
+   "end": 2643,
+   "chars": 165,
+   "text": "SELECTION PROCESS AND CRITERIA\nThis is a NEGOTIATED procurement and as such, award will not necessarily be made to the Vendor\nsubmitting the lowest priced proposal. "
+  },
+  {
+   "id": "p6-s29",
+   "page": 6,
+   "start": 2643,
+   "end": 2833,
+   "chars": 190,
+   "text": "Award will be made to the Vendor submitting the best\nresponsive proposal satisfying CAPK’s requirements, as determined by CAPK, including consideration\nof price and other indicated factors.\n"
+  },
+  {
+   "id": "p6-s30",
+   "page": 6,
+   "start": 2834,
+   "end": 2919,
+   "chars": 85,
+   "text": "Nonresponsive Proposals\n\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 6"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 189,
+   "chars": 189,
+   "text": "Proposals may be judged nonresponsive and removed from further consideration if any of the\nfollowing occur:\n•\n\nThe proposal is not received timely in accordance with the terms of this RFP.\n"
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 190,
+   "end": 244,
+   "chars": 54,
+   "text": "•\n\nThe proposal does not follow the specified format.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 245,
+   "end": 322,
+   "chars": 77,
+   "text": "•\n\nThe proposal does not include Appendix C, signed on behalf of the Vendor.\n"
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 323,
+   "end": 426,
+   "chars": 103,
+   "text": "Proposal Evaluation\nEvaluation of each proposal will be scored on the factors identified in Section B. "
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 426,
+   "end": 433,
+   "chars": 7,
+   "text": "below. "
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 433,
+   "end": 588,
+   "chars": 155,
+   "text": "In\ncompliance with 2 CFR Part 200.319 – Competition, no geographic preferences will be given in the\nevaluation of this proposal, since the section states: "
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 588,
+   "end": 796,
+   "chars": 208,
+   "text": "“The Non-Federal entity must conduct\nprocurements in a manner that prohibits the use of statutorily or administratively imposed state or\nlocal geographical preferences in the evaluation of bids or proposals, "
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 796,
+   "end": 1105,
+   "chars": 309,
+   "text": "except in those cases where\napplicable Federal statutes expressly mandate or encourage geographic preference.” The selection\nprocess is designed to ensure that the Vendor’s services are engaged on the basis of\ndemonstrated competence and qualifications for the type of services to be performed and at fair\nand"
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 1105,
+   "end": 1134,
+   "chars": 29,
+   "text": " reasonable prices for CAPK.\n"
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 1134,
+   "end": 1137,
+   "chars": 3,
+   "text": "A.\n"
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 1137,
+   "end": 1140,
+   "chars": 3,
+   "text": "B.\n"
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 1141,
+   "end": 1296,
+   "chars": 155,
+   "text": "All proposals received by the specified deadline will be reviewed by CAPK for content, fees, related\nexperience and professional qualifications of Vendor.\n"
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 1296,
+   "end": 1432,
+   "chars": 136,
+   "text": "The evaluation and selection of the successful Vendor shall be based upon the factors listed below\nwith corresponding point evaluation. "
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 1432,
+   "end": 1464,
+   "chars": 32,
+   "text": "Total points available are 100.\n"
+  },
+  {
+   "id": "p7-s14",
+   "page": 7,
+   "start": 1464,
+   "end": 1536,
+   "chars": 72,
+   "text": "Evaluation of each proposal will be scored on the following factors:\n1.\n"
+  },
+  {
+   "id": "p7-s15",
+   "page": 7,
+   "start": 1537,
+   "end": 1669,
+   "chars": 132,
+   "text": "Relevant Experience\n• Demonstrated success in similar projects (application\ndevelopment, AI, security, Microsoft Fabric migration).\n"
+  },
+  {
+   "id": "p7-s16",
+   "page": 7,
+   "start": 1669,
+   "end": 1723,
+   "chars": 54,
+   "text": "• References from nonprofit or public sector clients.\n"
+  },
+  {
+   "id": "p7-s17",
+   "page": 7,
+   "start": 1724,
+   "end": 1740,
+   "chars": 16,
+   "text": "Points = 20\n\n2.\n"
+  },
+  {
+   "id": "p7-s18",
+   "page": 7,
+   "start": 1741,
+   "end": 1810,
+   "chars": 69,
+   "text": "Technical Expertise\n• Certifications (Microsoft, AI, cybersecurity).\n"
+  },
+  {
+   "id": "p7-s19",
+   "page": 7,
+   "start": 1810,
+   "end": 1874,
+   "chars": 64,
+   "text": "• Depth of knowledge in Microsoft ecosystem and AI integration.\n"
+  },
+  {
+   "id": "p7-s20",
+   "page": 7,
+   "start": 1875,
+   "end": 1891,
+   "chars": 16,
+   "text": "Points = 20\n\n3.\n"
+  },
+  {
+   "id": "p7-s21",
+   "page": 7,
+   "start": 1892,
+   "end": 1952,
+   "chars": 60,
+   "text": "Proposed Methodology\n• Clarity and feasibility of approach.\n"
+  },
+  {
+   "id": "p7-s22",
+   "page": 7,
+   "start": 1952,
+   "end": 1982,
+   "chars": 30,
+   "text": "• Risk mitigation strategies.\n"
+  },
+  {
+   "id": "p7-s23",
+   "page": 7,
+   "start": 1982,
+   "end": 2041,
+   "chars": 59,
+   "text": "• Alignment with CAPK's Data governance and AI Use Policy.\n"
+  },
+  {
+   "id": "p7-s24",
+   "page": 7,
+   "start": 2042,
+   "end": 2058,
+   "chars": 16,
+   "text": "Points = 20\n\n4.\n"
+  },
+  {
+   "id": "p7-s25",
+   "page": 7,
+   "start": 2059,
+   "end": 2116,
+   "chars": 57,
+   "text": "Project Management\n• Defines roles and responsibilities.\n"
+  },
+  {
+   "id": "p7-s26",
+   "page": 7,
+   "start": 2116,
+   "end": 2160,
+   "chars": 44,
+   "text": "• Communication plan and reporting cadence.\n"
+  },
+  {
+   "id": "p7-s27",
+   "page": 7,
+   "start": 2160,
+   "end": 2189,
+   "chars": 29,
+   "text": "• Ability to meet timelines.\n"
+  },
+  {
+   "id": "p7-s28",
+   "page": 7,
+   "start": 2190,
+   "end": 2206,
+   "chars": 16,
+   "text": "Points = 10\n\n5.\n"
+  },
+  {
+   "id": "p7-s29",
+   "page": 7,
+   "start": 2207,
+   "end": 2244,
+   "chars": 37,
+   "text": "Cost Proposal\n• Competitive pricing.\n"
+  },
+  {
+   "id": "p7-s30",
+   "page": 7,
+   "start": 2244,
+   "end": 2278,
+   "chars": 34,
+   "text": "• Transparency of cost breakdown.\n"
+  },
+  {
+   "id": "p7-s31",
+   "page": 7,
+   "start": 2278,
+   "end": 2308,
+   "chars": 30,
+   "text": "• Value for services offered.\n"
+  },
+  {
+   "id": "p7-s32",
+   "page": 7,
+   "start": 2309,
+   "end": 2325,
+   "chars": 16,
+   "text": "Points = 15\n\n6.\n"
+  },
+  {
+   "id": "p7-s33",
+   "page": 7,
+   "start": 2326,
+   "end": 2388,
+   "chars": 62,
+   "text": "Compliance & Security\n• Adherence to CAPK security standards.\n"
+  },
+  {
+   "id": "p7-s34",
+   "page": 7,
+   "start": 2389,
+   "end": 2462,
+   "chars": 73,
+   "text": "Points = 10\n\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 7"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 43,
+   "chars": 43,
+   "text": "•\n•\n\nData privacy and compliance measures.\n"
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 43,
+   "end": 74,
+   "chars": 31,
+   "text": "AI ethics and bias mitigation.\n"
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 75,
+   "end": 78,
+   "chars": 3,
+   "text": "7.\n"
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 79,
+   "end": 392,
+   "chars": 313,
+   "text": "Affirmative Consideration of Minority, Small Business, Women Owned,\nVeteran Owned, Local Business and Labor Surplus Areas\n\n•\n\nConsideration will be given to dividing total requirements, when\neconomically feasible, into smaller tasks or quantities to permit maximum\nparticipation by small and minority businesses, "
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 392,
+   "end": 496,
+   "chars": 104,
+   "text": "women’s business\nenterprises, veteran-owned businesses, local businesses, and labor surplus\narea firms.\n"
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 496,
+   "end": 531,
+   "chars": 35,
+   "text": "Total\n\nPoints = 5\n\nPoints =100\n\nC. "
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 531,
+   "end": 657,
+   "chars": 126,
+   "text": "CAPK may, at its discretion, request presentations by or meetings with any or all Vendors to clarify\n\nthe Vendors’ proposals.\n"
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 657,
+   "end": 762,
+   "chars": 105,
+   "text": "However, CAPK reserves the right to make an award without further discussion of the proposals\nsubmitted. "
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 762,
+   "end": 915,
+   "chars": 153,
+   "text": "Therefore, proposals should be submitted initially on the most favorable terms, from\nboth technical and price standpoints, which the Vendor can propose.\n"
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 915,
+   "end": 1055,
+   "chars": 140,
+   "text": "CAPK contemplates award of the Contract to the responsible Vendor with the highest total points\nawarded by CAPK’s proposal evaluation team.\n"
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1055,
+   "end": 1058,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1058,
+   "end": 1166,
+   "chars": 108,
+   "text": "Upon final selection, the Contract will be awarded for an initial term of 1-year with the option\nto extend. "
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 1166,
+   "end": 1216,
+   "chars": 50,
+   "text": "Contract may be awarded to multiple participants.\n"
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 1217,
+   "end": 1222,
+   "chars": 5,
+   "text": "VII. "
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 1222,
+   "end": 1245,
+   "chars": 23,
+   "text": "CONDITIONS TO AWARD\nA.\n"
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 1245,
+   "end": 1248,
+   "chars": 3,
+   "text": "B.\n"
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 1249,
+   "end": 1363,
+   "chars": 114,
+   "text": "CAPK reserves the right to delay the selection process, withdraw and reissue the RFP, or cancel\nthis procurement.\n"
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 1363,
+   "end": 1470,
+   "chars": 107,
+   "text": "This solicitation does not commit CAPK to pay any costs in the preparation or presentation of a\nsubmittal.\n"
+  },
+  {
+   "id": "p8-s18",
+   "page": 8,
+   "start": 1471,
+   "end": 1477,
+   "chars": 6,
+   "text": "VIII. "
+  },
+  {
+   "id": "p8-s19",
+   "page": 8,
+   "start": 1477,
+   "end": 1589,
+   "chars": 112,
+   "text": "TIMELINE\nStart time to begin fulfilling the requirements of the proposal shall be after the Contract is signed.\n"
+  },
+  {
+   "id": "p8-s20",
+   "page": 8,
+   "start": 1589,
+   "end": 1595,
+   "chars": 6,
+   "text": "VIII. "
+  },
+  {
+   "id": "p8-s21",
+   "page": 8,
+   "start": 1595,
+   "end": 1800,
+   "chars": 205,
+   "text": "PROHIBITED ACTIVITY\nVendors or their agents shall not make any personal contacts with any member of CAPK's Board of\nDirectors or program personnel prior to selection and award of a Contract for this work.\n"
+  },
+  {
+   "id": "p8-s22",
+   "page": 8,
+   "start": 1801,
+   "end": 1905,
+   "chars": 104,
+   "text": "REMAINDER OF PAGE LEFT BLANK INTENTIONALLY\n\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 8"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 72,
+   "chars": 72,
+   "text": "APPENDIX A\n\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 9"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 73,
+   "chars": 73,
+   "text": "APPENDIX B\n\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 10"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 84,
+   "chars": 84,
+   "text": "APPENDIX C\n\nCommunity Action Partnership of Kern\nAdditional Terms and Conditions\n1. "
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 84,
+   "end": 91,
+   "chars": 7,
+   "text": "TAXES. "
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 91,
+   "end": 278,
+   "chars": 187,
+   "text": "The Vendor is solely responsible to pay all taxes and comply with all Federal, State, and local\nlaws, ordinances, rules, regulations and lawful orders bearing on the performance of work.\n"
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 278,
+   "end": 281,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 281,
+   "end": 311,
+   "chars": 30,
+   "text": "ASSIGNMENT OF SUBCONTRACTING. "
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 311,
+   "end": 503,
+   "chars": 192,
+   "text": "The Vendor may not assign or transfer the Contract, or any\ninterest therein or claim thereunder, or subcontract any portion of the work thereunder, without the\nprior written approval of CAPK. "
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 503,
+   "end": 643,
+   "chars": 140,
+   "text": "If CAPK consents to such assignment or transfer, the terms and\nconditions of the Contract shall be binding upon any assignee or transferee. "
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 643,
+   "end": 734,
+   "chars": 91,
+   "text": "Any transfer shall be\nconsidered an addendum to the Contract and must be included as such.\n"
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 734,
+   "end": 737,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 737,
+   "end": 774,
+   "chars": 37,
+   "text": "TERMINATION FOR CONVENIENCE OF CAPK. "
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 774,
+   "end": 920,
+   "chars": 146,
+   "text": "CAPK may terminate the Contract at any time by giving\nwritten notice to the Vendor of such termination and specifying the effective date thereof. "
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 920,
+   "end": 1063,
+   "chars": 143,
+   "text": "In that\nevent, all finished or unfinished documents and other materials as described herein, at the option of\nCAPK, shall become its property. "
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 1063,
+   "end": 1268,
+   "chars": 205,
+   "text": "If the Contract is terminated by CAPK as provided herein, the\nVendor shall be entitled to receive just and equitable compensation for any satisfactory work\ncompleted on such documents and other materials. "
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 1268,
+   "end": 1447,
+   "chars": 179,
+   "text": "The Vendor hereby expressly waives any and all\nclaims for damages or compensation arising under the Contract except as set forth in this section in\nthe event of such termination.\n"
+  },
+  {
+   "id": "p11-s14",
+   "page": 11,
+   "start": 1447,
+   "end": 1450,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p11-s15",
+   "page": 11,
+   "start": 1450,
+   "end": 1459,
+   "chars": 9,
+   "text": "CHANGES. "
+  },
+  {
+   "id": "p11-s16",
+   "page": 11,
+   "start": 1459,
+   "end": 1573,
+   "chars": 114,
+   "text": "CAPK may from time to time, require changes in the scope of the services of the Vendor\nto be performed hereunder. "
+  },
+  {
+   "id": "p11-s17",
+   "page": 11,
+   "start": 1573,
+   "end": 1808,
+   "chars": 235,
+   "text": "Such changes, including any increase or decrease in the amount of the\nVendor’s compensation which are mutually agreed upon by and between CAPK and the Vendor, shall\nbe effective when incorporated in written amendments to the Contract. "
+  },
+  {
+   "id": "p11-s18",
+   "page": 11,
+   "start": 1808,
+   "end": 1895,
+   "chars": 87,
+   "text": "Amendments shall be valid\nonly after approval by Vendor and CAPK’s Executive Director.\n"
+  },
+  {
+   "id": "p11-s19",
+   "page": 11,
+   "start": 1895,
+   "end": 1898,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p11-s20",
+   "page": 11,
+   "start": 1898,
+   "end": 1906,
+   "chars": 8,
+   "text": "CLAIMS. "
+  },
+  {
+   "id": "p11-s21",
+   "page": 11,
+   "start": 1906,
+   "end": 2091,
+   "chars": 185,
+   "text": "All claims for money due or to become due to the Vendor from CAPK under the Contract\nmay not be assigned to a bank, trust company, or other financial institution without CAPK approval.\n"
+  },
+  {
+   "id": "p11-s22",
+   "page": 11,
+   "start": 2091,
+   "end": 2193,
+   "chars": 102,
+   "text": "Notice or requests of any such assignment or transfer shall be furnished promptly in writing to CAPK.\n"
+  },
+  {
+   "id": "p11-s23",
+   "page": 11,
+   "start": 2193,
+   "end": 2196,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p11-s24",
+   "page": 11,
+   "start": 2196,
+   "end": 2204,
+   "chars": 8,
+   "text": "NOTICE. "
+  },
+  {
+   "id": "p11-s25",
+   "page": 11,
+   "start": 2204,
+   "end": 2424,
+   "chars": 220,
+   "text": "Any notice or notices required or permitted to be given pursuant to the Contract may be\npersonally served on the other party by the party giving such notice, or may be served by certified\nmail, return receipt requested.\n"
+  },
+  {
+   "id": "p11-s26",
+   "page": 11,
+   "start": 2424,
+   "end": 2427,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p11-s27",
+   "page": 11,
+   "start": 2427,
+   "end": 2447,
+   "chars": 20,
+   "text": "AFFIRMATIVE ACTION. "
+  },
+  {
+   "id": "p11-s28",
+   "page": 11,
+   "start": 2447,
+   "end": 2537,
+   "chars": 90,
+   "text": "The Vendor agrees to abide by all State and Federal Affirmative Action\npolicies and laws.\n"
+  },
+  {
+   "id": "p11-s29",
+   "page": 11,
+   "start": 2537,
+   "end": 2540,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p11-s30",
+   "page": 11,
+   "start": 2540,
+   "end": 2560,
+   "chars": 20,
+   "text": "DISPUTE RESOLUTION. "
+  },
+  {
+   "id": "p11-s31",
+   "page": 11,
+   "start": 2560,
+   "end": 2870,
+   "chars": 310,
+   "text": "Any dispute arising regarding the interpretation or implementation of the\nContract, including any claims for breach of the Contract, shall be resolved by submitting the claim\nfor arbitration to the American Arbitration Association in accordance with its rules and procedures\napplicable to commercial disputes. "
+  },
+  {
+   "id": "p11-s32",
+   "page": 11,
+   "start": 2870,
+   "end": 3080,
+   "chars": 210,
+   "text": "The location of any arbitration hearing shall be Bakersfield,\nCalifornia, and any enforcement of the arbitrator’s decision shall be brought in the Superior Court of\nthe County of Kern, Bakersfield, California.\n"
+  },
+  {
+   "id": "p11-s33",
+   "page": 11,
+   "start": 3080,
+   "end": 3083,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p11-s34",
+   "page": 11,
+   "start": 3083,
+   "end": 3113,
+   "chars": 30,
+   "text": "EQUAL EMPLOYMENT OPPORTUNITY. "
+  },
+  {
+   "id": "p11-s35",
+   "page": 11,
+   "start": 3113,
+   "end": 3359,
+   "chars": 246,
+   "text": "All hiring and other employment practices by the Vendor\nshall be non-discriminatory, based on merit and qualifications without regard to race, color, religion,\nnational origin, ancestry, disability, medical condition, marital status, age or sex.\n"
+  },
+  {
+   "id": "p11-s36",
+   "page": 11,
+   "start": 3359,
+   "end": 3363,
+   "chars": 4,
+   "text": "10. "
+  },
+  {
+   "id": "p11-s37",
+   "page": 11,
+   "start": 3363,
+   "end": 3393,
+   "chars": 30,
+   "text": "SBE/MBE/WBE POLICY STATEMENT. "
+  },
+  {
+   "id": "p11-s38",
+   "page": 11,
+   "start": 3393,
+   "end": 3674,
+   "chars": 281,
+   "text": "It is the policy of Community Action Partnership of Kern,\nconsistent with Federal, State and local laws, to promote and encourage the development,\nparticipation, and continued expansion of Small Business Enterprises, Minority Business Enterprises\nand Women’s Business Enterprises.\n"
+  },
+  {
+   "id": "p11-s39",
+   "page": 11,
+   "start": 3674,
+   "end": 3735,
+   "chars": 61,
+   "text": "Community Action Partnership of Kern\nRFP IS 2025-001\n\nPage 11"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "11. "
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 4,
+   "end": 19,
+   "chars": 15,
+   "text": "AMERICAN MADE. "
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 19,
+   "end": 115,
+   "chars": 96,
+   "text": "To the extent practicable, all equipment and products provided by Vendor will be\nAmerican made.\n"
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 115,
+   "end": 119,
+   "chars": 4,
+   "text": "12. "
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 119,
+   "end": 136,
+   "chars": 17,
+   "text": "CONFIDENTIALITY. "
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 136,
+   "end": 267,
+   "chars": 131,
+   "text": "The Vendor shall use his or her best efforts to keep confidential any information\nobtained during the performance of the Contract.\n"
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 267,
+   "end": 271,
+   "chars": 4,
+   "text": "13. "
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 271,
+   "end": 287,
+   "chars": 16,
+   "text": "RESPONSIBILITY. "
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 287,
+   "end": 461,
+   "chars": 174,
+   "text": "If Vendor is part of a corporation, the individual or individuals who sign the\nContract on behalf of the corporation are jointly responsible for performance of the Contract.\n"
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 461,
+   "end": 465,
+   "chars": 4,
+   "text": "14. "
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 465,
+   "end": 658,
+   "chars": 193,
+   "text": "PROTEST BY VENDOR: If the Vendor wishes to file a protest against CAPK for any action, the Vendor\nmust do so in writing with CAPK within 72 hours after the action to be protested has occurred. "
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 658,
+   "end": 703,
+   "chars": 45,
+   "text": "All\nprotests will be taken under advisement. "
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 703,
+   "end": 760,
+   "chars": 57,
+   "text": "Any protests received after that will not be recognized.\n"
+  },
+  {
+   "id": "p12-s13",
+   "page": 12,
+   "start": 760,
+   "end": 764,
+   "chars": 4,
+   "text": "15. "
+  },
+  {
+   "id": "p12-s14",
+   "page": 12,
+   "start": 764,
+   "end": 1067,
+   "chars": 303,
+   "text": "CONFLICT OF INTEREST: In accordance with California Public Contract Code 10410, no officer or\nemployee of CAPK shall engage in any employment, activity or enterprise from which the officer or\nemployee receives compensation or has a financial interest in the Contract, which may be in whole,\nor in part, "
+  },
+  {
+   "id": "p12-s15",
+   "page": 12,
+   "start": 1067,
+   "end": 1125,
+   "chars": 58,
+   "text": "sponsored or funded by a Local, State, or Federal agency. "
+  },
+  {
+   "id": "p12-s16",
+   "page": 12,
+   "start": 1125,
+   "end": 1250,
+   "chars": 125,
+   "text": "Also, no relative of an employee\nof CAPK may enter into or bid on an Contract while said employee is still employed by CAPK. "
+  },
+  {
+   "id": "p12-s17",
+   "page": 12,
+   "start": 1250,
+   "end": 1427,
+   "chars": 177,
+   "text": "No\nrelative of an employee of CAPK may bid on an Contract until 12 months after the date said\nemployee of CAPK has left employment of CAPK, either voluntarily or involuntarily. "
+  },
+  {
+   "id": "p12-s18",
+   "page": 12,
+   "start": 1427,
+   "end": 1652,
+   "chars": 225,
+   "text": "It is contrary to\nCAPK policy for any CAPK employee to personally solicit, demand or receive any gratuity of any kind\nfrom a Vendor in connection with any decision affecting a CAPK purchase or Contract for Goods or\nServices. "
+  },
+  {
+   "id": "p12-s19",
+   "page": 12,
+   "start": 1652,
+   "end": 1788,
+   "chars": 136,
+   "text": "Thus, if such a case were to occur, the Vendor may file a protest with CAPK as specified in\nthe section titled “Protest by Vendor.”\n16. "
+  },
+  {
+   "id": "p12-s20",
+   "page": 12,
+   "start": 1788,
+   "end": 2009,
+   "chars": 221,
+   "text": "DEBARMENT AND SUSPENSION CERTIFICATION: Vendor, under penalty of perjury, certified that,\nexcept as noted below, he/she or any person associated therewith in the capacity of owner, partner,\ndirector, officer, manager:\na. "
+  },
+  {
+   "id": "p12-s21",
+   "page": 12,
+   "start": 2009,
+   "end": 2129,
+   "chars": 120,
+   "text": "Is not currently under suspension, debarment, voluntary exclusion, or determination of\ninability by any federal agency.\n"
+  },
+  {
+   "id": "p12-s22",
+   "page": 12,
+   "start": 2129,
+   "end": 2132,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p12-s23",
+   "page": 12,
+   "start": 2132,
+   "end": 2267,
+   "chars": 135,
+   "text": "Has not been suspended, debarred, voluntarily excluded or determined ineligible by any\nfederal agency within the past three (3) years.\n"
+  },
+  {
+   "id": "p12-s24",
+   "page": 12,
+   "start": 2267,
+   "end": 2270,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p12-s25",
+   "page": 12,
+   "start": 2270,
+   "end": 2314,
+   "chars": 44,
+   "text": "Does not have a proposed debarment pending; "
+  },
+  {
+   "id": "p12-s26",
+   "page": 12,
+   "start": 2314,
+   "end": 2321,
+   "chars": 7,
+   "text": "and\nd. "
+  },
+  {
+   "id": "p12-s27",
+   "page": 12,
+   "start": 2321,
+   "end": 2522,
+   "chars": 201,
+   "text": "Has not been indicted, convicted, or had a civil judgment rendered against it by a court of\ncompetent jurisdiction in any matter involving fraud or official misconduct within the past\nthree (3) years.\n"
+  },
+  {
+   "id": "p12-s28",
+   "page": 12,
+   "start": 2522,
+   "end": 2744,
+   "chars": 222,
+   "text": "If there are any exceptions to the Certifications above, insert the exceptions in the following\nspace:\nExceptions will not necessarily result in denial of award but will be considered in\ndetermining Vendor responsibility. "
+  },
+  {
+   "id": "p12-s29",
+   "page": 12,
+   "start": 2744,
+   "end": 2850,
+   "chars": 106,
+   "text": "For any exception noted above, indicate below to whom\nit applies, initiating agency, and dates of action.\n"
+  },
+  {
+   "id": "p12-s30",
+   "page": 12,
+   "start": 2850,
+   "end": 2948,
+   "chars": 98,
+   "text": "Note: Providing false information may result in criminal prosecution or administrative\nsanctions.\n"
+  },
+  {
+   "id": "p12-s31",
+   "page": 12,
+   "start": 2948,
+   "end": 2952,
+   "chars": 4,
+   "text": "17. "
+  },
+  {
+   "id": "p12-s32",
+   "page": 12,
+   "start": 2952,
+   "end": 3177,
+   "chars": 225,
+   "text": "WORKER'S COMPENSATION: Labor Code Section 3700 provides:\n“Every employer except the State and all political subdivisions or institutions thereof, shall secure the\npayment of compensation in one or more of the following ways:\n"
+  },
+  {
+   "id": "p12-s33",
+   "page": 12,
+   "start": 3177,
+   "end": 3343,
+   "chars": 166,
+   "text": "\"(a) By being insured against liability to pay compensation in one or to more than one of the insurers\nduly authorized to write compensation insurance in this State.\n"
+  },
+  {
+   "id": "p12-s34",
+   "page": 12,
+   "start": 3343,
+   "end": 3510,
+   "chars": 167,
+   "text": "\"(b) By securing from the Director of Industrial Relations a certificate of consent to self-insure, which\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 12"
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 313,
+   "chars": 313,
+   "text": "may be given upon furnishing proof satisfactory to the Director of Industrial Relations of ability to\nself-insure and to pay any compensation that may become due to his employees.\"\nVendor is aware of the provisions of Section 3700 of the Labor Code which require every employer to\nbe insured against liability for"
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 313,
+   "end": 523,
+   "chars": 210,
+   "text": " Worker’s Compensation or to undertake self-insurance in accordance\nwith the provisions of that Code, and Vendor will comply with those provisions before commencing\nthe performance of the work of the Contract.\n"
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 523,
+   "end": 751,
+   "chars": 228,
+   "text": "(In accordance with Article 5 [commencing at Section 1860], Chapter 1, Part 7, Division 2 of the Labor\nCode, this certificate must be signed and filed with the awarding body prior to performing any work\nunder the Contract.)\n18. "
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 751,
+   "end": 907,
+   "chars": 156,
+   "text": "INSURANCE REQUIREMENTS: Vendor shall procure, furnish and maintain for the duration of the\nContract the following types and limits of insurance herein:\n\nf.\n"
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 908,
+   "end": 911,
+   "chars": 3,
+   "text": "a. "
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 911,
+   "end": 1160,
+   "chars": 249,
+   "text": "Automobile Liability Insurance, providing coverage on an occurrence basis for bodily\ninjury, including death, of one or more persons, property damage and personal injury,\nwith limits of not less than One Million Dollars ($1,000,000) per occurrence; "
+  },
+  {
+   "id": "p13-s6",
+   "page": 13,
+   "start": 1160,
+   "end": 1185,
+   "chars": 25,
+   "text": "and the\npolicy shall:\nb. "
+  },
+  {
+   "id": "p13-s7",
+   "page": 13,
+   "start": 1185,
+   "end": 1240,
+   "chars": 55,
+   "text": "Provide coverage for owned, non-owned and hired autos.\n"
+  },
+  {
+   "id": "p13-s8",
+   "page": 13,
+   "start": 1240,
+   "end": 1243,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p13-s9",
+   "page": 13,
+   "start": 1243,
+   "end": 1390,
+   "chars": 147,
+   "text": "Contain an additional insured endorsement in favor of Community Action Partnership of\nKern, its board, officers, agents, employees and volunteers.\n"
+  },
+  {
+   "id": "p13-s10",
+   "page": 13,
+   "start": 1390,
+   "end": 1393,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p13-s11",
+   "page": 13,
+   "start": 1393,
+   "end": 1690,
+   "chars": 297,
+   "text": "Broad Form Commercial General Liability Insurance, ISO form CG00 01 11 85 or 88\nproviding coverage on an occurrence basis for bodily injury, including death, of one or\nmore persons, property damage and personal injury, with limits of not less than One\nMillion Dollars ($1,000,000) per occurrence; "
+  },
+  {
+   "id": "p13-s12",
+   "page": 13,
+   "start": 1690,
+   "end": 1715,
+   "chars": 25,
+   "text": "and the policy shall:\ne. "
+  },
+  {
+   "id": "p13-s13",
+   "page": 13,
+   "start": 1715,
+   "end": 1785,
+   "chars": 70,
+   "text": "Provide Contractual Liability coverage for the terms of the Contract.\n"
+  },
+  {
+   "id": "p13-s14",
+   "page": 13,
+   "start": 1785,
+   "end": 1941,
+   "chars": 156,
+   "text": "Contain an additional insured endorsement in favor in favor of Community Action Partnership of\nKern, its board, officers, agents, employees and volunteers.\n"
+  },
+  {
+   "id": "p13-s15",
+   "page": 13,
+   "start": 1942,
+   "end": 1945,
+   "chars": 3,
+   "text": "g. "
+  },
+  {
+   "id": "p13-s16",
+   "page": 13,
+   "start": 1945,
+   "end": 2112,
+   "chars": 167,
+   "text": "Workers' compensation insurance with statutory limits and employer's liability insurance with limits\nof not less than One Million Dollars ($1,000,000) per occurrence; "
+  },
+  {
+   "id": "p13-s17",
+   "page": 13,
+   "start": 2112,
+   "end": 2282,
+   "chars": 170,
+   "text": "and the policy shall contain a waiver\nof subrogation endorsement in favor of Community Action Partnership of Kern, its board, officers,\nagents, employees and volunteers.\n"
+  },
+  {
+   "id": "p13-s18",
+   "page": 13,
+   "start": 2282,
+   "end": 2552,
+   "chars": 270,
+   "text": "All policies required of the Vendor shall be primary insurance as to Community Action Partnership of\nKern, its board, officers, agent’s employees and volunteers and any insurance or self-insurance\nmaintained by Community Action Partnership of Kern, its board, officers, "
+  },
+  {
+   "id": "p13-s19",
+   "page": 13,
+   "start": 2552,
+   "end": 2674,
+   "chars": 122,
+   "text": "agents employees and\ndesignated volunteers shall be in excess of the Vendor’s insurance and shall not contribute with it.\n"
+  },
+  {
+   "id": "p13-s20",
+   "page": 13,
+   "start": 2674,
+   "end": 2790,
+   "chars": 116,
+   "text": "Additional insured endorsement shall use ISO form CG20 10 11 85 (in no event with an edition date\nlater than 1990).\n"
+  },
+  {
+   "id": "p13-s21",
+   "page": 13,
+   "start": 2790,
+   "end": 2874,
+   "chars": 84,
+   "text": "Insurance is to be placed with insurers with a Best’s rating of no less than A:VII. "
+  },
+  {
+   "id": "p13-s22",
+   "page": 13,
+   "start": 2874,
+   "end": 3144,
+   "chars": 270,
+   "text": "Any deductibles, selfinsured retentions or insurance in lesser amounts, or lack of certain types of insurance otherwise\nrequired by the Contract, or insurance rated below Best’s A:VII, must be declared prior to execution\nof the Contract and approved by CAPK in writing.\n"
+  },
+  {
+   "id": "p13-s23",
+   "page": 13,
+   "start": 3144,
+   "end": 3334,
+   "chars": 190,
+   "text": "All policies shall contain an endorsement providing Community Action Partnership of Kern with thirty\n(30) days written notice of cancellation or material change in policy language or terms. "
+  },
+  {
+   "id": "p13-s24",
+   "page": 13,
+   "start": 3334,
+   "end": 3455,
+   "chars": 121,
+   "text": "All policies\nshall provide that there shall be continuing liability thereon, notwithstanding any recovery on any\npolicy.\n"
+  },
+  {
+   "id": "p13-s25",
+   "page": 13,
+   "start": 3455,
+   "end": 3593,
+   "chars": 138,
+   "text": "The insurance required hereunder shall be maintained until all work required to be performed by the\nContract is satisfactorily completed.\n"
+  },
+  {
+   "id": "p13-s26",
+   "page": 13,
+   "start": 3593,
+   "end": 3654,
+   "chars": 61,
+   "text": "Community Action Partnership of Kern\nRFP IS 2025-001\n\nPage 13"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 119,
+   "chars": 119,
+   "text": "Vendor shall furnish CAPK with a certificate of insurance and required endorsements evidencing the\ninsurance required. "
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 119,
+   "end": 303,
+   "chars": 184,
+   "text": "CAPK may withdraw its offer of an Contract or cancel the Contract if certificates\nof insurance and endorsements required have not been provided prior to the execution of the\nContract.\n"
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 304,
+   "end": 452,
+   "chars": 148,
+   "text": "Signature\n\nDate\n\nPrint Name\n\nCompany Name\n\nREMAINDER OF PAGE LEFT BLANK INTENTIONALLY\n\nCommunity Action Partnership of Kern\nRFP IS 2025-001\n\nPage 14"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 14
+ }
+}

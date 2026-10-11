@@ -7,16 +7,17 @@ verbatim citations. The point of the repository is not the brief. It is that eve
 brief traces to a span of the source document, and that the decision layer's probabilities are
 **calibrated and published at an operating point fixed in advance**.
 
-## Status: inputs frozen and labelled — pipeline not built
+## Status: span index built — extraction not started
 
-The repository currently contains the **frozen inputs, the ground truth and the conventions**, and
-no model-facing code. That ordering is the point — see
-[`adr/0003`](adr/0003-pre-register-the-operating-point.md):
+The repository contains the **frozen inputs, the ground truth, and the first pipeline stage**. That
+ordering is the point — see [`adr/0003`](adr/0003-pre-register-the-operating-point.md):
 
 1. the bidder profile is committed and hashed, ✅
 2. the decision threshold and headline metrics are pre-registered, ✅
 3. the ground-truth labels are committed, ✅
-4. *then* a model sees a fixture.
+4. `parse` builds a deterministic, citable span index per fixture, ✅
+   ([ADR 0004](adr/0004-citations-locate-inside-spans.md))
+5. `extract` → `decide` → `brief`, then the eval harness — **not built**.
 
 Recording a threshold after seeing results is not calibration, it is a fitted number.
 
@@ -26,11 +27,18 @@ What exists today:
 |---|---|
 | `bidder-profile.json` | The narrow profile every decision is made against. Frozen and hashed before labelling. |
 | `fixtures/` | Eleven public solicitation documents, with provenance, notice and a hash manifest. |
-| `fixtures/labels.json` | Ground truth — 4 bid, 7 no-bid — with the reason for each label. Held out from the model path entirely. |
-| `fixtures/PROVENANCE.md` | Issuer, source URL, page count, sha256, and what each fixture may be read as. |
+| `fixtures/labels.json` | Ground truth — 4 bid, 7 no-bid — with the reason for each label. Held out from the model path. |
+| `src/rfpbrief/spans.py` | The span index: extraction, normalisation, and the citation rule. The module everything downstream rests on. |
+| `results/spans/` | One index per fixture, plus [what the first spike established](results/spans/README.md). |
 | `adr/` | The decisions taken so far. |
 | `tools/verify-fixtures.sh` | `just verify-fixtures` — proves the fixtures are still the documents their issuers published. |
 | `tools/status.sh` | `just status` — what exists, and what explicitly does not. |
+
+```bash
+just                    # list the recipes
+just check              # fixture hashes, tests, index reproducibility, status
+just find "be on-site within four (4) hours"   # locate a quote: one span, or it fails
+```
 
 Run `just` for the recipe list; the task runner is [`just`](https://github.com/casey/just), not
 `make`.

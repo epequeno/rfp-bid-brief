@@ -1,0 +1,869 @@
+{
+ "schema": "span-index/1",
+ "fixture": "city-of-snohomish-it-strategic-plan-rfp.pdf",
+ "fixture_sha256": "3185dc70be05115a436e9bed5828e3e120a04e87c30b170e67469c0680f5314c",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "a9514d0f24d39590b978922391c273b91601365467ec5ddc81c16dad184b76b0",
+   "chars": 2265
+  },
+  {
+   "number": 2,
+   "sha256": "5bd0d2c44d878d339ec883cb5ddbd52623025fb4c2880abd5915f0866ff15b6f",
+   "chars": 1802
+  },
+  {
+   "number": 3,
+   "sha256": "578b19dc641eb566b546121f64010e2888fb750046845adb290669170c0e528a",
+   "chars": 2174
+  },
+  {
+   "number": 4,
+   "sha256": "406d5f07780c8344be2ebe7583e89216c3bb09122c3245e1da6ff3c927529428",
+   "chars": 2678
+  },
+  {
+   "number": 5,
+   "sha256": "162f4596cba6d763dc3e413c21691cc632594b22e24dcad4646dfa9052a305ce",
+   "chars": 2131
+  },
+  {
+   "number": 6,
+   "sha256": "f38c3bd9ea45f48a551e1595eb4acd361a0ca3a53b1372b7bf0acacfc3186249",
+   "chars": 2157
+  },
+  {
+   "number": 7,
+   "sha256": "8f4c9c85f0b00acaf9dee6831200592346d21fd74668da577de07c256d234998",
+   "chars": 592
+  }
+ ],
+ "span_count": 102,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 295,
+   "chars": 295,
+   "text": "REQUEST FOR PROPOSALS (RFP)\nRequest for Proposal Information:\n\nProposals Due: 4:00 p.m. on April 10, 2025\n\nRFP Title: Information Technology Strategic\nPlan\n\nProposals shall be submitted electronically to\nthe following email address:\n\nDate Issued: March 19, 2025\n\nleong@snohomishwa.gov\n\nContact: "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 295,
+   "end": 470,
+   "chars": 175,
+   "text": "leong@snohomishwa.gov\n\nINTRODUCTION\nThe City of Snohomish is soliciting proposals from qualified consultant firms to develop a Six-Year\nInformation Technology Strategic Plan. "
+  },
+  {
+   "id": "p1-s2",
+   "page": 1,
+   "start": 470,
+   "end": 639,
+   "chars": 169,
+   "text": "A copy of this Request for Proposal (RFP) and City’s\nProfessional Services Agreement may be obtained from City’s web site at\nhttps://snohomishwa.gov/105/Bids-RFPs-RFQs. "
+  },
+  {
+   "id": "p1-s3",
+   "page": 1,
+   "start": 639,
+   "end": 737,
+   "chars": 98,
+   "text": "The successful consultant(s) will be required to\nsign the City’s Professional Services Agreement. "
+  },
+  {
+   "id": "p1-s4",
+   "page": 1,
+   "start": 737,
+   "end": 831,
+   "chars": 94,
+   "text": "The City will not sign any company’s service\nagreement, contract, or other form of agreement.\n"
+  },
+  {
+   "id": "p1-s5",
+   "page": 1,
+   "start": 831,
+   "end": 991,
+   "chars": 160,
+   "text": "The City of Snohomish reserves the right to reject any and all proposals and to waive irregularities\nand informalities in the submittal and evaluation process. "
+  },
+  {
+   "id": "p1-s6",
+   "page": 1,
+   "start": 991,
+   "end": 1117,
+   "chars": 126,
+   "text": "This RFP does not obligate the City to\npay any costs incurred by respondents in the preparation and submission of a proposal.\n"
+  },
+  {
+   "id": "p1-s7",
+   "page": 1,
+   "start": 1117,
+   "end": 1226,
+   "chars": 109,
+   "text": "Furthermore, the RFP does not obligate the City to accept or contract for any expressed or implied\nservices.\n"
+  },
+  {
+   "id": "p1-s8",
+   "page": 1,
+   "start": 1226,
+   "end": 1518,
+   "chars": 292,
+   "text": "The City requires that no person shall, on the grounds of race, religion, color, national origin, sex,\nage, marital status, political affiliation, sexual orientation, or the presence of any sensory, mental,\nor physical disability be excluded from participation in, be denied the benefits of, "
+  },
+  {
+   "id": "p1-s9",
+   "page": 1,
+   "start": 1518,
+   "end": 1593,
+   "chars": 75,
+   "text": "or be otherwise\nsubjected to discrimination under any program or activity. "
+  },
+  {
+   "id": "p1-s10",
+   "page": 1,
+   "start": 1593,
+   "end": 1782,
+   "chars": 189,
+   "text": "The City of Snohomish further assures\nthat every effort will be made to ensure non-discrimination in all of its programs and activities,\nwhether those programs are federally funded or not.\n"
+  },
+  {
+   "id": "p1-s11",
+   "page": 1,
+   "start": 1782,
+   "end": 2001,
+   "chars": 219,
+   "text": "In addition to nondiscrimination compliance requirements, a Service Provider ultimately awarded a\ncontract shall comply with federal, state and local laws, statutes and ordinances relative to the\nexecution of the work. "
+  },
+  {
+   "id": "p1-s12",
+   "page": 1,
+   "start": 2001,
+   "end": 2104,
+   "chars": 103,
+   "text": "This requirement includes, but is not limited to, protection of public and\nemployee safety and health; "
+  },
+  {
+   "id": "p1-s13",
+   "page": 1,
+   "start": 2104,
+   "end": 2118,
+   "chars": 14,
+   "text": "disabilities; "
+  },
+  {
+   "id": "p1-s14",
+   "page": 1,
+   "start": 2118,
+   "end": 2144,
+   "chars": 26,
+   "text": "environmental protection; "
+  },
+  {
+   "id": "p1-s15",
+   "page": 1,
+   "start": 2144,
+   "end": 2175,
+   "chars": 31,
+   "text": "waste reduction and recycling;\n"
+  },
+  {
+   "id": "p1-s16",
+   "page": 1,
+   "start": 2175,
+   "end": 2212,
+   "chars": 37,
+   "text": "the protection of natural resources; "
+  },
+  {
+   "id": "p1-s17",
+   "page": 1,
+   "start": 2212,
+   "end": 2221,
+   "chars": 9,
+   "text": "permits; "
+  },
+  {
+   "id": "p1-s18",
+   "page": 1,
+   "start": 2221,
+   "end": 2227,
+   "chars": 6,
+   "text": "fees; "
+  },
+  {
+   "id": "p1-s19",
+   "page": 1,
+   "start": 2227,
+   "end": 2234,
+   "chars": 7,
+   "text": "taxes; "
+  },
+  {
+   "id": "p1-s20",
+   "page": 1,
+   "start": 2234,
+   "end": 2256,
+   "chars": 22,
+   "text": "and similar subjects.\n"
+  },
+  {
+   "id": "p1-s21",
+   "page": 1,
+   "start": 2257,
+   "end": 2265,
+   "chars": 8,
+   "text": "P age |1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 314,
+   "chars": 314,
+   "text": "Information Technology Strategic Plan RFP\nCity of Snohomish – Request for Proposal\n\nABOUT THE CITY OF SNOHOMISH\nThe IT Department supports and manages the city’s entire IT infrastructure from hardware to\nsoftware applications, LAN and WAN communications, telephony hardware and software, end\nuser desktop support, "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 314,
+   "end": 408,
+   "chars": 94,
+   "text": "other IT related equipment, and communications tools including City\nwebsite and social media.\n"
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 408,
+   "end": 468,
+   "chars": 60,
+   "text": "The IT Department supports around 100 systems and 60 users. "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 468,
+   "end": 614,
+   "chars": 146,
+   "text": "The IT Department currently\nsupports all IT related functions at the City except for the management of GIS software and Utilities\n(SCADA) system. "
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 614,
+   "end": 706,
+   "chars": 92,
+   "text": "The City’s expanding GIS service and one GIS staff member is under the\nPlanning Department. "
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 706,
+   "end": 893,
+   "chars": 187,
+   "text": "The City expects the selected consultant to incorporate all software and IT\nfunctions in their analysis, regardless of which department currently has oversight or primary\nresponsibility. "
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 893,
+   "end": 999,
+   "chars": 106,
+   "text": "The following table identifies the major systems:\nFunction\nFinancials\n\nSystem\nTyler Incode\n\nNotes\nVer 10; "
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 999,
+   "end": 1178,
+   "chars": 179,
+   "text": "hosted by manufacturer/vendor\n\nFinancials\n\nClearGov\n\nHosted by manufacturer/vendor\n\nHR\n\nNeoGov\n\nHosted by manufacturer/vendor\n\nPlanning /\nPermitting\nGIS\n\nTyler Energov\n\nVer 2023; "
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 1178,
+   "end": 1363,
+   "chars": 185,
+   "text": "hosted by manufacturer/vendor\n\nCity Clerk /\nRecords\nManagement\nCity Clerk /\nAgenda\nManagement\nPublic Works Utilities (SCADA)\nSystem\nPublic Works\n\nLaserfiche\n\nIn implementation process; "
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1363,
+   "end": 1654,
+   "chars": 291,
+   "text": "hosted by manufacturer/vendor\n\nGranicus\n\nHosted by manufacturer/vendor\n\nWonderware\n\nContractor for Support and Management\n\niWorq\n\nHosted by manufacturer/vendor\n\nPublic Works /\nCommunity\nEngagement\n(CESI)\nDesktop & Email\n\nTextMyGov\n\nHosted by manufacturer/vendor\n\nMicrosoft\n\nWindows 10 & 11, "
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 1654,
+   "end": 1802,
+   "chars": 148,
+   "text": "and Microsoft-365\n\nGIS Pro / GIS-Online\n\nCloud based\nAudian\nPhone System\nCampus Security Verkada Cameras\nCameras\n\nContractor – in progress\n\nP age |2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 155,
+   "chars": 155,
+   "text": "Information Technology Strategic Plan RFP\nCity of Snohomish – Request for Proposal\n\nAll desktops are running Microsoft operating system Windows 10 and 11. "
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 155,
+   "end": 267,
+   "chars": 112,
+   "text": "The IT Department is\nupgrading all systems to Windows 11 and planned to complete the upgrade by September 2025.\n"
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 267,
+   "end": 320,
+   "chars": 53,
+   "text": "The IT Department supports multiple City facilities. "
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 320,
+   "end": 391,
+   "chars": 71,
+   "text": "Most of the city facilities are connected via\nhigh-speed fiber-optics. "
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 391,
+   "end": 531,
+   "chars": 140,
+   "text": "As shown in the table above, most of the City’s current active applications\nare in the Cloud, there are only a few on-premise applications.\n"
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 531,
+   "end": 596,
+   "chars": 65,
+   "text": "Below is a list of current/near-term major projects at the City:\n"
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 596,
+   "end": 910,
+   "chars": 314,
+   "text": "\n\n\n\n\n\n\n\n\n\n\nIT Strategic Plan – All Departments\nSoftware Patch Management – IT\nIT Service Desktop Management – IT\nOracle Net Suite – Finance (replacing Tyler InCode)\nLaserfiche – City Clerk\nCivicplus Monsido – All Department\nAssets Management System – Finance/All Departments\nAdobe Acrobat Professional DC"
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 910,
+   "end": 1226,
+   "chars": 316,
+   "text": " Upgrade – IT\nMFA for local Windows login and privileged accounts – IT\nDesigning for construction of the new Public Safety & City Services Campus – All\nDepartments\n\nOBJECTIVE\nAssess, evaluate, and develop recommendations for a six-year strategic plan that incorporates the\nCity’s IT needs, including work, staffing, "
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1226,
+   "end": 1286,
+   "chars": 60,
+   "text": "and budget required to support:\n Existing IT capabilities, "
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 1286,
+   "end": 1600,
+   "chars": 314,
+   "text": "infrastructure and programs\n City’s comprehensive plan\n Council-approved goals and budgets\n New Civic Campus technology planning\n Stated and approved department objectives\n Ability to connect systems\n Ability to consolidate systems\n Increase technology in the field\n Evaluate IT staff FTE versus consultant"
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 1600,
+   "end": 1835,
+   "chars": 235,
+   "text": " services (staffing needs)\n Simplify IT processes\n Data center equipment requirements\n Cloud versus on premise servers\n Centralized versus decentralized decision making and procurement of all technology\nrelated hardware, software, "
+  },
+  {
+   "id": "p3-s11",
+   "page": 3,
+   "start": 1835,
+   "end": 2052,
+   "chars": 217,
+   "text": "and support services\n Analysis of existing software footprint and recommendations on procurement strategies for\ncost reduction\n Reduce paper use and storage\n GIS management\n Social media/website interaction (i.e. "
+  },
+  {
+   "id": "p3-s12",
+   "page": 3,
+   "start": 2052,
+   "end": 2174,
+   "chars": 122,
+   "text": "single input of information)\n Surveillance infrastructure\n IT responsibilities in relation to other departments\nP age |3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 315,
+   "chars": 315,
+   "text": "Information Technology Strategic Plan RFP\nCity of Snohomish – Request for Proposal\n\n\n\n\n\n\n\n\nHelp desk/support needs\nEngaged strategic management of IT solutions\nHardware and software replacement or upgrade schedules\nStrategic plan for integration and growth of systems and software applications\nCurrent records"
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 315,
+   "end": 567,
+   "chars": 252,
+   "text": " management/retention plan and policies/procedures for all software\napplications and IT operations\nManagement of legacy applications & systems, and transition of legacy application data to\na modern platform for better management and records retention.\n"
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 568,
+   "end": 663,
+   "chars": 95,
+   "text": "REQUESTED SERVICES\nServices include any tasks necessary to produce the requested deliverables. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 663,
+   "end": 867,
+   "chars": 204,
+   "text": "Specific areas of\ninterest include (but are not necessarily limited to) the following:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssessment of customer satisfaction, to include interviews with a wide range of City staff.\n"
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 867,
+   "end": 960,
+   "chars": 93,
+   "text": "Assessment of effective use of technology resources and staff access to technology\nservices.\n"
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 960,
+   "end": 1033,
+   "chars": 73,
+   "text": "Evaluation of current organizational structure and governance practices.\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 1033,
+   "end": 1092,
+   "chars": 59,
+   "text": "A capability/maturity assessment for processes and skills. "
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 1092,
+   "end": 1311,
+   "chars": 219,
+   "text": "This should include\nrecommendations for how to be more productive with the resources that we have and\nensure alignment of IT capabilities (people, skill sets, process, and technology) with the\nneeds of City operations.\n"
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 1311,
+   "end": 1604,
+   "chars": 293,
+   "text": "Evaluation of moving to Cloud based technologies, support for mobile computing options,\nuser-experience and usability strategies, storage and backup strategies, and skill levels\nrelated to the technologies needed now and needed over the next six years (infrastructure\nassessment and roadmap).\n"
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 1604,
+   "end": 1669,
+   "chars": 65,
+   "text": "Technology needs and services planning for the new Civic Campus.\n"
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 1669,
+   "end": 1754,
+   "chars": 85,
+   "text": "Assessment of the City’s current GIS program and opportunities for future expansion.\n"
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 1754,
+   "end": 1899,
+   "chars": 145,
+   "text": "Analysis of our current technology stack for network, storage, backup, database, desktop,\nmobile, reporting, data analytics, and communications.\n"
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 1899,
+   "end": 2041,
+   "chars": 142,
+   "text": "Identification of opportunities for significant improvements in IT operations and for new\nways that IT can add substantial value to the City.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 2041,
+   "end": 2082,
+   "chars": 41,
+   "text": "Assessment of IT security and protocols.\n"
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 2082,
+   "end": 2255,
+   "chars": 173,
+   "text": "Recommendations for management of legacy applications & systems, and transition of\nlegacy application data to a modern platform for better management and records retention.\n"
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 2256,
+   "end": 2401,
+   "chars": 145,
+   "text": "DELIVERABLES\nDeliverables will include (but may not be limited to):\n A six-year IT strategic plan with capital and operating funding estimates.\n"
+  },
+  {
+   "id": "p4-s16",
+   "page": 4,
+   "start": 2401,
+   "end": 2542,
+   "chars": 141,
+   "text": " A three-year tactical plan, with the 2026 plan aligned with the adopted budget and a 20272028 plan that includes associated funding needs.\n"
+  },
+  {
+   "id": "p4-s17",
+   "page": 4,
+   "start": 2542,
+   "end": 2678,
+   "chars": 136,
+   "text": " Strength, weaknesses, and risk analysis\n A list of opportunities for improvement\n Create, deploy, and analyze a user survey\nP age |4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 272,
+   "chars": 272,
+   "text": "Information Technology Strategic Plan RFP\nCity of Snohomish – Request for Proposal\n\n\n\n\n\n\n\nAn analysis of current workload of what work should be possible with the existing staff as\nwell as options, if any, for changes in staffing levels and/or organization structure.\n"
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 272,
+   "end": 517,
+   "chars": 245,
+   "text": "Recommendations and a high-level roadmap on high-level technology areas including\ncloud strategy and infrastructure as a service, data analytics, storage technology,\ndocument management and retention, and any other identified by the consultant.\n"
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 517,
+   "end": 608,
+   "chars": 91,
+   "text": "A final document suitable for posting on the Internet, including a Microsoft Word version.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 608,
+   "end": 685,
+   "chars": 77,
+   "text": "At least two presentations (one to IT Steering and one to the City Council).\n"
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 686,
+   "end": 853,
+   "chars": 167,
+   "text": "DESIRED QUALIFICATIONS\nWe are looking for a consultant (or team) that:\n Has significant experience with municipal technology strategic plans in similar-sized cities.\n"
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 853,
+   "end": 1056,
+   "chars": 203,
+   "text": " All IT personnel having direct access to confidential information shall have a Washington\nState and national fingerprint-based background check and completed the technical\nsecurity awareness training. "
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 1056,
+   "end": 1135,
+   "chars": 79,
+   "text": "A re-background (criminal history) check should be conducted\nevery five years.\n"
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 1135,
+   "end": 1257,
+   "chars": 122,
+   "text": " Has deep technical experience to create tactical plans and to cost projects at a detailed\nlevel in the following areas:\n"
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 1257,
+   "end": 1507,
+   "chars": 250,
+   "text": "o Project costing and organizational structure\no Security\no Civic campus and public facility technology designs\no GIS\no Commonly used municipal COTS application systems including supporting\ninterfaces between best-of-breed systems\no Storage, backup, "
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 1507,
+   "end": 1669,
+   "chars": 162,
+   "text": "and disaster recovery & continuity\n\nESTIMATED SCHEDULE\nThe City reserves the right to amend dates, and changes will be posted at\nwww.snohomishwa.gov/procurement.\n"
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 1669,
+   "end": 1767,
+   "chars": 98,
+   "text": "\n\n\n\n\n\n\nMarch 19, 2025\nMarch 27, 2025\nMarch 31, 2025\nApril 10, 2025\nWeek of April 21\nMay 20, "
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 1767,
+   "end": 2064,
+   "chars": 297,
+   "text": "2025\n\nRFP issued\n*All questions due by 4:00 p.m.\nResponses to questions received posted online\nProposal responses due by 4:00 p.m.\nConsultant interviews and selection\nCouncil approval of consultant PSA\n\n*All questions must be submitted electronically in email to leong@snohomishwa.gov by 4:00p.m.\n"
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 2064,
+   "end": 2083,
+   "chars": 19,
+   "text": "on March 27, 2025. "
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 2083,
+   "end": 2122,
+   "chars": 39,
+   "text": "LATE SUBMISSIONS WILL NOT BE ACCEPTED.\n"
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 2123,
+   "end": 2131,
+   "chars": 8,
+   "text": "P age |5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 150,
+   "chars": 150,
+   "text": "Information Technology Strategic Plan RFP\nCity of Snohomish – Request for Proposal\n\nSUBMITTAL REQUIREMENTS\nProposals must be provided electronically. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 150,
+   "end": 255,
+   "chars": 105,
+   "text": "Proposals must be clear, succinct, and not to exceed\n12 pages using an 11-point font and 1-inch margins. "
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 255,
+   "end": 572,
+   "chars": 317,
+   "text": "Proposal content must include the following:\n\n\n\n\n\n\n\n\n\nCover letter that clearly identifies:\no the City project being submitted for\no the person authorized to sign agreements on behalf of the consultant and their\ncontact information\no acceptance of the language in the Professional Services Agreement template, "
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 572,
+   "end": 703,
+   "chars": 131,
+   "text": "or\nany requested revisions\nProject Understanding\nProposed Scope of Services and Schedule\nPrice Proposal\nFive (5) Project Examples.\n"
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 703,
+   "end": 783,
+   "chars": 80,
+   "text": "o Include client name, scope, budget, completion date, and references for each.\n"
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 783,
+   "end": 934,
+   "chars": 151,
+   "text": "Key Project Staff Resumes\nResponses to Additional Questions\no Does your organization participate in a government contract for your consulting\nservice? "
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 934,
+   "end": 1004,
+   "chars": 70,
+   "text": "If ‘yes’, please provide the contract name(s) and contract number(s).\n"
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 1004,
+   "end": 1197,
+   "chars": 193,
+   "text": "o If your organization is a Washington State registered business, does your\norganization participate in a Washington State government contract for Information\nTechnology professional services? "
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 1197,
+   "end": 1261,
+   "chars": 64,
+   "text": "If ‘yes’, please provide the contract number and\ncontract name.\n"
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 1261,
+   "end": 1335,
+   "chars": 74,
+   "text": "o Has your organization worked on any projects for the City of Snohomish? "
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 1335,
+   "end": 1435,
+   "chars": 100,
+   "text": "If ‘yes’,\nplease provide the project name(s), timeline, and City staff who was the project\nmanager.\n"
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 1435,
+   "end": 1554,
+   "chars": 119,
+   "text": "o Do you have any potential conflicts of interest in working with the City of Snohomish\nthat staff should be aware of?\n"
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 1555,
+   "end": 1675,
+   "chars": 120,
+   "text": "In addition to the above requirements, the vendor must provide at least two example reports from\nprevious similar work. "
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 1675,
+   "end": 1780,
+   "chars": 105,
+   "text": "They can either be URLs provided or separate attachments, which will not\ncount toward the 12-page limit. "
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 1780,
+   "end": 1841,
+   "chars": 61,
+   "text": "Sensitive customer information may be redacted if necessary.\n"
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 1842,
+   "end": 1980,
+   "chars": 138,
+   "text": "SUBMISSION INSTRUCTIONS\nProposals must be submitted electronically in PDF format to leong@snohomishwa.gov by 4:00\np.m. on April 10, 2025. "
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 1980,
+   "end": 2019,
+   "chars": 39,
+   "text": "LATE SUBMISSIONS WILL NOT BE ACCEPTED. "
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 2019,
+   "end": 2079,
+   "chars": 60,
+   "text": "Only complete submittals\nwill be considered for evaluation. "
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 2079,
+   "end": 2148,
+   "chars": 69,
+   "text": "All proposals and attachments will become part of the public\nrecord.\n"
+  },
+  {
+   "id": "p6-s19",
+   "page": 6,
+   "start": 2149,
+   "end": 2157,
+   "chars": 8,
+   "text": "P age |6"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 191,
+   "chars": 191,
+   "text": "Information Technology Strategic Plan RFP\nCity of Snohomish – Request for Proposal\n\nSELECTION PROCESS\nThe City will evaluate the Proposals and conduct interviews with the selected finalists. "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 191,
+   "end": 372,
+   "chars": 181,
+   "text": "The final\nselection, if any, will be the consultant(s) which, in the opinion of the City, best meets the\nrequirements set forth in this RFP and is in the best interest of the City.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 372,
+   "end": 592,
+   "chars": 220,
+   "text": "Proposals will be evaluated based on:\n Company Background & References – 15%\n Relevant Experience & Qualifications – 30%\n Project Approach – 20%\n Budget & Value – 25%\n Quality, Clarity & Completeness – 10%\n\nP age |7"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 7
+ }
+}

@@ -19,6 +19,9 @@ this repository and are not licensed by the author of this repository.
 Two further points, recorded here because they are the kind of thing that is easy to leave
 unsaid:
 
+- **Derived artifacts inherit these rights.** The span indexes in `results/spans/` reproduce text
+  extracted from these documents, so they are covered by everything above rather than by this
+  repository's licence. The same applies to any later output that quotes a fixture.
 - **No vendor response or proposal material is included**, from any company, for any of these
   solicitations. Only documents issued *by* the buyers are present. A vendor's response does not
   become publishable by sitting next to a publishable solicitation.

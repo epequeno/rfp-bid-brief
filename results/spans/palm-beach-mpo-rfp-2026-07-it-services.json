@@ -1,0 +1,3585 @@
+{
+ "schema": "span-index/1",
+ "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+ "fixture_sha256": "ff7a200c37a8306d55d633cbfb26dfa5068c2771a55183a02b0b633b7ea5f302",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "778cfe88fe7baf3101e80c6cdb755a9a1cb930ff6e233ae3e65d7d531dfe5827",
+   "chars": 546
+  },
+  {
+   "number": 2,
+   "sha256": "a722da9c1dd1ad1c11afa0227101687355bb1547246cee7fff2e0cfed57680ab",
+   "chars": 4664
+  },
+  {
+   "number": 3,
+   "sha256": "41e3b327001a6dd8b24a6477ab50c220de98b928599f41bea95715f1b01fa004",
+   "chars": 2103
+  },
+  {
+   "number": 4,
+   "sha256": "c051e95354d38244b5278997104472411f2c68eb3ee7857b788ed55ee043c30a",
+   "chars": 1243
+  },
+  {
+   "number": 5,
+   "sha256": "af2f93ef8d2bf3024ced3af12624477a4c32e79740fb0664171b5a9207814e1a",
+   "chars": 2995
+  },
+  {
+   "number": 6,
+   "sha256": "23d90d43b7b4a41a30f92c70d35b8c23babf7d78a60a96948a7fbbbb81aa339c",
+   "chars": 1984
+  },
+  {
+   "number": 7,
+   "sha256": "45b959b157af3c4347a0f27e91de7a738d5e01fb7e7a6865093925d99fa5388f",
+   "chars": 3466
+  },
+  {
+   "number": 8,
+   "sha256": "324c2a78afb187808da51f2e8172b833638bafa250e6d2fd9b1c7da776d71644",
+   "chars": 3314
+  },
+  {
+   "number": 9,
+   "sha256": "c43506e5d09759390679715e13712d5364deec9f833626f628640db5d5b543a8",
+   "chars": 3354
+  },
+  {
+   "number": 10,
+   "sha256": "a2f0a31c342c59600450ffad50b02e8abeb0f5f494171c0a315f2cc05232391d",
+   "chars": 2857
+  },
+  {
+   "number": 11,
+   "sha256": "0d71636e31409db79414024ac73e6c760da15ea05b176d64ee90f92a6abc22cd",
+   "chars": 2025
+  },
+  {
+   "number": 12,
+   "sha256": "d42037998c8db67d1df0e09f8c252be528020b06cfa7b2d8043e10122bde0b74",
+   "chars": 3215
+  },
+  {
+   "number": 13,
+   "sha256": "8a1384daf4f12161d981c7b22053fa9fb6f8364b51571bc0a6b177ebb4f54ad6",
+   "chars": 2332
+  },
+  {
+   "number": 14,
+   "sha256": "eb7c4df97d002bcb8dd9a26249ca2b01aa674d063bdc7fc52a29205ec07e0d37",
+   "chars": 1889
+  },
+  {
+   "number": 15,
+   "sha256": "4f37be66d1de47eeeb3001969648e3b63f7a7193a1aa545c650ae6a2f3bcaff0",
+   "chars": 1740
+  },
+  {
+   "number": 16,
+   "sha256": "8398fed9565fd75f9ba758ff0b05dbd86f553e178c86b339b93068cb3e8e3021",
+   "chars": 2180
+  },
+  {
+   "number": 17,
+   "sha256": "6b79f51d5a55d779e60991be70bd0ea25804196764d0ce573fb401a3e9b046a5",
+   "chars": 2523
+  },
+  {
+   "number": 18,
+   "sha256": "19f25d919b14fc0ed749978dffa1123474b023e95ee10eb074342137e8ac4695",
+   "chars": 2502
+  },
+  {
+   "number": 19,
+   "sha256": "dabed21d355074cacec15ba0e0fce8f0ead055c0fa4223091a239d74a7bd84c1",
+   "chars": 1199
+  },
+  {
+   "number": 20,
+   "sha256": "77e811b1c8e7944323d725af89bc20653e460986e3ba6def2f85df1bb9c33c88",
+   "chars": 27
+  },
+  {
+   "number": 21,
+   "sha256": "c8498e4e1155aa96d81bdebe87487ec8a94334789885d1cee1611fe5fcba45d5",
+   "chars": 1979
+  },
+  {
+   "number": 22,
+   "sha256": "3acff9a4b680514b873bb610cb6f70c068bfde3351aca7f615899e13b9f41c8c",
+   "chars": 3261
+  },
+  {
+   "number": 23,
+   "sha256": "b1468ea6b642fe2dfd69a597be588ed5b458b3810cdaac5e8f1188535b0f94bd",
+   "chars": 1900
+  },
+  {
+   "number": 24,
+   "sha256": "3a9a3158a34ff4c625e2a7ed11b37bf17fd25fa5161f285521cf751dabc355ca",
+   "chars": 1360
+  },
+  {
+   "number": 25,
+   "sha256": "0bbefb7f9bbf2a226b402003040736e958c4353e4d98f7b62263917e4e702f9e",
+   "chars": 2435
+  },
+  {
+   "number": 26,
+   "sha256": "fd2b3c354d1d15ed42f4d4890feaa736575494924278afc0c09904c4a8591e32",
+   "chars": 578
+  },
+  {
+   "number": 27,
+   "sha256": "2ff8175f85284fdcb09c215db2de151826e65d2191614b01ad7bf8ffcd0574bf",
+   "chars": 910
+  }
+ ],
+ "span_count": 429,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 315,
+   "chars": 315,
+   "text": "REQUEST FOR PROPOSALS\nRFP NO. 2026-07\nThe Palm Beach Metropolitan Planning Organization (MPO)\nis seeking Proposals for:\n\nInformation Technology Services and Management\n\nIN ACCORDANCE WITH THE PROVISIONS OF ADA,\nTHIS DOCUMENT MAY BE REQUESTED IN AN ALTERNATE FORMAT\nCity of Boca Raton Council Member Yvette Drucker, "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 315,
+   "end": 546,
+   "chars": 231,
+   "text": "MPO Governing Board Chair\nValerie Neilson, Executive Director\nPalm Beach Metropolitan Planning Organization\n301 Datura Street\nWest Palm Beach, FL 33401\nDATE ISSUED: April 27, 2026\nCLOSING DATE AND TIME: May 19, 2026, 4:00 pm EST\n\n1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 150,
+   "chars": 150,
+   "text": "TABLE OF CONTENTS\n\nTABLE OF CONTENTS ................................................................................................................ "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 150,
+   "end": 285,
+   "chars": 135,
+   "text": "2\nIntroduction ....................................................................................................................... "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 285,
+   "end": 412,
+   "chars": 127,
+   "text": "3\n1.1\nIssuing office ......................................................................................................... "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 412,
+   "end": 533,
+   "chars": 121,
+   "text": "3\n1.2\nPurpose of the Project ........................................................................................... "
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 533,
+   "end": 656,
+   "chars": 123,
+   "text": "3\n1.3\nPeriod of Contract ................................................................................................. "
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 656,
+   "end": 780,
+   "chars": 124,
+   "text": "3\n1.4\nContact Person ...................................................................................................... "
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 780,
+   "end": 908,
+   "chars": 128,
+   "text": "3\n1.5\nTimetable ............................................................................................................... "
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 908,
+   "end": 1030,
+   "chars": 122,
+   "text": "4\n1.6\nEntering Proposals ................................................................................................ "
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 1030,
+   "end": 1140,
+   "chars": 110,
+   "text": "5\n1.7\nAdditional Information / Amendment(s) ................................................................. "
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1140,
+   "end": 1258,
+   "chars": 118,
+   "text": "5\nSECTION 2 – TERMS AND CONDITIONS .................................................................................. "
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 1258,
+   "end": 1486,
+   "chars": 228,
+   "text": "6\n2.1\n2.2\n2.3\n2.4\n2.5\n2.6\n2.7\n2.8\n2.9\n2.10\n2.11\n2.12\n2.13\n2.14\n2.15\n2.16\n2.17\n2.18\n2.19\n2.20\n2.21\n2.22\n2.23\n2.24\n\nProposal Guarantee .............................................................................................. "
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 1486,
+   "end": 1604,
+   "chars": 118,
+   "text": "6\nModified Proposals ................................................................................................ "
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 1604,
+   "end": 1719,
+   "chars": 115,
+   "text": "6\nWithdrawal of Proposals ........................................................................................ "
+  },
+  {
+   "id": "p2-s13",
+   "page": 2,
+   "start": 1719,
+   "end": 1824,
+   "chars": 105,
+   "text": "6\nLate Proposals, Late Modified Proposals .............................................................. "
+  },
+  {
+   "id": "p2-s14",
+   "page": 2,
+   "start": 1824,
+   "end": 1931,
+   "chars": 107,
+   "text": "6\nRFP Postponement / Cancellation ........................................................................ "
+  },
+  {
+   "id": "p2-s15",
+   "page": 2,
+   "start": 1931,
+   "end": 2040,
+   "chars": 109,
+   "text": "6\nCosts Incurred by Respondents ............................................................................ "
+  },
+  {
+   "id": "p2-s16",
+   "page": 2,
+   "start": 2040,
+   "end": 2150,
+   "chars": 110,
+   "text": "6\nProprietary / Confidential Information .................................................................... "
+  },
+  {
+   "id": "p2-s17",
+   "page": 2,
+   "start": 2150,
+   "end": 2272,
+   "chars": 122,
+   "text": "7\nNegotiations .......................................................................................................... "
+  },
+  {
+   "id": "p2-s18",
+   "page": 2,
+   "start": 2272,
+   "end": 2394,
+   "chars": 122,
+   "text": "7\nRight to Protest ...................................................................................................... "
+  },
+  {
+   "id": "p2-s19",
+   "page": 2,
+   "start": 2394,
+   "end": 2485,
+   "chars": 91,
+   "text": "7\nTitle VI, Equal Opportuntity Employment, and Nondiscrimination ......................... "
+  },
+  {
+   "id": "p2-s20",
+   "page": 2,
+   "start": 2485,
+   "end": 2494,
+   "chars": 9,
+   "text": "8\nRules; "
+  },
+  {
+   "id": "p2-s21",
+   "page": 2,
+   "start": 2494,
+   "end": 2507,
+   "chars": 13,
+   "text": "Regulations; "
+  },
+  {
+   "id": "p2-s22",
+   "page": 2,
+   "start": 2507,
+   "end": 2587,
+   "chars": 80,
+   "text": "Licensing Requirements ........................................................ "
+  },
+  {
+   "id": "p2-s23",
+   "page": 2,
+   "start": 2587,
+   "end": 2703,
+   "chars": 116,
+   "text": "8\nFederal Debarment ............................................................................................... "
+  },
+  {
+   "id": "p2-s24",
+   "page": 2,
+   "start": 2703,
+   "end": 2818,
+   "chars": 115,
+   "text": "8\nResponsive Proposals ........................................................................................... "
+  },
+  {
+   "id": "p2-s25",
+   "page": 2,
+   "start": 2818,
+   "end": 2934,
+   "chars": 116,
+   "text": "9\nExceptions to the RFP ........................................................................................... "
+  },
+  {
+   "id": "p2-s26",
+   "page": 2,
+   "start": 2934,
+   "end": 3046,
+   "chars": 112,
+   "text": "9\nMPO’s Exclusive Rights ...................................................................................... "
+  },
+  {
+   "id": "p2-s27",
+   "page": 2,
+   "start": 3046,
+   "end": 3164,
+   "chars": 118,
+   "text": "10\nSelection Process ................................................................................................ "
+  },
+  {
+   "id": "p2-s28",
+   "page": 2,
+   "start": 3164,
+   "end": 3283,
+   "chars": 119,
+   "text": "10\nEvaluation Criteria ............................................................................................... "
+  },
+  {
+   "id": "p2-s29",
+   "page": 2,
+   "start": 3283,
+   "end": 3401,
+   "chars": 118,
+   "text": "10\nAward of Contract ................................................................................................ "
+  },
+  {
+   "id": "p2-s30",
+   "page": 2,
+   "start": 3401,
+   "end": 3512,
+   "chars": 111,
+   "text": "11\nStandard Contract Provisions .............................................................................. "
+  },
+  {
+   "id": "p2-s31",
+   "page": 2,
+   "start": 3512,
+   "end": 3621,
+   "chars": 109,
+   "text": "11\nCommencement Of Work .................................................................................... "
+  },
+  {
+   "id": "p2-s32",
+   "page": 2,
+   "start": 3621,
+   "end": 3733,
+   "chars": 112,
+   "text": "13\nInsurance Requirements ..................................................................................... "
+  },
+  {
+   "id": "p2-s33",
+   "page": 2,
+   "start": 3733,
+   "end": 3846,
+   "chars": 113,
+   "text": "13\nScrutinized Companies ....................................................................................... "
+  },
+  {
+   "id": "p2-s34",
+   "page": 2,
+   "start": 3846,
+   "end": 3962,
+   "chars": 116,
+   "text": "14\nAuthorized Signature ........................................................................................... "
+  },
+  {
+   "id": "p2-s35",
+   "page": 2,
+   "start": 3962,
+   "end": 4063,
+   "chars": 101,
+   "text": "14\nOrganizational IT Environment Summary............................................................ "
+  },
+  {
+   "id": "p2-s36",
+   "page": 2,
+   "start": 4063,
+   "end": 4178,
+   "chars": 115,
+   "text": "15\n\nSECTION 3 - PROPOSAL REQUIREMENTS ............................................................................ "
+  },
+  {
+   "id": "p2-s37",
+   "page": 2,
+   "start": 4178,
+   "end": 4305,
+   "chars": 127,
+   "text": "16\n3.1\n3.2\n\nProposal Format .................................................................................................. "
+  },
+  {
+   "id": "p2-s38",
+   "page": 2,
+   "start": 4305,
+   "end": 4422,
+   "chars": 117,
+   "text": "16\nRequired Content ................................................................................................ "
+  },
+  {
+   "id": "p2-s39",
+   "page": 2,
+   "start": 4422,
+   "end": 4533,
+   "chars": 111,
+   "text": "16\n\nSECTION 4 – DOCUMENTS TO BE SUBMITTED .................................................................... "
+  },
+  {
+   "id": "p2-s40",
+   "page": 2,
+   "start": 4533,
+   "end": 4659,
+   "chars": 126,
+   "text": "18\nSECTION 5 – ATTACHMENTS .................................................................................................. "
+  },
+  {
+   "id": "p2-s41",
+   "page": 2,
+   "start": 4659,
+   "end": 4664,
+   "chars": 5,
+   "text": "20\n\n2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 165,
+   "chars": 165,
+   "text": "INTRODUCTION\n1.1\n\nISSUING OFFICE\n\nThis Request for Proposal (RFP) is issued by the Palm Beach Metropolitan Planning Organization\n(hereinafter referred to as “MPO”). "
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 165,
+   "end": 223,
+   "chars": 58,
+   "text": "The MPO is the sole point of contact concerning this RFP. "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 223,
+   "end": 332,
+   "chars": 109,
+   "text": "All\ncommunications regarding this RFP must be done through the Contact Person for the MPO (See\nSection 1.4). "
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 332,
+   "end": 638,
+   "chars": 306,
+   "text": "The procurement standards governing this RFP can be found on the MPO website\nat www.PalmBeachMPO.org/Business\nThe Palm Beach MPO is a federally mandated public agency that works with partners across\nPalm Beach County, Florida, and the United States to plan, prioritize, and fund the transportation\nsystem.\n"
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 638,
+   "end": 876,
+   "chars": 238,
+   "text": "1.2\n\nPURPOSE OF THE PROJECT\n\nThe MPO seeks to retain a qualified consultant team (hereinafter referred to as “Respondent”,\n“Consultant” or “Contractor”) to provide Information Technology Services and Management\nincluding on-site support.\n"
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 876,
+   "end": 965,
+   "chars": 89,
+   "text": "1.3\n\nPERIOD OF CONTRACT\n\nThe proposed effective date of this Contract is August 1, 2026. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 965,
+   "end": 1126,
+   "chars": 161,
+   "text": "The MPO anticipates the contract\nresulting from this solicitation will continue for a period of three (3) years from the effective date,\nexpiring July 30, 2029. "
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 1126,
+   "end": 1228,
+   "chars": 102,
+   "text": "Three (3) additional twelve (12) month renewal option(s) may be offered\nat the MPO’s sole discretion.\n"
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1228,
+   "end": 1400,
+   "chars": 172,
+   "text": "1.4\n\nCONTACT PERSON\n\nThe MPO Contact Person for this RFP is Jessica Lopez, Procurement and Contracts Coordinator,\n(561) 725-0821, e-mail address: Finance@PalmBeachMPO.org.\n"
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 1400,
+   "end": 1654,
+   "chars": 254,
+   "text": "Any questions, explanations, or other requests desired by Proposer(s) regarding this RFP must\nbe made in writing to the Contact Person via e-mail or U.S. Mail no later than the date specified\nand to the address listed in the RFP Timetable (Section 1.4). "
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 1654,
+   "end": 1745,
+   "chars": 91,
+   "text": "The request must contain the\nRespondent’s name, address, phone number, and e-mail address.\n"
+  },
+  {
+   "id": "p3-s11",
+   "page": 3,
+   "start": 1745,
+   "end": 1962,
+   "chars": 217,
+   "text": "Respondents are advised that from the date of release of this RFP until award of the contract, no\ncontact with MPO staff concerning this RFP is permitted, except as authorized by the Contact\nPerson designated herein.\n"
+  },
+  {
+   "id": "p3-s12",
+   "page": 3,
+   "start": 1962,
+   "end": 2056,
+   "chars": 94,
+   "text": "The MPO’s office hours are 8:00 a.m. to 5:00 p.m., Monday through Friday, excluding holidays.\n"
+  },
+  {
+   "id": "p3-s13",
+   "page": 3,
+   "start": 2057,
+   "end": 2101,
+   "chars": 44,
+   "text": "Remainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p3-s14",
+   "page": 3,
+   "start": 2102,
+   "end": 2103,
+   "chars": 1,
+   "text": "3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 104,
+   "chars": 104,
+   "text": "1.5\n\nTIMETABLE\n\nThe anticipated schedule and deadline for the RFP and Contract approval are as follows:\n"
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 104,
+   "end": 400,
+   "chars": 296,
+   "text": "Activity\n\nDate\n\nTime\n\nLocation\n\nRFP available for download\n\n4/27/2026\n\n4:00 p.m.\n\nwww.PalmBeachMPO.org/Business\nand\nwww.DemandStar.com\n\nQuestion submittal deadline\n\n5/7/2026\n\n4:00 p.m.\n\nSubmit via e-mail to\nfinance@PalmBeachMPO.org\n\nResponse to questions and RFP\namendments (if any) available\nfor"
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 400,
+   "end": 615,
+   "chars": 215,
+   "text": " download\n\n5/8/2026\n\n4:00 p.m.\n\nwww.PalmBeachMPO.org/Business\nand\nwww.DemandStar.com\n\nDeadline for receipt of\nproposals\n\n5/19/2026\n\n4:00 p.m.\n\nwww.DemandStar.com or\nPalm Beach MPO\n301 Datura Street\nWest Palm Beach, "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 615,
+   "end": 909,
+   "chars": 294,
+   "text": "FL 33401\n\nPublic Opening of Sealed\nProposals\n\n5/20/2026\n\n10:00 a.m.\n\nVirtual meeting via Zoom available at\nwww.PalmBeachMPO.org\n\nSelection Committee Meeting\n\n5/28/2026\n\n10:00 a.m.\n\nVirtual meeting via Zoom available at\nwww.PalmBeachMPO.org\n\nPosting of Short List\n(If applicable)\n\n6/2/2026\n\n4:00"
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 909,
+   "end": 1196,
+   "chars": 287,
+   "text": " pm\n\nwww.PalmBeachMPO.org/Business\nand\nwww.DemandStar.com\n\nOral Presentations\n(if necessary)\n\n6/5/2026\n\n2:00 pm\n\nVirtual meeting via Zoom available at\nwww.PalmBeachMPO.org\n\nNOTE: The MPO reserves the right to alter the above activities, places and/or times at the MPO’s\nsole discretion.\n"
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 1197,
+   "end": 1241,
+   "chars": 44,
+   "text": "Remainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 1242,
+   "end": 1243,
+   "chars": 1,
+   "text": "4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 87,
+   "chars": 87,
+   "text": "1.6\n\nENTERING PROPOSALS\n\nAll proposals must be submitted by 4:00 p.m. on May 19, 2026.\n"
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 87,
+   "end": 263,
+   "chars": 176,
+   "text": "The submission of a proposal by a Respondent will be considered by the MPO as constituting a\nlegal offer by the Respondent to perform the required services identified therein. "
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 263,
+   "end": 333,
+   "chars": 70,
+   "text": "Respondents\ncan choose one of the following options for submittal:\n1. "
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 333,
+   "end": 409,
+   "chars": 76,
+   "text": "Respondents may submit electronically via DemandStar at www.DemandStar.com. "
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 409,
+   "end": 528,
+   "chars": 119,
+   "text": "The\nProposal package, including all signed/authorized/notarized forms, can be uploaded through\nthe DemandStar website. "
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 528,
+   "end": 616,
+   "chars": 88,
+   "text": "The RFP will be available under the Palm Beach Metropolitan\nPlanning Organization name.\n"
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 616,
+   "end": 619,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 619,
+   "end": 663,
+   "chars": 44,
+   "text": "Respondents may submit Proposals in person. "
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 663,
+   "end": 694,
+   "chars": 31,
+   "text": "Please see instructions below.\n"
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 694,
+   "end": 697,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 697,
+   "end": 739,
+   "chars": 42,
+   "text": "Respondents may submit Proposals by mail. "
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 739,
+   "end": 941,
+   "chars": 202,
+   "text": "The MPO cannot be held liable for documents\nthat become lost, misplaced, or delayed by any and all delivery services including, but not\nlimited to, USPS, FedEx, UPS, etc. Please see instructions below.\n"
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 941,
+   "end": 1134,
+   "chars": 193,
+   "text": "In person/mail submittal instructions: Respondents submitting Hard/paper copies of the Proposal\nmust submit in a package with an unbroken seal, including all signed/authorized/notarized forms.\n"
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 1134,
+   "end": 1230,
+   "chars": 96,
+   "text": "All Proposals should be formatted to print on letter size paper with arial type in 11 or 12 pt. "
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 1230,
+   "end": 1236,
+   "chars": 6,
+   "text": "text.\n"
+  },
+  {
+   "id": "p5-s15",
+   "page": 5,
+   "start": 1236,
+   "end": 1314,
+   "chars": 78,
+   "text": "Any proposal materials submitted unsealed are not eligible for consideration. "
+  },
+  {
+   "id": "p5-s16",
+   "page": 5,
+   "start": 1314,
+   "end": 1571,
+   "chars": 257,
+   "text": "In person or mail\nsubmittals must be addressed and delivered to the Contact Person:\nPalm Beach MPO c/o Jessica Lopez\n301 Datura St.\nWest Palm Beach, FL 33401\n1.7\n\nADDITIONAL INFORMATION / AMENDMENT(S)\n\nChanges to this RFP, when deemed necessary by the MPO, "
+  },
+  {
+   "id": "p5-s17",
+   "page": 5,
+   "start": 1571,
+   "end": 1694,
+   "chars": 123,
+   "text": "will be completed only by written\nAmendment(s) issued no later than the date specified in the RFP Timetable (Section 1.5).\n"
+  },
+  {
+   "id": "p5-s18",
+   "page": 5,
+   "start": 1694,
+   "end": 1839,
+   "chars": 145,
+   "text": "Respondents should not rely on any representations, statements or explanations other than those\nmade in the RFP or in any Amendment to this RFP. "
+  },
+  {
+   "id": "p5-s19",
+   "page": 5,
+   "start": 1839,
+   "end": 1961,
+   "chars": 122,
+   "text": "In the case of any apparent conflict between\nthe RFP and any Amendment issued, the latest Amendment issued shall prevail.\n"
+  },
+  {
+   "id": "p5-s20",
+   "page": 5,
+   "start": 1961,
+   "end": 2096,
+   "chars": 135,
+   "text": "As they are issued, all Amendments to solicitations will be posted under the applicable solicitation\non www.PalmBeachMPO.org/Business. "
+  },
+  {
+   "id": "p5-s21",
+   "page": 5,
+   "start": 2096,
+   "end": 2230,
+   "chars": 134,
+   "text": "It is the sole responsibility of the Respondent to routinely\ncheck for any Amendments prior to the Deadline for receipt of Proposals. "
+  },
+  {
+   "id": "p5-s22",
+   "page": 5,
+   "start": 2230,
+   "end": 2371,
+   "chars": 141,
+   "text": "The MPO shall not be\nresponsible for the completeness of any RFP package not downloaded directly from the MPO\nwebsite or www.DemandStar.com.\n"
+  },
+  {
+   "id": "p5-s23",
+   "page": 5,
+   "start": 2371,
+   "end": 2451,
+   "chars": 80,
+   "text": "It is the Respondent’s sole responsibility to assure receipt of all Amendments. "
+  },
+  {
+   "id": "p5-s24",
+   "page": 5,
+   "start": 2451,
+   "end": 2600,
+   "chars": 149,
+   "text": "The Respondent\nshould verify with the designated Contact Person (Section 1.4) prior to submitting a Proposal that\nall Amendments have been received. "
+  },
+  {
+   "id": "p5-s25",
+   "page": 5,
+   "start": 2600,
+   "end": 2746,
+   "chars": 146,
+   "text": "Respondents are required to acknowledge the receipt of all\nAmendments by submitting the Amendment Acknowledgement Form as part of their proposal.\n"
+  },
+  {
+   "id": "p5-s26",
+   "page": 5,
+   "start": 2746,
+   "end": 2852,
+   "chars": 106,
+   "text": "The Amendment Acknowledgement Form will be attached to the amendment documentation\nposted to the website.\n"
+  },
+  {
+   "id": "p5-s27",
+   "page": 5,
+   "start": 2852,
+   "end": 2993,
+   "chars": 141,
+   "text": "The MPO shall not be responsible for the completeness of any RFP package not downloaded\ndirectly from the MPO website or www.DemandStar.com.\n"
+  },
+  {
+   "id": "p5-s28",
+   "page": 5,
+   "start": 2994,
+   "end": 2995,
+   "chars": 1,
+   "text": "5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 192,
+   "chars": 192,
+   "text": "SECTION 2 – TERMS AND CONDITIONS\n2.1\n\nPROPOSAL GUARANTEE\n\nThe Respondent guarantees their commitment, compliance, and adherence to all requirements\nof the RFP by submission of their Proposal. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 192,
+   "end": 253,
+   "chars": 61,
+   "text": "For this proposal, the MPO is not requiring a proposal\nbond.\n"
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 253,
+   "end": 432,
+   "chars": 179,
+   "text": "2.2\n\nMODIFIED PROPOSALS\n\nA Respondent may submit a modified Proposal to replace all or any portion of a previously\nsubmitted Proposal until the Deadline for receipt of Proposals. "
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 432,
+   "end": 495,
+   "chars": 63,
+   "text": "The MPO will only consider the\nlatest version of the Proposal.\n"
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 495,
+   "end": 583,
+   "chars": 88,
+   "text": "2.3\n\nWITHDRAWAL OF PROPOSALS\n\nA Proposal may be withdrawn only by written notification. "
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 583,
+   "end": 834,
+   "chars": 251,
+   "text": "Letters of withdrawal received after the\nDeadline for receipt of Proposals will not be accepted unless the contract has been awarded to\nanother Respondent, or no award has been made within ninety (90) days after the Deadline for\nreceipt of Proposals.\n"
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 834,
+   "end": 959,
+   "chars": 125,
+   "text": "Unless withdrawn, as provided in this subsection, a Proposal shall be irrevocable until the time\nthat a contract is awarded.\n"
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 959,
+   "end": 1181,
+   "chars": 222,
+   "text": "2.4\n\nLATE PROPOSALS, LATE MODIFIED PROPOSALS\n\nProposals and/or modifications to Proposals received after the Deadline for receipt of Proposals\nspecified in RFP Timetable (Section 1.4) are late and shall not be considered.\n"
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 1181,
+   "end": 1324,
+   "chars": 143,
+   "text": "2.5\n\nRFP POSTPONEMENT / CANCELLATION\n\nThe MPO may, at its sole and absolute discretion, reject any and all, or parts of any and all\nProposals; "
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 1324,
+   "end": 1421,
+   "chars": 97,
+   "text": "waive any minor irregularities in this RFP or in the Proposals received as a result of\nthis RFP; "
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 1421,
+   "end": 1472,
+   "chars": 51,
+   "text": "postpone or cancel, at any time, this RFP process; "
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 1472,
+   "end": 1494,
+   "chars": 22,
+   "text": "or re-issue this RFP.\n"
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 1494,
+   "end": 1700,
+   "chars": 206,
+   "text": "2.6\n\nCOSTS INCURRED BY RESPONDENTS\n\nAll expenses incurred with the preparation and submission of Proposals to the MPO, or any work\nperformed in connection therewith, shall be borne by the responding party. "
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 1700,
+   "end": 1938,
+   "chars": 238,
+   "text": "No payment shall be\nmade for Proposals received, nor for any other effort required of or made by the Respondents,\nprior to commencement of work as defined by a contract approved by the MPO in accordance\nwith the MPO’s Procurement Policy.\n"
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 1938,
+   "end": 1982,
+   "chars": 44,
+   "text": "Remainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 1983,
+   "end": 1984,
+   "chars": 1,
+   "text": "6"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 184,
+   "chars": 184,
+   "text": "2.7\n\nPROPRIETARY / CONFIDENTIAL INFORMATION\n\nAny material submitted in response to this RFP is considered a public document in accordance\nwith Section 119.07, Florida Statutes (F.S.). "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 184,
+   "end": 294,
+   "chars": 110,
+   "text": "As a result, all submittals will be subject to the Florida\npublic records law, Chapter 112, Florida Statutes. "
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 294,
+   "end": 373,
+   "chars": 79,
+   "text": "This includes material which the Respondent\nmight consider to be confidential. "
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 373,
+   "end": 603,
+   "chars": 230,
+   "text": "All submitted information that the Respondent believes to be\nconfidential and exempt from disclosure (i.e., a trade secret or as provided for in Section 119.0715\nand Section 688.002, F.S.) must be specifically identified as such. "
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 603,
+   "end": 770,
+   "chars": 167,
+   "text": "Upon receipt of a public records\nrequest for such information, determination will be made by the MPO as to whether the identified\ninformation is in fact confidential. "
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 770,
+   "end": 1075,
+   "chars": 305,
+   "text": "If the document is withheld from public disclosure pursuant to\nSection 119.0715, the Respondent may, at the MPO’s option, be required to defend the MPO’s\ndecision to withhold disclosure of the document or portion thereof that the Respondent has\ndesignated as a “trade secret.”\n2.8\n\nNEGOTIATIONS\n\nThe MPO, "
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 1075,
+   "end": 1220,
+   "chars": 145,
+   "text": "at its sole discretion, reserves the right to enter into Contract negotiations with the\nhighest evaluated responsive, responsible Respondent(s). "
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 1220,
+   "end": 1425,
+   "chars": 205,
+   "text": "If the MPO and said Respondent(s)\ncannot negotiate a successful Contract, the MPO may terminate said negotiations and begin\nnegotiations with the next highest evaluated responsive, responsible Respondent. "
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 1425,
+   "end": 1544,
+   "chars": 119,
+   "text": "This process\nwill continue until the Contracts acceptable to the MPO have been executed or all proposals are\nrejected. "
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 1544,
+   "end": 1651,
+   "chars": 107,
+   "text": "No Respondent shall have any rights against the MPO arising from such negotiations or\ntermination thereof.\n"
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 1651,
+   "end": 1942,
+   "chars": 291,
+   "text": "2.9\n\nRIGHT TO PROTEST\n\nAny Respondent who is aggrieved in connection with the recommendation for contract award may\nprotest by submitting a written protest to the MPO Executive Director within five (5) business days\nof the posting of the short list of proposers or the award recommendation.\n"
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 1942,
+   "end": 1945,
+   "chars": 3,
+   "text": "A. "
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 1945,
+   "end": 2095,
+   "chars": 150,
+   "text": "Protests must be submitted in writing, addressed to the MPO Executive Director, via hand\ndelivery, U.S. Mail, or e-mail to VNeilson@PalmBeachMPO.org. "
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 2095,
+   "end": 2298,
+   "chars": 203,
+   "text": "The protest shall identify the\nprotestor and the solicitation, shall include a factual summary of the basis of the protest, shall\ndelineate the alleged omission, error, mistake, or incorrect evaluation; "
+  },
+  {
+   "id": "p7-s14",
+   "page": 7,
+   "start": 2298,
+   "end": 2364,
+   "chars": 66,
+   "text": "and shall specify the\nrelief requested by the aggrieved proposer. "
+  },
+  {
+   "id": "p7-s15",
+   "page": 7,
+   "start": 2364,
+   "end": 2452,
+   "chars": 88,
+   "text": "Such protest is considered filed when it is\nreceived, and date/time stamped by the MPO. "
+  },
+  {
+   "id": "p7-s16",
+   "page": 7,
+   "start": 2452,
+   "end": 2568,
+   "chars": 116,
+   "text": "Only those issues submitted in writing within\nthe timeframe specified for the notice of protest will be considered.\n"
+  },
+  {
+   "id": "p7-s17",
+   "page": 7,
+   "start": 2568,
+   "end": 2571,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p7-s18",
+   "page": 7,
+   "start": 2571,
+   "end": 2802,
+   "chars": 231,
+   "text": "Upon receipt of the written protest, the MPO Executive Director will review the protest, any\nwritten material provided by the parties, or may, in his/her sole discretion, schedule an informal\nmeeting in order to render a decision. "
+  },
+  {
+   "id": "p7-s19",
+   "page": 7,
+   "start": 2802,
+   "end": 2956,
+   "chars": 154,
+   "text": "The MPO Executive Director shall issue a written\ndecision to either uphold or deny the protest within five (5) business days from receipt of the\nprotest. "
+  },
+  {
+   "id": "p7-s20",
+   "page": 7,
+   "start": 2956,
+   "end": 3114,
+   "chars": 158,
+   "text": "The written decision shall provide the general rationale for said determination and\nshall be provided to the protestor and to any other party to the protest.\n"
+  },
+  {
+   "id": "p7-s21",
+   "page": 7,
+   "start": 3114,
+   "end": 3117,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p7-s22",
+   "page": 7,
+   "start": 3117,
+   "end": 3384,
+   "chars": 267,
+   "text": "In accordance with the MPO Procurement Policy, a protestor shall be required to submit a\nprotest deposit in the form of cash or cashier’s check in an amount equal to the greater of one\npercent (1%) of the anticipated contract value or five thousand dollars ($5,000). "
+  },
+  {
+   "id": "p7-s23",
+   "page": 7,
+   "start": 3384,
+   "end": 3464,
+   "chars": 80,
+   "text": "The deposit\nshall be returned if the protest is upheld and forfeited if denied.\n"
+  },
+  {
+   "id": "p7-s24",
+   "page": 7,
+   "start": 3465,
+   "end": 3466,
+   "chars": 1,
+   "text": "7"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 3,
+   "end": 277,
+   "chars": 274,
+   "text": "The protest may be upheld based upon a violation of the provisions of the Palm Beach MPO\nProcurement Policy or any other ordinance, resolution, policy, or procedure, or upon discovery\nof an irregularity or procedural flaw that is so severe as to render the process invalid. "
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 277,
+   "end": 468,
+   "chars": 191,
+   "text": "If the\nupholding of the protest will result in change of the recommended awardee, a new\nrecommended award shall be posted by the MPO in accordance with the Palm Beach MPO\nProcurement Policy. "
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 468,
+   "end": 613,
+   "chars": 145,
+   "text": "If the upholding of the protest will result in a cancellation of the RFP, the\nMPO Executive Director will uphold the protest and cancel the RFP.\n"
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 613,
+   "end": 616,
+   "chars": 3,
+   "text": "E. "
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 616,
+   "end": 760,
+   "chars": 144,
+   "text": "If the protest is denied, the protestor may submit a written appeal to the MPO Executive\nDirector within three (3) business days of the denial. "
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 760,
+   "end": 905,
+   "chars": 145,
+   "text": "The appeal shall be heard by an Appeal\nCommittee of no fewer than three (3) MPO Board Representatives including the Chair and/or\nthe Vice Chair. "
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 905,
+   "end": 1080,
+   "chars": 175,
+   "text": "The Appeal Committee will review the appeal, any written material provided\nby the parties and the determination of the MPO Executive Director and will issue a final\ndecision. "
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 1080,
+   "end": 1177,
+   "chars": 97,
+   "text": "The Appeal Committee’s decision shall be the final determination and disposition of\nthe protest.\n"
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 1177,
+   "end": 1479,
+   "chars": 302,
+   "text": "2.10 TITLE VI, EQUAL OPPORTUNTITY EMPLOYMENT, AND NONDISCRIMINATION\nAll proposers and the selected consultant will abide by applicable nondiscrimination authorities\nand will not discriminate on the basis of race, color, national origin, sex, age, disability status,\ngenetics, protected veteran status, "
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1479,
+   "end": 1627,
+   "chars": 148,
+   "text": "sexual orientation, gender identity or expression, religion,\nfamily status, or any other characteristic protected by federal, state, or local laws.\n"
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1627,
+   "end": 1924,
+   "chars": 297,
+   "text": "The selected consultant will place or cause to be placed in any information developed for public\ndissemination the following statement: The MPO does not discriminate on the basis of race, color,\nnational origin, sex, age, disability status, genetics, protected veteran status, sexual orientation,\n"
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 1924,
+   "end": 2052,
+   "chars": 128,
+   "text": "gender identity or expression, religion, family status, or any other characteristic protected by\nfederal, state, or local laws.\n"
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 2052,
+   "end": 2194,
+   "chars": 142,
+   "text": "For more information, contact Carly Diglio, Public Involvement Officer at\ninfo@palmbeachMPO.org (561) 725-0813 or 711 (for hearing impaired). "
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 2194,
+   "end": 2342,
+   "chars": 148,
+   "text": "Those individuals\nrequiring language services (free of charge) or accommodation for a disability should contact the\nMPO at least 5 days in advance.\n"
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 2342,
+   "end": 2354,
+   "chars": 12,
+   "text": "2.11 RULES; "
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 2354,
+   "end": 2367,
+   "chars": 13,
+   "text": "REGULATIONS; "
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 2367,
+   "end": 2576,
+   "chars": 209,
+   "text": "LICENSING REQUIREMENTS\nThe Respondent shall comply with all laws, ordinances, and regulations applicable to the services\ncontemplated herein, to include those applicable to conflict of interest and collusion. "
+  },
+  {
+   "id": "p8-s18",
+   "page": 8,
+   "start": 2576,
+   "end": 2859,
+   "chars": 283,
+   "text": "Respondents\nare presumed to be familiar with all federal, state and local laws, ordinances, codes and\nregulations that may, in any way, affect the services offered, to include Executive Order No. 11246\nentitled “Equal Employment Opportunity” as amended by Executive Order No. 11375, "
+  },
+  {
+   "id": "p8-s19",
+   "page": 8,
+   "start": 2859,
+   "end": 2937,
+   "chars": 78,
+   "text": "and as\nsupplemented by the Department of Labor Regulations (41 CFR, Part 60).\n"
+  },
+  {
+   "id": "p8-s20",
+   "page": 8,
+   "start": 2937,
+   "end": 3172,
+   "chars": 235,
+   "text": "2.12 FEDERAL DEBARMENT\nBy submitting a response to this RFP, the Offeror certifies that neither it nor any of its principals\n(which includes officers, directors, or executives) is presently debarred, suspended, proposed for\ndebarment, "
+  },
+  {
+   "id": "p8-s21",
+   "page": 8,
+   "start": 3172,
+   "end": 3312,
+   "chars": 140,
+   "text": "declared ineligible or voluntarily excluded from participation in this transaction on this\ntransaction by any Federal department or agency.\n"
+  },
+  {
+   "id": "p8-s22",
+   "page": 8,
+   "start": 3313,
+   "end": 3314,
+   "chars": 1,
+   "text": "8"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 97,
+   "chars": 97,
+   "text": "2.13 RESPONSIVE PROPOSALS\nEach Proposal will be reviewed to determine responsiveness to the RFP. "
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 97,
+   "end": 268,
+   "chars": 171,
+   "text": "A Responsive Proposal\nis one which has been signed, has been submitted by the specified submission time, and has\nprovided the information required as stated in Section 3. "
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 268,
+   "end": 359,
+   "chars": 91,
+   "text": "Proposals deemed to be non-responsive\nwill be rejected from further evaluation by the MPO.\n"
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 359,
+   "end": 513,
+   "chars": 154,
+   "text": "The MPO, at its sole discretion, reserves the right to enter into Contract negotiations with the\nhighest evaluated responsive, responsible Respondent(s). "
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 513,
+   "end": 718,
+   "chars": 205,
+   "text": "If the MPO and said Respondent(s)\ncannot negotiate a successful contract, the MPO may terminate said negotiations and begin\nnegotiations with the next highest evaluated responsive, responsible Respondent. "
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 718,
+   "end": 834,
+   "chars": 116,
+   "text": "This process\nmay continue until the Contract acceptable to the MPO has been executed or all Proposals are\nrejected. "
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 834,
+   "end": 941,
+   "chars": 107,
+   "text": "No Respondent shall have any rights against the MPO arising from such negotiations or\ntermination thereof.\n"
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 941,
+   "end": 1030,
+   "chars": 89,
+   "text": "The MPO will review each Proposal to determine if the Proposal is responsive to the RFP.\n"
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 1030,
+   "end": 1121,
+   "chars": 91,
+   "text": "Proposals deemed to be non-responsive will be rejected without being evaluated by the MPO. "
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 1121,
+   "end": 1246,
+   "chars": 125,
+   "text": "A\nresponsive Proposal is one which:\no Includes all required documents listed on the checklist\no Has been signed, authorized, "
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 1246,
+   "end": 1459,
+   "chars": 213,
+   "text": "and notarized by all parties\no Has been submitted by the specified submission time\no Has provided the information required to be submitted with the Proposal\no Otherwise complies with the requirements of this RFP.\n"
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 1459,
+   "end": 1759,
+   "chars": 300,
+   "text": "While poor formatting, poor documentation, and/or incomplete or unclear information may not be\ncause to reject a Proposal without evaluation, such substandard submissions may adversely\nimpact the evaluation of a Proposal, especially information relating to establishing\nfinancial/business stability. "
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 1759,
+   "end": 1873,
+   "chars": 114,
+   "text": "Respondents who fail to comply with all the required and/or desired\nelements of this RFP do so at their own risk.\n"
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 1873,
+   "end": 2022,
+   "chars": 149,
+   "text": "Proposals will only be considered from firms regularly engaged in the business of providing the\ngoods and/or services required by this solicitation. "
+  },
+  {
+   "id": "p9-s14",
+   "page": 9,
+   "start": 2022,
+   "end": 2232,
+   "chars": 210,
+   "text": "The Proposer must be able to demonstrate a\ngood record of performance and have enough personnel to ensure that they can satisfactorily\nprovide services if awarded the Contract as a result of this solicitation.\n"
+  },
+  {
+   "id": "p9-s15",
+   "page": 9,
+   "start": 2232,
+   "end": 2387,
+   "chars": 155,
+   "text": "Notwithstanding these proposal requirements, the MPO reserves the right, at its sole discretion,\nto waive any minor irregularity relating to the proposal. "
+  },
+  {
+   "id": "p9-s16",
+   "page": 9,
+   "start": 2387,
+   "end": 2478,
+   "chars": 91,
+   "text": "The MPO is not required to request that\nthe Respondent address any perceived irregularity. "
+  },
+  {
+   "id": "p9-s17",
+   "page": 9,
+   "start": 2478,
+   "end": 2540,
+   "chars": 62,
+   "text": "However, the MPO may inquire into any\nperceived irregularity. "
+  },
+  {
+   "id": "p9-s18",
+   "page": 9,
+   "start": 2540,
+   "end": 2736,
+   "chars": 196,
+   "text": "Upon request, it shall be the responsibility of the respondent to address\nthe determined minor irregularity within a time frame specified by the MPO (normally within two\nworking days of request). "
+  },
+  {
+   "id": "p9-s19",
+   "page": 9,
+   "start": 2736,
+   "end": 2896,
+   "chars": 160,
+   "text": "Failure of a respondent to provide the required information within the\nspecified time frame is considered sufficient cause to deem the proposal non-responsive.\n"
+  },
+  {
+   "id": "p9-s20",
+   "page": 9,
+   "start": 2896,
+   "end": 3105,
+   "chars": 209,
+   "text": "2.14 EXCEPTIONS TO THE RFP\nAll exceptions taken must be specific, and the Respondent must indicate clearly what alternative\nis being offered to allow the MPO a meaningful opportunity to evaluate the Proposal. "
+  },
+  {
+   "id": "p9-s21",
+   "page": 9,
+   "start": 3105,
+   "end": 3270,
+   "chars": 165,
+   "text": "Respondents\nare cautioned that submitting an alternative Proposal does not relieve the respondent from\nsubmitting the “Minimum Requirements” as stated in Section 3. "
+  },
+  {
+   "id": "p9-s22",
+   "page": 9,
+   "start": 3270,
+   "end": 3352,
+   "chars": 82,
+   "text": "The MPO is under NO obligation\nto accept any proposed exceptions or alternatives.\n"
+  },
+  {
+   "id": "p9-s23",
+   "page": 9,
+   "start": 3353,
+   "end": 3354,
+   "chars": 1,
+   "text": "9"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 132,
+   "chars": 132,
+   "text": "2.15 MPO’S EXCLUSIVE RIGHTS\nThe MPO reserves the exclusive right to:\nWaive any deficiency or irregularity in the selection process.\n"
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 132,
+   "end": 207,
+   "chars": 75,
+   "text": "Accept or reject any or all qualifications statements in part or in whole.\n"
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 207,
+   "end": 254,
+   "chars": 47,
+   "text": "Request additional information as appropriate; "
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 254,
+   "end": 339,
+   "chars": 85,
+   "text": "and,\nReject any or all Proposals if found not to be in the best interest of the MPO.\n"
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 339,
+   "end": 646,
+   "chars": 307,
+   "text": "By providing a Proposal for this RFP, all Respondents acknowledge and agree that no\nenforceable agreement arises until the MPO signs the Agreement, that no action shall require the\nMPO to sign such agreement at any time, and that each Respondent waives all claims to\ndamages, lost profits, costs, expenses, "
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 646,
+   "end": 731,
+   "chars": 85,
+   "text": "reasonable attorney’s fees, etc., as a result of the MPO\nnot signing such agreement.\n"
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 731,
+   "end": 855,
+   "chars": 124,
+   "text": "2.16 SELECTION PROCESS\nThe MPO Executive Director shall establish a Selection Committee of not less than three (3)\nmembers. "
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 855,
+   "end": 1114,
+   "chars": 259,
+   "text": "The Committee will meet at the date, time and location specified in Section 1.4 (as may\nbe amended by the MPO) to evaluate all responsive proposals on the basis of the information\nprovided in Section 3.2 and the evaluation criteria set forth in Section 2.17. "
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 1114,
+   "end": 1292,
+   "chars": 178,
+   "text": "Accordingly,\nRespondents are urged to ensure that their proposal contains all the necessary information for\nthe MPO to fairly and accurately evaluate each of the criteria below.\n"
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 1292,
+   "end": 1439,
+   "chars": 147,
+   "text": "In accordance with MPO Procurement Policy Section 3.D.2(c), this solicitation is intended to\ngenerate a minimum of three (3) responsive proposals. "
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 1439,
+   "end": 1589,
+   "chars": 150,
+   "text": "For good cause shown, the Executive\nDirector may waive this requirement in writing, and such documentation shall be retained in the\nprocurement file.\n"
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 1589,
+   "end": 1861,
+   "chars": 272,
+   "text": "The Committee may choose to recommend a final ranking, designate a short list of three (3) or\nmore Respondents for oral presentations at the date, time and location specified in Section 1.5\n(as may be amended by the MPO), or recommend that the MPO reject all Respondents. "
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 1861,
+   "end": 2010,
+   "chars": 149,
+   "text": "In the\nevent that the Committee determines the need for oral presentations, the MPO will post the short\nlist of Respondents pursuant to Section 1.5.\n"
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 2010,
+   "end": 2161,
+   "chars": 151,
+   "text": "2.17 EVALUATION CRITERIA\nProposals will be evaluated using information provided in the proposal requirements outlined in\nSection 3.2 Required Content. "
+  },
+  {
+   "id": "p10-s14",
+   "page": 10,
+   "start": 2161,
+   "end": 2317,
+   "chars": 156,
+   "text": "The Required Content will be based on the qualifications,\nprofessional background, and experience of staff members as related to the criteria listed below.\n"
+  },
+  {
+   "id": "p10-s15",
+   "page": 10,
+   "start": 2317,
+   "end": 2484,
+   "chars": 167,
+   "text": "Each MPO Selection Committee member will assign a score for each criterion and then rank the\nproposals on a summary sheet based on the total scores for each proposal.\n"
+  },
+  {
+   "id": "p10-s16",
+   "page": 10,
+   "start": 2484,
+   "end": 2603,
+   "chars": 119,
+   "text": "The Contact person (Section 1.4) will establish an overall ranking based on each Selection\nCommittee member’s ranking. "
+  },
+  {
+   "id": "p10-s17",
+   "page": 10,
+   "start": 2603,
+   "end": 2854,
+   "chars": 251,
+   "text": "In the event of a tie, the Selection Committee Chair shall facilitate\nfurther deliberations among the Selection Committee members which shall continue until a final\ndecision is reached in accordance with the evaluation criteria set forth in this RFP.\n"
+  },
+  {
+   "id": "p10-s18",
+   "page": 10,
+   "start": 2855,
+   "end": 2857,
+   "chars": 2,
+   "text": "10"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 293,
+   "chars": 293,
+   "text": "Max\nPoints\n\nEvaluation Criteria\nCost/Price Proposal – Assessment of overall proposal costs and reasonableness\nfor the work to be performed as per the Technical Proposal\n\n35\n\nExperience and Qualifications - Project Manager’s (PM) and staff/sub-consultant\nexperience related to Scoped Services, "
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 293,
+   "end": 404,
+   "chars": 111,
+   "text": "ability to manage multiple team members,\nclients, and projects at any given time, and professional background.\n"
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 405,
+   "end": 548,
+   "chars": 143,
+   "text": "25\n\nResponsive to Scope of Services - Understanding and responsiveness to the\nScope of Services, and clarity and organization of the proposal.\n"
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 549,
+   "end": 844,
+   "chars": 295,
+   "text": "25\n\nClient Communication, References, and Responsiveness – Assessment of\nturnaround times, communication, and responsiveness from client references to\ngauge satisfaction and ability to meet expectations\n\n15\n\nTotal\n\n100\n\n2.18 AWARD OF CONTRACT\nOne (1) contract will be awarded to the responsive, "
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 844,
+   "end": 966,
+   "chars": 122,
+   "text": "responsible Respondent whose proposal is\nconsidered to be the most advantageous to the MPO based on the MPO’s evaluation. "
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 966,
+   "end": 1092,
+   "chars": 126,
+   "text": "The MPO\nmay reject proposals and readvertise for all or any part of this RFP whenever deemed in the best\ninterest of the MPO. "
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 1092,
+   "end": 1276,
+   "chars": 184,
+   "text": "The MPO shall be the sole judge of what is in its \"best interest.\" Final contract\naward is subject to approval by the MPO Governing Board, as required for contracts exceeding\n$35,000.\n"
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 1276,
+   "end": 1588,
+   "chars": 312,
+   "text": "2.19 STANDARD CONTRACT PROVISIONS\nRequired USDOT assisted contract language\nCONTRACT ASSURANCE\nThe Organization will ensure that the following clause is placed in every USDOT- assisted\ncontract and subcontract:\nThe contractor or subcontractor shall not discriminate on the basis of race, color, national origin,\n"
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 1588,
+   "end": 1632,
+   "chars": 44,
+   "text": "or sex in the performance of this contract. "
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 1632,
+   "end": 1770,
+   "chars": 138,
+   "text": "The contractor shall carry out applicable requirements\nof the 49 CFR part 26 in the award and administration of USDOT assisted contracts. "
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 1770,
+   "end": 1977,
+   "chars": 207,
+   "text": "Failure by\nthe contractor to carry out these requirements is a material breach of this contract, which may\nresult in the termination of this contract or such other remedy as the recipient deems appropriate.\n"
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 1978,
+   "end": 2022,
+   "chars": 44,
+   "text": "Remainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 2023,
+   "end": 2025,
+   "chars": 2,
+   "text": "11"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 137,
+   "chars": 137,
+   "text": "PROMPT PAYMENT\nThe Organization will ensure that the following requirements are placed in every USDOT-assisted\ncontract and subcontract.\n"
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 137,
+   "end": 335,
+   "chars": 198,
+   "text": "(A) Every contract awarded by the MPO for performance of work shall contain a provision\nrequiring the prime contractor, before receipt of any progress payment under the\nprovisions of such contract, "
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 335,
+   "end": 632,
+   "chars": 297,
+   "text": "to certify that the prime contractor has disbursed to all\nsubcontractors and suppliers having an interest in the contract their pro rata shares of the\npayment out of previous progress payments received by the Prime Contractor for all work\ncompleted and materials furnished in the previous period, "
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 632,
+   "end": 769,
+   "chars": 137,
+   "text": "less any retainage withheld by\nthe Prime Contractor pursuant to an agreement with the subcontractor, as approved by\nthe MPO for payment. "
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 769,
+   "end": 1064,
+   "chars": 295,
+   "text": "The MPO shall not make any such progress payment before receipt\nof such certification, unless the contractor demonstrates good cause for not making any\nsuch required payment and furnishes written notification of any such good cause to both\nthe MPO and the affected subcontractors and suppliers.\n"
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 1064,
+   "end": 1308,
+   "chars": 244,
+   "text": "(B) Every Contract let by the MPO for the performance of work shall contain a provision\nrequiring the Prime Contractor, within 30 days of receipt of the final progress payment or\nany other payments received thereafter except the final payment, "
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 1308,
+   "end": 1468,
+   "chars": 160,
+   "text": "to pay all subcontractors\nand suppliers having an interest in the contract their pro rata shares of the payment for all\nwork completed and materials furnished, "
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 1468,
+   "end": 1698,
+   "chars": 230,
+   "text": "unless the Contractor demonstrates good cause\nfor not making any such required payment and furnishes written notification of any such\ngood cause to both the MPO and the affected subcontractors or suppliers within a 30-day\nperiod.\n"
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 1698,
+   "end": 2016,
+   "chars": 318,
+   "text": "CONFIDENTIALITY OF PROPOSALS\nProprietary Information:\n“In accordance with Chapter 119 of the Florida Statutes (Public Records Act), and except\nas may be provided by other applicable State and Federal Law, all proposers should be\naware that the Request for Proposals and the responses thereto are in the public domain.\n"
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 2016,
+   "end": 2234,
+   "chars": 218,
+   "text": "However, the proposers are requested to identify specifically any information contained\nin their proposals which they consider to be confidential and/or proprietary and which they\nbelieve to be exempt from disclosure, "
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 2234,
+   "end": 2487,
+   "chars": 253,
+   "text": "citing specifically the applicable exempting law.”\nPlease note that the sections 119.07(3)(m) of the Florida Statutes address in part the issue of the\npublic nature of sealed bids or proposals, as well as the non-public nature of certain trade secrets.\n"
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 2487,
+   "end": 2653,
+   "chars": 166,
+   "text": "The proposal submitted by your company may contain areas, that are designated “confidential”\nor “exempt from disclosure.” If your proposal contains such information, "
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 2653,
+   "end": 2825,
+   "chars": 172,
+   "text": "you are required to advise\nthe Palm Beach MPO with specificity the applicable law making those provisions exempt from\ndisclosure in accordance with the Public Records Law. "
+  },
+  {
+   "id": "p12-s13",
+   "page": 12,
+   "start": 2825,
+   "end": 2901,
+   "chars": 76,
+   "text": "A generic notation that the information\nis “confidential” will not suffice.\n"
+  },
+  {
+   "id": "p12-s14",
+   "page": 12,
+   "start": 2901,
+   "end": 3212,
+   "chars": 311,
+   "text": "Failure to provide the Departments of Finance and Administration with a detailed explanation and\njustification, including statutory cites and specific reference to your bid package detailing what\nprovisions, if any, you believe are exempt from disclosure in accordance with Chapter 119 of the\nFlorida Statutes.\n"
+  },
+  {
+   "id": "p12-s15",
+   "page": 12,
+   "start": 3213,
+   "end": 3215,
+   "chars": 2,
+   "text": "12"
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 74,
+   "chars": 74,
+   "text": "2.20 COMMENCEMENT OF WORK\nThis RFP does not, by itself, obligate the MPO. "
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 74,
+   "end": 202,
+   "chars": 128,
+   "text": "MPO’s obligation will commence upon the\neffective date of the contract, following execution by both the Respondent and the MPO. "
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 202,
+   "end": 359,
+   "chars": 157,
+   "text": "The\nMPO will not be responsible for any work done by the Respondent, even work done in good faith,\nif it occurs prior to the effective date of the contract.\n"
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 359,
+   "end": 672,
+   "chars": 313,
+   "text": "2.21 INSURANCE REQUIREMENTS\nPrior to the effective date of a Contract, it shall be the responsibility of any successful Respondent\nto provide evidence of the minimum amounts of insurance coverage to Palm Beach Metropolitan\nPlanning Organization, Attention: Executive Director, 301 Datura Street, West Palm Beach, "
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 672,
+   "end": 682,
+   "chars": 10,
+   "text": "FL\n33401.\n"
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 682,
+   "end": 893,
+   "chars": 211,
+   "text": "•\n\nCommercial General Liability no less than 1,000,000.00 Combined Single Limit for bodily\ninjury or death of one or more persons, or property damage in aggregate, and naming the\nMPO as an “additional insured”. "
+  },
+  {
+   "id": "p13-s6",
+   "page": 13,
+   "start": 893,
+   "end": 1126,
+   "chars": 233,
+   "text": "No primary policy shall have a deductible of not more\nthan $10,000 without the written approval of the MPO, and the excess/umbrella policy\nshall provide insurance for any loss or damage over the maximum limits of the primary\npolicy.\n"
+  },
+  {
+   "id": "p13-s7",
+   "page": 13,
+   "start": 1127,
+   "end": 1281,
+   "chars": 154,
+   "text": "•\n\nThe CONTRACTOR shall maintain Workers' Compensation Insurance, employer’s liability\ninsurance and any other insurance as required by Florida Statutes. "
+  },
+  {
+   "id": "p13-s8",
+   "page": 13,
+   "start": 1281,
+   "end": 1538,
+   "chars": 257,
+   "text": "In addition, the\nCONTRACTOR must obtain Employers’ Liability Insurance with limits of not less than:\n$500,000 Bodily Injury by Accident, and $500,000 Bodily Injury by Disease, each\nemployee adjusted periodically as may be required by law from time to time. "
+  },
+  {
+   "id": "p13-s9",
+   "page": 13,
+   "start": 1538,
+   "end": 1698,
+   "chars": 160,
+   "text": "The Workers’\nCompensation insurance shall extend to all employees of the CONTRACTOR and, if\nrequired by law, shall also extend to volunteers of the CONTRACTOR.\n"
+  },
+  {
+   "id": "p13-s10",
+   "page": 13,
+   "start": 1699,
+   "end": 1916,
+   "chars": 217,
+   "text": "Each successful Respondent shall, on a primary basis and at its sole expense, maintain in full\nforce and effect, at all times during the life of this Contract, insurance coverages and limits\n(including endorsements). "
+  },
+  {
+   "id": "p13-s11",
+   "page": 13,
+   "start": 1916,
+   "end": 2003,
+   "chars": 87,
+   "text": "Failure to maintain the required insurance will be considered default of\nthe Contract. "
+  },
+  {
+   "id": "p13-s12",
+   "page": 13,
+   "start": 2003,
+   "end": 2284,
+   "chars": 281,
+   "text": "The requirements contained herein, as well as MPO’s review or acceptance of\ninsurance maintained by a successful Respondent, are not intended to, and shall not in any\nmanner limit or qualify, the liabilities and obligations assumed by the successful respondent under\nthe Contract.\n"
+  },
+  {
+   "id": "p13-s13",
+   "page": 13,
+   "start": 2285,
+   "end": 2329,
+   "chars": 44,
+   "text": "Remainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p13-s14",
+   "page": 13,
+   "start": 2330,
+   "end": 2332,
+   "chars": 2,
+   "text": "13"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 30,
+   "chars": 30,
+   "text": "2.22 SCRUTINIZED COMPANIES\nA. "
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 30,
+   "end": 145,
+   "chars": 115,
+   "text": "Contractor certifies that it and its subcontractors are not on the Scrutinized\nCompanies that Boycott Israel List. "
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 145,
+   "end": 302,
+   "chars": 157,
+   "text": "The MPO may immediately terminate the\nContract at its sole option if the Contractor or its subcontractors are found to have\nsubmitted a false certification; "
+  },
+  {
+   "id": "p14-s3",
+   "page": 14,
+   "start": 302,
+   "end": 482,
+   "chars": 180,
+   "text": "or if the Contractor or its subcontractors are placed on\nthe Scrutinized Companies that Boycott Israel List or is engaged in the boycott of\nIsrael during the term of the Contract.\n"
+  },
+  {
+   "id": "p14-s4",
+   "page": 14,
+   "start": 482,
+   "end": 485,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p14-s5",
+   "page": 14,
+   "start": 485,
+   "end": 743,
+   "chars": 258,
+   "text": "If the Contract is for more than one million dollars, the Contractor certifies that it and\nits subcontractors are also not on the Scrutinized Companies with Activities in\nSudan, Scrutinized Companies with Activities in the Iran Petroleum Energy Sector\nList, "
+  },
+  {
+   "id": "p14-s6",
+   "page": 14,
+   "start": 743,
+   "end": 835,
+   "chars": 92,
+   "text": "or engaged with business operations in Cuba or Syria as identified in Section\n287.135, F.S. "
+  },
+  {
+   "id": "p14-s7",
+   "page": 14,
+   "start": 835,
+   "end": 1010,
+   "chars": 175,
+   "text": "The MPO may immediately terminate this Contract at its sole option if\nthe Contractor, its affiliates, or its subcontractors are found to have submitted a false\ncertification; "
+  },
+  {
+   "id": "p14-s8",
+   "page": 14,
+   "start": 1010,
+   "end": 1310,
+   "chars": 300,
+   "text": "or if the Contractor, its affiliates, or its subcontractors are placed on the\nScrutinized Companies with Activities in Sudan List, or Scrutinized Companies with\nActivities in the Iran Petroleum Energy Sector List, or engaged with business\noperations in Cuba or Syria during the term of the Contract.\n"
+  },
+  {
+   "id": "p14-s9",
+   "page": 14,
+   "start": 1310,
+   "end": 1313,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p14-s10",
+   "page": 14,
+   "start": 1313,
+   "end": 1459,
+   "chars": 146,
+   "text": "The Contractor agrees to observe the above requirements for applicable\nsubcontracts entered into for the performance of work under this Contract.\n"
+  },
+  {
+   "id": "p14-s11",
+   "page": 14,
+   "start": 1459,
+   "end": 1462,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p14-s12",
+   "page": 14,
+   "start": 1462,
+   "end": 1575,
+   "chars": 113,
+   "text": "If federal law ceases to authorize the above-stated contracting prohibitions then they\nshall become inoperative.\n"
+  },
+  {
+   "id": "p14-s13",
+   "page": 14,
+   "start": 1575,
+   "end": 1841,
+   "chars": 266,
+   "text": "2.23 AUTHORIZED SIGNATURE\nThe authorized representative signature required on all Proposals and the Contract must be made\nby an officer of the company who is legally authorized to enter a contractual relationship in the\nname of the respondent (“Authorized Person”).\n"
+  },
+  {
+   "id": "p14-s14",
+   "page": 14,
+   "start": 1842,
+   "end": 1886,
+   "chars": 44,
+   "text": "Remainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p14-s15",
+   "page": 14,
+   "start": 1887,
+   "end": 1889,
+   "chars": 2,
+   "text": "14"
+  },
+  {
+   "id": "p15-s0",
+   "page": 15,
+   "start": 0,
+   "end": 165,
+   "chars": 165,
+   "text": "2.24 ORGANIZATIONAL IT ENVIRONMENT SUMMARY\nNumber of Users: 13\nUsers require secure access to network resources, email, shared drives, and cloud-based\napplications. "
+  },
+  {
+   "id": "p15-s1",
+   "page": 15,
+   "start": 165,
+   "end": 214,
+   "chars": 49,
+   "text": "The MPO devices operate primarily on Windows 11.\n"
+  },
+  {
+   "id": "p15-s2",
+   "page": 15,
+   "start": 214,
+   "end": 523,
+   "chars": 309,
+   "text": "Devices:\nDesktop Computers: 3 (Micro Think Tank, Micro AV tower, IT closet)\nLaptop Computers: 14 (includes peripherals and accessories)\nTablets/iPad: 35 (used for Board and Committee meetings)\nNetworked Printers and Copiers: 2\nNetwork Infrastructure:\nThe MPO has 1 primary office location: 301 Datura Street, "
+  },
+  {
+   "id": "p15-s3",
+   "page": 15,
+   "start": 523,
+   "end": 550,
+   "chars": 27,
+   "text": "West Palm Beach, FL 33401.\n"
+  },
+  {
+   "id": "p15-s4",
+   "page": 15,
+   "start": 550,
+   "end": 668,
+   "chars": 118,
+   "text": "Staff can work a hybrid schedule (onsite/remote split) and can also require support if traveling or\nworking remotely.\n"
+  },
+  {
+   "id": "p15-s5",
+   "page": 15,
+   "start": 668,
+   "end": 916,
+   "chars": 248,
+   "text": "Internet Service Provider: Comcast/Xfinity\nThe MPO has 2 Ubiquity two Ubiquity 48 Port POE Level 3 switches, including a VLAN, 5 Ubiquity\nWireless Access Points, 1 Fortinet Firewall, 2 Comcast Routers, and the MPO operates on a\ncloud-based server. "
+  },
+  {
+   "id": "p15-s6",
+   "page": 15,
+   "start": 916,
+   "end": 1236,
+   "chars": 320,
+   "text": "Cloud Server functions include:\n•\nFile Storage and Sharing\n•\nUser Authentication\n•\nApplication Hosting\n•\nBack up and Disaster Recovery\nCloud Platforms: Microsoft 365 Business Premium (17 licenses, 13 users), Adobe Acrobat Pro,\nBackupify, Microsoft Defender\nApplications and Systems (subscriptions paid directly by MPO):\n"
+  },
+  {
+   "id": "p15-s7",
+   "page": 15,
+   "start": 1236,
+   "end": 1507,
+   "chars": 271,
+   "text": "Email: Microsoft Outlook\nFile Storage: SharePoint (2.8TB), OneDrive\nFinancial Systems: Aclarian\nSpecialized Transportation Software: ARCGIS Systems (6.86GB), EcoInteractive, MySidewalk\nNote to Proposers:\nThe quantities listed above are approximate and subject to change. "
+  },
+  {
+   "id": "p15-s8",
+   "page": 15,
+   "start": 1507,
+   "end": 1626,
+   "chars": 119,
+   "text": "The selected proposer will\nbe expected to support, maintain, and potentially scale services based on this environment.\n"
+  },
+  {
+   "id": "p15-s9",
+   "page": 15,
+   "start": 1626,
+   "end": 1693,
+   "chars": 67,
+   "text": "Proposers should account for both onsite and remote support needs.\n"
+  },
+  {
+   "id": "p15-s10",
+   "page": 15,
+   "start": 1693,
+   "end": 1737,
+   "chars": 44,
+   "text": "Remainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p15-s11",
+   "page": 15,
+   "start": 1738,
+   "end": 1740,
+   "chars": 2,
+   "text": "15"
+  },
+  {
+   "id": "p16-s0",
+   "page": 16,
+   "start": 0,
+   "end": 162,
+   "chars": 162,
+   "text": "SECTION 3 - PROPOSAL REQUIREMENTS\n3.1\n\nPROPOSAL FORMAT\n\nThe respondent shall submit one (1) electronic copy (ex: USB) of the complete Proposal as a\nPDF document. "
+  },
+  {
+   "id": "p16-s1",
+   "page": 16,
+   "start": 162,
+   "end": 336,
+   "chars": 174,
+   "text": "SEALED Proposals can be submitted in person directly to the MPO at 301 Datura\nStreet, West Palm Beach, FL 33401 or can be submitted via the online portal\nwww.DemandStar.com. "
+  },
+  {
+   "id": "p16-s2",
+   "page": 16,
+   "start": 336,
+   "end": 396,
+   "chars": 60,
+   "text": "Proposals should be formatted to print on 8 ½” x 11” pages.\n"
+  },
+  {
+   "id": "p16-s3",
+   "page": 16,
+   "start": 396,
+   "end": 532,
+   "chars": 136,
+   "text": "3.2\n\nREQUIRED CONTENT\n\nProposals shall contain all the documents listed below, each fully completed, signed, and\nnotarized as required. "
+  },
+  {
+   "id": "p16-s4",
+   "page": 16,
+   "start": 532,
+   "end": 638,
+   "chars": 106,
+   "text": "Failure of a Respondent to provide the required information is cause to\ndeem the Proposal non-responsive. "
+  },
+  {
+   "id": "p16-s5",
+   "page": 16,
+   "start": 638,
+   "end": 793,
+   "chars": 155,
+   "text": "Notwithstanding these Proposal requirements, the MPO\nreserves the right, at its sole discretion, to waive any minor irregularity relating to the Proposal.\n"
+  },
+  {
+   "id": "p16-s6",
+   "page": 16,
+   "start": 793,
+   "end": 973,
+   "chars": 180,
+   "text": "1) Cover Letter - Proposals shall provide a Cover Letter to the MPO containing, at a minimum:\n•\n•\n•\n\nRespondent identification (name, address, email address and telephone number).\n"
+  },
+  {
+   "id": "p16-s7",
+   "page": 16,
+   "start": 973,
+   "end": 1057,
+   "chars": 84,
+   "text": "Proposed working relationship between Respondent and subcontractors, if applicable.\n"
+  },
+  {
+   "id": "p16-s8",
+   "page": 16,
+   "start": 1057,
+   "end": 1336,
+   "chars": 279,
+   "text": "Contact for proposal evaluation period (Name, title, address, telephone number, e-mail)\n\n2) Table of Contents - Proposals shall contain a Table of Contents that outlines in sequential\norder all the areas of the proposal and allows for clarity and ease of review of the proposal.\n"
+  },
+  {
+   "id": "p16-s9",
+   "page": 16,
+   "start": 1336,
+   "end": 1457,
+   "chars": 121,
+   "text": "3) Technical Project Proposal – maximum 10 pages in length (excluding cover letter, table of\ncontents, and attachments). "
+  },
+  {
+   "id": "p16-s10",
+   "page": 16,
+   "start": 1457,
+   "end": 1595,
+   "chars": 138,
+   "text": "The Technical Project Proposal shall demonstrate experience,\nqualifications, and approach in accomplishing the activities outlined below.\n"
+  },
+  {
+   "id": "p16-s11",
+   "page": 16,
+   "start": 1595,
+   "end": 1706,
+   "chars": 111,
+   "text": "Cost/Price Proposal\nThe respondent shall provide all-inclusive monthly pricing for recurring services such as:\n"
+  },
+  {
+   "id": "p16-s12",
+   "page": 16,
+   "start": 1706,
+   "end": 1955,
+   "chars": 249,
+   "text": "• Help Desk Support\n• Network Monitoring\n• Back up and Disaster Recovery\n• Cybersecurity monitoring\n• Other Value-added services and associated costs as described in scope of services\nNote that the MPO pays directly for Microsoft, Adobe, Backupify. "
+  },
+  {
+   "id": "p16-s13",
+   "page": 16,
+   "start": 1955,
+   "end": 2010,
+   "chars": 55,
+   "text": "These subscriptions should\nnot be included in pricing.\n"
+  },
+  {
+   "id": "p16-s14",
+   "page": 16,
+   "start": 2010,
+   "end": 2132,
+   "chars": 122,
+   "text": "Proposers shall indicate whether pricing will remain fixed for each renewal year or identify\nproposed escalation, if any.\n"
+  },
+  {
+   "id": "p16-s15",
+   "page": 16,
+   "start": 2133,
+   "end": 2177,
+   "chars": 44,
+   "text": "Remainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p16-s16",
+   "page": 16,
+   "start": 2178,
+   "end": 2180,
+   "chars": 2,
+   "text": "16"
+  },
+  {
+   "id": "p17-s0",
+   "page": 17,
+   "start": 0,
+   "end": 177,
+   "chars": 177,
+   "text": "Experience and Qualifications\n• Summary of Respondent’s history, mission, and relevant experience with co-managed\nIT environments or similarly scoped managed service contracts.\n"
+  },
+  {
+   "id": "p17-s1",
+   "page": 17,
+   "start": 177,
+   "end": 351,
+   "chars": 174,
+   "text": "• A description of the Respondent’s organizational structure, including a chart identifying\ndepartments, divisions, and reporting relationships relevant to service delivery.\n"
+  },
+  {
+   "id": "p17-s2",
+   "page": 17,
+   "start": 351,
+   "end": 485,
+   "chars": 134,
+   "text": "• Identification of key personnel proposed for this engagement, including role\ndescriptions, qualifications, and relevant experience.\n"
+  },
+  {
+   "id": "p17-s3",
+   "page": 17,
+   "start": 485,
+   "end": 630,
+   "chars": 145,
+   "text": "• Staffing plan that details on-site and off-site resources, after-hours support, and\nescalation protocol and procedures for critical incidents.\n"
+  },
+  {
+   "id": "p17-s4",
+   "page": 17,
+   "start": 630,
+   "end": 681,
+   "chars": 51,
+   "text": "• A list of certifications held by proposed staff.\n"
+  },
+  {
+   "id": "p17-s5",
+   "page": 17,
+   "start": 681,
+   "end": 815,
+   "chars": 134,
+   "text": "• A description of any subcontractors or third-party partners involved in service delivery,\nincluding their roles and qualifications.\n"
+  },
+  {
+   "id": "p17-s6",
+   "page": 17,
+   "start": 815,
+   "end": 941,
+   "chars": 126,
+   "text": "Scope of Services\n• The Respondent shall describe its proposed approach to fulfilling the full scope of\noperational services. "
+  },
+  {
+   "id": "p17-s7",
+   "page": 17,
+   "start": 941,
+   "end": 1165,
+   "chars": 224,
+   "text": "A detailed explanation of how the Respondent will manage the\nfollowing service areas:\no Microsoft Infrastructure management, Microsoft 365, and related programs\no Workstation and endpoint support, patching, and maintenance.\n"
+  },
+  {
+   "id": "p17-s8",
+   "page": 17,
+   "start": 1165,
+   "end": 1307,
+   "chars": 142,
+   "text": "o Office Networking, Directory services, capacity planning, and back up\noperations\n• Help Desk Services – approximately 125 tickets annually. "
+  },
+  {
+   "id": "p17-s9",
+   "page": 17,
+   "start": 1307,
+   "end": 1479,
+   "chars": 172,
+   "text": "The expected support hours\nto be provided are the MPO’s regular business hours: Monday – Friday 8am – 5pm,\nother than on holidays when the agency is closed for operations. "
+  },
+  {
+   "id": "p17-s10",
+   "page": 17,
+   "start": 1479,
+   "end": 1597,
+   "chars": 118,
+   "text": "After-hours or\nweekend support is not expected on a regular basis and would only be required in\nemergency situations.\n"
+  },
+  {
+   "id": "p17-s11",
+   "page": 17,
+   "start": 1597,
+   "end": 1876,
+   "chars": 279,
+   "text": "• The Respondent shall possess experience and working knowledge of audiovisual (AV)\nsystems and their integration with network infrastructure, including but not limited to\nconnectivity, bandwidth requirements, security considerations, and interoperability\nwith existing systems.\n"
+  },
+  {
+   "id": "p17-s12",
+   "page": 17,
+   "start": 1876,
+   "end": 1959,
+   "chars": 83,
+   "text": "• The Respondent shall outline its approach to security operations and compliance.\n"
+  },
+  {
+   "id": "p17-s13",
+   "page": 17,
+   "start": 1959,
+   "end": 2058,
+   "chars": 99,
+   "text": "o Description of Security Operations\n Patch management for servers, network devices, and systems.\n"
+  },
+  {
+   "id": "p17-s14",
+   "page": 17,
+   "start": 2058,
+   "end": 2246,
+   "chars": 188,
+   "text": " Identity and Access Management\n Threat Detection, vulnerability scanning, and remediation workflows\no An overview of how the Respondent will enforce governance and compliance\npolicies.\n"
+  },
+  {
+   "id": "p17-s15",
+   "page": 17,
+   "start": 2246,
+   "end": 2520,
+   "chars": 274,
+   "text": "o A description of additional add-on services such as\n Penetration Testing (Methodology, tools, reporting)\n Risk Assessments and Configuration Reviews\n Configuration Management Database (CMDB) and backup validation\nactivities\n\nRemainder of page intentionally left blank.\n"
+  },
+  {
+   "id": "p17-s16",
+   "page": 17,
+   "start": 2521,
+   "end": 2523,
+   "chars": 2,
+   "text": "17"
+  },
+  {
+   "id": "p18-s0",
+   "page": 18,
+   "start": 0,
+   "end": 152,
+   "chars": 152,
+   "text": "Client Communication, References, and Responsiveness\n• Three (3) Customer References with comparable requirements or similarly scoped\nmanaged services.\n"
+  },
+  {
+   "id": "p18-s1",
+   "page": 18,
+   "start": 152,
+   "end": 231,
+   "chars": 79,
+   "text": "• Hybrid service model with a strong onsite component for hands-on IT support.\n"
+  },
+  {
+   "id": "p18-s2",
+   "page": 18,
+   "start": 231,
+   "end": 535,
+   "chars": 304,
+   "text": "While certain services may be performed remotely such as system monitoring, routine\nmaintenance, helpdesk support, etc. Proposers should anticipate providing regular\nonsite support for tasks that require physical presence, including but not limited to:\no Support and servicing of workstations, hardware, "
+  },
+  {
+   "id": "p18-s3",
+   "page": 18,
+   "start": 535,
+   "end": 848,
+   "chars": 313,
+   "text": "and peripheral devices\no Installation and configuration of equipment\no Resolution of issues that cannot be addressed remotely\no General onsite IT support as needed by Agency Staff\n• The Respondent shall describe how it will maintain transparency and collaborate\neffectively with the MPO throughout the term of the"
+  },
+  {
+   "id": "p18-s4",
+   "page": 18,
+   "start": 848,
+   "end": 859,
+   "chars": 11,
+   "text": " contract.\n"
+  },
+  {
+   "id": "p18-s5",
+   "page": 18,
+   "start": 859,
+   "end": 1176,
+   "chars": 317,
+   "text": "o A description of the proposed reporting deliverables\n Key Performance Indicators (KPI’s)\n Compliance Dashboards\n Incident and problem trend reporting\n Service Catalogue Use and Change Tracking\n Inventory reports\no A summary of tools or platforms used for live and static reporting\no Proposed format and cadence"
+  },
+  {
+   "id": "p18-s6",
+   "page": 18,
+   "start": 1176,
+   "end": 1381,
+   "chars": 205,
+   "text": " for recurring service review meetings, including\na sample agenda and approach to documenting follow-ups\no A communication protocol for issue escalation, service interruptions, and\nemergency coordination.\n"
+  },
+  {
+   "id": "p18-s7",
+   "page": 18,
+   "start": 1381,
+   "end": 1416,
+   "chars": 35,
+   "text": "o A collaboration plan addressing:\n"
+  },
+  {
+   "id": "p18-s8",
+   "page": 18,
+   "start": 1416,
+   "end": 1716,
+   "chars": 300,
+   "text": " Integration with agency-managed endpoint services\n Joint troubleshooting and policy enforcement efforts\n Onboarding and training practices for shared workflows\nSECTION 4 – DOCUMENTS TO BE SUBMITTED\nThe Respondent shall complete and submit the following documents as part of its formal\nsubmittal. "
+  },
+  {
+   "id": "p18-s9",
+   "page": 18,
+   "start": 1716,
+   "end": 1806,
+   "chars": 90,
+   "text": "FAILURE TO COMPLETE, SIGN AND SUBMIT THESE DOCUMENTS MAY DEEM\nA SUBMITTAL NON-RESPONSIVE.\n"
+  },
+  {
+   "id": "p18-s10",
+   "page": 18,
+   "start": 1806,
+   "end": 1809,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p18-s11",
+   "page": 18,
+   "start": 1809,
+   "end": 1922,
+   "chars": 113,
+   "text": "Attachment A – (One (1) page (8.5”x 11”) organization chart identifying key personnel,\nroles and subconsultants; "
+  },
+  {
+   "id": "p18-s12",
+   "page": 18,
+   "start": 1922,
+   "end": 1940,
+   "chars": 18,
+   "text": "if applicable)\n2. "
+  },
+  {
+   "id": "p18-s13",
+   "page": 18,
+   "start": 1940,
+   "end": 1979,
+   "chars": 39,
+   "text": "Attachment B – Business Information\n3. "
+  },
+  {
+   "id": "p18-s14",
+   "page": 18,
+   "start": 1979,
+   "end": 2044,
+   "chars": 65,
+   "text": "Attachment C – MPO Authorized Representative Form (Notarized)\n4. "
+  },
+  {
+   "id": "p18-s15",
+   "page": 18,
+   "start": 2044,
+   "end": 2122,
+   "chars": 78,
+   "text": "Attachment D –Affidavit Regarding Labor and Services (Form No. 375-030-31)\n5. "
+  },
+  {
+   "id": "p18-s16",
+   "page": 18,
+   "start": 2122,
+   "end": 2176,
+   "chars": 54,
+   "text": "Attachment E – Drugfree Workplace Certificate Form\n6. "
+  },
+  {
+   "id": "p18-s17",
+   "page": 18,
+   "start": 2176,
+   "end": 2229,
+   "chars": 53,
+   "text": "Attachment F – Three (3) Customer Reference Forms\n7. "
+  },
+  {
+   "id": "p18-s18",
+   "page": 18,
+   "start": 2229,
+   "end": 2413,
+   "chars": 184,
+   "text": "Attachment G – Amendment Acknowledgement Form (if applicable)\n*Please check the MPO website and/or DemandStar prior to submission to verify if\nan amendment to the RFP has been issued. "
+  },
+  {
+   "id": "p18-s19",
+   "page": 18,
+   "start": 2413,
+   "end": 2499,
+   "chars": 86,
+   "text": "If an amendment has been issued, the\nAmendment Acknowledgement Form must be attached.\n"
+  },
+  {
+   "id": "p18-s20",
+   "page": 18,
+   "start": 2500,
+   "end": 2502,
+   "chars": 2,
+   "text": "18"
+  },
+  {
+   "id": "p19-s0",
+   "page": 19,
+   "start": 0,
+   "end": 11,
+   "chars": 11,
+   "text": "IMPORTANT! "
+  },
+  {
+   "id": "p19-s1",
+   "page": 19,
+   "start": 11,
+   "end": 26,
+   "chars": 15,
+   "text": "FAILURE TO:\n1.\n"
+  },
+  {
+   "id": "p19-s2",
+   "page": 19,
+   "start": 26,
+   "end": 29,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p19-s3",
+   "page": 19,
+   "start": 29,
+   "end": 32,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p19-s4",
+   "page": 19,
+   "start": 32,
+   "end": 35,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p19-s5",
+   "page": 19,
+   "start": 35,
+   "end": 38,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p19-s6",
+   "page": 19,
+   "start": 39,
+   "end": 355,
+   "chars": 316,
+   "text": "SUBMIT THE ITEMS CONTAINED IN THIS CHECKLIST\nSUBMIT THE FORMS COMPLETED IN ITS ENTIRETY\nMEET ALL PROPOSAL REQUIREMENTS\nPROVIDE ALL SIGNATURES SIGNED BY AN AUTHORIZED REPRESENTATIVE\nNOTARIZE DOCUMENTS THAT REQUIRE NOTARIZATION\n\nWILL BE CAUSE FOR THE PROPOSAL TO BE DEEMED “NON-RESPONSIVE” AND WILL\nRESULT IN IMMEDIATE"
+  },
+  {
+   "id": "p19-s7",
+   "page": 19,
+   "start": 355,
+   "end": 390,
+   "chars": 35,
+   "text": " REJECTION OF THE ENTIRE PROPOSAL.\n"
+  },
+  {
+   "id": "p19-s8",
+   "page": 19,
+   "start": 391,
+   "end": 402,
+   "chars": 11,
+   "text": "CHECKLIST:\n"
+  },
+  {
+   "id": "p19-s9",
+   "page": 19,
+   "start": 402,
+   "end": 721,
+   "chars": 319,
+   "text": "_____Cover Letter\n_____Table of Contents\n_____Technical Project Proposal (Maximum 10 pages)\n_____ATTACHMENT A – Organizational Chart\n_____ATTACHMENT B – Business Information Form\n_____ATTACHMENT C – MPO Authorized Representatives Form\n_____ATTACHMENT D – Labor and Services Affidavit 375-030-31 Form\n_____ATTACHMENT E –"
+  },
+  {
+   "id": "p19-s10",
+   "page": 19,
+   "start": 721,
+   "end": 966,
+   "chars": 245,
+   "text": " Drug Free Workplace Certification Form\n_____ATTACHMENT F – Three (3) Customer Reference Forms\n_____ATTACHMENT G – Amendment Acknowledgement Form (if applicable)\nAdditional requirements for the proposal may be found throughout the RFP document. "
+  },
+  {
+   "id": "p19-s11",
+   "page": 19,
+   "start": 966,
+   "end": 1058,
+   "chars": 92,
+   "text": "Please\nread the RFP document in its entirety to ensure that all requirements have been met. "
+  },
+  {
+   "id": "p19-s12",
+   "page": 19,
+   "start": 1058,
+   "end": 1196,
+   "chars": 138,
+   "text": "Any proposal\nsubmitted without the required documentation may be considered non-responsive and\nsubsequently ineligible for consideration.\n"
+  },
+  {
+   "id": "p19-s13",
+   "page": 19,
+   "start": 1197,
+   "end": 1199,
+   "chars": 2,
+   "text": "19"
+  },
+  {
+   "id": "p20-s0",
+   "page": 20,
+   "start": 0,
+   "end": 27,
+   "chars": 27,
+   "text": "SECTION 5 – ATTACHMENTS\n\n20"
+  },
+  {
+   "id": "p21-s0",
+   "page": 21,
+   "start": 0,
+   "end": 231,
+   "chars": 231,
+   "text": "BUSINESS INFORMATION FORM\nNAME OF ENTITY:\n(Exactly as it is to appear on the Contract/Agreement)\nENTITY ADDRESS:\nCONTACT\n\nPERSON:\nTITLE:\n\nTELEPHONE NUMBER: (\n\n)\n\nEMAIL:\n\nIf Respondent is a subsidiary, state name of parent company:\n"
+  },
+  {
+   "id": "p21-s1",
+   "page": 21,
+   "start": 231,
+   "end": 325,
+   "chars": 94,
+   "text": "All information provided herein must be as to Respondent (subsidiary) and not parent company.\n"
+  },
+  {
+   "id": "p21-s2",
+   "page": 21,
+   "start": 325,
+   "end": 338,
+   "chars": 13,
+   "text": "FEDERAL I.D. "
+  },
+  {
+   "id": "p21-s3",
+   "page": 21,
+   "start": 338,
+   "end": 514,
+   "chars": 176,
+   "text": "NUMBER:\nFORM OF ENTITY:\n[ ] Corporation\n[ ] Partnership, Limited\n\n[ ] Limited Liability Company\n[ ] Joint Venture\n\nIs Entity registered to do business in the State of Florida? "
+  },
+  {
+   "id": "p21-s4",
+   "page": 21,
+   "start": 514,
+   "end": 606,
+   "chars": 92,
+   "text": "Yes [\n\n[ ] Partnership, General\n[ ] Sole Proprietorship\n\n] No [\n\n] If yes, as of what date?\n"
+  },
+  {
+   "id": "p21-s5",
+   "page": 21,
+   "start": 607,
+   "end": 706,
+   "chars": 99,
+   "text": "MANDATORY RESPONDENT CERTIFICATIONS:\nThe Respondent certifies by signature below the following:\n1. "
+  },
+  {
+   "id": "p21-s6",
+   "page": 21,
+   "start": 706,
+   "end": 931,
+   "chars": 225,
+   "text": "The Respondent will register with the Florida Division of Corporations as either a Florida or foreign corporation\nprior to the effective date of the contract with the MPO if it is the Awardee and is not presently registered.\n"
+  },
+  {
+   "id": "p21-s7",
+   "page": 21,
+   "start": 931,
+   "end": 934,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p21-s8",
+   "page": 21,
+   "start": 934,
+   "end": 1199,
+   "chars": 265,
+   "text": "The completed PRICE PROPOSAL is submitted as the current, accurate, complete and all-inclusive Total\nPricing, including “out-of-pocket” expenses (if any), to provide the MPO with Services in accordance with the\nRequirements/Services set forth in this RFP document.\n"
+  },
+  {
+   "id": "p21-s9",
+   "page": 21,
+   "start": 1199,
+   "end": 1202,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p21-s10",
+   "page": 21,
+   "start": 1202,
+   "end": 1377,
+   "chars": 175,
+   "text": "This Submittal is current, accurate, complete, and is presented to the MPO for the performance of this contract\nin accordance with all the requirements as stated in this RFP.\n"
+  },
+  {
+   "id": "p21-s11",
+   "page": 21,
+   "start": 1377,
+   "end": 1380,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p21-s12",
+   "page": 21,
+   "start": 1380,
+   "end": 1629,
+   "chars": 249,
+   "text": "The Submittal is provided without prior understanding, agreement, or connection with any corporation, firm, or\nperson providing a Submittal for the same materials, services, and supplies and is, in all respects, fair and\nwithout collusion or fraud.\n"
+  },
+  {
+   "id": "p21-s13",
+   "page": 21,
+   "start": 1629,
+   "end": 1632,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p21-s14",
+   "page": 21,
+   "start": 1632,
+   "end": 1906,
+   "chars": 274,
+   "text": "The Respondent has the financial stability to fully perform the terms and conditions as specified herein and will\nprovide financial information to document this upon request by the MPO at any time during the solicitation\nprocess and in any form deemed necessary by the MPO.\n"
+  },
+  {
+   "id": "p21-s15",
+   "page": 21,
+   "start": 1906,
+   "end": 1979,
+   "chars": 73,
+   "text": "RESPONDENT’S AUTHORIZED SIGNATURE:\nSIGNATURE:\n\nTITLE:\n\nPRINT NAME:\n\nDATE:"
+  },
+  {
+   "id": "p22-s0",
+   "page": 22,
+   "start": 0,
+   "end": 143,
+   "chars": 143,
+   "text": "AUTHORIZED REPRESENTATIVE DECLARATIONS FORM\n(Name\nof\nRespondent\nRepresentative)\nfor\n(Respondent), being duly sworn, deposes and says that:\n\n1. "
+  },
+  {
+   "id": "p22-s1",
+   "page": 22,
+   "start": 143,
+   "end": 324,
+   "chars": 181,
+   "text": "The Signatory is an “Authorized Agent” who can bind the above-listed entity to all terms and conditions\nof the Request for Proposals/Services and the subsequent Proposal Submittal.\n"
+  },
+  {
+   "id": "p22-s2",
+   "page": 22,
+   "start": 324,
+   "end": 327,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p22-s3",
+   "page": 22,
+   "start": 327,
+   "end": 506,
+   "chars": 179,
+   "text": "The Signatory is fully informed respecting the preparation and contents of the attached Proposal and\nof all Forms, Affidavits and documents submitted in support of such Proposal;\n"
+  },
+  {
+   "id": "p22-s4",
+   "page": 22,
+   "start": 506,
+   "end": 509,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p22-s5",
+   "page": 22,
+   "start": 509,
+   "end": 795,
+   "chars": 286,
+   "text": "The Signatory declares no portion of the sum that Respondent may receive as a result of this\nSolicitation will be paid to any employees of the Palm Beach Metropolitan Planning Organization\n(MPO), its elected officials, and/or its consultants, as a commission, kickback, reward or gift,\n"
+  },
+  {
+   "id": "p22-s6",
+   "page": 22,
+   "start": 795,
+   "end": 886,
+   "chars": 91,
+   "text": "directly or indirectly by me or any member of my firm or by an officer of the corporation.\n"
+  },
+  {
+   "id": "p22-s7",
+   "page": 22,
+   "start": 886,
+   "end": 889,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p22-s8",
+   "page": 22,
+   "start": 889,
+   "end": 1096,
+   "chars": 207,
+   "text": "The Signatory declares that the Respondent represented herein shall not discriminate against any\nperson in its operations, activities or delivery of services under any agreement it enters into with the\nTPA. "
+  },
+  {
+   "id": "p22-s9",
+   "page": 22,
+   "start": 1096,
+   "end": 1392,
+   "chars": 296,
+   "text": "The same shall affirmatively comply with all applicable provisions of federal, state and local\nequal employment laws and shall not engage in or commit any discriminatory practice against any\nperson based on race, age, religion, color, gender, sexual orientation, national origin, marital status,\n"
+  },
+  {
+   "id": "p22-s10",
+   "page": 22,
+   "start": 1392,
+   "end": 1528,
+   "chars": 136,
+   "text": "physical or mental disability, political affiliation or any other factor which cannot be lawfully used as a\nbasis for service delivery.\n"
+  },
+  {
+   "id": "p22-s11",
+   "page": 22,
+   "start": 1528,
+   "end": 1531,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p22-s12",
+   "page": 22,
+   "start": 1531,
+   "end": 1828,
+   "chars": 297,
+   "text": "The Signatory has attached, if applicable, a list of and description of any relationships, professional,\nfinancial or otherwise that Respondent may have with the MPO, its elected or appointed officials, its\nemployees or agents or any of its agencies or component units for the past two (2) years.\n"
+  },
+  {
+   "id": "p22-s13",
+   "page": 22,
+   "start": 1828,
+   "end": 2071,
+   "chars": 243,
+   "text": "Additionally, the Respondent agrees and understands that Respondent shall give the MPO written\nnotice of any other relationships professional, financial or otherwise that Respondent enters into with\nthe MPO its elected or appointed officials, "
+  },
+  {
+   "id": "p22-s14",
+   "page": 22,
+   "start": 2071,
+   "end": 2174,
+   "chars": 103,
+   "text": "its employees or agents or any of its agencies or\ncomponent units during the period of this Agreement.\n"
+  },
+  {
+   "id": "p22-s15",
+   "page": 22,
+   "start": 2174,
+   "end": 2177,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p22-s16",
+   "page": 22,
+   "start": 2177,
+   "end": 2445,
+   "chars": 268,
+   "text": "The Submittal is provided as a genuine offer without prior understanding, agreement, or connection\nwith any corporation, firm, or person providing a Submittal for the same materials, services, and\nsupplies and is, in all respects, fair and without collusion or fraud.\n"
+  },
+  {
+   "id": "p22-s17",
+   "page": 22,
+   "start": 2445,
+   "end": 2448,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p22-s18",
+   "page": 22,
+   "start": 2448,
+   "end": 2715,
+   "chars": 267,
+   "text": "The completed PRICING PROPOSAL is submitted as the current, accurate, complete, and allinclusive Total Pricing, including “out-of-pocket” expenses (if any), to provide the MPO with Services in\naccordance with the Requirements/Services set forth in this RFP document.\n"
+  },
+  {
+   "id": "p22-s19",
+   "page": 22,
+   "start": 2715,
+   "end": 2718,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p22-s20",
+   "page": 22,
+   "start": 2718,
+   "end": 3013,
+   "chars": 295,
+   "text": "Any hourly rates quoted in the attached Submittal are fair and proper and are not tainted by any\ncollusion, conspiracy, connivance, or unlawful agreement on the part of the Respondent or any other\nof its agents, representatives, owners, employees or parties in interest, including this affiant.\n"
+  },
+  {
+   "id": "p22-s21",
+   "page": 22,
+   "start": 3013,
+   "end": 3016,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p22-s22",
+   "page": 22,
+   "start": 3016,
+   "end": 3129,
+   "chars": 113,
+   "text": "All Forms, Affidavits and documents submitted in support of and included in this Proposal are true\nand accurate;\n"
+  },
+  {
+   "id": "p22-s23",
+   "page": 22,
+   "start": 3129,
+   "end": 3133,
+   "chars": 4,
+   "text": "10. "
+  },
+  {
+   "id": "p22-s24",
+   "page": 22,
+   "start": 3133,
+   "end": 3237,
+   "chars": 104,
+   "text": "No information that should have been included in such Forms, Affidavits and documents has been\nomitted; "
+  },
+  {
+   "id": "p22-s25",
+   "page": 22,
+   "start": 3237,
+   "end": 3261,
+   "chars": 24,
+   "text": "and\n\nContinued Page 2\n\n1"
+  },
+  {
+   "id": "p23-s0",
+   "page": 23,
+   "start": 0,
+   "end": 48,
+   "chars": 48,
+   "text": "AUTHORIZED REPRESENTATIVE FORM - CONTINUED\n\n12. "
+  },
+  {
+   "id": "p23-s1",
+   "page": 23,
+   "start": 48,
+   "end": 143,
+   "chars": 95,
+   "text": "No information that is included in such Forms, Affidavits or documents is false or misleading.\n"
+  },
+  {
+   "id": "p23-s2",
+   "page": 23,
+   "start": 143,
+   "end": 147,
+   "chars": 4,
+   "text": "13. "
+  },
+  {
+   "id": "p23-s3",
+   "page": 23,
+   "start": 147,
+   "end": 421,
+   "chars": 274,
+   "text": "The Respondent has the financial stability to fully perform the terms and conditions as specified\nherein and will provide financial information to document this upon request by the MPO at any time\nduring the solicitation process and in any form deemed necessary by the MPO.\n"
+  },
+  {
+   "id": "p23-s4",
+   "page": 23,
+   "start": 421,
+   "end": 425,
+   "chars": 4,
+   "text": "14. "
+  },
+  {
+   "id": "p23-s5",
+   "page": 23,
+   "start": 425,
+   "end": 519,
+   "chars": 94,
+   "text": "Respondent and any sub-contractors or sub-consultants shall comply with Section 448.095, Fla. "
+  },
+  {
+   "id": "p23-s6",
+   "page": 23,
+   "start": 519,
+   "end": 660,
+   "chars": 141,
+   "text": "Stat.,\n\"Employment Eligibility,\" including registration and use of the E-Verify system to verify the work\nauthorization status of employees. "
+  },
+  {
+   "id": "p23-s7",
+   "page": 23,
+   "start": 660,
+   "end": 705,
+   "chars": 45,
+   "text": "Failure to comply with Section 448.095, Fla. "
+  },
+  {
+   "id": "p23-s8",
+   "page": 23,
+   "start": 705,
+   "end": 711,
+   "chars": 6,
+   "text": "Stat. "
+  },
+  {
+   "id": "p23-s9",
+   "page": 23,
+   "start": 711,
+   "end": 793,
+   "chars": 82,
+   "text": "shall result in\ntermination of the resulting Contract/Purchase Order, if awarded. "
+  },
+  {
+   "id": "p23-s10",
+   "page": 23,
+   "start": 793,
+   "end": 940,
+   "chars": 147,
+   "text": "Any challenge to termination under\nthis provision must be filed in the Circuit Court no later than 20 calendar days after the date of\ntermination. "
+  },
+  {
+   "id": "p23-s11",
+   "page": 23,
+   "start": 940,
+   "end": 1126,
+   "chars": 186,
+   "text": "If the contract is terminated for a violation of the statute by the Contractor, the Contractor\nmay not be awarded a public contract for a period of 1 year after the date of termination.\n"
+  },
+  {
+   "id": "p23-s12",
+   "page": 23,
+   "start": 1126,
+   "end": 1130,
+   "chars": 4,
+   "text": "15. "
+  },
+  {
+   "id": "p23-s13",
+   "page": 23,
+   "start": 1130,
+   "end": 1355,
+   "chars": 225,
+   "text": "The Respondent will register with the Florida Division of Corporations as either a Florida or foreign\ncorporation prior to the effective date of the contract with the MPO if it is the Awardee and is not\npresently registered.\n"
+  },
+  {
+   "id": "p23-s14",
+   "page": 23,
+   "start": 1356,
+   "end": 1603,
+   "chars": 247,
+   "text": "Signature\n(CORPORATE SEAL)\nPrint Name\nTitle\nDate\nSTATE OF FLORIDA\nCOUNTY OF\n\n)\n)\n\nThe foregoing instrument was acknowledged before me this\nPersonally known to me\nHas produced Identification\n\nday of\n\n, 20 ,\n\nOR\n, type of identification produced\n\n.\n"
+  },
+  {
+   "id": "p23-s15",
+   "page": 23,
+   "start": 1604,
+   "end": 1898,
+   "chars": 294,
+   "text": "Notary Public, State of Florida\n(Printed Name)\nMy commission expires:\nIMPORTANT: FAILURE TO SUBMIT THIS PAGE, INCLUDING ALL REQUIRED INFORMATION AND\nSIGNATURES, WILL BE CAUSE FOR THE PROPOSAL TO BE DEEMED “NON-RESPONSIVE” AND\nWILL RESULT IN IMMEDIATE REJECTION OF THE ENTIRE PROPOSAL RESPONSE.\n"
+  },
+  {
+   "id": "p23-s16",
+   "page": 23,
+   "start": 1899,
+   "end": 1900,
+   "chars": 1,
+   "text": "2"
+  },
+  {
+   "id": "p24-s0",
+   "page": 24,
+   "start": 0,
+   "end": 294,
+   "chars": 294,
+   "text": "STATE OF FLORIDA DEPARTMENT OF TRANSPORTATION\n\nAFFIDAVIT REGARDING LABOR AND SERVICES\n\n375-030-31\nPROCUREMENT\n11/25\n\nEffective July 1, 2024, pursuant to §787.06(14), Florida Statutes, when a contract is executed, renewed, or\nextended between a nongovernmental entity and a governmental entity, "
+  },
+  {
+   "id": "p24-s1",
+   "page": 24,
+   "start": 294,
+   "end": 559,
+   "chars": 265,
+   "text": "the nongovernmental entity must\nprovide the governmental entity with an affidavit signed by an officer or a representative of the\nnongovernmental entity under penalty of perjury attesting that the nongovernmental entity does not use\ncoercion for labor or services.\n"
+  },
+  {
+   "id": "p24-s2",
+   "page": 24,
+   "start": 559,
+   "end": 775,
+   "chars": 216,
+   "text": "Nongovernmental Entity's Name:\nAddress:\nPhone Number:\nAuthorized Representative’s Name:\nAuthorized Representative’s Title:\nEmail Address:\n\nAFFIDAVIT\nI, insert nongovernmental entity's authorized representative name, "
+  },
+  {
+   "id": "p24-s3",
+   "page": 24,
+   "start": 775,
+   "end": 938,
+   "chars": 163,
+   "text": "as authorized representative attest that\ninsert nongovernmental entity's name does not use coercion for labor or services as defined in §787.06,\nFlorida Statutes.\n"
+  },
+  {
+   "id": "p24-s4",
+   "page": 24,
+   "start": 938,
+   "end": 1057,
+   "chars": 119,
+   "text": "Under penalty of perjury, I declare that I have read the foregoing Affidavit and that the facts stated in it\nare true.\n"
+  },
+  {
+   "id": "p24-s5",
+   "page": 24,
+   "start": 1058,
+   "end": 1360,
+   "chars": 302,
+   "text": "(Signature of authorized representative)\n\nDate\n\nSTATE\nCOUNTY OF\nSworn to (or affirmed) and subscribed before me, by means of\nday of\n,\n(year), by\nNotary Public\nCommission Expires\nOR Produced Identification\nPersonally Known\nType of Identification Produced\n\nphysical presence or\n\nonline notarization, this"
+  },
+  {
+   "id": "p25-s0",
+   "page": 25,
+   "start": 0,
+   "end": 220,
+   "chars": 220,
+   "text": "DRUG FREE WORKPLACE CERTIFICATION FORM\nTo certify a drug-free workplace program, a business entity shall:\n(1)\n\nPublish a statement notifying employees that the unlawful manufacture, distribution,\ndispensing, possession, "
+  },
+  {
+   "id": "p25-s1",
+   "page": 25,
+   "start": 220,
+   "end": 384,
+   "chars": 164,
+   "text": "or use of a controlled substance is prohibited in the workplace\nand specifying the actions that will be taken against employees for violations of such\nprohibition.\n"
+  },
+  {
+   "id": "p25-s2",
+   "page": 25,
+   "start": 385,
+   "end": 670,
+   "chars": 285,
+   "text": "(2)\n\nInform employees about the dangers of drug abuse in the workplace, the agency's\npolicy of maintaining a drug-free workplace, any available drug counseling,\nrehabilitation, employee assistance programs, and the penalties that may be imposed\nupon employees for drug use violations.\n"
+  },
+  {
+   "id": "p25-s3",
+   "page": 25,
+   "start": 671,
+   "end": 824,
+   "chars": 153,
+   "text": "(3)\n\nGive each employee engaged in providing the commodities or contractual services that\nare under bid a copy of the statement specified in number (1).\n"
+  },
+  {
+   "id": "p25-s4",
+   "page": 25,
+   "start": 825,
+   "end": 1134,
+   "chars": 309,
+   "text": "(4)\n\nIn the statement specified in number (1), notify the employees that, as a condition of\nworking on the commodities or contractual services that are under bid, the employee\nwill abide by the terms of the statement and will notify the employer of any conviction\nof, or plea of guilty or nolo contendere to, "
+  },
+  {
+   "id": "p25-s5",
+   "page": 25,
+   "start": 1134,
+   "end": 1346,
+   "chars": 212,
+   "text": "any violation of Chapter 893, Florida Statutes,\nor of any controlled substance law of the United States or any state, for a violation\noccurring in the workplace no later than five (5) days after such conviction.\n"
+  },
+  {
+   "id": "p25-s6",
+   "page": 25,
+   "start": 1347,
+   "end": 1555,
+   "chars": 208,
+   "text": "(5)\n\nImpose a sanction on or require the satisfactory participation in a drug abuse assistance\nor rehabilitation program if such is available in the employee's community, by any\nemployee who is so convicted.\n"
+  },
+  {
+   "id": "p25-s7",
+   "page": 25,
+   "start": 1556,
+   "end": 1690,
+   "chars": 134,
+   "text": "(6)\n\nMake a good faith effort to continue to maintain a drug-free workplace through\nimplementation Section 287.087, Florida Statutes.\n"
+  },
+  {
+   "id": "p25-s8",
+   "page": 25,
+   "start": 1691,
+   "end": 1727,
+   "chars": 36,
+   "text": "THIS CERTIFICATION is submitted by: "
+  },
+  {
+   "id": "p25-s9",
+   "page": 25,
+   "start": 1727,
+   "end": 2040,
+   "chars": 313,
+   "text": "____________________________________________\n(Authorized Agent’s Name)\n____________________________________ of ______________________________________\n(Title/Position with Entity)\n\n(Entity Name)\n\nwho does hereby certify that said Entity has implemented a drug-free workplace program which\nmeets the requirements of"
+  },
+  {
+   "id": "p25-s10",
+   "page": 25,
+   "start": 2040,
+   "end": 2131,
+   "chars": 91,
+   "text": " Section 287.087, Florida Statutes, which are identified in numbers (1)\nthrough (6) above.\n"
+  },
+  {
+   "id": "p25-s11",
+   "page": 25,
+   "start": 2132,
+   "end": 2435,
+   "chars": 303,
+   "text": "___________________________________\n\n______________________\n\nSignature\n\nDate\n\nIMPORTANT: FAILURE TO SUBMIT THESE PAGES, INCLUDING ALL REQUIRED\nINFORMATION AND SIGNATURES, WILL BE CAUSE FOR THE PROPOSAL TO BE\nDEEMED “NON-RESPONSIVE” AND WILL RESULT IN IMMEDIATE REJECTION\nOF THE ENTIRE PROPOSAL RESPONSE."
+  },
+  {
+   "id": "p26-s0",
+   "page": 26,
+   "start": 0,
+   "end": 238,
+   "chars": 238,
+   "text": "CUSTOMER REFERENCE FORM\nRFP NO. 2026-07\nContractor/Consultant name:\nCustomer company name:\nCustomer contact person:\nCustomer phone number:\nCustomer E-mail address:\nContract Duration:\n\nDescribe Nature of Services Rendered to This Client:\n\n"
+  },
+  {
+   "id": "p26-s1",
+   "page": 26,
+   "start": 238,
+   "end": 360,
+   "chars": 122,
+   "text": "FAILURE TO COMPLETE AND RETURN THIS FORM MAY DEEM YOUR PROPOSAL NONRESPONSIVE\n\nThis section to be completed by MPO Staff.\n"
+  },
+  {
+   "id": "p26-s2",
+   "page": 26,
+   "start": 360,
+   "end": 547,
+   "chars": 187,
+   "text": "Consistent delivery of service\n\nScale of 1 to 5*\n\nStaff professionalism\n\nScale of 1 to 5*\n\nOverall Customer Satisfaction\n\nScale of 1 to 5*\n* 1 indicating poor and 5 indicating excellent.\n"
+  },
+  {
+   "id": "p26-s3",
+   "page": 26,
+   "start": 548,
+   "end": 578,
+   "chars": 30,
+   "text": "Palm Beach MPO RFP NO. 2026-07"
+  },
+  {
+   "id": "p27-s0",
+   "page": 27,
+   "start": 0,
+   "end": 270,
+   "chars": 270,
+   "text": "ATTACHMENT - Amendment Acknowledgment Form\n\nAmendment #:\n\nDate Received:\n\n_____________________________________\nAmendment #:\n\n_____________________________\nDate Received:\n\n_____________________________________\nAmendment #:\n\n_____________________________\nDate Received:\n\n"
+  },
+  {
+   "id": "p27-s1",
+   "page": 27,
+   "start": 270,
+   "end": 548,
+   "chars": 278,
+   "text": "_____________________________________\nAmendment #:\n\n_____________________________\nDate Received:\n\n_____________________________________\nAmendment #:\n\n_____________________________\nDate Received:\n\n_____________________________________\n\n_____________________________\n\nRespondent: "
+  },
+  {
+   "id": "p27-s2",
+   "page": 27,
+   "start": 548,
+   "end": 814,
+   "chars": 266,
+   "text": "___________________________________________________________\n(Company Name)\nAuthorized Signature: ____________________________________________________\nPrint Name: ____________________________________________________________\n\nIMPORTANT: FAILURE TO SUBMIT THESE PAGES, "
+  },
+  {
+   "id": "p27-s3",
+   "page": 27,
+   "start": 814,
+   "end": 910,
+   "chars": 96,
+   "text": "INCLUDING ALL THE REQUIRED\nINFORMATION AND SIGNATURES, WILL RESULT IN REJECTION OF THE PROPOSAL."
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 27
+ }
+}

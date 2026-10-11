@@ -1,0 +1,1028 @@
+{
+ "schema": "span-index/1",
+ "fixture": "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf",
+ "fixture_sha256": "b38b517f17db024f12a3a282c267e9f8fb1ccad863170e57a7af66420d0b8c97",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "c5c99a42a94893b23c5df169ec0831a2a76a776fd5e9a2830550fc7f1b18c96f",
+   "chars": 358
+  },
+  {
+   "number": 2,
+   "sha256": "53758b11fb9410e97ae4964fdf8308e1ca3ebcfd729ad071a1b53c42eaa22503",
+   "chars": 2130
+  },
+  {
+   "number": 3,
+   "sha256": "8ea60de26d46b82232e486e702a18b166980c848736dac8c82afa582272af2e3",
+   "chars": 1690
+  },
+  {
+   "number": 4,
+   "sha256": "2bf770d2cd03291496b5572b608726b534bacd12611c7885e98b49d83658f3bf",
+   "chars": 2549
+  },
+  {
+   "number": 5,
+   "sha256": "f2969698aeb9c148270c792fa30f0698a870c0d0c2abfea6edee17651f3c260c",
+   "chars": 2752
+  },
+  {
+   "number": 6,
+   "sha256": "451727a2fa1d45cfeb82a88a6b6c29ce391a789bc33b69f2a33bf61876e03770",
+   "chars": 2557
+  },
+  {
+   "number": 7,
+   "sha256": "3a5864b057244f93e6c8560ea5ff9e70ef5c0dd93a0ac03f20d91b3c943eb71a",
+   "chars": 2404
+  },
+  {
+   "number": 8,
+   "sha256": "7f947b0225a96a02e2a2c2db61719a4df7b17cae2cc2bfc8006147399bf58cf4",
+   "chars": 433
+  },
+  {
+   "number": 9,
+   "sha256": "f54900f3b4d11a28b9abe0f5d40bdd1fdc94428654042eba3a53fd63af671df8",
+   "chars": 1593
+  },
+  {
+   "number": 10,
+   "sha256": "35eda33d076c5ca18992ca89d11d1f762011c8492a924ebc93b45a38ef99e9dc",
+   "chars": 127
+  }
+ ],
+ "span_count": 120,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 305,
+   "chars": 305,
+   "text": "Request for Proposals for AI Hub Data Commons Collaborative\nConsulting Services\nRFP No. 2026-JAII-01\n\nMassachusetts Technology Collaborative\n75 North Drive\nWestborough, MA 01581-3340\nhttp://www.masstech.org\n\nProcurement Team Leader:\nRFP Issued:\nQuestions Due:\nAnswers to Questions Posted:\nResponses Due:\n\n"
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 305,
+   "end": 358,
+   "chars": 53,
+   "text": "Sabrina Mansur\n8/21/2025\n9/2/2025\n9/16/2025\n9/23/2025"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 64,
+   "chars": 64,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\n1. "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 64,
+   "end": 344,
+   "chars": 280,
+   "text": "INTRODUCTION\n1.1 Overview\nThe Massachusetts Technology Collaborative (\"MassTech\"), on behalf of the Massachusetts AI\nHub, is issuing this Request for Proposals (\"RFP\") for Consulting Services to support the\ndesign, development, and launch of the Data Commons Collaborative (DCC), "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 344,
+   "end": 402,
+   "chars": 58,
+   "text": "a foundational\ninitiative under the Massachusetts AI Hub. "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 402,
+   "end": 498,
+   "chars": 96,
+   "text": "This engagement aims to centralize access to data\nfor AI development, research, and innovation.\n"
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 498,
+   "end": 744,
+   "chars": 246,
+   "text": "Qualified Respondents (\"Respondents\") will be evaluated based on their proposed architecture\ndesign, approach to metadata management, security and governance frameworks, ability to\nsupport synthetic data generation, and AI fairness capabilities.\n"
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 744,
+   "end": 1049,
+   "chars": 305,
+   "text": "Mass Tech Collaborative will be the contracting entity on behalf of the Massachusetts AI Hub\nfor the purposes of this RFP, and (except where the specific context warrants otherwise), the\nMassachusetts AI Hub and Mass Tech Collaborative are collectively referred to as Mass Tech\nCollaborative or MassTech.\n"
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 1049,
+   "end": 1229,
+   "chars": 180,
+   "text": "1.2 About the AI Hub and the DCC\nThe Massachusetts AI Hub is a state-wide initiative to accelerate AI development, commercial\ngrowth, and equitable access across the Commonwealth. "
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 1229,
+   "end": 1470,
+   "chars": 241,
+   "text": "The Data Commons Collaborative\n(DCC) aims to:\n• Aggregate and host curated datasets\n• Enable synthetic data generation\n• Ensure ethical, fair, and secure AI development\n• Provide an extensible platform for researchers, government, startups, "
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 1470,
+   "end": 1563,
+   "chars": 93,
+   "text": "and industry\nPlease refer to the attached \"DCC Requirements.docx\" for detailed requirements.\n"
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1563,
+   "end": 1566,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 1566,
+   "end": 1732,
+   "chars": 166,
+   "text": "SERVICES REQUIRED\nThe selected Respondent will provide full-service project management and technical consulting\nservices for the development and delivery of the DCC. "
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 1732,
+   "end": 1790,
+   "chars": 58,
+   "text": "The work includes, but is not limited to\n(“Services”):\n1. "
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 1790,
+   "end": 2001,
+   "chars": 211,
+   "text": "Program Management & Coordination\n• Develop and maintain an integrated project plan and timeline\n• Conduct regular meetings and stakeholder updates\n• Ensure milestones defined in the DCC project plan are met\n2. "
+  },
+  {
+   "id": "p2-s13",
+   "page": 2,
+   "start": 2001,
+   "end": 2130,
+   "chars": 129,
+   "text": "Technical Architecture & Platform Development\n• Design and build the data commons website and backend infrastructure\nPage 2 of 10"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 146,
+   "chars": 146,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\n•\n•\n•\n•\n\nImplement metadata management, cataloging, and discovery tools (e.g., CKAN,\n"
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 146,
+   "end": 323,
+   "chars": 177,
+   "text": "Dataverse)\nDevelop role-based access and identity management system\nDevelop a central ledger for tracking “Commons Credits”\nEnable API-based data access and usage analytics\n\n3. "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 323,
+   "end": 535,
+   "chars": 212,
+   "text": "Dataset Curation and Integration\n• Assist in curating the initial set of datasets\n• Ensure metadata completeness and FAIR data principles\n• Support ingestion pipelines, version control, and provenance tagging\n4. "
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 535,
+   "end": 741,
+   "chars": 206,
+   "text": "Synthetic Data Capability\n• Integrate synthetic data tools (e.g., SDV, Synthea, CARLA)\n• Support synthetic dataset generation and validation pipelines\n• Ensure compliance with privacy and audit policies\n5. "
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 741,
+   "end": 923,
+   "chars": 182,
+   "text": "AI Fairness and Bias Framework\n• Implement bias detection, auditing, and mitigation tools (e.g., AIF360, Fairlearn)\n• Establish bias impact documentation workflows and dashboards\n6. "
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 923,
+   "end": 1117,
+   "chars": 194,
+   "text": "Security, Governance & Compliance\n• Define and implement RBAC, MFA, and dataset tiering\n• Ensure logging, encryption, and audit trails\n• Define terms of use and enforce ethical data handling\n7. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 1117,
+   "end": 1297,
+   "chars": 180,
+   "text": "Testing, Rollout, and Adoption\n• Conduct QA across platform functions\n• Train end users and administrators\n• Prepare documentation and support materials\n• Support public launch\n8. "
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 1297,
+   "end": 1610,
+   "chars": 313,
+   "text": "Deliverables\n• Detailed Project Plan and Timeline\n• Detailed Platform Architecture Documentation\n• Initial Data Catalog and Metadata System\n• Synthetic Data Tooling and Sample Outputs\n• Fairness and Bias Reporting Dashboard\n• Security and Governance Implementation\n• Training and Launch Materials\n• Sample Commons"
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1610,
+   "end": 1690,
+   "chars": 80,
+   "text": " Credits ledger output\n• Explanation of planned industry engagement\nPage 3 of 10"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 88,
+   "chars": 88,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\n•\n\nPilot user feedback\n\n3. "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 88,
+   "end": 241,
+   "chars": 153,
+   "text": "APPLICATION PROCESS\n3.1 Application and Submission Instructions\nRespondents are cautioned to read this RFP carefully and to conform to its requirements.\n"
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 241,
+   "end": 347,
+   "chars": 106,
+   "text": "Failure to comply with the requirements of this RFP may serve as grounds for rejection of an\nApplication.\n"
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 347,
+   "end": 350,
+   "chars": 3,
+   "text": "a. "
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 350,
+   "end": 401,
+   "chars": 51,
+   "text": "All Applications must be submitted electronically.\n"
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 401,
+   "end": 404,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 404,
+   "end": 722,
+   "chars": 318,
+   "text": "Required Submissions- All Applications must include the items listed below:\n• Application Cover Sheet (Attachment A)\n• Application, which shall include:\no A description of the firm responding to the RFP (including descriptions of\nproposed subcontractors, if any) and the firm’s qualifications to perform the\nServices.\n"
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 722,
+   "end": 773,
+   "chars": 51,
+   "text": "o The proposed approach to providing the Services. "
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 773,
+   "end": 962,
+   "chars": 189,
+   "text": "Additionally, Respondents are\ninvited to propose alternative(s) which provide substantially better or more costeffective performance than achievable under the stated RFP scope of services.\n"
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 962,
+   "end": 1035,
+   "chars": 73,
+   "text": "o Resumes or bios of key personnel that will be performing the Services.\n"
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 1035,
+   "end": 1247,
+   "chars": 212,
+   "text": "o Provide the total not-to-exceed costs for providing the Services based on projected\nhours, proposed hourly rates, as well as any other appropriate costs, by program\nphase in the Budget Template (Attachment C). "
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 1247,
+   "end": 1321,
+   "chars": 74,
+   "text": "List additional fees, overhead\ncharges, or reimbursable expenses, if any. "
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 1321,
+   "end": 1435,
+   "chars": 114,
+   "text": "As a general policy, the Mass Tech\nCollaborative does not pay markups on reimbursables or out-of-pocket expenses.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 1435,
+   "end": 1521,
+   "chars": 86,
+   "text": "The Mass Tech Collaborative also does not pay for word processing, overtime or\nmeals. "
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 1521,
+   "end": 1595,
+   "chars": 74,
+   "text": "For travel costs, the Mass Tech Collaborative pays the IRS rate per mile.\n"
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 1595,
+   "end": 1707,
+   "chars": 112,
+   "text": "o Three examples of work previously performed by the Respondent that are\nsubstantially similar to the Services. "
+  },
+  {
+   "id": "p4-s16",
+   "page": 4,
+   "start": 1707,
+   "end": 1800,
+   "chars": 93,
+   "text": "Respondent shall also provide references\nincluding a contact person, email and phone number.\n"
+  },
+  {
+   "id": "p4-s17",
+   "page": 4,
+   "start": 1800,
+   "end": 1820,
+   "chars": 20,
+   "text": "o Respondent’s W-9.\n"
+  },
+  {
+   "id": "p4-s18",
+   "page": 4,
+   "start": 1820,
+   "end": 1891,
+   "chars": 71,
+   "text": "o Authorized Application Signature and Acceptance Form (Attachment B). "
+  },
+  {
+   "id": "p4-s19",
+   "page": 4,
+   "start": 1891,
+   "end": 2122,
+   "chars": 231,
+   "text": "By\nexecuting the Authorized Respondent’s Signature and Acceptance Form and\nsubmitting a response to this RFP, Respondents certify that they (1) are in\ncompliance with the terms, conditions and specifications contained in this\nRFP, "
+  },
+  {
+   "id": "p4-s20",
+   "page": 4,
+   "start": 2122,
+   "end": 2262,
+   "chars": 140,
+   "text": "(2) acknowledge and understand the procedures for handling materials\nsubmitted to the Mass Tech Collaborative as set forth in subsection d. "
+  },
+  {
+   "id": "p4-s21",
+   "page": 4,
+   "start": 2262,
+   "end": 2537,
+   "chars": 275,
+   "text": "below,\n(3) agree to be bound by those procedures, and (4) agree that the Mass Tech\nCollaborative shall not be liable under any circumstances for the disclosure\nof any materials submitted to the Mass Tech Collaborative pursuant to this\nRFP or upon the Respondent’s selection.\n"
+  },
+  {
+   "id": "p4-s22",
+   "page": 4,
+   "start": 2537,
+   "end": 2549,
+   "chars": 12,
+   "text": "Page 4 of 10"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 64,
+   "chars": 64,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\nc. "
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 64,
+   "end": 177,
+   "chars": 113,
+   "text": "Applications must be submitted to proposals@masstech.org (please include the RFP\nnumber in the subject heading).\n"
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 177,
+   "end": 180,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 180,
+   "end": 416,
+   "chars": 236,
+   "text": "Any and all responses, Applications, data, materials, information and documentation\nsubmitted to Mass Tech Collaborative in response to this RFP shall become Mass Tech\nCollaborative’s property and shall be subject to public disclosure. "
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 416,
+   "end": 569,
+   "chars": 153,
+   "text": "As a public entity, the\nMass Tech Collaborative is subject to the Massachusetts Public Records Law (set forth at\nMassachusetts General Laws Chapter 66). "
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 569,
+   "end": 658,
+   "chars": 89,
+   "text": "There are very limited and narrow exceptions\nto disclosure under the Public Records Law. "
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 658,
+   "end": 777,
+   "chars": 119,
+   "text": "If a Respondent wishes to have the Mass\nTech Collaborative treat certain information or documentation as confidential, "
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 777,
+   "end": 1012,
+   "chars": 235,
+   "text": "the\nRespondent must submit a written request to the Mass Tech Collaborative’s General\nCounsel’s office no later than 5:00 p.m. ten (10) business days prior to the required date\nof Application submission set forth in Section 3.2 below. "
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 1012,
+   "end": 1261,
+   "chars": 249,
+   "text": "The request must precisely\nidentify the information and/or documentation that is the subject of the request and\nprovide a detailed explanation supporting the application of the statutory exemption(s)\nfrom the public records cited by the Respondent. "
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 1261,
+   "end": 1381,
+   "chars": 120,
+   "text": "The General Counsel will issue a written\ndetermination within five (5) business days of receipt of the written request. "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 1381,
+   "end": 1630,
+   "chars": 249,
+   "text": "If the\nGeneral Counsel approves the request, the Respondent shall clearly label the relevant\ninformation and/or documentation as “CONFIDENTIAL” in the Application and shall\nonly include the confidential material in the hard copy of the Application. "
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 1630,
+   "end": 1792,
+   "chars": 162,
+   "text": "Any\nstatements in an Application reserving any confidentiality or privacy rights that is\ninconsistent with these requirements and procedures will be disregarded.\n"
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 1792,
+   "end": 1891,
+   "chars": 99,
+   "text": "3.2 Application Timeline\nThe application process will proceed according to the following schedule. "
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 1891,
+   "end": 1931,
+   "chars": 40,
+   "text": "The target dates are\nsubject to change. "
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 1931,
+   "end": 2052,
+   "chars": 121,
+   "text": "Therefore, Respondents are encouraged to check Mass Tech Collaborative’s\nwebsite frequently for updates to the schedule.\n"
+  },
+  {
+   "id": "p5-s15",
+   "page": 5,
+   "start": 2052,
+   "end": 2343,
+   "chars": 291,
+   "text": "• RFP Released: August 21, 2025\n• Questions Due: August 26, 2025 by 5pm EST\n• Q&A Posted: September 9, 2025 by 5pm EST\n• Proposals Due: September 23, 2025 by 5pm EST\n3.3 Questions\nAll questions must be submitted to: proposals@masstech.org with subject: \"Questions – RFP\nNo. 2026-JAII-01\"\n4. "
+  },
+  {
+   "id": "p5-s16",
+   "page": 5,
+   "start": 2343,
+   "end": 2463,
+   "chars": 120,
+   "text": "EVALUATION CRITERIA\n4.1 Process\nThe Mass Tech Collaborative shall evaluate each Application that is properly submitted. "
+  },
+  {
+   "id": "p5-s17",
+   "page": 5,
+   "start": 2463,
+   "end": 2616,
+   "chars": 153,
+   "text": "As\npart of the selection process, Mass Tech Collaborative may invite finalists to present their\napproach, qualifications, and examples of previous work. "
+  },
+  {
+   "id": "p5-s18",
+   "page": 5,
+   "start": 2616,
+   "end": 2688,
+   "chars": 72,
+   "text": "Respondents must demonstrate\nfamiliarity with the program requirements. "
+  },
+  {
+   "id": "p5-s19",
+   "page": 5,
+   "start": 2688,
+   "end": 2752,
+   "chars": 64,
+   "text": "In its sole discretion, Mass Tech Collaborative may\nPage 5 of 10"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 208,
+   "chars": 208,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\nchoose to enter into a negotiation period with one or more finalist Respondent(s) and then ask\nthe Respondent(s) to submit a best and final offer.\n"
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 208,
+   "end": 385,
+   "chars": 177,
+   "text": "4.2 Criteria\nApplications will be evaluated based on:\n• Demonstrated technical expertise and platform delivery experience\n• Familiarity with metadata standards, synthetic data, "
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 385,
+   "end": 634,
+   "chars": 249,
+   "text": "and AI fairness tools\n• Quality and clarity of proposed project plan and high-level architecture approach\n• Feasibility of timeline to complete program scope\n• Qualifications and availability of proposed team\n• Budget realism, alignment with scope, "
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 634,
+   "end": 714,
+   "chars": 80,
+   "text": "and cost-effectiveness\n• Strength and relevance of references and prior work\n5. "
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 714,
+   "end": 736,
+   "chars": 22,
+   "text": "GENERAL CONDITIONS\n1. "
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 736,
+   "end": 759,
+   "chars": 23,
+   "text": "General Information\na. "
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 759,
+   "end": 899,
+   "chars": 140,
+   "text": "If an Application fails to meet any material terms, conditions, requirements or\nprocedures, it may be deemed unresponsive and disqualified. "
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 899,
+   "end": 1022,
+   "chars": 123,
+   "text": "The Mass Tech\nCollaborative reserves the right to waive omissions or irregularities that it determines\nto be not material.\n"
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 1022,
+   "end": 1025,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 1025,
+   "end": 1270,
+   "chars": 245,
+   "text": "This RFP, as may be amended from time to time by Mass Tech Collaborative, does\nnot commit Mass Tech Collaborative to select any firm(s), award any contracts for\nservices pursuant to this RFP, or pay any costs incurred in responding to this RFP.\n"
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 1270,
+   "end": 1583,
+   "chars": 313,
+   "text": "Mass Tech Collaborative reserves the right, in its sole discretion, to withdraw the\nRFP, to engage in preliminary discussions with prospective Respondents, to accept or\nreject any or all Applications received, to request supplemental or clarifying\ninformation, to negotiate with any or all qualified Respondents, "
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 1583,
+   "end": 1727,
+   "chars": 144,
+   "text": "and to request\nmodifications to Applications in accordance with negotiations, all to the same extent\nas if this were a Request for Information.\n"
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 1727,
+   "end": 1730,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 1730,
+   "end": 2032,
+   "chars": 302,
+   "text": "On matters related solely to this RFP that arise prior to an award decision by the Mass\nTech Collaborative, Respondents shall limit communications with the Mass Tech\nCollaborative to the Procurement Team Leader and such other individuals as the Mass\nTech Collaborative may designate from time to time. "
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 2032,
+   "end": 2195,
+   "chars": 163,
+   "text": "No other Mass Tech\nCollaborative employee or representative is authorized to provide any information or\nrespond to any questions or inquiries concerning this RFP. "
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 2195,
+   "end": 2297,
+   "chars": 102,
+   "text": "Respondents may contact\nthe Procurement Team Leader for this RFP in the event this RFP is incomplete.\n"
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 2297,
+   "end": 2300,
+   "chars": 3,
+   "text": "d. "
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 2300,
+   "end": 2484,
+   "chars": 184,
+   "text": "The Mass Tech Collaborative may provide reasonable accommodations, including the\nprovision of materials in an alternative format, for Respondents with disabilities or\nother hardships. "
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 2484,
+   "end": 2557,
+   "chars": 73,
+   "text": "Respondents requiring accommodation shall submit requests in\nPage 6 of 10"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 162,
+   "chars": 162,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\nwriting, with supporting documentation justifying the accommodation, to the\nProcurement Team Leader. "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 162,
+   "end": 259,
+   "chars": 97,
+   "text": "The Mass Tech Collaborative reserves the right to grant\nor reject any request for accommodation.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 259,
+   "end": 262,
+   "chars": 3,
+   "text": "e. "
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 262,
+   "end": 405,
+   "chars": 143,
+   "text": "Respondent’s Application shall be treated by the Mass Tech Collaborative as\nan accurate statement of Respondent’s capabilities and experience. "
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 405,
+   "end": 697,
+   "chars": 292,
+   "text": "Should any\nstatement asserted by Respondent prove to be inaccurate or inconsistent with the\nforegoing, such inaccuracy or inconsistency shall constitute sufficient cause for Mass\nTech Collaborative in its sole discretion to reject the Application and/or terminate of\nany resulting Agreement.\n"
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 697,
+   "end": 700,
+   "chars": 3,
+   "text": "f. "
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 700,
+   "end": 930,
+   "chars": 230,
+   "text": "Costs that are not specifically identified in the Respondent’s response and/or not\nspecifically accepted by Mass Tech Collaborative as part of the Agreement will not be\ncompensated under any contract awarded pursuant to this RFP.\n"
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 930,
+   "end": 933,
+   "chars": 3,
+   "text": "g. "
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 933,
+   "end": 1075,
+   "chars": 142,
+   "text": "Mass Tech Collaborative’s prior approval is required for any subcontracted services\nunder any Agreement entered into as a result of this RFP. "
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 1075,
+   "end": 1245,
+   "chars": 170,
+   "text": "The selected Respondent\nwill take all appropriate steps to assure that minority firms, women’s business\nenterprises, and labor surplus area firms are used when possible. "
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 1245,
+   "end": 1363,
+   "chars": 118,
+   "text": "The selected\nRespondent is responsible for the satisfactory performance and adequate oversight of\nits subcontractors. "
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 1363,
+   "end": 1502,
+   "chars": 139,
+   "text": "Subcontractors are required to meet the same requirements and are\nheld to the same reimbursable cost standards as the selected Respondent.\n"
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 1502,
+   "end": 1505,
+   "chars": 3,
+   "text": "h. "
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 1505,
+   "end": 1630,
+   "chars": 125,
+   "text": "Submitted responses must be valid in all respects for a minimum period of sixty (60)\ndays after the deadline for submission.\n"
+  },
+  {
+   "id": "p7-s14",
+   "page": 7,
+   "start": 1630,
+   "end": 1633,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p7-s15",
+   "page": 7,
+   "start": 1633,
+   "end": 1775,
+   "chars": 142,
+   "text": "Posting of Modifications/Addenda to RFP\nThis RFP has been distributed electronically using the Mass Tech Collaborative and\nCOMMBUYS websites. "
+  },
+  {
+   "id": "p7-s16",
+   "page": 7,
+   "start": 1775,
+   "end": 2058,
+   "chars": 283,
+   "text": "If the Mass Tech Collaborative determines that it is necessary to revise\nany part of this RFP, or if additional data is necessary to clarify any of its provisions, an\naddendum will be posted to the websites or that information will be contained within the Q&A\ndocument, as relevant. "
+  },
+  {
+   "id": "p7-s17",
+   "page": 7,
+   "start": 2058,
+   "end": 2242,
+   "chars": 184,
+   "text": "It is the responsibility of each potential Respondent to check the Mass\nTech Collaborative, MBI and COMMBUYS websites for any addenda or modifications to the\nRFP and the Q&A document. "
+  },
+  {
+   "id": "p7-s18",
+   "page": 7,
+   "start": 2242,
+   "end": 2391,
+   "chars": 149,
+   "text": "The Mass Tech Collaborative accepts no liability and will\nprovide no accommodation to Respondents who submit a response based on an out-of-date\nRFP.\n"
+  },
+  {
+   "id": "p7-s19",
+   "page": 7,
+   "start": 2392,
+   "end": 2404,
+   "chars": 12,
+   "text": "Page 7 of 10"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 283,
+   "chars": 283,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\nAttachment A\nApplication Cover Sheet\nName of Respondent\nMailing Address\nCity/Town\nTelephone\nFax\nPrimary Contact for Clarification\nAuthorized Signatory\nLegal Status/Jurisdiction(e.g.,\na\nMassachusetts Corporation, LLC, LLP, "
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 283,
+   "end": 433,
+   "chars": 150,
+   "text": "etc.)\n\nState\nZip Code\nWeb Address\nPrimary Contact E-mail Address\nAuthorized Signatory E-mail Address\nRespondents W-9\nRespondents UEI No.\n\nPage 8 of 10"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 251,
+   "chars": 251,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\nAttachment B\nMassachusetts Technology Collaborative\nAuthorized Respondent’s Signature and Acceptance Form\nThe undersigned is a duly authorized representative of the Respondent listed below. "
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 251,
+   "end": 313,
+   "chars": 62,
+   "text": "The\nRespondent has read and understands the RFP requirements. "
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 313,
+   "end": 472,
+   "chars": 159,
+   "text": "The Respondent acknowledges\nthat all of the terms and conditions of the RFP are mandatory, and that Respondent’s response\nis compliant with such requirements.\n"
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 472,
+   "end": 675,
+   "chars": 203,
+   "text": "The Respondent understands that, if selected by the Mass Tech Collaborative, the Respondent\nand the Mass Tech Collaborative will execute an Agreement specifying the mutual\nrequirements of participation.\n"
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 675,
+   "end": 805,
+   "chars": 130,
+   "text": "Respondent agrees that the entire bid response will remain valid for sixty (60) days from receipt\nby the Mass Tech Collaborative.\n"
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 805,
+   "end": 907,
+   "chars": 102,
+   "text": "I certify that Respondent is in compliance with all corporate filing requirements and State tax\nlaws.\n"
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 907,
+   "end": 1061,
+   "chars": 154,
+   "text": "I certify that the statements made in this response to the RFP, including all attachments and\nexhibits, are true and correct to the best of my knowledge.\n"
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 1061,
+   "end": 1214,
+   "chars": 153,
+   "text": "I acknowledge and understand the procedures for handling confidential materials submitted to\nthe Mass Tech Collaborative as set forth in Section 3.1(d); "
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 1214,
+   "end": 1475,
+   "chars": 261,
+   "text": "I agree to be bound by those\nprocedures and agree that the Mass Tech Collaborative shall not be liable under any\ncircumstances for the disclosure of any materials submitted to the Mass Tech Collaborative\npursuant to this RFP or upon the Respondent’s selection.\n"
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 1475,
+   "end": 1593,
+   "chars": 118,
+   "text": "Respondent:\n(Printed Name of Respondent)\nBy:\n(Signature of Authorized Representative)\nName:\nTitle:\nDate:\n\nPage 9 of 10"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 127,
+   "chars": 127,
+   "text": "Massachusetts Technology Collaborative RFP No. 2026-JAII-01\n\nAttachment C\nBudget Template\n\nSEE EXCEL SPREADSHEET\n\nPage 10 of 10"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 10
+ }
+}

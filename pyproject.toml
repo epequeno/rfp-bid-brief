@@ -1,0 +1,23 @@
+[project]
+name = "rfp-bid-brief"
+version = "0.1.0"
+description = "Bid/no-bid brief generator: span-cited extraction, a calibrated decision layer, and an evaluation that says how much to trust it"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+rfpbrief = "rfpbrief.parse:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rfpbrief"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

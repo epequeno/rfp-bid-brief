@@ -1,0 +1,832 @@
+{
+ "schema": "span-index/1",
+ "fixture": "city-of-spicer-mn-managed-it-services-2026.pdf",
+ "fixture_sha256": "e82998cfbb27674ae3c4dc061519155ef5ddb49760bc97e20e781d52f8713cd4",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "3865f4d6a95df489a60b5e754d5920e0881c55713fa90f66005947dda52bae23",
+   "chars": 158
+  },
+  {
+   "number": 2,
+   "sha256": "2f6cb52f1159f45ac254beb3543d12444bbfcb8819d4b6185f0d74e115f02a71",
+   "chars": 1859
+  },
+  {
+   "number": 3,
+   "sha256": "745341c5462b68dde3214fe1ccaf7d8a2a4b97a12aba8785c1bf247bf360b380",
+   "chars": 1991
+  },
+  {
+   "number": 4,
+   "sha256": "153bffa301cdf25a51645ae51ef2954e98fd95c8a40e406791afb14c91486899",
+   "chars": 2126
+  },
+  {
+   "number": 5,
+   "sha256": "e0e3715663cbfff230ab3462421bd5c7e89db7849be288a180a7de085c7da04d",
+   "chars": 1211
+  },
+  {
+   "number": 6,
+   "sha256": "dbb9dcb3ac1a5257c228762475d053452f09d93bbf4ae2d0d51560deec21adff",
+   "chars": 1375
+  }
+ ],
+ "span_count": 98,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 158,
+   "chars": 158,
+   "text": "Request For Proposals For\nManaged Information Technology Services\n\nCity of Spicer\n217 Hillcrest Avenue\nSpicer, MN 56288\nwww.cityofspicer.org\n\nJune 16, 2026\n\n1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "I.\n"
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 4,
+   "end": 137,
+   "chars": 133,
+   "text": "INTRODUCTION\n\nThe City of Spicer invites proposals from qualified companies to provide managed information\ntechnology (IT) services. "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 137,
+   "end": 325,
+   "chars": 188,
+   "text": "The qualified company will enable the city to significantly improve IT\neffectiveness, enhance its quality of services, minimize its support costs, and maximize return on\ninvestment in IT. "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 325,
+   "end": 462,
+   "chars": 137,
+   "text": "The city will consider a three-year contract term with two optional one-year extensions\nif agreed by both the city and selected company.\n"
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 463,
+   "end": 527,
+   "chars": 64,
+   "text": "The city has a Microsoft-based computer network infrastructure. "
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 527,
+   "end": 696,
+   "chars": 169,
+   "text": "The city is seeking a business partner\nto provide technical support for this infrastructure, in the form of break fix, routine maintenance and\nproject-related services. "
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 696,
+   "end": 854,
+   "chars": 158,
+   "text": "The city may also look to a successful company for special projects and\nconsulting as needed such as short- and long-term IT planning, and disaster recovery.\n"
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 854,
+   "end": 993,
+   "chars": 139,
+   "text": "The primary objective is to better manage the cost of maintaining the network, while also\nimproving end user satisfaction with the system.\n"
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 993,
+   "end": 1095,
+   "chars": 102,
+   "text": "City operations include two physical locations: city hall/community center and public works building.\n"
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1095,
+   "end": 1320,
+   "chars": 225,
+   "text": "The city has approximately 4 full-time staff plus five elected officials, approximately 8 first\nresponders and approximately 30 volunteer on-call firefighters, the latter of whom have limited\naccess to the city’s IT systems.\n"
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 1320,
+   "end": 1588,
+   "chars": 268,
+   "text": "Hours of operations have the following hours:\nCity Hall/Community Center:\nMonday – Friday 8:00 a.m. - 4:30 p.m.\nPublic Works & Parks:\nMonday – Friday 7:00 a.m. – 3:00 p.m.\nThe ideal company will have experience providing IT services to local government organizations.\n"
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 1589,
+   "end": 1593,
+   "chars": 4,
+   "text": "II.\n"
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 1594,
+   "end": 1859,
+   "chars": 265,
+   "text": "SCHEDULE AND ADDITIONAL INFORMATION\n\nProposals must be received via email, in-person, or postal mail by 12:00 p.m. on Friday, July 17, 2026 at\none of following:\ncityadmin@cityofspicer.org\nCity of Spicer\nAttn: IT Services RFP\n217 Hillcrest Avenue\nSpicer, MN 56288\n\n2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 50,
+   "chars": 50,
+   "text": "All dates are tentative EXCEPT proposal due date.\n"
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 50,
+   "end": 358,
+   "chars": 308,
+   "text": "ACTION\nDATE\nRequest for Proposal Released\nTuesday, June 16, 2026\nProposals Due\nFriday, July 17, 2026\nInterviews\nTuesday, July 21, 2026 at 5:30 p.m. via zoom (Evening Time TBD)\nVendor Selected\nWednesday, July 22, 2026\nContract Review\nMonday, July 27, 2026\nContract Approved by City Council\nTuesday, August 4, "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 358,
+   "end": 505,
+   "chars": 147,
+   "text": "2026\nServices to Begin for the City\nTuesday, September 1, 2026\nPROPOSALS MUST BE RECEIVED BY 12:00 P.M. ON FRIDAY, JULY 17, 2026 TO BE CONSIDERED.\n"
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 506,
+   "end": 639,
+   "chars": 133,
+   "text": "Questions should be addressed to Jen Beckler at cityadmin@cityofspicer.org OR 320-766-5622 by 12:00\np.m. on Wednesday, July 1, 2026. "
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 639,
+   "end": 724,
+   "chars": 85,
+   "text": "Any questions received after that time may not be answered before\nproposals are due.\n"
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 724,
+   "end": 845,
+   "chars": 121,
+   "text": "It is the intent of the City of Spicer to conduct a comprehensive, fair, and impartial evaluation of\nproposals received. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 845,
+   "end": 940,
+   "chars": 95,
+   "text": "Award shall be made to the provider, who is believed by staff to be the best fit for\nthe city. "
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 940,
+   "end": 1092,
+   "chars": 152,
+   "text": "The city reserves the right to reject any and all proposals, waive all technicalities and accept any\nproposal deemed to be in the city’s best interest. "
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1092,
+   "end": 1190,
+   "chars": 98,
+   "text": "Proposers are solely responsible for delivery of their\nproposals to the city before the deadline. "
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 1190,
+   "end": 1375,
+   "chars": 185,
+   "text": "This RFP creates no obligation on the part of the city to award\na contract or to compensate the proposer for any costs incurred in competing to provide managed IT\nservices to the city.\n"
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 1376,
+   "end": 1381,
+   "chars": 5,
+   "text": "III.\n"
+  },
+  {
+   "id": "p3-s11",
+   "page": 3,
+   "start": 1382,
+   "end": 1557,
+   "chars": 175,
+   "text": "EVALUATION CRITERIA\n\nFinal selection will be based on a combination of relevant experience, available qualified staff, schedule\nof rates and ability to meet the city’s needs. "
+  },
+  {
+   "id": "p3-s12",
+   "page": 3,
+   "start": 1557,
+   "end": 1634,
+   "chars": 77,
+   "text": "Specifically, the evaluation committee will consider the\nfollowing criteria.\n"
+  },
+  {
+   "id": "p3-s13",
+   "page": 3,
+   "start": 1634,
+   "end": 1637,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p3-s14",
+   "page": 3,
+   "start": 1637,
+   "end": 1774,
+   "chars": 137,
+   "text": "Overall responsiveness to RFP requirements and ability of company to meet city’s customer\nservice expectations and IT performance needs.\n"
+  },
+  {
+   "id": "p3-s15",
+   "page": 3,
+   "start": 1774,
+   "end": 1777,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p3-s16",
+   "page": 3,
+   "start": 1777,
+   "end": 1886,
+   "chars": 109,
+   "text": "Thoroughness and understanding of the tasks to be completed and the environment in which\nthey are performed.\n"
+  },
+  {
+   "id": "p3-s17",
+   "page": 3,
+   "start": 1886,
+   "end": 1889,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p3-s18",
+   "page": 3,
+   "start": 1889,
+   "end": 1919,
+   "chars": 30,
+   "text": "Company security performance.\n"
+  },
+  {
+   "id": "p3-s19",
+   "page": 3,
+   "start": 1919,
+   "end": 1922,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p3-s20",
+   "page": 3,
+   "start": 1922,
+   "end": 1990,
+   "chars": 68,
+   "text": "Expertise and overall experience of personnel assigned to the work.\n"
+  },
+  {
+   "id": "p3-s21",
+   "page": 3,
+   "start": 1990,
+   "end": 1991,
+   "chars": 1,
+   "text": "3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 3,
+   "end": 52,
+   "chars": 49,
+   "text": "Background and experience with similar projects.\n"
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 52,
+   "end": 55,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 55,
+   "end": 93,
+   "chars": 38,
+   "text": "Pricing structure and projected cost.\n"
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 94,
+   "end": 98,
+   "chars": 4,
+   "text": "IV.\n"
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 99,
+   "end": 237,
+   "chars": 138,
+   "text": "SCOPE OF WORK\n\nAt a minimum, IT management services will include the following work to manage, monitor, and\nsecure the city’s IT systems.\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 237,
+   "end": 240,
+   "chars": 3,
+   "text": "1.\n"
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 240,
+   "end": 243,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 243,
+   "end": 246,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 246,
+   "end": 249,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 249,
+   "end": 252,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 252,
+   "end": 255,
+   "chars": 3,
+   "text": "6.\n"
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 255,
+   "end": 258,
+   "chars": 3,
+   "text": "7.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 258,
+   "end": 261,
+   "chars": 3,
+   "text": "8.\n"
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 262,
+   "end": 577,
+   "chars": 315,
+   "text": "24x7x365 monitoring of denoted servers and critical network components\n24x7x365 response to critical servers and infrastructure failures\n24x7x365 monitoring of firewall and denoted devices\n24x7x365 monitoring of applications\nFull-service desk\nFull-service operations center service\nRemote management software on all"
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 577,
+   "end": 787,
+   "chars": 210,
+   "text": " workstations and servers\nServer and network administration (if applicable)\na) SQL Server\nb) Laserfiche\nc) Laserfiche Weblink\nd) Domain Controllers\ne) Hyper-V Server\nf) Network back up and disaster recovery\n9. "
+  },
+  {
+   "id": "p4-s16",
+   "page": 4,
+   "start": 787,
+   "end": 854,
+   "chars": 67,
+   "text": "Manage Microsoft service packs and security patches on servers\n10. "
+  },
+  {
+   "id": "p4-s17",
+   "page": 4,
+   "start": 854,
+   "end": 904,
+   "chars": 50,
+   "text": "Regular inspection of network and file server\n11. "
+  },
+  {
+   "id": "p4-s18",
+   "page": 4,
+   "start": 904,
+   "end": 982,
+   "chars": 78,
+   "text": "Regular/periodic cleaning and testing of backups by restore of test files\n12. "
+  },
+  {
+   "id": "p4-s19",
+   "page": 4,
+   "start": 982,
+   "end": 1010,
+   "chars": 28,
+   "text": "Firewall administration\n13. "
+  },
+  {
+   "id": "p4-s20",
+   "page": 4,
+   "start": 1010,
+   "end": 1081,
+   "chars": 71,
+   "text": "Labor and support for migration of network operating systems/files\n14. "
+  },
+  {
+   "id": "p4-s21",
+   "page": 4,
+   "start": 1081,
+   "end": 1132,
+   "chars": 51,
+   "text": "Monthly reports of network health and vitality\n15. "
+  },
+  {
+   "id": "p4-s22",
+   "page": 4,
+   "start": 1132,
+   "end": 1206,
+   "chars": 74,
+   "text": "Web access to reports on current status of service calls and projects\n16. "
+  },
+  {
+   "id": "p4-s23",
+   "page": 4,
+   "start": 1206,
+   "end": 1260,
+   "chars": 54,
+   "text": "Spyware/malware monitoring, removal, and cleaning\n17. "
+  },
+  {
+   "id": "p4-s24",
+   "page": 4,
+   "start": 1260,
+   "end": 1466,
+   "chars": 206,
+   "text": "Regular data security and compliance assessments and testing, including antivirus software,\npassword protection, mail filtering, phishing, vulnerability scanning, data destruction, and\npatch management\n18. "
+  },
+  {
+   "id": "p4-s25",
+   "page": 4,
+   "start": 1466,
+   "end": 1529,
+   "chars": 63,
+   "text": "Less than 4-hour response time for server down emergencies\n19. "
+  },
+  {
+   "id": "p4-s26",
+   "page": 4,
+   "start": 1529,
+   "end": 1573,
+   "chars": 44,
+   "text": "Research on hardware/software solutions\n20. "
+  },
+  {
+   "id": "p4-s27",
+   "page": 4,
+   "start": 1573,
+   "end": 1877,
+   "chars": 304,
+   "text": "Consultation and support for near- and long-term planning including development of\nreplacement program to keep system operating at a high performance and data security levels\nincluding but not limited to major system upgrades or replacement, major redesign\nconfigurations, and related large projects\n21. "
+  },
+  {
+   "id": "p4-s28",
+   "page": 4,
+   "start": 1877,
+   "end": 1924,
+   "chars": 47,
+   "text": "Perform network backup & disaster recovery\n22. "
+  },
+  {
+   "id": "p4-s29",
+   "page": 4,
+   "start": 1924,
+   "end": 2027,
+   "chars": 103,
+   "text": "Monitor system performance and provide regular reports including efficiency, quality,\nand security\n23. "
+  },
+  {
+   "id": "p4-s30",
+   "page": 4,
+   "start": 2027,
+   "end": 2126,
+   "chars": 99,
+   "text": "Ability for city employee to work remotely via laptop outside the office without technical\nissues\n4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "24. "
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 4,
+   "end": 251,
+   "chars": 247,
+   "text": "Ability for city employee to make necessary updates to any and all desktop programs\nwithout needing IT service permission or requests\nAdditionally, the proposal may include related services provided by the vendor that may be of value to\nthe city.\n"
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 252,
+   "end": 255,
+   "chars": 3,
+   "text": "V.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 256,
+   "end": 557,
+   "chars": 301,
+   "text": "CURRENT USER COMPUTERS AND SYSTEM SERVERS (approximate)\n\nItem Category\nUsers (approximate)\nCurrent Internet Connection & Speed\n•\n\nNumber\n12\n\nTDS Telcom provides internet connection into city hall/community\ncenter and public works\n\nDesktop computers (approximate)\nLaptop computers (approximate)\nServers"
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 557,
+   "end": 637,
+   "chars": 80,
+   "text": " (approximate)\n\n5\n6\n\n•\n\nPhysical servers\n\n1\n\n•\n\nVirtual Physical Host hosting:\n\n"
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 637,
+   "end": 908,
+   "chars": 271,
+   "text": "•\n\n Laserfiche\n\n1\n\n Laserfiche Weblink\n\n1\n\n Domain controller\n\n1\n\n SQL server\n\n1\n\n Hyper- V host\n\n1\n\nBackup & disaster recovery server\n\n1\n\nFirewall (approximate)\nCity Network\nNetwork Switch(s)\nWi-Fi AP\nAll are currently under existing provider cloud management\n\nVI.\n"
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 909,
+   "end": 1088,
+   "chars": 179,
+   "text": "2\n\nPROPOSAL REQUIREMENTS\n\nProposals must address the scope of service with focus on clearly identifying company’s experience and\ncompetencies relative to the evaluation criteria. "
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 1088,
+   "end": 1146,
+   "chars": 58,
+   "text": "The city desires proposals that are thorough yet concise.\n"
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 1146,
+   "end": 1210,
+   "chars": 64,
+   "text": "At a minimum, proposals must contain the following information.\n"
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 1210,
+   "end": 1211,
+   "chars": 1,
+   "text": "5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 3,
+   "end": 107,
+   "chars": 104,
+   "text": "Cover Sheet with company contact information and person with binding authority to enter into\ncontracts.\n"
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 107,
+   "end": 110,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 110,
+   "end": 297,
+   "chars": 187,
+   "text": "Company Profile highlighting history, company expertise, and customer service approach relative\nto the city’s scope of work and compliance with industry standards as evidenced by audits. "
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 297,
+   "end": 423,
+   "chars": 126,
+   "text": "Include\nlength of time providing proposed services, number of clients, and location of office which would\nserve this account.\n"
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 423,
+   "end": 426,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 426,
+   "end": 532,
+   "chars": 106,
+   "text": "Customer Account Team listing the positions and/or individuals who would service the city’s\nrelationship. "
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 532,
+   "end": 634,
+   "chars": 102,
+   "text": "Include qualifications, experience, expertise, and IT certifications for each position\nor individual.\n"
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 634,
+   "end": 637,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 637,
+   "end": 811,
+   "chars": 174,
+   "text": "Statement of Understanding briefly outlining the company’s understanding of the services to be\nprovided and making a positive commitment to providing the services specified.\n"
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 811,
+   "end": 814,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 814,
+   "end": 898,
+   "chars": 84,
+   "text": "Scope of Service addressing the IT managed services described in the scope of work. "
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 898,
+   "end": 1015,
+   "chars": 117,
+   "text": "Include a\ndescription of the approach for providing such services and the methodology for providing\nongoing support.\n"
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 1015,
+   "end": 1018,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 1018,
+   "end": 1160,
+   "chars": 142,
+   "text": "Pricing Structure and Cost for all services described in the scope of work and additional services\nprovided that may be of value to the city.\n"
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 1160,
+   "end": 1163,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 1163,
+   "end": 1271,
+   "chars": 108,
+   "text": "Client References who can speak to similar work performed by the company for\ncomparable size/scope clients; "
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 1271,
+   "end": 1318,
+   "chars": 47,
+   "text": "public sector client references are preferred.\n"
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 1318,
+   "end": 1321,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p6-s19",
+   "page": 6,
+   "start": 1321,
+   "end": 1373,
+   "chars": 52,
+   "text": "Evidence of Insurance related to services provided.\n"
+  },
+  {
+   "id": "p6-s20",
+   "page": 6,
+   "start": 1374,
+   "end": 1375,
+   "chars": 1,
+   "text": "6"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 6
+ }
+}

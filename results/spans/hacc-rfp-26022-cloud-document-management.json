@@ -1,0 +1,3021 @@
+{
+ "schema": "span-index/1",
+ "fixture": "hacc-rfp-26022-cloud-document-management.pdf",
+ "fixture_sha256": "2a8d205e58488f29331d0ec118b1887f78a943ecb0305a25716f319800de67d8",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "bab3f7b55076a368c2ff98d682f1fcd7216e0dcf820938ac51cadd503784cf08",
+   "chars": 359
+  },
+  {
+   "number": 2,
+   "sha256": "c44c8352333da41f96696b2da7f95970c71f6c7b3e7e024d006182727778a497",
+   "chars": 1833
+  },
+  {
+   "number": 3,
+   "sha256": "bbf8870d1dd80f65d6f3e2ae25fb7236fff53e6e058193536d299f027830f0e7",
+   "chars": 2784
+  },
+  {
+   "number": 4,
+   "sha256": "3aabf3cfc555426b8353128bb0932f52134c1a4afbe13560f35d2a0d8101b492",
+   "chars": 2379
+  },
+  {
+   "number": 5,
+   "sha256": "2b89ef332c092f214b18c5b7773ba3846f067f340ed96f5be75197f201d79279",
+   "chars": 2223
+  },
+  {
+   "number": 6,
+   "sha256": "a50249e854d9ad435b80703f96e6ba973ac29d5a6ef882cc48a2faee86046ae1",
+   "chars": 1717
+  },
+  {
+   "number": 7,
+   "sha256": "61fa8750cce263b5a9c3aa1379e64f2241c881e1071e62671973dc6271ff117c",
+   "chars": 1932
+  },
+  {
+   "number": 8,
+   "sha256": "038092b529ea4d1b45e4f3f3a530e256b7e09387021cf0b0c3069664a179b408",
+   "chars": 1819
+  },
+  {
+   "number": 9,
+   "sha256": "554c36004e58c9261c2f8c4b6d0e581adc80f42c61295823b29f710ea6c5ef16",
+   "chars": 2117
+  },
+  {
+   "number": 10,
+   "sha256": "ddc2730705e5f5dae68536e760f3b2b30d87947caff64edadd76e68e4c0a6edc",
+   "chars": 2189
+  },
+  {
+   "number": 11,
+   "sha256": "c9da2e512f43a56c7881ba0b34e68970e3764735f81da73a24b23e2b319aabb7",
+   "chars": 2330
+  },
+  {
+   "number": 12,
+   "sha256": "ebd056ecab0cc07441e39194fbea7b21ba95a3c9022b42feeefa9b20a7afe4fd",
+   "chars": 2215
+  },
+  {
+   "number": 13,
+   "sha256": "dc364b09f6ac94ff8e8007371e1999e1986091dc34f4b9758da85c3863a48599",
+   "chars": 2265
+  },
+  {
+   "number": 14,
+   "sha256": "87b9febe27fec0cea093757e2e389c026a262e5fb3ca7d7f2569cec5662ea07e",
+   "chars": 1174
+  },
+  {
+   "number": 15,
+   "sha256": "5ec504e30654b085cccda25988afb003bfead9aee5915bea7a1b7efb04d9b97a",
+   "chars": 1479
+  },
+  {
+   "number": 16,
+   "sha256": "0de0fb2533a309caf905ef15e065692f9a1708fed746e4a41e6ce16a8949bd30",
+   "chars": 2618
+  },
+  {
+   "number": 17,
+   "sha256": "2c7ffcfb76b5da8f5cdf0cacee766a548577f1a839f2014e9f5f8fcf6cd9273d",
+   "chars": 2821
+  },
+  {
+   "number": 18,
+   "sha256": "4399a8ea7cc02cbce18733859f352304458a5f753d4552fb5acf3db04e542cce",
+   "chars": 1935
+  },
+  {
+   "number": 19,
+   "sha256": "a44bed3dbbd21228c675dceb6bbd2b22d2e8f4685fc3215cbfaa50296cd6873e",
+   "chars": 1326
+  },
+  {
+   "number": 20,
+   "sha256": "9a4f0e41846aeb32ede3f4e0f76995157ec0ec4958f7825306d894d55715cdff",
+   "chars": 1508
+  },
+  {
+   "number": 21,
+   "sha256": "bcbe52ea33d5faa4a92edf8fa90bbf208df0fdec908d979decaa201e326824d3",
+   "chars": 2950
+  },
+  {
+   "number": 22,
+   "sha256": "42bfdf0a6776be1689dcd74310d7619436114dec0022998964046b852fbf3b90",
+   "chars": 749
+  },
+  {
+   "number": 23,
+   "sha256": "e57b7ea901abc202471e26a26a540694203ad2e21f7987145b5217230f365c93",
+   "chars": 567
+  }
+ ],
+ "span_count": 361,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 233,
+   "chars": 233,
+   "text": "REQUEST FOR PROPOSALS\nFOR\n\nCLOUD-BASED DOCUMENT MANAGEMENT &\nWORKFLOW AUTOMATION SOFTWARE SOLUTION\nSUBMISSION DATE: APRIL 20, 2026\n2:00 P.M. CST\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL\nHOUSING PARTNERS\n\nRFP No. 26022\nPrepared by:\n"
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 233,
+   "end": 359,
+   "chars": 126,
+   "text": "Corpus Christi Housing Authority & Coastal Housing Partners\n3701 Ayers Street\nCorpus Christi, TX 78415\n\nISSUED: MARCH 19, 2026"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 300,
+   "chars": 300,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\nREQUEST FOR PROPOSALS (RFP) No. 26022\nCloud-Based Document Management & Workflow Automation Software\nSolution\nAttachment A\n\nDATE ISSUED\n\nMarch 19, 2026\n\nQUESTIONS SUBMITTAL DEADLINE\n\nApril 09, "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 300,
+   "end": 616,
+   "chars": 316,
+   "text": "2026\n\nPROPOSAL SUBMITTAL RETURN AND\nDEADLINE\n\nApril 20, 2026, at 2:00 P.M. CST\nCorpus Christi Housing Authority\n3701 Ayers Street\nCorpus Christi, TX 78415\nRose Mary Khosrowsalafi\nrosemary.k@hacc.org\n(361) 889-3373\n\nAGENCY CONTACT PERSON\n\nOne (1) original and one (1) copy of the Sealed Proposal are due by Thursday, "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 616,
+   "end": 650,
+   "chars": 34,
+   "text": "April 20, 2026, at 2:00 P.M.\nCST. "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 650,
+   "end": 766,
+   "chars": 116,
+   "text": "Deliver or hand carry to the Corpus Christi Housing Authority, 3701 Ayers, Corpus Christi, TX 78415\n(Front Window).\n"
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 766,
+   "end": 769,
+   "chars": 3,
+   "text": "1.\n"
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 769,
+   "end": 772,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 773,
+   "end": 897,
+   "chars": 124,
+   "text": "All work performed must meet all electrical, mechanical, and building codes based on local, state, and federal\nregulations.\n"
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 897,
+   "end": 984,
+   "chars": 87,
+   "text": "All questions must be in writing and emailed to procurement@hacc.org by April 9, 2026. "
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 984,
+   "end": 1033,
+   "chars": 49,
+   "text": "After that date, questions\nwill not be accepted.\n"
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1034,
+   "end": 1203,
+   "chars": 169,
+   "text": "Signature and submission of this Proposal shall serve as evidence that the Contractor understands and agrees to all conditions of the\nRequest for Proposals – RFP 26022.\n"
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 1204,
+   "end": 1447,
+   "chars": 243,
+   "text": "Company Name: _________________________________________________________________________________________\nAuthorized Representative: ______________________________________________\n(Print Name)\n\n______________________________\n(Title)\n\nSignature: "
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 1447,
+   "end": 1734,
+   "chars": 287,
+   "text": "________________________________________________________________________\nAddress: ___________________________________________________________________________________________________\nPhone Number: ______________________________ Email: ______________________________________________\nDate: "
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 1734,
+   "end": 1833,
+   "chars": 99,
+   "text": "_______________________________\n\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 153,
+   "chars": 153,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\n1.0\n\n2.0\n\nTHE AGENCY’S RESERVATION OF RIGHTS. "
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 153,
+   "end": 247,
+   "chars": 94,
+   "text": "The Agency reserves the right to:\n1.1\n\nRight to Reject, Waive, or Terminate the Solicitation. "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 247,
+   "end": 413,
+   "chars": 166,
+   "text": "Reject any or all proposals,\nwaive any informality in the RFP process, or terminate the RFP process at any time, if\ndeemed by the Agency to be in its best interests.\n"
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 414,
+   "end": 439,
+   "chars": 25,
+   "text": "1.2\n\nRight to Not Award. "
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 439,
+   "end": 485,
+   "chars": 46,
+   "text": "Not to award a contract pursuant to this RFP.\n"
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 486,
+   "end": 511,
+   "chars": 25,
+   "text": "1.3\n\nRight to Terminate. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 511,
+   "end": 655,
+   "chars": 144,
+   "text": "Terminate a contract awarded pursuant to this RFP, at any time\nfor its convenience, upon 60 days’ written notice to the successful proposer(s).\n"
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 656,
+   "end": 699,
+   "chars": 43,
+   "text": "1.4\n\nRight to Determine Time and Location. "
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 699,
+   "end": 823,
+   "chars": 124,
+   "text": "Determine the days, hours, and locations that\nthe successful proposer(s) shall provide the services called for in this RFP.\n"
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 824,
+   "end": 856,
+   "chars": 32,
+   "text": "1.5\n\nRight to Retain Proposals. "
+  },
+  {
+   "id": "p3-s10",
+   "page": 3,
+   "start": 856,
+   "end": 1056,
+   "chars": 200,
+   "text": "Retain all proposals submitted and not permit withdrawal\nfor a period of 30 days subsequent to the deadline for receiving proposals without the\nwritten consent of the Agency Contracting Officer (CO).\n"
+  },
+  {
+   "id": "p3-s11",
+   "page": 3,
+   "start": 1057,
+   "end": 1082,
+   "chars": 25,
+   "text": "1.6\n\nRight to Negotiate. "
+  },
+  {
+   "id": "p3-s12",
+   "page": 3,
+   "start": 1082,
+   "end": 1134,
+   "chars": 52,
+   "text": "Negotiate the fees proposed by the proposer entity.\n"
+  },
+  {
+   "id": "p3-s13",
+   "page": 3,
+   "start": 1135,
+   "end": 1170,
+   "chars": 35,
+   "text": "1.7\n\nRight to Reject any Proposal. "
+  },
+  {
+   "id": "p3-s14",
+   "page": 3,
+   "start": 1170,
+   "end": 1384,
+   "chars": 214,
+   "text": "Reject and do not consider any proposal that does not\nmeet the requirements of this RFP, including but not necessarily limited to incomplete\nproposals and/or proposals offering alternate or non-requested services.\n"
+  },
+  {
+   "id": "p3-s15",
+   "page": 3,
+   "start": 1385,
+   "end": 1419,
+   "chars": 34,
+   "text": "1.8\n\nNo Obligation to Compensate. "
+  },
+  {
+   "id": "p3-s16",
+   "page": 3,
+   "start": 1419,
+   "end": 1515,
+   "chars": 96,
+   "text": "Have no obligation to compensate any proposer for any\ncosts incurred in responding to this RFP.\n"
+  },
+  {
+   "id": "p3-s17",
+   "page": 3,
+   "start": 1516,
+   "end": 1540,
+   "chars": 24,
+   "text": "1.9\n\nRight to Prohibit. "
+  },
+  {
+   "id": "p3-s18",
+   "page": 3,
+   "start": 1540,
+   "end": 1738,
+   "chars": 198,
+   "text": "At any time during the RFP or contract process to prohibit any\nfurther participation by a proposer or reject any proposal submitted that does not\nconform to any of the requirements detailed herein.\n"
+  },
+  {
+   "id": "p3-s19",
+   "page": 3,
+   "start": 1739,
+   "end": 1993,
+   "chars": 254,
+   "text": "SCOPE OF WORK (SOW) / TECHNICAL SPECIFICATIONS\nCloud-Based Document Management & Workflow Automation Software Solution\nThe Corpus Christi Housing Authority (hereinafter referred to as “CCHA”) is soliciting\ncompetitive proposals from qualified, licensed, "
+  },
+  {
+   "id": "p3-s20",
+   "page": 3,
+   "start": 1993,
+   "end": 2224,
+   "chars": 231,
+   "text": "and insured firms to provide a\ncomprehensive Cloud-Based Document Management & Workflow Automation Software\nSolution to create process and efficiency around all aspects of documentation within the\nCorpus Christi Housing Authority. "
+  },
+  {
+   "id": "p3-s21",
+   "page": 3,
+   "start": 2224,
+   "end": 2539,
+   "chars": 315,
+   "text": "The proposed system requires secure, efficient, and\ncompliant management of records, forms, and workflows across departments (e.g., Finance,\nHuman Resources, Procurement, Maintenance, Compliance, HCV [Housing Choice Vouchers]\nand Property Management) and provides seamless integration with CCHA’s existing systems.\n"
+  },
+  {
+   "id": "p3-s22",
+   "page": 3,
+   "start": 2539,
+   "end": 2717,
+   "chars": 178,
+   "text": "The selected software solution will include configuration, implementation services, data\nmigration, training, documentation, and ongoing support with live agents when necessary.\n"
+  },
+  {
+   "id": "p3-s23",
+   "page": 3,
+   "start": 2718,
+   "end": 2784,
+   "chars": 66,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 232,
+   "chars": 232,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n2.1\n\nBackground\nThe Corpus Christi Housing Authority (CCHA) provides safe, affordable housing to lowincome families, seniors, "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 232,
+   "end": 335,
+   "chars": 103,
+   "text": "and individuals with disabilities throughout the City of\nCorpus Christi and surrounding service areas. "
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 335,
+   "end": 615,
+   "chars": 280,
+   "text": "CCHA administers a diverse portfolio of\naffordable housing programs, including approximately 2,200 multifamily units, which\nconsist of former public housing units converted through the Rental Assistance\nDemonstration (RAD) program, tax credit properties, and single-family homes. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 615,
+   "end": 765,
+   "chars": 150,
+   "text": "In\naddition, CCHA administers 1,700 tenant-based Housing Choice Vouchers (HCV), with\nthese programs collectively serving 3,900 households each month.\n"
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 765,
+   "end": 838,
+   "chars": 73,
+   "text": "CCHA currently utilizes FileVision for managing documents and workflows. "
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 838,
+   "end": 1127,
+   "chars": 289,
+   "text": "To meet\nincreasing demands and improve accessibility and efficiency, CCHA seeks to modernize\nits document and workflow solutions through an intelligent Cloud-Based Document\nManagement & Workflow Automation Software Solution\n\n2.2\n\nObjectives\nThe primary objectives of this procurement are:\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 1127,
+   "end": 1223,
+   "chars": 96,
+   "text": "•\n\n•\n•\n•\n•\n•\n•\n•\n\n•\n\nA Cloud‑based SaaS solution only (no on‑prem or self‑hosted alternatives).\n"
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 1223,
+   "end": 1311,
+   "chars": 88,
+   "text": "Vendors must provide fully managed hosting, updates, scaling, monitoring, and\nsecurity.\n"
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 1311,
+   "end": 1398,
+   "chars": 87,
+   "text": "Software licenses/subscriptions and hosting in a secure, U.S.-based cloud\nenvironment.\n"
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 1398,
+   "end": 1470,
+   "chars": 72,
+   "text": "Discovery, design, configuration, and testing of prioritized workflows.\n"
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 1470,
+   "end": 1558,
+   "chars": 88,
+   "text": "Records management (retention schedules, legal hold, disposition workflow,\naudit logs).\n"
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 1558,
+   "end": 1605,
+   "chars": 47,
+   "text": "Role‑based security, SSO, and access controls.\n"
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 1605,
+   "end": 1682,
+   "chars": 77,
+   "text": "Integration with Yardi and Microsoft 365, including API‑based data exchange.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 1682,
+   "end": 1786,
+   "chars": 104,
+   "text": "Migration of agreed legacy repositories (network shares, FileVision, SharePoint\nlibraries, email PSTs).\n"
+  },
+  {
+   "id": "p4-s14",
+   "page": 4,
+   "start": 1786,
+   "end": 2043,
+   "chars": 257,
+   "text": "AI-powered search capabilities that intelligently analyze document content and\nimages, enabling semantic and contextual search and visual recognition, with\ntraditional indexing, metadata, and OCR-based search included as secondary\nsupporting functionality.\n"
+  },
+  {
+   "id": "p4-s15",
+   "page": 4,
+   "start": 2043,
+   "end": 2312,
+   "chars": 269,
+   "text": "To support comprehensive document capture through multiple input methods,\nincluding scanning, direct file import, email ingestion, and other applicable\nelectronic or automated intake mechanisms, to ensure efficient and flexible\ndocument intake across the organization.\n"
+  },
+  {
+   "id": "p4-s16",
+   "page": 4,
+   "start": 2313,
+   "end": 2379,
+   "chars": 66,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 309,
+   "chars": 309,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n2.3\n\nFunctional Requirements\n2.3.1 Core Capability Requirements\nVendors must demonstrate that the proposed solution meets the following essential\ncapability areas, which represent the CCHA’s functional, "
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 309,
+   "end": 346,
+   "chars": 37,
+   "text": "operational, and strategic\nneeds:\n1. "
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 346,
+   "end": 456,
+   "chars": 110,
+   "text": "Cloud-First Deployment — System provides secure, scalable, cloud-based\naccess with no local servers required.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 456,
+   "end": 459,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 459,
+   "end": 522,
+   "chars": 63,
+   "text": "Security & Access Control — Encryption in transit and at rest; "
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 522,
+   "end": 546,
+   "chars": 24,
+   "text": "role-based\npermissions; "
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 546,
+   "end": 559,
+   "chars": 13,
+   "text": "MFA support.\n"
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 559,
+   "end": 562,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 562,
+   "end": 676,
+   "chars": 114,
+   "text": "Compliance Workflow Integration — Ability to embed Agency-specific\napproval, retention, and regulatory workflows.\n"
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 676,
+   "end": 679,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 679,
+   "end": 769,
+   "chars": 90,
+   "text": "Audit Readiness — Automated tracking of approvals, retention, and required\ndocumentation.\n"
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 769,
+   "end": 772,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 772,
+   "end": 893,
+   "chars": 121,
+   "text": "Intelligent Search & Knowledge Discovery — AI-powered semantic search,\nrelevance ranking, and related-content detection.\n"
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 893,
+   "end": 896,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 896,
+   "end": 997,
+   "chars": 101,
+   "text": "Intelligent Workflow Automation — Auto-filing, metadata suggestions,\nrequired-attachment validation.\n"
+  },
+  {
+   "id": "p5-s15",
+   "page": 5,
+   "start": 997,
+   "end": 1000,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p5-s16",
+   "page": 5,
+   "start": 1000,
+   "end": 1104,
+   "chars": 104,
+   "text": "SOP & Policy Integration — Ability to tie Agency SOPs and policies directly into\nworkflows and tasking.\n"
+  },
+  {
+   "id": "p5-s17",
+   "page": 5,
+   "start": 1104,
+   "end": 1107,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p5-s18",
+   "page": 5,
+   "start": 1107,
+   "end": 1218,
+   "chars": 111,
+   "text": "Advanced Enterprise Search — Natural language search with AI surfacing\nrelated content and historical context.\n"
+  },
+  {
+   "id": "p5-s19",
+   "page": 5,
+   "start": 1218,
+   "end": 1221,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p5-s20",
+   "page": 5,
+   "start": 1221,
+   "end": 1341,
+   "chars": 120,
+   "text": "Open API for Integrations — Flexible API layer for integration with existing\nsystems, portals, and future applications.\n"
+  },
+  {
+   "id": "p5-s21",
+   "page": 5,
+   "start": 1341,
+   "end": 1345,
+   "chars": 4,
+   "text": "10. "
+  },
+  {
+   "id": "p5-s22",
+   "page": 5,
+   "start": 1345,
+   "end": 1448,
+   "chars": 103,
+   "text": "Flexible Metadata & Document Typing — Agency-definable metadata fields\nand document-type requirements.\n"
+  },
+  {
+   "id": "p5-s23",
+   "page": 5,
+   "start": 1448,
+   "end": 1452,
+   "chars": 4,
+   "text": "11. "
+  },
+  {
+   "id": "p5-s24",
+   "page": 5,
+   "start": 1452,
+   "end": 1527,
+   "chars": 75,
+   "text": "Version Control & History — Full, immutable versioning and change history.\n"
+  },
+  {
+   "id": "p5-s25",
+   "page": 5,
+   "start": 1527,
+   "end": 1531,
+   "chars": 4,
+   "text": "12. "
+  },
+  {
+   "id": "p5-s26",
+   "page": 5,
+   "start": 1531,
+   "end": 1639,
+   "chars": 108,
+   "text": "Data Migration Support — Secure migration of legacy files and metadata with\nminimal operational disruption.\n"
+  },
+  {
+   "id": "p5-s27",
+   "page": 5,
+   "start": 1639,
+   "end": 1643,
+   "chars": 4,
+   "text": "13. "
+  },
+  {
+   "id": "p5-s28",
+   "page": 5,
+   "start": 1643,
+   "end": 1744,
+   "chars": 101,
+   "text": "Mobility & Remote Access — Secure access for uploading, reviewing, and\napproving documents remotely.\n"
+  },
+  {
+   "id": "p5-s29",
+   "page": 5,
+   "start": 1744,
+   "end": 1748,
+   "chars": 4,
+   "text": "14. "
+  },
+  {
+   "id": "p5-s30",
+   "page": 5,
+   "start": 1748,
+   "end": 1858,
+   "chars": 110,
+   "text": "Scalability & Future-Proofing — Capacity to expand with Agency growth and\nadopt future AI/analytics features.\n"
+  },
+  {
+   "id": "p5-s31",
+   "page": 5,
+   "start": 1858,
+   "end": 1862,
+   "chars": 4,
+   "text": "15. "
+  },
+  {
+   "id": "p5-s32",
+   "page": 5,
+   "start": 1862,
+   "end": 1959,
+   "chars": 97,
+   "text": "Change Management & Training — Vendor-provided onboarding, staff training,\nand adoption support.\n"
+  },
+  {
+   "id": "p5-s33",
+   "page": 5,
+   "start": 1959,
+   "end": 1963,
+   "chars": 4,
+   "text": "16. "
+  },
+  {
+   "id": "p5-s34",
+   "page": 5,
+   "start": 1963,
+   "end": 2056,
+   "chars": 93,
+   "text": "Cost Transparency & Predictability — Clear licensing, storage, support, and\nupgrade pricing.\n"
+  },
+  {
+   "id": "p5-s35",
+   "page": 5,
+   "start": 2056,
+   "end": 2060,
+   "chars": 4,
+   "text": "17. "
+  },
+  {
+   "id": "p5-s36",
+   "page": 5,
+   "start": 2060,
+   "end": 2156,
+   "chars": 96,
+   "text": "Knowledge Preservation — Support for institutional knowledge capture as staff\nretire or depart.\n"
+  },
+  {
+   "id": "p5-s37",
+   "page": 5,
+   "start": 2157,
+   "end": 2223,
+   "chars": 66,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 110,
+   "chars": 110,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n18. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 110,
+   "end": 196,
+   "chars": 86,
+   "text": "Disaster Recovery & Business Continuity — Backup, redundancy, and recovery\nprotocols.\n"
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 196,
+   "end": 200,
+   "chars": 4,
+   "text": "19. "
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 200,
+   "end": 300,
+   "chars": 100,
+   "text": "Public Sector Specialization — Vendor experience supporting complianceheavy public sector agencies.\n"
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 300,
+   "end": 433,
+   "chars": 133,
+   "text": "2.3.2 Document Capture & Ingestion\n• Multi‑channel intake: scanners/MFDs, email ingestion, watched\nfolders, APIs, mobile, web forms.\n"
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 433,
+   "end": 509,
+   "chars": 76,
+   "text": "• OCR/ICR and zonal extraction with confidence scores and exception\nqueues.\n"
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 509,
+   "end": 622,
+   "chars": 113,
+   "text": "2.3.3 Document & Records Management\n•\n•\n•\n•\n\nMetadata schemas and templates, required fields, conditional logic.\n"
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 622,
+   "end": 695,
+   "chars": 73,
+   "text": "Version control, check‑in/out, rendition management (PDF/A),\nwatermarks.\n"
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 695,
+   "end": 757,
+   "chars": 62,
+   "text": "Records retention: schedules, holds, evidence of disposition;\n"
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 757,
+   "end": 773,
+   "chars": 16,
+   "text": "immutable logs.\n"
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 773,
+   "end": 845,
+   "chars": 72,
+   "text": "Full‑text and metadata search with saved searches and relevancy\ntuning.\n"
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 846,
+   "end": 972,
+   "chars": 126,
+   "text": "2.3.4 Workflow & Automation\n•\n•\n•\n•\n\nNo/low‑code workflow designer (drag‑and‑drop) with branching, SLAs,\ntimers, escalations.\n"
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 972,
+   "end": 995,
+   "chars": 23,
+   "text": "Business rules engine; "
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 995,
+   "end": 1014,
+   "chars": 19,
+   "text": "calculated fields; "
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 1014,
+   "end": 1031,
+   "chars": 17,
+   "text": "dynamic routing; "
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 1031,
+   "end": 1051,
+   "chars": 20,
+   "text": "parallel\napprovals.\n"
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 1051,
+   "end": 1074,
+   "chars": 23,
+   "text": "Tasks and work queues; "
+  },
+  {
+   "id": "p6-s17",
+   "page": 6,
+   "start": 1074,
+   "end": 1101,
+   "chars": 27,
+   "text": "email/Teams notifications; "
+  },
+  {
+   "id": "p6-s18",
+   "page": 6,
+   "start": 1101,
+   "end": 1112,
+   "chars": 11,
+   "text": "reminders;\n"
+  },
+  {
+   "id": "p6-s19",
+   "page": 6,
+   "start": 1112,
+   "end": 1126,
+   "chars": 14,
+   "text": "reassignment.\n"
+  },
+  {
+   "id": "p6-s20",
+   "page": 6,
+   "start": 1126,
+   "end": 1196,
+   "chars": 70,
+   "text": "E‑signature integration (e.g., DocuSign) with compliant audit trails.\n"
+  },
+  {
+   "id": "p6-s21",
+   "page": 6,
+   "start": 1197,
+   "end": 1323,
+   "chars": 126,
+   "text": "2.3.5 Forms Management\n•\n•\n\nWeb forms and e‑forms (mobile responsive) with validation,\nattachments, and conditional sections.\n"
+  },
+  {
+   "id": "p6-s22",
+   "page": 6,
+   "start": 1323,
+   "end": 1387,
+   "chars": 64,
+   "text": "Public portals (optional) for submissions with status tracking.\n"
+  },
+  {
+   "id": "p6-s23",
+   "page": 6,
+   "start": 1388,
+   "end": 1473,
+   "chars": 85,
+   "text": "2.3.6 Integration\n•\n\nYardi: surface or link documents from resident/vendor/property;\n"
+  },
+  {
+   "id": "p6-s24",
+   "page": 6,
+   "start": 1473,
+   "end": 1529,
+   "chars": 56,
+   "text": "push/pull metadata (e.g., resident ID, property, WO #); "
+  },
+  {
+   "id": "p6-s25",
+   "page": 6,
+   "start": 1529,
+   "end": 1577,
+   "chars": 48,
+   "text": "attach\nartifacts to transactions when feasible; "
+  },
+  {
+   "id": "p6-s26",
+   "page": 6,
+   "start": 1577,
+   "end": 1650,
+   "chars": 73,
+   "text": "support nightly or\nnear‑real‑time sync via APIs/flat files as available.\n"
+  },
+  {
+   "id": "p6-s27",
+   "page": 6,
+   "start": 1651,
+   "end": 1717,
+   "chars": 66,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 6"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 205,
+   "chars": 205,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n•\n•\n\nMicrosoft 365: SharePoint libraries, Teams tabs, Outlook add‑in for\nfiling, OneDrive interop; "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 205,
+   "end": 253,
+   "chars": 48,
+   "text": "Azure AD SSO and MFA\nOther: SFTP/REST/Webhooks; "
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 253,
+   "end": 288,
+   "chars": 35,
+   "text": "open APIs and SDKs for future use; "
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 288,
+   "end": 318,
+   "chars": 30,
+   "text": "RPA\ncompatibility (optional).\n"
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 319,
+   "end": 520,
+   "chars": 201,
+   "text": "2.3.7 Reporting & Analytics\n•\n•\n•\n2.4\n\nNon-Functional Security & Compliance Requirements\n•\n•\n•\n\n•\n•\n•\n•\n2.5\n\nOperational dashboards (ingestion volume, SLA compliance, cycle time,\nbacklog, exceptions).\n"
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 520,
+   "end": 598,
+   "chars": 78,
+   "text": "KPI tracking (e.g., average approval time, straight‑through processing\nrate).\n"
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 598,
+   "end": 635,
+   "chars": 37,
+   "text": "Export to Excel/Smartsheet/Power BI; "
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 635,
+   "end": 672,
+   "chars": 37,
+   "text": "scheduled reports and\nsubscriptions.\n"
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 673,
+   "end": 728,
+   "chars": 55,
+   "text": "Authentication & IAM: SSO, MFA support, granular RBAC.\n"
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 728,
+   "end": 780,
+   "chars": 52,
+   "text": "Data Protection: Encryption at rest and in transit; "
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 780,
+   "end": 972,
+   "chars": 192,
+   "text": "key management\npractices\nPrivacy & Compliance: Support for public sector requirements, PII\nsafeguarding, audit trails, legal hold, and records retention consistent\nwith state/local schedules.\n"
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 972,
+   "end": 1154,
+   "chars": 182,
+   "text": "Availability & Performance: 99.9%+ monthly uptime (excluding scheduled\nmaintenance)\nLogging & Auditing: Immutable audit logs for access, changes, approvals,\nand disposition actions; "
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 1154,
+   "end": 1166,
+   "chars": 12,
+   "text": "exportable.\n"
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 1166,
+   "end": 1264,
+   "chars": 98,
+   "text": "Backup & DR: Documented backup frequency, retention, encryption, and\nrestoration testing cadence.\n"
+  },
+  {
+   "id": "p7-s14",
+   "page": 7,
+   "start": 1264,
+   "end": 1312,
+   "chars": 48,
+   "text": "Interoperability: Standards‑based architecture; "
+  },
+  {
+   "id": "p7-s15",
+   "page": 7,
+   "start": 1312,
+   "end": 1342,
+   "chars": 30,
+   "text": "open file formats (PDF,\nCSV).\n"
+  },
+  {
+   "id": "p7-s16",
+   "page": 7,
+   "start": 1343,
+   "end": 1640,
+   "chars": 297,
+   "text": "Implementation Approach & Deliverables\nThe vendor shall deliver a role-based training program that accommodates varying levels of\ntechnical proficiency and job functions, including but not limited to end users, power users,\nsystem administrators, records managers, compliance staff, and IT staff.\n"
+  },
+  {
+   "id": "p7-s17",
+   "page": 7,
+   "start": 1640,
+   "end": 1782,
+   "chars": 142,
+   "text": "Training services shall include, at a minimum:\n• Assessment of CCHA roles, workflows, and system usage to define appropriate\ntraining tracks.\n"
+  },
+  {
+   "id": "p7-s18",
+   "page": 7,
+   "start": 1782,
+   "end": 1932,
+   "chars": 150,
+   "text": "•\n\nRole-Based Training Delivery\no\n\nGeneral end users\n\no\n\nSupervisors and approvers\n\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 7"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 274,
+   "chars": 274,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\n•\n\n•\n\no\n\nDepartmental power users\n\no\n\nSystem and security administrators\n\no\n\nRecords management and compliance staff\n\nA combination of the following training formats:\n"
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 274,
+   "end": 577,
+   "chars": 303,
+   "text": "o\n\nLive instructor-led\n\no\n\nVirtual training sessions\n\no\n\nOn-demand recorded training modules\n\no\n\nHands-on, scenario-based exercises aligned to CCHA workflows\n\no\n\nTrain-the-trainer sessions to support internal knowledge sustainability\n\nVendor shall provide and maintain the following training materials:\n"
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 577,
+   "end": 885,
+   "chars": 308,
+   "text": "o\n\nUser manuals and administrator guides\n\no\n\nQuick-reference guides and job aids\n\no\n\nWorkflow-specific documentation\n\no\n\nSearchable knowledge base content\n\nAll training materials must remain accessible to CCHA throughout the contract term at no\nadditional cost and must be updated as system features evolve.\n"
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 885,
+   "end": 1045,
+   "chars": 160,
+   "text": "2.6\n\nImplementation Approach & Deliverables\nThe vendor shall clearly describe its methodology for implementation, migration,\nonboarding, and long-term support.\n"
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 1045,
+   "end": 1048,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 1048,
+   "end": 1145,
+   "chars": 97,
+   "text": "Initiation & Discovery: project plan, roles, communication plan, risk log,\ncurrent‑state review.\n"
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 1145,
+   "end": 1148,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 1148,
+   "end": 1249,
+   "chars": 101,
+   "text": "Design: future‑state process maps, metadata model, retention mapping, integration\ndesign, test plan.\n"
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 1249,
+   "end": 1252,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 1252,
+   "end": 1362,
+   "chars": 110,
+   "text": "Build & Configure: solution configuration, forms, workflows, security model,\nintegrations, migration runbook.\n"
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1362,
+   "end": 1365,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1365,
+   "end": 1471,
+   "chars": 106,
+   "text": "Testing: unit, system, security, performance, and user acceptance testing (UAT) with\ntraceability matrix.\n"
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 1471,
+   "end": 1474,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 1474,
+   "end": 1575,
+   "chars": 101,
+   "text": "Training & Change Management: role‑based training materials, quick‑reference\nguides, knowledge base.\n"
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 1575,
+   "end": 1578,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 1578,
+   "end": 1660,
+   "chars": 82,
+   "text": "Go‑Live & Hypercare: production cutover, issue triage, stabilization (2–4 weeks).\n"
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 1660,
+   "end": 1663,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 1663,
+   "end": 1753,
+   "chars": 90,
+   "text": "Transition to Operations: final documentation, admin handoff, post‑implementation\nreview.\n"
+  },
+  {
+   "id": "p8-s18",
+   "page": 8,
+   "start": 1753,
+   "end": 1819,
+   "chars": 66,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 8"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 301,
+   "chars": 301,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n3.0\n\nProposal Submission Requirements: All proposals must be submitted to the designated\n\nAgency office and received with an official timestamp by the specified submittal\ndeadline stated herein, "
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 301,
+   "end": 333,
+   "chars": 32,
+   "text": "or within the ensuing addendum. "
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 333,
+   "end": 499,
+   "chars": 166,
+   "text": "Every proposer must submit\ntwo versions of their proposal: an original, which should include an authorized\nsignature and be labeled \"Original,\" and a duplicate copy. "
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 499,
+   "end": 545,
+   "chars": 46,
+   "text": "Both versions should consist\nof a cover page. "
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 545,
+   "end": 837,
+   "chars": 292,
+   "text": "Please ensure that both unfolded proposals are placed together in a\nsingle sealed envelope and addressed to:\nCorpus Christi Housing Authority\nAttention: Procurement Department\nRFP 26022 Cloud-Based Document Management & Workflow Automation\nSoftware Solution\n3701 Ayers Street\nCorpus Christi, "
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 837,
+   "end": 873,
+   "chars": 36,
+   "text": "TX 78415\n3.1 Submission Conditions. "
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 873,
+   "end": 995,
+   "chars": 122,
+   "text": "The package exterior must clearly denote the above-noted\nRFP number and must have the proposer’s name and return address. "
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 995,
+   "end": 1065,
+   "chars": 70,
+   "text": "Proposals\nreceived after the published deadline will not be accepted.\n"
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 1065,
+   "end": 1131,
+   "chars": 66,
+   "text": "3.2 Proposer’s submission package shall consist of the following.\n"
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 1131,
+   "end": 1435,
+   "chars": 304,
+   "text": "3.2.1\n3.2.2\n3.2.3\n3.2.4\n3.2.5\n3.2.6\n3.2.7\n3.2.8\n3.2.9\n\nProposal Cover Sheet\nTab 1 – Functional & Technical Capabilities\nTab 2 – Security, Compliance & Risk\nTab 3 – Implementation Approach & Deliverables\nTab 4 – Integration & Data Migration\nTab 5 – Vendor Experience & Public Sector Fit\nTab 6 – Training, "
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 1435,
+   "end": 1750,
+   "chars": 315,
+   "text": "Support & Long-term Value\nTab 7 – Cost & Price Transparency\nTab 8 - Forms\n3.2.9.1 Attachment A\n3.2.9.2 Attachment B\n3.2.9.3 Attachment C\n3.2.9.4 Attachment D\n3.2.9.5 Attachment E\n3.2.9.6 Addenda Issued\n\n3.3 Proposal Format\nProposals shall be organized using the tab structure outlines in Section 3.2 Proposers\nshall"
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 1750,
+   "end": 1853,
+   "chars": 103,
+   "text": " provide clean, concise narrative responses supported by diagrams, tables, or\nexamples as appropriate.\n"
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 1853,
+   "end": 2001,
+   "chars": 148,
+   "text": "Where applicable, proposers may reference standard documentation, templates, or\nsample artifacts in lieu of creating custom documents for this RFP.\n"
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 2001,
+   "end": 2117,
+   "chars": 116,
+   "text": "3.3.1 Tab 1 – Functional & Technical Capabilities\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 9"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 222,
+   "chars": 222,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\nProposers shall describe how the proposed solution meets the functional\nand technical requirements in Section 2.3.\n"
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 222,
+   "end": 445,
+   "chars": 223,
+   "text": "3.3.1.1\n3.3.1.2\n3.3.1.3\n3.3.1.4\n\n3.3.1.5\n\nFunctional Capability Matrix: A point-by-point response\nindicating compliance with each requirement in Section 2.3.,\nincluding notes on configuration, limitations, or dependencies.\n"
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 445,
+   "end": 621,
+   "chars": 176,
+   "text": "Solution Architecture Overview: A high-level architecture\ndiagram illustrating major system components, data flow,\nhosting model, security layers, and integration touchpoints.\n"
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 621,
+   "end": 768,
+   "chars": 147,
+   "text": "Workflow & Automation Overview: Narrative and/or\nscreenshots describing how workflows are configured and\nmodified using no-code or low-code tools.\n"
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 768,
+   "end": 951,
+   "chars": 183,
+   "text": "AI & Intelligent Search Description: Description of AI\ncapabilities, including document classification, metadata\nextraction, semantic search, and how AI is embedded within\nworkflows.\n"
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 951,
+   "end": 1093,
+   "chars": 142,
+   "text": "Illustrative Use Cases or Case Studies: Examples\ndemonstrating how the solution has automated similar\nprocesses for comparable organizations.\n"
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 1094,
+   "end": 1249,
+   "chars": 155,
+   "text": "3.3.2 Tab 2 – Security, Compliance & Risk\nProposers shall describe their security posture and compliance readiness\nrelevant to public-sector environments.\n"
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 1249,
+   "end": 1434,
+   "chars": 185,
+   "text": "3.3.2.1\n3.3.2.2\n3.3.2.3\n3.3.2.4\n\nSecurity & Compliance Overview: Summary of security\ncontrols, identity and access management approach,\nencryption practices, logging, and auditability.\n"
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 1434,
+   "end": 1550,
+   "chars": 116,
+   "text": "Certifications & Attestations: Evidence of applicable thirdparty certification or formal attestation of compliance.\n"
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 1550,
+   "end": 1671,
+   "chars": 121,
+   "text": "Risk Management Approach: Description of how security,\noperational, and availability risks are identified and mitigated.\n"
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 1671,
+   "end": 1795,
+   "chars": 124,
+   "text": "Data Protection & Privacy Controls: Overview of PII\nprotection, records retention support, legal hold, and audit\nreadiness.\n"
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 1796,
+   "end": 1948,
+   "chars": 152,
+   "text": "3.3.3 Tab 3 – Implementation Approach & Deliverables\nProposers shall describe their standard methodology for implementation,\nmigration, and onboarding.\n"
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 1948,
+   "end": 2121,
+   "chars": 173,
+   "text": "3.3.3.1\n\nImplementation Methodology: Description of typical phases\nand training formats (e.g., discovery, design, configuration,\ntesting, training, go-Live, stabilization).\n"
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 2122,
+   "end": 2189,
+   "chars": 67,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 10"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 266,
+   "chars": 266,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n3.3.3.2\n3.3.3.3\n3.3.3.4\n\nProject Governance & Risk Management: Overview of project\ngovernance, communications, escalation paths, and risk\nmitigation practices.\n"
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 266,
+   "end": 373,
+   "chars": 107,
+   "text": "Timeline Overview: A representative high-level timeline for\nimplementation of similar size and complexity.\n"
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 373,
+   "end": 464,
+   "chars": 91,
+   "text": "Quality & Acceptance Approach: Description on how\ndeliverables are validated and accepted.\n"
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 465,
+   "end": 584,
+   "chars": 119,
+   "text": "3.3.4 Tab – 4 – Integration & Data Migration\nProposers shall describe integration capabilities and migration approach.\n"
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 584,
+   "end": 774,
+   "chars": 190,
+   "text": "3.3.4.1\n3.3.4.2\n3.3.4.3\n3.3.4.4\n3.3.5 Tab 5 –\n\nYardi Integration Overview: Description of supported\nintegration patterns, date exchange methods, and prior\nexperience integrating with Yardi.\n"
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 774,
+   "end": 894,
+   "chars": 120,
+   "text": "Microsoft 365 Integration Overview: Description of\nintegration with SharePoint, Teams, Outlook, OneDrive, and\nAzure AD.\n"
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 894,
+   "end": 1014,
+   "chars": 120,
+   "text": "Data Migration Strategy: High-level approach to migrating\nlegacy repositories, including validation and risk migration.\n"
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 1014,
+   "end": 1108,
+   "chars": 94,
+   "text": "Relevant Case Examples: Examples of successful integration\nor migrations for similar clients.\n"
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 1108,
+   "end": 1209,
+   "chars": 101,
+   "text": "Vendor Experience & Public Sector\n\nProposers shall demonstrate experience, stability, and relevance.\n"
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 1209,
+   "end": 1475,
+   "chars": 266,
+   "text": "3.3.5.1\n\n3.3.5.2\n3.3.5.3\n3.3.5.4\n3.3.5.5\n3.3.5.6\n\nCase Studies/Project Profiles: Detailed descriptions of 3-5\nsimilar projects, specifically highlighting experience with\nPublic Housing Agencies (PHAS), municipal housing\ndepartments, or affordable housing providers.\n"
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 1475,
+   "end": 1649,
+   "chars": 174,
+   "text": "Contract/SOW Samples: Copies of previous Statement of Work\n(SOW) or contracts showing scope, scale, and successful\ncompletion of similar services within the last 3 -5 years.\n"
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 1649,
+   "end": 1803,
+   "chars": 154,
+   "text": "Organization\nChart\n&\nKey\nPersonnel\nResumes:\nDocumentation demonstrating the experience of the team\nmembers who will directly serve the Housing Authority.\n"
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 1803,
+   "end": 1980,
+   "chars": 177,
+   "text": "Reference Letter: At least three letters from previous clients\n(preferably government or housing authorities) on company\nletterhead, signed, and including contract information.\n"
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 1980,
+   "end": 2136,
+   "chars": 156,
+   "text": "Performance Metrics/KPI Data: Quantitative evidence of\nsuccess, such as on-time delivery percentages or system\nuptime records, to prove quality of service.\n"
+  },
+  {
+   "id": "p11-s14",
+   "page": 11,
+   "start": 2136,
+   "end": 2262,
+   "chars": 126,
+   "text": "Customer Testimonials: Documented feedback highlighting\nclient satisfaction with product implementation and customer\nsupport.\n"
+  },
+  {
+   "id": "p11-s15",
+   "page": 11,
+   "start": 2263,
+   "end": 2330,
+   "chars": 67,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 11"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 276,
+   "chars": 276,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n3.3.5.7\n3.3.5.8\n3.3.5.9\n\nFinancial Statements (Last 3 Years): Audited financial\nstatements, balance sheet, or letters from accountants\ndemonstrating financial stability.\n"
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 276,
+   "end": 424,
+   "chars": 148,
+   "text": "Product Roadmap: Documentation showing planned future\nupgrades, R&D investments (e.g., >15% of revenue), and a\ntrack record of consistent upgrades.\n"
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 424,
+   "end": 551,
+   "chars": 127,
+   "text": "Risk Management Plan: Documentation of policies regarding\ndata security (e.g., SOC 2 readiness) and business continuity\nplans.\n"
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 552,
+   "end": 667,
+   "chars": 115,
+   "text": "3.3.6 Training, Support & Long-Term Value\nProposers shall describe their approach to adoption and ongoing support.\n"
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 667,
+   "end": 782,
+   "chars": 115,
+   "text": "3.3.6.1\n3.3.6.2\n3.3.6.3\n3.3.6.4\n\nTraining Approach: Overview of role-based training strategy\nand delivery formats.\n"
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 782,
+   "end": 881,
+   "chars": 99,
+   "text": "Support Model: Description of support structure, SLAs,\nescalation, and customer support resources.\n"
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 881,
+   "end": 1000,
+   "chars": 119,
+   "text": "Customer Success Approach: Description of ongoing\nengagement, adoption tracking, and continuous improvement\npractices.\n"
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 1000,
+   "end": 1100,
+   "chars": 100,
+   "text": "Accessibility Statement: Statement showing training content\nadheres to accessible design standards.\n"
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 1101,
+   "end": 1204,
+   "chars": 103,
+   "text": "3.3.7 Tab 7 – Cost & Pricing Transparency\nProposers shall provide clean, complete pricing information.\n"
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 1204,
+   "end": 1465,
+   "chars": 261,
+   "text": "3.3.7.1\n\n3.3.7.2\n\n3.3.7.3\n\n3.3.7.4\n3.3.7.5\n3.3.7.6\n\nItemized Pricing Proposal: A detailed breakdown of all costs,\nincluding software licenses/subscriptions, hardware,\nimplementation, migration, training, support, and optional\nservices, ensuring no hidden fees.\n"
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 1465,
+   "end": 1644,
+   "chars": 179,
+   "text": "Fixed Fee Schedule or Price Cap Document: A binding\ndocument defining price ceilings or fixed rates for the\nduration of the contract, often for 5 years, to ensure cost\nstability.\n"
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 1644,
+   "end": 1840,
+   "chars": 196,
+   "text": "Service Level Agreements (SLAs) with Financial Penalties:\nDocuments linking service quality directly to cost reductions,\nproviding predictable financial outcomes if performance goals\nare not met.\n"
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 1840,
+   "end": 2035,
+   "chars": 195,
+   "text": "5-Year TCO (Total Cost of Ownership) 5- Year TCO Analysis\nWorksheet/Spreadsheet: A detailed financial model covering:\nInitial Acquisition Costs: Hardware, software licenses,\nimplementation fees.\n"
+  },
+  {
+   "id": "p12-s13",
+   "page": 12,
+   "start": 2035,
+   "end": 2086,
+   "chars": 51,
+   "text": "Operation Costs: Annual maintenance, support fees.\n"
+  },
+  {
+   "id": "p12-s14",
+   "page": 12,
+   "start": 2086,
+   "end": 2147,
+   "chars": 61,
+   "text": "Subscription costs, training, and utilities (if applicable).\n"
+  },
+  {
+   "id": "p12-s15",
+   "page": 12,
+   "start": 2148,
+   "end": 2215,
+   "chars": 67,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 12"
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 192,
+   "chars": 192,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n3.3.7.7\n3.3.7.8\n\nEnd-of-Life/Disposal Costs: Decommissioning or data\nmigration costs.\n"
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 192,
+   "end": 318,
+   "chars": 126,
+   "text": "Indirect Cost Analysis: Documentation of cost related to\ndowntime, personnel time for training, and operational\ninefficiency.\n"
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 319,
+   "end": 520,
+   "chars": 201,
+   "text": "3.3.8 Tab 8- Forms\n3.3.8.1 Attachment A\n3.3.8.2 Attachment B\n3.3.8.3 Attachment C\n3.3.8.4 Attachment D\n3.3.8.5 Attachment E\n3.3.8.6 Addendums\n4.0\n\nProposal Evaluation:\n4.1 Proposal Evaluation Process.\n"
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 520,
+   "end": 578,
+   "chars": 58,
+   "text": "4.1.1\n\nAn evaluation committee will screen all proposals. "
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 578,
+   "end": 650,
+   "chars": 72,
+   "text": "The evaluation\ncommittee shall screen and rate the submitted responses. "
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 650,
+   "end": 817,
+   "chars": 167,
+   "text": "The\nevaluation rating will be on a 100-point scale, and those proposers\nselected for a short list may be invited to attend an interview at the\nproposer’s own expense. "
+  },
+  {
+   "id": "p13-s6",
+   "page": 13,
+   "start": 817,
+   "end": 1055,
+   "chars": 238,
+   "text": "Any invitation to an oral presentation will be\nsolely for the purpose of clarifying proposals received for each\nqualifying proposer and will not constitute a decision by the evaluation\ncommittee on the selection of a successful proposal.\n"
+  },
+  {
+   "id": "p13-s7",
+   "page": 13,
+   "start": 1056,
+   "end": 1181,
+   "chars": 125,
+   "text": "4.1.2\n\nEach proposal received will first be evaluated for responsiveness (e.g.,\nmeeting the published minimum requirements). "
+  },
+  {
+   "id": "p13-s8",
+   "page": 13,
+   "start": 1181,
+   "end": 1336,
+   "chars": 155,
+   "text": "The Agency reserves\nthe right to reject any proposal deemed not minimally responsive (the\nAgency will notify such firms in writing of any such rejection).\n"
+  },
+  {
+   "id": "p13-s9",
+   "page": 13,
+   "start": 1337,
+   "end": 1442,
+   "chars": 105,
+   "text": "4.1.3\n\nCCHA staff shall recommend an evaluation committee, which will be\nused to evaluate all proposals. "
+  },
+  {
+   "id": "p13-s10",
+   "page": 13,
+   "start": 1442,
+   "end": 1584,
+   "chars": 142,
+   "text": "PLEASE NOTE: No proposer shall be\ninformed at any time during or after the RFP process as to the identity\nof any evaluation committee member. "
+  },
+  {
+   "id": "p13-s11",
+   "page": 13,
+   "start": 1584,
+   "end": 1766,
+   "chars": 182,
+   "text": "If, by chance, a proposer does\nbecome aware of the identity of such person(s), he/she SHALL NOT\nmake any attempt to contact or discuss with such person anything\nrelated to this RFP. "
+  },
+  {
+   "id": "p13-s12",
+   "page": 13,
+   "start": 1766,
+   "end": 1863,
+   "chars": 97,
+   "text": "The CO is the only person at the Agency that the\nproposers shall contact pertaining to this RFP. "
+  },
+  {
+   "id": "p13-s13",
+   "page": 13,
+   "start": 1863,
+   "end": 1997,
+   "chars": 134,
+   "text": "Failure to abide by this\nrequirement may (and most likely will) cause such proposer(s) to be\neliminated from consideration for award.\n"
+  },
+  {
+   "id": "p13-s14",
+   "page": 13,
+   "start": 1997,
+   "end": 2125,
+   "chars": 128,
+   "text": "During the evaluation process, the proposer may be asked for\nadditional information or clarification of the proposal as needed. "
+  },
+  {
+   "id": "p13-s15",
+   "page": 13,
+   "start": 2125,
+   "end": 2197,
+   "chars": 72,
+   "text": "The\nAgency will evaluate all proposals based on the following criteria.\n"
+  },
+  {
+   "id": "p13-s16",
+   "page": 13,
+   "start": 2198,
+   "end": 2265,
+   "chars": 67,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 13"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 132,
+   "chars": 132,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\n4.2 Evaluation Criteria:\n"
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 132,
+   "end": 407,
+   "chars": 275,
+   "text": "4.2.1 Functional & Technical Capabilities (20 pts)\n•\n\nAlignment with Section 2.3 requirements\n\n•\n\nWorkflow flexibility and AI capabilities\n\n•\n\nRecords management and audit readiness\n\n•\n\nSearch and knowledge discovery\n\n4.2.2 Security, Compliance & Risk (15 pts)\n•\n\nIAM, RBAC, "
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 407,
+   "end": 708,
+   "chars": 301,
+   "text": "MFA implementation\n\n•\n\nAudit logging and retention controls\n\n•\n\nPublic sector compliance readiness\n\n4.2.3 Implementation Approach & Deliverables (15 pts)\n•\n\nClarity and completeness of methodology\n\n•\n\nRisk management and governance\n\n•\n\nRealistic timeline and staffing model\n\n•\n\nAcceptance criteria and"
+  },
+  {
+   "id": "p14-s3",
+   "page": 14,
+   "start": 708,
+   "end": 1023,
+   "chars": 315,
+   "text": " traceability\n\n4.2.4 Integration & Data Migration (20 pts)\n•\n\nYardi integration depth\n\n•\n\nMicrosoft 365 integration quality\n\n•\n\nMigration approach robustness\n\n4.2.5 Vendor Experience & Public Sector Fit (15 pts)\n•\n\nHousing Authority or similar experience\n\n•\n\nReference quality\n\n•\n\nLong-term product viability\n\n4.2.6"
+  },
+  {
+   "id": "p14-s4",
+   "page": 14,
+   "start": 1023,
+   "end": 1174,
+   "chars": 151,
+   "text": " Training, Support & Long-Term Value (5 pts)\n•\n\nTraining quality and accessibility\n\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 14"
+  },
+  {
+   "id": "p15-s0",
+   "page": 15,
+   "start": 0,
+   "end": 34,
+   "chars": 34,
+   "text": "Request For Proposal (RFP) 26022,\n"
+  },
+  {
+   "id": "p15-s1",
+   "page": 15,
+   "start": 34,
+   "end": 344,
+   "chars": 310,
+   "text": "Cloud-Based Document Management & Workflow Automation Software Solution\n\n•\n\nSupport model maturity\n\n•\n\nCustomer success approach\n\n4.2.7 Cost & Pricing Transparency (10 pts)\n•\n\nClarity and predictability\n\n•\n\n5-year TCO (Total Cost of Ownership)\n\n•\n\nValue relative to functionality\nCriteria\n\nPoints\n\nFunctional &"
+  },
+  {
+   "id": "p15-s2",
+   "page": 15,
+   "start": 344,
+   "end": 512,
+   "chars": 168,
+   "text": " Technical Capabilities\nSecurity, Compliance & Risk\nImplementation Approach &\nDeliverables\nIntegration & Data Migration\nVendor Experience & Public Sector Fit\nTraining, "
+  },
+  {
+   "id": "p15-s3",
+   "page": 15,
+   "start": 512,
+   "end": 668,
+   "chars": 156,
+   "text": "Support & Long-Term Value\nCost & Pricing Transparency\nTotal Points\n\n20\n15\n15\n20\n15\n5\n10\n100\n\n4.2.8\n\nPricing and fees will be evaluated based on total cost. "
+  },
+  {
+   "id": "p15-s4",
+   "page": 15,
+   "start": 668,
+   "end": 745,
+   "chars": 77,
+   "text": "The\nformula used will be the lowest price/proposal being reviewed,\nprice*10.\n"
+  },
+  {
+   "id": "p15-s5",
+   "page": 15,
+   "start": 746,
+   "end": 875,
+   "chars": 129,
+   "text": "4.2.9\n\nOnce proposals are scored, the evaluation team will select\nfinalists and decide whether an interview should be conducted.\n"
+  },
+  {
+   "id": "p15-s6",
+   "page": 15,
+   "start": 875,
+   "end": 1026,
+   "chars": 151,
+   "text": "Each evaluation team member will award each finalist up to 30\npoints for their oral presentation and can amend proposal scores\nbased on the interview.\n"
+  },
+  {
+   "id": "p15-s7",
+   "page": 15,
+   "start": 1027,
+   "end": 1142,
+   "chars": 115,
+   "text": "4.2.10\n\nProposal and interview scores will be combined, and the highest\noverall proposal score will be identified. "
+  },
+  {
+   "id": "p15-s8",
+   "page": 15,
+   "start": 1142,
+   "end": 1211,
+   "chars": 69,
+   "text": "The Agency will then\nbegin contract negotiations with that Proposer.\n"
+  },
+  {
+   "id": "p15-s9",
+   "page": 15,
+   "start": 1212,
+   "end": 1256,
+   "chars": 44,
+   "text": "4.2.11\n\nShould negotiation be unsuccessful; "
+  },
+  {
+   "id": "p15-s10",
+   "page": 15,
+   "start": 1256,
+   "end": 1329,
+   "chars": 73,
+   "text": "the Agency shall enter\nnegotiation with the next highest-ranking vendor. "
+  },
+  {
+   "id": "p15-s11",
+   "page": 15,
+   "start": 1329,
+   "end": 1411,
+   "chars": 82,
+   "text": "The process\nshall continue until an agreement is reached with a qualified\nvendor.\n"
+  },
+  {
+   "id": "p15-s12",
+   "page": 15,
+   "start": 1412,
+   "end": 1479,
+   "chars": 67,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 15"
+  },
+  {
+   "id": "p16-s0",
+   "page": 16,
+   "start": 0,
+   "end": 223,
+   "chars": 223,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\nFailure to submit the requested information may result in a\ndetermination of non-responsiveness to the solicitation.\n"
+  },
+  {
+   "id": "p16-s1",
+   "page": 16,
+   "start": 224,
+   "end": 253,
+   "chars": 29,
+   "text": "4.2.12\n\n5.0\n\nCONTRACT AWARD.\n"
+  },
+  {
+   "id": "p16-s2",
+   "page": 16,
+   "start": 253,
+   "end": 284,
+   "chars": 31,
+   "text": "5.1\n\nContract Award Procedure. "
+  },
+  {
+   "id": "p16-s3",
+   "page": 16,
+   "start": 284,
+   "end": 604,
+   "chars": 320,
+   "text": "If a contract is awarded pursuant to this RFP, the\nfollowing detailed procedures will be followed:\n5.1.1\n\n5.2\n\nBy completing, executing, and submitting a proposal, the “proposer is\nthereby agreeing to abide by all terms and conditions pertaining to this RFP\nas issued by the Agency, either in hard copy or by reference. "
+  },
+  {
+   "id": "p16-s4",
+   "page": 16,
+   "start": 604,
+   "end": 761,
+   "chars": 157,
+   "text": "Accordingly,\nthe Agency has no responsibility to conduct after the submittal deadline\nany negotiations pertaining to the contract clauses already published.\n"
+  },
+  {
+   "id": "p16-s5",
+   "page": 16,
+   "start": 762,
+   "end": 783,
+   "chars": 21,
+   "text": "Contract Conditions. "
+  },
+  {
+   "id": "p16-s6",
+   "page": 16,
+   "start": 783,
+   "end": 929,
+   "chars": 146,
+   "text": "The following provisions are considered mandatory conditions of\nany contract award made by the Agency pursuant to this RFP:\n5.2.1\n\nContract Form. "
+  },
+  {
+   "id": "p16-s7",
+   "page": 16,
+   "start": 929,
+   "end": 1003,
+   "chars": 74,
+   "text": "The Agency will not execute a contract on the successful\nproposer's form; "
+  },
+  {
+   "id": "p16-s8",
+   "page": 16,
+   "start": 1003,
+   "end": 1224,
+   "chars": 221,
+   "text": "contracts will only be executed on the Agency form, and\nby submitting a proposal, the successful proposer agrees to do so (please\nnote that the Agency reserves the right to amend this form as the Agency\ndeems necessary).\n"
+  },
+  {
+   "id": "p16-s9",
+   "page": 16,
+   "start": 1225,
+   "end": 1257,
+   "chars": 32,
+   "text": "5.2.2\n\nAssignment of Personnel. "
+  },
+  {
+   "id": "p16-s10",
+   "page": 16,
+   "start": 1257,
+   "end": 1479,
+   "chars": 222,
+   "text": "The Agency shall retain the right to demand and\nreceive a change in personnel assigned to the work if the Agency believes\nthat such a change is in the best interest of the Agency and the completion\nof the contracted work.\n"
+  },
+  {
+   "id": "p16-s11",
+   "page": 16,
+   "start": 1480,
+   "end": 1528,
+   "chars": 48,
+   "text": "5.2.3\n\nUnauthorized Sub-Contracting Prohibited. "
+  },
+  {
+   "id": "p16-s12",
+   "page": 16,
+   "start": 1528,
+   "end": 1811,
+   "chars": 283,
+   "text": "The Contractor shall not assign\nany right, nor delegate any duty for the work proposed pursuant to this RFP\n(including, but not limited to, selling or transferring the contract) without\nthe prior written consent of the CO. Any purported assignment of interest\nor delegation of duty, "
+  },
+  {
+   "id": "p16-s13",
+   "page": 16,
+   "start": 1811,
+   "end": 2055,
+   "chars": 244,
+   "text": "without the prior written consent of the CO shall be\nvoid and may result in the cancellation of the contract with the Agency, or\nmay result in the full or partial forfeiture of funds paid to the Contractor\nas a result of the proposed contract; "
+  },
+  {
+   "id": "p16-s14",
+   "page": 16,
+   "start": 2055,
+   "end": 2110,
+   "chars": 55,
+   "text": "either as determined by the CO.\n\n5.3\n\nContract Period. "
+  },
+  {
+   "id": "p16-s15",
+   "page": 16,
+   "start": 2110,
+   "end": 2164,
+   "chars": 54,
+   "text": "One initial year and four one-year options to extend.\n"
+  },
+  {
+   "id": "p16-s16",
+   "page": 16,
+   "start": 2165,
+   "end": 2208,
+   "chars": 43,
+   "text": "5.4\n\nLicensing and Insurance Requirements. "
+  },
+  {
+   "id": "p16-s17",
+   "page": 16,
+   "start": 2208,
+   "end": 2364,
+   "chars": 156,
+   "text": "Prior to award (but not as a part of the\nproposal submission), the successful proposer will be required to provide:\n5.4.1\n\nWorkers' Compensation Insurance. "
+  },
+  {
+   "id": "p16-s18",
+   "page": 16,
+   "start": 2364,
+   "end": 2618,
+   "chars": 254,
+   "text": "An original certificate evidencing the\nproposer’s current industrial (workers’ compensation) insurance carrier and\ncoverage amount (NOTE: Workers Compensation Insurance will be required\n\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 16"
+  },
+  {
+   "id": "p17-s0",
+   "page": 17,
+   "start": 0,
+   "end": 211,
+   "chars": 211,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\nof any Contractor that has employees other than just the owner working\non-site to provide the services);\n"
+  },
+  {
+   "id": "p17-s1",
+   "page": 17,
+   "start": 211,
+   "end": 247,
+   "chars": 36,
+   "text": "5.4.2\n\nGeneral Liability Insurance. "
+  },
+  {
+   "id": "p17-s2",
+   "page": 17,
+   "start": 247,
+   "end": 532,
+   "chars": 285,
+   "text": "An original certificate evidencing General\nLiability coverage, naming the Agency as an additional insured, together\nwith the appropriate endorsement to said policy reflecting the addition of\nthe Agency as an additional insured under said policy (minimum of\n$1,000,000 each occurrence, "
+  },
+  {
+   "id": "p17-s3",
+   "page": 17,
+   "start": 532,
+   "end": 731,
+   "chars": 199,
+   "text": "general aggregate minimum limit of\n$1,000,000, together with damage to premises and fire damage of $50,000\nand medical expenses any one person of $5,000), with a maximum\ndeductible amount of $5,000;\n"
+  },
+  {
+   "id": "p17-s4",
+   "page": 17,
+   "start": 732,
+   "end": 761,
+   "chars": 29,
+   "text": "5.4.3\n\nAutomobile Insurance. "
+  },
+  {
+   "id": "p17-s5",
+   "page": 17,
+   "start": 761,
+   "end": 880,
+   "chars": 119,
+   "text": "An original certificate showing the proposer’s\nautomobile insurance coverage in a combined single limit of $1,000,000.\n"
+  },
+  {
+   "id": "p17-s6",
+   "page": 17,
+   "start": 880,
+   "end": 1108,
+   "chars": 228,
+   "text": "For every vehicle utilized during the term of this program, when not owned\nby the entity, each vehicle must have evidence of automobile insurance\ncoverage with limits of no less than $100,000/$300,000 and medical pay of\n$5,000.\n"
+  },
+  {
+   "id": "p17-s7",
+   "page": 17,
+   "start": 1109,
+   "end": 1152,
+   "chars": 43,
+   "text": "5.4.4\n\nCity/County/State Business License.\n"
+  },
+  {
+   "id": "p17-s8",
+   "page": 17,
+   "start": 1152,
+   "end": 1332,
+   "chars": 180,
+   "text": "If applicable, a copy of the\nproposer’s business license allowing that entity to provide such services\nwithin the City of Corpus Christi, Nueces County, and/or the State of Texas.\n"
+  },
+  {
+   "id": "p17-s9",
+   "page": 17,
+   "start": 1333,
+   "end": 1354,
+   "chars": 21,
+   "text": "5.4.5\n\nCertificates. "
+  },
+  {
+   "id": "p17-s10",
+   "page": 17,
+   "start": 1354,
+   "end": 1536,
+   "chars": 182,
+   "text": "Regarding the insurance certificates and licenses referenced\nin Sections 5.4.1 through 5.4.4, each proposer must enter the relevant\ninformation in the designated fields on the form. "
+  },
+  {
+   "id": "p17-s11",
+   "page": 17,
+   "start": 1536,
+   "end": 1625,
+   "chars": 89,
+   "text": "Do not attach or submit\ncopies of insurance certificates or licenses with your proposal; "
+  },
+  {
+   "id": "p17-s12",
+   "page": 17,
+   "start": 1625,
+   "end": 1723,
+   "chars": 98,
+   "text": "the Agency\nwill obtain these documents from the selected proposer before finalizing\nthe contract.\n"
+  },
+  {
+   "id": "p17-s13",
+   "page": 17,
+   "start": 1724,
+   "end": 1760,
+   "chars": 36,
+   "text": "5.5\n\nRight to Negotiate Final Fees. "
+  },
+  {
+   "id": "p17-s14",
+   "page": 17,
+   "start": 1760,
+   "end": 1997,
+   "chars": 237,
+   "text": "The Agency shall retain the right to negotiate the\namount of fees that are paid to the successful proposer, meaning the fees proposed\nby the top-rated proposer may, at the Agency's option, be the basis for the beginning\nof negotiations. "
+  },
+  {
+   "id": "p17-s15",
+   "page": 17,
+   "start": 1997,
+   "end": 2077,
+   "chars": 80,
+   "text": "Such negotiations shall begin after the Agency has chosen a top-rated\nproposer. "
+  },
+  {
+   "id": "p17-s16",
+   "page": 17,
+   "start": 2077,
+   "end": 2292,
+   "chars": 215,
+   "text": "If such negotiations are not, in the opinion of the CO, successfully concluded\nwithin 5 business days, the Agency shall retain the right to end such negotiations and\nbegin negotiations with the next-rated proposer. "
+  },
+  {
+   "id": "p17-s17",
+   "page": 17,
+   "start": 2292,
+   "end": 2569,
+   "chars": 277,
+   "text": "The Agency shall also retain the right\nto negotiate with and make an award to more than one proposer, as long as such\nnegotiation(s) and/or award(s) are addressed in the above manner (i.e., top-rated\nfirst, then next-rated following until a successful negotiation is reached).\n"
+  },
+  {
+   "id": "p17-s18",
+   "page": 17,
+   "start": 2570,
+   "end": 2603,
+   "chars": 33,
+   "text": "5.6\n\nContract Service Standards. "
+  },
+  {
+   "id": "p17-s19",
+   "page": 17,
+   "start": 2603,
+   "end": 2753,
+   "chars": 150,
+   "text": "All work performed pursuant to this RFP must conform\nand comply with all applicable local, state, and federal codes, statutes, laws, and\nregulations.\n"
+  },
+  {
+   "id": "p17-s20",
+   "page": 17,
+   "start": 2754,
+   "end": 2821,
+   "chars": 67,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 17"
+  },
+  {
+   "id": "p18-s0",
+   "page": 18,
+   "start": 0,
+   "end": 148,
+   "chars": 148,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n5.7\n\nPrompt Return of Contract Documents. "
+  },
+  {
+   "id": "p18-s1",
+   "page": 18,
+   "start": 148,
+   "end": 355,
+   "chars": 207,
+   "text": "Any and all documents required to complete\nthe contract, including the contract signature by the successful proposer, shall be\nprovided to the Agency within (ten) 10 work days of notification by the Agency.\n"
+  },
+  {
+   "id": "p18-s2",
+   "page": 18,
+   "start": 356,
+   "end": 387,
+   "chars": 31,
+   "text": "6.0 Invoicing:\n\n6.1\n\nInvoices. "
+  },
+  {
+   "id": "p18-s3",
+   "page": 18,
+   "start": 387,
+   "end": 639,
+   "chars": 252,
+   "text": "Invoices must contain a complete description of the work or services\nperformed, the contract price for each service, the purchase order number,\nthe contract number (if applicable), the date of service, and the address for\nservice location or delivery. "
+  },
+  {
+   "id": "p18-s4",
+   "page": 18,
+   "start": 639,
+   "end": 766,
+   "chars": 127,
+   "text": "Proposer(s) must submit a separate invoice for\neach purchase order issued by CCHA unless prior approval is obtained from\nCCHA. "
+  },
+  {
+   "id": "p18-s5",
+   "page": 18,
+   "start": 766,
+   "end": 1070,
+   "chars": 304,
+   "text": "To ensure prompt and timely payment of invoices, and unless utilizing\na progress payment schedule, invoices shall be sent electronically to the\nfollowing address:\n\nCCHAInvoices@yardifs.com\nIf the Proposer cannot send invoices electronically, they may be mailed to:\nCorpus Christi Housing Authority\nAttn: "
+  },
+  {
+   "id": "p18-s6",
+   "page": 18,
+   "start": 1070,
+   "end": 1156,
+   "chars": 86,
+   "text": "Finance Department\n3701 Ayers Street\nCorpus Christi, TX 78415\n6.2\n\nProgress Payments. "
+  },
+  {
+   "id": "p18-s7",
+   "page": 18,
+   "start": 1156,
+   "end": 1338,
+   "chars": 182,
+   "text": "If applicable, CCHA may make progress payments\napproximately every 30 days as the work proceeds, provided the work meets\nthe owner’s standard as approved by the Contracting Officer. "
+  },
+  {
+   "id": "p18-s8",
+   "page": 18,
+   "start": 1338,
+   "end": 1480,
+   "chars": 142,
+   "text": "CCHA may,\nsubject to the Contracting Officer's written determination and approval, make\nmore frequent payments to qualified small businesses.\n"
+  },
+  {
+   "id": "p18-s9",
+   "page": 18,
+   "start": 1481,
+   "end": 1502,
+   "chars": 21,
+   "text": "6.3\n\nDirect Deposit. "
+  },
+  {
+   "id": "p18-s10",
+   "page": 18,
+   "start": 1502,
+   "end": 1675,
+   "chars": 173,
+   "text": "Upon the Award of Contract, the Proposer shall complete a\ndirect deposit form to process all payments electronically, ensuring prompt and\nefficient payment of all invoices.\n"
+  },
+  {
+   "id": "p18-s11",
+   "page": 18,
+   "start": 1676,
+   "end": 1768,
+   "chars": 92,
+   "text": "6.4\n\nContractor shall invoice CCHA within 60 days after delivery of the goods and\nservices. "
+  },
+  {
+   "id": "p18-s12",
+   "page": 18,
+   "start": 1768,
+   "end": 1867,
+   "chars": 99,
+   "text": "If the contractor fails to invoice within 60 days, CCHA reserves the\nright not to pay the invoice.\n"
+  },
+  {
+   "id": "p18-s13",
+   "page": 18,
+   "start": 1868,
+   "end": 1935,
+   "chars": 67,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 18"
+  },
+  {
+   "id": "p19-s0",
+   "page": 19,
+   "start": 0,
+   "end": 157,
+   "chars": 157,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\nAttachment B\nGeneral Information Questionnaire\n1. "
+  },
+  {
+   "id": "p19-s1",
+   "page": 19,
+   "start": 157,
+   "end": 447,
+   "chars": 290,
+   "text": "Legal Name of Firm: __________________________________________________\nAddress of Principle Office: ____________________________________________\nTelephone Number: ____________________ Fax: _______________________\nForm of Business Organization: __________________________________________\n2. "
+  },
+  {
+   "id": "p19-s2",
+   "page": 19,
+   "start": 447,
+   "end": 489,
+   "chars": 42,
+   "text": "Identity Principals/Partners in the firm.\n"
+  },
+  {
+   "id": "p19-s3",
+   "page": 19,
+   "start": 489,
+   "end": 520,
+   "chars": 31,
+   "text": "Name\nTitle\n\n% of Ownership\n\n3. "
+  },
+  {
+   "id": "p19-s4",
+   "page": 19,
+   "start": 520,
+   "end": 651,
+   "chars": 131,
+   "text": "Identify the individual(s) that will function as project manager and any other\nsupervisory personnel who will work on the project.\n"
+  },
+  {
+   "id": "p19-s5",
+   "page": 19,
+   "start": 651,
+   "end": 673,
+   "chars": 22,
+   "text": "Name\nTitle\nE-mail\n\n4. "
+  },
+  {
+   "id": "p19-s6",
+   "page": 19,
+   "start": 673,
+   "end": 752,
+   "chars": 79,
+   "text": "How many years has your organization been in business in its current capacity?\n"
+  },
+  {
+   "id": "p19-s7",
+   "page": 19,
+   "start": 752,
+   "end": 755,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p19-s8",
+   "page": 19,
+   "start": 755,
+   "end": 832,
+   "chars": 77,
+   "text": "How many years has our organization been in business under its present name?\n"
+  },
+  {
+   "id": "p19-s9",
+   "page": 19,
+   "start": 832,
+   "end": 835,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p19-s10",
+   "page": 19,
+   "start": 835,
+   "end": 887,
+   "chars": 52,
+   "text": "Under what other or former names have you operated?\n"
+  },
+  {
+   "id": "p19-s11",
+   "page": 19,
+   "start": 887,
+   "end": 890,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p19-s12",
+   "page": 19,
+   "start": 890,
+   "end": 980,
+   "chars": 90,
+   "text": "Has your firm or any member of our firm been to a party to litigate with a public\nentity? "
+  },
+  {
+   "id": "p19-s13",
+   "page": 19,
+   "start": 980,
+   "end": 1053,
+   "chars": 73,
+   "text": "If yes, when, with whom, and state the circumstances and any resolution.\n"
+  },
+  {
+   "id": "p19-s14",
+   "page": 19,
+   "start": 1053,
+   "end": 1056,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p19-s15",
+   "page": 19,
+   "start": 1056,
+   "end": 1182,
+   "chars": 126,
+   "text": "Has your firm or any member of your firm ever had a claim brought against it\nbecause of breach of contract or nonperformance? "
+  },
+  {
+   "id": "p19-s16",
+   "page": 19,
+   "start": 1182,
+   "end": 1258,
+   "chars": 76,
+   "text": "If yes, when, and state the\ncircumstances and any resolution of the matter.\n"
+  },
+  {
+   "id": "p19-s17",
+   "page": 19,
+   "start": 1259,
+   "end": 1326,
+   "chars": 67,
+   "text": "CORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 19"
+  },
+  {
+   "id": "p20-s0",
+   "page": 20,
+   "start": 0,
+   "end": 308,
+   "chars": 308,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\nCompany Biography\nAttachment C\n\nCompany Name: _________________________________________________________\nName of Parent Company: _________________________________________________\nHeadquarters Location: "
+  },
+  {
+   "id": "p20-s1",
+   "page": 20,
+   "start": 308,
+   "end": 612,
+   "chars": 304,
+   "text": "___________________________________________________\nField Office Locations: ____________________________________________________\nBusiness Specialty or Focus: _______________________________________________\n______________________________________________________________________\nNumber of Full-Time Staff: "
+  },
+  {
+   "id": "p20-s2",
+   "page": 20,
+   "start": 612,
+   "end": 694,
+   "chars": 82,
+   "text": "________________________________________________\nFounding Date and Brief History: "
+  },
+  {
+   "id": "p20-s3",
+   "page": 20,
+   "start": 694,
+   "end": 999,
+   "chars": 305,
+   "text": "___________________________________________\n______________________________________________________________________\n______________________________________________________________________\n______________________________________________________________________\nTexas Projects and/or Clients (past & current): "
+  },
+  {
+   "id": "p20-s4",
+   "page": 20,
+   "start": 999,
+   "end": 1316,
+   "chars": 317,
+   "text": "________________________________\n______________________________________________________________________\n______________________________________________________________________\n______________________________________________________________________\nPrevious Housing Authority Experience:\n\nYES\n\nNO\n\nList the Authorities: "
+  },
+  {
+   "id": "p20-s5",
+   "page": 20,
+   "start": 1316,
+   "end": 1508,
+   "chars": 192,
+   "text": "____________________________________________________\n______________________________________________________________________\n\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 20"
+  },
+  {
+   "id": "p21-s0",
+   "page": 21,
+   "start": 0,
+   "end": 156,
+   "chars": 156,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\nForm of Proposal\nAttachment D\n\n(1) Instructions. "
+  },
+  {
+   "id": "p21-s1",
+   "page": 21,
+   "start": 156,
+   "end": 278,
+   "chars": 122,
+   "text": "Unless specifically required otherwise, the items listed below must be\n\ncompleted and included in the proposal submittal.\n"
+  },
+  {
+   "id": "p21-s2",
+   "page": 21,
+   "start": 279,
+   "end": 303,
+   "chars": 24,
+   "text": "(2) Debarred Statement. "
+  },
+  {
+   "id": "p21-s3",
+   "page": 21,
+   "start": 303,
+   "end": 524,
+   "chars": 221,
+   "text": "Has this firm, or any principal(s), ever been debarred from providing\nany services by the Federal Government, any state government, the State of Texas, or any\nlocal government agency within or without the State of Texas? "
+  },
+  {
+   "id": "p21-s4",
+   "page": 21,
+   "start": 524,
+   "end": 633,
+   "chars": 109,
+   "text": "Yes  No  If \"Yes,\" please\nattach a full, detailed explanation, including dates, circumstances, and status.\n"
+  },
+  {
+   "id": "p21-s5",
+   "page": 21,
+   "start": 633,
+   "end": 659,
+   "chars": 26,
+   "text": "(3) Disclosure Statement. "
+  },
+  {
+   "id": "p21-s6",
+   "page": 21,
+   "start": 659,
+   "end": 809,
+   "chars": 150,
+   "text": "Does this firm or any principals thereof have any current, past\npersonal or professional relationship with any Commissioner or Officer of the Agency? "
+  },
+  {
+   "id": "p21-s7",
+   "page": 21,
+   "start": 809,
+   "end": 926,
+   "chars": 117,
+   "text": "Yes\n No  If \"Yes,\" please attach a full, detailed explanation, including dates, circumstances,\nand current status.\n"
+  },
+  {
+   "id": "p21-s8",
+   "page": 21,
+   "start": 926,
+   "end": 949,
+   "chars": 23,
+   "text": "(4) Felony Disclosure. "
+  },
+  {
+   "id": "p21-s9",
+   "page": 21,
+   "start": 949,
+   "end": 1049,
+   "chars": 100,
+   "text": "Has any principal(s) or any person(s) proposed to perform the work\never been convicted of a felony? "
+  },
+  {
+   "id": "p21-s10",
+   "page": 21,
+   "start": 1049,
+   "end": 1158,
+   "chars": 109,
+   "text": "Yes  No  If \"Yes,\" please attach a full, detailed\nexplanation, including dates, circumstances, and status. "
+  },
+  {
+   "id": "p21-s11",
+   "page": 21,
+   "start": 1158,
+   "end": 1349,
+   "chars": 191,
+   "text": "PLEASE NOTE: The Agency reserves\nthe right not to make an award to any proposer that has staff who have been convicted of a\nfelony if the Agency feels that doing so is in its best interests.\n"
+  },
+  {
+   "id": "p21-s12",
+   "page": 21,
+   "start": 1349,
+   "end": 1378,
+   "chars": 29,
+   "text": "(5) Non-Collusive Affidavit. "
+  },
+  {
+   "id": "p21-s13",
+   "page": 21,
+   "start": 1378,
+   "end": 1662,
+   "chars": 284,
+   "text": "The proposer certifies that such proposal is genuine and not\ncollusive and that said proposer entity has not colluded, conspired, connived or agreed,\ndirectly or indirectly, with any proposer or person, to put in a sham proposal or to refrain\nfrom bidding, and has not in any manner, "
+  },
+  {
+   "id": "p21-s14",
+   "page": 21,
+   "start": 1662,
+   "end": 1895,
+   "chars": 233,
+   "text": "directly or indirectly sought by agreement or\ncollusion, or communication or conference, with any person, to fix the proposal price of\naffiant or of any other proposer, to fix overhead, profit or cost element of said proposal\nprice, "
+  },
+  {
+   "id": "p21-s15",
+   "page": 21,
+   "start": 1895,
+   "end": 2022,
+   "chars": 127,
+   "text": "or that of any other proposer or to secure any advantage against the Agency or any\nperson interested in the proposed contract; "
+  },
+  {
+   "id": "p21-s16",
+   "page": 21,
+   "start": 2022,
+   "end": 2073,
+   "chars": 51,
+   "text": "and that all statements in said proposal are true.\n"
+  },
+  {
+   "id": "p21-s17",
+   "page": 21,
+   "start": 2073,
+   "end": 2099,
+   "chars": 26,
+   "text": "(6) Proposer’s Statement. "
+  },
+  {
+   "id": "p21-s18",
+   "page": 21,
+   "start": 2099,
+   "end": 2340,
+   "chars": 241,
+   "text": "The proposer hereby states that by completing and submitting\nthis Form and all other documents within this proposal submittal, he/she is verifying that all\ninformation provided herein is, to the best of his/her knowledge, true and accurate, "
+  },
+  {
+   "id": "p21-s19",
+   "page": 21,
+   "start": 2340,
+   "end": 2509,
+   "chars": 169,
+   "text": "and\nthat if the Agency discovers that any information entered herein to be false, such shall entitle\nthe Agency not to consider to make award or to terminate any award. "
+  },
+  {
+   "id": "p21-s20",
+   "page": 21,
+   "start": 2509,
+   "end": 2777,
+   "chars": 268,
+   "text": "Further, by completing\nand submitting the proposal submittal, and by entering and submitting the costs where\nprovided, the undersigned proposer thereby agrees to abide by all terms and conditions of\nthis RFP as issued by the Agency, either in hard copy or referenced. "
+  },
+  {
+   "id": "p21-s21",
+   "page": 21,
+   "start": 2777,
+   "end": 2950,
+   "chars": 173,
+   "text": "Pursuant to all RFP\ndocuments, this form of proposal, and all attachments, and pursuant to all completed\n\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 21"
+  },
+  {
+   "id": "p22-s0",
+   "page": 22,
+   "start": 0,
+   "end": 289,
+   "chars": 289,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\ndocuments submitted, including these forms and all attachments, the undersigned proposers\nagree to supply the Agency with the services described herein for the fee(s) entered within.\n"
+  },
+  {
+   "id": "p22-s1",
+   "page": 22,
+   "start": 289,
+   "end": 573,
+   "chars": 284,
+   "text": "CONTRACTOR:\n____________________________________________________________________\n(Company Name)\nBy: _________________________________________________________________\n(Signature)\nPrinted Name: _______________________________________________________\nTitle of Authorized Representative: "
+  },
+  {
+   "id": "p22-s2",
+   "page": 22,
+   "start": 573,
+   "end": 749,
+   "chars": 176,
+   "text": "_____________________________________\nDate: _______________________________________________________________\n\nCORPUS CHRISTI HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 22"
+  },
+  {
+   "id": "p23-s0",
+   "page": 23,
+   "start": 0,
+   "end": 199,
+   "chars": 199,
+   "text": "Request For Proposal (RFP) 26022,\nCloud-Based Document Management & Workflow Automation Software Solution\n\nAttachment E\nPricing\n\nCost Type\nImplementation\n\nCost\n\nFrequency of Cost (One-Time,\nMonthly, "
+  },
+  {
+   "id": "p23-s1",
+   "page": 23,
+   "start": 199,
+   "end": 514,
+   "chars": 315,
+   "text": "Yearly\n\nLicenses\nMigration\nSupport &\nMaintenance\nTraining\nAdditional\nFees/Explain\n\n_____________________________________________\nCompany Name\n______________________________________________\nPrinted Name and Title\n___________________________________________________\nSignature\n____________________\nDate\n\nCORPUS CHRISTI"
+  },
+  {
+   "id": "p23-s2",
+   "page": 23,
+   "start": 514,
+   "end": 567,
+   "chars": 53,
+   "text": " HOUSING AUTHORITY & COASTAL HOUSING PARTNERS\nPage 23"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 23
+ }
+}

@@ -1,0 +1,6328 @@
+{
+ "schema": "span-index/1",
+ "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
+ "fixture_sha256": "1ba14c71c5bbdd3f9acd7336877abd2393ebc9ee0864c01a548caada3f6e70d6",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "d313d92b37d217854769588f940ed160842fa9ef4bc3be67e13d0d7818203a7e",
+   "chars": 342
+  },
+  {
+   "number": 2,
+   "sha256": "cae8eb6792f3d23236172a6ac65112e97bf3fc264a4f8d30d1c8f2b4fdf88114",
+   "chars": 5063
+  },
+  {
+   "number": 3,
+   "sha256": "3cf8d6edcbaa16ae30318f57788e25a8e7a8b5c41a4802535bc9038b9ddcd26d",
+   "chars": 1950
+  },
+  {
+   "number": 4,
+   "sha256": "9b7b38d06599fbd80417b639d1e53a0e9afb28501d34159ad7e368dbf080d4dc",
+   "chars": 1916
+  },
+  {
+   "number": 5,
+   "sha256": "3ca9e5b28f5ecd6f3ed028b7a440d6f55e5cc6800f299c518f062514010b772a",
+   "chars": 2546
+  },
+  {
+   "number": 6,
+   "sha256": "a97c12bd8612de7ce8604d1a0f93e37071efaf6be2f64c03e4e4cee792fc7413",
+   "chars": 2177
+  },
+  {
+   "number": 7,
+   "sha256": "08e867d5704ee78451228445e21fecbf93c6b764f8fdf0af0cdeb45351526e36",
+   "chars": 2431
+  },
+  {
+   "number": 8,
+   "sha256": "c6adf1bbb42f5006dc61cd5e17f798c2efc5eb46d4166144a7d490f029db4f56",
+   "chars": 1663
+  },
+  {
+   "number": 9,
+   "sha256": "eeaaa9066186d3f40f8d9c4737d6be937b9ef5117bf68deeafe13cef2624dff7",
+   "chars": 1831
+  },
+  {
+   "number": 10,
+   "sha256": "65e7a7c81bfe7c21b80b35ba1c1ee89d242814e76d9a96c55e594ec3e2824002",
+   "chars": 2634
+  },
+  {
+   "number": 11,
+   "sha256": "0142706374eda9c3054dc0e8b6213b68db23a81443a653daab898b227204cd6f",
+   "chars": 3543
+  },
+  {
+   "number": 12,
+   "sha256": "f8fdb3ec96635654711f93309532ac1adbc71f626fa25a16db9339b78b1e1e94",
+   "chars": 2722
+  },
+  {
+   "number": 13,
+   "sha256": "66e36bd3922cdf005369cbcbf9e7119a5373aaa4ad81805d5c95e425b083855d",
+   "chars": 2946
+  },
+  {
+   "number": 14,
+   "sha256": "2536add3cfc09556969e57c7e398631047df533d1250424f0aef8d47feee5a51",
+   "chars": 2840
+  },
+  {
+   "number": 15,
+   "sha256": "d55aab1a9247227e14cbfa96169276333a79834f449ea6ec5b6b471befdf7f2a",
+   "chars": 575
+  },
+  {
+   "number": 16,
+   "sha256": "0110a8e49999e5b7522059d6b71a7320fc33ecdc58142c3e884cd343c189ad28",
+   "chars": 2868
+  },
+  {
+   "number": 17,
+   "sha256": "1a052993126f47f9215f462ac23b74a114eff75d5c60e67ae5f593fc8d38a14a",
+   "chars": 2134
+  },
+  {
+   "number": 18,
+   "sha256": "e06969571edd7344cdfaa0ce2bf6c80b9b0e572420b32d01007c91c71396a6c5",
+   "chars": 1711
+  },
+  {
+   "number": 19,
+   "sha256": "7d9d8f36178ff0d959ded35639eb4fb2b87dc3ecb96faf5be18344cf0a0718ee",
+   "chars": 3081
+  },
+  {
+   "number": 20,
+   "sha256": "4b3b9653061ab3ef1c9b3cbfe9aefac1fd9af4d658eabdbb4f90860b52539f2f",
+   "chars": 2592
+  },
+  {
+   "number": 21,
+   "sha256": "de289344c71cba01027a96cd3c5f40ad9ec6a95992906c50d2b78c29d89d12b1",
+   "chars": 3046
+  },
+  {
+   "number": 22,
+   "sha256": "d2c9db61bca4369f6b4d708b5da26b1f5431d2dddcc0c4816ea64e68ee94923c",
+   "chars": 3312
+  },
+  {
+   "number": 23,
+   "sha256": "7aea8d0673ad19214881247516afb3cfcef500ccb5d62a3364de5036dbff0d44",
+   "chars": 3744
+  },
+  {
+   "number": 24,
+   "sha256": "73dd20a17b7f04c22704684770516a6fff7a5ce6318dfd38cc66366632c16304",
+   "chars": 3587
+  },
+  {
+   "number": 25,
+   "sha256": "4ba5399f467a7d399966369569157feb0c1213ef90384e2e2c917884f801b648",
+   "chars": 3458
+  },
+  {
+   "number": 26,
+   "sha256": "f2ca98bfb748712a540ba4fbc4daf4b3abb6cca565509a84309a55190da6ba91",
+   "chars": 3804
+  },
+  {
+   "number": 27,
+   "sha256": "b38c16fa124315d34c26edc2f8b1c2a54977fdc89a0cffd7bd6a5ac7bdfb8926",
+   "chars": 2966
+  },
+  {
+   "number": 28,
+   "sha256": "353e99cea80a3abb49aea58af62016d1fecd8b91b07ed32f7128ffb8f2998626",
+   "chars": 3724
+  },
+  {
+   "number": 29,
+   "sha256": "0ff8adb01e471eb0aa37be69002c9a0610cff76effb5c3371af05b16f820fade",
+   "chars": 3600
+  },
+  {
+   "number": 30,
+   "sha256": "fe45a36c41954edd87c7e4694955541f7c40e1a436c0bb984c415306b8856eab",
+   "chars": 2892
+  },
+  {
+   "number": 31,
+   "sha256": "c0774d7b914bf5536f2ecc6ec0a646cb348027be0ce7f98bf851b593c229cbd5",
+   "chars": 3096
+  },
+  {
+   "number": 32,
+   "sha256": "5229ba8748fd6f9f663fb91da9745d83c33003c66d0a4857a96b00fbc3943228",
+   "chars": 3650
+  },
+  {
+   "number": 33,
+   "sha256": "71c515341ea3194562a4057df656d898301dfb0d6639cecfbd00cbc59d3072b7",
+   "chars": 2051
+  },
+  {
+   "number": 34,
+   "sha256": "9889958831ec1c4397060f8851557766ea2de7030cccc5fe5aa58966368c91e7",
+   "chars": 673
+  },
+  {
+   "number": 35,
+   "sha256": "b797c4cfda1f9578c330f6dd9b11b2773f88f633b2321a2188fcf49996a51621",
+   "chars": 66
+  },
+  {
+   "number": 36,
+   "sha256": "f155e887864b6883e9038d803ad6c0d08b6a2d55c9a87b1d15e7031f4f4e8437",
+   "chars": 52
+  },
+  {
+   "number": 37,
+   "sha256": "0b5df4c24fa744a09043ff19b29ee6e3141d430e7557a40f6cafc859b868ba50",
+   "chars": 214
+  },
+  {
+   "number": 38,
+   "sha256": "7f92376ad143ded4ad4839b909ef7e491dc854f9df0c1591055d3dd2e3ce5276",
+   "chars": 207
+  }
+ ],
+ "span_count": 765,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 319,
+   "chars": 319,
+   "text": "REQUEST FOR PROPOSALS (“RFP”) for\n\nCLOUD MIGRATION DISCOVERY AND STRATEGY SERVICES,\nIDENTITY & ACCESS MANAGEMENT (IAM) STRATEGY SERVICES,\nAND\nZERO TRUST NETWORK ACCESS STRATEGY\nRFP NUMBER 23-04\nRELEASE DATE: JANUARY 9, 2024\nDEADLINE FOR INQUIRIES: JANUARY 19, 2024, BY 3:00 PM EST\nDEADLINE FOR SUBMISSION: FEBRUARY 20, "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 319,
+   "end": 342,
+   "chars": 23,
+   "text": "2024, BY 3:00 PM EST\n\n1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 155,
+   "chars": 155,
+   "text": "Table of Contents\nSection 1 – Introduction ............................................................................................................... "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 155,
+   "end": 327,
+   "chars": 172,
+   "text": "3\n1.1\n\nTitle .............................................................................................................................................................. "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 327,
+   "end": 495,
+   "chars": 168,
+   "text": "3\n\n1.2\n\nOverview ...................................................................................................................................................... "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 495,
+   "end": 655,
+   "chars": 160,
+   "text": "3\n\n1.3\n\nINPRS Background ...................................................................................................................................... "
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 655,
+   "end": 827,
+   "chars": 172,
+   "text": "3\n\n1.4\n\nIssuer ............................................................................................................................................................ "
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 827,
+   "end": 996,
+   "chars": 169,
+   "text": "4\n\n1.5\n\nContacts........................................................................................................................................................ "
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 996,
+   "end": 1152,
+   "chars": 156,
+   "text": "4\n\n1.6\n\nPre-proposal Conference Call ...................................................................................................................... "
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 1152,
+   "end": 1320,
+   "chars": 168,
+   "text": "4\n\n1.7\n\nIntent to Bid ................................................................................................................................................. "
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 1320,
+   "end": 1473,
+   "chars": 153,
+   "text": "5\n\n1.8\n\nInquiries about the RFP for INPRS .............................................................................................................. "
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1473,
+   "end": 1630,
+   "chars": 157,
+   "text": "5\n\n1.9\n\nInvitation to Submit Proposals ..................................................................................................................... "
+  },
+  {
+   "id": "p2-s10",
+   "page": 2,
+   "start": 1630,
+   "end": 1782,
+   "chars": 152,
+   "text": "5\n\n1.10\n\nModification or Withdrawal of Offers ......................................................................................................... "
+  },
+  {
+   "id": "p2-s11",
+   "page": 2,
+   "start": 1782,
+   "end": 1943,
+   "chars": 161,
+   "text": "5\n\n1.11\n\nConfidential Information .............................................................................................................................. "
+  },
+  {
+   "id": "p2-s12",
+   "page": 2,
+   "start": 1943,
+   "end": 2104,
+   "chars": 161,
+   "text": "5\n\n1.12\n\nRFP Response Costs .................................................................................................................................... "
+  },
+  {
+   "id": "p2-s13",
+   "page": 2,
+   "start": 2104,
+   "end": 2272,
+   "chars": 168,
+   "text": "6\n\n1.13\n\nProposal Life ................................................................................................................................................ "
+  },
+  {
+   "id": "p2-s14",
+   "page": 2,
+   "start": 2272,
+   "end": 2444,
+   "chars": 172,
+   "text": "6\n\n1.14\n\nTaxes ............................................................................................................................................................ "
+  },
+  {
+   "id": "p2-s15",
+   "page": 2,
+   "start": 2444,
+   "end": 2603,
+   "chars": 159,
+   "text": "6\n\n1.15\n\nSecretary of State Registration ..................................................................................................................... "
+  },
+  {
+   "id": "p2-s16",
+   "page": 2,
+   "start": 2603,
+   "end": 2766,
+   "chars": 163,
+   "text": "6\n\n1.16\n\nDiscussion Format........................................................................................................................................ "
+  },
+  {
+   "id": "p2-s17",
+   "page": 2,
+   "start": 2766,
+   "end": 2926,
+   "chars": 160,
+   "text": "7\n\n1.17\n\nCompliance Certification ............................................................................................................................. "
+  },
+  {
+   "id": "p2-s18",
+   "page": 2,
+   "start": 2926,
+   "end": 3085,
+   "chars": 159,
+   "text": "7\n\n1.18\n\nSummary of Milestones ............................................................................................................................... "
+  },
+  {
+   "id": "p2-s19",
+   "page": 2,
+   "start": 3085,
+   "end": 3209,
+   "chars": 124,
+   "text": "7\n\nSection 2 – Proposal Content Requirements .............................................................................. "
+  },
+  {
+   "id": "p2-s20",
+   "page": 2,
+   "start": 3209,
+   "end": 3371,
+   "chars": 162,
+   "text": "8\n2.1\n\nGeneral Instructions ..................................................................................................................................... "
+  },
+  {
+   "id": "p2-s21",
+   "page": 2,
+   "start": 3371,
+   "end": 3536,
+   "chars": 165,
+   "text": "8\n\n2.2\n\nTransmittal Letter ......................................................................................................................................... "
+  },
+  {
+   "id": "p2-s22",
+   "page": 2,
+   "start": 3536,
+   "end": 3699,
+   "chars": 163,
+   "text": "8\n\n2.3\n\nBusiness Proposal......................................................................................................................................... "
+  },
+  {
+   "id": "p2-s23",
+   "page": 2,
+   "start": 3699,
+   "end": 3824,
+   "chars": 125,
+   "text": "9\n\n2.4\n\nFee Proposal (see Pricing & Contracting Tab in Appendix C - Questionnaire).......................................... "
+  },
+  {
+   "id": "p2-s24",
+   "page": 2,
+   "start": 3824,
+   "end": 3961,
+   "chars": 137,
+   "text": "10\n\nSection 3 – Scope of Services ...................................................................................................... "
+  },
+  {
+   "id": "p2-s25",
+   "page": 2,
+   "start": 3961,
+   "end": 4095,
+   "chars": 134,
+   "text": "11\nSection 4 – Contract Award ....................................................................................................... "
+  },
+  {
+   "id": "p2-s26",
+   "page": 2,
+   "start": 4095,
+   "end": 4256,
+   "chars": 161,
+   "text": "16\n4.1\n\nLength of Contract ..................................................................................................................................... "
+  },
+  {
+   "id": "p2-s27",
+   "page": 2,
+   "start": 4256,
+   "end": 4419,
+   "chars": 163,
+   "text": "16\n\n4.2\n\nEvaluation Criteria ..................................................................................................................................... "
+  },
+  {
+   "id": "p2-s28",
+   "page": 2,
+   "start": 4419,
+   "end": 4544,
+   "chars": 125,
+   "text": "16\n\nAppendix A – Sample contract for services .............................................................................. "
+  },
+  {
+   "id": "p2-s29",
+   "page": 2,
+   "start": 4544,
+   "end": 4691,
+   "chars": 147,
+   "text": "18\nAppendix A.1 – ESSENTIAL CLAUSES .............................................................................................................. "
+  },
+  {
+   "id": "p2-s30",
+   "page": 2,
+   "start": 4691,
+   "end": 4823,
+   "chars": 132,
+   "text": "19\nAppendix A.2 - SAMPLE CONTRACT FOR SERVICES .................................................................................... "
+  },
+  {
+   "id": "p2-s31",
+   "page": 2,
+   "start": 4823,
+   "end": 4941,
+   "chars": 118,
+   "text": "21\n\nAppendix B – Mandatory Respondent Forms.......................................................................... "
+  },
+  {
+   "id": "p2-s32",
+   "page": 2,
+   "start": 4941,
+   "end": 5059,
+   "chars": 118,
+   "text": "37\nAppendix C – Questionnaire (is a separate Excel file) ............................................................ "
+  },
+  {
+   "id": "p2-s33",
+   "page": 2,
+   "start": 5059,
+   "end": 5063,
+   "chars": 4,
+   "text": "38\n2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 174,
+   "chars": 174,
+   "text": "SECTION 1 – INTRODUCTION\n1.1\n\nTitle\n\nRequest for Proposals (“RFP”) for Cloud Migration Discovery and Strategy Services, Identity & Access\nManagement (IAM) Strategy Services, "
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 174,
+   "end": 493,
+   "chars": 319,
+   "text": "and Secure Access Service Edge and Zero Trust Network Access\nStrategy Services for the Indiana Public Retirement System (“INPRS” or the “System”)\n\n1.2\n\nOverview\n\nINPRS is soliciting proposals from all qualified firms who wish to be considered as a vendor to provide\nconsulting services for the following as described in"
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 493,
+   "end": 750,
+   "chars": 257,
+   "text": " Section 3 – Scope of Services:\n\n\n\n\n1.3\n\nAn application assessment and digital business adoption and transformation plan as it relates to\nCloud Migration Discovery and Strategic Services such as AI, LCM, etc.\nIdentity & Access Management (IAM) strategy, "
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 750,
+   "end": 917,
+   "chars": 167,
+   "text": "and\nZero Trust Network Access (ZTNA) strategy\n\nINPRS Background\n1.3.1\n\nHistory\n\nINPRS was established by statute in 2011 as an independent body corporate and politic. "
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 917,
+   "end": 1052,
+   "chars": 135,
+   "text": "The\nsystem is not a department or agency of the state but is an independent instrumentality exercising\nessential government functions. "
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 1052,
+   "end": 1181,
+   "chars": 129,
+   "text": "INPRS was established by legislation to manage the retirement\nfunds of certain public employees throughout the State of Indiana. "
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 1181,
+   "end": 1219,
+   "chars": 38,
+   "text": "INPRS administers 16 funds\nincluding:\n"
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 1219,
+   "end": 1531,
+   "chars": 312,
+   "text": "Defined Benefit DB Fund\n\n\n\n\n\n\n\n\n\nPublic Employees’ Defined Benefit Account (PERF DB)\nTeachers’ Pre-1996 Defined Benefit Account (TRF Pre-’96 DB)\nTeachers’ 1996 Defined Benefit Account (TRF ’96 DB)\n1977 Police Officers’ and Firefighters’ Retirement Fund (’77 Fund)\nJudges’ Retirement System (JRS)\nExcise, "
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1531,
+   "end": 1783,
+   "chars": 252,
+   "text": "Gaming and Conservation Officers’ Retirement Fund (EG&C)\nProsecuting Attorneys’ Retirement Fund (PARF)\nLegislators’ Defined Benefit Fund (LE DB)\n\nDefined Contribution DC Fund\n\n\n\n\n\nPublic Employees’ Defined Contribution Account (PERF DC)\nMy Choice: "
+  },
+  {
+   "id": "p3-s9",
+   "page": 3,
+   "start": 1783,
+   "end": 1950,
+   "chars": 167,
+   "text": "Retirement Savings Plan for Public Employees (PERF MC DC)\nTeachers’ Defined Contribution Account (TRF DC)\nMy Choice: Retirement Savings Plan for Teachers (TRF MC DC)\n3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 320,
+   "chars": 320,
+   "text": "\n\nLegislators’ Defined Contribution Fund (LE DC)\n\nOther Postemployment Benefit / OPEB Fund\n\n\n\nSpecial Death Benefit Fund (SDBF)\nRetirement Medical Benefits Account Plan (RMBA)\n\nCustodial Fund\n\n\nLocal Public Safety Pension Relief Fund (LPSPR)\n\nFor additional information regarding INPRS and the funds detailed above, "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 320,
+   "end": 361,
+   "chars": 41,
+   "text": "please access:\nhttp://www.in.gov/inprs/.\n"
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 361,
+   "end": 650,
+   "chars": 289,
+   "text": "A copy of INPRS’s most recent Annual Comprehensive Financial Report may be reviewed at\nhttp://www.in.gov/inprs/annualreports.htm\n\n1.4\n\nIssuer\n\nINPRS is issuing this RFP in accordance with Indiana statutes governing the procurement of services and\ncertain administrative policies of INPRS. "
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 650,
+   "end": 707,
+   "chars": 57,
+   "text": "The staff of INPRS has prepared the content of this RFP. "
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 707,
+   "end": 878,
+   "chars": 171,
+   "text": "One\n(1) copy of this RFP may be provided free of charge from INPRS, or an electronic copy may be obtained\nfrom the following website: http://www.in.gov/inprs/quoting.htm. "
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 878,
+   "end": 941,
+   "chars": 63,
+   "text": "Additional copies are available at the\nrate of $0.10 per page.\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 942,
+   "end": 1112,
+   "chars": 170,
+   "text": "1.5\n\nContacts\n\nInquiries from Respondents are not to be directed to any staff or member of the Board of Trustees of INPRS,\nexcept as outlined in Section 1.8 of this RFP. "
+  },
+  {
+   "id": "p4-s7",
+   "page": 4,
+   "start": 1112,
+   "end": 1201,
+   "chars": 89,
+   "text": "Such unauthorized communication(s) may disqualify\nRespondent from further consideration. "
+  },
+  {
+   "id": "p4-s8",
+   "page": 4,
+   "start": 1201,
+   "end": 1296,
+   "chars": 95,
+   "text": "INPRS reserves the right to discuss any part of any response for\nthe purpose of clarification. "
+  },
+  {
+   "id": "p4-s9",
+   "page": 4,
+   "start": 1296,
+   "end": 1408,
+   "chars": 112,
+   "text": "Respondents will be given equal access to any communications about the RFP\nbetween INPRS and other Respondents.\n"
+  },
+  {
+   "id": "p4-s10",
+   "page": 4,
+   "start": 1409,
+   "end": 1616,
+   "chars": 207,
+   "text": "1.6\n\nPre-proposal Conference Call\n\nA pre-proposal conference call will be held on the date and time specified in Section 1.18 via a Teams link\nwhich will be available at http://www.in.gov/inprs/quoting.htm. "
+  },
+  {
+   "id": "p4-s11",
+   "page": 4,
+   "start": 1616,
+   "end": 1705,
+   "chars": 89,
+   "text": "On this call, potential respondents may\nask questions about the RFP and the RFP process. "
+  },
+  {
+   "id": "p4-s12",
+   "page": 4,
+   "start": 1705,
+   "end": 1914,
+   "chars": 209,
+   "text": "Respondents are reminded that no answers issued\nverbally on the call are binding on INPRS, unless it is later issued in writing in the formal response to\ninquiries that will be published also at this website.\n"
+  },
+  {
+   "id": "p4-s13",
+   "page": 4,
+   "start": 1915,
+   "end": 1916,
+   "chars": 1,
+   "text": "4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 190,
+   "chars": 190,
+   "text": "1.7\n\nIntent to Bid\n\nRespondents should submit their intent to bid by email to the address in the Inquiries section below no later\nthan the due date outlined in the Section 1.18 of this RFP. "
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 190,
+   "end": 291,
+   "chars": 101,
+   "text": "Provide your company name and the contact\ninformation of the primary contact responding to this RFP.\n"
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 292,
+   "end": 504,
+   "chars": 212,
+   "text": "1.8\n\nInquiries about the RFP for INPRS\n\nAll inquiries and requests for information affecting this RFP must be submitted by email to the contact\nbelow no later than due dates outlined in Section 1.18 of this RFP.\n"
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 504,
+   "end": 725,
+   "chars": 221,
+   "text": "Stanton Lanman\nDirector of Vendor Management and Procurement\nprocurements@inprs.in.gov\nINPRS reserves the right to judge whether any questions should be answered in writing and copies will be\nposted to the INPRS website.\n"
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 725,
+   "end": 918,
+   "chars": 193,
+   "text": "If it becomes necessary to revise any part of this RFP or provide additional interpretation of a provision, an\naddendum will be posted to the INPRS website prior to the due date for proposals. "
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 918,
+   "end": 1129,
+   "chars": 211,
+   "text": "If such addendum\nissuance is necessary, the Director of Vendor Management and Procurement may extend the due date and\ntime of the proposals to accommodate such additional information requirements, if necessary.\n"
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 1130,
+   "end": 1275,
+   "chars": 145,
+   "text": "1.9\n\nInvitation to Submit Proposals\n\nAll proposals must be emailed no later than February 20, 2024, at 3:00 PM EST to\nprocurements@inprs.in.gov. "
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 1275,
+   "end": 1340,
+   "chars": 65,
+   "text": "Any proposal received after the due date will not be considered.\n"
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 1341,
+   "end": 1540,
+   "chars": 199,
+   "text": "1.10\n\nModification or Withdrawal of Offers\n\nResponses to this RFP may be modified or withdrawn in writing by email if modifications are received prior\nto the date specified for receipt of proposals. "
+  },
+  {
+   "id": "p5-s9",
+   "page": 5,
+   "start": 1540,
+   "end": 1667,
+   "chars": 127,
+   "text": "Modification to or withdrawal of a proposal received after\nthe date specified for receipt of proposals will not be considered.\n"
+  },
+  {
+   "id": "p5-s10",
+   "page": 5,
+   "start": 1667,
+   "end": 1793,
+   "chars": 126,
+   "text": "INPRS may, at its option, allow all Respondents a five-calendar-day period to correct errors or omissions\nto their proposals. "
+  },
+  {
+   "id": "p5-s11",
+   "page": 5,
+   "start": 1793,
+   "end": 1867,
+   "chars": 74,
+   "text": "Should this necessity arise, INPRS will contact each Respondent affected. "
+  },
+  {
+   "id": "p5-s12",
+   "page": 5,
+   "start": 1867,
+   "end": 1974,
+   "chars": 107,
+   "text": "Each\nRespondent must submit written corrections to the proposal within five calendar days of notification. "
+  },
+  {
+   "id": "p5-s13",
+   "page": 5,
+   "start": 1974,
+   "end": 2104,
+   "chars": 130,
+   "text": "The\nintent of this option is to allow proposals with only minor errors or omissions to be corrected as deemed\nnecessary by INPRS. "
+  },
+  {
+   "id": "p5-s14",
+   "page": 5,
+   "start": 2104,
+   "end": 2308,
+   "chars": 204,
+   "text": "Major errors or omissions, such as the failure to include prices, will not be considered\nby INPRS as a minor errors or omission and may result in disqualification of the proposal from further\nevaluation.\n"
+  },
+  {
+   "id": "p5-s15",
+   "page": 5,
+   "start": 2309,
+   "end": 2546,
+   "chars": 237,
+   "text": "1.11\n\nConfidential Information\n\nRespondents are advised that materials contained in proposals are subject to Indiana’s Access to Public\nRecords Act (“APRA”), IC 5-14-3 et seq., and, after the contract award, the entire RFP file may be\n\n5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 88,
+   "chars": 88,
+   "text": "viewed and copied by any member of the public, including news agencies and competitors. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 88,
+   "end": 206,
+   "chars": 118,
+   "text": "The responses\nare deemed to be “public records” unless a specific provision of IC 5-14-3 protects it from disclosure.\n"
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 206,
+   "end": 305,
+   "chars": 99,
+   "text": "Respondents claiming a statutory exception to the APRA must indicate so in the Transmittal Letter.\n"
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 305,
+   "end": 413,
+   "chars": 108,
+   "text": "(See Section 2.2.5 for instructions.) Confidential Information must be clearly marked in a separate\nfolder. "
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 413,
+   "end": 507,
+   "chars": 94,
+   "text": "The Respondent must provide a separate redacted (for public release) version of the\ndocument.\n"
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 507,
+   "end": 575,
+   "chars": 68,
+   "text": "INPRS reserves the right to make determinations of confidentiality. "
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 575,
+   "end": 692,
+   "chars": 117,
+   "text": "Any objection to INPRS’s\nconfidentiality determination may be raised with the Indiana Public Access Counselor (PAC). "
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 692,
+   "end": 747,
+   "chars": 55,
+   "text": "The Public\nAccess Counselor provides guidance on APRA. "
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 747,
+   "end": 868,
+   "chars": 121,
+   "text": "Respondents are encouraged to read guidance from the\nPAC on this topic as this is the guidance INPRS follows:\n18-INF-06; "
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 868,
+   "end": 1052,
+   "chars": 184,
+   "text": "Redaction of Public Procurement Documents Informal Inquiry\nINPRS also reserves the right to seek the opinion of the PAC for guidance if INPRS doubts the cited\nexception is applicable.\n"
+  },
+  {
+   "id": "p6-s10",
+   "page": 6,
+   "start": 1053,
+   "end": 1243,
+   "chars": 190,
+   "text": "1.12\n\nRFP Response Costs\n\nINPRS accepts no obligation for costs incurred by Respondents in preparation of a proposal or any other\ncosts incurred in anticipation of being awarded a contract.\n"
+  },
+  {
+   "id": "p6-s11",
+   "page": 6,
+   "start": 1244,
+   "end": 1414,
+   "chars": 170,
+   "text": "1.13\n\nProposal Life\n\nAll proposals made in response to this RFP must remain open and in effect for a period of not less than 180\ndays after the due date specified above. "
+  },
+  {
+   "id": "p6-s12",
+   "page": 6,
+   "start": 1414,
+   "end": 1564,
+   "chars": 150,
+   "text": "Any proposal accepted by INPRS for the purpose of contract\nnegotiations shall remain valid until superseded by a contract or until rejected by INPRS.\n"
+  },
+  {
+   "id": "p6-s13",
+   "page": 6,
+   "start": 1565,
+   "end": 1632,
+   "chars": 67,
+   "text": "1.14\n\nTaxes\n\nINPRS is exempt from federal, state, and local taxes. "
+  },
+  {
+   "id": "p6-s14",
+   "page": 6,
+   "start": 1632,
+   "end": 1754,
+   "chars": 122,
+   "text": "INPRS will not be responsible for any taxes levied\non the Respondent as a result of any contract resulting from this RFP.\n"
+  },
+  {
+   "id": "p6-s15",
+   "page": 6,
+   "start": 1755,
+   "end": 1937,
+   "chars": 182,
+   "text": "1.15\n\nSecretary of State Registration\n\nBefore an out-of-state corporate Respondent can do business with INPRS, the Respondent must be\nregistered with the Indiana Secretary of State. "
+  },
+  {
+   "id": "p6-s16",
+   "page": 6,
+   "start": 1937,
+   "end": 2177,
+   "chars": 240,
+   "text": "If an out-of-state corporate Respondent does not have such\nregistration at present, the Respondent should contact:\nSecretary of State of Indiana\nCorporations Division\n302 West Washington Street, E018\nIndianapolis, IN 46204\n(317) 232-6576\n\n6"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 133,
+   "chars": 133,
+   "text": "For the necessary registration application form, or it can be accessed via the internet at the web address\nprovided in Appendix B.2. "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 133,
+   "end": 297,
+   "chars": 164,
+   "text": "It is each Respondent’s responsibility to register prior to the initiation of any\ncontract discussions, but registration is not a requirement to submit a response.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 298,
+   "end": 492,
+   "chars": 194,
+   "text": "1.16\n\nDiscussion Format\n\nINPRS reserves the right to conduct discussions, either oral or written, with those Respondents determined\nby INPRS to be reasonably viable to being selected for award. "
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 492,
+   "end": 592,
+   "chars": 100,
+   "text": "INPRS also reserves the right to seek\nclarification to resolve issues as deemed necessary by INPRS.\n"
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 593,
+   "end": 819,
+   "chars": 226,
+   "text": "1.17\n\nCompliance Certification\n\nResponses to this RFP serve as a representation that the Respondent and its principals, have no current or\noutstanding criminal, civil, or enforcement actions initiated by the State of Indiana, "
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 819,
+   "end": 914,
+   "chars": 95,
+   "text": "and Respondent\nagrees that it will immediately notify INPRS of such actions should they arise. "
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 914,
+   "end": 1131,
+   "chars": 217,
+   "text": "The Respondent also\ncertifies that neither it nor its principals are presently in arrears in payment of its taxes, permit fees, or\nother statutory, regulatory, or judicially required payments to the State of Indiana. "
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 1131,
+   "end": 1433,
+   "chars": 302,
+   "text": "The Respondent\nagrees that INPRS may initiate a background check on the Respondent and/or its principals in order to\nconfirm, at any time, that no such liabilities exist, and, if such liabilities are discovered, that INPRS may\nbar the Respondent from contracting with INPRS, cancel existing contracts, "
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 1433,
+   "end": 1642,
+   "chars": 209,
+   "text": "withhold payments to set off\nsuch obligations, and withhold further payments or purchases until the entity is current in its liability to\nthe State of Indiana and has submitted proof of such payment to INPRS.\n"
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 1643,
+   "end": 1934,
+   "chars": 291,
+   "text": "1.18\n\nSummary of Milestones\n\nThe following is the expected timeline for this solicitation:\nACTIVITY\n\nEXPECTED DATE\n\nRelease of RFP\n\nTuesday, January 9, 2024\n\nPre-proposal Conference Call (via Teams – see link\nat http://www.in.gov/inprs.quoting.htm on that day)\n\nWednesday, January 17, 2024, "
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 1934,
+   "end": 2217,
+   "chars": 283,
+   "text": "2:00 P.M. (EST)\n\nRespondent’s Inquiry Period Ends\n\nFriday, January 19, 2024, 3:00 P.M. (EST)\n\nAnswers to Inquiries Published to Website\n\nTuesday, January 30, 2024\n\nSubmission of Intent to Respond\n\nSunday, February 4, 2024\n\nRespondent RFP Submissions Due\n\nTuesday, February 20, 2024, "
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 2217,
+   "end": 2431,
+   "chars": 214,
+   "text": "3:00 P.M. (EST)\n\nFinalist Presentations\n\nWednesday, April 3, 2024\n\nSelection of Finalist\n\nWednesday, April 10, 2024\n\nContract Negotiation\n\nWednesday, April 17, 2024\n\nCommencement of Services\n\nMonday, June 3, 2024\n7"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 215,
+   "chars": 215,
+   "text": "SECTION 2 – PROPOSAL CONTENT REQUIREMENTS\n2.1\n\nGeneral Instructions\n\nTo facilitate the timely evaluation of proposals, a standard format for proposal submission has been\ndeveloped and is documented in this section. "
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 215,
+   "end": 330,
+   "chars": 115,
+   "text": "All Respondents are required to format their proposals in a\nmanner consistent with the guidelines described below.\n"
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 330,
+   "end": 549,
+   "chars": 219,
+   "text": "A complete proposal must be submitted electronically per the guidelines in Section 1.9 of this RFP and\nmust include the following:\n\n\n\n\n\n\n2.2\n\nA transmittal letter (with the information in Section 2.2 of this RFP).\n"
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 549,
+   "end": 646,
+   "chars": 97,
+   "text": "A business proposal (with the information and attachments described in\nSection 2.3 of this RFP).\n"
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 646,
+   "end": 725,
+   "chars": 79,
+   "text": "The completed Appendix C – Questionnaire (see separately provided Excel file).\n"
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 725,
+   "end": 831,
+   "chars": 106,
+   "text": "A fee proposal (included in Appendix C – Questionnaire, with the information in Section 2.4 of this\nRFP).\n"
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 831,
+   "end": 871,
+   "chars": 40,
+   "text": "The required documents from Appendix B.\n"
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 872,
+   "end": 1079,
+   "chars": 207,
+   "text": "Transmittal Letter\n\nThe transmittal letter must be in the form of a letter and address the following topics:\n2.2.1\n\nIdentification of RFP\nThe transmittal letter must first identify the RFP title and number.\n"
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 1080,
+   "end": 1180,
+   "chars": 100,
+   "text": "2.2.2\n\nIdentification of Respondent\nThe transmittal letter must identify the following information:\n"
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 1180,
+   "end": 1443,
+   "chars": 263,
+   "text": "\n\n\n\n\n\n\n\n\n2.2.3\n\nRespondent Name\nStreet Address\nCity\nState\nZIP\nContact Name\nPhone\nEmail\n\nSummary of Ability and Desire to Supply the Required Services\nThe transmittal letter must briefly summarize the Respondent’s ability to supply the\nrequested services. "
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1443,
+   "end": 1661,
+   "chars": 218,
+   "text": "The letter must also contain a statement indicating the Respondent’s\nwillingness to provide the requested services subject to the terms and conditions set forth\nin the RFP, including INPRS’s standard contract clauses.\n"
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1662,
+   "end": 1663,
+   "chars": 1,
+   "text": "8"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 127,
+   "chars": 127,
+   "text": "2.2.4\n\nSignature of Authorized Representative\nAn authorized representative of the Respondent must sign the transmittal letter.\n"
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 127,
+   "end": 284,
+   "chars": 157,
+   "text": "Respondent personnel signing the transmittal letter of the proposal must be legally\nauthorized by the organization to commit the organization contractually. "
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 284,
+   "end": 335,
+   "chars": 51,
+   "text": "This section must\ncontain proof of such authority. "
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 335,
+   "end": 479,
+   "chars": 144,
+   "text": "A copy of corporate bylaws or a corporate resolution\nadopted by the board of directors indicating this authority will fulfill this requirement.\n"
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 480,
+   "end": 648,
+   "chars": 168,
+   "text": "2.2.5\n\nConfidential Information\nRespondents are advised that materials contained in proposals are subject to the Access to\nPublic Records Act (APRA), IC 5-14-3 et seq. "
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 648,
+   "end": 715,
+   "chars": 67,
+   "text": "(See Section 1.11 of this RFP.)\nProvide the following information. "
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 715,
+   "end": 821,
+   "chars": 106,
+   "text": "If the Respondent does not provide this information,\nINPRS will NOT consider the submission confidential.\n"
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 822,
+   "end": 943,
+   "chars": 121,
+   "text": "\n\n\n\n2.2.6\n\nList all documents, or sections of documents, for which statutory exemption to the\nAPRA is being claimed. "
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 943,
+   "end": 1034,
+   "chars": 91,
+   "text": "INPRS does NOT accept blanket confidentiality\nexceptions for the totality of the proposal.\n"
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 1034,
+   "end": 1131,
+   "chars": 97,
+   "text": "Specify which statutory exception of APRA applies for each document, or section\nof the document.\n"
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 1131,
+   "end": 1274,
+   "chars": 143,
+   "text": "Provide a description explaining the manner in which the statutory exception to the\nAPRA applies for each document or section of the document.\n"
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 1274,
+   "end": 1348,
+   "chars": 74,
+   "text": "Provide a separate redacted (for public release) version of the document.\n"
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 1349,
+   "end": 1454,
+   "chars": 105,
+   "text": "Other Information\nAny other information the Respondent may wish to briefly summarize will be acceptable.\n"
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 1455,
+   "end": 1607,
+   "chars": 152,
+   "text": "2.3\n\nBusiness Proposal\n\nThe business proposal must contain the required information and be organized under the specific section\ntitles as listed below.\n"
+  },
+  {
+   "id": "p9-s14",
+   "page": 9,
+   "start": 1607,
+   "end": 1700,
+   "chars": 93,
+   "text": "2.3.1\n\nExecutive Summary\nProvide a high-level description of the proposed scope of services.\n"
+  },
+  {
+   "id": "p9-s15",
+   "page": 9,
+   "start": 1701,
+   "end": 1795,
+   "chars": 94,
+   "text": "2.3.2\n\nRelevant Experience\nSee Appendix C – Questionnaire, provided as a separate Excel file.\n"
+  },
+  {
+   "id": "p9-s16",
+   "page": 9,
+   "start": 1796,
+   "end": 1831,
+   "chars": 35,
+   "text": "2.3.3\n\nOrganizational Capability\n\n9"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 117,
+   "chars": 117,
+   "text": "Describe the Respondent’s organizational capability to provide the scope of work described\nin Section 3 of this RFP. "
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 117,
+   "end": 185,
+   "chars": 68,
+   "text": "To demonstrate organizational capability, provide the following:\ni.\n"
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 186,
+   "end": 263,
+   "chars": 77,
+   "text": "Personnel\nSee Appendix C – Questionnaire, provided as a separate Excel file.\n"
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 264,
+   "end": 268,
+   "chars": 4,
+   "text": "ii.\n"
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 269,
+   "end": 459,
+   "chars": 190,
+   "text": "Registration to do Business\nRespondents proposing to provide services required by this RFP are required to be\nregistered to do business within the state with the Indiana Secretary of State. "
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 459,
+   "end": 541,
+   "chars": 82,
+   "text": "The\ncontact information for this office may be found in Section 1.15 of this RFP. "
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 541,
+   "end": 615,
+   "chars": 74,
+   "text": "This\nprocess must be concluded prior to contract negotiations with INPRS. "
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 615,
+   "end": 733,
+   "chars": 118,
+   "text": "It is the\nRespondent’s responsibility to successfully complete the required registration with\nthe Secretary of State. "
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 733,
+   "end": 838,
+   "chars": 105,
+   "text": "The Respondent must indicate the status of registration, if\napplicable, in this section of the proposal.\n"
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 839,
+   "end": 844,
+   "chars": 5,
+   "text": "iii.\n"
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 845,
+   "end": 1066,
+   "chars": 221,
+   "text": "Financial Statements and Quality Assurance Report\nThis section must include the Respondent’s financial statements, including an income\nstatement and balance sheet for each of the two most recently completed fiscal years.\n"
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 1066,
+   "end": 1167,
+   "chars": 101,
+   "text": "In addition, please provide a copy of the Respondent’s most recent financial statement\naudit report.\n"
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 1168,
+   "end": 1295,
+   "chars": 127,
+   "text": "2.3.4\n\nContract for Services\nAppendix A.2 of this RFP is the base contract for services that will be used if an award is\nmade. "
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 1295,
+   "end": 1400,
+   "chars": 105,
+   "text": "Any or all portions of this document are incorporated by reference as an addendum\nto the final contract. "
+  },
+  {
+   "id": "p10-s14",
+   "page": 10,
+   "start": 1400,
+   "end": 1561,
+   "chars": 161,
+   "text": "The Respondent is required to clearly identify and explain any\nexception that it desires to take to any of the terms and conditions of this RFP in this\nsection. "
+  },
+  {
+   "id": "p10-s15",
+   "page": 10,
+   "start": 1561,
+   "end": 1788,
+   "chars": 227,
+   "text": "Additionally, if the Respondent wishes to include or change any language in the\nbase contract being submitted, proposed language should be included in this section in the\nform of an amendment to the base contract for services. "
+  },
+  {
+   "id": "p10-s16",
+   "page": 10,
+   "start": 1788,
+   "end": 1893,
+   "chars": 105,
+   "text": "It should be noted that Appendix\nA.1 of this RFP includes the essential clauses that are non-negotiable.\n"
+  },
+  {
+   "id": "p10-s17",
+   "page": 10,
+   "start": 1894,
+   "end": 2031,
+   "chars": 137,
+   "text": "2.3.5\n\nAssumptions\nList any assumptions made by the Respondent in developing the response to this RFP,\nincluding INPRS responsibilities.\n"
+  },
+  {
+   "id": "p10-s18",
+   "page": 10,
+   "start": 2032,
+   "end": 2153,
+   "chars": 121,
+   "text": "2.4\n\nFee Proposal (see Pricing & Contracting Tab in Appendix C - Questionnaire)\n\nPlease provide a detailed fee proposal. "
+  },
+  {
+   "id": "p10-s19",
+   "page": 10,
+   "start": 2153,
+   "end": 2206,
+   "chars": 53,
+   "text": "Fee calculations/formulas shall assume U.S. dollars. "
+  },
+  {
+   "id": "p10-s20",
+   "page": 10,
+   "start": 2206,
+   "end": 2310,
+   "chars": 104,
+   "text": "The Services\ndetailed in SECTION 3 – SCOPE OF SERVICES of this RFP are the basis for the proposed fees. "
+  },
+  {
+   "id": "p10-s21",
+   "page": 10,
+   "start": 2310,
+   "end": 2448,
+   "chars": 138,
+   "text": "The\nproposed fees shall include all costs for providing Services to INPRS as described and shall be guaranteed\nthrough the contract term. "
+  },
+  {
+   "id": "p10-s22",
+   "page": 10,
+   "start": 2448,
+   "end": 2528,
+   "chars": 80,
+   "text": "In no case will the final fee be higher than the fee contained in the Proposal.\n"
+  },
+  {
+   "id": "p10-s23",
+   "page": 10,
+   "start": 2528,
+   "end": 2632,
+   "chars": 104,
+   "text": "FAILURE TO SUBMIT A DETAILED FEE PROPOSAL MAY ELIMINATE A RESPONDENT’S\nORGANIZATION FROM CONSIDERATION.\n"
+  },
+  {
+   "id": "p10-s24",
+   "page": 10,
+   "start": 2632,
+   "end": 2634,
+   "chars": 2,
+   "text": "10"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 280,
+   "chars": 280,
+   "text": "SECTION 3 – SCOPE OF SERVICES\nThis initiative encompasses a thorough and complete assessment of INPRS’s current systems, applications,\nand infrastructure to identify potential opportunities in execution of a digital transformation program for\nbest preparing INPRS for the future. "
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 280,
+   "end": 518,
+   "chars": 238,
+   "text": "It includes evaluation of the technical feasibility, financial viability,\nstaff skills of today and tomorrow, and strategic alignment of various workloads, business continuity,\nrecovery, and system back-up with potential cloud platforms. "
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 518,
+   "end": 792,
+   "chars": 274,
+   "text": "Likewise, supporting methods for quality\nassurance, AI capabilities and options of how INPRS’s data is used internally and externally with AI tools,\nhow to enable INPRS to use AI securely, how AI tools can make security products more effective, Life\nCycle Management (LCM), "
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 792,
+   "end": 924,
+   "chars": 132,
+   "text": "and an Identity and Access Management (IAM) initiative to support a reduced\nIAM footprint and advanced cyber security across INPRS.\n"
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 924,
+   "end": 1242,
+   "chars": 318,
+   "text": "INPRS seeks IT professional consulting services to assist with seeking out all viable options in enhancing\nthe current technology foundation including:\n\n\n\n\n\n\nAn Application Assessment and Digital Business Adoption and Transformation Plan with the goal\nto provide a comprehensive overview of the existing IT assets, "
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 1242,
+   "end": 1380,
+   "chars": 138,
+   "text": "their dependencies, associated risks,\nand benefits of transitioning to the cloud, and supporting justification for a cloud service model.\n"
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 1380,
+   "end": 1691,
+   "chars": 311,
+   "text": "An Identity & Access Management (IAM) strategy with the goal of proactively measuring to\nmanage user identities, control access permissions, access to accounts including user accounts,\nsystem accounts and elevated accounts, monitor user activity and mitigate security risks in a current\nand future environment. "
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 1691,
+   "end": 1960,
+   "chars": 269,
+   "text": "A comprehensive IAM initiative would encompass the implementation of\nindustry accepted strong authentication measures like Multi-Factor Authentication (MFA),\nadherence to the principle of least privilege for user access, routine review and updates of user\npermissions, "
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 1960,
+   "end": 2076,
+   "chars": 116,
+   "text": "and diligent monitoring and auditing of user activity to proactively identify and\naddress potential security risks. "
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 2076,
+   "end": 2293,
+   "chars": 217,
+   "text": "Additionally, education on best practices for password\nmanagement, personal information protection, and vigilance against phishing attacks and social\nengineering would be integral to the IAM implementation for INPRS. "
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 2293,
+   "end": 2448,
+   "chars": 155,
+   "text": "IAM is a critical component\nof a robust cybersecurity strategy, which can help INPRS mitigate risks, protect sensitive data, and\nsafeguard digital assets. "
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 2448,
+   "end": 2674,
+   "chars": 226,
+   "text": "The IAM strategy must be able to address today’s needs, transitional\nroadmap aligning with the Application Assessment and Digital Business Adoption and\nTransformation Plan and support the INPRS Master Data Management roadmap.\n"
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 2674,
+   "end": 2835,
+   "chars": 161,
+   "text": "A Secure Access Service Edge (SASE) and Zero Trust Network Access (ZTNA) strategy\nintegrating, and further supporting, the Transformation Plan and IAM strategy.\n"
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 2836,
+   "end": 2979,
+   "chars": 143,
+   "text": "Each Respondent should provide a detailed plan, including tasks, deliverables, resources, and timeline for\nhow the Assessment will be managed. "
+  },
+  {
+   "id": "p11-s14",
+   "page": 11,
+   "start": 2979,
+   "end": 3091,
+   "chars": 112,
+   "text": "The plan should identify what tasks the vendor is responsible for\nand what tasks INPRS will be responsible for. "
+  },
+  {
+   "id": "p11-s15",
+   "page": 11,
+   "start": 3091,
+   "end": 3234,
+   "chars": 143,
+   "text": "The Plan should address the requested scope of work\nincluding:\nApplication Assessment and Digital Business Adoption and Transformation Plan\n1. "
+  },
+  {
+   "id": "p11-s16",
+   "page": 11,
+   "start": 3234,
+   "end": 3543,
+   "chars": 309,
+   "text": "Consultation and strategy development – Consultation and assistance in the development of a cloud\nservice model including:\na) Review of INPRS’s strategic goals and objectives and existing INPRS IT strategic plan and\nroadmap and other IT roadmaps and assess INPRS’s application assess for future disposition\n11"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 295,
+   "chars": 295,
+   "text": "b) Provide recommendations as it relates to INPRS’s application assets\nc) Provide pros/cons to Cloud deployment models (public cloud, private cloud, hybrid cloud) and\nrecommendation as it relates to INPRS’s assets\nd) Provide pros/cons to Cloud Service Models (in-house, co-location, SaaS, PaaS, "
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 295,
+   "end": 603,
+   "chars": 308,
+   "text": "IaaS)\ne) Provide recommendations to INPRS’s Application Disposition strategy (retain, rehost,\nreplatform, repurchase, refactor, retire) as it relates to INPRS’s application assets\nf) Provide merits of Private Cloud Infrastructure\ng) Cloud Application Development practices and procedures\nh) Where necessary, "
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 603,
+   "end": 859,
+   "chars": 256,
+   "text": "provide pros/cons to Migration Services – secure virtual or physical server\nmigration, databases, enterprise applications and any other service that might require migration\nservices for the deployment of a cloud infrastructure solution\ni) Where necessary, "
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 859,
+   "end": 968,
+   "chars": 109,
+   "text": "provide pros/cons to Managed Cloud Services – ability to consult for\ndevelopment, integration, optimization, "
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 968,
+   "end": 1208,
+   "chars": 240,
+   "text": "and support solutions running on public and/or private\nclouds\nj) Development of a Services strategy (build vs buy)\nk) Considerations with security/management/governance of hybrid cloud environments\nl) Determine requirements for governance, "
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 1208,
+   "end": 1458,
+   "chars": 250,
+   "text": "including roles and responsibilities\nm) Considerations with Backup and Recovery Services – deployment and management of a\nbackup and data recovery service(s)\nn) Data and analytic solutions\no) Security considerations for infrastructure, applications, "
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 1458,
+   "end": 1590,
+   "chars": 132,
+   "text": "APIs and other cloud-based security\nsolutions\np) Considerations for all other solutions toolsets such as management and monitoring, "
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 1590,
+   "end": 1902,
+   "chars": 312,
+   "text": "related to\nthe function and support of cloud infrastructure and platform solutions\nq) Thoughts providing for simplification of INPRS’s infrastructure and minimize future technical\ndebt and customization while maintaining scalability and sustainability\nr) Considerations to sustainable organizational and staffing"
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 1902,
+   "end": 2121,
+   "chars": 219,
+   "text": " solutions (including potential\noutsourcing of LCM activities)\ns) Considerations in the creation of a Cloud Center of Excellence\nt) Understanding of financial considerations (pricing models, chargeback, payment models,\n"
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 2121,
+   "end": 2406,
+   "chars": 285,
+   "text": "CapEx vs OpEx) including budgeting and predictability\nu) Attention to automation capabilities for infrastructure, software development and testing, and\nprocess efficiency\nv) Industry standards and best-practice\nw) Considerations to exit strategy (data ownership, backups, portability, "
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 2406,
+   "end": 2545,
+   "chars": 139,
+   "text": "lock-in)\nx) Identification of skills required to deliver and support future state along with strategies to obtain\nskills and/or personnel.\n"
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 2545,
+   "end": 2686,
+   "chars": 141,
+   "text": "y) AI integrations into service and operational business areas\nz) Ability for cybersecurity tools to share telemetry and work together (e.g. "
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 2686,
+   "end": 2722,
+   "chars": 36,
+   "text": "Cybersecurity Mesh\nArchitecture)\n\n12"
+  },
+  {
+   "id": "p13-s0",
+   "page": 13,
+   "start": 0,
+   "end": 47,
+   "chars": 47,
+   "text": "Identity & Access Management (IAM) Strategy\n1. "
+  },
+  {
+   "id": "p13-s1",
+   "page": 13,
+   "start": 47,
+   "end": 238,
+   "chars": 191,
+   "text": "IAM Discovery and Implementation – Consultation and assistance in planning and preparation for\nthe execution of an Identity and Access Management strategy including:\n Machines, tokens, MFA, "
+  },
+  {
+   "id": "p13-s2",
+   "page": 13,
+   "start": 238,
+   "end": 556,
+   "chars": 318,
+   "text": "PAM\n Identity Management for external and internal entities\n Authentication Authorization\n User Provision/Deprovision\n Privileged Access Management\n Network Account Management\na) A Review of INPRS’s Identity and Access Management Strategy\nb) A key and certificate management lifecycle solution with the ability to"
+  },
+  {
+   "id": "p13-s3",
+   "page": 13,
+   "start": 556,
+   "end": 745,
+   "chars": 189,
+   "text": " monitor, facilitate, and\nexecute every certificate process to ensure the integrity and security of network operations\nbased on business risk, data sensitivity and industry best practices. "
+  },
+  {
+   "id": "p13-s4",
+   "page": 13,
+   "start": 745,
+   "end": 866,
+   "chars": 121,
+   "text": "Based on business risk and\ndata sensitivity, consideration of Bring Your Own Key (BYOK) and/or Hold Your Own Key\n(HYOK).\n"
+  },
+  {
+   "id": "p13-s5",
+   "page": 13,
+   "start": 866,
+   "end": 1181,
+   "chars": 315,
+   "text": "c) Consideration that the IAM solution must work cohesively with the application migration\nsolution\nd) Understanding of training and skills development requirements for IAM administration\ne) Understanding compliance and regulatory requirements for IAM implementation\nf) Consideration of enhanced user experience and"
+  },
+  {
+   "id": "p13-s6",
+   "page": 13,
+   "start": 1181,
+   "end": 1293,
+   "chars": 112,
+   "text": " simplified IT administration\ng) Policy and Procedure review for gaps relating to user onboarding, offboarding, "
+  },
+  {
+   "id": "p13-s7",
+   "page": 13,
+   "start": 1293,
+   "end": 1605,
+   "chars": 312,
+   "text": "and access\nmanagement\nh) Ensuring complete and accurate user permissions to avoid excess access privileges (while\nprotecting and managing privileged access accounts) and/or data breaches\ni) Avoidance of unauthorized access to sensitive pension data due to weak or compromised user\ncredentials\nj) Consideration of"
+  },
+  {
+   "id": "p13-s8",
+   "page": 13,
+   "start": 1605,
+   "end": 1849,
+   "chars": 244,
+   "text": " multifactor authentication (MFA) standards for on-network and off-network\naccess\nk) Improvement to security and compliance based on an industry standard such as NIST Special\nPublication 800-63-3 Digital Identity Guidelines and its companions, "
+  },
+  {
+   "id": "p13-s9",
+   "page": 13,
+   "start": 1849,
+   "end": 2160,
+   "chars": 311,
+   "text": "or any other framework\nthat can be mapped back to the NIST Cyber Security Framework\nl) Improved identity and access controls\nm) Improved audit and reporting capabilities for user access\nn) Simplification of user provisioning and de-provisioning processes\no) Enhanced productivity through automated workflows and"
+  },
+  {
+   "id": "p13-s10",
+   "page": 13,
+   "start": 2160,
+   "end": 2477,
+   "chars": 317,
+   "text": " approvals\np) Creation of a Roadmap for execution including timing, dependencies, budget, and resources\nSecure Access Service Edge (SASE) and Zero Trust Network Access (ZTNA) Strategy\nThis section of the RFP request is a subset of the Application Assessment and Digital Business\nAdoption and Transformation Plan RFP. "
+  },
+  {
+   "id": "p13-s11",
+   "page": 13,
+   "start": 2477,
+   "end": 2586,
+   "chars": 109,
+   "text": "It continues with a strategic objective to evolve and modernize\nINPRS’s network and security infrastructure. "
+  },
+  {
+   "id": "p13-s12",
+   "page": 13,
+   "start": 2586,
+   "end": 2829,
+   "chars": 243,
+   "text": "INPRS’s long-term strategy is to unify web, cloud\nservices and private application access from a single vendor security service edge platform that provides\nsecure access to any application from any device while pursuing a zero-trust strategy. "
+  },
+  {
+   "id": "p13-s13",
+   "page": 13,
+   "start": 2829,
+   "end": 2946,
+   "chars": 117,
+   "text": "The proposal\nshould include a discovery and assessment of INPRS’s existing traditional data-centric security model\n13"
+  },
+  {
+   "id": "p14-s0",
+   "page": 14,
+   "start": 0,
+   "end": 100,
+   "chars": 100,
+   "text": "and recommendations for transitioning to a more distributed and cloud-native security architecture. "
+  },
+  {
+   "id": "p14-s1",
+   "page": 14,
+   "start": 100,
+   "end": 290,
+   "chars": 190,
+   "text": "The\nrecommendation should include solutions that could include new technologies, cloud service providers,\nsecurity services, and edge computing options that meet INPRS’s long-term strategy. "
+  },
+  {
+   "id": "p14-s2",
+   "page": 14,
+   "start": 290,
+   "end": 362,
+   "chars": 72,
+   "text": "The following\nillustrates the type of work that should be performed:\n1. "
+  },
+  {
+   "id": "p14-s3",
+   "page": 14,
+   "start": 362,
+   "end": 486,
+   "chars": 124,
+   "text": "Conduct interviews with key stakeholders to understand business objectives, security concerns,\nand compliance requirements. "
+  },
+  {
+   "id": "p14-s4",
+   "page": 14,
+   "start": 486,
+   "end": 552,
+   "chars": 66,
+   "text": "Review existing security policies, procedures, and\ndocumentation. "
+  },
+  {
+   "id": "p14-s5",
+   "page": 14,
+   "start": 552,
+   "end": 703,
+   "chars": 151,
+   "text": "Gather information about the INPRS network infrastructure, including data\ncenters, offices, remote work requirements, in-house and cloud applications. "
+  },
+  {
+   "id": "p14-s6",
+   "page": 14,
+   "start": 703,
+   "end": 774,
+   "chars": 71,
+   "text": "Evaluate the\neffectiveness of the current data-centric security model. "
+  },
+  {
+   "id": "p14-s7",
+   "page": 14,
+   "start": 774,
+   "end": 863,
+   "chars": 89,
+   "text": "Identify vulnerabilities, gaps, and\nlimitations in the existing security infrastructure. "
+  },
+  {
+   "id": "p14-s8",
+   "page": 14,
+   "start": 863,
+   "end": 927,
+   "chars": 64,
+   "text": "Analyze and understand INPRS risk profile\nand threat landscape.\n"
+  },
+  {
+   "id": "p14-s9",
+   "page": 14,
+   "start": 927,
+   "end": 930,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p14-s10",
+   "page": 14,
+   "start": 930,
+   "end": 1087,
+   "chars": 157,
+   "text": "Propose a detailed cloud-native and distributed security architecture that unifies web, cloud\nservices, and private application access from a single vendor. "
+  },
+  {
+   "id": "p14-s11",
+   "page": 14,
+   "start": 1087,
+   "end": 1170,
+   "chars": 83,
+   "text": "Specify the integration of security\nand network functions in a unified SASE model. "
+  },
+  {
+   "id": "p14-s12",
+   "page": 14,
+   "start": 1170,
+   "end": 1405,
+   "chars": 235,
+   "text": "Elements of the proposal should include but\nnot limited to:\na) Network and Security Architecture: Define the architectural elements required for the\nproposed SSE solution, including edge nodes, access points, and network segmentation.\n"
+  },
+  {
+   "id": "p14-s13",
+   "page": 14,
+   "start": 1405,
+   "end": 1517,
+   "chars": 112,
+   "text": "Specify how the solution will ensure secure and optimized connectivity to web, cloud, and\nprivate applications.\n"
+  },
+  {
+   "id": "p14-s14",
+   "page": 14,
+   "start": 1517,
+   "end": 1800,
+   "chars": 283,
+   "text": "b) Solution Capabilities: Identify and describe key solution capabilities, including securityas-a-service, secure web gateway (SWG), cloud access security broker (CASB), data loss\nprevention (DLP), identity-centric security, zero trust principles, and context-based access\ncontrols. "
+  },
+  {
+   "id": "p14-s15",
+   "page": 14,
+   "start": 1800,
+   "end": 1915,
+   "chars": 115,
+   "text": "Explain how these capabilities will support the organization's cloud business and\ntechnical functional objectives.\n"
+  },
+  {
+   "id": "p14-s16",
+   "page": 14,
+   "start": 1915,
+   "end": 2033,
+   "chars": 118,
+   "text": "c) Technical Capabilities: Identify and provide recommendations for integrating the\nfollowing technical capabilities:\n"
+  },
+  {
+   "id": "p14-s17",
+   "page": 14,
+   "start": 2033,
+   "end": 2346,
+   "chars": 313,
+   "text": "Core Technical Capabilities\no\no\no\no\no\no\no\n\nRecommended Technical Capabilities\n\nSecure web gateway\nCASB\nZTNA\nSoftware-defined WAN\nNetwork firewalling services\nSensitive data and malware inspection\nLine-rate operation\n\no\no\no\no\no\no\no\no\no\no\n\nRemote browser isolation\nNetwork sandbox\nDNS protection\nAPI-based access to"
+  },
+  {
+   "id": "p14-s18",
+   "page": 14,
+   "start": 2346,
+   "end": 2627,
+   "chars": 281,
+   "text": " SaaS\nSupport for managed and unmanaged devices\nWeb app and API protection\nEnhanced internet and/private backbone transport\nContent delivery network\nExternal DNS services\nCloud onramp (simplified and automated\nintegration with the public cloud)\n\nd) Risk Assessment and Compliance: "
+  },
+  {
+   "id": "p14-s19",
+   "page": 14,
+   "start": 2627,
+   "end": 2727,
+   "chars": 100,
+   "text": "Identify potential risks associated with the proposed\nmodel and provide risk mitigation strategies. "
+  },
+  {
+   "id": "p14-s20",
+   "page": 14,
+   "start": 2727,
+   "end": 2837,
+   "chars": 110,
+   "text": "Ensure that the proposed model aligns with\nrelevant and specific compliance requirements (e.g., GDPR, HIPAA).\n"
+  },
+  {
+   "id": "p14-s21",
+   "page": 14,
+   "start": 2838,
+   "end": 2840,
+   "chars": 2,
+   "text": "14"
+  },
+  {
+   "id": "p15-s0",
+   "page": 15,
+   "start": 0,
+   "end": 127,
+   "chars": 127,
+   "text": "e) Scalability and Performance Considerations: Evaluate the scalability of the proposed\nsolution to accommodate future growth. "
+  },
+  {
+   "id": "p15-s1",
+   "page": 15,
+   "start": 127,
+   "end": 192,
+   "chars": 65,
+   "text": "Address performance considerations and potential\nlatency issues.\n"
+  },
+  {
+   "id": "p15-s2",
+   "page": 15,
+   "start": 192,
+   "end": 306,
+   "chars": 114,
+   "text": "f) Cost Analysis: Provide a cost analysis comparing the proposed model with the existing\nsecurity infrastructure. "
+  },
+  {
+   "id": "p15-s3",
+   "page": 15,
+   "start": 306,
+   "end": 376,
+   "chars": 70,
+   "text": "Include considerations for both capital and operational\nexpenditures.\n"
+  },
+  {
+   "id": "p15-s4",
+   "page": 15,
+   "start": 376,
+   "end": 572,
+   "chars": 196,
+   "text": "g) Implementation Roadmap: Develop a phased implementation roadmap that outlines the\nsteps, timeline, dependencies, and resource requirements for transitioning to the proposed\nSSE security model.\n"
+  },
+  {
+   "id": "p15-s5",
+   "page": 15,
+   "start": 573,
+   "end": 575,
+   "chars": 2,
+   "text": "15"
+  },
+  {
+   "id": "p16-s0",
+   "page": 16,
+   "start": 0,
+   "end": 237,
+   "chars": 237,
+   "text": "SECTION 4 – CONTRACT AWARD\nBased on the results of this process, the qualifying proposal(s) determined to be the most advantageous to\nINPRS, taking into account all of the evaluation factors, may be selected by INPRS for contract award. "
+  },
+  {
+   "id": "p16-s1",
+   "page": 16,
+   "start": 237,
+   "end": 425,
+   "chars": 188,
+   "text": "If,\nhowever, INPRS decides that no proposal is sufficiently advantageous, INPRS may take whatever further\naction is deemed best in its sole discretion, including making no contract award. "
+  },
+  {
+   "id": "p16-s2",
+   "page": 16,
+   "start": 425,
+   "end": 686,
+   "chars": 261,
+   "text": "If, for any reason, a\nproposal is selected and it is not possible to consummate a contract with the Respondent, INPRS may begin\ncontract preparation with the next qualified Respondent or determine that it does not wish to award a\ncontract pursuant to this RFP.\n"
+  },
+  {
+   "id": "p16-s3",
+   "page": 16,
+   "start": 686,
+   "end": 781,
+   "chars": 95,
+   "text": "INPRS reserves the right to discuss and further clarify proposals with any or all respondents. "
+  },
+  {
+   "id": "p16-s4",
+   "page": 16,
+   "start": 781,
+   "end": 941,
+   "chars": 160,
+   "text": "Additionally,\nINPRS may reject any or all proposals received or to award, without discussions or clarifications, a contract\non the basis of proposals received. "
+  },
+  {
+   "id": "p16-s5",
+   "page": 16,
+   "start": 941,
+   "end": 1048,
+   "chars": 107,
+   "text": "Therefore, each proposal should contain the Respondent’s best terms\nfrom a price and technical standpoint.\n"
+  },
+  {
+   "id": "p16-s6",
+   "page": 16,
+   "start": 1048,
+   "end": 1221,
+   "chars": 173,
+   "text": "The Executive Director or his designee(s) will, in the exercise of his/her discretion, determine which\nproposal(s) offer the best means of servicing the interests of INPRS. "
+  },
+  {
+   "id": "p16-s7",
+   "page": 16,
+   "start": 1221,
+   "end": 1268,
+   "chars": 47,
+   "text": "The exercise of this discretion will be\nfinal.\n"
+  },
+  {
+   "id": "p16-s8",
+   "page": 16,
+   "start": 1269,
+   "end": 1454,
+   "chars": 185,
+   "text": "4.1\n\nLength of Contract\n\nThe term of the contract entered into under this RFP shall be for an initial period of three (3) years,\nbeginning from the date of final execution of contract. "
+  },
+  {
+   "id": "p16-s9",
+   "page": 16,
+   "start": 1454,
+   "end": 1592,
+   "chars": 138,
+   "text": "There may be three (3) one (1) year renewals under\nthe same terms and conditions at INPRS’s option up to the length of the original term. "
+  },
+  {
+   "id": "p16-s10",
+   "page": 16,
+   "start": 1592,
+   "end": 1647,
+   "chars": 55,
+   "text": "Total contract period\nshall not exceed ten (10) years.\n"
+  },
+  {
+   "id": "p16-s11",
+   "page": 16,
+   "start": 1648,
+   "end": 1754,
+   "chars": 106,
+   "text": "4.2\n\nEvaluation Criteria\n\nINPRS has selected a group of qualified personnel to act as an evaluation team. "
+  },
+  {
+   "id": "p16-s12",
+   "page": 16,
+   "start": 1754,
+   "end": 1931,
+   "chars": 177,
+   "text": "The procedure for\nevaluating the responses against the evaluation criteria will be as follows:\n\n\n\n\nEach response will be evaluated on the basis of the criteria listed below.\n"
+  },
+  {
+   "id": "p16-s13",
+   "page": 16,
+   "start": 1931,
+   "end": 2138,
+   "chars": 207,
+   "text": "Based on the results of the evaluation, the Proposal or Proposals determined to be most\nadvantageous to INPRS, taking into account all of the evaluation factors, may be selected by INPRS\nfor further action.\n"
+  },
+  {
+   "id": "p16-s14",
+   "page": 16,
+   "start": 2138,
+   "end": 2247,
+   "chars": 109,
+   "text": "In addition, the evaluation team will consider other factors they believe to be material for this\nselection.\n"
+  },
+  {
+   "id": "p16-s15",
+   "page": 16,
+   "start": 2248,
+   "end": 2465,
+   "chars": 217,
+   "text": "Proposals will be evaluated based upon the proven ability of the Respondent to satisfy the requirements in\nan efficient, cost-effective manner, taking into account quality of service with minimal tolerance for error.\n"
+  },
+  {
+   "id": "p16-s16",
+   "page": 16,
+   "start": 2465,
+   "end": 2495,
+   "chars": 30,
+   "text": "Specific criteria include:\n1. "
+  },
+  {
+   "id": "p16-s17",
+   "page": 16,
+   "start": 2495,
+   "end": 2545,
+   "chars": 50,
+   "text": "Fulfilling the requirements set forth in the RFP.\n"
+  },
+  {
+   "id": "p16-s18",
+   "page": 16,
+   "start": 2545,
+   "end": 2548,
+   "chars": 3,
+   "text": "a. "
+  },
+  {
+   "id": "p16-s19",
+   "page": 16,
+   "start": 2548,
+   "end": 2696,
+   "chars": 148,
+   "text": "Respondents must not present their cloud or technical solution(s) since the intent of the\nRFP is for an independent and non-conflicting assessment.\n"
+  },
+  {
+   "id": "p16-s20",
+   "page": 16,
+   "start": 2696,
+   "end": 2699,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p16-s21",
+   "page": 16,
+   "start": 2699,
+   "end": 2780,
+   "chars": 81,
+   "text": "Technical knowledge, skills, and other competencies of the vendor, including:\na. "
+  },
+  {
+   "id": "p16-s22",
+   "page": 16,
+   "start": 2780,
+   "end": 2868,
+   "chars": 88,
+   "text": "Respondent must have a broad and comprehensive understanding of various public clouds\n16"
+  },
+  {
+   "id": "p17-s0",
+   "page": 17,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p17-s1",
+   "page": 17,
+   "start": 4,
+   "end": 7,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p17-s2",
+   "page": 17,
+   "start": 7,
+   "end": 10,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p17-s3",
+   "page": 17,
+   "start": 10,
+   "end": 13,
+   "chars": 3,
+   "text": "6.\n"
+  },
+  {
+   "id": "p17-s4",
+   "page": 17,
+   "start": 14,
+   "end": 17,
+   "chars": 3,
+   "text": "7.\n"
+  },
+  {
+   "id": "p17-s5",
+   "page": 17,
+   "start": 17,
+   "end": 20,
+   "chars": 3,
+   "text": "8.\n"
+  },
+  {
+   "id": "p17-s6",
+   "page": 17,
+   "start": 20,
+   "end": 23,
+   "chars": 3,
+   "text": "9.\n"
+  },
+  {
+   "id": "p17-s7",
+   "page": 17,
+   "start": 24,
+   "end": 321,
+   "chars": 297,
+   "text": "(e.g., Oracle, AWS, Azure, etc. and private cloud options, as well as a technical\nunderstanding of said clouds to ensure they can align with INPRS’s needs and\ninfrastructure), private cloud options, hybrid cloud architectures and related cloud security\nincluding IAM, CASB, API and SAAS Security, "
+  },
+  {
+   "id": "p17-s8",
+   "page": 17,
+   "start": 321,
+   "end": 430,
+   "chars": 109,
+   "text": "and a technical understanding of said\nclouds to ensure they can align with INPRS’s needs and infrastructure.\n"
+  },
+  {
+   "id": "p17-s9",
+   "page": 17,
+   "start": 430,
+   "end": 459,
+   "chars": 29,
+   "text": "Respondent qualifications\na. "
+  },
+  {
+   "id": "p17-s10",
+   "page": 17,
+   "start": 459,
+   "end": 743,
+   "chars": 284,
+   "text": "Respondent must have existing staff with previous experience within the fields of Cloud\nArchitecture, Enterprise Security, and Organizational Change Management which will be\nassigned to this engagement, or existing business partnerships with entities within these\nareas of expertise.\n"
+  },
+  {
+   "id": "p17-s11",
+   "page": 17,
+   "start": 743,
+   "end": 746,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p17-s12",
+   "page": 17,
+   "start": 746,
+   "end": 951,
+   "chars": 205,
+   "text": "Staff assigned to the engagement are expected to either work on-site at the Indianapolis\noffices located within Indianapolis, or domestic within the U.S.\nQuality and completeness of responses to this RFP.\n"
+  },
+  {
+   "id": "p17-s13",
+   "page": 17,
+   "start": 951,
+   "end": 974,
+   "chars": 23,
+   "text": "Quality of references.\n"
+  },
+  {
+   "id": "p17-s14",
+   "page": 17,
+   "start": 974,
+   "end": 1003,
+   "chars": 29,
+   "text": "Experience and track record.\n"
+  },
+  {
+   "id": "p17-s15",
+   "page": 17,
+   "start": 1003,
+   "end": 1006,
+   "chars": 3,
+   "text": "a. "
+  },
+  {
+   "id": "p17-s16",
+   "page": 17,
+   "start": 1006,
+   "end": 1187,
+   "chars": 181,
+   "text": "Respondent must have proven experience in creating and/or implementing basic and\nadvanced IT network concepts like network appliances security, identity and access\nmanagement (e.g. "
+  },
+  {
+   "id": "p17-s17",
+   "page": 17,
+   "start": 1187,
+   "end": 1312,
+   "chars": 125,
+   "text": "technologies like Microsoft AD, Centrify, etc.), cloud private and/or\npublic network security, and IDM/IAM/CIAM/CASB etc.\nb. "
+  },
+  {
+   "id": "p17-s18",
+   "page": 17,
+   "start": 1312,
+   "end": 1415,
+   "chars": 103,
+   "text": "Respondent must be able to provide examples of similar engagements aligned with the\nScope of Services.\n"
+  },
+  {
+   "id": "p17-s19",
+   "page": 17,
+   "start": 1415,
+   "end": 1418,
+   "chars": 3,
+   "text": "c. "
+  },
+  {
+   "id": "p17-s20",
+   "page": 17,
+   "start": 1418,
+   "end": 1482,
+   "chars": 64,
+   "text": "Previous experience with Government organizations is preferred.\n"
+  },
+  {
+   "id": "p17-s21",
+   "page": 17,
+   "start": 1482,
+   "end": 1523,
+   "chars": 41,
+   "text": "Price including a detailed fee proposal.\n"
+  },
+  {
+   "id": "p17-s22",
+   "page": 17,
+   "start": 1523,
+   "end": 1570,
+   "chars": 47,
+   "text": "Quality of finalist presentation, if selected.\n"
+  },
+  {
+   "id": "p17-s23",
+   "page": 17,
+   "start": 1570,
+   "end": 1647,
+   "chars": 77,
+   "text": "Additional qualifying factors, as determined relevant by INPRS including:\na. "
+  },
+  {
+   "id": "p17-s24",
+   "page": 17,
+   "start": 1647,
+   "end": 1737,
+   "chars": 90,
+   "text": "Respondent staff must be able to travel to the INPRS offices located within Indianapolis.\n"
+  },
+  {
+   "id": "p17-s25",
+   "page": 17,
+   "start": 1737,
+   "end": 1740,
+   "chars": 3,
+   "text": "b. "
+  },
+  {
+   "id": "p17-s26",
+   "page": 17,
+   "start": 1740,
+   "end": 1865,
+   "chars": 125,
+   "text": "Respondent will be required to provide their staff with a computer and software capable of\nperforming all needed job duties.\n"
+  },
+  {
+   "id": "p17-s27",
+   "page": 17,
+   "start": 1866,
+   "end": 1895,
+   "chars": 29,
+   "text": "References may be contacted. "
+  },
+  {
+   "id": "p17-s28",
+   "page": 17,
+   "start": 1895,
+   "end": 1996,
+   "chars": 101,
+   "text": "It is possible that finalists will be interviewed by persons participating in the\nselection process. "
+  },
+  {
+   "id": "p17-s29",
+   "page": 17,
+   "start": 1996,
+   "end": 2131,
+   "chars": 135,
+   "text": "Note that INPRS will not electronically communicate with any Respondents using\nnon-company-maintained email for file sharing accounts.\n"
+  },
+  {
+   "id": "p17-s30",
+   "page": 17,
+   "start": 2132,
+   "end": 2134,
+   "chars": 2,
+   "text": "17"
+  },
+  {
+   "id": "p18-s0",
+   "page": 18,
+   "start": 0,
+   "end": 132,
+   "chars": 132,
+   "text": "APPENDIX A – SAMPLE CONTRACT FOR SERVICES\nThe following sample contract is the base contract that will be used if an award is made. "
+  },
+  {
+   "id": "p18-s1",
+   "page": 18,
+   "start": 132,
+   "end": 292,
+   "chars": 160,
+   "text": "It is the expectation\nof INPRS that the Respondent will review the sample contract and provide desired changes to INPRS at\nthe time of submittal of a proposal. "
+  },
+  {
+   "id": "p18-s2",
+   "page": 18,
+   "start": 292,
+   "end": 464,
+   "chars": 172,
+   "text": "Desired changes are unlikely to be added unless INPRS determines in\nits sole discretion that the performance of services under the contract is dependent upon such changes.\n"
+  },
+  {
+   "id": "p18-s3",
+   "page": 18,
+   "start": 464,
+   "end": 676,
+   "chars": 212,
+   "text": "If Respondent wishes to amend any term or change any language in the base contract being submitted,\nproposed language should be included in the business proposal in the form of an amendment to the base\ncontract. "
+  },
+  {
+   "id": "p18-s4",
+   "page": 18,
+   "start": 676,
+   "end": 761,
+   "chars": 85,
+   "text": "See paragraph 2.3.4 of this RFP for the applicable section of the business proposal. "
+  },
+  {
+   "id": "p18-s5",
+   "page": 18,
+   "start": 761,
+   "end": 1046,
+   "chars": 285,
+   "text": "For each\nproposed revision, the Respondent should indicate that the change is required by the Respondent in any\ncontract resulting from this RFP and why it is required or indicate that the change is desired (but not\nrequired) by the Respondent in any contract resulting from this RFP.\n"
+  },
+  {
+   "id": "p18-s6",
+   "page": 18,
+   "start": 1046,
+   "end": 1151,
+   "chars": 105,
+   "text": "If a required change is unacceptable to INPRS, the Respondent’s proposal may be considered unacceptable.\n"
+  },
+  {
+   "id": "p18-s7",
+   "page": 18,
+   "start": 1151,
+   "end": 1256,
+   "chars": 105,
+   "text": "It should be noted that Appendix A.1 of this RFP includes the essential clauses that are non-negotiable.\n"
+  },
+  {
+   "id": "p18-s8",
+   "page": 18,
+   "start": 1256,
+   "end": 1435,
+   "chars": 179,
+   "text": "The Respondent is required to clearly identify and explain any exception that it desires to take to any of the\nterms and conditions of this Solicitation in the business proposal. "
+  },
+  {
+   "id": "p18-s9",
+   "page": 18,
+   "start": 1435,
+   "end": 1708,
+   "chars": 273,
+   "text": "The evaluation of a proposal may be\nnegatively affected by exception taken by the Respondent to any part of this Solicitation, and INPRS\nreserves the right, in its sole discretion, to refuse to consider any exception that is not so identified in the\nRespondent’s proposal.\n"
+  },
+  {
+   "id": "p18-s10",
+   "page": 18,
+   "start": 1709,
+   "end": 1711,
+   "chars": 2,
+   "text": "18"
+  },
+  {
+   "id": "p19-s0",
+   "page": 19,
+   "start": 0,
+   "end": 297,
+   "chars": 297,
+   "text": "Appendix A.1 – ESSENTIAL CLAUSES\nEssential Clauses in the System’s Sample Contract for Services\nAs part of the Request for Proposal (RFP) process, you are required to review the Indiana Public\nRetirement System’s (the “System”) sample Contract for Services and submit comments with your\nproposal. "
+  },
+  {
+   "id": "p19-s1",
+   "page": 19,
+   "start": 297,
+   "end": 339,
+   "chars": 42,
+   "text": "The following clauses are non-negotiable. "
+  },
+  {
+   "id": "p19-s2",
+   "page": 19,
+   "start": 339,
+   "end": 450,
+   "chars": 111,
+   "text": "If you believe that a clause will affect your risk of\nliability, you should adjust your bid price accordingly.\n"
+  },
+  {
+   "id": "p19-s3",
+   "page": 19,
+   "start": 450,
+   "end": 684,
+   "chars": 234,
+   "text": "(Section 4) Access to Records\nThe System will not agree to any provision eliminating this requirement or requiring the System records\nto be retained for less than applicable law, including Indiana’s public records retention schedule.\n"
+  },
+  {
+   "id": "p19-s4",
+   "page": 19,
+   "start": 684,
+   "end": 795,
+   "chars": 111,
+   "text": "(Section 7) Audit and Audit Settlement\nThe System is subject to audits by the Indiana State Board of Accounts. "
+  },
+  {
+   "id": "p19-s5",
+   "page": 19,
+   "start": 795,
+   "end": 899,
+   "chars": 104,
+   "text": "Therefore, the System will not\naccept any substantive modifications to the language under this Section.\n"
+  },
+  {
+   "id": "p19-s6",
+   "page": 19,
+   "start": 899,
+   "end": 1021,
+   "chars": 122,
+   "text": "(Section 11) Compliance with Laws\nThe Indiana Attorney General requires this provision in all State of Indiana contracts. "
+  },
+  {
+   "id": "p19-s7",
+   "page": 19,
+   "start": 1021,
+   "end": 1185,
+   "chars": 164,
+   "text": "Contractor and its\nagents must abide by the ethical requirements set forth in Indiana Code, including provisions regarding\nthe telephone solicitation of customers. "
+  },
+  {
+   "id": "p19-s8",
+   "page": 19,
+   "start": 1185,
+   "end": 1339,
+   "chars": 154,
+   "text": "As the System is subject to the jurisdiction of the State Ethics\nCommission and State ethics rules, the System will not agree to delete these provisions.\n"
+  },
+  {
+   "id": "p19-s9",
+   "page": 19,
+   "start": 1339,
+   "end": 1540,
+   "chars": 201,
+   "text": "(Section 13) Confidentiality of System Information\nAlthough the System is subject to Indiana’s public records laws, many of the System records are\nconfidential public records that cannot be disclosed. "
+  },
+  {
+   "id": "p19-s10",
+   "page": 19,
+   "start": 1540,
+   "end": 1664,
+   "chars": 124,
+   "text": "In addition, the Indiana Attorney General requires the\nSocial Security disclosure clause in all State of Indiana contracts.\n"
+  },
+  {
+   "id": "p19-s11",
+   "page": 19,
+   "start": 1664,
+   "end": 1803,
+   "chars": 139,
+   "text": "(Section 17) Disputes\nThe System will not agree in advance to any binding resolution clauses, except those of the State of\nIndiana courts; "
+  },
+  {
+   "id": "p19-s12",
+   "page": 19,
+   "start": 1803,
+   "end": 1900,
+   "chars": 97,
+   "text": "however, the System may agree to alternative dispute resolution options, should a dispute\narise.\n"
+  },
+  {
+   "id": "p19-s13",
+   "page": 19,
+   "start": 1900,
+   "end": 2099,
+   "chars": 199,
+   "text": "(Section 18) Drug-Free Workplace Certification\nTo ensure compliance with the Governor of Indiana’s executive order on drug-free workplaces, these\nprovisions are required in all the System contracts. "
+  },
+  {
+   "id": "p19-s14",
+   "page": 19,
+   "start": 2099,
+   "end": 2180,
+   "chars": 81,
+   "text": "The System will not accept any modifications of the\nlanguage under this Section.\n"
+  },
+  {
+   "id": "p19-s15",
+   "page": 19,
+   "start": 2180,
+   "end": 2366,
+   "chars": 186,
+   "text": "(Section 23) Governing Law\nThe contract must be governed by the laws of the State of Indiana, and suit, if any, must be brought in a\nstate court of jurisdiction in the State of Indiana. "
+  },
+  {
+   "id": "p19-s16",
+   "page": 19,
+   "start": 2366,
+   "end": 2624,
+   "chars": 258,
+   "text": "As a quasi-governmental agency, the System is protected\nby the Eleventh Amendment of the United States Constitution, which guarantees that state governments\nhold sovereign immunity and are immune from federal lawsuits initiated by citizens of another state. "
+  },
+  {
+   "id": "p19-s17",
+   "page": 19,
+   "start": 2624,
+   "end": 2740,
+   "chars": 116,
+   "text": "The\nSystem will not agree to any provision that can be construed as waiving the System’s Eleventh\nAmendment rights.\n"
+  },
+  {
+   "id": "p19-s18",
+   "page": 19,
+   "start": 2740,
+   "end": 2909,
+   "chars": 169,
+   "text": "(Section 25) Indemnification\nThe System will not agree to any modification that limits Contractor’s responsibility to indemnify the\nSystem as described in this Section. "
+  },
+  {
+   "id": "p19-s19",
+   "page": 19,
+   "start": 2909,
+   "end": 3081,
+   "chars": 172,
+   "text": "The Indiana Attorney General has opined that any agreement\nrequiring the System to indemnify Contractor is a violation of the Indiana Constitution and against public\n- 19 -"
+  },
+  {
+   "id": "p20-s0",
+   "page": 20,
+   "start": 0,
+   "end": 8,
+   "chars": 8,
+   "text": "policy. "
+  },
+  {
+   "id": "p20-s1",
+   "page": 20,
+   "start": 8,
+   "end": 182,
+   "chars": 174,
+   "text": "In addition, the System will not agree to any modification that limits the System’s ability to\nrecover damages or limits Contractor’s liability as described in the contract.\n"
+  },
+  {
+   "id": "p20-s2",
+   "page": 20,
+   "start": 182,
+   "end": 308,
+   "chars": 126,
+   "text": "(Section 33) Minority and Women’s Business Enterprise Compliance\nIndiana law requires this provision in all System contracts. "
+  },
+  {
+   "id": "p20-s3",
+   "page": 20,
+   "start": 308,
+   "end": 597,
+   "chars": 289,
+   "text": "In the event Contractor uses a subcontractor to\ncomplete services pursuant to this contract, Contractor must visit the Indiana Department of\nAdministration’s Web site, which contains a list of subcontractors registered as Minority Business\nEnterprises and/or Women’s Business Enterprises. "
+  },
+  {
+   "id": "p20-s4",
+   "page": 20,
+   "start": 597,
+   "end": 757,
+   "chars": 160,
+   "text": "If a subcontractor who performs services required\nunder the contract is listed on the Web site, Contractor must give that subcontractor the opportunity to\nbid. "
+  },
+  {
+   "id": "p20-s5",
+   "page": 20,
+   "start": 757,
+   "end": 897,
+   "chars": 140,
+   "text": "If Contractor does not use a subcontractor to complete services pursuant to this contract, Contractor\nwill be unaffected by this provision.\n"
+  },
+  {
+   "id": "p20-s6",
+   "page": 20,
+   "start": 897,
+   "end": 1016,
+   "chars": 119,
+   "text": "(Section 34) Nondiscrimination\nThe Indiana Attorney General requires this provision in all State of Indiana contracts. "
+  },
+  {
+   "id": "p20-s7",
+   "page": 20,
+   "start": 1016,
+   "end": 1212,
+   "chars": 196,
+   "text": "The System will not\nagree to limit Contractor’s liability under this provision, nor will the System agree to substitute\nContractor’s discrimination policy for the requirements under this Section.\n"
+  },
+  {
+   "id": "p20-s8",
+   "page": 20,
+   "start": 1212,
+   "end": 1375,
+   "chars": 163,
+   "text": "(Section 51) Investigations and Complaints\nAs part of the System’s fiduciary and due diligence obligations, this is an essential clause in the System’s\ncontracts. "
+  },
+  {
+   "id": "p20-s9",
+   "page": 20,
+   "start": 1375,
+   "end": 1438,
+   "chars": 63,
+   "text": "The System will not accept material changes to this provision.\n"
+  },
+  {
+   "id": "p20-s10",
+   "page": 20,
+   "start": 1438,
+   "end": 1581,
+   "chars": 143,
+   "text": "Additional contract provisions to which the System will not agree:\n\n\nAny provision requiring the System to provide insurance or an indemnity;\n"
+  },
+  {
+   "id": "p20-s11",
+   "page": 20,
+   "start": 1582,
+   "end": 1699,
+   "chars": 117,
+   "text": "\n\nAny provision requiring the contract to be construed in accordance with the laws of any state other\nthan Indiana;\n"
+  },
+  {
+   "id": "p20-s12",
+   "page": 20,
+   "start": 1700,
+   "end": 1779,
+   "chars": 79,
+   "text": "\n\nAny provision requiring suit to be brought in any state other than Indiana;\n"
+  },
+  {
+   "id": "p20-s13",
+   "page": 20,
+   "start": 1780,
+   "end": 1839,
+   "chars": 59,
+   "text": "\n\nAny mandatory dispute resolution other than the courts;\n"
+  },
+  {
+   "id": "p20-s14",
+   "page": 20,
+   "start": 1840,
+   "end": 1892,
+   "chars": 52,
+   "text": "\n\nAny provision requiring the System to pay taxes;\n"
+  },
+  {
+   "id": "p20-s15",
+   "page": 20,
+   "start": 1893,
+   "end": 1997,
+   "chars": 104,
+   "text": "\n\nAny provision requiring the System to pay penalties, liquidated damages, interest, or attorney fees;\n"
+  },
+  {
+   "id": "p20-s16",
+   "page": 20,
+   "start": 1998,
+   "end": 2053,
+   "chars": 55,
+   "text": "\n\nAny provision modifying the statute of limitations;\n"
+  },
+  {
+   "id": "p20-s17",
+   "page": 20,
+   "start": 2054,
+   "end": 2129,
+   "chars": 75,
+   "text": "\n\nAny provision relating to a time in which the System must make a claim;\n"
+  },
+  {
+   "id": "p20-s18",
+   "page": 20,
+   "start": 2130,
+   "end": 2194,
+   "chars": 64,
+   "text": "\n\nAny provision requiring payment in advance, except for rent; "
+  },
+  {
+   "id": "p20-s19",
+   "page": 20,
+   "start": 2194,
+   "end": 2402,
+   "chars": 208,
+   "text": "and\n\n\n\nAny provision limiting disclosure of information in contravention of the Indiana Access to Public\nRecords Act\nAcknowledgement\nWe have reviewed and agree to the System’s mandatory contract provisions.\n"
+  },
+  {
+   "id": "p20-s20",
+   "page": 20,
+   "start": 2402,
+   "end": 2592,
+   "chars": 190,
+   "text": "Signature: _________________________________\nName/Title:____________________________________\nCompany: _____________________________________\nDate: ____________________________________\n\n- 20 -"
+  },
+  {
+   "id": "p21-s0",
+   "page": 21,
+   "start": 0,
+   "end": 252,
+   "chars": 252,
+   "text": "Appendix A.2 - SAMPLE CONTRACT FOR SERVICES\nThis CONTRACT FOR SERVICES (“Contract”) is entered into and effective\n____________________, 20xx (“Effective Date”), by and between\n(the “Contractor”) and the INDIANA PUBLIC RETIREMENT SYSTEM (the “System”).\n"
+  },
+  {
+   "id": "p21-s1",
+   "page": 21,
+   "start": 253,
+   "end": 396,
+   "chars": 143,
+   "text": "as\n\nof\n\nWHEREAS, the System issued a [Request for Proposal (RFP __________)/Request for Quote] on\n____________, in which Contractor responded;\n"
+  },
+  {
+   "id": "p21-s2",
+   "page": 21,
+   "start": 396,
+   "end": 655,
+   "chars": 259,
+   "text": "WHEREAS, System has determined that it is in the best interests of System, the retirement plans and funds\nit manages and administers and their members and beneficiaries to form an agreement with Contractor to\nperform services in the area of [Contract Scope];\n"
+  },
+  {
+   "id": "p21-s3",
+   "page": 21,
+   "start": 655,
+   "end": 712,
+   "chars": 57,
+   "text": "WHEREAS, Contractor is willing to provide such services;\n"
+  },
+  {
+   "id": "p21-s4",
+   "page": 21,
+   "start": 712,
+   "end": 822,
+   "chars": 110,
+   "text": "NOW, THEREFORE, in consideration of those mutual undertakings and covenants, the parties agree as\nfollows:\n1. "
+  },
+  {
+   "id": "p21-s5",
+   "page": 21,
+   "start": 822,
+   "end": 844,
+   "chars": 22,
+   "text": "Duties of Contractor. "
+  },
+  {
+   "id": "p21-s6",
+   "page": 21,
+   "start": 844,
+   "end": 970,
+   "chars": 126,
+   "text": "The Contractor shall provide the following services set forth on Attachment\nA, which is incorporated herein (the “Services”).\n"
+  },
+  {
+   "id": "p21-s7",
+   "page": 21,
+   "start": 970,
+   "end": 973,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p21-s8",
+   "page": 21,
+   "start": 973,
+   "end": 988,
+   "chars": 15,
+   "text": "Consideration. "
+  },
+  {
+   "id": "p21-s9",
+   "page": 21,
+   "start": 988,
+   "end": 1147,
+   "chars": 159,
+   "text": "The Contractor shall be paid at the rate of ___________ for performing the duties set\nforth above, as set forth in Attachment B, which is incorporated herein. "
+  },
+  {
+   "id": "p21-s10",
+   "page": 21,
+   "start": 1147,
+   "end": 1219,
+   "chars": 72,
+   "text": "Total remuneration under this\nContract shall not exceed $_____________.\n"
+  },
+  {
+   "id": "p21-s11",
+   "page": 21,
+   "start": 1219,
+   "end": 1222,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p21-s12",
+   "page": 21,
+   "start": 1222,
+   "end": 1228,
+   "chars": 6,
+   "text": "Term. "
+  },
+  {
+   "id": "p21-s13",
+   "page": 21,
+   "start": 1228,
+   "end": 1322,
+   "chars": 94,
+   "text": "This Contract shall commence on the Effective Date and shall remain in effect through ______.\n"
+  },
+  {
+   "id": "p21-s14",
+   "page": 21,
+   "start": 1322,
+   "end": 1466,
+   "chars": 144,
+   "text": "This Contract may be renewed under the same terms and conditions by mutual written agreement of the\nparties for up to ______(_) one-year terms. "
+  },
+  {
+   "id": "p21-s15",
+   "page": 21,
+   "start": 1466,
+   "end": 1679,
+   "chars": 213,
+   "text": "This Contract, unless otherwise terminated, modified, or\nrenewed in writing by the parties, will automatically renew on a month-to-month basis after the termination\ndate for a period not to exceed six (6) months.\n"
+  },
+  {
+   "id": "p21-s16",
+   "page": 21,
+   "start": 1679,
+   "end": 1682,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p21-s17",
+   "page": 21,
+   "start": 1682,
+   "end": 1701,
+   "chars": 19,
+   "text": "Access to Records. "
+  },
+  {
+   "id": "p21-s18",
+   "page": 21,
+   "start": 1701,
+   "end": 1886,
+   "chars": 185,
+   "text": "The Contractor and its subcontractors, if any, shall maintain all books, documents,\npapers, accounting records, and other evidence pertaining to all costs incurred under this Contract. "
+  },
+  {
+   "id": "p21-s19",
+   "page": 21,
+   "start": 1886,
+   "end": 2082,
+   "chars": 196,
+   "text": "They\nshall make such materials available during this Contract and for three (3) years from the date of final\npayment under this Contract, for inspection by the System or its authorized designees. "
+  },
+  {
+   "id": "p21-s20",
+   "page": 21,
+   "start": 2082,
+   "end": 2147,
+   "chars": 65,
+   "text": "Copies shall be\nfurnished at no cost to the System if requested.\n"
+  },
+  {
+   "id": "p21-s21",
+   "page": 21,
+   "start": 2147,
+   "end": 2150,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p21-s22",
+   "page": 21,
+   "start": 2150,
+   "end": 2162,
+   "chars": 12,
+   "text": "Assignment; "
+  },
+  {
+   "id": "p21-s23",
+   "page": 21,
+   "start": 2162,
+   "end": 2174,
+   "chars": 12,
+   "text": "Successors. "
+  },
+  {
+   "id": "p21-s24",
+   "page": 21,
+   "start": 2174,
+   "end": 2274,
+   "chars": 100,
+   "text": "The Contractor binds its successors and assignees to all the terms and\nconditions of this Contract. "
+  },
+  {
+   "id": "p21-s25",
+   "page": 21,
+   "start": 2274,
+   "end": 2404,
+   "chars": 130,
+   "text": "The Contractor shall not assign or subcontract the whole or any part of this\nContract without the System’s prior written consent. "
+  },
+  {
+   "id": "p21-s26",
+   "page": 21,
+   "start": 2404,
+   "end": 2716,
+   "chars": 312,
+   "text": "The Contractor may assign its right to receive\npayments to such third parties as the Contractor may desire without the prior written consent of the System,\nprovided that Contractor gives written notice (including evidence of such assignment) to the System thirty\n(30) days in advance of any payment so assigned. "
+  },
+  {
+   "id": "p21-s27",
+   "page": 21,
+   "start": 2716,
+   "end": 2828,
+   "chars": 112,
+   "text": "The assignment shall cover all unpaid amounts under\nthis Contract and shall not be made to more than one party.\n"
+  },
+  {
+   "id": "p21-s28",
+   "page": 21,
+   "start": 2828,
+   "end": 2831,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p21-s29",
+   "page": 21,
+   "start": 2831,
+   "end": 2863,
+   "chars": 32,
+   "text": "Assignment of Antitrust Claims. "
+  },
+  {
+   "id": "p21-s30",
+   "page": 21,
+   "start": 2863,
+   "end": 3046,
+   "chars": 183,
+   "text": "As part of the consideration for the award of this Contract, the\nContractor assigns to the System all right, title and interest in and to any claims the Contractor now has, or\n\n- 21 -"
+  },
+  {
+   "id": "p22-s0",
+   "page": 22,
+   "start": 0,
+   "end": 128,
+   "chars": 128,
+   "text": "may acquire, under state or federal antitrust laws relating to the products or services which are the subject\nof this Contract.\n"
+  },
+  {
+   "id": "p22-s1",
+   "page": 22,
+   "start": 128,
+   "end": 131,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p22-s2",
+   "page": 22,
+   "start": 131,
+   "end": 159,
+   "chars": 28,
+   "text": "Audit and Audit Settlement. "
+  },
+  {
+   "id": "p22-s3",
+   "page": 22,
+   "start": 159,
+   "end": 265,
+   "chars": 106,
+   "text": "Contractor acknowledges that it may be required to submit to an audit of\nfunds paid through the Contract. "
+  },
+  {
+   "id": "p22-s4",
+   "page": 22,
+   "start": 265,
+   "end": 338,
+   "chars": 73,
+   "text": "Any such audit shall be conducted in accordance with IC § 5-11-1 et seq.\n"
+  },
+  {
+   "id": "p22-s5",
+   "page": 22,
+   "start": 338,
+   "end": 379,
+   "chars": 41,
+   "text": "and audit guidelines specified by INPRS. "
+  },
+  {
+   "id": "p22-s6",
+   "page": 22,
+   "start": 379,
+   "end": 659,
+   "chars": 280,
+   "text": "If an error is discovered as a result of an audit performed by\nINPRS and Contractor, or if Contractor becomes aware of any error through any other means, Contractor\nshall use its best efforts to promptly correct such error or to cause the appropriate party to correct such error.\n"
+  },
+  {
+   "id": "p22-s7",
+   "page": 22,
+   "start": 659,
+   "end": 662,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p22-s8",
+   "page": 22,
+   "start": 662,
+   "end": 692,
+   "chars": 30,
+   "text": "Authority to Bind Contractor. "
+  },
+  {
+   "id": "p22-s9",
+   "page": 22,
+   "start": 692,
+   "end": 1000,
+   "chars": 308,
+   "text": "The signatory for the Contractor represents that he/she has been duly\nauthorized to execute this Contract on behalf of the Contractor and has obtained all necessary or applicable\napprovals to make this Contract fully binding upon the Contractor when his/her signature is affixed, and\naccepted by the System.\n"
+  },
+  {
+   "id": "p22-s10",
+   "page": 22,
+   "start": 1000,
+   "end": 1003,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p22-s11",
+   "page": 22,
+   "start": 1003,
+   "end": 1030,
+   "chars": 27,
+   "text": "Background Investigations. "
+  },
+  {
+   "id": "p22-s12",
+   "page": 22,
+   "start": 1030,
+   "end": 1296,
+   "chars": 266,
+   "text": "Contractor agrees to conduct or cause to have conducted a background\ncheck of any employee of Contractor or of any vendor, service provider or subcontractor of Contractor who\nhas been or will be given access unsupervised by Contractor or System to any office, room, "
+  },
+  {
+   "id": "p22-s13",
+   "page": 22,
+   "start": 1296,
+   "end": 1351,
+   "chars": 55,
+   "text": "or floor space\nof the property occupied by the System. "
+  },
+  {
+   "id": "p22-s14",
+   "page": 22,
+   "start": 1351,
+   "end": 1491,
+   "chars": 140,
+   "text": "Any such person as described in this paragraph will have passed\nsuch background check including for verification of, but not limited to:\na.\n"
+  },
+  {
+   "id": "p22-s15",
+   "page": 22,
+   "start": 1491,
+   "end": 1555,
+   "chars": 64,
+   "text": "Social security trace – verification of social security number;\n"
+  },
+  {
+   "id": "p22-s16",
+   "page": 22,
+   "start": 1555,
+   "end": 1558,
+   "chars": 3,
+   "text": "b.\n"
+  },
+  {
+   "id": "p22-s17",
+   "page": 22,
+   "start": 1558,
+   "end": 1689,
+   "chars": 131,
+   "text": "Criminal history, including a criminal history check for applicable states and counties of\nresidence for the past seven (7) years;\n"
+  },
+  {
+   "id": "p22-s18",
+   "page": 22,
+   "start": 1689,
+   "end": 1692,
+   "chars": 3,
+   "text": "c.\n"
+  },
+  {
+   "id": "p22-s19",
+   "page": 22,
+   "start": 1692,
+   "end": 1706,
+   "chars": 14,
+   "text": "Credit check;\n"
+  },
+  {
+   "id": "p22-s20",
+   "page": 22,
+   "start": 1706,
+   "end": 1709,
+   "chars": 3,
+   "text": "d.\n"
+  },
+  {
+   "id": "p22-s21",
+   "page": 22,
+   "start": 1709,
+   "end": 1740,
+   "chars": 31,
+   "text": "Prior employment verification;\n"
+  },
+  {
+   "id": "p22-s22",
+   "page": 22,
+   "start": 1740,
+   "end": 1743,
+   "chars": 3,
+   "text": "e.\n"
+  },
+  {
+   "id": "p22-s23",
+   "page": 22,
+   "start": 1743,
+   "end": 1759,
+   "chars": 16,
+   "text": "E-verify check;\n"
+  },
+  {
+   "id": "p22-s24",
+   "page": 22,
+   "start": 1759,
+   "end": 1762,
+   "chars": 3,
+   "text": "f.\n"
+  },
+  {
+   "id": "p22-s25",
+   "page": 22,
+   "start": 1762,
+   "end": 1800,
+   "chars": 38,
+   "text": "High school diploma/GED verification;\n"
+  },
+  {
+   "id": "p22-s26",
+   "page": 22,
+   "start": 1800,
+   "end": 1803,
+   "chars": 3,
+   "text": "g.\n"
+  },
+  {
+   "id": "p22-s27",
+   "page": 22,
+   "start": 1803,
+   "end": 1882,
+   "chars": 79,
+   "text": "A Department of Revenue tax liability check, if applicable, will be initiated.\n"
+  },
+  {
+   "id": "p22-s28",
+   "page": 22,
+   "start": 1882,
+   "end": 1980,
+   "chars": 98,
+   "text": "Costs associated with these background checks shall be the sole responsibility of the Contractor. "
+  },
+  {
+   "id": "p22-s29",
+   "page": 22,
+   "start": 1980,
+   "end": 2136,
+   "chars": 156,
+   "text": "The\nfollowing reasons may be used by Contractor to determine that a person described in this paragraph did\nnot satisfactorily pass the background check:\na.\n"
+  },
+  {
+   "id": "p22-s30",
+   "page": 22,
+   "start": 2136,
+   "end": 2279,
+   "chars": 143,
+   "text": "Discovery that the candidate provided false or inaccurate information on his or her\napplication or resume, or during the employment interview.\n"
+  },
+  {
+   "id": "p22-s31",
+   "page": 22,
+   "start": 2279,
+   "end": 2282,
+   "chars": 3,
+   "text": "b.\n"
+  },
+  {
+   "id": "p22-s32",
+   "page": 22,
+   "start": 2282,
+   "end": 2323,
+   "chars": 41,
+   "text": "Inability to verify previous employment.\n"
+  },
+  {
+   "id": "p22-s33",
+   "page": 22,
+   "start": 2323,
+   "end": 2326,
+   "chars": 3,
+   "text": "c.\n"
+  },
+  {
+   "id": "p22-s34",
+   "page": 22,
+   "start": 2326,
+   "end": 2405,
+   "chars": 79,
+   "text": "Repeated unfavorable, job-related, performance references by former employers.\n"
+  },
+  {
+   "id": "p22-s35",
+   "page": 22,
+   "start": 2405,
+   "end": 2408,
+   "chars": 3,
+   "text": "d.\n"
+  },
+  {
+   "id": "p22-s36",
+   "page": 22,
+   "start": 2408,
+   "end": 2569,
+   "chars": 161,
+   "text": "Conviction of any crime involving theft, veracity, truthfulness, conversion of property,\nfraud, identity theft, or any non-motor vehicle traffic related felony.\n"
+  },
+  {
+   "id": "p22-s37",
+   "page": 22,
+   "start": 2569,
+   "end": 2572,
+   "chars": 3,
+   "text": "e.\n"
+  },
+  {
+   "id": "p22-s38",
+   "page": 22,
+   "start": 2572,
+   "end": 2675,
+   "chars": 103,
+   "text": "A pattern of financial instability, payroll garnishments, or creditor judgments against the\ncandidate.\n"
+  },
+  {
+   "id": "p22-s39",
+   "page": 22,
+   "start": 2675,
+   "end": 2872,
+   "chars": 197,
+   "text": "The System further reserves the right to conduct a FBI criminal history report, including a fingerprint\nsearch, of any Contractor or of any vendor, service provider or subcontractor of Contractor.\n"
+  },
+  {
+   "id": "p22-s40",
+   "page": 22,
+   "start": 2872,
+   "end": 2876,
+   "chars": 4,
+   "text": "10. "
+  },
+  {
+   "id": "p22-s41",
+   "page": 22,
+   "start": 2876,
+   "end": 2893,
+   "chars": 17,
+   "text": "Changes in Work. "
+  },
+  {
+   "id": "p22-s42",
+   "page": 22,
+   "start": 2893,
+   "end": 3022,
+   "chars": 129,
+   "text": "The Contractor shall not commence any additional work or change the scope of\nthe work until authorized in writing by the System. "
+  },
+  {
+   "id": "p22-s43",
+   "page": 22,
+   "start": 3022,
+   "end": 3178,
+   "chars": 156,
+   "text": "The Contractor shall make no claim for additional\ncompensation in the absence of a prior written approval and amendment executed by all signatories hereto.\n"
+  },
+  {
+   "id": "p22-s44",
+   "page": 22,
+   "start": 3178,
+   "end": 3306,
+   "chars": 128,
+   "text": "This Contract may only be amended, supplemented of modified by a written document executed in the\nsame manner as this Contract.\n"
+  },
+  {
+   "id": "p22-s45",
+   "page": 22,
+   "start": 3306,
+   "end": 3312,
+   "chars": 6,
+   "text": "- 22 -"
+  },
+  {
+   "id": "p23-s0",
+   "page": 23,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "11. "
+  },
+  {
+   "id": "p23-s1",
+   "page": 23,
+   "start": 4,
+   "end": 26,
+   "chars": 22,
+   "text": "Compliance with Laws.\n"
+  },
+  {
+   "id": "p23-s2",
+   "page": 23,
+   "start": 26,
+   "end": 29,
+   "chars": 3,
+   "text": "A. "
+  },
+  {
+   "id": "p23-s3",
+   "page": 23,
+   "start": 29,
+   "end": 239,
+   "chars": 210,
+   "text": "The Contractor shall comply with all applicable federal, state and local laws, rules, regulations and\nordinances, and all provisions required thereby to be included herein are hereby incorporated by reference.\n"
+  },
+  {
+   "id": "p23-s4",
+   "page": 23,
+   "start": 239,
+   "end": 533,
+   "chars": 294,
+   "text": "The enactment or modification of any applicable state or federal statute or the promulgation of rules or\nregulations thereunder after execution of this Contract shall be reviewed by the System and the Contractor\nto determine whether the provisions of this Contract require formal modification.\n"
+  },
+  {
+   "id": "p23-s5",
+   "page": 23,
+   "start": 533,
+   "end": 536,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p23-s6",
+   "page": 23,
+   "start": 536,
+   "end": 822,
+   "chars": 286,
+   "text": "The Contractor and its agents shall abide by all ethical requirements that apply to persons who have a\nbusiness relationship with the System as set forth in IC §4-2-6, et seq., IC §4-2-7, et seq., the regulations\npromulgated thereunder, and Executive Order 04-08, dated April 27, 2004. "
+  },
+  {
+   "id": "p23-s7",
+   "page": 23,
+   "start": 822,
+   "end": 1038,
+   "chars": 216,
+   "text": "If the contractor is not familiar\nwith these ethical requirements, the Contractor should refer any questions to the Indiana State Ethics\nCommission, or visit the Inspector General’s website at http://www.in.gov/ig/. "
+  },
+  {
+   "id": "p23-s8",
+   "page": 23,
+   "start": 1038,
+   "end": 1219,
+   "chars": 181,
+   "text": "If the Contractor or its\nagents violate any applicable ethical standards, the System may, in its sole discretion, terminate this\nContract immediately upon notice to the Contractor. "
+  },
+  {
+   "id": "p23-s9",
+   "page": 23,
+   "start": 1219,
+   "end": 1351,
+   "chars": 132,
+   "text": "In addition, the Contractor may be subject to penalties\nunder IC § §4-2-6, 4-2-7, 35-44.1-1-4, and under any other applicable laws.\n"
+  },
+  {
+   "id": "p23-s10",
+   "page": 23,
+   "start": 1351,
+   "end": 1354,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p23-s11",
+   "page": 23,
+   "start": 1354,
+   "end": 1596,
+   "chars": 242,
+   "text": "The Contractor certifies by entering into this Contract that neither it nor its principal(s) is presently in\narrears in payment of its taxes, permit fees or other statutory, regulatory or judicially required payments to\nthe State of Indiana. "
+  },
+  {
+   "id": "p23-s12",
+   "page": 23,
+   "start": 1596,
+   "end": 1727,
+   "chars": 131,
+   "text": "The Contractor agrees that any payments currently due to the State of Indiana may be\nwithheld from payments due to the Contractor. "
+  },
+  {
+   "id": "p23-s13",
+   "page": 23,
+   "start": 1727,
+   "end": 1936,
+   "chars": 209,
+   "text": "Additionally, further work or payments may be withheld,\ndelayed, or denied and/or this Contract suspended until the Contractor is current in its payments and has\nsubmitted proof of such payment to the System.\n"
+  },
+  {
+   "id": "p23-s14",
+   "page": 23,
+   "start": 1936,
+   "end": 1939,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p23-s15",
+   "page": 23,
+   "start": 1939,
+   "end": 2160,
+   "chars": 221,
+   "text": "The Contractor warrants that it has no current, pending or outstanding criminal, civil, or enforcement\nactions initiated by the State of Indiana, and agrees that it will immediately notify the System of any such\nactions. "
+  },
+  {
+   "id": "p23-s16",
+   "page": 23,
+   "start": 2160,
+   "end": 2373,
+   "chars": 213,
+   "text": "During the term of such actions, the Contractor agrees that the System may delay, withhold, or\ndeny work under any supplement, amendment, change order or other contractual device issued pursuant to\nthis Contract.\n"
+  },
+  {
+   "id": "p23-s17",
+   "page": 23,
+   "start": 2373,
+   "end": 2376,
+   "chars": 3,
+   "text": "E. "
+  },
+  {
+   "id": "p23-s18",
+   "page": 23,
+   "start": 2376,
+   "end": 2675,
+   "chars": 299,
+   "text": "If a valid dispute exists as to the Contractor’s liability or guilt in any action initiated by the State of\nIndiana or its agencies, and the System decides to delay, withhold, or deny work to the Contractor, the\nContractor may request that it be allowed to continue, or receive work, without delay. "
+  },
+  {
+   "id": "p23-s19",
+   "page": 23,
+   "start": 2675,
+   "end": 2839,
+   "chars": 164,
+   "text": "Any payments that\nthe System may delay, withhold, deny, or apply under this section shall not be subject to penalty or interest,\nexcept as permitted by IC §5-17-5.\n"
+  },
+  {
+   "id": "p23-s20",
+   "page": 23,
+   "start": 2839,
+   "end": 2842,
+   "chars": 3,
+   "text": "F. "
+  },
+  {
+   "id": "p23-s21",
+   "page": 23,
+   "start": 2842,
+   "end": 3151,
+   "chars": 309,
+   "text": "The Contractor warrants that the Contractor and its subcontractors, if any, shall obtain and maintain all\nrequired permits, licenses, registrations and approvals, and shall comply with all health, safety, and\nenvironmental statutes, rules, or regulations in the performance of work activities for the System. "
+  },
+  {
+   "id": "p23-s22",
+   "page": 23,
+   "start": 3151,
+   "end": 3302,
+   "chars": 151,
+   "text": "Failure\nto do so may be deemed is a material breach of this Contract and grounds for immediate termination and\ndenial of further work with the System.\n"
+  },
+  {
+   "id": "p23-s23",
+   "page": 23,
+   "start": 3302,
+   "end": 3305,
+   "chars": 3,
+   "text": "G. "
+  },
+  {
+   "id": "p23-s24",
+   "page": 23,
+   "start": 3305,
+   "end": 3479,
+   "chars": 174,
+   "text": "The Contractor hereby affirms that, if it is an entity described in IC Title 23, it is properly registered\nand owes no outstanding reports to the Indiana Secretary of State.\n"
+  },
+  {
+   "id": "p23-s25",
+   "page": 23,
+   "start": 3479,
+   "end": 3482,
+   "chars": 3,
+   "text": "H. "
+  },
+  {
+   "id": "p23-s26",
+   "page": 23,
+   "start": 3482,
+   "end": 3738,
+   "chars": 256,
+   "text": "As required by IC §5-22-3-7:\n(1) The Contractor and any principals of the Contractor certify that:\n(A) the Contractor, except for de minimis and nonsystematic violations, has not violated the\nterms of:\n(i) IC §24-4.7 [Telephone Solicitation Of Consumers];\n"
+  },
+  {
+   "id": "p23-s27",
+   "page": 23,
+   "start": 3738,
+   "end": 3744,
+   "chars": 6,
+   "text": "- 23 -"
+  },
+  {
+   "id": "p24-s0",
+   "page": 24,
+   "start": 0,
+   "end": 44,
+   "chars": 44,
+   "text": "(ii) IC §24-5-12 [Telephone Solicitations]; "
+  },
+  {
+   "id": "p24-s1",
+   "page": 24,
+   "start": 44,
+   "end": 109,
+   "chars": 65,
+   "text": "or\n(iii) IC §24-5-14 [Regulation of Automatic Dialing Machines];\n"
+  },
+  {
+   "id": "p24-s2",
+   "page": 24,
+   "start": 109,
+   "end": 210,
+   "chars": 101,
+   "text": "in the previous three hundred sixty-five (365) days, even if IC §24-4.7 is preempted by\nfederal law; "
+  },
+  {
+   "id": "p24-s3",
+   "page": 24,
+   "start": 210,
+   "end": 356,
+   "chars": 146,
+   "text": "and\n(B) the Contractor will not violate the terms of IC §24-4.7 for the duration of the Contract,\neven if IC §24-4.7 is preempted by federal law.\n"
+  },
+  {
+   "id": "p24-s4",
+   "page": 24,
+   "start": 356,
+   "end": 631,
+   "chars": 275,
+   "text": "(2) The Contractor and any principals of the Contractor certify that an affiliate or principal of the\nContractor and any agent acting on behalf of the Contractor or on behalf of an affiliate or\nprincipal of the Contractor, except for de minimis and nonsystematic violations,\n"
+  },
+  {
+   "id": "p24-s5",
+   "page": 24,
+   "start": 631,
+   "end": 777,
+   "chars": 146,
+   "text": "(A) has not violated the terms of IC §24-4.7 in the previous three hundred sixty-five (365)\ndays, even if IC §24-4.7 is preempted by federal law; "
+  },
+  {
+   "id": "p24-s6",
+   "page": 24,
+   "start": 777,
+   "end": 907,
+   "chars": 130,
+   "text": "and\n(B) will not violate the terms of IC §24-4.7 for the duration of the Contract, even if IC §244.7 is preempted by federal law.\n"
+  },
+  {
+   "id": "p24-s7",
+   "page": 24,
+   "start": 908,
+   "end": 912,
+   "chars": 4,
+   "text": "12. "
+  },
+  {
+   "id": "p24-s8",
+   "page": 24,
+   "start": 912,
+   "end": 934,
+   "chars": 22,
+   "text": "Condition of Payment. "
+  },
+  {
+   "id": "p24-s9",
+   "page": 24,
+   "start": 934,
+   "end": 1228,
+   "chars": 294,
+   "text": "All services provided by the Contractor under this Contract must be performed\nto the System’s reasonable satisfaction, as determined at the discretion of the undersigned System\nrepresentative and in accordance with all applicable federal, state, local laws, ordinances, rules, and\nregulations. "
+  },
+  {
+   "id": "p24-s10",
+   "page": 24,
+   "start": 1228,
+   "end": 1435,
+   "chars": 207,
+   "text": "The System shall not be required to pay for work found to be unsatisfactory, inconsistent with\nthis Contract or performed in violation of and federal, state, or local statute, ordinance, rule or regulation.\n"
+  },
+  {
+   "id": "p24-s11",
+   "page": 24,
+   "start": 1435,
+   "end": 1439,
+   "chars": 4,
+   "text": "13. "
+  },
+  {
+   "id": "p24-s12",
+   "page": 24,
+   "start": 1439,
+   "end": 1478,
+   "chars": 39,
+   "text": "Confidentiality of System Information. "
+  },
+  {
+   "id": "p24-s13",
+   "page": 24,
+   "start": 1478,
+   "end": 1708,
+   "chars": 230,
+   "text": "The Contractor understands and agrees that any data,\nmaterials and information disclosed to the Contractor, by or on behalf of the System or any of its\nmembers, participants, employees, customers or third party service providers, "
+  },
+  {
+   "id": "p24-s14",
+   "page": 24,
+   "start": 1708,
+   "end": 1813,
+   "chars": 105,
+   "text": "may contain confidential\nand protected information under Indiana law and as described in 35 IAC 1.2-1-5; "
+  },
+  {
+   "id": "p24-s15",
+   "page": 24,
+   "start": 1813,
+   "end": 2105,
+   "chars": 292,
+   "text": "therefore, the Contractor\npromises and assures that data, materials, and information gathered, based upon, or disclosed to the\nContractor for the purpose of this Contract, will be treated as confidential and will not be disclosed to or\ndiscussed with other parties, including subcontractors, "
+  },
+  {
+   "id": "p24-s16",
+   "page": 24,
+   "start": 2105,
+   "end": 2154,
+   "chars": 49,
+   "text": "without the prior written consent of the System.\n"
+  },
+  {
+   "id": "p24-s17",
+   "page": 24,
+   "start": 2154,
+   "end": 2425,
+   "chars": 271,
+   "text": "The Contractor also acknowledges that pursuant to IC §5-10.5-6-4 member records, except for names and\nyears of service, are confidential and will not be disclosed, published, or used in any manner outside of\nthis agreement without express consent of INPRS or the member.\n"
+  },
+  {
+   "id": "p24-s18",
+   "page": 24,
+   "start": 2425,
+   "end": 2719,
+   "chars": 294,
+   "text": "The parties acknowledge that the services to be performed by Contractor for System under this Contract\nmay require or allow access to data, materials, and information containing Social Security numbers or\nother personal information maintained by System in its computer system or other records. "
+  },
+  {
+   "id": "p24-s19",
+   "page": 24,
+   "start": 2719,
+   "end": 2833,
+   "chars": 114,
+   "text": "The Contractor\nacknowledges and agrees to comply with any applicable requirements set forth in IC §24-4.9 et seq. "
+  },
+  {
+   "id": "p24-s20",
+   "page": 24,
+   "start": 2833,
+   "end": 2910,
+   "chars": 77,
+   "text": "in the\nevent of a breach of personal information or Social Security numbers. "
+  },
+  {
+   "id": "p24-s21",
+   "page": 24,
+   "start": 2910,
+   "end": 3090,
+   "chars": 180,
+   "text": "In addition to the covenant made\nabove in this section and pursuant to 10 IAC 5-3-1(4), the Contractor and System agree to comply with\nthe provisions of IC §4-1-10 and IC §4-1-11. "
+  },
+  {
+   "id": "p24-s22",
+   "page": 24,
+   "start": 3090,
+   "end": 3375,
+   "chars": 285,
+   "text": "If any Social Security number(s) or personal information (as\ndefined in IC §4-1-11-3) is/are disclosed by the Contractor as a result of the Contractor’s error, the\nContractor agrees to pay all commercially reasonable costs associated with the disclosure including, but\nnot limited to, "
+  },
+  {
+   "id": "p24-s23",
+   "page": 24,
+   "start": 3375,
+   "end": 3580,
+   "chars": 205,
+   "text": "any costs associated with distributing a notice of disclosure of a breach of the security of\nthe system in addition to any other claims and expenses for which it is liable under the terms of the\nContract.\n"
+  },
+  {
+   "id": "p24-s24",
+   "page": 24,
+   "start": 3581,
+   "end": 3587,
+   "chars": 6,
+   "text": "- 24 -"
+  },
+  {
+   "id": "p25-s0",
+   "page": 25,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "14. "
+  },
+  {
+   "id": "p25-s1",
+   "page": 25,
+   "start": 4,
+   "end": 28,
+   "chars": 24,
+   "text": "Continuity of Services.\n"
+  },
+  {
+   "id": "p25-s2",
+   "page": 25,
+   "start": 28,
+   "end": 31,
+   "chars": 3,
+   "text": "A. "
+  },
+  {
+   "id": "p25-s3",
+   "page": 25,
+   "start": 31,
+   "end": 289,
+   "chars": 258,
+   "text": "The Contractor recognizes that the service(s) to be performed under this Contract are vital to the\nSystem and must be continued without interruption and that, upon Contract expiration, a successor, either\nthe System or another contractor, may continue them. "
+  },
+  {
+   "id": "p25-s4",
+   "page": 25,
+   "start": 289,
+   "end": 318,
+   "chars": 29,
+   "text": "The Contractor agrees to:\n1. "
+  },
+  {
+   "id": "p25-s5",
+   "page": 25,
+   "start": 318,
+   "end": 345,
+   "chars": 27,
+   "text": "Furnish phase-in training; "
+  },
+  {
+   "id": "p25-s6",
+   "page": 25,
+   "start": 345,
+   "end": 352,
+   "chars": 7,
+   "text": "and\n2. "
+  },
+  {
+   "id": "p25-s7",
+   "page": 25,
+   "start": 352,
+   "end": 456,
+   "chars": 104,
+   "text": "Exercise its best efforts and cooperation to effect an orderly and efficient transition to a\nsuccessor.\n"
+  },
+  {
+   "id": "p25-s8",
+   "page": 25,
+   "start": 456,
+   "end": 459,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p25-s9",
+   "page": 25,
+   "start": 459,
+   "end": 518,
+   "chars": 59,
+   "text": "The Contractor shall, upon the System’s written notice:\n1. "
+  },
+  {
+   "id": "p25-s10",
+   "page": 25,
+   "start": 518,
+   "end": 610,
+   "chars": 92,
+   "text": "Furnish phase-in, phase-out services for up to sixty (60) days after this Contract expires; "
+  },
+  {
+   "id": "p25-s11",
+   "page": 25,
+   "start": 610,
+   "end": 617,
+   "chars": 7,
+   "text": "and\n2. "
+  },
+  {
+   "id": "p25-s12",
+   "page": 25,
+   "start": 617,
+   "end": 742,
+   "chars": 125,
+   "text": "Negotiate in good faith a plan with a successor to determine the nature and extent of phase-in,\nphase-out services required. "
+  },
+  {
+   "id": "p25-s13",
+   "page": 25,
+   "start": 742,
+   "end": 925,
+   "chars": 183,
+   "text": "The plan shall specify a training program and a date for transferring\nresponsibilities for each division of work described in the plan, and shall be subject to the System’s\napproval. "
+  },
+  {
+   "id": "p25-s14",
+   "page": 25,
+   "start": 925,
+   "end": 1134,
+   "chars": 209,
+   "text": "The Contractor shall provide sufficient experienced personnel during the phase-in, phase-out\nperiod to ensure that the services called for by this Contract are maintained at the required level of\nproficiency.\n"
+  },
+  {
+   "id": "p25-s15",
+   "page": 25,
+   "start": 1134,
+   "end": 1137,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p25-s16",
+   "page": 25,
+   "start": 1137,
+   "end": 1323,
+   "chars": 186,
+   "text": "The Contractor shall allow as many personnel as practicable to remain on the job to help the successor\nmaintain the continuity and consistency of the services required by this Contract. "
+  },
+  {
+   "id": "p25-s17",
+   "page": 25,
+   "start": 1323,
+   "end": 1462,
+   "chars": 139,
+   "text": "The Contractor also\nshall disclose necessary personnel records and allow the successor to conduct on-site interviews with\nthese employees. "
+  },
+  {
+   "id": "p25-s18",
+   "page": 25,
+   "start": 1462,
+   "end": 1649,
+   "chars": 187,
+   "text": "If selected employees are agreeable to the change, the Contractor shall release them at a\nmutually agreeable date and negotiate transfer of their earned fringe benefits to the successor.\n"
+  },
+  {
+   "id": "p25-s19",
+   "page": 25,
+   "start": 1649,
+   "end": 1652,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p25-s20",
+   "page": 25,
+   "start": 1652,
+   "end": 1855,
+   "chars": 203,
+   "text": "The Contractor shall be reimbursed for all reasonable phase-in, phase-out costs (i.e., costs incurred\nwithin the agreed period after contract expiration that result from phase-in, phase-out operations).\n"
+  },
+  {
+   "id": "p25-s21",
+   "page": 25,
+   "start": 1855,
+   "end": 1859,
+   "chars": 4,
+   "text": "15. "
+  },
+  {
+   "id": "p25-s22",
+   "page": 25,
+   "start": 1859,
+   "end": 1887,
+   "chars": 28,
+   "text": "Debarment and Suspension\nA. "
+  },
+  {
+   "id": "p25-s23",
+   "page": 25,
+   "start": 1887,
+   "end": 2189,
+   "chars": 302,
+   "text": "The Contractor certifies by entering into this Contract that neither it nor its principals nor any of its\nsubcontractors are presently debarred, suspended, proposed for debarment, declared ineligible, or\nvoluntarily excluded from entering into this Contract by any federal agency or by any department, "
+  },
+  {
+   "id": "p25-s24",
+   "page": 25,
+   "start": 2189,
+   "end": 2246,
+   "chars": 57,
+   "text": "agency\nor political subdivision of the State of Indiana. "
+  },
+  {
+   "id": "p25-s25",
+   "page": 25,
+   "start": 2246,
+   "end": 2533,
+   "chars": 287,
+   "text": "The term “principal” for purposes of this Contract means\nan officer, director, owner, partner, key employee or other person with primary management or\nsupervisory responsibilities, or a person who has a critical influence on or substantive control over the\noperations of the Contractor.\n"
+  },
+  {
+   "id": "p25-s26",
+   "page": 25,
+   "start": 2533,
+   "end": 2536,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p25-s27",
+   "page": 25,
+   "start": 2536,
+   "end": 2844,
+   "chars": 308,
+   "text": "The Contractor certifies that it has verified the state and federal suspension and debarment status for\nall subcontractors receiving funds under this Contract and shall be solely is solely responsible for any\nrecoupment, penalties or costs that might arise from use of a suspended or debarred subcontractor. "
+  },
+  {
+   "id": "p25-s28",
+   "page": 25,
+   "start": 2844,
+   "end": 3132,
+   "chars": 288,
+   "text": "The\nContractor shall immediately notify the System if any subcontractor becomes debarred or suspended, and\nshall, at the System’s request, take all steps required by the System to terminate its contractual\nrelationship with the subcontractor for work to be performed under this Contract.\n"
+  },
+  {
+   "id": "p25-s29",
+   "page": 25,
+   "start": 3132,
+   "end": 3136,
+   "chars": 4,
+   "text": "16. "
+  },
+  {
+   "id": "p25-s30",
+   "page": 25,
+   "start": 3136,
+   "end": 3155,
+   "chars": 19,
+   "text": "Default by System. "
+  },
+  {
+   "id": "p25-s31",
+   "page": 25,
+   "start": 3155,
+   "end": 3451,
+   "chars": 296,
+   "text": "If the System, sixty (60) days after receipt of written notice, fails to correct or\ncure any material breach of this Contract, then the Contractor may cancel and terminate this Contract and\ninstitute the appropriate measures to collect all monies due up to and including the date of termination.\n"
+  },
+  {
+   "id": "p25-s32",
+   "page": 25,
+   "start": 3452,
+   "end": 3458,
+   "chars": 6,
+   "text": "- 25 -"
+  },
+  {
+   "id": "p26-s0",
+   "page": 26,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "17. "
+  },
+  {
+   "id": "p26-s1",
+   "page": 26,
+   "start": 4,
+   "end": 14,
+   "chars": 10,
+   "text": "Disputes.\n"
+  },
+  {
+   "id": "p26-s2",
+   "page": 26,
+   "start": 14,
+   "end": 17,
+   "chars": 3,
+   "text": "A. "
+  },
+  {
+   "id": "p26-s3",
+   "page": 26,
+   "start": 17,
+   "end": 155,
+   "chars": 138,
+   "text": "Should any disputes arise with respect to this Contract, the Contractor and the System agree to act\nimmediately to resolve such disputes. "
+  },
+  {
+   "id": "p26-s4",
+   "page": 26,
+   "start": 155,
+   "end": 209,
+   "chars": 54,
+   "text": "Time is of the essence in the resolution of disputes.\n"
+  },
+  {
+   "id": "p26-s5",
+   "page": 26,
+   "start": 209,
+   "end": 212,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p26-s6",
+   "page": 26,
+   "start": 212,
+   "end": 411,
+   "chars": 199,
+   "text": "The Contractor agrees that, the existence of a dispute notwithstanding, it will continue without delay to\ncarry out all its responsibilities under this Contract that are not affected by the dispute. "
+  },
+  {
+   "id": "p26-s7",
+   "page": 26,
+   "start": 411,
+   "end": 665,
+   "chars": 254,
+   "text": "Should the\nContractor fail to continue to perform its responsibilities regarding all non-disputed work, without delay,\nany additional costs incurred by the System or the Contractor as a result of such failure to proceed shall be\nborne by the Contractor, "
+  },
+  {
+   "id": "p26-s8",
+   "page": 26,
+   "start": 665,
+   "end": 739,
+   "chars": 74,
+   "text": "and the Contractor shall make no claim against the System for such costs.\n"
+  },
+  {
+   "id": "p26-s9",
+   "page": 26,
+   "start": 739,
+   "end": 742,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p26-s10",
+   "page": 26,
+   "start": 742,
+   "end": 828,
+   "chars": 86,
+   "text": "The System may withhold payments on disputed items pending resolution of the dispute. "
+  },
+  {
+   "id": "p26-s11",
+   "page": 26,
+   "start": 828,
+   "end": 1035,
+   "chars": 207,
+   "text": "The\nunintentional nonpayment by the System to the Contractor of one or more invoices not in dispute in\naccordance with the terms of this Contract will not be cause for Contractor to terminate this Contract, "
+  },
+  {
+   "id": "p26-s12",
+   "page": 26,
+   "start": 1035,
+   "end": 1153,
+   "chars": 118,
+   "text": "and\nthe Contractor may bring suit to collect these amounts without following the disputes procedure contained\nherein.\n"
+  },
+  {
+   "id": "p26-s13",
+   "page": 26,
+   "start": 1153,
+   "end": 1157,
+   "chars": 4,
+   "text": "18. "
+  },
+  {
+   "id": "p26-s14",
+   "page": 26,
+   "start": 1157,
+   "end": 1192,
+   "chars": 35,
+   "text": "Drug-Free Workplace Certification. "
+  },
+  {
+   "id": "p26-s15",
+   "page": 26,
+   "start": 1192,
+   "end": 1402,
+   "chars": 210,
+   "text": "As required by Executive Order No. 90-5, April 12, 1990,\nissued by the Governor of Indiana, the Contractor hereby covenants and agrees to make a good faith effort\nto provide and maintain a drug-free workplace. "
+  },
+  {
+   "id": "p26-s16",
+   "page": 26,
+   "start": 1402,
+   "end": 1662,
+   "chars": 260,
+   "text": "The Contractor will give written notice to the System within\nten (10) days after receiving actual notice that the Contractor, or an employee of the Contractor in the State\nof Indiana, has been convicted of a criminal drug violation occurring in the workplace. "
+  },
+  {
+   "id": "p26-s17",
+   "page": 26,
+   "start": 1662,
+   "end": 1923,
+   "chars": 261,
+   "text": "False certification\nor violation of this certification may result in sanctions including, but not limited to, suspension of contract\npayments, termination of this Contract and/or debarment of contracting opportunities with the System for\nup to three (3) years.\n"
+  },
+  {
+   "id": "p26-s18",
+   "page": 26,
+   "start": 1923,
+   "end": 2138,
+   "chars": 215,
+   "text": "In addition to the provisions of the above paragraph, if the total amount set forth in this Contract is in excess\nof $25,000.00, the Contractor certifies and agrees that it will provide a drug-free workplace by:\nA. "
+  },
+  {
+   "id": "p26-s19",
+   "page": 26,
+   "start": 2138,
+   "end": 2360,
+   "chars": 222,
+   "text": "Publishing and providing to all of its employees a statement notifying them that the unlawful\nmanufacture, distribution, dispensing, possession or use of a controlled substance is prohibited in the\nContractor’s workplace, "
+  },
+  {
+   "id": "p26-s20",
+   "page": 26,
+   "start": 2360,
+   "end": 2460,
+   "chars": 100,
+   "text": "and specifying the actions that will be taken against employees for violations of\nsuch prohibition;\n"
+  },
+  {
+   "id": "p26-s21",
+   "page": 26,
+   "start": 2460,
+   "end": 2463,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p26-s22",
+   "page": 26,
+   "start": 2463,
+   "end": 2581,
+   "chars": 118,
+   "text": "Establishing a drug-free awareness program to inform its employees of (1) the dangers of drug abuse\nin the workplace; "
+  },
+  {
+   "id": "p26-s23",
+   "page": 26,
+   "start": 2581,
+   "end": 2647,
+   "chars": 66,
+   "text": "(2) the Contractor’s policy of maintaining a drug-free workplace; "
+  },
+  {
+   "id": "p26-s24",
+   "page": 26,
+   "start": 2647,
+   "end": 2732,
+   "chars": 85,
+   "text": "(3) any available drug\ncounseling, rehabilitation, and employee assistance programs; "
+  },
+  {
+   "id": "p26-s25",
+   "page": 26,
+   "start": 2732,
+   "end": 2845,
+   "chars": 113,
+   "text": "and (4) the penalties that may be imposed\nupon an employee for drug abuse violations occurring in the workplace;\n"
+  },
+  {
+   "id": "p26-s26",
+   "page": 26,
+   "start": 2845,
+   "end": 2848,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p26-s27",
+   "page": 26,
+   "start": 2848,
+   "end": 3028,
+   "chars": 180,
+   "text": "Notifying all employees in the statement required by subparagraph (A) above that as a condition of\ncontinued employment, the employee will (1) abide by the terms of the statement; "
+  },
+  {
+   "id": "p26-s28",
+   "page": 26,
+   "start": 3028,
+   "end": 3192,
+   "chars": 164,
+   "text": "and (2) notify the\nContractor of any criminal drug statute conviction for a violation occurring in the workplace no later than\nfive (5) days after such conviction;\n"
+  },
+  {
+   "id": "p26-s29",
+   "page": 26,
+   "start": 3192,
+   "end": 3195,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p26-s30",
+   "page": 26,
+   "start": 3195,
+   "end": 3377,
+   "chars": 182,
+   "text": "Notifying in writing the System within ten (10) days after receiving notice from an employee under\nsubdivision (C)(2) above, or otherwise receiving actual notice of such conviction;\n"
+  },
+  {
+   "id": "p26-s31",
+   "page": 26,
+   "start": 3377,
+   "end": 3380,
+   "chars": 3,
+   "text": "E. "
+  },
+  {
+   "id": "p26-s32",
+   "page": 26,
+   "start": 3380,
+   "end": 3677,
+   "chars": 297,
+   "text": "Within thirty (30) days after receiving notice under subdivision (C)(2) above of a conviction, imposing\nthe following sanctions or remedial measures on any employee who is convicted of drug abuse violations\noccurring in the workplace: (1) taking appropriate personnel action against the employee, "
+  },
+  {
+   "id": "p26-s33",
+   "page": 26,
+   "start": 3677,
+   "end": 3710,
+   "chars": 33,
+   "text": "up to and\nincluding termination; "
+  },
+  {
+   "id": "p26-s34",
+   "page": 26,
+   "start": 3710,
+   "end": 3804,
+   "chars": 94,
+   "text": "or (2) requiring such employee to satisfactorily participate in a drug abuse assistance\n- 26 -"
+  },
+  {
+   "id": "p27-s0",
+   "page": 27,
+   "start": 0,
+   "end": 136,
+   "chars": 136,
+   "text": "or rehabilitation program approved for such purposes by a federal, state or local health, law enforcement,\nor other appropriate agency; "
+  },
+  {
+   "id": "p27-s1",
+   "page": 27,
+   "start": 136,
+   "end": 143,
+   "chars": 7,
+   "text": "and\nF. "
+  },
+  {
+   "id": "p27-s2",
+   "page": 27,
+   "start": 143,
+   "end": 271,
+   "chars": 128,
+   "text": "Making a good faith effort to maintain a drug-free workplace through the implementation of\nsubparagraphs (A) through (E) above.\n"
+  },
+  {
+   "id": "p27-s3",
+   "page": 27,
+   "start": 271,
+   "end": 275,
+   "chars": 4,
+   "text": "19. "
+  },
+  {
+   "id": "p27-s4",
+   "page": 27,
+   "start": 275,
+   "end": 312,
+   "chars": 37,
+   "text": "Employment Eligibility Verification. "
+  },
+  {
+   "id": "p27-s5",
+   "page": 27,
+   "start": 312,
+   "end": 414,
+   "chars": 102,
+   "text": "As required by IC §22-5-1.7, the Contractor swears or affirms\nunder the penalties of perjury that:\nA. "
+  },
+  {
+   "id": "p27-s6",
+   "page": 27,
+   "start": 414,
+   "end": 478,
+   "chars": 64,
+   "text": "The Contractor does not knowingly employ an unauthorized alien.\n"
+  },
+  {
+   "id": "p27-s7",
+   "page": 27,
+   "start": 478,
+   "end": 481,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p27-s8",
+   "page": 27,
+   "start": 481,
+   "end": 651,
+   "chars": 170,
+   "text": "The Contractor shall enroll in and verify the work eligibility status of all his/her/its newly hired\nemployees through the E-Verify program as defined in IC §22-5-1.7-3. "
+  },
+  {
+   "id": "p27-s9",
+   "page": 27,
+   "start": 651,
+   "end": 741,
+   "chars": 90,
+   "text": "The Contractor is not required to\nparticipate should the E-Verify program cease to exist. "
+  },
+  {
+   "id": "p27-s10",
+   "page": 27,
+   "start": 741,
+   "end": 871,
+   "chars": 130,
+   "text": "Additionally, the Contractor is not required to\nparticipate if the Contractor is self-employed and does not employ any employees.\n"
+  },
+  {
+   "id": "p27-s11",
+   "page": 27,
+   "start": 871,
+   "end": 874,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p27-s12",
+   "page": 27,
+   "start": 874,
+   "end": 956,
+   "chars": 82,
+   "text": "The Contractor shall not knowingly employ or contract with an unauthorized alien. "
+  },
+  {
+   "id": "p27-s13",
+   "page": 27,
+   "start": 956,
+   "end": 1092,
+   "chars": 136,
+   "text": "The Contractor shall\nnot retain an employee or contract with a person that the Contractor subsequently learns is an unauthorized\nalien.\n"
+  },
+  {
+   "id": "p27-s14",
+   "page": 27,
+   "start": 1092,
+   "end": 1095,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p27-s15",
+   "page": 27,
+   "start": 1095,
+   "end": 1393,
+   "chars": 298,
+   "text": "The Contractor shall require his/her/its subcontractors, who perform work under this Contract, to certify\nto the Contractor that the subcontractor does not knowingly employ or contract with an unauthorized alien\nand that the subcontractor has enrolled and is participating in the E-Verify program. "
+  },
+  {
+   "id": "p27-s16",
+   "page": 27,
+   "start": 1393,
+   "end": 1518,
+   "chars": 125,
+   "text": "The Contractor agrees\nto maintain this certification throughout the duration of the term of a contract with a subcontractor.\n"
+  },
+  {
+   "id": "p27-s17",
+   "page": 27,
+   "start": 1518,
+   "end": 1681,
+   "chars": 163,
+   "text": "The System may terminate for default if the Contractor fails to cure a breach of this provision no later than\nthirty (30) days after being notified by the System.\n"
+  },
+  {
+   "id": "p27-s18",
+   "page": 27,
+   "start": 1681,
+   "end": 1685,
+   "chars": 4,
+   "text": "20. "
+  },
+  {
+   "id": "p27-s19",
+   "page": 27,
+   "start": 1685,
+   "end": 1704,
+   "chars": 19,
+   "text": "Employment Option. "
+  },
+  {
+   "id": "p27-s20",
+   "page": 27,
+   "start": 1704,
+   "end": 1924,
+   "chars": 220,
+   "text": "If the System determines that it would be in the System’s best interest to hire\nan employee of the Contractor, the Contractor will release the selected employee from any non-competition\nagreements that may be in effect. "
+  },
+  {
+   "id": "p27-s21",
+   "page": 27,
+   "start": 1924,
+   "end": 1987,
+   "chars": 63,
+   "text": "This release will be at no cost to the System or the employee.\n"
+  },
+  {
+   "id": "p27-s22",
+   "page": 27,
+   "start": 1987,
+   "end": 1991,
+   "chars": 4,
+   "text": "21. "
+  },
+  {
+   "id": "p27-s23",
+   "page": 27,
+   "start": 1991,
+   "end": 2006,
+   "chars": 15,
+   "text": "Force Majeure. "
+  },
+  {
+   "id": "p27-s24",
+   "page": 27,
+   "start": 2006,
+   "end": 2285,
+   "chars": 279,
+   "text": "In the event that either party is unable to perform any of its obligations under this\nContract or to enjoy any of its benefits because of natural disaster or decrees of governmental bodies not\nthe fault of the affected party (hereinafter referred to as a “Force Majeure Event”), "
+  },
+  {
+   "id": "p27-s25",
+   "page": 27,
+   "start": 2285,
+   "end": 2425,
+   "chars": 140,
+   "text": "the party who has been\nso affected shall immediately give notice to the other party and shall do everything possible to resume\nperformance. "
+  },
+  {
+   "id": "p27-s26",
+   "page": 27,
+   "start": 2425,
+   "end": 2522,
+   "chars": 97,
+   "text": "Upon receipt of such notice, all obligations under this contract shall be immediately\nsuspended. "
+  },
+  {
+   "id": "p27-s27",
+   "page": 27,
+   "start": 2522,
+   "end": 2750,
+   "chars": 228,
+   "text": "If the period of nonperformance exceeds thirty (30) days from the receipt of notice of the Force\nMajeure Event, the party whose ability to perform has not been so affected may, by giving written notice,\nterminate this Contract.\n"
+  },
+  {
+   "id": "p27-s28",
+   "page": 27,
+   "start": 2750,
+   "end": 2754,
+   "chars": 4,
+   "text": "22. "
+  },
+  {
+   "id": "p27-s29",
+   "page": 27,
+   "start": 2754,
+   "end": 2776,
+   "chars": 22,
+   "text": "Funding Cancellation. "
+  },
+  {
+   "id": "p27-s30",
+   "page": 27,
+   "start": 2776,
+   "end": 2966,
+   "chars": 190,
+   "text": "When the System’s Board of Trustees makes a written determination that funds\nare not appropriated or otherwise available to support continuation of performance of this Contract, this\n\n- 27 -"
+  },
+  {
+   "id": "p28-s0",
+   "page": 28,
+   "start": 0,
+   "end": 28,
+   "chars": 28,
+   "text": "Contract shall be canceled. "
+  },
+  {
+   "id": "p28-s1",
+   "page": 28,
+   "start": 28,
+   "end": 203,
+   "chars": 175,
+   "text": "A determination by the System’s Board of Trustees that funds are not\nappropriated or otherwise available to support continuation of performance shall be final and conclusive.\n"
+  },
+  {
+   "id": "p28-s2",
+   "page": 28,
+   "start": 203,
+   "end": 207,
+   "chars": 4,
+   "text": "23. "
+  },
+  {
+   "id": "p28-s3",
+   "page": 28,
+   "start": 207,
+   "end": 222,
+   "chars": 15,
+   "text": "Governing Law. "
+  },
+  {
+   "id": "p28-s4",
+   "page": 28,
+   "start": 222,
+   "end": 378,
+   "chars": 156,
+   "text": "This Contract shall be governed, construed, and enforced in accordance with the laws\nof the State of Indiana, without regard to its conflict of laws rules. "
+  },
+  {
+   "id": "p28-s5",
+   "page": 28,
+   "start": 378,
+   "end": 433,
+   "chars": 55,
+   "text": "Suit, if any, must be brought in the State\nof Indiana.\n"
+  },
+  {
+   "id": "p28-s6",
+   "page": 28,
+   "start": 433,
+   "end": 437,
+   "chars": 4,
+   "text": "24. "
+  },
+  {
+   "id": "p28-s7",
+   "page": 28,
+   "start": 437,
+   "end": 455,
+   "chars": 18,
+   "text": "HIPAA Compliance. "
+  },
+  {
+   "id": "p28-s8",
+   "page": 28,
+   "start": 455,
+   "end": 775,
+   "chars": 320,
+   "text": "If this Contract involves services, activities or products subject to the Health\nInsurance Portability and Accountability Act of 1996 (HIPAA), the Contractor covenants that it will\nappropriately safeguard Protected Health Information (defined in 45 CFR 160.103), and agrees that it is\nsubject to, and shall comply with, "
+  },
+  {
+   "id": "p28-s9",
+   "page": 28,
+   "start": 775,
+   "end": 876,
+   "chars": 101,
+   "text": "the provisions of 45 CFR 164 Subpart E regarding use and disclosure of\nProtected Health Information.\n"
+  },
+  {
+   "id": "p28-s10",
+   "page": 28,
+   "start": 876,
+   "end": 880,
+   "chars": 4,
+   "text": "25. "
+  },
+  {
+   "id": "p28-s11",
+   "page": 28,
+   "start": 880,
+   "end": 897,
+   "chars": 17,
+   "text": "Indemnification. "
+  },
+  {
+   "id": "p28-s12",
+   "page": 28,
+   "start": 897,
+   "end": 1212,
+   "chars": 315,
+   "text": "The Contractor agrees to indemnify, defend, and hold harmless the System, its\nagents, officers, and employees from all claims and suits including court costs, attorney’s fees, and other\nexpenses caused by any act or omission of the Contractor and/or its subcontractors, if any, in the\nperformance of this Contract. "
+  },
+  {
+   "id": "p28-s13",
+   "page": 28,
+   "start": 1212,
+   "end": 1281,
+   "chars": 69,
+   "text": "The System shall not provide such indemnification to the Contractor.\n"
+  },
+  {
+   "id": "p28-s14",
+   "page": 28,
+   "start": 1281,
+   "end": 1285,
+   "chars": 4,
+   "text": "26. "
+  },
+  {
+   "id": "p28-s15",
+   "page": 28,
+   "start": 1285,
+   "end": 1309,
+   "chars": 24,
+   "text": "Independent Contractor; "
+  },
+  {
+   "id": "p28-s16",
+   "page": 28,
+   "start": 1309,
+   "end": 1342,
+   "chars": 33,
+   "text": "Workers’ Compensation Insurance. "
+  },
+  {
+   "id": "p28-s17",
+   "page": 28,
+   "start": 1342,
+   "end": 1417,
+   "chars": 75,
+   "text": "The Contractor is performing as an\nindependent entity under this Contract. "
+  },
+  {
+   "id": "p28-s18",
+   "page": 28,
+   "start": 1417,
+   "end": 1573,
+   "chars": 156,
+   "text": "No part of this Contract shall be construed to represent the creation\nof an employment, agency, partnership or joint venture agreement between the parties. "
+  },
+  {
+   "id": "p28-s19",
+   "page": 28,
+   "start": 1573,
+   "end": 1785,
+   "chars": 212,
+   "text": "Neither party will\nassume liability for any injury (including death) to any persons, or damage to any property, arising out of\nthe acts or omissions of the agents, employees or subcontractors of the other party. "
+  },
+  {
+   "id": "p28-s20",
+   "page": 28,
+   "start": 1785,
+   "end": 2039,
+   "chars": 254,
+   "text": "The Contractor shall\nprovide all necessary unemployment and workers’ compensation insurance for the Contractor’s employees,\nand shall provide the System with a Certificate of Insurance evidencing such coverage prior to starting work\nunder this Contract.\n"
+  },
+  {
+   "id": "p28-s21",
+   "page": 28,
+   "start": 2039,
+   "end": 2043,
+   "chars": 4,
+   "text": "27. "
+  },
+  {
+   "id": "p28-s22",
+   "page": 28,
+   "start": 2043,
+   "end": 2104,
+   "chars": 61,
+   "text": "Information Technology Enterprise Architecture Requirements. "
+  },
+  {
+   "id": "p28-s23",
+   "page": 28,
+   "start": 2104,
+   "end": 2214,
+   "chars": 110,
+   "text": "Contractor shall comply with all\napplicable INPRS Information Technology standards, policies, and guidelines. "
+  },
+  {
+   "id": "p28-s24",
+   "page": 28,
+   "start": 2214,
+   "end": 2445,
+   "chars": 231,
+   "text": "INPRS may terminate this\ncontract for default for any deviation from those standards, as they exist as of the effective date of this\nAgreement, if the contractor fails to cure the breach of this provision within a reasonable time.\n"
+  },
+  {
+   "id": "p28-s25",
+   "page": 28,
+   "start": 2445,
+   "end": 2449,
+   "chars": 4,
+   "text": "28. "
+  },
+  {
+   "id": "p28-s26",
+   "page": 28,
+   "start": 2449,
+   "end": 2487,
+   "chars": 38,
+   "text": "Use or Transfer of Software Licenses. "
+  },
+  {
+   "id": "p28-s27",
+   "page": 28,
+   "start": 2487,
+   "end": 2597,
+   "chars": 110,
+   "text": "INPRS has the right to use the software licenses on\ndevelopment or test environments without additional cost. "
+  },
+  {
+   "id": "p28-s28",
+   "page": 28,
+   "start": 2597,
+   "end": 2774,
+   "chars": 177,
+   "text": "Regarding the transfer of any Contractor’s\nsoftware outside the use location, INPRS may execute the software in INPRS’s disaster recovery site\nwithout notifying the Contractor.\n"
+  },
+  {
+   "id": "p28-s29",
+   "page": 28,
+   "start": 2774,
+   "end": 2778,
+   "chars": 4,
+   "text": "29. "
+  },
+  {
+   "id": "p28-s30",
+   "page": 28,
+   "start": 2778,
+   "end": 2789,
+   "chars": 11,
+   "text": "Insurance. "
+  },
+  {
+   "id": "p28-s31",
+   "page": 28,
+   "start": 2789,
+   "end": 3065,
+   "chars": 276,
+   "text": "The Contractor shall secure and keep in force during the term of this Contract, the following\ninsurance coverage, covering the Contractor for any and all claims of any nature which may in any manner\narise out of or result from Contractor’s performance under this Contract:\nA. "
+  },
+  {
+   "id": "p28-s32",
+   "page": 28,
+   "start": 3065,
+   "end": 3341,
+   "chars": 276,
+   "text": "Commercial general liability, including contractual coverage, and products or completed operations\ncoverage (if applicable), with minimum liability limits of not less than $700,000 per person and $5,000,000\nper occurrence unless additional coverage is required by the System. "
+  },
+  {
+   "id": "p28-s33",
+   "page": 28,
+   "start": 3341,
+   "end": 3521,
+   "chars": 180,
+   "text": "The System is to be named as an\nadditional insured on a primary, non-contributory basis for any liability arising directly or indirectly under\nor in connection with this Contract.\n"
+  },
+  {
+   "id": "p28-s34",
+   "page": 28,
+   "start": 3521,
+   "end": 3524,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p28-s35",
+   "page": 28,
+   "start": 3524,
+   "end": 3629,
+   "chars": 105,
+   "text": "Automobile liability with minimum liability limits of $700,000 per person and $5,000,000 per\noccurrence. "
+  },
+  {
+   "id": "p28-s36",
+   "page": 28,
+   "start": 3629,
+   "end": 3718,
+   "chars": 89,
+   "text": "The System is to be named as an additional insured on a primary, non-contributory basis.\n"
+  },
+  {
+   "id": "p28-s37",
+   "page": 28,
+   "start": 3718,
+   "end": 3724,
+   "chars": 6,
+   "text": "- 28 -"
+  },
+  {
+   "id": "p29-s0",
+   "page": 29,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p29-s1",
+   "page": 29,
+   "start": 3,
+   "end": 283,
+   "chars": 280,
+   "text": "The Contractor shall provide proof of such insurance coverage by tendering to the undersigned System\nrepresentative a certificate of insurance prior to the commencement of this Contract and proof of workers’\ncompensation coverage meeting all statutory requirements of IC §22-3-2. "
+  },
+  {
+   "id": "p29-s2",
+   "page": 29,
+   "start": 283,
+   "end": 485,
+   "chars": 202,
+   "text": "In addition, proof of an “all states\nendorsement” covering claims occurring outside the State of Indiana is required if any of the services\nprovided under this Contract involve work outside of Indiana.\n"
+  },
+  {
+   "id": "p29-s3",
+   "page": 29,
+   "start": 485,
+   "end": 488,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p29-s4",
+   "page": 29,
+   "start": 488,
+   "end": 576,
+   "chars": 88,
+   "text": "The Contractor’s insurance coverage must meet the following additional requirements:\n1. "
+  },
+  {
+   "id": "p29-s5",
+   "page": 29,
+   "start": 576,
+   "end": 672,
+   "chars": 96,
+   "text": "The insurer must have a certificate of authority issued by the Indiana Department of Insurance.\n"
+  },
+  {
+   "id": "p29-s6",
+   "page": 29,
+   "start": 672,
+   "end": 675,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p29-s7",
+   "page": 29,
+   "start": 675,
+   "end": 828,
+   "chars": 153,
+   "text": "Any deductible or self-insured retention amount or other similar obligation under the insurance\npolicies shall be the sole obligation of the Contractor.\n"
+  },
+  {
+   "id": "p29-s8",
+   "page": 29,
+   "start": 828,
+   "end": 831,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p29-s9",
+   "page": 29,
+   "start": 831,
+   "end": 1015,
+   "chars": 184,
+   "text": "The System will be defended, indemnified and held harmless to the full extent of any coverage actually\nsecured by the Contractor in excess of the minimum requirements set forth above. "
+  },
+  {
+   "id": "p29-s10",
+   "page": 29,
+   "start": 1015,
+   "end": 1133,
+   "chars": 118,
+   "text": "The duty to indemnify\nthe System under this Contract shall not be limited by the insurance required in this Contract.\n"
+  },
+  {
+   "id": "p29-s11",
+   "page": 29,
+   "start": 1133,
+   "end": 1136,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p29-s12",
+   "page": 29,
+   "start": 1136,
+   "end": 1366,
+   "chars": 230,
+   "text": "The insurance required in this Contract, through a policy or endorsement(s), shall include a provision\nthat the policy and endorsements may not be canceled or modified without thirty (30) days’ prior written\nnotice to the System.\n"
+  },
+  {
+   "id": "p29-s13",
+   "page": 29,
+   "start": 1366,
+   "end": 1369,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p29-s14",
+   "page": 29,
+   "start": 1369,
+   "end": 1532,
+   "chars": 163,
+   "text": "Failure to provide insurance as required in this Contract may be deemed a material breach of contract\nentitling the System to immediately terminate this Contract. "
+  },
+  {
+   "id": "p29-s15",
+   "page": 29,
+   "start": 1532,
+   "end": 1665,
+   "chars": 133,
+   "text": "The Contractor shall furnish a certificate of\ninsurance and all endorsements to the System before the commencement of this Contract.\n"
+  },
+  {
+   "id": "p29-s16",
+   "page": 29,
+   "start": 1665,
+   "end": 1669,
+   "chars": 4,
+   "text": "30. "
+  },
+  {
+   "id": "p29-s17",
+   "page": 29,
+   "start": 1669,
+   "end": 1684,
+   "chars": 15,
+   "text": "Key Person(s).\n"
+  },
+  {
+   "id": "p29-s18",
+   "page": 29,
+   "start": 1684,
+   "end": 1687,
+   "chars": 3,
+   "text": "A. "
+  },
+  {
+   "id": "p29-s19",
+   "page": 29,
+   "start": 1687,
+   "end": 1911,
+   "chars": 224,
+   "text": "If both parties have designated that certain individual(s) are essential to the services offered, the parties\nagree that should such individual(s) leave their employment during the term of this Contract for whatever\nreason, "
+  },
+  {
+   "id": "p29-s20",
+   "page": 29,
+   "start": 1911,
+   "end": 2015,
+   "chars": 104,
+   "text": "the System shall have the right to terminate this Contract upon thirty (30) days’ prior written notice.\n"
+  },
+  {
+   "id": "p29-s21",
+   "page": 29,
+   "start": 2015,
+   "end": 2018,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p29-s22",
+   "page": 29,
+   "start": 2018,
+   "end": 2160,
+   "chars": 142,
+   "text": "In the event that the Contractor is an individual, that individual shall be considered a key person and, as\nsuch, essential to this Contract. "
+  },
+  {
+   "id": "p29-s23",
+   "page": 29,
+   "start": 2160,
+   "end": 2273,
+   "chars": 113,
+   "text": "Substitution of another for the Contractor shall not be permitted without\nexpress written consent of the System.\n"
+  },
+  {
+   "id": "p29-s24",
+   "page": 29,
+   "start": 2273,
+   "end": 2485,
+   "chars": 212,
+   "text": "Nothing in sections A and B, above shall be construed to prevent the Contractor from using the services of\nothers to perform tasks ancillary to those tasks which directly require the expertise of the key person.\n"
+  },
+  {
+   "id": "p29-s25",
+   "page": 29,
+   "start": 2485,
+   "end": 2574,
+   "chars": 89,
+   "text": "Examples of such ancillary tasks include secretarial, clerical, and common labor duties. "
+  },
+  {
+   "id": "p29-s26",
+   "page": 29,
+   "start": 2574,
+   "end": 2718,
+   "chars": 144,
+   "text": "The Contractor\nshall, at all times, remain responsible for the performance of all necessary tasks, whether performed by a\nkey person or others.\n"
+  },
+  {
+   "id": "p29-s27",
+   "page": 29,
+   "start": 2718,
+   "end": 2802,
+   "chars": 84,
+   "text": "Key person(s) to this Contract is/are _________________________________________\n31. "
+  },
+  {
+   "id": "p29-s28",
+   "page": 29,
+   "start": 2802,
+   "end": 2823,
+   "chars": 21,
+   "text": "Licensing Standards. "
+  },
+  {
+   "id": "p29-s29",
+   "page": 29,
+   "start": 2823,
+   "end": 3096,
+   "chars": 273,
+   "text": "The Contractor and its employees and subcontractors shall comply with all\napplicable licensing standards, certification standards, accrediting standards and any other laws, rules or\nregulations governing services to be provided by the Contractor pursuant to this Contract. "
+  },
+  {
+   "id": "p29-s30",
+   "page": 29,
+   "start": 3096,
+   "end": 3297,
+   "chars": 201,
+   "text": "The System will\nnot pay the Contractor for any services performed when the Contractor, its employees or subcontractors are\nnot in compliance with such applicable standards, laws, rules or regulations. "
+  },
+  {
+   "id": "p29-s31",
+   "page": 29,
+   "start": 3297,
+   "end": 3594,
+   "chars": 297,
+   "text": "If any license, certification or\naccreditation expires or is revoked, or any disciplinary action is taken against an applicable license,\ncertification, or accreditation, the Contractor agrees to notify the System immediately and the System, at\nits option, may immediately terminate this Contract.\n"
+  },
+  {
+   "id": "p29-s32",
+   "page": 29,
+   "start": 3594,
+   "end": 3600,
+   "chars": 6,
+   "text": "- 29 -"
+  },
+  {
+   "id": "p30-s0",
+   "page": 30,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "32. "
+  },
+  {
+   "id": "p30-s1",
+   "page": 30,
+   "start": 4,
+   "end": 27,
+   "chars": 23,
+   "text": "Merger & Modification. "
+  },
+  {
+   "id": "p30-s2",
+   "page": 30,
+   "start": 27,
+   "end": 95,
+   "chars": 68,
+   "text": "This Contract constitutes the entire agreement between the parties. "
+  },
+  {
+   "id": "p30-s3",
+   "page": 30,
+   "start": 95,
+   "end": 241,
+   "chars": 146,
+   "text": "No\nunderstandings, agreements, or representations, oral or written, not specified within this Contract will be\nvalid provisions of this Contract. "
+  },
+  {
+   "id": "p30-s4",
+   "page": 30,
+   "start": 241,
+   "end": 362,
+   "chars": 121,
+   "text": "This Contract may not be modified, supplemented or amended, except\nby written agreement signed by all necessary parties.\n"
+  },
+  {
+   "id": "p30-s5",
+   "page": 30,
+   "start": 362,
+   "end": 366,
+   "chars": 4,
+   "text": "33. "
+  },
+  {
+   "id": "p30-s6",
+   "page": 30,
+   "start": 366,
+   "end": 595,
+   "chars": 229,
+   "text": "Minority and Women’s Business Enterprises Compliance\nTo the extent that the Contractor engages any subcontractor, the Contractor agrees to comply fully with the\nprovisions of the Contractor’s MBE/WBE participation plans, if any, "
+  },
+  {
+   "id": "p30-s7",
+   "page": 30,
+   "start": 595,
+   "end": 769,
+   "chars": 174,
+   "text": "and agrees to comply with all Minority\nand Women’s Business Enterprise statutory and administrative code requirements and obligations,\nincluding IC § 4-13-16.5 and 25 IAC 5. "
+  },
+  {
+   "id": "p30-s8",
+   "page": 30,
+   "start": 769,
+   "end": 1067,
+   "chars": 298,
+   "text": "The Contractor further agrees to cooperate fully with the Minority\nand Women’s Business Enterprise division to facilitate the promotion, monitoring, and enforcement of the\npolicies and goals of MBE/WBE program including any and all assessments, compliance reviews, and\naudits that may be required.\n"
+  },
+  {
+   "id": "p30-s9",
+   "page": 30,
+   "start": 1067,
+   "end": 1071,
+   "chars": 4,
+   "text": "34. "
+  },
+  {
+   "id": "p30-s10",
+   "page": 30,
+   "start": 1071,
+   "end": 1090,
+   "chars": 19,
+   "text": "Nondiscrimination. "
+  },
+  {
+   "id": "p30-s11",
+   "page": 30,
+   "start": 1090,
+   "end": 1327,
+   "chars": 237,
+   "text": "Pursuant to the Indiana Civil Rights Law, specifically including IC §22-9-1-10,\nand in keeping with the purposes of the federal Civil Rights Act of 1964, the Age Discrimination in\nEmployment Act, and the Americans with Disabilities Act, "
+  },
+  {
+   "id": "p30-s12",
+   "page": 30,
+   "start": 1327,
+   "end": 1598,
+   "chars": 271,
+   "text": "the Contractor covenants that it shall not\ndiscriminate against any employee or applicant for employment relating to this Contract with respect to the\nhire, tenure, terms, conditions or privileges of employment or any matter directly or indirectly related to\nemployment, "
+  },
+  {
+   "id": "p30-s13",
+   "page": 30,
+   "start": 1598,
+   "end": 1727,
+   "chars": 129,
+   "text": "because of the employee’s or applicant’s characteristic protected by federal, state, or local\nlaw (“Protected Characteristics”). "
+  },
+  {
+   "id": "p30-s14",
+   "page": 30,
+   "start": 1727,
+   "end": 1932,
+   "chars": 205,
+   "text": "Furthermore, Contractor certifies compliance with applicable federal\nlaws, regulations, and executive orders prohibiting discrimination based on the Protected Characteristics in\nthe provision of services. "
+  },
+  {
+   "id": "p30-s15",
+   "page": 30,
+   "start": 1932,
+   "end": 2199,
+   "chars": 267,
+   "text": "Breach of this paragraph may be regarded as a material breach of this Contract,\nbut nothing in this paragraph shall be construed to imply or establish an employment relationship between\nthe System and any applicant or employee of the Contractor or any subcontractor.\n"
+  },
+  {
+   "id": "p30-s16",
+   "page": 30,
+   "start": 2199,
+   "end": 2203,
+   "chars": 4,
+   "text": "35. "
+  },
+  {
+   "id": "p30-s17",
+   "page": 30,
+   "start": 2203,
+   "end": 2223,
+   "chars": 20,
+   "text": "Notices to Parties. "
+  },
+  {
+   "id": "p30-s18",
+   "page": 30,
+   "start": 2223,
+   "end": 2461,
+   "chars": 238,
+   "text": "Whenever any notice, statement or other communication is required under this\nContract, it shall be sent by first class mail or via an established courier/delivery service to the following\naddresses, unless otherwise specifically advised.\n"
+  },
+  {
+   "id": "p30-s19",
+   "page": 30,
+   "start": 2461,
+   "end": 2464,
+   "chars": 3,
+   "text": "A. "
+  },
+  {
+   "id": "p30-s20",
+   "page": 30,
+   "start": 2464,
+   "end": 2636,
+   "chars": 172,
+   "text": "Notices to the System shall be sent to:\nSteve Russo\nExecutive Director\nIndiana Public Retirement System\nOne North Capitol, Suite 001\nIndianapolis, IN 46204\nWith a copy to:\n"
+  },
+  {
+   "id": "p30-s21",
+   "page": 30,
+   "start": 2636,
+   "end": 2803,
+   "chars": 167,
+   "text": "________________________________________\n________________________________________\n________________________________________\n________________________________________\nB. "
+  },
+  {
+   "id": "p30-s22",
+   "page": 30,
+   "start": 2803,
+   "end": 2892,
+   "chars": 89,
+   "text": "Notices to the Contractor shall be sent to:\n______________________________________\n- 30 -"
+  },
+  {
+   "id": "p31-s0",
+   "page": 31,
+   "start": 0,
+   "end": 127,
+   "chars": 127,
+   "text": "________________________________________\n________________________________________\n________________________________________\n36. "
+  },
+  {
+   "id": "p31-s1",
+   "page": 31,
+   "start": 127,
+   "end": 148,
+   "chars": 21,
+   "text": "Order of Precedence; "
+  },
+  {
+   "id": "p31-s2",
+   "page": 31,
+   "start": 148,
+   "end": 176,
+   "chars": 28,
+   "text": "Incorporation by Reference. "
+  },
+  {
+   "id": "p31-s3",
+   "page": 31,
+   "start": 176,
+   "end": 443,
+   "chars": 267,
+   "text": "Any inconsistency or ambiguity shall be resolved\nby giving precedence in the following order: (1) this Contract, (2) attachments prepared by the System, (3)\nRFP Number __, (4) Contractor’s response to RFP number _____, and (5) attachments prepared by the\nContractor. "
+  },
+  {
+   "id": "p31-s4",
+   "page": 31,
+   "start": 443,
+   "end": 553,
+   "chars": 110,
+   "text": "All attachments, and all documents referred to in this paragraph, are hereby incorporated fully\nby reference.\n"
+  },
+  {
+   "id": "p31-s5",
+   "page": 31,
+   "start": 553,
+   "end": 557,
+   "chars": 4,
+   "text": "37. "
+  },
+  {
+   "id": "p31-s6",
+   "page": 31,
+   "start": 557,
+   "end": 595,
+   "chars": 38,
+   "text": "Ownership of Documents and Materials. "
+  },
+  {
+   "id": "p31-s7",
+   "page": 31,
+   "start": 595,
+   "end": 769,
+   "chars": 174,
+   "text": "All documents, records, programs, data, film, tape, articles,\nmemoranda, and other materials not developed or licensed by the Contractor prior to execution of this\nContract, "
+  },
+  {
+   "id": "p31-s8",
+   "page": 31,
+   "start": 769,
+   "end": 974,
+   "chars": 205,
+   "text": "but specifically developed under this Contract shall be considered “work for hire” and the\nContractor transfers any ownership claim to the System and all such materials will be the property of the\nSystem. "
+  },
+  {
+   "id": "p31-s9",
+   "page": 31,
+   "start": 974,
+   "end": 1124,
+   "chars": 150,
+   "text": "Use of these materials, other than related to contract performance by the Contractor, without the\nprior written consent of the System, is prohibited. "
+  },
+  {
+   "id": "p31-s10",
+   "page": 31,
+   "start": 1124,
+   "end": 1402,
+   "chars": 278,
+   "text": "During the performance of this Contract, the Contractor\nshall be responsible for any loss of or damage to these materials developed for or supplied by the System\nand used to develop or assist in the services provided while the materials are in the possession of the\nContractor. "
+  },
+  {
+   "id": "p31-s11",
+   "page": 31,
+   "start": 1402,
+   "end": 1476,
+   "chars": 74,
+   "text": "Any loss or damage thereto shall be restored at the Contractor’s expense. "
+  },
+  {
+   "id": "p31-s12",
+   "page": 31,
+   "start": 1476,
+   "end": 1611,
+   "chars": 135,
+   "text": "The Contractor shall\nprovide the System full, immediate, and unrestricted access to the work product during the term of this\nContract.\n"
+  },
+  {
+   "id": "p31-s13",
+   "page": 31,
+   "start": 1611,
+   "end": 1615,
+   "chars": 4,
+   "text": "38. "
+  },
+  {
+   "id": "p31-s14",
+   "page": 31,
+   "start": 1615,
+   "end": 1625,
+   "chars": 10,
+   "text": "Payments. "
+  },
+  {
+   "id": "p31-s15",
+   "page": 31,
+   "start": 1625,
+   "end": 1762,
+   "chars": 137,
+   "text": "All payment obligations shall be made in arrears, net 30 in accordance with Indiana law\nand the System’s fiscal policies and procedures. "
+  },
+  {
+   "id": "p31-s16",
+   "page": 31,
+   "start": 1762,
+   "end": 1813,
+   "chars": 51,
+   "text": "See Attachment B, Fees, incorporated by reference.\n"
+  },
+  {
+   "id": "p31-s17",
+   "page": 31,
+   "start": 1813,
+   "end": 1817,
+   "chars": 4,
+   "text": "39. "
+  },
+  {
+   "id": "p31-s18",
+   "page": 31,
+   "start": 1817,
+   "end": 1853,
+   "chars": 36,
+   "text": "Penalties/Interest/Attorney’s Fees. "
+  },
+  {
+   "id": "p31-s19",
+   "page": 31,
+   "start": 1853,
+   "end": 2103,
+   "chars": 250,
+   "text": "The System will in good faith perform its required obligations\nhereunder and does not agree to pay any penalties, liquidated damages, interest or attorney’s fees, except\nas permitted by Indiana law, in part, IC §5-17-5, IC §34-54-8, and IC §34-13-1.\n"
+  },
+  {
+   "id": "p31-s20",
+   "page": 31,
+   "start": 2103,
+   "end": 2107,
+   "chars": 4,
+   "text": "40. "
+  },
+  {
+   "id": "p31-s21",
+   "page": 31,
+   "start": 2107,
+   "end": 2125,
+   "chars": 18,
+   "text": "Progress Reports. "
+  },
+  {
+   "id": "p31-s22",
+   "page": 31,
+   "start": 2125,
+   "end": 2198,
+   "chars": 73,
+   "text": "The Contractor shall submit progress reports to the System upon request. "
+  },
+  {
+   "id": "p31-s23",
+   "page": 31,
+   "start": 2198,
+   "end": 2329,
+   "chars": 131,
+   "text": "The\nreport shall be oral, unless the System, upon receipt of the oral report, should deem it necessary to have it\nin written form. "
+  },
+  {
+   "id": "p31-s24",
+   "page": 31,
+   "start": 2329,
+   "end": 2518,
+   "chars": 189,
+   "text": "The progress reports shall serve the purpose of assuring the System that work is progressing\nin line with the schedule, and that completion can be reasonably assured on the scheduled date.\n"
+  },
+  {
+   "id": "p31-s25",
+   "page": 31,
+   "start": 2518,
+   "end": 2522,
+   "chars": 4,
+   "text": "41. "
+  },
+  {
+   "id": "p31-s26",
+   "page": 31,
+   "start": 2522,
+   "end": 2537,
+   "chars": 15,
+   "text": "Public Record. "
+  },
+  {
+   "id": "p31-s27",
+   "page": 31,
+   "start": 2537,
+   "end": 2650,
+   "chars": 113,
+   "text": "The Contractor acknowledges that the System will not treat this Contract as\ncontaining confidential information.\n"
+  },
+  {
+   "id": "p31-s28",
+   "page": 31,
+   "start": 2650,
+   "end": 2654,
+   "chars": 4,
+   "text": "42. "
+  },
+  {
+   "id": "p31-s29",
+   "page": 31,
+   "start": 2654,
+   "end": 2670,
+   "chars": 16,
+   "text": "Renewal Option. "
+  },
+  {
+   "id": "p31-s30",
+   "page": 31,
+   "start": 2670,
+   "end": 2790,
+   "chars": 120,
+   "text": "This Contract may be renewed under the same terms and conditions, subject to the\napproval of the System and Contractor. "
+  },
+  {
+   "id": "p31-s31",
+   "page": 31,
+   "start": 2790,
+   "end": 2881,
+   "chars": 91,
+   "text": "The term of the renewed contract may not be longer than the term\nof the original contract.\n"
+  },
+  {
+   "id": "p31-s32",
+   "page": 31,
+   "start": 2881,
+   "end": 2885,
+   "chars": 4,
+   "text": "43. "
+  },
+  {
+   "id": "p31-s33",
+   "page": 31,
+   "start": 2885,
+   "end": 2899,
+   "chars": 14,
+   "text": "Severability. "
+  },
+  {
+   "id": "p31-s34",
+   "page": 31,
+   "start": 2899,
+   "end": 3089,
+   "chars": 190,
+   "text": "The invalidity of any section, subsection, clause or provision of this Contract shall not\naffect the validity of the remaining sections, subsections, clauses or provisions of this Contract.\n"
+  },
+  {
+   "id": "p31-s35",
+   "page": 31,
+   "start": 3090,
+   "end": 3096,
+   "chars": 6,
+   "text": "- 31 -"
+  },
+  {
+   "id": "p32-s0",
+   "page": 32,
+   "start": 0,
+   "end": 4,
+   "chars": 4,
+   "text": "44. "
+  },
+  {
+   "id": "p32-s1",
+   "page": 32,
+   "start": 4,
+   "end": 29,
+   "chars": 25,
+   "text": "Substantial Performance. "
+  },
+  {
+   "id": "p32-s2",
+   "page": 32,
+   "start": 29,
+   "end": 196,
+   "chars": 167,
+   "text": "This Contract shall be deemed to be substantially performed only when\nfully performed according to its terms and conditions and any written amendments or supplements.\n"
+  },
+  {
+   "id": "p32-s3",
+   "page": 32,
+   "start": 196,
+   "end": 200,
+   "chars": 4,
+   "text": "45. "
+  },
+  {
+   "id": "p32-s4",
+   "page": 32,
+   "start": 200,
+   "end": 207,
+   "chars": 7,
+   "text": "Taxes. "
+  },
+  {
+   "id": "p32-s5",
+   "page": 32,
+   "start": 207,
+   "end": 284,
+   "chars": 77,
+   "text": "The System is exempt from most state and local taxes and many federal taxes. "
+  },
+  {
+   "id": "p32-s6",
+   "page": 32,
+   "start": 284,
+   "end": 388,
+   "chars": 104,
+   "text": "The System will\nnot be responsible for any taxes levied on the Contractor as a result of this Contract.\n"
+  },
+  {
+   "id": "p32-s7",
+   "page": 32,
+   "start": 388,
+   "end": 392,
+   "chars": 4,
+   "text": "46. "
+  },
+  {
+   "id": "p32-s8",
+   "page": 32,
+   "start": 392,
+   "end": 421,
+   "chars": 29,
+   "text": "Termination for Convenience. "
+  },
+  {
+   "id": "p32-s9",
+   "page": 32,
+   "start": 421,
+   "end": 584,
+   "chars": 163,
+   "text": "This Contract may be terminated, in whole or in part, by the System\nwhenever, for any reason, the System determines that such termination is in its best interest. "
+  },
+  {
+   "id": "p32-s10",
+   "page": 32,
+   "start": 584,
+   "end": 844,
+   "chars": 260,
+   "text": "Termination\nof services shall be effected by delivery to the Contractor of a Termination Notice at least thirty (30) days\nprior to the termination effective date, specifying the extent to which performance of services under such\ntermination becomes effective. "
+  },
+  {
+   "id": "p32-s11",
+   "page": 32,
+   "start": 844,
+   "end": 955,
+   "chars": 111,
+   "text": "The Contractor shall be compensated for services properly rendered prior\nto the effective date of termination. "
+  },
+  {
+   "id": "p32-s12",
+   "page": 32,
+   "start": 955,
+   "end": 1049,
+   "chars": 94,
+   "text": "The System will not be liable for services performed after the effective\ndate of termination. "
+  },
+  {
+   "id": "p32-s13",
+   "page": 32,
+   "start": 1049,
+   "end": 1336,
+   "chars": 287,
+   "text": "The Contractor shall be compensated for services herein provided but in no case shall\ntotal payment made to the Contractor exceed the original contract price or shall any price increase be\nallowed on individual line items if canceled only in part prior to the original termination date.\n"
+  },
+  {
+   "id": "p32-s14",
+   "page": 32,
+   "start": 1336,
+   "end": 1340,
+   "chars": 4,
+   "text": "47. "
+  },
+  {
+   "id": "p32-s15",
+   "page": 32,
+   "start": 1340,
+   "end": 1367,
+   "chars": 27,
+   "text": "Termination for Default\nA. "
+  },
+  {
+   "id": "p32-s16",
+   "page": 32,
+   "start": 1367,
+   "end": 1470,
+   "chars": 103,
+   "text": "The System may immediately terminate this Contract in whole or in part, if the Contractor fails to:\n1. "
+  },
+  {
+   "id": "p32-s17",
+   "page": 32,
+   "start": 1470,
+   "end": 1515,
+   "chars": 45,
+   "text": "Correct or cure any breach of this Contract;\n"
+  },
+  {
+   "id": "p32-s18",
+   "page": 32,
+   "start": 1515,
+   "end": 1518,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p32-s19",
+   "page": 32,
+   "start": 1518,
+   "end": 1624,
+   "chars": 106,
+   "text": "Deliver the supplies or perform the services within the time specified in this Contract or any\nextension;\n"
+  },
+  {
+   "id": "p32-s20",
+   "page": 32,
+   "start": 1624,
+   "end": 1627,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p32-s21",
+   "page": 32,
+   "start": 1627,
+   "end": 1689,
+   "chars": 62,
+   "text": "Make progress so as to endanger performance of this Contract; "
+  },
+  {
+   "id": "p32-s22",
+   "page": 32,
+   "start": 1689,
+   "end": 1695,
+   "chars": 6,
+   "text": "or\n4. "
+  },
+  {
+   "id": "p32-s23",
+   "page": 32,
+   "start": 1695,
+   "end": 1749,
+   "chars": 54,
+   "text": "Perform any of the other provisions of this Contract.\n"
+  },
+  {
+   "id": "p32-s24",
+   "page": 32,
+   "start": 1749,
+   "end": 1752,
+   "chars": 3,
+   "text": "B. "
+  },
+  {
+   "id": "p32-s25",
+   "page": 32,
+   "start": 1752,
+   "end": 2047,
+   "chars": 295,
+   "text": "If the System terminates this Contract in whole or in part, it may acquire, under the terms and in the\nmanner the System considers appropriate, supplies or services similar to those terminated, and the\nContractor will be liable to the System for any excess costs for those supplies or services. "
+  },
+  {
+   "id": "p32-s26",
+   "page": 32,
+   "start": 2047,
+   "end": 2111,
+   "chars": 64,
+   "text": "However, the\nContractor shall continue the work not terminated.\n"
+  },
+  {
+   "id": "p32-s27",
+   "page": 32,
+   "start": 2111,
+   "end": 2114,
+   "chars": 3,
+   "text": "C. "
+  },
+  {
+   "id": "p32-s28",
+   "page": 32,
+   "start": 2114,
+   "end": 2210,
+   "chars": 96,
+   "text": "The System shall pay the contract price for completed supplies delivered and services accepted. "
+  },
+  {
+   "id": "p32-s29",
+   "page": 32,
+   "start": 2210,
+   "end": 2385,
+   "chars": 175,
+   "text": "The\nContractor and the System shall agree on the amount of payment for manufacturing materials delivered and\naccepted and for the protection and preservation of the property. "
+  },
+  {
+   "id": "p32-s30",
+   "page": 32,
+   "start": 2385,
+   "end": 2447,
+   "chars": 62,
+   "text": "Failure to agree will be a dispute under\nthe Disputes clause. "
+  },
+  {
+   "id": "p32-s31",
+   "page": 32,
+   "start": 2447,
+   "end": 2634,
+   "chars": 187,
+   "text": "The System may withhold from these amounts any sum the System determines to be\nnecessary to protect the System against loss because of outstanding liens or claims of former lien holders.\n"
+  },
+  {
+   "id": "p32-s32",
+   "page": 32,
+   "start": 2634,
+   "end": 2637,
+   "chars": 3,
+   "text": "D. "
+  },
+  {
+   "id": "p32-s33",
+   "page": 32,
+   "start": 2637,
+   "end": 2789,
+   "chars": 152,
+   "text": "The rights and remedies of the System in this clause are in addition to any other rights and remedies\nprovided by law or equity or under this Contract.\n"
+  },
+  {
+   "id": "p32-s34",
+   "page": 32,
+   "start": 2789,
+   "end": 2793,
+   "chars": 4,
+   "text": "48. "
+  },
+  {
+   "id": "p32-s35",
+   "page": 32,
+   "start": 2793,
+   "end": 2801,
+   "chars": 8,
+   "text": "Travel. "
+  },
+  {
+   "id": "p32-s36",
+   "page": 32,
+   "start": 2801,
+   "end": 2933,
+   "chars": 132,
+   "text": "No expenses for travel will be reimbursed unless specifically permitted under the scope of\nthe services or consideration provision. "
+  },
+  {
+   "id": "p32-s37",
+   "page": 32,
+   "start": 2933,
+   "end": 3106,
+   "chars": 173,
+   "text": "Expenditures made by the Contractor for travel will be\nreimbursed at the current rate paid by the System and in accordance with the System’s Travel Policies and\nProcedures.\n"
+  },
+  {
+   "id": "p32-s38",
+   "page": 32,
+   "start": 3106,
+   "end": 3110,
+   "chars": 4,
+   "text": "49. "
+  },
+  {
+   "id": "p32-s39",
+   "page": 32,
+   "start": 3110,
+   "end": 3128,
+   "chars": 18,
+   "text": "Waiver of Rights. "
+  },
+  {
+   "id": "p32-s40",
+   "page": 32,
+   "start": 3128,
+   "end": 3339,
+   "chars": 211,
+   "text": "No right conferred on either party under this Contract shall be deemed waived, and\nno breach of this Contract excused, unless such waiver is in writing and signed by the party claimed to have\nwaived such right. "
+  },
+  {
+   "id": "p32-s41",
+   "page": 32,
+   "start": 3339,
+   "end": 3650,
+   "chars": 311,
+   "text": "Neither the System’s review, approval or acceptance of, nor payment for, the services\nrequired under this Contract shall be construed to operate as a waiver of any rights under the Contract or of\nany cause of action arising out of the performance of this Contract, and the Contractor shall be and remain\n\n- 32 -"
+  },
+  {
+   "id": "p33-s0",
+   "page": 33,
+   "start": 0,
+   "end": 188,
+   "chars": 188,
+   "text": "liable to the System in accordance with applicable law for all damages to the System caused by the\nContractor’s negligent performance of any of the services furnished under this Contract.\n"
+  },
+  {
+   "id": "p33-s1",
+   "page": 33,
+   "start": 188,
+   "end": 192,
+   "chars": 4,
+   "text": "50. "
+  },
+  {
+   "id": "p33-s2",
+   "page": 33,
+   "start": 192,
+   "end": 208,
+   "chars": 16,
+   "text": "Work Standards. "
+  },
+  {
+   "id": "p33-s3",
+   "page": 33,
+   "start": 208,
+   "end": 362,
+   "chars": 154,
+   "text": "The Contractor shall execute its responsibilities by following and applying at all\ntimes the highest professional and technical guidelines and standards. "
+  },
+  {
+   "id": "p33-s4",
+   "page": 33,
+   "start": 362,
+   "end": 635,
+   "chars": 273,
+   "text": "If the System becomes dissatisfied\nwith the work product of or the working relationship with those individuals assigned to work on this\nContract, the System may request in writing the replacement of any or all such individuals, and the\nContractor shall grant such request.\n"
+  },
+  {
+   "id": "p33-s5",
+   "page": 33,
+   "start": 635,
+   "end": 639,
+   "chars": 4,
+   "text": "51. "
+  },
+  {
+   "id": "p33-s6",
+   "page": 33,
+   "start": 639,
+   "end": 670,
+   "chars": 31,
+   "text": "Investigations and Complaints. "
+  },
+  {
+   "id": "p33-s7",
+   "page": 33,
+   "start": 670,
+   "end": 828,
+   "chars": 158,
+   "text": "To the extent permitted by applicable law, Contractor shall\npromptly advise the System in writing of any extraordinary investigation, examination, complaint,\n"
+  },
+  {
+   "id": "p33-s8",
+   "page": 33,
+   "start": 828,
+   "end": 1085,
+   "chars": 257,
+   "text": "disciplinary action or other proceeding relating to or affecting Contractor's ability to perform its duties\nunder this Contract which is commenced by any of the following: (1) any Attorney General or any\nregulatory agency of any state of the United States; "
+  },
+  {
+   "id": "p33-s9",
+   "page": 33,
+   "start": 1085,
+   "end": 1131,
+   "chars": 46,
+   "text": "(2) any U.S. Government department or agency; "
+  },
+  {
+   "id": "p33-s10",
+   "page": 33,
+   "start": 1131,
+   "end": 1236,
+   "chars": 105,
+   "text": "or\n(3) any governmental agency regulating business in any country in which Contractor is doing business.\n"
+  },
+  {
+   "id": "p33-s11",
+   "page": 33,
+   "start": 1236,
+   "end": 1400,
+   "chars": 164,
+   "text": "Except as otherwise required by law, the System shall maintain the confidentiality of all such information\nuntil investigating entity makes the information public.\n"
+  },
+  {
+   "id": "p33-s12",
+   "page": 33,
+   "start": 1400,
+   "end": 1404,
+   "chars": 4,
+   "text": "52. "
+  },
+  {
+   "id": "p33-s13",
+   "page": 33,
+   "start": 1404,
+   "end": 1434,
+   "chars": 30,
+   "text": "Non-Collusion and Acceptance. "
+  },
+  {
+   "id": "p33-s14",
+   "page": 33,
+   "start": 1434,
+   "end": 1648,
+   "chars": 214,
+   "text": "The undersigned attests, subject to the penalties for perjury, that\nthe undersigned is the Contractor, or that the undersigned is the properly authorized representative, agent,\nmember or officer of the Contractor. "
+  },
+  {
+   "id": "p33-s15",
+   "page": 33,
+   "start": 1648,
+   "end": 1821,
+   "chars": 173,
+   "text": "Further, to the undersigned’s knowledge, neither the undersigned\nnor any other member, employee, representative, agent or officer of the Contractor, directly or indirectly,\n"
+  },
+  {
+   "id": "p33-s16",
+   "page": 33,
+   "start": 1821,
+   "end": 1981,
+   "chars": 160,
+   "text": "has entered into or been offered any sum of money or other consideration for the execution of this\nContract other than that which appears upon the face hereof.\n"
+  },
+  {
+   "id": "p33-s17",
+   "page": 33,
+   "start": 1982,
+   "end": 2044,
+   "chars": 62,
+   "text": "THE REMAINDER OF THIS PAGE HAS BEEN INTENTIONALLY LEFT BLANK.\n"
+  },
+  {
+   "id": "p33-s18",
+   "page": 33,
+   "start": 2045,
+   "end": 2051,
+   "chars": 6,
+   "text": "- 33 -"
+  },
+  {
+   "id": "p34-s0",
+   "page": 34,
+   "start": 0,
+   "end": 127,
+   "chars": 127,
+   "text": "In Witness Whereof, Contractor and the System have, through their duly authorized representatives,\nentered into this Contract. "
+  },
+  {
+   "id": "p34-s1",
+   "page": 34,
+   "start": 127,
+   "end": 286,
+   "chars": 159,
+   "text": "The parties, having read and understand the foregoing terms of this Contract, do\nby their respective signatures dated below hereby agree to the terms thereof.\n"
+  },
+  {
+   "id": "p34-s2",
+   "page": 34,
+   "start": 287,
+   "end": 548,
+   "chars": 261,
+   "text": "[Contractor]\n\nBy:____________________________________\nPrinted Name:____________________________\nTitle:___________________________________\nDate:___________________________________\n\nINDIANA PUBLIC RETIREMENT SYSTEM\n\nBy:____________________________________\nPrinted"
+  },
+  {
+   "id": "p34-s3",
+   "page": 34,
+   "start": 548,
+   "end": 673,
+   "chars": 125,
+   "text": " Name:____________________________\nTitle:___________________________________\nDate:___________________________________\n\n- 34 -"
+  },
+  {
+   "id": "p35-s0",
+   "page": 35,
+   "start": 0,
+   "end": 66,
+   "chars": 66,
+   "text": "ATTACHMENT A\nScope of Services\n\n(Intentionally Left Blank)\n\n- 35 -"
+  },
+  {
+   "id": "p36-s0",
+   "page": 36,
+   "start": 0,
+   "end": 52,
+   "chars": 52,
+   "text": "ATTACHMENT B\nFees\n(Intentionally Left Blank)\n\n- 36 -"
+  },
+  {
+   "id": "p37-s0",
+   "page": 37,
+   "start": 0,
+   "end": 214,
+   "chars": 214,
+   "text": "APPENDIX B – MANDATORY RESPONDENT FORMS\nB.1\n\nTaxpayer Identification Number Request\n\nhttps://www.irs.gov/pub/irs-pdf/fw9.pdf\n\nB.2\n\nForeign Registration Statement\n\nhttps://forms.in.gov/Download.aspx?id=13562\n\n- 37 -"
+  },
+  {
+   "id": "p38-s0",
+   "page": 38,
+   "start": 0,
+   "end": 207,
+   "chars": 207,
+   "text": "APPENDIX C – QUESTIONNAIRE (IS A SEPARATE EXCEL FILE)\nThe file will be located at this webpage: http://www.in.gov/inprs.quoting.htm\nFilename: RFP 23‐04 Cloud Migration Appendix ‐ C Questionnaire.xlsx\n\n- 38 -"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 38
+ }
+}

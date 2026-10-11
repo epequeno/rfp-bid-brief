@@ -1,0 +1,1542 @@
+{
+ "schema": "span-index/1",
+ "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
+ "fixture_sha256": "9d60913497b846582963c58672ad6ef8e747ff4212695c1023f4a5051aa0d20f",
+ "engine": "pdftotext",
+ "engine_version": "pdftotext version 26.10.0",
+ "normalisation": "NFC; per-line rstrip; paragraph breaks preserved; matching collapses whitespace only",
+ "pages": [
+  {
+   "number": 1,
+   "sha256": "c2cea6f6c99babbffe99f595dec9d8159fa2d3e4a7e64e6b90311a0c94f506a7",
+   "chars": 1928
+  },
+  {
+   "number": 2,
+   "sha256": "454be3b31604bf0daa895675e5541cf8850316b79c02fdcf98964e344ecf4c1d",
+   "chars": 1969
+  },
+  {
+   "number": 3,
+   "sha256": "c395002fdd5bda548b88de5d4ceb44f6c07672529ee8ea3da00c2f333e48802b",
+   "chars": 1930
+  },
+  {
+   "number": 4,
+   "sha256": "1121534b2578254e32d7b9a7c0306eeeea9f35ed9277bff8da5fe973fa63e001",
+   "chars": 1473
+  },
+  {
+   "number": 5,
+   "sha256": "982e36edf921edddfd19b92f78303b888dc72ea7ffcd580320fc4c71573d70d2",
+   "chars": 1407
+  },
+  {
+   "number": 6,
+   "sha256": "e0832b430a7c464b1a667ddd83c3968b55805b0782f1e192cd9441e4e7a6983f",
+   "chars": 1750
+  },
+  {
+   "number": 7,
+   "sha256": "354ae6c3cf1d54d270686bb4cd1a8fef02600bef09a0ec6ea2dfe2e0c80a60c7",
+   "chars": 2306
+  },
+  {
+   "number": 8,
+   "sha256": "1c5e17065eaa3bafb816b2044261344a914c239cfa314eafbed79b9add942318",
+   "chars": 2713
+  },
+  {
+   "number": 9,
+   "sha256": "b6378c4a04cf71958978d01f4928dba03c04bce3da30e506c443fdb6c7ebe24d",
+   "chars": 1545
+  },
+  {
+   "number": 10,
+   "sha256": "6cba741f60c9267269d203c34828caaafbe884e01fd358b1344796a85e1dcd5f",
+   "chars": 1498
+  },
+  {
+   "number": 11,
+   "sha256": "96d1a7f1189c08a16c4cc9fa9738cb514c6682021539ba5da9a1704db1864427",
+   "chars": 2219
+  },
+  {
+   "number": 12,
+   "sha256": "06986db05cdb82208760ce5032e05266808c7126c002c46b87bf63fb1ee2f744",
+   "chars": 2176
+  }
+ ],
+ "span_count": 183,
+ "hyphenated_line_breaks": 0,
+ "spans": [
+  {
+   "id": "p1-s0",
+   "page": 1,
+   "start": 0,
+   "end": 185,
+   "chars": 185,
+   "text": "Request for Proposal (RFP)\nMigration from On-Premises Microsoft CRM to Microsoft Dynamics\n365 Cloud\nRequest for Proposals released: 3/30/2026\nResponses due: 4/29/2026 at 5:00pm PDT\n\n1. "
+  },
+  {
+   "id": "p1-s1",
+   "page": 1,
+   "start": 185,
+   "end": 488,
+   "chars": 303,
+   "text": "Introduction and Background\nEnergy Trust of Oregon, Inc. (Energy Trust), an Oregon nonprofit corporation, is soliciting\nproposals from qualified vendors to plan, design, and execute the migration of our existing\non‑premises Microsoft CRM implementation to the Microsoft Dynamics 365 cloud CRM\nplatform. "
+  },
+  {
+   "id": "p1-s2",
+   "page": 1,
+   "start": 488,
+   "end": 588,
+   "chars": 100,
+   "text": "It is Energy Trust’s intention to solicit qualifications from a wide range of multiple\nrespondents. "
+  },
+  {
+   "id": "p1-s3",
+   "page": 1,
+   "start": 588,
+   "end": 696,
+   "chars": 108,
+   "text": "Energy Trust will examine all responses carefully and select a single\nrespondent to provide these services.\n"
+  },
+  {
+   "id": "p1-s4",
+   "page": 1,
+   "start": 696,
+   "end": 894,
+   "chars": 198,
+   "text": "Energy Trust is an independent nonprofit organization selected and overseen by the Oregon\nPublic Utility Commission (OPUC) to help Oregon utility customers save energy and generate\nrenewable power. "
+  },
+  {
+   "id": "p1-s5",
+   "page": 1,
+   "start": 894,
+   "end": 1128,
+   "chars": 234,
+   "text": "Energy Trust’s services, cash incentives and energy solutions have helped\nparticipating customers of Portland General Electric, Pacific Power, NW Natural, Cascade\nNatural Gas and Avista save nearly $8.9 billion on their energy bills. "
+  },
+  {
+   "id": "p1-s6",
+   "page": 1,
+   "start": 1128,
+   "end": 1303,
+   "chars": 175,
+   "text": "The cumulative impact\nof the organization’s leadership since 2002 has been a contributing factor in the region’s\nlow energy costs and in building a sustainable energy future. "
+  },
+  {
+   "id": "p1-s7",
+   "page": 1,
+   "start": 1303,
+   "end": 1376,
+   "chars": 73,
+   "text": "To learn more about Energy\nTrust please visit www.energytrust.org/about.\n"
+  },
+  {
+   "id": "p1-s8",
+   "page": 1,
+   "start": 1376,
+   "end": 1622,
+   "chars": 246,
+   "text": "Our organization currently operates Microsoft Dynamics Customer Engagement 9.1 on\npremises (referred to as Microsoft CRM on‑premises in this RFP), supporting a single\nbusiness unit and mission‑critical customer relationship management processes. "
+  },
+  {
+   "id": "p1-s9",
+   "page": 1,
+   "start": 1622,
+   "end": 1797,
+   "chars": 175,
+   "text": "We seek an\nexperienced Microsoft partner to deliver a secure, scalable, and well‑governed migration\nthat modernizes our CRM capabilities while minimizing business disruption.\n"
+  },
+  {
+   "id": "p1-s10",
+   "page": 1,
+   "start": 1798,
+   "end": 1801,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p1-s11",
+   "page": 1,
+   "start": 1801,
+   "end": 1877,
+   "chars": 76,
+   "text": "Description of Current CRM On-premises Implementation\n\n\nSee Appendix A\n\n3. "
+  },
+  {
+   "id": "p1-s12",
+   "page": 1,
+   "start": 1877,
+   "end": 1928,
+   "chars": 51,
+   "text": "RFP Objectives\nThe objectives of this RFP are to:\n1"
+  },
+  {
+   "id": "p2-s0",
+   "page": 2,
+   "start": 0,
+   "end": 116,
+   "chars": 116,
+   "text": "\n\n\n\n\nSelect a vendor with deep expertise in Microsoft Dynamics 365 cloud migrations\nEnsure a secure, compliant, "
+  },
+  {
+   "id": "p2-s1",
+   "page": 2,
+   "start": 116,
+   "end": 407,
+   "chars": 291,
+   "text": "and low‑risk transition from on‑premises CRM to the\ncloud\nMaintain current CRM capabilities while preserving required functionality and\nintegrations\nEstablish a foundation for future innovation using the suite of Microsoft CRM 365\nfunctionality as well as related Microsoft technologies\n\n4. "
+  },
+  {
+   "id": "p2-s2",
+   "page": 2,
+   "start": 407,
+   "end": 561,
+   "chars": 154,
+   "text": "Scope of Services\nThe selected vendor will be expected to provide end‑to‑end services covering planning,\nmigration, validation, and post‑go‑live support. "
+  },
+  {
+   "id": "p2-s3",
+   "page": 2,
+   "start": 561,
+   "end": 637,
+   "chars": 76,
+   "text": "At a minimum, the scope of services shall\ninclude the following components.\n"
+  },
+  {
+   "id": "p2-s4",
+   "page": 2,
+   "start": 638,
+   "end": 940,
+   "chars": 302,
+   "text": "4.1 Discovery and Assessment\nThe vendor shall conduct a comprehensive assessment of the existing on‑premises CRM\nenvironment, including but not limited to:\n\n\n\n\n\n\n\n\n\nCurrent Microsoft CRM version, architecture, licensing, and deployment model\nCustom entities, fields, forms, workflows, plugins, "
+  },
+  {
+   "id": "p2-s5",
+   "page": 2,
+   "start": 940,
+   "end": 1162,
+   "chars": 222,
+   "text": "and JavaScript\nIntegrations with third‑party systems, internal applications, and data sources\nSecurity model, roles, teams, and access controls\nData volumes, data quality, and retention requirements\nReporting, dashboards, "
+  },
+  {
+   "id": "p2-s6",
+   "page": 2,
+   "start": 1162,
+   "end": 1457,
+   "chars": 295,
+   "text": "and analytics usage\nDependencies on legacy technologies or unsupported components\nCost modeling based on current data volumes, usage, and user counts\n\nDeliverables shall include an assessment report identifying risks, constraints, dependencies,\ncost considerations, and recommended remediation, "
+  },
+  {
+   "id": "p2-s7",
+   "page": 2,
+   "start": 1457,
+   "end": 1500,
+   "chars": 43,
+   "text": "cost efficiency and modernization\nactions.\n"
+  },
+  {
+   "id": "p2-s8",
+   "page": 2,
+   "start": 1501,
+   "end": 1814,
+   "chars": 313,
+   "text": "4.2 Migration Strategy and Solution Design\nThe vendor shall define a detailed migration strategy and target‑state solution design,\nincluding:\n\n\n\n\nRecommended Dynamics 365 applications and licensing (e.g., Sales, Customer\nService, Marketing)\nTenant, environment (multiple environments for development, testing, "
+  },
+  {
+   "id": "p2-s9",
+   "page": 2,
+   "start": 1814,
+   "end": 1969,
+   "chars": 155,
+   "text": "staging and\nproduction), and region strategy aligned with organizational governance\nData migration approach (phased vs. full, historical vs. active data)\n2"
+  },
+  {
+   "id": "p3-s0",
+   "page": 3,
+   "start": 0,
+   "end": 166,
+   "chars": 166,
+   "text": "\n\n\n\n\n\n\n\nApproach for current replication of database to a read-only database for reporting,\nanalysis, and as a data source for an internal transaction system.\n"
+  },
+  {
+   "id": "p3-s1",
+   "page": 3,
+   "start": 166,
+   "end": 484,
+   "chars": 318,
+   "text": "Nightly updates to on premises data warehouse\nCustomization and extension strategy leveraging out‑of‑the‑box capabilities, Power\nPlatform, and Azure services\nIntegration architecture using supported APIs, connectors, and middleware\nIdentity and access management design (e.g., Entra ID/Azure AD integration)\nSecurity, "
+  },
+  {
+   "id": "p3-s2",
+   "page": 3,
+   "start": 484,
+   "end": 676,
+   "chars": 192,
+   "text": "compliance, and data residency considerations\nDecommissioning strategy for the on‑premises CRM environment\n\nThe vendor shall produce a formal solution design document for review and approval.\n"
+  },
+  {
+   "id": "p3-s3",
+   "page": 3,
+   "start": 677,
+   "end": 861,
+   "chars": 184,
+   "text": "4.3 Configuration, Customization, and Modernization\nThe vendor shall partner with internal product owner to configure and extend Dynamics 365\nto meet business requirements, including:\n"
+  },
+  {
+   "id": "p3-s4",
+   "page": 3,
+   "start": 861,
+   "end": 1175,
+   "chars": 314,
+   "text": "\n\n\n\n\n\nRe‑implementation or refactoring of existing customizations\nMigration from unsupported plugins or code to supported cloud patterns\nImplementation of Power Automate flows, Power Apps, and business rules as\nappropriate\nConfiguration of security roles, teams, and field‑level security\nSetup of dashboards, "
+  },
+  {
+   "id": "p3-s5",
+   "page": 3,
+   "start": 1175,
+   "end": 1404,
+   "chars": 229,
+   "text": "views, and reporting\n\nWhere feasible, the vendor is expected to contrast simplification and modernization to\ndirect “lift‑and‑shift” replication of legacy functionality for the internal product team’s\nconsideration and decision.\n"
+  },
+  {
+   "id": "p3-s6",
+   "page": 3,
+   "start": 1405,
+   "end": 1689,
+   "chars": 284,
+   "text": "4.4 Data Migration\nThe vendor shall plan and support internal team in executing secure and accurate data\nmigration activities, including:\n\n\n\n\n\n\n\nData mapping and transformation\nData cleansing and validation\nMigration of core and related entities\nHandling of attachments, notes, "
+  },
+  {
+   "id": "p3-s7",
+   "page": 3,
+   "start": 1689,
+   "end": 1929,
+   "chars": 240,
+   "text": "and activities\nReconciliation and data quality verification\nSupport for multiple test migrations prior to production cutover\n\nThe vendor shall create a plan to ensure data integrity, auditability, and minimal downtime\nduring final cutover.\n"
+  },
+  {
+   "id": "p3-s8",
+   "page": 3,
+   "start": 1929,
+   "end": 1930,
+   "chars": 1,
+   "text": "3"
+  },
+  {
+   "id": "p4-s0",
+   "page": 4,
+   "start": 0,
+   "end": 306,
+   "chars": 306,
+   "text": "4.5 Integration, Migration and Validation\nThe vendor shall partner with internal software engineering team to migrate, redesign, or\nreplace integrations with external systems, including:\n\n\n\n\nERP, finance, marketing automation, and customer support systems\nCustom applications and data warehouses\nEmail, "
+  },
+  {
+   "id": "p4-s1",
+   "page": 4,
+   "start": 306,
+   "end": 462,
+   "chars": 156,
+   "text": "document management, and collaboration tools\n\nAll integrations must comply with Microsoft‑supported cloud integration patterns and\nsecurity best practices.\n"
+  },
+  {
+   "id": "p4-s2",
+   "page": 4,
+   "start": 463,
+   "end": 619,
+   "chars": 156,
+   "text": "4.6 Testing and Quality Assurance\nThe vendor shall partner with internal product owners to develop and execute a\ncomprehensive testing strategy, including:\n"
+  },
+  {
+   "id": "p4-s3",
+   "page": 4,
+   "start": 619,
+   "end": 890,
+   "chars": 271,
+   "text": "\n\n\n\n\n\nUnit and system testing\nIntegration testing\nUser acceptance testing (UAT) support\nPerformance and scalability testing (as applicable)\nSecurity and role‑based access testing\n\nDefects must be documented, prioritized, and resolved prior to production deployment.\n"
+  },
+  {
+   "id": "p4-s4",
+   "page": 4,
+   "start": 890,
+   "end": 993,
+   "chars": 103,
+   "text": "Energy Trust product owner will approve acceptable resolution of defects in collaboration\nwith vendor.\n"
+  },
+  {
+   "id": "p4-s5",
+   "page": 4,
+   "start": 994,
+   "end": 1159,
+   "chars": 165,
+   "text": "4.7 Training and Change Management\nThe vendor shall support organizational adoption through co-development (with internal\nproduct owner) of the following artifacts:\n"
+  },
+  {
+   "id": "p4-s6",
+   "page": 4,
+   "start": 1159,
+   "end": 1473,
+   "chars": 314,
+   "text": "\n\n\n\n\nAdministrator and power‑user training\nEnd‑user training materials and sessions tailored to Energy Trust’s environment\nKnowledge transfer to internal IT teams\nDocumentation covering configuration, integrations, and support procedures\n\n4.8 Go‑Live and Post‑Implementation Support\nThe vendor shall provide:\n4"
+  },
+  {
+   "id": "p5-s0",
+   "page": 5,
+   "start": 0,
+   "end": 171,
+   "chars": 171,
+   "text": "\n\n\n\n\nCutover planning and execution support\nGo‑live readiness assessment\nActive support period following go‑live\nTransition to steady‑state support and operations\n\n5. "
+  },
+  {
+   "id": "p5-s1",
+   "page": 5,
+   "start": 171,
+   "end": 315,
+   "chars": 144,
+   "text": "Project Management and Governance\nEnergy Trust will provide a dedicated project manager and follow a structured project\nmanagement methodology. "
+  },
+  {
+   "id": "p5-s2",
+   "page": 5,
+   "start": 315,
+   "end": 513,
+   "chars": 198,
+   "text": "If additional project management is proposed by the vendor,\nthe proposal should describe:\n\n\n\n\nProject governance model\nCommunication and reporting approach\nRisk and issue management approach\n\n6. "
+  },
+  {
+   "id": "p5-s3",
+   "page": 5,
+   "start": 513,
+   "end": 802,
+   "chars": 289,
+   "text": "Vendor Qualifications\nVendors should demonstrate:\n\n\n\n\n\nProven experience migrating on‑premises Microsoft CRM to Dynamics 365 cloud\nMicrosoft partner status and relevant certifications\nExperience with organizations of similar size and complexity\nReferences from comparable projects\n\n7. "
+  },
+  {
+   "id": "p5-s4",
+   "page": 5,
+   "start": 802,
+   "end": 874,
+   "chars": 72,
+   "text": "Proposal Submission Requirements\nResponses must be submitted via email. "
+  },
+  {
+   "id": "p5-s5",
+   "page": 5,
+   "start": 874,
+   "end": 1000,
+   "chars": 126,
+   "text": "A maximum length of 15 pages (does not include\nrequired Representations and Signature page or cover letter) will be accepted.\n"
+  },
+  {
+   "id": "p5-s6",
+   "page": 5,
+   "start": 1000,
+   "end": 1103,
+   "chars": 103,
+   "text": "You must disclose any direct or indirect, actual or potential conflicts of interest with Energy\nTrust.\n"
+  },
+  {
+   "id": "p5-s7",
+   "page": 5,
+   "start": 1103,
+   "end": 1293,
+   "chars": 190,
+   "text": "Include a signed and completed Representations and Signature page, in the form attached\nto this RFQ as Appendix B, certifying the representations stated therein (outside the 15-page\nlimit).\n"
+  },
+  {
+   "id": "p5-s8",
+   "page": 5,
+   "start": 1293,
+   "end": 1407,
+   "chars": 114,
+   "text": "Proposals must include:\n\n\n\nCover letter describing your company’s background and proficiency\nExecutive summary\n5"
+  },
+  {
+   "id": "p6-s0",
+   "page": 6,
+   "start": 0,
+   "end": 197,
+   "chars": 197,
+   "text": "\n\n\n\n\n\nDetailed approach and methodology\nScope assumptions and exclusions\nProject timeline and resource plan\nPricing and licensing assumptions\nRisk identification and mitigation strategies\n\n8. "
+  },
+  {
+   "id": "p6-s1",
+   "page": 6,
+   "start": 197,
+   "end": 394,
+   "chars": 197,
+   "text": "RFP Schedule\nScheduled Activity\nEnergy Trust issues Request for Proposals\nDeadline for respondent ques ons and requests for\naddi onal informa on (via email only, to\nkevin.hoﬀmann@energytrust.org). "
+  },
+  {
+   "id": "p6-s2",
+   "page": 6,
+   "start": 394,
+   "end": 494,
+   "chars": 100,
+   "text": "All ques ons\nand answers will be posted at\nAbout: Contrac ng Opportuni es - Energy Trust of\nOregon.\n"
+  },
+  {
+   "id": "p6-s3",
+   "page": 6,
+   "start": 494,
+   "end": 731,
+   "chars": 237,
+   "text": "RFP responses due by 5:00 p.m. PDT\nInterviews/reference checks with top respondents\n(if held)\nEnergy Trust selec on team enters into contrac ng\nwith successful responder\n\nDate\n3/30/2026\n4/15/2026\n\n4/29/2026\n5/18 – 5/29/2026\n6/8/2026\n\n9. "
+  },
+  {
+   "id": "p6-s4",
+   "page": 6,
+   "start": 731,
+   "end": 880,
+   "chars": 149,
+   "text": "Selection Criteria\nResponse selection will be the sole responsibility of Energy Trust and will be undertaken at\nthe sole discretion of Energy Trust. "
+  },
+  {
+   "id": "p6-s5",
+   "page": 6,
+   "start": 880,
+   "end": 1007,
+   "chars": 127,
+   "text": "Responses may be eliminated from consideration at\nEnergy Trust’s sole discretion for any reason, including but not limited to:\n"
+  },
+  {
+   "id": "p6-s6",
+   "page": 6,
+   "start": 1007,
+   "end": 1322,
+   "chars": 315,
+   "text": "•\n•\n•\n•\n\nThe response is substantially incomplete or exceeds page limits\nThe response does not address the objectives and requirements of this RFP\nResponse is inconsistent with Energy Trust policies or requirements\nA conflict of interest exists that cannot be mitigated\n\nResponses will be evaluated by the following"
+  },
+  {
+   "id": "p6-s7",
+   "page": 6,
+   "start": 1322,
+   "end": 1584,
+   "chars": 262,
+   "text": " criteria:\n•\n•\n•\n\nQuality of Response - Clarity and completeness\nCapabilities - Demonstrated capability to provide the services sought\nPricing – Competitiveness and clarity\n\nEnergy Trust also reserves the right to change the criteria used to evaluate responses.\n"
+  },
+  {
+   "id": "p6-s8",
+   "page": 6,
+   "start": 1584,
+   "end": 1696,
+   "chars": 112,
+   "text": "Responding companies may inquire about the status of their response via email\n(kevin.hoffmann@energytrust.org). "
+  },
+  {
+   "id": "p6-s9",
+   "page": 6,
+   "start": 1696,
+   "end": 1750,
+   "chars": 54,
+   "text": "Specifically, they may inquire about the receipt and\n6"
+  },
+  {
+   "id": "p7-s0",
+   "page": 7,
+   "start": 0,
+   "end": 115,
+   "chars": 115,
+   "text": "condition of response materials and receive an update as to whether their responses are\nstill under consideration. "
+  },
+  {
+   "id": "p7-s1",
+   "page": 7,
+   "start": 115,
+   "end": 203,
+   "chars": 88,
+   "text": "All responding companies will receive notification when a\ncontractor has been selected.\n"
+  },
+  {
+   "id": "p7-s2",
+   "page": 7,
+   "start": 204,
+   "end": 208,
+   "chars": 4,
+   "text": "10.\n"
+  },
+  {
+   "id": "p7-s3",
+   "page": 7,
+   "start": 209,
+   "end": 474,
+   "chars": 265,
+   "text": "Terms and Conditions\n\nEnergy Trust reserves the right, in its sole discretion, to reject any or all responses in whole\nor in part, to waive any minor irregularities or informalities in a response, and to enter into\nany agreement deemed to be in its best interests. "
+  },
+  {
+   "id": "p7-s4",
+   "page": 7,
+   "start": 474,
+   "end": 743,
+   "chars": 269,
+   "text": "In addition to any other enumerated\nreserved rights and/or options as stated in this RFP, Energy Trust may in its sole discretion\ndo any one or more of the following:\n•\n•\n•\n•\n\n•\n•\n•\n•\n•\n\nDetermine which responses are eligible for consideration in response to this RFP.\n"
+  },
+  {
+   "id": "p7-s5",
+   "page": 7,
+   "start": 743,
+   "end": 799,
+   "chars": 56,
+   "text": "Disqualify responses that do not meet the requirements.\n"
+  },
+  {
+   "id": "p7-s6",
+   "page": 7,
+   "start": 799,
+   "end": 849,
+   "chars": 50,
+   "text": "Negotiate with respondents to amend any response.\n"
+  },
+  {
+   "id": "p7-s7",
+   "page": 7,
+   "start": 849,
+   "end": 1090,
+   "chars": 241,
+   "text": "Select and negotiate and/or enter into agreements with respondents who are most\nresponsive to the RFP and whose responses best satisfy the interests of Energy Trust\nand not necessarily on the basis of price alone or any other single factor.\n"
+  },
+  {
+   "id": "p7-s8",
+   "page": 7,
+   "start": 1090,
+   "end": 1258,
+   "chars": 168,
+   "text": "Issue additional subsequent solicitations for responses, including withdrawing this\nRFP at any time and/or issuing a new RFP that would supersede and replace this one.\n"
+  },
+  {
+   "id": "p7-s9",
+   "page": 7,
+   "start": 1258,
+   "end": 1337,
+   "chars": 79,
+   "text": "Vary any timetable or schedule, add or change any provisions discussed herein.\n"
+  },
+  {
+   "id": "p7-s10",
+   "page": 7,
+   "start": 1337,
+   "end": 1418,
+   "chars": 81,
+   "text": "Conduct any briefing session or further RFP process on any terms and conditions.\n"
+  },
+  {
+   "id": "p7-s11",
+   "page": 7,
+   "start": 1418,
+   "end": 1465,
+   "chars": 47,
+   "text": "Suspend or modify the RFP process at any time.\n"
+  },
+  {
+   "id": "p7-s12",
+   "page": 7,
+   "start": 1465,
+   "end": 1521,
+   "chars": 56,
+   "text": "Enter into relationships with more than one respondent.\n"
+  },
+  {
+   "id": "p7-s13",
+   "page": 7,
+   "start": 1522,
+   "end": 1720,
+   "chars": 198,
+   "text": "10.1 Confidentiality\nRespondents shall clearly identify only those portions of their proposals that they do not\nwant revealed to third parties and label such portions as “Confidential Information”. "
+  },
+  {
+   "id": "p7-s14",
+   "page": 7,
+   "start": 1720,
+   "end": 1840,
+   "chars": 120,
+   "text": "Except\nas required under law or for regulatory purposes Energy Trust will maintain confidentiality\nof such information. "
+  },
+  {
+   "id": "p7-s15",
+   "page": 7,
+   "start": 1840,
+   "end": 2048,
+   "chars": 208,
+   "text": "Energy Trust will not accept proposals or other documents that are\nmarked to indicate the entire document is the confidential or proprietary information of the\nsender or that restricted handling is required. "
+  },
+  {
+   "id": "p7-s16",
+   "page": 7,
+   "start": 2048,
+   "end": 2123,
+   "chars": 75,
+   "text": "Normal business practices will be observed in\nhandling proposal materials. "
+  },
+  {
+   "id": "p7-s17",
+   "page": 7,
+   "start": 2123,
+   "end": 2304,
+   "chars": 181,
+   "text": "Except in the case of litigation or other legal disclosure and/or\naudit requirements, Energy Trust will not disclose information submitted in response to an\nRFP to any third party.\n"
+  },
+  {
+   "id": "p7-s18",
+   "page": 7,
+   "start": 2305,
+   "end": 2306,
+   "chars": 1,
+   "text": "7"
+  },
+  {
+   "id": "p8-s0",
+   "page": 8,
+   "start": 0,
+   "end": 261,
+   "chars": 261,
+   "text": "10.2 No Commitment/Resulting Contract\nThis RFP does not constitute an offer by Energy Trust, nor does it commit Energy Trust to\nenter into a contract or similar undertaking with any of the respondents or any organization\nassociated with any of the respondents. "
+  },
+  {
+   "id": "p8-s1",
+   "page": 8,
+   "start": 261,
+   "end": 352,
+   "chars": 91,
+   "text": "Energy Trust reserves the right to enter into\nrelationships with more than one respondent. "
+  },
+  {
+   "id": "p8-s2",
+   "page": 8,
+   "start": 352,
+   "end": 518,
+   "chars": 166,
+   "text": "Energy Trust also reserves the right to\nsuspend or modify the RFP process or to issue a new RFP for the services described that\nwould supersede and replace this one. "
+  },
+  {
+   "id": "p8-s3",
+   "page": 8,
+   "start": 518,
+   "end": 654,
+   "chars": 136,
+   "text": "No binding obligation shall be created unless Energy\nTrust or its representative and the concerned parties execute a binding agreement.\n"
+  },
+  {
+   "id": "p8-s4",
+   "page": 8,
+   "start": 654,
+   "end": 831,
+   "chars": 177,
+   "text": "Final selection implies that Energy Trust and the selected respondent expect to reach a\ncontractual agreement which would outline the roles and responsibilities of all parties. "
+  },
+  {
+   "id": "p8-s5",
+   "page": 8,
+   "start": 831,
+   "end": 964,
+   "chars": 133,
+   "text": "No\naward will be considered a commitment until a written contract has been executed by\nEnergy Trust with the selected respondent(s). "
+  },
+  {
+   "id": "p8-s6",
+   "page": 8,
+   "start": 964,
+   "end": 1007,
+   "chars": 43,
+   "text": "The contract term cannot exceed two years.\n"
+  },
+  {
+   "id": "p8-s7",
+   "page": 8,
+   "start": 1008,
+   "end": 1226,
+   "chars": 218,
+   "text": "10.3 No Reassignment\nAll responses shall state that in the event of an award from Energy Trust, the resulting\ncontract(s) and obligations shall not be sold or reassigned without the written permission of\nEnergy Trust.\n"
+  },
+  {
+   "id": "p8-s8",
+   "page": 8,
+   "start": 1227,
+   "end": 1432,
+   "chars": 205,
+   "text": "10.4 Conflict of Interest Disclosure\nRespondents shall disclose in their response all direct or indirect, actual or potential\nconflicts of interest it or any of their personnel may have with Energy Trust. "
+  },
+  {
+   "id": "p8-s9",
+   "page": 8,
+   "start": 1432,
+   "end": 1651,
+   "chars": 219,
+   "text": "A \"direct or\nindirect conflict\" is defined as any situation in which an individual has or may be reasonably\nconstrued to have a direct or indirect personal or financial interest in any business affairs of\nEnergy Trust, "
+  },
+  {
+   "id": "p8-s10",
+   "page": 8,
+   "start": 1651,
+   "end": 1893,
+   "chars": 242,
+   "text": "whether because of a proposed contract or transaction to which Energy Trust\nmay be a party or may be interested or is under consideration, or whether such conflict is\npurely conceptual, because of similarity of business interests or affairs. "
+  },
+  {
+   "id": "p8-s11",
+   "page": 8,
+   "start": 1893,
+   "end": 2074,
+   "chars": 181,
+   "text": "If such conflict of\ninterest does or may exist at the time respondents submit their proposal, respondents must\ninclude a conflict of interest mitigation strategy in their proposal.\n"
+  },
+  {
+   "id": "p8-s12",
+   "page": 8,
+   "start": 2075,
+   "end": 2177,
+   "chars": 102,
+   "text": "10.5 Validity and Deadlines\nAll responses shall specify the date through which the response is valid. "
+  },
+  {
+   "id": "p8-s13",
+   "page": 8,
+   "start": 2177,
+   "end": 2235,
+   "chars": 58,
+   "text": "At a minimum,\nresponses shall be valid through 8/31/2026.\n"
+  },
+  {
+   "id": "p8-s14",
+   "page": 8,
+   "start": 2236,
+   "end": 2517,
+   "chars": 281,
+   "text": "10.6 Waiver of Claims and Response Costs\nThe candidate waives any right it may have to bring any claim, whether in damages or\nequity, against Energy Trust, its Board, agents, employees or contractors, with respect to\nany matter arising out of any process associated with this RFP. "
+  },
+  {
+   "id": "p8-s15",
+   "page": 8,
+   "start": 2517,
+   "end": 2649,
+   "chars": 132,
+   "text": "This RFP does not obligate\nEnergy Trust to pay any costs incurred by any respondent in the preparation or submission\nof a response. "
+  },
+  {
+   "id": "p8-s16",
+   "page": 8,
+   "start": 2649,
+   "end": 2712,
+   "chars": 63,
+   "text": "Once submitted, responses will not be returned to respondents.\n"
+  },
+  {
+   "id": "p8-s17",
+   "page": 8,
+   "start": 2712,
+   "end": 2713,
+   "chars": 1,
+   "text": "8"
+  },
+  {
+   "id": "p9-s0",
+   "page": 9,
+   "start": 0,
+   "end": 139,
+   "chars": 139,
+   "text": "10.7 RFP Clarification/Interpretation\nAny clarification or interpretation of the RFP documents shall be issued in writing by Energy\nTrust. "
+  },
+  {
+   "id": "p9-s1",
+   "page": 9,
+   "start": 139,
+   "end": 293,
+   "chars": 154,
+   "text": "Oral instructions or information concerning the RFP given out by Energy Trust\nemployees or agents to prospective respondents shall not bind Energy Trust.\n"
+  },
+  {
+   "id": "p9-s2",
+   "page": 9,
+   "start": 294,
+   "end": 396,
+   "chars": 102,
+   "text": "10.8 Additional Information\nEnergy Trust may request additional information prior to final selection.\n"
+  },
+  {
+   "id": "p9-s3",
+   "page": 9,
+   "start": 397,
+   "end": 466,
+   "chars": 69,
+   "text": "APPENDIX A\nCurrent Implementation Details\n\nCurrent Implementation\n1.\n"
+  },
+  {
+   "id": "p9-s4",
+   "page": 9,
+   "start": 466,
+   "end": 469,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p9-s5",
+   "page": 9,
+   "start": 469,
+   "end": 472,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p9-s6",
+   "page": 9,
+   "start": 472,
+   "end": 475,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p9-s7",
+   "page": 9,
+   "start": 475,
+   "end": 478,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p9-s8",
+   "page": 9,
+   "start": 478,
+   "end": 481,
+   "chars": 3,
+   "text": "6.\n"
+  },
+  {
+   "id": "p9-s9",
+   "page": 9,
+   "start": 482,
+   "end": 583,
+   "chars": 101,
+   "text": "Version running: Dynamics Customer Engagement 9.1.37.6\nVersion history: originally implemented 2011.\n"
+  },
+  {
+   "id": "p9-s10",
+   "page": 9,
+   "start": 583,
+   "end": 829,
+   "chars": 246,
+   "text": "Upgraded to 2013, 2016, 8.0, 8.1, 8.2, 9.1\nApplication Server: Windows 2019 Standard\nDatabase SQL Server: Microsoft SQL Server 2019\nFive Environments (each on a separate virtual machine)\no Production\no Staging 2\no Staging\no Test\no Development\n7. "
+  },
+  {
+   "id": "p9-s11",
+   "page": 9,
+   "start": 829,
+   "end": 991,
+   "chars": 162,
+   "text": "Users: 451 total\no 273 Basic/Team level licenses (including 3 service accounts)\no 178 Full / Customer Service or Sales licenses (including 9 service accounts)\n8. "
+  },
+  {
+   "id": "p9-s12",
+   "page": 9,
+   "start": 991,
+   "end": 1250,
+   "chars": 259,
+   "text": "Database (Production) current Size: 1,027,478 MB\no Note: Attachments could be moved out of CRM before\nmigration saving 730,082 MB\nOrganization use of Dynamics Customer Engagement (CRM)\nEnergy Trust serves Utility customers in Oregon and Southwest Washington. "
+  },
+  {
+   "id": "p9-s13",
+   "page": 9,
+   "start": 1250,
+   "end": 1361,
+   "chars": 111,
+   "text": "We distribute\nfunds to individuals and organizations implementing clean energy and energy efficiency\nmeasures. "
+  },
+  {
+   "id": "p9-s14",
+   "page": 9,
+   "start": 1361,
+   "end": 1478,
+   "chars": 117,
+   "text": "We work with Stakeholders and Community Business Owners key to aid in\nsuccessful delivery of value to our customers. "
+  },
+  {
+   "id": "p9-s15",
+   "page": 9,
+   "start": 1478,
+   "end": 1544,
+   "chars": 66,
+   "text": "We have highly customized our CRM\napplication to handle our work.\n"
+  },
+  {
+   "id": "p9-s16",
+   "page": 9,
+   "start": 1544,
+   "end": 1545,
+   "chars": 1,
+   "text": "9"
+  },
+  {
+   "id": "p10-s0",
+   "page": 10,
+   "start": 0,
+   "end": 48,
+   "chars": 48,
+   "text": "In CRM, key tables and functionality we use:\n1.\n"
+  },
+  {
+   "id": "p10-s1",
+   "page": 10,
+   "start": 48,
+   "end": 51,
+   "chars": 3,
+   "text": "2.\n"
+  },
+  {
+   "id": "p10-s2",
+   "page": 10,
+   "start": 51,
+   "end": 54,
+   "chars": 3,
+   "text": "3.\n"
+  },
+  {
+   "id": "p10-s3",
+   "page": 10,
+   "start": 54,
+   "end": 57,
+   "chars": 3,
+   "text": "4.\n"
+  },
+  {
+   "id": "p10-s4",
+   "page": 10,
+   "start": 57,
+   "end": 60,
+   "chars": 3,
+   "text": "5.\n"
+  },
+  {
+   "id": "p10-s5",
+   "page": 10,
+   "start": 60,
+   "end": 63,
+   "chars": 3,
+   "text": "6.\n"
+  },
+  {
+   "id": "p10-s6",
+   "page": 10,
+   "start": 64,
+   "end": 368,
+   "chars": 304,
+   "text": "Accounts - Customers, Stakeholders, Partners, Trade Ally tracking\nActivities - Correspondence with Customers, Stakeholders, Partners\nCases - Support for Customers applying for incentives\nContacts - Includes utility customers, Stakeholders, Partners, Trade Allies\nOpportunities - tracking state, federal, "
+  },
+  {
+   "id": "p10-s7",
+   "page": 10,
+   "start": 368,
+   "end": 508,
+   "chars": 140,
+   "text": "and private funding opportunities\n“Sites” (custom table) - Locations where energy efficiency or clean energy measures\ncan be implemented\n7. "
+  },
+  {
+   "id": "p10-s8",
+   "page": 10,
+   "start": 508,
+   "end": 582,
+   "chars": 74,
+   "text": "Queues - Intake email for customer service, outreach, studies and more\n8. "
+  },
+  {
+   "id": "p10-s9",
+   "page": 10,
+   "start": 582,
+   "end": 787,
+   "chars": 205,
+   "text": "Documents - Attached documents for Accounts, “Sites”, etc. stored in SharePoint\nOnline\n\nCustomization counts\n\n\n\nCustom tables - 30-33 (we may be making 3 into multi-select picklists)\nWeb resources - 64, "
+  },
+  {
+   "id": "p10-s10",
+   "page": 10,
+   "start": 787,
+   "end": 1076,
+   "chars": 289,
+   "text": "plus icons\n\nProcesses\n\n\n\n\n\nBusiness Rules - 44\nDialogs - 13 (to be replaced with Power Automate Flows)\nWorkflows - 75\nCustom plug-ins - 2\n\nCustom Reports\n\n\n\nSSRS - 3\nPower BI - 2\n\nStandard Organization reports reference CRM Production data replicated to a\nseparate reporting server. "
+  },
+  {
+   "id": "p10-s11",
+   "page": 10,
+   "start": 1076,
+   "end": 1111,
+   "chars": 35,
+   "text": "Data is refreshed instantaneously.\n"
+  },
+  {
+   "id": "p10-s12",
+   "page": 10,
+   "start": 1112,
+   "end": 1249,
+   "chars": 137,
+   "text": "Integrations\nOur Dynamics Customer Engagement instance integrates with other On-premises SQL\ndatabases, online applications, webforms\n1. "
+  },
+  {
+   "id": "p10-s13",
+   "page": 10,
+   "start": 1249,
+   "end": 1416,
+   "chars": 167,
+   "text": "Ally Address - Script runs hourly to update Latitude and Longitude on Office\ntype Customer Address records of Trade Ally Accounts via hourly scheduled\nPowerShell job. "
+  },
+  {
+   "id": "p10-s14",
+   "page": 10,
+   "start": 1416,
+   "end": 1495,
+   "chars": 79,
+   "text": "The script updates the latitude & longitude fields\non Customer Address record.\n"
+  },
+  {
+   "id": "p10-s15",
+   "page": 10,
+   "start": 1496,
+   "end": 1498,
+   "chars": 2,
+   "text": "10"
+  },
+  {
+   "id": "p11-s0",
+   "page": 11,
+   "start": 0,
+   "end": 3,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p11-s1",
+   "page": 11,
+   "start": 3,
+   "end": 169,
+   "chars": 166,
+   "text": "CCB - Website (https://ccb.state.or.us/search/) scraped monthly\nvia scheduled PowerShell job updates Contractor license status (1 field) on Account\nrecords in CRM\n3. "
+  },
+  {
+   "id": "p11-s2",
+   "page": 11,
+   "start": 169,
+   "end": 239,
+   "chars": 70,
+   "text": "Contact Service Creates contact records in CRM from web form input\n4. "
+  },
+  {
+   "id": "p11-s3",
+   "page": 11,
+   "start": 239,
+   "end": 362,
+   "chars": 123,
+   "text": "ETO_DW - Data Warehouse: nightly jobs refresh the warehouse with select data\nfrom our various on-premises SQL databases\n5. "
+  },
+  {
+   "id": "p11-s4",
+   "page": 11,
+   "start": 362,
+   "end": 446,
+   "chars": 84,
+   "text": "Exchange Online - Integration with 49 CRM Queues via Dynamics 365 Hybrid\nConnector. "
+  },
+  {
+   "id": "p11-s5",
+   "page": 11,
+   "start": 446,
+   "end": 552,
+   "chars": 106,
+   "text": "The integration relies on Exchange Web Services (EWS) which is being\nremoved from Exchange Online in Oct. "
+  },
+  {
+   "id": "p11-s6",
+   "page": 11,
+   "start": 552,
+   "end": 560,
+   "chars": 8,
+   "text": "2026\n6. "
+  },
+  {
+   "id": "p11-s7",
+   "page": 11,
+   "start": 560,
+   "end": 623,
+   "chars": 63,
+   "text": "Find a Contractor - External-facing webform used by customers. "
+  },
+  {
+   "id": "p11-s8",
+   "page": 11,
+   "start": 623,
+   "end": 670,
+   "chars": 47,
+   "text": "References CRM\ndata to provide search results.\n"
+  },
+  {
+   "id": "p11-s9",
+   "page": 11,
+   "start": 670,
+   "end": 673,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p11-s10",
+   "page": 11,
+   "start": 673,
+   "end": 846,
+   "chars": 173,
+   "text": "MS Great Plains Financials version 18.7 - Weekly scheduled job updates 9 CRM fields\non Contact and Account records -could be replaced with Virtual entity in CRM\n“Vendor”\n8. "
+  },
+  {
+   "id": "p11-s11",
+   "page": 11,
+   "start": 846,
+   "end": 968,
+   "chars": 122,
+   "text": "Import Web form - import of Incentive application\ndata designed and maintained by external web development company, OMBU.\n"
+  },
+  {
+   "id": "p11-s12",
+   "page": 11,
+   "start": 968,
+   "end": 971,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p11-s13",
+   "page": 11,
+   "start": 971,
+   "end": 1036,
+   "chars": 65,
+   "text": "Power BI - CRM Data queried for power users to build reports\n10. "
+  },
+  {
+   "id": "p11-s14",
+   "page": 11,
+   "start": 1036,
+   "end": 1158,
+   "chars": 122,
+   "text": "PowerClerk - Online platform pulls data from CRM database and PT database via API,\nand creates Contact records in CRM\n11. "
+  },
+  {
+   "id": "p11-s15",
+   "page": 11,
+   "start": 1158,
+   "end": 1317,
+   "chars": 159,
+   "text": "Project Tracking (PT) - iframe displays sub grid of 13 columns of data on-premises\nSQL database for in-house built application tracking projects and payments.\n"
+  },
+  {
+   "id": "p11-s16",
+   "page": 11,
+   "start": 1317,
+   "end": 1321,
+   "chars": 4,
+   "text": "12. "
+  },
+  {
+   "id": "p11-s17",
+   "page": 11,
+   "start": 1321,
+   "end": 1403,
+   "chars": 82,
+   "text": "SharePoint Online - Integrates with CRM via Azure (Entra ID) app registration\n13. "
+  },
+  {
+   "id": "p11-s18",
+   "page": 11,
+   "start": 1403,
+   "end": 1505,
+   "chars": 102,
+   "text": "SiteGeo - An API is used to verify and normalize Customer Addresses via Smarty\nStreets and Google\n14. "
+  },
+  {
+   "id": "p11-s19",
+   "page": 11,
+   "start": 1505,
+   "end": 1630,
+   "chars": 125,
+   "text": "SmartConnect Integration platform automates bulk updates to CRM database (6\nweekly, 10 Daily, and 20 Ad-hoc integrations\n15. "
+  },
+  {
+   "id": "p11-s20",
+   "page": 11,
+   "start": 1630,
+   "end": 1769,
+   "chars": 139,
+   "text": "Supplier Diversity - Stored procedure runs nightly to pull CRM Account data into a\nseparate on-premises SQL database tracking contractors.\n"
+  },
+  {
+   "id": "p11-s21",
+   "page": 11,
+   "start": 1769,
+   "end": 1773,
+   "chars": 4,
+   "text": "16. "
+  },
+  {
+   "id": "p11-s22",
+   "page": 11,
+   "start": 1773,
+   "end": 1840,
+   "chars": 67,
+   "text": "Trade Ally Enrollment - External-facing webform used by customers. "
+  },
+  {
+   "id": "p11-s23",
+   "page": 11,
+   "start": 1840,
+   "end": 1960,
+   "chars": 120,
+   "text": "API connects to\nCRM where Account records and other custom table records are created upon\nwebform submissions from TAE.\n"
+  },
+  {
+   "id": "p11-s24",
+   "page": 11,
+   "start": 1960,
+   "end": 1964,
+   "chars": 4,
+   "text": "17. "
+  },
+  {
+   "id": "p11-s25",
+   "page": 11,
+   "start": 1964,
+   "end": 2075,
+   "chars": 111,
+   "text": "Utility Customer Information (UCI) - iframe displays 7 columns of data from separate\nSQL on-premises database.\n"
+  },
+  {
+   "id": "p11-s26",
+   "page": 11,
+   "start": 2075,
+   "end": 2079,
+   "chars": 4,
+   "text": "18. "
+  },
+  {
+   "id": "p11-s27",
+   "page": 11,
+   "start": 2079,
+   "end": 2216,
+   "chars": 137,
+   "text": "UCI - Customer Data imported from utility providers on meters, utility accounts,\naddresses, stored in separate on-premises SQL database.\n"
+  },
+  {
+   "id": "p11-s28",
+   "page": 11,
+   "start": 2217,
+   "end": 2219,
+   "chars": 2,
+   "text": "11"
+  },
+  {
+   "id": "p12-s0",
+   "page": 12,
+   "start": 0,
+   "end": 79,
+   "chars": 79,
+   "text": "APPENDIX B\nREPRESENTATIONS AND SIGNATURE PAGE\nI, the undersigned declare that;\n"
+  },
+  {
+   "id": "p12-s1",
+   "page": 12,
+   "start": 80,
+   "end": 83,
+   "chars": 3,
+   "text": "1. "
+  },
+  {
+   "id": "p12-s2",
+   "page": 12,
+   "start": 83,
+   "end": 197,
+   "chars": 114,
+   "text": "I am an authorized agent of the respondent and have authority to submit this request on\nbehalf of the respondent.\n"
+  },
+  {
+   "id": "p12-s3",
+   "page": 12,
+   "start": 197,
+   "end": 200,
+   "chars": 3,
+   "text": "2. "
+  },
+  {
+   "id": "p12-s4",
+   "page": 12,
+   "start": 200,
+   "end": 291,
+   "chars": 91,
+   "text": "The information provided in this response is true and correct to the best of my knowledge.\n"
+  },
+  {
+   "id": "p12-s5",
+   "page": 12,
+   "start": 291,
+   "end": 294,
+   "chars": 3,
+   "text": "3. "
+  },
+  {
+   "id": "p12-s6",
+   "page": 12,
+   "start": 294,
+   "end": 423,
+   "chars": 129,
+   "text": "I have read this Request for Qualifications in its entirety and agree unconditionally to all of\nits conditions and requirements.\n"
+  },
+  {
+   "id": "p12-s7",
+   "page": 12,
+   "start": 423,
+   "end": 426,
+   "chars": 3,
+   "text": "4. "
+  },
+  {
+   "id": "p12-s8",
+   "page": 12,
+   "start": 426,
+   "end": 550,
+   "chars": 124,
+   "text": "The respondent has not directly or indirectly induced or solicited any other respondent to\nsubmit a false or sham response.\n"
+  },
+  {
+   "id": "p12-s9",
+   "page": 12,
+   "start": 550,
+   "end": 553,
+   "chars": 3,
+   "text": "5. "
+  },
+  {
+   "id": "p12-s10",
+   "page": 12,
+   "start": 553,
+   "end": 662,
+   "chars": 109,
+   "text": "The respondent has not solicited or induced any other person, firm or corporation to refrain\nfrom proposing.\n"
+  },
+  {
+   "id": "p12-s11",
+   "page": 12,
+   "start": 662,
+   "end": 665,
+   "chars": 3,
+   "text": "6. "
+  },
+  {
+   "id": "p12-s12",
+   "page": 12,
+   "start": 665,
+   "end": 786,
+   "chars": 121,
+   "text": "The respondent has not sought by collusion to obtain for itself any advantage over any other\nrespondent or Energy Trust.\n"
+  },
+  {
+   "id": "p12-s13",
+   "page": 12,
+   "start": 786,
+   "end": 789,
+   "chars": 3,
+   "text": "7. "
+  },
+  {
+   "id": "p12-s14",
+   "page": 12,
+   "start": 789,
+   "end": 827,
+   "chars": 38,
+   "text": "The respondent’s response is genuine; "
+  },
+  {
+   "id": "p12-s15",
+   "page": 12,
+   "start": 827,
+   "end": 918,
+   "chars": 91,
+   "text": "not made in the interest of, or on behalf of, any\nundisclosed person, firm or corporation; "
+  },
+  {
+   "id": "p12-s16",
+   "page": 12,
+   "start": 918,
+   "end": 1036,
+   "chars": 118,
+   "text": "and is not submitted in conformity with an\nagreement of rules of any group, association, organization or corporation.\n"
+  },
+  {
+   "id": "p12-s17",
+   "page": 12,
+   "start": 1036,
+   "end": 1039,
+   "chars": 3,
+   "text": "8. "
+  },
+  {
+   "id": "p12-s18",
+   "page": 12,
+   "start": 1039,
+   "end": 1318,
+   "chars": 279,
+   "text": "I understand and accept that the approval or rejection of respondent's response is within\nthe sole discretion of Energy Trust and that there is no legal commitment until all due\ndiligence has been performed and a properly authorized contract has been duly and\nproperly executed.\n"
+  },
+  {
+   "id": "p12-s19",
+   "page": 12,
+   "start": 1318,
+   "end": 1321,
+   "chars": 3,
+   "text": "9. "
+  },
+  {
+   "id": "p12-s20",
+   "page": 12,
+   "start": 1321,
+   "end": 1547,
+   "chars": 226,
+   "text": "I authorize the representatives of Energy Trust to investigate the business history of the\nrespondents, its affiliates, and all associated partners, principals and management and\nauthorize the release of all said information.\n"
+  },
+  {
+   "id": "p12-s21",
+   "page": 12,
+   "start": 1547,
+   "end": 1551,
+   "chars": 4,
+   "text": "10. "
+  },
+  {
+   "id": "p12-s22",
+   "page": 12,
+   "start": 1551,
+   "end": 1729,
+   "chars": 178,
+   "text": "I agree that I will report immediately in writing to Energy Trust any changes to the\ninformation contained herein at any time while respondent’s response is under\nconsideration.\n"
+  },
+  {
+   "id": "p12-s23",
+   "page": 12,
+   "start": 1729,
+   "end": 1942,
+   "chars": 213,
+   "text": "The information contained in this response and any part thereof, including its\nexhibits, schedules and other documents and instruments delivered or to be delivered\nto Energy Trust, is true, accurate and complete. "
+  },
+  {
+   "id": "p12-s24",
+   "page": 12,
+   "start": 1942,
+   "end": 2102,
+   "chars": 160,
+   "text": "This response includes all\ninformation necessary to ensure that the statements therein do not in whole or in part\nmislead Energy Trust as to any material fact.\n"
+  },
+  {
+   "id": "p12-s25",
+   "page": 12,
+   "start": 2102,
+   "end": 2176,
+   "chars": 74,
+   "text": "Date:\nRespondent Firm Name:\nAuthorized Signature:\nPrinted Name:\nTitle:\n\n12"
+  }
+ ],
+ "meta": {
+  "source_path_kind": "fixtures/",
+  "page_count": 12
+ }
+}

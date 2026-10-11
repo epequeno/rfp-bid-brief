@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Report the state of the frozen inputs, and name what does not exist yet.
+# Report the state of the frozen inputs *and* the pipeline stages, naming the ones that do not
+# exist yet.
 #
 # This repository's value depends on the ordering in adr/0003, so the inability to run a stage is
-# reported as loudly as the ability to run it. A status command that only lists what works is a
+# reported as loudly as the ability to run it. A status command that lists only what works is a
 # status command that hides the gap.
 
 set -uo pipefail
@@ -14,7 +15,10 @@ echo "frozen inputs:"
 profile_id="$(python3 -c 'import json;print(json.load(open("bidder-profile.json"))["profile_id"])' 2>/dev/null || true)"
 printf '  %-22s %s\n' "bidder-profile.json" "${profile_id:-MISSING OR INVALID}"
 
-printf '  %-22s %s PDFs\n' "fixtures" "$(ls -1 fixtures/*.pdf 2>/dev/null | wc -l | tr -d ' ')"
+printf '  %-22s %s PDFs, %s indexed\n' \
+  "fixtures" \
+  "$(ls -1 fixtures/*.pdf 2>/dev/null | wc -l | tr -d ' ')" \
+  "$(ls -1 results/spans/*.json 2>/dev/null | wc -l | tr -d ' ')"
 
 if [ -f fixtures/labels.json ]; then
   printf '  %-22s %s\n' "labels" "$(python3 - <<'PY' 2>/dev/null || echo 'present, unreadable'
@@ -30,5 +34,22 @@ fi
 printf '  %-22s %s\n' "operating point" "tau = 0.50, pre-registered (adr/0003)"
 
 echo ""
-echo "not built: pipeline (parse / extract / decide / brief), eval harness, static site, MCP surface"
+echo "pipeline:"
+
+if [ -n "$(ls -1 results/spans/*.json 2>/dev/null)" ]; then
+  spans_total="$(python3 - <<'PY' 2>/dev/null || echo '?'
+import glob, json
+print(sum(json.load(open(p))["span_count"] for p in glob.glob("results/spans/*.json")))
+PY
+)"
+  printf '  %-22s %s\n' "parse (span index)" "built — ${spans_total} spans, adr/0004"
+else
+  printf '  %-22s %s\n' "parse (span index)" "NOT BUILT"
+fi
+
+for stage in "extract" "decide" "brief" "eval harness" "static site" "MCP surface"; do
+  printf '  %-22s %s\n' "$stage" "not built"
+done
+
+echo ""
 echo "ordering that gates them: README.md § Status, and adr/0003"
