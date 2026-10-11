@@ -30,3 +30,4 @@ Consequences.
 | [0008](0008-two-decision-models-are-callable.md) | Two decision models are callable today, on a surface the probe did not know about | accepted |
 | [0009](0009-the-decision-layer-is-a-census.md) | The decision layer is a census, not a choice, and both judges see the same profile | accepted |
 | [0010](0010-repeat-the-census.md) | Repeat the census, and publish a range wherever the repeats disagree | accepted |
+| [0011](0011-the-contested-fixture-is-a-finding.md) | The contested fixture is a finding, not a defect to be resolved | accepted |

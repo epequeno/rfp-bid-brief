@@ -64,12 +64,33 @@ measurement disagrees stops being a record of what was decided.
 
 ### 3. The Energy Trust split — **a decision for the owner** (see below)
 
-### 4. Grow the fixture set — the only real fix for the statistics (needs labelling time)
+### 4. Grow the fixture set — the only real fix for the statistics *(in progress)*
 
 Fourteen models over eleven fixtures does not add statistical power. The fix is fixtures, weighted
 toward **in-scope** solicitations: the set is 4 bid / 11 today, and positives are what precision and
-calibration need. The agent can source and extract; the labels are the owner's, and that is the real
-cost — roughly an hour per five fixtures.
+calibration need.
+
+**Round 3 is sourced, verified and staged — awaiting a decision.** Seven new candidates (8.3 MB,
+HTTP 200, real text layers, no employer/client relationship, no vendor responses) sit in
+`outbox/2026-10-11-fixture-expansion/candidates/` with proposed labels and evidence per document in
+`CANDIDATES.md`. Two are bid-likely, five are not, and **that ratio is the finding**: the bid-likely
+shape for this firm is rare in the public record, and most solicitations are product purchases,
+managed-service contracts or staff augmentation — all three of which the profile excludes.
+
+So the open question is not sourcing but *what the evaluation is*: represent the base rate, or enrich
+deliberately and **say so in the README**. The recommendation in the candidates document is to enrich
+and declare it, because the purpose is a checkable decision layer rather than a base-rate estimate.
+
+Two things that round will need from the owner: **the labels** (30–45 minutes, pre-filled proposals to
+confirm or overturn) and **a decision on a fifth exclusion class** — *not qualified / not eligible* —
+which two freshly found documents require and which no existing class can express. Adding it changes
+`bidder-profile.json` and therefore means a new freeze under ADR 0002.
+
+Search targets that have worked, for any later round: *strategic plan / master plan / roadmap /
+assessment* solicitations from small agencies; AI **enablement** (capacity, governance, evaluation)
+rather than AI procurement; data commons and interoperability rather than "a platform". Observability,
+SRE and Kubernetes solicitations were searched four ways and produced nothing usable — which is
+informative about what a portfolio built on those can claim.
 
 ### 5. Packaging, once the numbers stop moving
 
