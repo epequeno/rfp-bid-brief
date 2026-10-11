@@ -84,7 +84,17 @@ PY
 )"
 fi
 
-for stage in "probability channel (Jev)" "eval harness" "static site" "MCP surface"; do
+if [ -f results/calibration.json ]; then
+  printf '  %-22s %s\n' "decision census" "$(python3 -c "
+import json
+c = json.load(open('results/calibration.json'))
+perfect = sum(1 for m in c['models'] if m['correct_at_tau'] == m['answered'])
+d = c['disagreement']
+print(f\"{len(c['models'])} models x {c['sample']['fixtures']} fixtures, {perfect} perfect at tau, \"
+      f\"{d['unanimous']} unanimous / {d['split']} split (adr/0009)\")")"
+fi
+
+for stage in "eval harness" "static site" "MCP surface"; do
   printf '  %-22s %s\n' "$stage" "not built"
 done
 

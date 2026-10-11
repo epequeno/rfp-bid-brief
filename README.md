@@ -41,6 +41,8 @@ What exists today:
 | `results/model-pass.md` | Every model pass, the spread across three identical runs, and the wrong calls with their diagnoses. |
 | `results/variance.json` | Per-fixture outcome stability: which documents this pipeline can be trusted on. |
 | `extractions/repeats/run-1..3/` | The three runs behind that spread. The canonical set is run 1 — the first draw, not the best-scoring one. |
+| `results/decisions.json` · `results/census/` | The decision census: every served decision model asked the same frozen question about every fixture. Archived content-addressed, so a re-run cannot replace a measurement. |
+| `results/calibration.json` | Per-model calibration at the pre-registered tau, and where the census disagrees. |
 
 ```bash
 just                    # list the recipes

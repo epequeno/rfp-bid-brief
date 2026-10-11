@@ -18,7 +18,8 @@ import re
 import sys
 from pathlib import Path
 
-from . import brief, decide, evaluate, extract, model_extractor, providers, spans, variance
+from . import (brief, calibrate, decide, decision_model, evaluate, extract,
+               model_extractor, providers, spans, variance)
 from .spans import collapse_ws
 
 REPO = Path(__file__).resolve().parents[2]
@@ -369,6 +370,73 @@ def cmd_provider(args: argparse.Namespace) -> int:
     return 0 if p.callable_now else 1
 
 
+def _labels_and_profile() -> tuple[dict, dict]:
+    labels = json.loads((REPO / "fixtures" / "labels.json").read_text(encoding="utf-8"))
+    profile = json.loads((REPO / "bidder-profile.json").read_text(encoding="utf-8"))
+    return labels, profile
+
+
+def cmd_census(args: argparse.Namespace) -> int:
+    """Ask every eligible decision model about every fixture, on one frozen request."""
+    labels, profile = _labels_and_profile()
+    tau = float(labels["operating_point_tau"])
+    candidates, taken = decision_model.census()
+    eligible = [c for c in candidates if c.eligible]
+    print(f"census taken {taken}: {len(candidates)} entries, {len(eligible)} eligible")
+    for c in candidates:
+        if not c.eligible:
+            print(f"  excluded  {c.canonical:<46} {c.excluded_because}")
+    if args.dry_run:
+        print(f"\nwould ask {len(eligible)} models about {len(labels['labels'])} fixtures "
+              f"= {len(eligible) * len(labels['labels'])} decisions")
+        return 0
+
+    fixtures = []
+    for entry in labels["labels"]:
+        path = FIXTURES / entry["fixture"]
+        doc = spans.build(path, fixture_name=entry["fixture"])
+        fixtures.append((doc, extract.for_fixture(doc)))
+    print(f"\nasking {len(eligible)} models × {len(fixtures)} fixtures...")
+    result = decision_model.run(fixtures, profile, candidates, tau, taken)
+    payload = result.to_json()
+    out = Path(args.out) if args.out else REPO / "results" / "decisions.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(payload, indent=1) + "\n", encoding="utf-8")
+    # Archive under a content-addressed name: a re-run with a changed state must not silently
+    # replace the previous measurement, which is exactly the mistake this repository criticises.
+    archive = REPO / "results" / "census" / f"{taken}-{payload['state_sha256'][:12]}.json"
+    archive.parent.mkdir(parents=True, exist_ok=True)
+    archive.write_text(json.dumps(payload, indent=1) + "\n", encoding="utf-8")
+    print(f"  archived as {_display(archive)}")
+    ok = sum(1 for a in result.answers if a["noul"] is not None)
+    cost = sum(float(a.get("cost") or 0) for a in result.answers)
+    print(f"  {ok}/{len(result.answers)} answered · total cost ${cost:.6f}")
+    print(f"→ {_display(out)}", file=sys.stderr)
+    return 0 if ok else 1
+
+
+def cmd_calibration(args: argparse.Namespace) -> int:
+    """Per-model calibration and cross-model agreement, at the pre-registered tau."""
+    labels, _ = _labels_and_profile()
+    src = Path(args.decisions) if args.decisions else REPO / "results" / "decisions.json"
+    if not src.exists():
+        print(f"no census at {src} — run `rfpbrief census` first", file=sys.stderr)
+        return 2
+    decisions = json.loads(src.read_text(encoding="utf-8"))
+    tau = float(decisions.get("operating_point_tau", labels["operating_point_tau"]))
+    scores = calibrate.score(labels, decisions)
+    if not scores:
+        print("census has no answered decisions", file=sys.stderr)
+        return 1
+    dis = calibrate.disagreement(decisions)
+    out = Path(args.out) if args.out else REPO / "results" / "calibration.json"
+    out.write_text(json.dumps(calibrate.to_json(scores, dis, tau), indent=1) + "\n", encoding="utf-8")
+    if not args.quiet:
+        print(calibrate.render(scores, dis, tau))
+    print(f"→ {_display(out)}", file=sys.stderr)
+    return 0
+
+
 def cmd_stats(args: argparse.Namespace) -> int:
     doc = spans.build(Path(args.fixture), fixture_name=Path(args.fixture).name)
     lengths = sorted(len(s.text) for s in doc.spans)
@@ -464,6 +532,17 @@ def main(argv: list[str] | None = None) -> int:
     pv = sub.add_parser("provider", help="is the intended decision model callable yet?")
     pv.add_argument("--model", default=providers.WANTED)
     pv.set_defaults(func=cmd_provider)
+
+    ce = sub.add_parser("census", help="ask every eligible decision model about every fixture")
+    ce.add_argument("--out", help="output path (default results/decisions.json)")
+    ce.add_argument("--dry-run", action="store_true", help="list the census without calling it")
+    ce.set_defaults(func=cmd_census)
+
+    cal = sub.add_parser("calibration", help="per-model calibration and cross-model agreement")
+    cal.add_argument("--decisions", help="census output (default results/decisions.json)")
+    cal.add_argument("--out", help="output path (default results/calibration.json)")
+    cal.add_argument("--quiet", action="store_true")
+    cal.set_defaults(func=cmd_calibration)
 
     args = ap.parse_args(argv)
     return args.func(args)
