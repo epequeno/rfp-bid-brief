@@ -1,0 +1,96 @@
+{
+  "fixture": "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Kansas City Kansas Community College",
+      "citations": [
+        {
+          "span_id": "p3-s0",
+          "page": 3,
+          "quote": "KANSAS CITY KANSAS COMMUNITY COLLEGE PAGE 4 INSTRUCTIONS FOR SUBMITTING PROPOSAL PAGE 5 SCOPE OF SERVICES / PROPOSAL REQUIREMENTS PAGE 8 GENERAL TERMS AND CONDITIONS PAGE 17 3"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Institutional data warehouse and analytics platform",
+      "citations": [
+        {
+          "span_id": "p8-s12",
+          "page": 8,
+          "quote": "seeking a platform that improves data utilization across the institution, supporting consistent decision-making and coordinated action across academic, student support, enrollment, and institutional effectiveness functions."
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "project",
+      "citations": [
+        {
+          "span_id": "p7-s10",
+          "page": 7,
+          "quote": "would be assigned to this project to provide the services described in the Scope of Work, highlighting the primary point of contact for the College."
+        }
+      ],
+      "kind": "enum"
+    },
+    "requires_product_supply": {
+      "value": true,
+      "citations": [
+        {
+          "span_id": "p9-s3",
+          "page": 9,
+          "quote": "seeking transparent, pre-delivered analytics that surface historical patterns and leading indicators in an interpretable way, supporting targeted interventions and allowing the college to evaluate impact over time."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p8-s12",
+          "page": 8,
+          "quote": "improves data utilization across the institution, supporting consistent decision-making and coordinated action across academic, student support, enrollment, and institutional effectiveness functions."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p8-s12",
+          "page": 8,
+          "quote": "supporting consistent decision-making and coordinated action across academic, student support, enrollment, and institutional effectiveness functions."
+        }
+      ],
+      "kind": "bool"
+    },
+    "functional_stacks": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p8-s0",
+          "page": 8,
+          "quote": "collecting and reporting institutional data, but the college continues to face challenges in translating data into timely,"
+        }
+      ],
+      "kind": "list"
+    },
+    "eligibility_gates": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p6-s8",
+          "page": 6,
+          "quote": "Approach to the Scope of Services."
+        }
+      ],
+      "kind": "list"
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Every value carries the span that grounds it; quotes are sliced out of the span index programmatically rather than typed, because these documents contain non-breaking hyphens. The issuer is buying a platform -- 'seeking a platform that improves data utilization', 'transparent, pre-delivered analytics' -- with implementation around it. Product-shaped, matching capacity/statement-of-work framing elsewhere in the document.",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

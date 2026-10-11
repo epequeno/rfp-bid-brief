@@ -1,0 +1,96 @@
+{
+  "fixture": "savec-alaska-managed-it-services-2026.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Southwest Alaska Vocational & Educational Center (SAVEC)",
+      "citations": [
+        {
+          "span_id": "p1-s5",
+          "page": 1,
+          "quote": "SAVEC seeks a responsive, proactive technology partner capable of providing remote and on-site support, cybersecurity, network administration, technology planning, user support, and strategic guidance."
+        }
+      ]
+    },
+    "subject": {
+      "value": "Managed IT services: help desk, network administration, on-site support",
+      "citations": [
+        {
+          "span_id": "p1-s5",
+          "page": 1,
+          "quote": "remote and on-site support, cybersecurity, network administration, technology planning, user support, and strategic guidance"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "continuous_operations",
+      "citations": [
+        {
+          "span_id": "p2-s16",
+          "page": 2,
+          "quote": "Help Desk support (remote and on-site)."
+        }
+      ],
+      "kind": "enum"
+    },
+    "requires_product_supply": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p3-s18",
+          "page": 3,
+          "quote": "Software licensing recommendations."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_recurring_onsite": {
+      "value": true,
+      "citations": [
+        {
+          "span_id": "p5-s4",
+          "page": 5,
+          "quote": "Hourly On-Site Support $______ Emergency After-Hours Support $______ Travel Rate $______ New Computer Setup $______ New User Setup $______ Additional Workstation (Monthly) $______ Additional User"
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p5-s4",
+          "page": 5,
+          "quote": "Emergency After-Hours Support $______ Travel Rate $______ New Computer Setup $______ New User Setup $______ Additional Workstation (Monthly) $______ Additional User"
+        }
+      ],
+      "kind": "bool"
+    },
+    "functional_stacks": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p3-s18",
+          "page": 3,
+          "quote": "Software licensing recommendations."
+        }
+      ],
+      "kind": "list"
+    },
+    "eligibility_gates": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p4-s11",
+          "page": 4,
+          "quote": "Proof of insurance and business license 10."
+        }
+      ],
+      "kind": "list"
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Every value carries the span that grounds it; quotes are sliced out of the span index programmatically rather than typed, because these documents contain non-breaking hyphens. Five pages, 103 spans -- the thinnest fixture in the set. Monthly managed services with hourly on-site support: continuous operations with a standing on-site element. Emergency after-hours support is priced but the text does not commit it to on-site, so requires_emergency_onsite_response stays false.",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

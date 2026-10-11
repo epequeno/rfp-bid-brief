@@ -1,0 +1,96 @@
+{
+  "fixture": "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf",
+  "facts": {
+    "issuer": {
+      "value": "College of Western Idaho",
+      "citations": [
+        {
+          "span_id": "p4-s20",
+          "page": 4,
+          "quote": "College of Western Idaho Attn: Daniel Reines, Procurement Coordinator Re: RFP 05-2024 AI Software 6056 Birch Lane, Nampa, ID 83687 5."
+        }
+      ]
+    },
+    "subject": {
+      "value": "AI technologies and services for faculty and students",
+      "citations": [
+        {
+          "span_id": "p3-s6",
+          "page": 3,
+          "quote": "artificial intelligence (AI) technologies and services that will be accessed and used by faculty and students"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "project",
+      "citations": [
+        {
+          "span_id": "p3-s6",
+          "page": 3,
+          "quote": "The purpose of this Request for Proposals (\u201cRFP\u201d) is to solicit proposals for artificial intelligence (AI) technologies and services that will be accessed and used by faculty and students"
+        }
+      ],
+      "kind": "enum"
+    },
+    "requires_product_supply": {
+      "value": true,
+      "citations": [
+        {
+          "span_id": "p10-s1",
+          "page": 10,
+          "quote": "any licenses, service terms, or other terms supplements the RFP and its Appendices, the supplemental terms and conditions shall apply only if specifically reviewed, approved, and accepted by the College in a written Addendum."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p10-s2",
+          "page": 10,
+          "quote": "License, service, maintenance, or any other type of agreements desired by the firm to be signed by the College, are only binding upon the College to the extent they are in full agreement with the RFP and have been specifically reviewed, approved, and accepted by the College in writing."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p10-s2",
+          "page": 10,
+          "quote": "maintenance, or any other type of agreements desired by the firm to be signed by the College, are only binding upon the College to the extent they are in full agreement with the RFP and have been specifically reviewed, approved, and accepted by the College in writing."
+        }
+      ],
+      "kind": "bool"
+    },
+    "functional_stacks": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p3-s6",
+          "page": 3,
+          "quote": "technologies and services that will be accessed and used by faculty and students in the design, development, and delivery of instruction from qualified entities (\u201cProposers\u201d)."
+        }
+      ],
+      "kind": "list"
+    },
+    "eligibility_gates": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p3-s6",
+          "page": 3,
+          "quote": "will be accessed and used by faculty and students in the design, development, and delivery of instruction from qualified entities (\u201cProposers\u201d)."
+        }
+      ],
+      "kind": "list"
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Every value carries the span that grounds it; quotes are sliced out of the span index programmatically rather than typed, because these documents contain non-breaking hyphens. The document calls itself 'AI Software' on its own cover sheet (RFP 05-2024 AI Software) and buys licenses and service terms for tools used by faculty and students. Product procurement with services attached.",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

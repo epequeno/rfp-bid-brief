@@ -32,3 +32,4 @@ Consequences.
 | [0010](0010-repeat-the-census.md) | Repeat the census, and publish a range wherever the repeats disagree | accepted |
 | [0011](0011-the-contested-fixture-is-a-finding.md) | The contested fixture is a finding, not a defect to be resolved | accepted |
 | [0012](0012-the-fifth-exclusion-class-and-its-re-freeze.md) | The fifth exclusion class, and the re-freeze it forces | accepted |
+| [0013](0013-unreachable-outranks-unsuitable.md) | Unreachable outranks unsuitable, and a class must be visible to every judge | accepted |

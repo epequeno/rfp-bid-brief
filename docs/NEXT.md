@@ -77,8 +77,20 @@ triggers, so no label changed and τ stands), and **every census and calibration
 measured under profile v1** — they carry v1 `state_sha256` and must be re-run once the new labels land.
 Span indexes for all eighteen are built and reproducible: **8,497 spans, up from 5,706**.
 
-Still outstanding for the new seven: hand-authored extractions (mine) and labels (yours, pre-filled from
-the evidence). Nothing has been run against a model — the ADR 0003 order holds. Seven new candidates (8.3 MB,
+**Extractions for the seven are written** (hand-authored, every value cited, quotes sliced from the span
+index rather than retyped). The seventh passed only after the word-boundary rule rejected a quote that
+ended mid-word — the gate working as designed. Verdicts under profile v2: two bids (IRCDUS, Allentown),
+five no-bids — Cleveland ISD as `not_qualified` (gate **and** software), Kansas City Kansas CC and College
+of Western Idaho as product purchases, the Judicial Council as operations, SAVEC as geography.
+
+Implementing the fifth class exposed two omissions of the *same kind* as the bug ADR 0009 recorded: the
+class had no binding, and neither `profile_exclusions()` nor `build_state()` knew about the gate list —
+so the models would have been judging without the class the profile had just gained. Both fixed;
+`adr/0013` records it.
+
+**Still outstanding: the seven labels — yours.** Pre-filled proposals with evidence and counterargument
+are in `outbox/2026-10-11-fixture-expansion/LABELS-PROPOSED.md`. Nothing has been run against a model;
+the ADR 0003 order holds, and the census re-run waits for the labels. Seven new candidates (8.3 MB,
 HTTP 200, real text layers, no employer/client relationship, no vendor responses) sit in
 `outbox/2026-10-11-fixture-expansion/candidates/` with proposed labels and evidence per document in
 `CANDIDATES.md`. Two are bid-likely, five are not, and **that ratio is the finding**: the bid-likely

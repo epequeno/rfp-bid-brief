@@ -1,0 +1,98 @@
+{
+  "fixture": "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Cleveland Independent School District (Cleveland ISD), Texas",
+      "citations": [
+        {
+          "span_id": "p1-s12",
+          "page": 1,
+          "quote": "Cleveland Independent School District Attn: Alfonso Saldivar 1901 E."
+        }
+      ]
+    },
+    "subject": {
+      "value": "Enterprise data warehouse and performance management software",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Enterprise Data Warehouse and Performance Management Software and Related Items RFP #26-10 Completed proposals for RFP #26-08 for an Enterprise Data Warehouse and Performance Management Software and Related Items must be received on or before 10:00 AM June 8, 2026."
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "project",
+      "citations": [
+        {
+          "span_id": "p3-s2",
+          "page": 3,
+          "quote": "The term of this contract will be for one (1) year with four (4) additional one (1) year optional renewals."
+        }
+      ],
+      "kind": "enum"
+    },
+    "requires_product_supply": {
+      "value": true,
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Enterprise Data Warehouse and Performance Management Software and Related Items RFP #26-10 Completed proposals for RFP #26-08 for an Enterprise Data Warehouse and Performance Management Software and Related Items must be received on or before 10:00 AM June 8, 2026."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Software and Related Items RFP #26-10 Completed proposals for RFP #26-08 for an Enterprise Data Warehouse and Performance Management Software and Related Items must be received on or before 10:00 AM June 8, 2026."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Performance Management Software and Related Items RFP #26-10 Completed proposals for RFP #26-08 for an Enterprise Data Warehouse and Performance Management Software and Related Items must be received on or before 10:00 AM June 8, 2026."
+        }
+      ],
+      "kind": "bool"
+    },
+    "functional_stacks": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Enterprise Data Warehouse and Performance Management Software and Related Items RFP #26-10 Completed proposals for RFP #26-08 for an Enterprise Data Warehouse and Performance Management Software and Related Items must be received on or before 10:00 AM June 8, 2026."
+        }
+      ],
+      "kind": "list"
+    },
+    "eligibility_gates": {
+      "value": [
+        "comparable_implementations"
+      ],
+      "citations": [
+        {
+          "span_id": "p4-s4",
+          "page": 4,
+          "quote": "At least five (5) successful Texas K-12 implementations \u25cf Existing Texas-based references from similarly sized school districts \u25cf An established educational analytics and dashboarding platform currently in production use within K-12"
+        }
+      ],
+      "kind": "list"
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Every value carries the span that grounds it; quotes are sliced out of the span index programmatically rather than typed, because these documents contain non-breaking hyphens. A SOFTWARE procurement ('...Performance Management Software and Related Items') with a hard minimum-experience requirement: five years of K-12 data warehouse solutions, at least five successful Texas K-12 implementations, existing Texas references. Two reasons trigger; the gate is categorical.",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

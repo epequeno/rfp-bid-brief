@@ -33,7 +33,10 @@ NO_BID = "no_bid"
 
 # Primary reason class wins by hard-disqualifier-first: if you cannot be there, the business-model
 # argument never gets reached.
-PRIORITY = ("geography", "product_not_services", "functional_stack_not_held", "operations_not_projects")
+# Unreachable outranks unsuitable: if the firm is ineligible before capability is assessed, no other
+# reason is the interesting one. That is why not_qualified sorts first (adr/0013).
+PRIORITY = ("not_qualified", "geography", "product_not_services", "functional_stack_not_held",
+            "operations_not_projects")
 
 
 @dataclass(frozen=True)
@@ -53,6 +56,40 @@ def _is_true(v: Any) -> bool:
 
 
 BINDINGS: tuple[Binding, ...] = (
+    # A gate is not a capability question: the firm is ineligible before anyone asks whether the work
+    # suits it. Four bindings rather than one, for the same reason functional_stacks has three -- the
+    # profile excludes these under four differently worded phrases, and a reason should quote the
+    # phrase it actually enforces. The extraction reports which shape of gate is present (adr/0012).
+    Binding(
+        requirement="eligibility_gates",
+        test=lambda v: _any_stack(v, "comparable_implementations"),
+        profile_exclusion="a minimum number of prior comparable implementations the firm does not have",
+        reason_class="not_qualified",
+        summary="the issuer requires more prior comparable implementations than the firm can show, "
+                "which is a qualification rather than a score — the firm is ineligible before "
+                "capability is assessed",
+    ),
+    Binding(
+        requirement="eligibility_gates",
+        test=lambda v: _any_stack(v, "contract_vehicle"),
+        profile_exclusion="holding a pre-awarded contract vehicle, cooperative contract or vendor partnership tier the firm lacks",
+        reason_class="not_qualified",
+        summary="the procurement is open only to holders of a contract vehicle the firm does not have",
+    ),
+    Binding(
+        requirement="eligibility_gates",
+        test=lambda v: _any_stack(v, "certification"),
+        profile_exclusion="a certification, licence, reseller authorisation or tier status the firm does not hold",
+        reason_class="not_qualified",
+        summary="a credential the firm does not hold is a condition of eligibility",
+    ),
+    Binding(
+        requirement="eligibility_gates",
+        test=lambda v: _any_stack(v, "clearance"),
+        profile_exclusion="a security clearance or federal clearance sponsorship",
+        reason_class="not_qualified",
+        summary="the work requires a clearance or sponsorship the firm does not have",
+    ),
     Binding(
         requirement="requires_recurring_onsite",
         test=_is_true,
@@ -162,6 +199,10 @@ def profile_exclusions(profile: dict) -> list[str]:
     return (
         list(profile.get("excluded_delivery_models", []))
         + list(profile.get("excluded_capability_areas", []))
+        # The gate list belongs here for the same reason the others do: it is the profile saying what
+        # this firm does not have. It was omitted while no binding could cite it, which is the kind of
+        # gap that reads as intentional later (adr/0012).
+        + list(profile.get("excluded_eligibility_gates", []))
         + list(profile.get("decision_rules_of_thumb", []))
     )
 

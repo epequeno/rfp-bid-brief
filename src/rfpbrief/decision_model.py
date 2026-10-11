@@ -88,6 +88,23 @@ def build_state(profile: dict, extraction: Extraction) -> str:
     # fails if any phrase the deterministic layer cites is missing here. Omitting them once made
     # every model read the profile literally, and the phrase naming the D365 case was invisible to
     # all fourteen while the rules layer could still cite it.
+    gates = profile.get("excluded_eligibility_gates", [])
+    if gates:
+        lines.append("Eligibility gates the firm does not clear:")
+        for item in gates:
+            lines.append(f"- {item}")
+    experience = (profile.get("bidder") or {}).get("experience") or {}
+    if experience:
+        lines.append("The firm's record, for comparison against any stated minimum:")
+        for key in ("comparable_engagements", "contract_vehicles", "partner_authorisations"):
+            if experience.get(key):
+                lines.append(f"- {key}: {experience[key]}")
+    # The rules of thumb are part of what the profile excludes — see the consistency test, which
+    # fails if any phrase the deterministic layer cites is missing here. Omitting them once made
+    # every model read the profile literally, and the phrase naming the D365 case was invisible to
+    # all fourteen while the rules layer could still cite it. The gate list and the experience block
+    # were added for the same reason when the fifth class arrived: a class the models cannot see is
+    # a class they cannot apply (adr/0012).
     rules = profile.get("decision_rules_of_thumb", [])
     if rules:
         lines.append("Rules of thumb:")

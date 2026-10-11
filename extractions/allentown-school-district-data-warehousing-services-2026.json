@@ -1,0 +1,96 @@
+{
+  "fixture": "allentown-school-district-data-warehousing-services-2026.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Allentown School District (ASD)",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "The Allentown School District (ASD) invites proposals"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Enterprise data warehousing services",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "provide enterprise Data Warehousing Services that support both instructional improvement and districtwide operational effectiveness"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "project",
+      "citations": [
+        {
+          "span_id": "p6-s3",
+          "page": 6,
+          "quote": "The selected vendor shall be responsible for providing the deliverables identified below."
+        }
+      ],
+      "kind": "enum"
+    },
+    "requires_product_supply": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p3-s9",
+          "page": 3,
+          "quote": "procure comprehensive data warehousing services from a single vendor"
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p8-s19",
+          "page": 8,
+          "quote": "pricing includes all labor, materials, travel, and overhead unless otherwise stated."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p8-s19",
+          "page": 8,
+          "quote": "labor, materials, travel, and overhead unless otherwise stated."
+        }
+      ],
+      "kind": "bool"
+    },
+    "functional_stacks": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p3-s9",
+          "page": 3,
+          "quote": "comprehensive data warehousing services from a single vendor capable of supporting both instructional and operational data needs."
+        }
+      ],
+      "kind": "list"
+    },
+    "eligibility_gates": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p7-s13",
+          "page": 7,
+          "quote": "at least three (3) comparable engagements, preferably for public school districts or similar public entities."
+        }
+      ],
+      "kind": "list"
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Every value carries the span that grounds it; quotes are sliced out of the span index programmatically rather than typed, because these documents contain non-breaking hyphens. Services engagement for a data warehouse, procured from a single vendor. Experience asks for 'at least three (3) comparable engagements, PREFERABLY for public school districts' -- 'preferably' makes it scored, not a gate, so eligibility_gate is false.",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

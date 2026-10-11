@@ -29,7 +29,7 @@ searching — and it is why four plausible-looking candidates were rejected.
 | 11 | `u-maine-system-rfp-2026-065-enterprise-genai-services.pdf` | University of Maine System | Enterprise generative AI services | 48 |
 | 12 | `indian-river-county-utilities-technology-master-plan-rfp.pdf` | Indian River County Dept. of Utility Services (IRCDUS), FL (county utility) | Utilities Technology Master Plan and Customer Information System — consulting services | 16 |
 | 13 | `allentown-school-district-data-warehousing-services-2026.pdf` | Allentown School District, PA (school district) | Data warehousing services | 19 |
-| 14 | `cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf` | a Texas independent school district (ISD), name not printed on page 1 | Enterprise data warehouse and performance management software | 57 |
+| 14 | `cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf` | Cleveland Independent School District, TX (school district) | Enterprise data warehouse and performance management software | 57 |
 | 15 | `kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf` | Kansas City Kansas Community College (community college) | Data warehouse and analytics platform | 19 |
 | 16 | `college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf` | College of Western Idaho (community college) | AI technologies and services for faculty and students | 20 |
 | 17 | `judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf` | Judicial Council of California (state court system) | Master agreements for technical staff augmentation services | 20 |

@@ -1,0 +1,96 @@
+{
+  "fixture": "indian-river-county-utilities-technology-master-plan-rfp.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Indian River County (IRC)",
+      "citations": [
+        {
+          "span_id": "p2-s0",
+          "page": 2,
+          "quote": "Indian River County (IRC) is located in the southeastern and east-central portions of Florida"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Utilities Technology Master Plan (UTMP) and Customer Information System (CIS) consulting services",
+      "citations": [
+        {
+          "span_id": "p2-s0",
+          "page": 2,
+          "quote": "RFP 2026003 For UTMP CIS Consulting Services"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "advisory",
+      "citations": [
+        {
+          "span_id": "p2-s23",
+          "page": 2,
+          "quote": "The Scope of Services for the UTMP includes a comprehensive review of IRCDUS\u2019s existing business processes"
+        }
+      ],
+      "kind": "enum"
+    },
+    "requires_product_supply": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p3-s13",
+          "page": 3,
+          "quote": "objective and vendor-neutral perspectives, as well as exercise discretion and confidentiality during the CIS evaluation and selection process."
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p9-s16",
+          "page": 9,
+          "quote": "by phases and tasks, including deliverables"
+        }
+      ],
+      "kind": "bool"
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "citations": [
+        {
+          "span_id": "p9-s16",
+          "page": 9,
+          "quote": "workplan by phases and tasks, including deliverables, for both the UTMP development and CIS selection."
+        }
+      ],
+      "kind": "bool"
+    },
+    "functional_stacks": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p3-s13",
+          "page": 3,
+          "quote": "vendor-neutral perspectives, as well as exercise discretion and confidentiality during the CIS evaluation and selection process."
+        }
+      ],
+      "kind": "list"
+    },
+    "eligibility_gates": {
+      "value": [],
+      "citations": [
+        {
+          "span_id": "p9-s11",
+          "page": 9,
+          "quote": "Demonstrate that the personnel as a team or individually have successfully completed services like those specified in the scope of services within this RFP"
+        }
+      ],
+      "kind": "list"
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Every value carries the span that grounds it; quotes are sliced out of the span index programmatically rather than typed, because these documents contain non-breaking hyphens. Advisory master plan plus vendor-neutral CIS selection support. The CIS work is selection and assessment, NOT functional configuration of a customer information system, so functional_stacks is empty. The experience language is a scored demonstration requirement, not a minimum gate.",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}
