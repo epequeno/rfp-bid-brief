@@ -7,7 +7,12 @@ verbatim citations. The point of the repository is not the brief. It is that eve
 brief traces to a span of the source document, and that the decision layer's probabilities are
 **calibrated and published at an operating point fixed in advance**.
 
-## Status: span index built — extraction not started
+## Where this stands
+
+[`docs/NEXT.md`](docs/NEXT.md) is the re-entry point: what is built, the numbers with their limits
+attached, the four open decisions, and the divergences to resolve. Read it before changing anything.
+
+## Status: end-to-end, with the decision census measured
 
 The repository contains the **frozen inputs, the ground truth, and the first pipeline stage**. That
 ordering is the point — see [`adr/0003`](adr/0003-pre-register-the-operating-point.md):
