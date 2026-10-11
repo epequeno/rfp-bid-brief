@@ -135,5 +135,7 @@
   }
  ],
  "missing_extraction": [],
- "missing_label": []
+ "missing_label": [],
+ "unusable_extractions": [],
+ "unusable_note": "An extraction refused by the citation gate cannot produce a decision. That refusal is a measurement, not an error: for a model-backed extractor it is the citation-integrity rate, and a run that crashes on it reports nothing."
 }

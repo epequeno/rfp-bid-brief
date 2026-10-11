@@ -1,0 +1,134 @@
+{
+ "schema": "baseline/1",
+ "what_this_measures": "the decision layer and requirement vocabulary, against hand-authored extractions. NOT extraction quality: the extractions were written with knowledge of the labels.",
+ "not_yet_measurable": [
+  "extraction accuracy \u2014 needs the model-backed extractor",
+  "calibration and the operating point \u2014 decide() emits no probability yet",
+  "precision/recall per class \u2014 four positives in eleven fixtures is too thin to report"
+ ],
+ "n": 8,
+ "label_agreement": "8/8",
+ "reason_class_agreement": "6/8",
+ "truth_class_found_or_correctly_absent": "7/8",
+ "ranking_divergences": [
+  "city-of-spicer-mn-managed-it-services-2026.pdf"
+ ],
+ "ranking_note": "A divergence here means the layer triggered the labelled reason class and also triggered another, and the priority order (geography > product > functional > operations) put the other first. Two fixtures trigger geography AND operations, and their labels rank them in opposite directions, so no single priority order can reproduce both. Recorded rather than tuned.",
+ "confusion": {
+  "no_bid": {
+   "no_bid": 5
+  },
+  "bid": {
+   "bid": 3
+  }
+ },
+ "rows": [
+  {
+   "fixture": "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "product_not_services",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "product_not_services",
+   "exclusions_matched": 2,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
+   "truth_label": "bid",
+   "truth_reason_class": "in_scope",
+   "predicted_label": "bid",
+   "predicted_reason_class": "in_scope",
+   "exclusions_matched": 0,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "functional_stack_not_held",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "functional_stack_not_held",
+   "exclusions_matched": 1,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "tahoe-transportation-district-it-consulting-2025.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "geography",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "geography",
+   "exclusions_matched": 3,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "coastal-bend-college-erp-sis-rfp-2026-01.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "functional_stack_not_held",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "product_not_services",
+   "exclusions_matched": 1,
+   "label_ok": true,
+   "class_ok": false
+  },
+  {
+   "fixture": "city-of-spicer-mn-managed-it-services-2026.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "operations_not_projects",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "geography",
+   "exclusions_matched": 2,
+   "label_ok": true,
+   "class_ok": false
+  },
+  {
+   "fixture": "city-of-snohomish-it-strategic-plan-rfp.pdf",
+   "truth_label": "bid",
+   "truth_reason_class": "in_scope",
+   "predicted_label": "bid",
+   "predicted_reason_class": "in_scope",
+   "exclusions_matched": 0,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf",
+   "truth_label": "bid",
+   "truth_reason_class": "in_scope",
+   "predicted_label": "bid",
+   "predicted_reason_class": "in_scope",
+   "exclusions_matched": 0,
+   "label_ok": true,
+   "class_ok": true
+  }
+ ],
+ "missing_extraction": [
+  "hacc-rfp-26022-cloud-document-management.pdf",
+  "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+  "community-action-partnership-kern-information-systems-consultant.pdf"
+ ],
+ "missing_label": [],
+ "unusable_extractions": [
+  {
+   "fixture": "community-action-partnership-kern-information-systems-consultant.pdf",
+   "problems": [
+    "facts.subject: quote not found in span p1-s0 under the verbatim rule: 'Information Systems Consultant' [this quote does appear in p2-s0, p2-s1, p4-s0 \u2014 the citation names p1-s0. A quote that runs across a span boundary has to name one span and quote only the part inside it.]"
+   ]
+  },
+  {
+   "fixture": "hacc-rfp-26022-cloud-document-management.pdf",
+   "problems": [
+    "facts.subject: quote not found in span p1-s0 under the verbatim rule: 'Cloud-Based Document Management & Workflow Automation Software Solutio' [this quote does appear in p10-s0, p11-s0, p12-s0, p13-s0, p14-s0, p15-s1, p16-s0, p17-s0, p18-s0, p19-s0, p2-s0, p20-s0, p21-s0, p22-s0, p23-s0, p3-s0, p3-s19, p3-s20, p4-s0, p4-s5, p5-s0, p6-s0, p7-s0, p8-s0, p9-s0, p9-s4 \u2014 the citation names p1-s0. A quote that runs across a span boundary has to name one span and quote only the part inside it.]"
+   ]
+  },
+  {
+   "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+   "problems": [
+    "requirements.delivery_model: quote not found in span p16-s12 under the verbatim rule: 'Help Desk Support, Network Monitoring, Back up and Disaster Recovery, '"
+   ]
+  }
+ ],
+ "unusable_note": "An extraction refused by the citation gate cannot produce a decision. That refusal is a measurement, not an error: for a model-backed extractor it is the citation-integrity rate, and a run that crashes on it reports nothing."
+}

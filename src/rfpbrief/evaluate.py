@@ -68,6 +68,12 @@ class Baseline:
     rows: list[Row] = field(default_factory=list)
     missing_extraction: list[str] = field(default_factory=list)
     missing_label: list[str] = field(default_factory=list)
+    unusable: list[dict] = field(default_factory=list)
+
+    @property
+    def eligible(self) -> int:
+        """Fixtures the decision layer could actually be run on — the denominator that matters."""
+        return self.n
 
     @property
     def n(self) -> int:
@@ -136,6 +142,12 @@ class Baseline:
             ],
             "missing_extraction": self.missing_extraction,
             "missing_label": self.missing_label,
+            "unusable_extractions": self.unusable,
+            "unusable_note": (
+                "An extraction refused by the citation gate cannot produce a decision. That refusal "
+                "is a measurement, not an error: for a model-backed extractor it is the "
+                "citation-integrity rate, and a run that crashes on it reports nothing."
+            ),
         }
 
 
@@ -164,6 +176,62 @@ def run(
             )
         )
     return out
+
+
+@dataclass
+class ComparisonRow:
+    fixture: str
+    identical: bool
+    differing: int
+    details: list[str]
+    req_total: int = 0
+    req_differing: int = 0
+
+    @property
+    def requirements_agree(self) -> bool:
+        return self.req_differing == 0 and self.req_total > 0
+
+
+def compare_extractions(dir_a: Path, dir_b: Path) -> list[ComparisonRow]:
+    """Field-level agreement between two extraction sets, over the fixtures they share.
+
+    Requirements are separated from facts because only the requirements are a contracted task: the
+    prompt names the five requirement kinds and two facts, so a producer that omits `term` has not
+    failed anything — it was never asked. Facts are reported as differences in wording and coverage,
+    which is information about the two producers rather than a score.
+    """
+    rows: list[ComparisonRow] = []
+    for fa in sorted(Path(dir_a).glob("*.json")):
+        fb = Path(dir_b) / fa.name
+        if not fb.exists():
+            continue
+        a = json.loads(fa.read_text(encoding="utf-8"))
+        b = json.loads(fb.read_text(encoding="utf-8"))
+        details: list[str] = []
+        reqs_a, reqs_b = a.get("requirements", {}), b.get("requirements", {})
+        req_keys = sorted(set(reqs_a) | set(reqs_b))
+        req_differing = 0
+        for key in req_keys:
+            va = reqs_a.get(key, {}).get("value", "<missing>")
+            vb = reqs_b.get(key, {}).get("value", "<missing>")
+            if va != vb:
+                req_differing += 1
+                details.append(f"requirements.{key}: {va!r} vs {vb!r}")
+        facts_a, facts_b = a.get("facts", {}), b.get("facts", {})
+        for key in sorted(set(facts_a) | set(facts_b)):
+            va = facts_a.get(key, {}).get("value", "<missing>")
+            vb = facts_b.get(key, {}).get("value", "<missing>")
+            if va != vb:
+                details.append(f"facts.{key}: {va!r} vs {vb!r}")
+        ca = sum(len(v.get("citations", [])) for g in ("facts", "requirements")
+                 for v in a.get(g, {}).values())
+        cb = sum(len(v.get("citations", [])) for g in ("facts", "requirements")
+                 for v in b.get(g, {}).values())
+        if ca != cb:
+            details.append(f"citations: {ca} vs {cb}")
+        rows.append(ComparisonRow(fa.stem, not details, len(details), details,
+                                  len(req_keys), req_differing))
+    return rows
 
 
 def render(baseline: Baseline) -> str:
@@ -200,4 +268,9 @@ def render(baseline: Baseline) -> str:
         lines.append(f"| {truth} | " + " | ".join(str(cm[truth].get(p, 0)) for p in preds) + " |")
     if baseline.missing_extraction:
         lines += ["", f"no extraction yet: {', '.join(baseline.missing_extraction)}"]
+    if baseline.unusable:
+        lines += ["", f"refused by the citation gate ({len(baseline.unusable)}):"]
+        for entry in baseline.unusable:
+            first = entry["problems"][0] if entry["problems"] else "unknown"
+            lines.append(f"- {entry['fixture']}: {first[:150]}")
     return "\n".join(lines)

@@ -19,6 +19,7 @@ import sys
 from pathlib import Path
 
 from . import brief, decide, evaluate, extract, spans
+from .spans import collapse_ws
 
 REPO = Path(__file__).resolve().parents[2]
 FIXTURES = REPO / "fixtures"
@@ -188,15 +189,30 @@ def cmd_brief(args: argparse.Namespace) -> int:
     out.write_text(markdown, encoding="utf-8")
     if not args.quiet:
         print(markdown)
-    print(f"→ {out.relative_to(REPO) if str(out).startswith(str(REPO)) else out}", file=sys.stderr)
+    print(f"→ {_display(out)}", file=sys.stderr)
     return 0
+
+
+def _display(path: Path) -> str:
+    """A path relative to the repository when it is inside one, printed as given otherwise.
+
+    `--out` may be relative to the caller's directory, which is not always the repository, and an
+    exception about that is a bad way to end an otherwise successful run.
+    """
+    p = path if path.is_absolute() else (Path.cwd() / path)
+    try:
+        return str(p.relative_to(REPO))
+    except ValueError:
+        return str(p)
 
 
 def cmd_baseline(args: argparse.Namespace) -> int:
     """Run the decision layer against every committed label. Writes results/baseline.json."""
     labels = json.loads((REPO / "fixtures" / "labels.json").read_text(encoding="utf-8"))
     profile = json.loads((REPO / "bidder-profile.json").read_text(encoding="utf-8"))
+    exdir = Path(args.extractions) if args.extractions else None
     cache: dict[str, spans.Document | None] = {}
+    unusable: dict[str, list[str]] = {}
 
     def extraction_for(fixture: str):
         if fixture not in cache:
@@ -206,18 +222,58 @@ def cmd_baseline(args: argparse.Namespace) -> int:
         if doc is None:
             return None
         try:
-            return extract.for_fixture(doc)
+            return extract.for_fixture(doc, exdir)
         except FileNotFoundError:
+            return None
+        except extract.ExtractionError as exc:
+            # A refused extraction is a result, not a crash: it is the citation-integrity rate.
+            unusable[fixture] = exc.problems
             return None
 
     baseline = evaluate.run(labels, extraction_for, lambda ex: decide.decide(profile, ex))
+    baseline.unusable = [{"fixture": k, "problems": v} for k, v in sorted(unusable.items())]
     out = Path(args.out) if args.out else REPO / "results" / "baseline.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(baseline.to_json(), indent=1) + "\n", encoding="utf-8")
     if not args.quiet:
         print(evaluate.render(baseline))
-    print(f"→ {out.relative_to(REPO)}", file=sys.stderr)
+    print(f"→ {_display(out)}", file=sys.stderr)
     return 0 if baseline.n and baseline.label_agree == baseline.n else 1
+
+
+def cmd_payload(args: argparse.Namespace) -> int:
+    """Print one fixture's spans, in the exact form the extractor prompt expects.
+
+    Spans only: no label, no profile, no hand-authored extraction. The extractor sees the document
+    and nothing about what the answer is supposed to be.
+    """
+    path = Path(args.fixture)
+    doc = spans.build(path, fixture_name=path.name)
+    print(f"fixture: {doc.fixture}")
+    print(f"pages: {len(doc.pages)}  spans: {len(doc.spans)}")
+    print("")
+    for s in doc.spans:
+        print(f"[{s.id}] (page {s.page}) {collapse_ws(s.text)}")
+    return 0
+
+
+def cmd_compare(args: argparse.Namespace) -> int:
+    """Field-level comparison of two extraction sets. Scores a model against the stand-in."""
+    rows = evaluate.compare_extractions(Path(args.a), Path(args.b))
+    if not rows:
+        print(f"no fixture present in both {args.a} and {args.b}")
+        return 1
+    for r in rows:
+        verdict = ("requirements agree" if r.requirements_agree
+                   else f"{r.req_differing}/{r.req_total} requirements differ")
+        print(f"{r.fixture[:56]:<58} {verdict}")
+        for d in r.details:
+            print(f"    {d}")
+    agree = sum(r.requirements_agree for r in rows)
+    total = sum(r.req_total for r in rows)
+    diffs = sum(r.req_differing for r in rows)
+    print(f"\nrequirement agreement: {total - diffs}/{total} values across {agree}/{len(rows)} fixtures")
+    return 0
 
 
 def cmd_stats(args: argparse.Namespace) -> int:
@@ -282,8 +338,18 @@ def main(argv: list[str] | None = None) -> int:
 
     bl = sub.add_parser("baseline", help="decision layer vs every committed label")
     bl.add_argument("--out", help="output path (default results/baseline.json)")
+    bl.add_argument("--extractions", help="directory of extraction files (default extractions/)")
     bl.add_argument("--quiet", action="store_true")
     bl.set_defaults(func=cmd_baseline)
+
+    pl = sub.add_parser("payload", help="print a fixture's spans in the extractor's input form")
+    pl.add_argument("fixture")
+    pl.set_defaults(func=cmd_payload)
+
+    cp = sub.add_parser("compare", help="field-level comparison of two extraction sets")
+    cp.add_argument("a")
+    cp.add_argument("b")
+    cp.set_defaults(func=cmd_compare)
 
     args = ap.parse_args(argv)
     return args.func(args)

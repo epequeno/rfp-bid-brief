@@ -1,0 +1,106 @@
+{
+  "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Energy Trust of Oregon, Inc.",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "Energy Trust of Oregon, Inc. (Energy Trust), an Oregon nonprofit corporation, is soliciting proposals from qualified vendors to plan, design, and execute the migration of our existing on‑premises Microsoft CRM implementation to the Microsoft Dynamics 365 cloud CRM platform."
+        }
+      ]
+    },
+    "subject": {
+      "value": "Migration from on-premises Microsoft CRM to Microsoft Dynamics 365 Cloud",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Request for Proposal (RFP) Migration from On-Premises Microsoft CRM to Microsoft Dynamics 365 Cloud"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [
+        "Dynamics 365",
+        "Power Platform",
+        "Azure"
+      ],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p2-s9",
+          "page": 2,
+          "quote": "Recommended Dynamics 365 applications and licensing (e.g., Sales, Customer Service, Marketing)"
+        },
+        {
+          "span_id": "p3-s4",
+          "page": 3,
+          "quote": "Implementation of Power Automate flows, Power Apps, and business rules as appropriate"
+        },
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "Customization and extension strategy leveraging out‑of‑the‑box capabilities, Power Platform, and Azure services"
+        }
+      ]
+    }
+  },
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "schema": "extraction/1",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
+    "started_utc": "2026-10-11T22:10:14Z",
+    "finished_utc": "2026-10-11T22:10:38Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

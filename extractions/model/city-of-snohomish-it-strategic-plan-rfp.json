@@ -1,0 +1,92 @@
+{
+  "fixture": "city-of-snohomish-it-strategic-plan-rfp.pdf",
+  "facts": {
+    "issuer": {
+      "value": "City of Snohomish",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "The City of Snohomish is soliciting proposals"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Information Technology Strategic Plan",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "RFP Title: Information Technology Strategic Plan"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s4",
+          "page": 4,
+          "quote": "Assessment of effective use of technology resources and staff access to technology services."
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s2",
+          "page": 4,
+          "quote": "Services include any tasks necessary to produce the requested deliverables."
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s16",
+          "page": 4,
+          "quote": "A six-year IT strategic plan with capital and operating funding estimates."
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p4-s16",
+          "page": 4,
+          "quote": "A six-year IT strategic plan with capital and operating funding estimates."
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p4-s2",
+          "page": 4,
+          "quote": "Services include any tasks necessary to produce the requested deliverables."
+        }
+      ]
+    }
+  },
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "schema": "extraction/1",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
+    "started_utc": "2026-10-11T22:09:03Z",
+    "finished_utc": "2026-10-11T22:09:15Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

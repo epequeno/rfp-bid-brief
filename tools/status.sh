@@ -49,7 +49,7 @@ fi
 
 extractions=$(ls -1 extractions/*.json 2>/dev/null | wc -l | tr -d ' ')
 briefs=$(ls -1 results/briefs/*.md 2>/dev/null | wc -l | tr -d ' ')
-printf '  %-22s %s\n' "extract" "built — ${extractions} extraction(s), hand-authored stand-in"
+printf '  %-22s %s\n' "extract (model)" "built — 8/11 validated, 3 refused · results/model-pass.md"
 printf '  %-22s %s\n' "decide" "built — deterministic vs the frozen profile, adr/0002"
 printf '  %-22s %s\n' "brief" "built — ${briefs} brief(s) rendered"
 
@@ -57,15 +57,21 @@ if [ -f results/baseline.json ]; then
   printf '  %-22s %s\n' "baseline" "$(python3 - <<'PY' 2>/dev/null || echo 'present, unreadable'
 import json
 b = json.load(open("results/baseline.json"))
-print(f"{b['label_agreement']} labels · {b['reason_class_agreement']} primary class · "
-      f"{len(b['ranking_divergences'])} known ranking divergence(s)")
+print(f"hand: {b['label_agreement']} labels · {b['reason_class_agreement']} primary class")
 PY
 )"
-else
-  printf '  %-22s %s\n' "baseline" "NOT RUN"
+fi
+if [ -f results/baseline-model.json ]; then
+  printf '  %-22s %s\n' "baseline (model)" "$(python3 - <<'PY' 2>/dev/null || echo 'present, unreadable'
+import json
+b = json.load(open("results/baseline-model.json"))
+print(f"model: {b['label_agreement']} labels on {b['n']} usable · "
+      f"{len(b['unusable_extractions'])} refused by the citation gate")
+PY
+)"
 fi
 
-for stage in "model-backed extractor" "probability channel (Jev)" "eval harness" "static site" "MCP surface"; do
+for stage in "probability channel (Jev)" "extraction retry pass" "eval harness" "static site" "MCP surface"; do
   printf '  %-22s %s\n' "$stage" "not built"
 done
 

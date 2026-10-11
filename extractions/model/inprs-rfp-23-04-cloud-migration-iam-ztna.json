@@ -1,0 +1,92 @@
+{
+  "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Indiana Public Retirement System (INPRS)",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "Indiana Public Retirement System (“INPRS” or the “System”)"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Cloud migration, IAM, and ZTNA strategy services",
+      "citations": [
+        {
+          "span_id": "p3-s0",
+          "page": 3,
+          "quote": "Cloud Migration Discovery and Strategy Services, Identity & Access Management (IAM) Strategy Services, and Secure Access Service Edge and Zero Trust Network Access Strategy Services"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p17-s12",
+          "page": 17,
+          "quote": "Staff assigned to the engagement are expected to either work on-site at the Indianapolis offices located within Indianapolis, or domestic within the U.S."
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p11-s0",
+          "page": 11,
+          "quote": "INPRS seeks IT professional consulting services"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p16-s19",
+          "page": 16,
+          "quote": "Respondents must not present their cloud or technical solution(s) since the intent of the RFP is for an independent and non-conflicting assessment."
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "advisory",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p11-s0",
+          "page": 11,
+          "quote": "assessment of INPRS’s current systems, applications, and infrastructure to identify potential opportunities in execution of a digital transformation program"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p16-s19",
+          "page": 16,
+          "quote": "Respondents must not present their cloud or technical solution(s)"
+        }
+      ]
+    }
+  },
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "schema": "extraction/1",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
+    "started_utc": "2026-10-11T22:10:54Z",
+    "finished_utc": "2026-10-11T22:11:17Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

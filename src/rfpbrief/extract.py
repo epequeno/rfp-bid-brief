@@ -93,9 +93,16 @@ def validate(doc: Document, data: dict) -> list[str]:
                         f"{group}.{name}: citation says page {page}, span {span_id} is on page {span.page}"
                     )
                 if not doc.validate_citation(span_id, quote):
+                    elsewhere = doc.locate(quote)
+                    hint = ""
+                    if elsewhere:
+                        homes = ", ".join(sorted({c.id for c in elsewhere}))
+                        hint = (f" [this quote does appear in {homes} — the citation names "
+                                f"{span_id}. A quote that runs across a span boundary has to name "
+                                f"one span and quote only the part inside it.]")
                     problems.append(
                         f"{group}.{name}: quote not found in span {span_id} under the verbatim rule: "
-                        f"{quote[:70]!r}"
+                        f"{quote[:70]!r}{hint}"
                     )
     return problems
 

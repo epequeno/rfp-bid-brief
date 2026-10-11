@@ -260,15 +260,55 @@ class Document:
                 return s
         return None
 
-    def validate_citation(self, span_id: str, quote: str) -> bool:
-        """Does `quote` sit inside span `span_id` under the verbatim rule?
+    def covering_spans(self, quote: str) -> list[list[str]]:
+        """Every set of span ids a quote covers, one entry per occurrence.
 
-        This is the check a citation has to pass. It is stricter than `find()` (which wants the
-        whole span) and more precise than `locate()` (which answers "which spans could this be?"):
-        the caller has already committed to a span, and this says whether that commitment holds.
+        Sentences straddle spans, because spans come from a heuristic splitter and sentences do not
+        care. This walks the spans in order and returns the ids each occurrence covers — all of them,
+        because a phrase like "Multi-model support is Preferred" can appear on three pages and a
+        citation naming any of those pages is not wrong.
+        """
+        target = collapse_ws(quote)
+        if not target:
+            return []
+        blob = ""
+        bounds: list[tuple[int, int, str]] = []
+        for s in self.spans:
+            start = len(blob)
+            blob += s.quote
+            bounds.append((start, len(blob), s.id))
+            blob += " "
+        found: list[list[str]] = []
+        i = blob.find(target)
+        while i != -1:
+            end = i + len(target)
+            left_ok = i == 0 or not blob[i - 1].isalnum()
+            right_ok = end == len(blob) or not blob[end].isalnum()
+            if left_ok and right_ok:
+                found.append([sid for (a, b, sid) in bounds if a < end and b > i])
+            i = blob.find(target, i + 1)
+        return found
+
+    def validate_citation(self, span_id: str, quote: str) -> bool:
+        """Does this citation hold? See ADR 0005 for why the locator is page-level.
+
+        Three ways to pass: the quote sits inside the cited span; or the quote exists in the document
+        and one of its occurrences is on the cited span's page. A quote absent from the fixture is
+        never acceptable, and a citation that points at a page the words are not on is a broken
+        locator rather than a tidiness problem.
         """
         span = self.span(span_id)
-        return bool(span) and _contains_at_word_boundaries(span.quote, collapse_ws(quote))
+        if span is None:
+            return False
+        target = collapse_ws(quote)
+        if not target:
+            return False
+        if _contains_at_word_boundaries(span.quote, target):
+            return True
+        for occurrence in self.covering_spans(target):
+            if any(self.span(sid).page == span.page for sid in occurrence):
+                return True
+        return False
 
     def find(self, quote: str) -> list[Span]:
         """Spans whose text *equals* the quote under the verbatim rule. The strict primitive."""
@@ -278,9 +318,9 @@ class Document:
     def locate(self, quote: str, page: int | None = None) -> list["Citation"]:
         """Every (span, quote) pair where the quote sits *inside* a span, at word boundaries.
 
-        `page` narrows the search when a quote is short enough to appear in several places; a
-        caller that gets two hits for a page-unqualified quote has an ambiguous citation and must
-        say which page it meant rather than pick one.
+        This answers "which single span could this citation be?" — the question a caller asks when
+        choosing a span. Verification is `validate_citation`, which also tolerates a quote that runs
+        across a span boundary (ADR 0005).
         """
         target = collapse_ws(quote)
         if not target:
