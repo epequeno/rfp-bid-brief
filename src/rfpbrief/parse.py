@@ -18,7 +18,7 @@ import re
 import sys
 from pathlib import Path
 
-from . import brief, decide, evaluate, extract, model_extractor, spans
+from . import brief, decide, evaluate, extract, model_extractor, spans, variance
 from .spans import collapse_ws
 
 REPO = Path(__file__).resolve().parents[2]
@@ -266,6 +266,7 @@ def cmd_baseline(args: argparse.Namespace) -> int:
     exdir = Path(args.extractions) if args.extractions else None
     cache: dict[str, spans.Document | None] = {}
     unusable: dict[str, list[str]] = {}
+    seen_refused: set[str] = set()
 
     def extraction_for(fixture: str):
         if fixture not in cache:
@@ -277,14 +278,24 @@ def cmd_baseline(args: argparse.Namespace) -> int:
         try:
             return extract.for_fixture(doc, exdir)
         except FileNotFoundError:
+            # A refusal is filed in _refused/, and it is a different thing from "not run yet".
+            # Reporting it as absent would erase the citation-integrity number from the baseline.
+            refused = (exdir or extract.EXTRACTIONS) / "_refused" / f"{Path(fixture).stem}.json"
+            if refused.exists():
+                recorded = json.loads(refused.read_text(encoding="utf-8"))
+                problems = [p for r in recorded.get("refusals", []) for p in r.get("problems", [])]
+                unusable[fixture] = problems or [recorded.get("error") or "refused"]
+                seen_refused.add(fixture)
             return None
         except extract.ExtractionError as exc:
             # A refused extraction is a result, not a crash: it is the citation-integrity rate.
             unusable[fixture] = exc.problems
+            seen_refused.add(fixture)
             return None
 
     baseline = evaluate.run(labels, extraction_for, lambda ex: decide.decide(profile, ex))
     baseline.unusable = [{"fixture": k, "problems": v} for k, v in sorted(unusable.items())]
+    baseline.missing_extraction = [f for f in baseline.missing_extraction if f not in seen_refused]
     out = Path(args.out) if args.out else REPO / "results" / "baseline.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(baseline.to_json(), indent=1) + "\n", encoding="utf-8")
@@ -327,6 +338,28 @@ def cmd_compare(args: argparse.Namespace) -> int:
     diffs = sum(r.req_differing for r in rows)
     print(f"\nrequirement agreement: {total - diffs}/{total} values across {agree}/{len(rows)} fixtures")
     return 0
+
+
+def cmd_variance(args: argparse.Namespace) -> int:
+    """Outcome stability across repeated runs. Writes results/variance.json."""
+    dirs = []
+    for pattern in args.directories:
+        from glob import glob as _glob
+        matched = sorted(_glob(pattern)) or [pattern]
+        dirs.extend(Path(m) for m in matched)
+    if not dirs:
+        print("no run directories given", file=sys.stderr)
+        return 2
+    runs = [variance.read_run(d) for d in dirs]
+    v = variance.summarise(runs)
+    out = Path(args.out) if args.out else REPO / "results" / "variance.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(v.to_json(), indent=1) + "\n", encoding="utf-8")
+    if not args.quiet:
+        print(variance.render(v))
+    print(f"→ {_display(out)}", file=sys.stderr)
+    lo, hi = v.clean_range
+    return 0 if lo == hi else 1 if args.strict else 0
 
 
 def cmd_stats(args: argparse.Namespace) -> int:
@@ -412,6 +445,14 @@ def main(argv: list[str] | None = None) -> int:
     me.add_argument("--out-dir", default=str(REPO / "extractions" / "model"))
     me.add_argument("--no-write", action="store_true", help="validate without saving")
     me.set_defaults(func=cmd_model_extract)
+
+    vr = sub.add_parser("variance", help="outcome stability across repeated model runs")
+    vr.add_argument("directories", nargs="+", help="run directories, globs allowed")
+    vr.add_argument("--out", help="output path (default results/variance.json)")
+    vr.add_argument("--quiet", action="store_true")
+    vr.add_argument("--strict", action="store_true",
+                    help="exit non-zero unless every run was identical")
+    vr.set_defaults(func=cmd_variance)
 
     args = ap.parse_args(argv)
     return args.func(args)

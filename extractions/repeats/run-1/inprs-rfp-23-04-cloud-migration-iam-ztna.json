@@ -1,0 +1,95 @@
+{
+  "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Indiana Public Retirement System (INPRS)",
+      "citations": [
+        {
+          "span_id": "p3-s0",
+          "page": 3,
+          "quote": "Indiana Public Retirement System (“INPRS” or the “System”)"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Cloud Migration, IAM, and ZTNA Strategy Services",
+      "citations": [
+        {
+          "span_id": "p3-s0",
+          "page": 3,
+          "quote": "Request for Proposals (“RFP”) for Cloud Migration Discovery and Strategy Services, Identity & Access Management (IAM) Strategy Services, and Secure Access Service Edge and Zero Trust Network Access Strategy Services"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p17-s12",
+          "page": 17,
+          "quote": "Staff assigned to the engagement are expected to either work on-site at the Indianapolis offices located within Indianapolis, or domestic within the U.S."
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "INPRS is soliciting proposals from all qualified firms who wish to be considered as a vendor to provide consulting services for the following as described in Section 3 – Scope of Services:"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "INPRS is soliciting proposals from all qualified firms who wish to be considered as a vendor to provide consulting services"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "advisory",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p13-s11",
+          "page": 13,
+          "quote": "This section of the RFP request is a subset of the Application Assessment and Digital Business Adoption and Transformation Plan RFP."
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p16-s19",
+          "page": 16,
+          "quote": "Respondents must not present their cloud or technical solution(s) since the intent of the RFP is for an independent and non-conflicting assessment."
+        }
+      ]
+    }
+  },
+  "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:40:22Z",
+    "finished_utc": "2026-10-11T22:40:46Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

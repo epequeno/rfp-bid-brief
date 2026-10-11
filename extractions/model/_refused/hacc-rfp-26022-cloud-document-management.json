@@ -1,0 +1,23 @@
+{
+ "fixture": "hacc-rfp-26022-cloud-document-management.pdf",
+ "model": "openrouter/minimax/minimax-m2.7",
+ "attempts": 2,
+ "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+ "error": null,
+ "refusals": [
+  {
+   "attempt": 1,
+   "problems": [
+    "facts.subject: quote not found in span p1-s0 under the verbatim rule: 'Cloud-Based Document Management & Workflow Automation Software Solutio' [this quote does appear in p10-s0, p11-s0, p12-s0, p13-s0, p14-s0, p15-s1, p16-s0, p17-s0, p18-s0, p19-s0, p2-s0, p20-s0, p21-s0, p22-s0, p23-s0, p3-s0, p3-s19, p3-s20, p4-s0, p4-s5, p5-s0, p6-s0, p7-s0, p8-s0, p9-s0, p9-s4 \u2014 the citation names p1-s0. A quote that runs across a span boundary has to name one span and quote only the part inside it.]",
+    "requirements.requires_recurring_onsite: quote not found in span p3-s20 under the verbatim rule: 'The Corpus Christi Housing Authority (hereinafter referred to as \"CCHA' [nearest text is in p9-s4 (page 9): ' ensure that both unfolded proposals are placed together in a single sealed envelope and addressed to: Corpus Christi Housing Authority Attention: Procurement Department RFP 26022 Cloud-Based Document Management & Workflow Automation Software Solution'. The quotes differ first at character 0: the document has ' ' where the quote has 'T' \u2014 copy the document's character.]",
+    "requirements.requires_emergency_onsite_response: quote not found in span p7-s17 under the verbatim rule: 'Vendor shall provide and maintain the following training materials:' [this quote does appear in p8-s1 \u2014 the citation names p7-s17. A quote that runs across a span boundary has to name one span and quote only the part inside it.]"
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "requirements.requires_recurring_onsite: quote not found in span p3-s20 under the verbatim rule: 'The Corpus Christi Housing Authority (hereinafter referred to as \"CCHA' [nearest text is in p3-s19 (page 3): 'The Corpus Christi Housing Authority (hereinafter referred to as \u201cCCHA\u201d) is soliciting competitive proposals from qualified, licensed,'. The quotes differ first at character 65: the document has '\u201c' where the quote has '\"' \u2014 copy the document's character.]"
+   ]
+  }
+ ]
+}

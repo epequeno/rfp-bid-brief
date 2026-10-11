@@ -5,9 +5,9 @@
       "value": "Massachusetts Technology Collaborative",
       "citations": [
         {
-          "span_id": "p1-s0",
-          "page": 1,
-          "quote": "Massachusetts Technology Collaborative"
+          "span_id": "p2-s1",
+          "page": 2,
+          "quote": "Massachusetts Technology Collaborative (\"MassTech\"), on behalf of the Massachusetts AI Hub"
         }
       ]
     },
@@ -15,9 +15,9 @@
       "value": "AI Hub Data Commons Collaborative Consulting Services",
       "citations": [
         {
-          "span_id": "p2-s1",
-          "page": 2,
-          "quote": "Request for Proposals (\"RFP\") for Consulting Services to support the design, development, and launch of the Data Commons Collaborative (DCC)"
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Request for Proposals for AI Hub Data Commons Collaborative Consulting Services"
         }
       ]
     }
@@ -30,7 +30,7 @@
         {
           "span_id": "p2-s10",
           "page": 2,
-          "quote": "The selected Respondent will provide full-service project management and technical consulting services for the development and delivery of the DCC"
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services for the development and delivery of the DCC."
         }
       ]
     },
@@ -41,7 +41,7 @@
         {
           "span_id": "p2-s10",
           "page": 2,
-          "quote": "The selected Respondent will provide full-service project management and technical consulting services"
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services for the development and delivery of the DCC."
         }
       ]
     },
@@ -52,7 +52,7 @@
         {
           "span_id": "p2-s10",
           "page": 2,
-          "quote": "technical consulting services for the development and delivery of the DCC"
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services for the development and delivery of the DCC."
         }
       ]
     },
@@ -61,38 +61,20 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p2-s1",
+          "span_id": "p2-s10",
           "page": 2,
-          "quote": "to support the design, development, and launch of the Data Commons Collaborative (DCC)"
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services for the development and delivery of the DCC."
         }
       ]
     },
     "functional_stacks": {
-      "value": [
-        "CKAN",
-        "Dataverse",
-        "SDV",
-        "Synthea",
-        "CARLA",
-        "AIF360",
-        "Fairlearn"
-      ],
+      "value": [],
       "kind": "list",
       "citations": [
         {
           "span_id": "p3-s1",
           "page": 3,
           "quote": "Implement metadata management, cataloging, and discovery tools (e.g., CKAN, Dataverse)"
-        },
-        {
-          "span_id": "p3-s3",
-          "page": 3,
-          "quote": "Integrate synthetic data tools (e.g., SDV, Synthea, CARLA)"
-        },
-        {
-          "span_id": "p3-s4",
-          "page": 3,
-          "quote": "Implement bias detection, auditing, and mitigation tools (e.g., AIF360, Fairlearn)"
         }
       ]
     }
@@ -102,12 +84,12 @@
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
-    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
     "attempts": 1,
     "repaired_after_refusal": false,
     "refusals": [],
-    "started_utc": "2026-10-11T22:27:14Z",
-    "finished_utc": "2026-10-11T22:27:27Z",
+    "started_utc": "2026-10-11T22:40:46Z",
+    "finished_utc": "2026-10-11T22:40:57Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

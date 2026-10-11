@@ -1,0 +1,95 @@
+{
+  "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Palm Beach Metropolitan Planning Organization",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Palm Beach Metropolitan Planning Organization"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Information Technology Services and Management",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Information Technology Services and Management"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p18-s1",
+          "page": 18,
+          "quote": "Hybrid service model with a strong onsite component for hands-on IT support"
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p17-s10",
+          "page": 17,
+          "quote": "After-hours or weekend support is not expected on a regular basis and would only be required in emergency situations"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p15-s8",
+          "page": 15,
+          "quote": "The selected proposer will be expected to support, maintain, and potentially scale services based on this environment"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "continuous_operations",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p3-s7",
+          "page": 3,
+          "quote": "The MPO anticipates the contract resulting from this solicitation will continue for a period of three (3) years"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p17-s7",
+          "page": 17,
+          "quote": "Microsoft Infrastructure management, Microsoft 365, and related programs"
+        }
+      ]
+    }
+  },
+  "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:49:43Z",
+    "finished_utc": "2026-10-11T22:49:58Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

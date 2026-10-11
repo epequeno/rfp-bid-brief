@@ -5,19 +5,19 @@
       "value": "City of Spicer",
       "citations": [
         {
-          "span_id": "p1-s0",
-          "page": 1,
-          "quote": "City of Spicer"
+          "span_id": "p2-s1",
+          "page": 2,
+          "quote": "The City of Spicer invites proposals from qualified companies to provide managed information technology (IT) services."
         }
       ]
     },
     "subject": {
-      "value": "Managed information technology services",
+      "value": "Managed IT services",
       "citations": [
         {
           "span_id": "p2-s1",
           "page": 2,
-          "quote": "provide managed information technology (IT) services"
+          "quote": "managed information technology (IT) services"
         }
       ]
     }
@@ -28,9 +28,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p2-s5",
-          "page": 2,
-          "quote": "break fix, routine maintenance and project-related services"
+          "span_id": "p4-s14",
+          "page": 4,
+          "quote": "Remote management software on all workstations and servers"
         }
       ]
     },
@@ -39,9 +39,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p4-s14",
+          "span_id": "p4-s25",
           "page": 4,
-          "quote": "Full-service desk Full-service operations center service Remote management software on all"
+          "quote": "Less than 4-hour response time for server down emergencies"
         }
       ]
     },
@@ -50,9 +50,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p2-s4",
+          "span_id": "p2-s5",
           "page": 2,
-          "quote": "The city has a Microsoft-based computer network infrastructure"
+          "quote": "break fix, routine maintenance and project-related services"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p4-s14",
+          "span_id": "p4-s13",
           "page": 4,
           "quote": "24x7x365 monitoring of denoted servers and critical network components"
         }
@@ -72,9 +72,9 @@
       "kind": "list",
       "citations": [
         {
-          "span_id": "p4-s15",
+          "span_id": "p4-s5",
           "page": 4,
-          "quote": "Server and network administration (if applicable)"
+          "quote": "manage, monitor, and secure the city’s IT systems"
         }
       ]
     }
@@ -84,12 +84,12 @@
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
-    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
     "attempts": 1,
     "repaired_after_refusal": false,
     "refusals": [],
-    "started_utc": "2026-10-11T22:23:44Z",
-    "finished_utc": "2026-10-11T22:24:00Z",
+    "started_utc": "2026-10-11T22:38:12Z",
+    "finished_utc": "2026-10-11T22:38:27Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

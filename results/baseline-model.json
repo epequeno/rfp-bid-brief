@@ -6,18 +6,17 @@
   "calibration and the operating point \u2014 decide() emits no probability yet",
   "precision/recall per class \u2014 four positives in eleven fixtures is too thin to report"
  ],
- "n": 11,
- "label_agreement": "9/11",
- "reason_class_agreement": "7/11",
- "truth_class_found_or_correctly_absent": "9/11",
+ "n": 9,
+ "label_agreement": "7/9",
+ "reason_class_agreement": "5/9",
+ "truth_class_found_or_correctly_absent": "6/9",
  "ranking_divergences": [
-  "palm-beach-mpo-rfp-2026-07-it-services.pdf",
-  "coastal-bend-college-erp-sis-rfp-2026-01.pdf"
+  "energy-trust-of-oregon-crm-migration-to-d365.pdf"
  ],
  "ranking_note": "A divergence here means the layer triggered the labelled reason class and also triggered another, and the priority order (geography > product > functional > operations) put the other first. Two fixtures trigger geography AND operations, and their labels rank them in opposite directions, so no single priority order can reproduce both. Recorded rather than tuned.",
  "confusion": {
   "no_bid": {
-   "no_bid": 7
+   "no_bid": 5
   },
   "bid": {
    "no_bid": 2,
@@ -46,31 +45,11 @@
    "class_ok": false
   },
   {
-   "fixture": "hacc-rfp-26022-cloud-document-management.pdf",
-   "truth_label": "no_bid",
-   "truth_reason_class": "product_not_services",
-   "predicted_label": "no_bid",
-   "predicted_reason_class": "product_not_services",
-   "exclusions_matched": 2,
-   "label_ok": true,
-   "class_ok": true
-  },
-  {
    "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
    "truth_label": "no_bid",
    "truth_reason_class": "functional_stack_not_held",
    "predicted_label": "no_bid",
-   "predicted_reason_class": "functional_stack_not_held",
-   "exclusions_matched": 1,
-   "label_ok": true,
-   "class_ok": true
-  },
-  {
-   "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
-   "truth_label": "no_bid",
-   "truth_reason_class": "operations_not_projects",
-   "predicted_label": "no_bid",
-   "predicted_reason_class": "geography",
+   "predicted_reason_class": "product_not_services",
    "exclusions_matched": 2,
    "label_ok": true,
    "class_ok": false
@@ -91,7 +70,7 @@
    "truth_reason_class": "functional_stack_not_held",
    "predicted_label": "no_bid",
    "predicted_reason_class": "product_not_services",
-   "exclusions_matched": 3,
+   "exclusions_matched": 2,
    "label_ok": true,
    "class_ok": false
   },
@@ -130,7 +109,7 @@
    "truth_label": "bid",
    "truth_reason_class": "in_scope",
    "predicted_label": "no_bid",
-   "predicted_reason_class": "functional_stack_not_held",
+   "predicted_reason_class": "operations_not_projects",
    "exclusions_matched": 1,
    "label_ok": false,
    "class_ok": false
@@ -138,6 +117,23 @@
  ],
  "missing_extraction": [],
  "missing_label": [],
- "unusable_extractions": [],
+ "unusable_extractions": [
+  {
+   "fixture": "hacc-rfp-26022-cloud-document-management.pdf",
+   "problems": [
+    "facts.subject: quote not found in span p1-s0 under the verbatim rule: 'Cloud-Based Document Management & Workflow Automation Software Solutio' [this quote does appear in p10-s0, p11-s0, p12-s0, p13-s0, p14-s0, p15-s1, p16-s0, p17-s0, p18-s0, p19-s0, p2-s0, p20-s0, p21-s0, p22-s0, p23-s0, p3-s0, p3-s19, p3-s20, p4-s0, p4-s5, p5-s0, p6-s0, p7-s0, p8-s0, p9-s0, p9-s4 \u2014 the citation names p1-s0. A quote that runs across a span boundary has to name one span and quote only the part inside it.]",
+    "requirements.requires_recurring_onsite: quote not found in span p3-s20 under the verbatim rule: 'The Corpus Christi Housing Authority (hereinafter referred to as \"CCHA' [nearest text is in p9-s4 (page 9): ' ensure that both unfolded proposals are placed together in a single sealed envelope and addressed to: Corpus Christi Housing Authority Attention: Procurement Department RFP 26022 Cloud-Based Document Management & Workflow Automation Software Solution'. The quotes differ first at character 0: the document has ' ' where the quote has 'T' \u2014 copy the document's character.]",
+    "requirements.requires_emergency_onsite_response: quote not found in span p7-s17 under the verbatim rule: 'Vendor shall provide and maintain the following training materials:' [this quote does appear in p8-s1 \u2014 the citation names p7-s17. A quote that runs across a span boundary has to name one span and quote only the part inside it.]",
+    "requirements.requires_recurring_onsite: quote not found in span p3-s20 under the verbatim rule: 'The Corpus Christi Housing Authority (hereinafter referred to as \"CCHA' [nearest text is in p3-s19 (page 3): 'The Corpus Christi Housing Authority (hereinafter referred to as \u201cCCHA\u201d) is soliciting competitive proposals from qualified, licensed,'. The quotes differ first at character 65: the document has '\u201c' where the quote has '\"' \u2014 copy the document's character.]"
+   ]
+  },
+  {
+   "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+   "problems": [
+    "requirements.delivery_model: quote not found in span p16-s12 under the verbatim rule: 'Help Desk Support, Network Monitoring, Back up and Disaster Recovery, ' [nearest text is in p16-s12 (page 16): 'lp Desk Support \u2022 Network Monitoring \u2022 Back up and Disaster Recovery \u2022 Cybersecurity monitorin'. The quotes differ first at character 0: the document has 'l' where the quote has 'H' \u2014 copy the document's character.]",
+    "requirements.delivery_model: quote not found in span p16-s12 under the verbatim rule: 'lp Desk Support \u2022 Network Monitoring \u2022 Back up and Disaster Recovery \u2022' [nearest text is in p16-s12 (page 16): 'lp Desk Support \u2022 Network Monitoring \u2022 Back up and Disaster Recovery \u2022 Cybersecurity monitoring' \u2014 the lengths differ, so part of the quote is not in that span.]"
+   ]
+  }
+ ],
  "unusable_note": "An extraction refused by the citation gate cannot produce a decision. That refusal is a measurement, not an error: for a model-backed extractor it is the citation-integrity rate, and a run that crashes on it reports nothing."
 }

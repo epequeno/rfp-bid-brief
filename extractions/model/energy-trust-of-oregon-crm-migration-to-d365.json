@@ -5,19 +5,19 @@
       "value": "Energy Trust of Oregon, Inc.",
       "citations": [
         {
-          "span_id": "p1-s1",
+          "span_id": "p1-s4",
           "page": 1,
-          "quote": "Energy Trust of Oregon, Inc. (Energy Trust), an Oregon nonprofit corporation, is soliciting proposals"
+          "quote": "Energy Trust is an independent nonprofit organization selected and overseen by the Oregon Public Utility Commission (OPUC)"
         }
       ]
     },
     "subject": {
-      "value": "Migration from on-premises Microsoft CRM to Microsoft Dynamics 365 cloud",
+      "value": "Microsoft Dynamics 365 Cloud CRM migration",
       "citations": [
         {
-          "span_id": "p1-s0",
+          "span_id": "p1-s1",
           "page": 1,
-          "quote": "Migration from On-Premises Microsoft CRM to Microsoft Dynamics 365 Cloud"
+          "quote": "soliciting proposals from qualified vendors to plan, design, and execute the migration of our existing on‑premises Microsoft CRM implementation to the Microsoft Dynamics 365 cloud CRM platform"
         }
       ]
     }
@@ -30,7 +30,7 @@
         {
           "span_id": "p2-s2",
           "page": 2,
-          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support"
+          "quote": "end‑to‑end services covering planning, migration, validation, and post‑go‑live support"
         }
       ]
     },
@@ -39,20 +39,20 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p5-s0",
-          "page": 5,
-          "quote": "Cutover planning and execution support"
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "end‑to‑end services covering planning, migration, validation, and post‑go‑live support"
         }
       ]
     },
     "requires_product_supply": {
-      "value": false,
+      "value": true,
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p1-s9",
+          "span_id": "p1-s1",
           "page": 1,
-          "quote": "We seek an experienced Microsoft partner to deliver a secure, scalable, and well‑governed migration"
+          "quote": "migration of our existing on‑premises Microsoft CRM implementation to the Microsoft Dynamics 365 cloud CRM platform"
         }
       ]
     },
@@ -61,28 +61,28 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p2-s2",
-          "page": 2,
-          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support"
+          "span_id": "p8-s6",
+          "page": 8,
+          "quote": "The contract term cannot exceed two years"
         }
       ]
     },
     "functional_stacks": {
       "value": [
-        "Microsoft Dynamics 365",
+        "Dynamics 365",
         "Power Platform"
       ],
       "kind": "list",
       "citations": [
         {
-          "span_id": "p2-s9",
+          "span_id": "p2-s8",
           "page": 2,
-          "quote": "Recommended Dynamics 365 applications and licensing (e.g., Sales, Customer Service, Marketing)"
+          "quote": "Recommended Dynamics 365 applications and licensing"
         },
         {
           "span_id": "p3-s4",
           "page": 3,
-          "quote": "Implementation of Power Automate flows, Power Apps, and business rules as appropriate"
+          "quote": "Configuration of security roles, teams, and field‑level security"
         }
       ]
     }
@@ -92,12 +92,12 @@
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
-    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
     "attempts": 1,
     "repaired_after_refusal": false,
     "refusals": [],
-    "started_utc": "2026-10-11T22:24:49Z",
-    "finished_utc": "2026-10-11T22:25:03Z",
+    "started_utc": "2026-10-11T22:39:01Z",
+    "finished_utc": "2026-10-11T22:39:28Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

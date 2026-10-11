@@ -12,7 +12,7 @@
       ]
     },
     "subject": {
-      "value": "IT Consulting and Support",
+      "value": "Information technology consulting and support",
       "citations": [
         {
           "span_id": "p2-s0",
@@ -30,12 +30,7 @@
         {
           "span_id": "p7-s13",
           "page": 7,
-          "quote": "On-site support for TTD facilities at South Lake Tahoe, California and Stateline, NV is REQUIRED"
-        },
-        {
-          "span_id": "p7-s14",
-          "page": 7,
-          "quote": "Proposer should plan on two (2) days per week for on-site support"
+          "quote": "On-site support for TTD facilities at South Lake Tahoe, California and Stateline, NV is REQUIRED."
         }
       ]
     },
@@ -55,9 +50,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p4-s0",
-          "page": 4,
-          "quote": "TTD requires a consultant to manage, support, and implement information technology systems"
+          "span_id": "p6-s11",
+          "page": 6,
+          "quote": "TTD owns all passwords required to support its information technology vendor and agrees to maintain the security of all passwords."
         }
       ]
     },
@@ -66,9 +61,9 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p12-s2",
-          "page": 12,
-          "quote": "two (2) year period, with three (3) option periods"
+          "span_id": "p7-s10",
+          "page": 7,
+          "quote": "Provide support 24 hours a day, 7 days a week"
         }
       ]
     },
@@ -77,9 +72,9 @@
       "kind": "list",
       "citations": [
         {
-          "span_id": "p4-s0",
-          "page": 4,
-          "quote": "TTD requires a consultant to manage, support, and implement information technology systems"
+          "span_id": "p6-s25",
+          "page": 6,
+          "quote": "Application and solution configuration."
         }
       ]
     }
@@ -89,12 +84,12 @@
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
-    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
     "attempts": 1,
     "repaired_after_refusal": false,
     "refusals": [],
-    "started_utc": "2026-10-11T22:27:53Z",
-    "finished_utc": "2026-10-11T22:28:10Z",
+    "started_utc": "2026-10-11T22:41:47Z",
+    "finished_utc": "2026-10-11T22:42:03Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

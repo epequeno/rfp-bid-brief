@@ -38,7 +38,9 @@ What exists today:
 | `extractions/` | One extraction per fixture, each value carrying the spans it came from. |
 | `results/briefs/` | The rendered one-pager, committed as the artifact it is. |
 | `extractions/model/` | The model's extractions, each carrying its model id, prompt hash and attempt count. Refusals live in `_refused/`, never beside validated data. |
-| `results/model-pass.md` | Both model passes, the spread between them, and the two wrong calls with their diagnoses. |
+| `results/model-pass.md` | Every model pass, the spread across three identical runs, and the wrong calls with their diagnoses. |
+| `results/variance.json` | Per-fixture outcome stability: which documents this pipeline can be trusted on. |
+| `extractions/repeats/run-1..3/` | The three runs behind that spread. The canonical set is run 1 — the first draw, not the best-scoring one. |
 
 ```bash
 just                    # list the recipes

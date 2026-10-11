@@ -1,0 +1,102 @@
+{
+  "fixture": "coastal-bend-college-erp-sis-rfp-2026-01.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Coastal Bend College",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Prepared by: Millie Templeman Procurement Specialist Coastal Bend College"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Enterprise Resource Planning and Student Information Systems",
+      "citations": [
+        {
+          "span_id": "p2-s0",
+          "page": 2,
+          "quote": "PROJECT NAME: Enterprise Resource Planning and Student Information Systems"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s6",
+          "page": 4,
+          "quote": "CBC is accepting sealed proposals for the following: The purchase of Enterprise Resource Planning and Student Information Systems."
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s6",
+          "page": 4,
+          "quote": "CBC is accepting sealed proposals for the following: The purchase of Enterprise Resource Planning and Student Information Systems."
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s6",
+          "page": 4,
+          "quote": "CBC is accepting sealed proposals for the following: The purchase of Enterprise Resource Planning and Student Information Systems."
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "continuous_operations",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "Option 1: Three (3) year term with up to two (2) one-year renewals at Coastal Bend College’s option."
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p22-s7",
+          "page": 22,
+          "quote": "The contract awardee(s) must be able to provide the majority of the services noted in the excel spreadsheet attached."
+        }
+      ]
+    }
+  },
+  "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 2,
+    "repaired_after_refusal": true,
+    "refusals": [
+      {
+        "attempt": 1,
+        "problems": [
+          "requirements.delivery_model: quote not found in span p2-s2 under the verbatim rule: 'Option 1: Three (3) year term with up to two (2) one-year renewals at ' [nearest text is in p2-s2 (page 2): 'Option 1: Three (3) year term with up to two (2) one-year renewals at Coastal Bend College’s option.'. The quotes differ first at character 90: the document has '’' where the quote has \"'\" — copy the document's character.]"
+        ]
+      }
+    ],
+    "started_utc": "2026-10-11T22:43:14Z",
+    "finished_utc": "2026-10-11T22:43:39Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

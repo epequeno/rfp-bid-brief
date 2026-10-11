@@ -37,41 +37,54 @@ echo ""
 echo "pipeline:"
 
 if [ -n "$(ls -1 results/spans/*.json 2>/dev/null)" ]; then
-  spans_total="$(python3 - <<'PY' 2>/dev/null || echo '?'
+  printf '  %-22s %s\n' "parse (span index)" \
+    "$(python3 - <<'PY' 2>/dev/null || echo 'built'
 import glob, json
-print(sum(json.load(open(p))["span_count"] for p in glob.glob("results/spans/*.json")))
+print(f"built — {sum(json.load(open(p))['span_count'] for p in glob.glob('results/spans/*.json'))} spans, adr/0004")
 PY
 )"
-  printf '  %-22s %s\n' "parse (span index)" "built — ${spans_total} spans, adr/0004"
 else
   printf '  %-22s %s\n' "parse (span index)" "NOT BUILT"
 fi
 
-extractions=$(ls -1 extractions/*.json 2>/dev/null | wc -l | tr -d ' ')
-briefs=$(ls -1 results/briefs/*.md 2>/dev/null | wc -l | tr -d ' ')
-printf '  %-22s %s\n' "extract (model)" "built — 8/11 validated, 3 refused · results/model-pass.md"
-printf '  %-22s %s\n' "decide" "built — deterministic vs the frozen profile, adr/0002"
-printf '  %-22s %s\n' "brief" "built — ${briefs} brief(s) rendered"
+printf '  %-22s %s\n' "extract" \
+  "$(ls -1 extractions/*.json 2>/dev/null | wc -l | tr -d ' ') hand-authored extraction(s)"
 
-if [ -f results/baseline.json ]; then
-  printf '  %-22s %s\n' "baseline" "$(python3 - <<'PY' 2>/dev/null || echo 'present, unreadable'
+if [ -f results/variance.json ]; then
+  printf '  %-22s %s\n' "extract (model)" \
+    "$(python3 - <<'PY' 2>/dev/null || echo 'built — results/model-pass.md'
+import json
+v = json.load(open("results/variance.json"))
+c = v["clean_first_attempt"]
+print(f"built — clean 1st attempt {c['min']}-{c['max']}/11 over {len(v['runs'])} runs, adr/0006")
+PY
+)"
+else
+  printf '  %-22s %s\n' "extract (model)" "built — results/model-pass.md"
+fi
+
+printf '  %-22s %s\n' "decide" "built — deterministic vs the frozen profile, adr/0002"
+
+if [ -f results/baseline-model.json ]; then
+  printf '  %-22s %s\n' "brief" "$(ls -1 results/briefs/*.md 2>/dev/null | wc -l | tr -d ' ') brief(s) rendered"
+  printf '  %-22s %s\n' "baseline (oracle)" \
+    "$(python3 - <<'PY' 2>/dev/null || echo 'results/baseline.json'
 import json
 b = json.load(open("results/baseline.json"))
-print(f"hand: {b['label_agreement']} labels · {b['reason_class_agreement']} primary class")
+print(f"hand-authored: {b['label_agreement']} labels, {b['reason_class_agreement']} primary class")
 PY
 )"
-fi
-if [ -f results/baseline-model.json ]; then
-  printf '  %-22s %s\n' "baseline (model)" "$(python3 - <<'PY' 2>/dev/null || echo 'present, unreadable'
+  printf '  %-22s %s\n' "baseline (model)" \
+    "$(python3 - <<'PY' 2>/dev/null || echo 'results/baseline-model.json'
 import json
 b = json.load(open("results/baseline-model.json"))
-print(f"model: {b['label_agreement']} labels on {b['n']} usable · "
-      f"{len(b['unusable_extractions'])} refused by the citation gate")
+print(f"run 1 (of 3): {b['n']} usable, {b['label_agreement']} labels, "
+      f"{len(b['unusable_extractions'])} refused")
 PY
 )"
 fi
 
-for stage in "probability channel (Jev)" "extraction retry pass" "eval harness" "static site" "MCP surface"; do
+for stage in "probability channel (Jev)" "eval harness" "static site" "MCP surface"; do
   printf '  %-22s %s\n' "$stage" "not built"
 done
 

@@ -1,0 +1,95 @@
+{
+  "fixture": "tahoe-transportation-district-it-consulting-2025.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Tahoe Transportation District",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Tahoe Transportation District"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Information technology consulting and support",
+      "citations": [
+        {
+          "span_id": "p2-s0",
+          "page": 2,
+          "quote": "information technology consulting and support"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p7-s13",
+          "page": 7,
+          "quote": "On-site support for TTD facilities at South Lake Tahoe, California and Stateline, NV is REQUIRED."
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p7-s11",
+          "page": 7,
+          "quote": "be on-site within four (4) hours"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p6-s11",
+          "page": 6,
+          "quote": "TTD owns all passwords required to support its information technology vendor and agrees to maintain the security of all passwords."
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "continuous_operations",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p7-s10",
+          "page": 7,
+          "quote": "Provide support 24 hours a day, 7 days a week"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p6-s25",
+          "page": 6,
+          "quote": "Application and solution configuration."
+        }
+      ]
+    }
+  },
+  "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:41:47Z",
+    "finished_utc": "2026-10-11T22:42:03Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

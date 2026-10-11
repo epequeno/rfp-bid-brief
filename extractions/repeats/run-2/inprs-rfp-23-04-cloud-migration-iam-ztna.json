@@ -1,0 +1,105 @@
+{
+  "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Indiana Public Retirement System (INPRS)",
+      "citations": [
+        {
+          "span_id": "p4-s2",
+          "page": 4,
+          "quote": "INPRS is issuing this RFP"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Cloud Migration Discovery and Strategy, IAM Strategy, and ZTNA Strategy Services",
+      "citations": [
+        {
+          "span_id": "p3-s0",
+          "page": 3,
+          "quote": "Cloud Migration Discovery and Strategy Services, Identity & Access Management (IAM) Strategy Services,"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p17-s12",
+          "page": 17,
+          "quote": "Staff assigned to the engagement are expected to either work on-site at the Indianapolis offices located within Indianapolis, or domestic within the U.S."
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p11-s14",
+          "page": 11,
+          "quote": "The plan should identify what tasks the vendor is responsible for and what tasks INPRS will be responsible for."
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p16-s19",
+          "page": 16,
+          "quote": "Respondents must not present their cloud or technical solution(s) since the intent of the RFP is for an independent and non-conflicting assessment."
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "advisory",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p11-s1",
+          "page": 11,
+          "quote": "It includes evaluation of the technical feasibility, financial viability, staff skills of today and tomorrow, and strategic alignment of various workloads"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p16-s19",
+          "page": 16,
+          "quote": "Respondents must not present their cloud or technical solution(s) since the intent of the RFP is for an independent and non-conflicting assessment."
+        }
+      ]
+    }
+  },
+  "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 2,
+    "repaired_after_refusal": true,
+    "refusals": [
+      {
+        "attempt": 1,
+        "problems": [
+          "facts.subject: quote not found in span p3-s0 under the verbatim rule: 'RFP for Cloud Migration Discovery and Strategy Services, Identity & Ac' [nearest text is in p3-s0 (page 3): 'P”) for Cloud Migration Discovery and Strategy Services, Identity & Access Management (IAM) Strategy Services,'. The quotes differ first at character 0: the document has 'P' where the quote has 'R' — copy the document's character.]",
+          "requirements.requires_recurring_onsite: quote not found in span p17-s12 under the verbatim rule: 'Staff assigned to the engagement are expected to either work-on-site a' [nearest text is in p17-s12 (page 17): 'Staff assigned to the engagement are expected to either work on-site at the Indianapolis offices located within Indianapolis, or domestic within the U.S.'. The quotes differ first at character 60: the document has ' ' where the quote has '-' — copy the document's character.]",
+          "requirements.requires_product_supply: quote not found in span p17-s19 under the verbatim rule: 'Respondents must not present their cloud or technical solution(s) sinc' [this quote does appear in p16-s19 — the citation names p17-s19. A quote that runs across a span boundary has to name one span and quote only the part inside it.]",
+          "requirements.functional_stacks: quote not found in span p17-s19 under the verbatim rule: 'Respondents must not present their cloud or technical solution(s) sinc' [this quote does appear in p16-s19 — the citation names p17-s19. A quote that runs across a span boundary has to name one span and quote only the part inside it.]"
+        ]
+      }
+    ],
+    "started_utc": "2026-10-11T22:44:43Z",
+    "finished_utc": "2026-10-11T22:45:13Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

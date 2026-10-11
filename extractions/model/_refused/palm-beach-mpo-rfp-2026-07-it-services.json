@@ -1,0 +1,21 @@
+{
+ "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+ "model": "openrouter/minimax/minimax-m2.7",
+ "attempts": 2,
+ "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+ "error": null,
+ "refusals": [
+  {
+   "attempt": 1,
+   "problems": [
+    "requirements.delivery_model: quote not found in span p16-s12 under the verbatim rule: 'Help Desk Support, Network Monitoring, Back up and Disaster Recovery, ' [nearest text is in p16-s12 (page 16): 'lp Desk Support \u2022 Network Monitoring \u2022 Back up and Disaster Recovery \u2022 Cybersecurity monitorin'. The quotes differ first at character 0: the document has 'l' where the quote has 'H' \u2014 copy the document's character.]"
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "requirements.delivery_model: quote not found in span p16-s12 under the verbatim rule: 'lp Desk Support \u2022 Network Monitoring \u2022 Back up and Disaster Recovery \u2022' [nearest text is in p16-s12 (page 16): 'lp Desk Support \u2022 Network Monitoring \u2022 Back up and Disaster Recovery \u2022 Cybersecurity monitoring' \u2014 the lengths differ, so part of the quote is not in that span.]"
+   ]
+  }
+ ]
+}

@@ -44,6 +44,27 @@ Every requirement must appear, including the ones that are false or empty. Value
 | `delivery_model` | `enum` | one of `advisory`, `project`, `continuous_operations`. Use `continuous_operations` when the winner monitors, pages, staffs a desk or runs a service continuously. Use `project` for a defined build or migration. Use `advisory` for a study, strategy or plan. |
 | `functional_stacks` | `list` | the vendor stacks the winner must **configure functionally** — deciding how the product is set up for the customer. Exclude stack administration, hosting, migration and integration work: those are not functional configuration. Empty list if none. |
 
+### Two distinctions that are easy to get wrong, with examples
+
+**A travel expectation is not a standing on-site presence.**
+
+> "Respondent staff must be able to travel to the offices located within Indianapolis."
+
+That is business travel on a study engagement. `requires_recurring_onsite` is **false**. Reserve true
+for text that commits the winner to being there repeatedly — days per week, a majority of staffing
+hours on site, or attendance at meetings in person.
+
+**Migrating onto a platform is not configuring it.**
+
+> "Develop a migration plan and data model for the call center database to move into Dynamics 365,"
+> and "implement an intelligent virtual assistant" on it.
+
+That is project work *on* a platform. `functional_stacks` is **empty**. List a stack only when the
+winner must make the product's own setup decisions — security roles, entities and fields, business
+rules, workflow configuration, licence selection. "Recommend which Dynamics 365 applications and
+licences to buy" and "configure security roles, teams and field-level security" are functional
+configuration; "migrate the data onto it" is not.
+
 ## The citation rules — these are enforced, and a mistake is refused
 
 1. **Every value carries at least one citation**, including a `false` or empty one. For those, cite

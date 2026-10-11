@@ -1,0 +1,95 @@
+{
+  "fixture": "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Massachusetts Technology Collaborative",
+      "citations": [
+        {
+          "span_id": "p2-s1",
+          "page": 2,
+          "quote": "Massachusetts Technology Collaborative (\"MassTech\"), on behalf of the Massachusetts AI Hub, is issuing this Request for Proposals"
+        }
+      ]
+    },
+    "subject": {
+      "value": "AI Hub Data Commons consulting services",
+      "citations": [
+        {
+          "span_id": "p2-s1",
+          "page": 2,
+          "quote": "Consulting Services to support the design, development, and launch of the Data Commons Collaborative"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s10",
+          "page": 2,
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services"
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s10",
+          "page": 2,
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s10",
+          "page": 2,
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p2-s1",
+          "page": 2,
+          "quote": "Consulting Services to support the design, development, and launch of the Data Commons Collaborative"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p2-s10",
+          "page": 2,
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services"
+        }
+      ]
+    }
+  },
+  "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:45:13Z",
+    "finished_utc": "2026-10-11T22:45:28Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

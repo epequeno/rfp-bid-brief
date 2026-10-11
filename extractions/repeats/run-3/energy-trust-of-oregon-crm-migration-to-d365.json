@@ -1,0 +1,108 @@
+{
+  "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Energy Trust of Oregon, Inc.",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "Energy Trust of Oregon, Inc. (Energy Trust), an Oregon nonprofit corporation"
+        }
+      ]
+    },
+    "subject": {
+      "value": "CRM migration to Dynamics 365 Cloud",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Migration from On-Premises Microsoft CRM to Microsoft Dynamics 365 Cloud"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s2",
+          "page": 2,
+          "quote": "The selected vendor will be expected to provide end‑to‑end services covering planning, migration, validation, and post‑go‑live support."
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "execute the migration of our existing on‑premises Microsoft CRM implementation to the Microsoft Dynamics 365 cloud CRM platform"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "to plan, design, and execute the migration"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [
+        "Dynamics 365",
+        "Power Platform"
+      ],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p2-s8",
+          "page": 2,
+          "quote": "Recommended Dynamics 365 applications and licensing (e.g., Sales, Customer Service, Marketing)"
+        },
+        {
+          "span_id": "p3-s4",
+          "page": 3,
+          "quote": "Implementation of Power Automate flows, Power Apps, and business rules as appropriate"
+        },
+        {
+          "span_id": "p3-s4",
+          "page": 3,
+          "quote": "Configuration of security roles, teams, and field‑level security"
+        }
+      ]
+    }
+  },
+  "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:47:56Z",
+    "finished_utc": "2026-10-11T22:48:06Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

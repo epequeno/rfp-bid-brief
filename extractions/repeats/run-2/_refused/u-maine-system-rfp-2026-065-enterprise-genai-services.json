@@ -1,0 +1,23 @@
+{
+ "fixture": "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf",
+ "model": "openrouter/minimax/minimax-m2.7",
+ "attempts": 2,
+ "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+ "error": null,
+ "refusals": [
+  {
+   "attempt": 1,
+   "problems": [
+    "requirements.requires_product_supply: quote not found in span p32-s7 under the verbatim rule: 'The vendor is responsible for hosting.' [this quote does appear in p31-s27 \u2014 the citation names p32-s7. A quote that runs across a span boundary has to name one span and quote only the part inside it.]",
+    "requirements.delivery_model: quote not found in span p9-s19 under the verbatim rule: 'Vendor Responsibilities (post-implementation): Operate and support the' [nearest text is in p9-s19 (page 9): 'ndor Responsibilities (post-implementation): o Operate and support the service per the proposed SLA, including model/service availability, updates, and reliability.'. The quotes differ first at character 0: the document has 'n' where the quote has 'V' \u2014 copy the document's character.]",
+    "requirements.functional_stacks: quote not found in span p28-s24 under the verbatim rule: 'LTI 1.3 integration is required per Appendix H Requirement #34.' [nearest text is in p28-s25 (page 28): 'LTI 1.3 integration is required per Appendix H Requirement #34,'. The quotes differ first at character 62: the document has ',' where the quote has '.' \u2014 copy the document's character.]"
+   ]
+  },
+  {
+   "attempt": 2,
+   "problems": [
+    "requirements.delivery_model: quote not found in span p9-s19 under the verbatim rule: 'Vendor Responsibilities (post-implementation): Operate and support the' [nearest text is in p9-s19 (page 9): 'ndor Responsibilities (post-implementation): o Operate and support the service per the proposed SLA, including model/service availability, updates, and reliability.'. The quotes differ first at character 0: the document has 'n' where the quote has 'V' \u2014 copy the document's character.]"
+   ]
+  }
+ ]
+}

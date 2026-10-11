@@ -2,22 +2,22 @@
   "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
   "facts": {
     "issuer": {
-      "value": "Indiana Public Retirement System",
+      "value": "Indiana Public Retirement System (INPRS)",
       "citations": [
         {
-          "span_id": "p4-s2",
-          "page": 4,
-          "quote": "INPRS is issuing this RFP"
+          "span_id": "p3-s0",
+          "page": 3,
+          "quote": "Indiana Public Retirement System (“INPRS” or the “System”)"
         }
       ]
     },
     "subject": {
-      "value": "Cloud migration, IAM, and ZTNA strategy services",
+      "value": "Cloud Migration, IAM, and ZTNA Strategy Services",
       "citations": [
         {
-          "span_id": "p1-s0",
-          "page": 1,
-          "quote": "CLOUD MIGRATION DISCOVERY AND STRATEGY SERVICES, IDENTITY & ACCESS MANAGEMENT (IAM) STRATEGY SERVICES, AND ZERO TRUST NETWORK ACCESS STRATEGY"
+          "span_id": "p3-s0",
+          "page": 3,
+          "quote": "Request for Proposals (“RFP”) for Cloud Migration Discovery and Strategy Services, Identity & Access Management (IAM) Strategy Services, and Secure Access Service Edge and Zero Trust Network Access Strategy Services"
         }
       ]
     }
@@ -28,7 +28,7 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p17-s11",
+          "span_id": "p17-s12",
           "page": 17,
           "quote": "Staff assigned to the engagement are expected to either work on-site at the Indianapolis offices located within Indianapolis, or domestic within the U.S."
         }
@@ -39,9 +39,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p11-s0",
-          "page": 11,
-          "quote": "INPRS seeks IT professional consulting services to assist with seeking out all viable options"
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "INPRS is soliciting proposals from all qualified firms who wish to be considered as a vendor to provide consulting services for the following as described in Section 3 – Scope of Services:"
         }
       ]
     },
@@ -50,9 +50,9 @@
       "kind": "bool",
       "citations": [
         {
-          "span_id": "p11-s0",
-          "page": 11,
-          "quote": "a thorough and complete assessment of INPRS’s current systems, applications, and infrastructure"
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "INPRS is soliciting proposals from all qualified firms who wish to be considered as a vendor to provide consulting services"
         }
       ]
     },
@@ -61,33 +61,20 @@
       "kind": "enum",
       "citations": [
         {
-          "span_id": "p11-s0",
-          "page": 11,
-          "quote": "a thorough and complete assessment of INPRS’s current systems, applications, and infrastructure to identify potential opportunities in execution of a digital transformation program"
+          "span_id": "p13-s11",
+          "page": 13,
+          "quote": "This section of the RFP request is a subset of the Application Assessment and Digital Business Adoption and Transformation Plan RFP."
         }
       ]
     },
     "functional_stacks": {
-      "value": [
-        "IAM platforms",
-        "ZTNA / SASE platforms"
-      ],
+      "value": [],
       "kind": "list",
       "citations": [
         {
-          "span_id": "p11-s3",
-          "page": 11,
-          "quote": "an Identity and Access Management (IAM) initiative"
-        },
-        {
-          "span_id": "p11-s12",
-          "page": 11,
-          "quote": "A Secure Access Service Edge (SASE) and Zero Trust Network Access (ZTNA) strategy"
-        },
-        {
-          "span_id": "p14-s14",
-          "page": 14,
-          "quote": "secure web gateway (SWG), cloud access security broker (CASB), data loss prevention (DLP), identity-centric security, zero trust principles"
+          "span_id": "p16-s19",
+          "page": 16,
+          "quote": "Respondents must not present their cloud or technical solution(s) since the intent of the RFP is for an independent and non-conflicting assessment."
         }
       ]
     }
@@ -97,23 +84,12 @@
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
-    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
-    "attempts": 2,
-    "repaired_after_refusal": true,
-    "refusals": [
-      {
-        "attempt": 1,
-        "problems": [
-          "requirements.requires_recurring_onsite: quote not found in span p17-s11 under the verbatim rule: 'Staff assigned to the engagement are expected to either work-on-site a' [nearest text is in p17-s12 (page 17): 'Staff assigned to the engagement are expected to either work on-site at the Indianapolis offices located within Indianapolis, or domestic within the U.S.'. The quotes differ first at character 60: the document has ' ' where the quote has '-' — copy the document's character.]",
-          "requirements.requires_product_supply: quote not found in span p11-s0 under the verbatim rule: \"a thorough and complete assessment of INPRS's current systems, applica\" [nearest text is in p11-s0 (page 11): 'a thorough and complete assessment of INPRS’s current systems, applications, and infrastructure'. The quotes differ first at character 43: the document has '’' where the quote has \"'\" — copy the document's character.]",
-          "requirements.delivery_model: quote not found in span p11-s0 under the verbatim rule: \"a thorough and complete assessment of INPRS's current systems, applica\" [nearest text is in p11-s0 (page 11): 'a thorough and complete assessment of INPRS’s current systems, applications, and infrastructure to identify potential opportunities in execution of a digital transformation program'. The quotes differ first at character 43: the document has '’' where the quote has \"'\" — copy the document's character.]",
-          "requirements.functional_stacks: quote not found in span p11-s11 under the verbatim rule: 'An Identity and Access Management (IAM) initiative' [nearest text is in p11-s3 (page 11): 'an Identity and Access Management (IAM) initiative'. The quotes differ first at character 0: the document has 'a' where the quote has 'A' — copy the document's character.]",
-          "requirements.functional_stacks: quote not found in span p13-s11 under the verbatim rule: 'A Secure Access Service Edge (SASE) and Zero Trust Network Access (ZTN' [this quote does appear in p11-s12 — the citation names p13-s11. A quote that runs across a span boundary has to name one span and quote only the part inside it.]"
-        ]
-      }
-    ],
-    "started_utc": "2026-10-11T22:25:30Z",
-    "finished_utc": "2026-10-11T22:27:14Z",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 1,
+    "repaired_after_refusal": false,
+    "refusals": [],
+    "started_utc": "2026-10-11T22:40:22Z",
+    "finished_utc": "2026-10-11T22:40:46Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }

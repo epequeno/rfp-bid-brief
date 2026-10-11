@@ -146,3 +146,41 @@ an ERP functional implementation, and the model reported *product not services*.
    9/11 and 11/11 in this run.
 2. **Repeat the extraction N times and report the spread.** Two runs disagreed by four fixtures on
    first-attempt cleanliness. Until that is characterised, the honest headline is a range.
+
+---
+
+# Three repeated runs — the spread, measured
+
+With the two worked examples added to the prompt (a travel clause is not a standing on-site presence;
+migrating onto a platform is not configuring it), three identical runs over the same eleven fixtures:
+
+| run | clean 1st attempt | repaired | refused | usable | labelled call matched |
+|---|---|---|---|---|---|
+| 1 | 8/11 | 1 | 2 | 9 | 7/9 |
+| 2 | 7/11 | 3 | 1 | 10 | 10/10 |
+| 3 | 8/11 | 3 | 0 | 11 | **11/11** |
+
+Clean first attempt: **7–8 of 11**. Labelled call matched: **78%, 100%, 100%**.
+
+Four things this settles, three of them uncomfortable:
+
+1. **A single pass is not a rate.** Label agreement ranged from 7/9 to 11/11 across identical runs.
+   With eleven fixtures, one differently-read document moves the figure by about eleven points, so
+   any "9/11" from a single run says very little on its own.
+2. **The prompt examples did not remove refusals.** Three refusals in 33 fixture-attempts, spread
+   across two of the three runs, with the repair channel already in place. They appear to have
+   narrowed the cleanliness range from 5–8 to 7–8, which is weak evidence from three runs and is
+   stated as weak.
+3. **Cleanliness is unstable for most of the corpus.** Five fixtures were clean in all three runs;
+   six varied. The stable five are the short, plainly-structured documents.
+4. **Per-fixture stability is the useful granularity**, not a corpus-wide rate. It says which
+   documents this pipeline can be trusted on — and the answer tracks document shape rather than
+   difficulty of the decision. `results/variance.json` carries the table.
+
+**The canonical extraction set is run 1** — the first draw, not the best-scoring one. Choosing run 3
+would have produced a nicer `results/baseline-model.json` (11/11 calls) and would have been selection
+bias dressed as a result. Run 1's two refusals are committed under `extractions/model/_refused/`, and
+the other two runs are kept under `extractions/repeats/` so the spread can be re-checked.
+
+Its decisions, for the record: 9 of 11 fixtures usable, **7/9 labelled calls**, 5/9 primary reason
+class. The lower class figure is the D365 and travel-clause confusions again, not a new failure.

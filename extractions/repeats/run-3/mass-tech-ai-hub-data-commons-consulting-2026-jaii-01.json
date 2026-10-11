@@ -1,0 +1,121 @@
+{
+  "fixture": "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Massachusetts Technology Collaborative",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Request for Proposals for AI Hub Data Commons Collaborative Consulting Services RFP No. 2026-JAII-01 Massachusetts Technology Collaborative"
+        }
+      ]
+    },
+    "subject": {
+      "value": "AI Hub Data Commons Collaborative consulting services",
+      "citations": [
+        {
+          "span_id": "p2-s4",
+          "page": 2,
+          "quote": "will be evaluated based on their proposed architecture design"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s10",
+          "page": 2,
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services for the development and delivery of the DCC"
+        }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s10",
+          "page": 2,
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services for the development and delivery of the DCC"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s10",
+          "page": 2,
+          "quote": "The selected Respondent will provide full-service project management and technical consulting services"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p2-s12",
+          "page": 2,
+          "quote": "Develop and maintain an integrated project plan and timeline"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [
+        "CKAN",
+        "Dataverse",
+        "SDV",
+        "Synthea",
+        "CARLA",
+        "AIF360",
+        "Fairlearn"
+      ],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p3-s0",
+          "page": 3,
+          "quote": "Implement metadata management, cataloging, and discovery tools (e.g., CKAN,"
+        },
+        {
+          "span_id": "p3-s3",
+          "page": 3,
+          "quote": "Integrate synthetic data tools (e.g., SDV, Synthea, CARLA)"
+        },
+        {
+          "span_id": "p3-s4",
+          "page": 3,
+          "quote": "Implement bias detection, auditing, and mitigation tools (e.g., AIF360, Fairlearn)"
+        }
+      ]
+    }
+  },
+  "schema": "extraction/1",
+  "produced_by": "pi -p --no-session --no-tools --model openrouter/minimax/minimax-m2.7",
+  "extractor": {
+    "model": "openrouter/minimax/minimax-m2.7",
+    "prompt": "extract/prompt.md",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
+    "attempts": 2,
+    "repaired_after_refusal": true,
+    "refusals": [
+      {
+        "attempt": 1,
+        "problems": [
+          "facts.subject: quote not found in span p2-s4 under the verbatim rule: 'Qualified Respondents will be evaluated based on their proposed archit' [nearest text is in p2-s4 (page 2): 'dents (\"Respondents\") will be evaluated based on their proposed architecture design, approach to metadata management, security and governance frameworks, ability to support synthetic data generation, and AI fairness capabilities'. The quotes differ first at character 0: the document has 'd' where the quote has 'Q' — copy the document's character.]",
+          "requirements.delivery_model: quote not found in span p2-s11 under the verbatim rule: 'Program Management & Coordination — Develop and maintain an integrated' [nearest text is in p2-s12 (page 2): 'Program Management & Coordination • Develop and maintain an integrated project plan and timeline'. The quotes differ first at character 34: the document has '•' where the quote has '—' — copy the document's character.]"
+        ]
+      }
+    ],
+    "started_utc": "2026-10-11T22:49:15Z",
+    "finished_utc": "2026-10-11T22:49:43Z",
+    "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
+  }
+}

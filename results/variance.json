@@ -1,0 +1,61 @@
+{
+ "schema": "variance/1",
+ "what_this_measures": "outcome stability across repeated identical runs. A single pass is not a rate: two runs of this pipeline gave 8/11 and 5/11 first-attempt cleanliness.",
+ "runs": [
+  {
+   "run": "run-1",
+   "clean": 8,
+   "repaired": 1,
+   "refused": 2,
+   "total": 11
+  },
+  {
+   "run": "run-2",
+   "clean": 7,
+   "repaired": 3,
+   "refused": 1,
+   "total": 11
+  },
+  {
+   "run": "run-3",
+   "clean": 8,
+   "repaired": 3,
+   "refused": 0,
+   "total": 11
+  }
+ ],
+ "clean_first_attempt": {
+  "per_run": [
+   8,
+   7,
+   8
+  ],
+  "min": 7,
+  "max": 8,
+  "usable_after_repair": [
+   9,
+   10,
+   11
+  ]
+ },
+ "per_fixture_stability": {
+  "city-of-snohomish-it-strategic-plan-rfp.pdf": "clean",
+  "city-of-spicer-mn-managed-it-services-2026.pdf": "clean",
+  "coastal-bend-college-erp-sis-rfp-2026-01.pdf": "varies",
+  "community-action-partnership-kern-information-systems-consultant.pdf": "varies",
+  "energy-trust-of-oregon-crm-migration-to-d365.pdf": "clean",
+  "hacc-rfp-26022-cloud-document-management.pdf": "varies",
+  "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": "varies",
+  "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": "varies",
+  "palm-beach-mpo-rfp-2026-07-it-services.pdf": "varies",
+  "tahoe-transportation-district-it-consulting-2025.pdf": "clean",
+  "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": "varies"
+ },
+ "stability_counts": {
+  "clean": 4,
+  "repaired": 0,
+  "refused": 0,
+  "varies": 7
+ },
+ "note": "`varies` is the headline: those fixtures cannot be described by a single pass. Pinning temperature or seed would collapse it, at the cost of measuring a different configuration than the one in use."
+}

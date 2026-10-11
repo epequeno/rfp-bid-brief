@@ -5,7 +5,7 @@
       "value": "Corpus Christi Housing Authority & Coastal Housing Partners",
       "citations": [
         {
-          "span_id": "p1-s0",
+          "span_id": "p1-s1",
           "page": 1,
           "quote": "Corpus Christi Housing Authority & Coastal Housing Partners"
         }
@@ -25,26 +25,29 @@
   "requirements": {
     "requires_recurring_onsite": {
       "value": false,
+      "kind": "bool",
       "citations": [
         {
-          "span_id": "p3-s22",
-          "page": 3,
-          "quote": "The selected software solution will include configuration, implementation services, data migration, training, documentation, and ongoing support with live agents when necessary."
+          "span_id": "p4-s7",
+          "page": 4,
+          "quote": "Vendors must provide fully managed hosting, updates, scaling, monitoring, and security."
         }
       ]
     },
     "requires_emergency_onsite_response": {
       "value": false,
+      "kind": "bool",
       "citations": [
         {
-          "span_id": "p3-s22",
-          "page": 3,
-          "quote": "ongoing support with live agents when necessary"
+          "span_id": "p4-s7",
+          "page": 4,
+          "quote": "Vendors must provide fully managed hosting, updates, scaling, monitoring, and security."
         }
       ]
     },
     "requires_product_supply": {
       "value": true,
+      "kind": "bool",
       "citations": [
         {
           "span_id": "p4-s8",
@@ -54,59 +57,24 @@
       ]
     },
     "delivery_model": {
-      "value": "continuous_operations",
+      "value": "project",
+      "kind": "enum",
       "citations": [
         {
-          "span_id": "p4-s6",
-          "page": 4,
-          "quote": "A Cloud‑based SaaS solution only (no on‑prem or self‑hosted alternatives)."
-        },
-        {
-          "span_id": "p4-s7",
-          "page": 4,
-          "quote": "Vendors must provide fully managed hosting, updates, scaling, monitoring, and security."
+          "span_id": "p8-s5",
+          "page": 8,
+          "quote": "Initiation & Discovery: project plan, roles, communication plan, risk log, current‑state review."
         }
       ]
     },
     "functional_stacks": {
-      "value": [
-        "Document Management",
-        "Workflow Automation",
-        "Forms Management",
-        "Records Management",
-        "Intelligent Search",
-        "Reporting & Analytics"
-      ],
+      "value": [],
+      "kind": "list",
       "citations": [
         {
-          "span_id": "p5-s11",
-          "page": 5,
-          "quote": "Compliance Workflow Integration — Ability to embed Agency-specific approval, retention, and regulatory workflows."
-        },
-        {
-          "span_id": "p5-s13",
-          "page": 5,
-          "quote": "Intelligent Workflow Automation — Auto-filing, metadata suggestions, required-attachment validation."
-        },
-        {
-          "span_id": "p6-s21",
+          "span_id": "p6-s0",
           "page": 6,
-          "quote": "Web forms and e‑forms (mobile responsive) with validation, attachments, and conditional sections."
-        },
-        {
-          "span_id": "p6-s8",
-          "page": 6,
-          "quote": "Records retention: schedules, holds, evidence of disposition;"
-        },
-        {
-          "span_id": "p5-s12",
-          "page": 5,
-          "quote": "Intelligent Search & Knowledge Discovery — AI-powered semantic search, relevance ranking, and related-content detection."
-        },
-        {
-          "span_id": "p7-s5",
-          "page": 7,
-          "quote": "KPI tracking (e.g., average approval time, straight‑through processing rate)."
+          "quote": "18.\nDisaster Recovery & Business Continuity — Backup, redundancy, and recovery protocols."
         }
       ]
     }
@@ -116,7 +84,7 @@
   "extractor": {
     "model": "openrouter/minimax/minimax-m2.7",
     "prompt": "extract/prompt.md",
-    "prompt_sha256": "61d6dd15d29ea4f163cfd144d52a87e706f952bede6e0ee9a95d22ef89b6a579",
+    "prompt_sha256": "997b72be174b58dcaafc748dbcda578ae95c115342e1a1c73ec4054a7f15bffc",
     "attempts": 2,
     "repaired_after_refusal": true,
     "refusals": [
@@ -127,8 +95,8 @@
         ]
       }
     ],
-    "started_utc": "2026-10-11T22:25:03Z",
-    "finished_utc": "2026-10-11T22:25:30Z",
+    "started_utc": "2026-10-11T22:44:14Z",
+    "finished_utc": "2026-10-11T22:44:43Z",
     "inputs": "spans only (rfpbrief payload): no label, no bidder profile, no hand-authored extraction"
   }
 }
