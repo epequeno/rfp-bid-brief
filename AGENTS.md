@@ -32,6 +32,11 @@ visible rather than silently absent. A task runner that pretends is worse than o
 
 This is a standing preference for new projects in this portfolio, not a local accident.
 
+**Gotcha, paid for once already:** in a recipe body write a single `$`, not `$$`. `$$` is passed to
+the shell verbatim, bash expands it to the process id, and the failure looks like a missing file
+rather than a quoting mistake — a loop over `$$f` silently produced `[ -e "74125f" ]` and exited 1
+with no output.
+
 ## ADR rules
 
 - Numbering is **per-project**. In this repository, `ADR 0003`. From anywhere else, qualify it:
