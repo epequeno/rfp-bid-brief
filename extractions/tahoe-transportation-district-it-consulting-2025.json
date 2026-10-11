@@ -1,0 +1,101 @@
+{
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor. The point of this file is not that it was written by hand — it is that it is held to the contract: every value carries at least one citation, and every citation must locate in the span index under the verbatim rule or the pipeline refuses to load it. Swap the producer, keep the contract.",
+  "schema": "extraction/1",
+  "fixture": "tahoe-transportation-district-it-consulting-2025.pdf",
+  "produced_by": "hand-authored (stand-in)",
+  "facts": {
+    "issuer": {
+      "value": "Tahoe Transportation District",
+      "citations": [{ "span_id": "p1-s0", "page": 1, "quote": "Tahoe Transportation District" }]
+    },
+    "subject": {
+      "value": "Information technology consulting and support",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "INFORMATION TECHNOLOGY CONSULTING AND SUPPORT"
+        }
+      ]
+    },
+    "issued": {
+      "value": "July 28, 2025",
+      "citations": [{ "span_id": "p1-s0", "page": 1, "quote": "July 28, 2025" }]
+    },
+    "term": {
+      "value": "Two years, with three one-year options at the District's discretion",
+      "citations": [
+        {
+          "span_id": "p13-s12",
+          "page": 13,
+          "quote": "the Term of this Agreement is for two (2) years, with three (3) one (1) year options, which may be exercised at the sole discretion of the District."
+        }
+      ]
+    },
+    "staffing_model": {
+      "value": "About 20 hours per week, 14 of them on site, plus emergency and board-meeting attendance",
+      "citations": [
+        {
+          "span_id": "p8-s1",
+          "page": 8,
+          "quote": "20 hours of IT support (14 hours of on-site support and 6 hours of remote support)."
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_recurring_onsite": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p7-s14",
+          "page": 7,
+          "quote": "plan on two (2) days per week for on-site support"
+        },
+        { "span_id": "p8-s1", "page": 8, "quote": "14 hours of on-site support" }
+      ]
+    },
+    "requires_emergency_onsite_response": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        { "span_id": "p7-s11", "page": 7, "quote": "be on-site within four (4) hours" }
+      ]
+    },
+    "delivery_model": {
+      "value": "continuous_operations",
+      "kind": "enum",
+      "citations": [
+        { "span_id": "p8-s1", "page": 8, "quote": "20 hours of IT support" },
+        {
+          "span_id": "p8-s4",
+          "page": 8,
+          "quote": "On-site service support for TTD Board and Committee meetings."
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "INFORMATION TECHNOLOGY CONSULTING AND SUPPORT"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "INFORMATION TECHNOLOGY CONSULTING AND SUPPORT"
+        }
+      ]
+    }
+  }
+}

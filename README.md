@@ -17,7 +17,9 @@ ordering is the point — see [`adr/0003`](adr/0003-pre-register-the-operating-p
 3. the ground-truth labels are committed, ✅
 4. `parse` builds a deterministic, citable span index per fixture, ✅
    ([ADR 0004](adr/0004-citations-locate-inside-spans.md))
-5. `extract` → `decide` → `brief`, then the eval harness — **not built**.
+5. `parse` → `extract` → `decide` → `brief` runs end to end on one fixture, ✅
+   with the extractor as a **hand-authored stand-in** and the probability channel not yet wired
+6. the model-backed extractor, the calibrated probability, then the eval harness — **not built**.
 
 Recording a threshold after seeing results is not calibration, it is a fitted number.
 
@@ -33,12 +35,30 @@ What exists today:
 | `adr/` | The decisions taken so far. |
 | `tools/verify-fixtures.sh` | `just verify-fixtures` — proves the fixtures are still the documents their issuers published. |
 | `tools/status.sh` | `just status` — what exists, and what explicitly does not. |
+| `extractions/` | One extraction per fixture, each value carrying the spans it came from. |
+| `results/briefs/` | The rendered one-pager, committed as the artifact it is. |
 
 ```bash
 just                    # list the recipes
-just check              # fixture hashes, tests, index reproducibility, status
+just check              # fixture hashes, tests, index reproducibility, extractions, status
 just find "be on-site within four (4) hours"   # locate a quote: one span, or it fails
+just brief              # render the Tahoe brief into results/briefs/
 ```
+
+### What the first end-to-end brief says
+
+The Tahoe fixture comes back **NO-BID, primary reason class geography**, which matches its committed
+label — n = 1, and it is called n = 1 rather than an evaluation. Three exclusions in the frozen
+profile are triggered, and each reason in the brief carries both the profile line and the fixture
+quote that triggered it:
+
+> **1. Geography** — winning requires a standing on-site presence the firm cannot commit to.
+> · the profile excludes *regular on-site staffing*
+> · the fixture says "plan on two (2) days per week for on-site support" (page 7, span `p7-s14`)
+
+The brief carries **no probability**, and says so: the calibrated channel is the typed decision
+layer's and is not wired, so the pre-registered operating point does not apply yet. Emitting a
+plausible-looking number would quietly falsify the one claim the project rests on.
 
 Run `just` for the recipe list; the task runner is [`just`](https://github.com/casey/just), not
 `make`.

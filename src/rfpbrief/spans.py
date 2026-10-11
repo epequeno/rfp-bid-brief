@@ -260,6 +260,16 @@ class Document:
                 return s
         return None
 
+    def validate_citation(self, span_id: str, quote: str) -> bool:
+        """Does `quote` sit inside span `span_id` under the verbatim rule?
+
+        This is the check a citation has to pass. It is stricter than `find()` (which wants the
+        whole span) and more precise than `locate()` (which answers "which spans could this be?"):
+        the caller has already committed to a span, and this says whether that commitment holds.
+        """
+        span = self.span(span_id)
+        return bool(span) and _contains_at_word_boundaries(span.quote, collapse_ws(quote))
+
     def find(self, quote: str) -> list[Span]:
         """Spans whose text *equals* the quote under the verbatim rule. The strict primitive."""
         target = collapse_ws(quote)

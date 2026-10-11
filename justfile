@@ -44,6 +44,30 @@ stats fixture=fixture:
 verify-spans:
     @for f in results/spans/*.json; do [ -e "$f" ] && uv run rfpbrief verify "$f"; done
 
+# validate the committed extraction for one fixture
+#
+# every citation must locate in the span index, or this fails with the list of problems
+extract fixture=fixture:
+    @uv run rfpbrief extract "{{fixture}}"
+
+# apply the frozen bidder profile to an extraction
+#
+# deterministic: the profile decides capability, not a model (adr/0002)
+decide fixture=fixture:
+    @uv run rfpbrief decide "{{fixture}}"
+
+# render the one-page brief for one fixture
+brief fixture=fixture:
+    @uv run rfpbrief brief "{{fixture}}"
+
+# validate every committed extraction
+verify-extractions:
+    @for f in extractions/*.json; do stem=$(basename "${f%.json}"); uv run rfpbrief extract "fixtures/$stem.pdf" | head -1; done
+
+# render a brief for every fixture that has an extraction
+briefs:
+    @for f in extractions/*.json; do stem=$(basename "${f%.json}"); uv run rfpbrief brief "fixtures/$stem.pdf" --quiet; done
+
 # run the eval harness — not built yet
 eval:
     @echo "just eval: not built yet — extraction and the decision layer come first."
@@ -57,4 +81,4 @@ site:
     @exit 2
 
 # everything that can be checked today
-check: verify-fixtures test verify-spans status
+check: verify-fixtures test verify-spans verify-extractions status

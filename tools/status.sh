@@ -47,7 +47,13 @@ else
   printf '  %-22s %s\n' "parse (span index)" "NOT BUILT"
 fi
 
-for stage in "extract" "decide" "brief" "eval harness" "static site" "MCP surface"; do
+extractions=$(ls -1 extractions/*.json 2>/dev/null | wc -l | tr -d ' ')
+briefs=$(ls -1 results/briefs/*.md 2>/dev/null | wc -l | tr -d ' ')
+printf '  %-22s %s\n' "extract" "built — ${extractions} extraction(s), hand-authored stand-in"
+printf '  %-22s %s\n' "decide" "built — deterministic vs the frozen profile, adr/0002"
+printf '  %-22s %s\n' "brief" "built — ${briefs} brief(s) rendered"
+
+for stage in "model-backed extractor" "probability channel (Jev)" "eval harness" "static site" "MCP surface"; do
   printf '  %-22s %s\n' "$stage" "not built"
 done
 
