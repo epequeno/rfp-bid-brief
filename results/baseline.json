@@ -1,0 +1,139 @@
+{
+ "schema": "baseline/1",
+ "what_this_measures": "the decision layer and requirement vocabulary, against hand-authored extractions. NOT extraction quality: the extractions were written with knowledge of the labels.",
+ "not_yet_measurable": [
+  "extraction accuracy \u2014 needs the model-backed extractor",
+  "calibration and the operating point \u2014 decide() emits no probability yet",
+  "precision/recall per class \u2014 four positives in eleven fixtures is too thin to report"
+ ],
+ "n": 11,
+ "label_agreement": "11/11",
+ "reason_class_agreement": "10/11",
+ "truth_class_found_or_correctly_absent": "11/11",
+ "ranking_divergences": [
+  "palm-beach-mpo-rfp-2026-07-it-services.pdf"
+ ],
+ "ranking_note": "A divergence here means the layer triggered the labelled reason class and also triggered another, and the priority order (geography > product > functional > operations) put the other first. Two fixtures trigger geography AND operations, and their labels rank them in opposite directions, so no single priority order can reproduce both. Recorded rather than tuned.",
+ "confusion": {
+  "no_bid": {
+   "no_bid": 7
+  },
+  "bid": {
+   "bid": 4
+  }
+ },
+ "rows": [
+  {
+   "fixture": "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "product_not_services",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "product_not_services",
+   "exclusions_matched": 1,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
+   "truth_label": "bid",
+   "truth_reason_class": "in_scope",
+   "predicted_label": "bid",
+   "predicted_reason_class": "in_scope",
+   "exclusions_matched": 0,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "hacc-rfp-26022-cloud-document-management.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "product_not_services",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "product_not_services",
+   "exclusions_matched": 1,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "functional_stack_not_held",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "functional_stack_not_held",
+   "exclusions_matched": 1,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "operations_not_projects",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "geography",
+   "exclusions_matched": 2,
+   "label_ok": true,
+   "class_ok": false
+  },
+  {
+   "fixture": "tahoe-transportation-district-it-consulting-2025.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "geography",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "geography",
+   "exclusions_matched": 3,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "coastal-bend-college-erp-sis-rfp-2026-01.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "functional_stack_not_held",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "functional_stack_not_held",
+   "exclusions_matched": 1,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "city-of-spicer-mn-managed-it-services-2026.pdf",
+   "truth_label": "no_bid",
+   "truth_reason_class": "operations_not_projects",
+   "predicted_label": "no_bid",
+   "predicted_reason_class": "operations_not_projects",
+   "exclusions_matched": 1,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "city-of-snohomish-it-strategic-plan-rfp.pdf",
+   "truth_label": "bid",
+   "truth_reason_class": "in_scope",
+   "predicted_label": "bid",
+   "predicted_reason_class": "in_scope",
+   "exclusions_matched": 0,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf",
+   "truth_label": "bid",
+   "truth_reason_class": "in_scope",
+   "predicted_label": "bid",
+   "predicted_reason_class": "in_scope",
+   "exclusions_matched": 0,
+   "label_ok": true,
+   "class_ok": true
+  },
+  {
+   "fixture": "community-action-partnership-kern-information-systems-consultant.pdf",
+   "truth_label": "bid",
+   "truth_reason_class": "in_scope",
+   "predicted_label": "bid",
+   "predicted_reason_class": "in_scope",
+   "exclusions_matched": 0,
+   "label_ok": true,
+   "class_ok": true
+  }
+ ],
+ "missing_extraction": [],
+ "missing_label": []
+}

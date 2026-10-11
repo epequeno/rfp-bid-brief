@@ -207,9 +207,54 @@ def test_brief_writes_a_file(tmp_path) -> None:
     assert "NO-BID" in (tmp_path / "b.md").read_text()
 
 
-def test_a_fixture_without_an_extraction_says_so() -> None:
+def test_a_fixture_without_an_extraction_says_so(tmp_path) -> None:
+    """Every fixture has one today, so the check is against an empty extraction directory — and
+    the message says which fixture cannot be briefed rather than failing obscurely."""
     other = cli.FIXTURES / "city-of-spicer-mn-managed-it-services-2026.pdf"
     d = spans.build(other, fixture_name=other.name)
     with pytest.raises(FileNotFoundError) as exc:
-        extract_mod.for_fixture(d)
+        extract_mod.for_fixture(d, tmp_path)
     assert "cannot be briefed" in str(exc.value)
+
+
+# ── the rule-based baseline over the whole labelled set ───────────────────────────────────────
+
+def _baseline():
+    from rfpbrief import evaluate
+    def extraction_for(fixture: str):
+        path = cli.FIXTURES / fixture
+        if not path.exists():
+            return None
+        d = spans.build(path, fixture_name=fixture)
+        try:
+            return extract_mod.for_fixture(d)
+        except FileNotFoundError:
+            return None
+    return evaluate.run(LABELS, extraction_for, lambda ex: decide_mod.decide(PROFILE, ex))
+
+
+def test_every_labelled_fixture_has_an_extraction_and_agrees_on_the_label() -> None:
+    """11/11 on the call. This checks the decision layer and the vocabulary, not extraction:
+    the extractions were hand-authored knowing the labels, and baseline.json says so."""
+    base = _baseline()
+    assert base.missing_extraction == []
+    assert base.n == len(LABELS["labels"]) == 11
+    assert base.label_agree == base.n
+    assert base.confusion() == {"bid": {"bid": 4}, "no_bid": {"no_bid": 7}}
+
+
+def test_the_labelled_reason_class_is_always_found() -> None:
+    """The layer may rank reasons differently; it may not miss the reason the label names."""
+    base = _baseline()
+    assert base.class_found == base.n
+
+
+def test_the_one_ranking_divergence_is_known_and_named() -> None:
+    """Two fixtures trigger geography AND operations, and their labels rank them in opposite
+    directions — so no single priority order reproduces both. Pinned so a change in PRIORITY is
+    visible rather than silent."""
+    base = _baseline()
+    assert base.ranking_divergences == [
+        "palm-beach-mpo-rfp-2026-07-it-services.pdf"
+    ]
+    assert base.class_agree == base.n - 1

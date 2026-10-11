@@ -1,0 +1,74 @@
+{
+  "fixture": "city-of-snohomish-it-strategic-plan-rfp.pdf",
+  "facts": {
+    "issuer": {
+      "value": "City of Snohomish",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "City of Snohomish"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Six-year information technology strategic plan",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "Six-Year Information Technology Strategic Plan"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "advisory",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "develop a Six-Year Information Technology Strategic Plan"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "qualified consultant firms"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "qualified consultant firms"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "qualified consultant firms"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

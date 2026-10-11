@@ -1,0 +1,74 @@
+{
+  "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Palm Beach Metropolitan Planning Organization",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Palm Beach Metropolitan Planning Organization"
+        }
+      ]
+    },
+    "subject": {
+      "value": "IT services and management",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Information Technology Services and Management"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "continuous_operations",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Information Technology Services and Management"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p3-s4",
+          "page": 3,
+          "quote": "including on-site support"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p3-s6",
+          "page": 3,
+          "quote": "period of three (3) years"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Information Technology Services and Management"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

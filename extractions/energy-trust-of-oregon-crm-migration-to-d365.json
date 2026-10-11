@@ -1,0 +1,76 @@
+{
+  "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Energy Trust of Oregon",
+      "citations": [
+        {
+          "span_id": "p1-s1",
+          "page": 1,
+          "quote": "Energy Trust of Oregon"
+        }
+      ]
+    },
+    "subject": {
+      "value": "On-premises CRM to Microsoft Dynamics 365 cloud",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Migration from On-Premises Microsoft CRM to Microsoft Dynamics"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "functional_stacks": {
+      "value": [
+        "Microsoft Dynamics 365"
+      ],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p2-s8",
+          "page": 2,
+          "quote": "Recommended Dynamics 365 applications and licensing"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p2-s8",
+          "page": 2,
+          "quote": "The vendor shall define a detailed migration strategy and target"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p3-s3",
+          "page": 3,
+          "quote": "The vendor shall partner with internal product owner"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p2-s4",
+          "page": 2,
+          "quote": "The vendor shall conduct a comprehensive assessment"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

@@ -1,0 +1,77 @@
+{
+  "fixture": "coastal-bend-college-erp-sis-rfp-2026-01.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Coastal Bend College",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Coastal Bend College"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Enterprise resource planning and student information systems",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Enterprise Resource Planning and Student Information Systems"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "functional_stacks": {
+      "value": [
+        "Enterprise Resource Planning",
+        "Student Information Systems"
+      ],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p18-s11",
+          "page": 18,
+          "quote": "experience and ability to provide Enterprise Resource Planning"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p4-s5",
+          "page": 4,
+          "quote": "The Services are more specifically described in Section 5.4"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s5",
+          "page": 4,
+          "quote": "The Services are more specifically described in Section 5.4"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s5",
+          "page": 4,
+          "quote": "The Services are more specifically described in Section 5.4"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

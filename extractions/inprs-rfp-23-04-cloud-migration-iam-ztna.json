@@ -1,0 +1,74 @@
+{
+  "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Indiana Public Retirement System",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "Indiana Public Retirement System"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Cloud migration discovery, IAM and zero-trust strategy",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "CLOUD MIGRATION DISCOVERY AND STRATEGY SERVICES"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "advisory",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "consulting services"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "consulting services"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p17-s24",
+          "page": 17,
+          "quote": "travel to the INPRS offices"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p3-s1",
+          "page": 3,
+          "quote": "consulting services"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

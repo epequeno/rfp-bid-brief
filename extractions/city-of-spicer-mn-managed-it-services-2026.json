@@ -1,0 +1,74 @@
+{
+  "fixture": "city-of-spicer-mn-managed-it-services-2026.pdf",
+  "facts": {
+    "issuer": {
+      "value": "City of Spicer",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "City of Spicer"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Managed information technology services",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Managed Information Technology Services"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "continuous_operations",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p4-s14",
+          "page": 4,
+          "quote": "24x7x365 monitoring of denoted servers"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s14",
+          "page": 4,
+          "quote": "Full-service operations center service"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Managed Information Technology Services"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p4-s15",
+          "page": 4,
+          "quote": "Server and network administration"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

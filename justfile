@@ -68,6 +68,10 @@ verify-extractions:
 briefs:
     @for f in extractions/*.json; do stem=$(basename "${f%.json}"); uv run rfpbrief brief "fixtures/$stem.pdf" --quiet; done
 
+# rule-based baseline: the decision layer against every committed label
+baseline:
+    @uv run rfpbrief baseline
+
 # run the eval harness — not built yet
 eval:
     @echo "just eval: not built yet — extraction and the decision layer come first."
@@ -81,4 +85,4 @@ site:
     @exit 2
 
 # everything that can be checked today
-check: verify-fixtures test verify-spans verify-extractions status
+check: verify-fixtures test verify-spans verify-extractions baseline status

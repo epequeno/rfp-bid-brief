@@ -1,0 +1,74 @@
+{
+  "fixture": "community-action-partnership-kern-information-systems-consultant.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Community Action Partnership of Kern",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Community Action Partnership of Kern"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Information systems consultant",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "INFORMATION SYSTEMS CONSULTANT"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p4-s5",
+          "page": 4,
+          "quote": "The engagement will include advisory, implementation, and knowledge transfer"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p4-s36",
+          "page": 4,
+          "quote": "Develop a migration plan and data model for the 211 call center"
+        }
+      ]
+    },
+    "requires_product_supply": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "INFORMATION SYSTEMS CONSULTANT"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s36",
+          "page": 4,
+          "quote": "Develop a migration plan and data model"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

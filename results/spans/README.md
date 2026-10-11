@@ -53,6 +53,12 @@ truncated `four (4) hour` as a prefix of `four (4) hours`.
   hyphenation, on the grounds that repairing it means guessing and guessing is how a citation check
   starts matching text that was never there. That refusal costs nothing measurable on this corpus —
   a risk retired rather than carried.
+- **Non-breaking hyphens, and they bite sooner than expected.** 38 spans (0.7%, in three fixtures —
+  Energy Trust 17, HACC 18, Maine 3) contain `U+2011` where a reader sees a hyphen. A quote
+  *re-typed* from a PDF therefore fails the verbatim rule: `Cloud-based` does not match
+  `Cloud‑based`, and the difference is invisible on screen. The lesson is not to relax the rule —
+  it is that **quotes must be copied from the index, never retyped**, which is how the extractor is
+  expected to behave anyway and how these extractions were authored.
 - **A font artefact worth knowing about:** one fixture emits bullet markers as a private-use
   codepoint (`U+F0A7`). It round-trips fine and matches exactly, but it is not a real character, so
   anything that normalises text more aggressively than this module does should be checked against it.

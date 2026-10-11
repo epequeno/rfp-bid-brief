@@ -1,0 +1,74 @@
+{
+  "fixture": "hacc-rfp-26022-cloud-document-management.pdf",
+  "facts": {
+    "issuer": {
+      "value": "Corpus Christi Housing Authority",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "CORPUS CHRISTI HOUSING AUTHORITY"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Cloud-based document management and workflow automation",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "CLOUD-BASED DOCUMENT MANAGEMENT & WORKFLOW AUTOMATION"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_product_supply": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s6",
+          "page": 4,
+          "quote": "SaaS solution only"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p3-s22",
+          "page": 3,
+          "quote": "configuration, implementation services, data migration, training"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p4-s7",
+          "page": 4,
+          "quote": "fully managed hosting, updates, scaling, monitoring"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "CLOUD-BASED DOCUMENT MANAGEMENT"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

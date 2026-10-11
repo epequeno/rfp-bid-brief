@@ -1,0 +1,79 @@
+{
+  "fixture": "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf",
+  "facts": {
+    "issuer": {
+      "value": "University of Maine System",
+      "citations": [
+        {
+          "span_id": "p5-s14",
+          "page": 5,
+          "quote": "University of Maine System"
+        }
+      ]
+    },
+    "subject": {
+      "value": "Enterprise generative AI services",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Enterprise Generative AI Services"
+        }
+      ]
+    }
+  },
+  "requirements": {
+    "requires_product_supply": {
+      "value": true,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p5-s29",
+          "page": 5,
+          "quote": "seeking a vendor-hosted SaaS solution"
+        },
+        {
+          "span_id": "p5-s29",
+          "page": 5,
+          "quote": "vendor-hosted SaaS solution"
+        }
+      ]
+    },
+    "delivery_model": {
+      "value": "project",
+      "kind": "enum",
+      "citations": [
+        {
+          "span_id": "p4-s29",
+          "page": 4,
+          "quote": "unlimited access or predictable"
+        }
+      ]
+    },
+    "requires_recurring_onsite": {
+      "value": false,
+      "kind": "bool",
+      "citations": [
+        {
+          "span_id": "p3-s22",
+          "page": 3,
+          "quote": "requesting licenses for a cloud solution"
+        }
+      ]
+    },
+    "functional_stacks": {
+      "value": [],
+      "kind": "list",
+      "citations": [
+        {
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "Enterprise Generative AI Services"
+        }
+      ]
+    }
+  },
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Values are judgments; every one carries the span that grounds it, and quotes are copied from the span rather than retyped (these documents use non-breaking hyphens).",
+  "schema": "extraction/1",
+  "produced_by": "hand-authored (stand-in)"
+}

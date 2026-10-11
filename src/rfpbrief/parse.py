@@ -18,7 +18,7 @@ import re
 import sys
 from pathlib import Path
 
-from . import brief, decide, extract, spans
+from . import brief, decide, evaluate, extract, spans
 
 REPO = Path(__file__).resolve().parents[2]
 FIXTURES = REPO / "fixtures"
@@ -192,6 +192,34 @@ def cmd_brief(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_baseline(args: argparse.Namespace) -> int:
+    """Run the decision layer against every committed label. Writes results/baseline.json."""
+    labels = json.loads((REPO / "fixtures" / "labels.json").read_text(encoding="utf-8"))
+    profile = json.loads((REPO / "bidder-profile.json").read_text(encoding="utf-8"))
+    cache: dict[str, spans.Document | None] = {}
+
+    def extraction_for(fixture: str):
+        if fixture not in cache:
+            path = FIXTURES / fixture
+            cache[fixture] = spans.build(path, fixture_name=fixture) if path.exists() else None
+        doc = cache[fixture]
+        if doc is None:
+            return None
+        try:
+            return extract.for_fixture(doc)
+        except FileNotFoundError:
+            return None
+
+    baseline = evaluate.run(labels, extraction_for, lambda ex: decide.decide(profile, ex))
+    out = Path(args.out) if args.out else REPO / "results" / "baseline.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(baseline.to_json(), indent=1) + "\n", encoding="utf-8")
+    if not args.quiet:
+        print(evaluate.render(baseline))
+    print(f"→ {out.relative_to(REPO)}", file=sys.stderr)
+    return 0 if baseline.n and baseline.label_agree == baseline.n else 1
+
+
 def cmd_stats(args: argparse.Namespace) -> int:
     doc = spans.build(Path(args.fixture), fixture_name=Path(args.fixture).name)
     lengths = sorted(len(s.text) for s in doc.spans)
@@ -251,6 +279,11 @@ def main(argv: list[str] | None = None) -> int:
     br.add_argument("--out", help="output path (default results/briefs/<fixture>.md)")
     br.add_argument("--quiet", action="store_true", help="write the file without printing it")
     br.set_defaults(func=cmd_brief)
+
+    bl = sub.add_parser("baseline", help="decision layer vs every committed label")
+    bl.add_argument("--out", help="output path (default results/baseline.json)")
+    bl.add_argument("--quiet", action="store_true")
+    bl.set_defaults(func=cmd_baseline)
 
     args = ap.parse_args(argv)
     return args.func(args)

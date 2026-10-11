@@ -52,10 +52,6 @@ def _is_true(v: Any) -> bool:
     return v is True
 
 
-def _non_empty(v: Any) -> bool:
-    return bool(v)
-
-
 BINDINGS: tuple[Binding, ...] = (
     Binding(
         requirement="requires_recurring_onsite",
@@ -79,20 +75,48 @@ BINDINGS: tuple[Binding, ...] = (
         summary="the issuer is buying a product and the services are incidental",
     ),
     Binding(
-        requirement="functional_stacks",
-        test=_non_empty,
-        profile_exclusion="functional SAP / Oracle / Workday configuration",
-        reason_class="functional_stack_not_held",
-        summary="winning requires vendor-specific functional expertise the profile excludes",
-    ),
-    Binding(
         requirement="delivery_model",
         test=lambda v: v == "continuous_operations",
         profile_exclusion="24×7 monitoring",
         reason_class="operations_not_projects",
         summary="the work is continuous operations rather than a project with an end",
     ),
+    # Functional stacks are three bindings, not one, because the profile excludes them under three
+    # different phrases. What triggers them is *functional configuration* -- deciding how a vendor
+    # product is set up -- never administration of it and never platform engineering underneath it.
+    # That distinction is the extraction's job to make, and it is what separates Energy Trust
+    # (configuring D365: no-bid) from CAPK (migrating onto it: bid).
+    Binding(
+        requirement="functional_stacks",
+        test=lambda v: _any_stack(v, "dynamics"),
+        profile_exclusion="vendor-specific functional stack the firm does not hold",
+        reason_class="functional_stack_not_held",
+        summary="the engagement is functional configuration of Microsoft Dynamics, a stack the "
+                "profile does not hold — the profile's own escape clause, platform engineering "
+                "underneath it, does not apply",
+    ),
+    Binding(
+        requirement="functional_stacks",
+        test=lambda v: _any_stack(v, "sap", "oracle", "workday"),
+        profile_exclusion="functional SAP / Oracle / Workday configuration",
+        reason_class="functional_stack_not_held",
+        summary="the engagement is functional configuration of SAP, Oracle or Workday",
+    ),
+    Binding(
+        requirement="functional_stacks",
+        test=lambda v: _any_stack(v, "erp", "student information"),
+        profile_exclusion="ERP and student information system functional implementation",
+        reason_class="functional_stack_not_held",
+        summary="the engagement is a functional implementation of ERP or student systems",
+    ),
 )
+
+
+def _any_stack(stacks: Any, *needles: str) -> bool:
+    if not stacks:
+        return False
+    lowered = [str(s).lower() for s in stacks]
+    return any(n in s for s in lowered for n in needles)
 
 
 @dataclass(frozen=True)
@@ -129,8 +153,16 @@ class Decision:
 
 
 def profile_exclusions(profile: dict) -> list[str]:
-    return list(profile.get("excluded_delivery_models", [])) + list(
-        profile.get("excluded_capability_areas", [])
+    """Every place the profile says what this firm does not do. The rules of thumb count.
+
+    They are not commentary: rule 4 both excludes a family of work and states the escape from it
+    ("no-bid unless the work is platform engineering underneath it"), and a binding that could not
+    cite that rule would have to invent a phrase of its own.
+    """
+    return (
+        list(profile.get("excluded_delivery_models", []))
+        + list(profile.get("excluded_capability_areas", []))
+        + list(profile.get("decision_rules_of_thumb", []))
     )
 
 

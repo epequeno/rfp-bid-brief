@@ -63,6 +63,31 @@ plausible-looking number would quietly falsify the one claim the project rests o
 Run `just` for the recipe list; the task runner is [`just`](https://github.com/casey/just), not
 `make`.
 
+### The rule-based baseline — and what it does not measure
+
+`just baseline` runs the decision layer against every committed label, and writes
+`results/baseline.json`:
+
+| | |
+|---|---|
+| call agreement | **11/11** |
+| primary reason class | 10/11 |
+| labelled class accounted for | **11/11** |
+| known ranking divergences | 1 |
+
+**Read the 11/11 narrowly.** The extractions it consumes were hand-authored *with knowledge of the
+labels*, so this measures the **decision layer and the requirement vocabulary** — given a correct
+reading of each solicitation, do the bindings land on the committed call and reason? It says nothing
+about whether the pipeline reads documents correctly; that is the model-backed extractor's job, and
+it is what will be measured once a model is in the loop. `results/baseline.json` says this in the
+file itself, under `what_this_measures`.
+
+The 10/11 is deliberate and recorded rather than tuned. Palm Beach triggers **both** geography
+(on-site support) and operations (a three-year retainer); its label calls it operations. Tahoe
+triggers the same two and its label calls it geography. No single priority order reproduces both, so
+the divergence is pinned by a test — if someone changes the priority, a test says so instead of a
+published number quietly moving.
+
 ## Why a bidder profile is a required input
 
 "Bid" is undefined until the system knows who is bidding. A recommendation is not a property of a
