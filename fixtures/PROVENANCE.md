@@ -8,10 +8,11 @@ These are **public records**: US state, local and municipal government solicitat
 university system, a community college, and two state-chartered non-profits. Each row names the
 issuer's own published copy. Read [`NOTICE.md`](NOTICE.md) before redistributing.
 
-**No fixture is derived from, or related to, any prior commercial engagement.** In particular
-nothing here comes from a previous employer's capture process, and the archived `a local-only archive` corpus is
-not a source of anything in this repository. That was a deliberate constraint on the fixture
-selection, not an accident of searching.
+**No fixture is derived from, or related to, any prior commercial engagement, employer or client.**
+The set was selected from public sources specifically to satisfy that constraint: every document
+here was issued by the organisation that published it, and none passed through a previous
+employer's capture process. That was a decision about the fixture selection, not an accident of
+searching — and it is why four plausible-looking candidates were rejected.
 
 | # | Fixture | Issuer (type) | Subject | pp |
 |---|---|---|---|---|
