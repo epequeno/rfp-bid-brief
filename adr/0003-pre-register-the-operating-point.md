@@ -1,6 +1,6 @@
 # 0003 — Pre-register the operating point, and freeze the profile before labelling
 
-- **Status:** proposed — **nothing model-facing may run until this is accepted**
+- **Status:** accepted (2026-10-11)
 - **Date:** 2026-10-11
 
 ## Context
@@ -38,8 +38,9 @@ Before any model-facing run:
 
 ## Consequences
 
-- Until this ADR is accepted, no fixture may be sent to a model and no metric may be computed. The
-  repository legitimately sits in a "frozen inputs only" state.
+- The repository sat in a "frozen inputs only" state until this record was accepted on 2026-10-11.
+  From acceptance, a model-facing run is permitted — after the profile hash, the labels and the
+  operating point are all in place, which they now are.
 - Any later change to the profile, the labels, or τ invalidates the curve. The remedy is a re-run
   with the previous numbers retained and marked superseded — never a quiet replacement.
 - The fixture set is skewed toward no-bid and thin (four positives). This is recorded here rather

@@ -22,4 +22,4 @@ Consequences.
 |---|---|---|
 | [0001](0001-span-id-citations.md) | Span-ID citations as a structural guarantee | accepted |
 | [0002](0002-required-bidder-profile.md) | A bidder profile is a required input | accepted |
-| [0003](0003-pre-register-the-operating-point.md) | Pre-register the operating point, and freeze the profile before labelling | proposed |
+| [0003](0003-pre-register-the-operating-point.md) | Pre-register the operating point, and freeze the profile before labelling | accepted |

@@ -1,0 +1,117 @@
+{
+  "_note": "Ground truth, HELD OUT from the model path: nothing under src/ may read this file. Authored against the bidder profile at the hash below, before any model saw a fixture (adr/0003). The rationale text is here so a reader can audit the labels themselves, not just the system's agreement with them.",
+  "schema": 1,
+  "authored": "2026-10-11",
+  "authored_by": "Steven Pequeno (the labels) with personal-agent (proposed reasoning, reviewed and agreed 2026-10-11)",
+  "authored_against": {
+    "profile_id": "eap-software-narrow-2026-10-11",
+    "profile_sha256": "aa89a2f462db431453d13e7c2aff7a772c2c9c5542e87ee40515d893795e7fa1"
+  },
+  "operating_point_tau": 0.5,
+  "held_out": true,
+  "balance": { "bid": 4, "no_bid": 7, "total": 11 },
+  "reason_classes": {
+    "in_scope": "the profile's core work: scoped advisory, discovery or implementation in cloud, IAM, data or AI",
+    "product_not_services": "the issuer is buying a product or licences and the services are incidental",
+    "functional_stack_not_held": "winning requires vendor-specific functional expertise the profile excludes (ERP or student systems, SAP/Oracle/Workday configuration, Dynamics functional work)",
+    "operations_not_projects": "the work is continuous monitoring, service desk or managed operations rather than a project",
+    "geography": "winning requires a recurring on-site presence the profile cannot commit to"
+  },
+  "baseline_note": "The title-only keyword baseline is expected to fail on at least three of these. u-maine-system and hacc both read as AI or software work by title and are product purchases; tahoe reads as a plain IT consulting engagement and is a geography no-bid. If the baseline does not fail there, the pipeline is adding nothing and that is the finding (adr/0003).",
+  "labels": [
+    {
+      "fixture": "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf",
+      "label": "no_bid",
+      "reason_class": "product_not_services",
+      "title_signal": "misleading",
+      "evidence": "The University is seeking a vendor-hosted SaaS solution.",
+      "rationale": "The issuer is buying licences for a hosted platform, not commissioning work: a flat-rate or unlimited-usage licence is required, the solution must be multi-model, and it must pass Accessibility and IT Security gates including FERPA. A services practice cannot supply the product the award depends on."
+    },
+    {
+      "fixture": "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf",
+      "label": "bid",
+      "reason_class": "in_scope",
+      "title_signal": "consistent",
+      "evidence": "consulting services for the following as described in Section 3 – Scope of Services ... Cloud Migration Discovery and Strategic Services ... Identity & Access Management (IAM) strategy, and Zero Trust Network Access (ZTNA) strategy",
+      "rationale": "Pure advisory: discovery, strategy and target-state design in cloud, identity and zero trust, which is the profile's core. Three-year initial term with renewals, and evaluation is qualitative rather than price-dominated.",
+      "counterargument": "Requires travel to Indianapolis and out-of-state registration, both mechanical rather than disqualifying."
+    },
+    {
+      "fixture": "hacc-rfp-26022-cloud-document-management.pdf",
+      "label": "no_bid",
+      "reason_class": "product_not_services",
+      "title_signal": "misleading",
+      "evidence": "A Cloud-based SaaS solution only (no on-prem or self-hosted alternatives). Vendors must provide fully managed hosting, updates, scaling, monitoring, and security.",
+      "rationale": "A records-management product procurement with implementation attached. The award turns on supplying and running the platform — hosting, updates, scaling, monitoring — which the profile excludes."
+    },
+    {
+      "fixture": "energy-trust-of-oregon-crm-migration-to-d365.pdf",
+      "label": "no_bid",
+      "reason_class": "functional_stack_not_held",
+      "title_signal": "consistent",
+      "evidence": "Recommended Dynamics 365 applications and licensing (e.g. Sales, Customer Service, Marketing) ... Re-implementation or refactoring of existing customizations",
+      "rationale": "End-to-end Microsoft Dynamics functional migration: recommending D365 applications and licensing, configuring business requirements, Power Platform flows and security roles, then training and change management. The profile holds no functional D365 capability and no Microsoft partner status.",
+      "counterargument": "The same scope is heavy on data migration, integration architecture, IAM design and refactoring unsupported plugins, which is platform engineering. This was the closest call in the set and was agreed rather than obvious."
+    },
+    {
+      "fixture": "palm-beach-mpo-rfp-2026-07-it-services.pdf",
+      "label": "no_bid",
+      "reason_class": "operations_not_projects",
+      "title_signal": "consistent",
+      "evidence": "retain a qualified consultant team ... to provide Information Technology Services and Management including on-site support",
+      "rationale": "A three-year operations retainer with three renewal options, providing ongoing IT services and management. The word consultant does not make it advisory: the shape is continuous service delivery, not a project with an end.",
+      "counterargument": "The profile does accept fractional retainers, up to about two days a week — but not a three-year operations commitment with on-site support."
+    },
+    {
+      "fixture": "tahoe-transportation-district-it-consulting-2025.pdf",
+      "label": "no_bid",
+      "reason_class": "geography",
+      "title_signal": "misleading",
+      "evidence": "In case of an emergency, be on-site within four (4) hours ... plan on two (2) days per week for on-site support",
+      "rationale": "The cleanest no-bid in the set. Winning requires a standing on-site presence at South Lake Tahoe and Stateline, roughly 14 of 20 support hours per week on site, plus a four-hour emergency on-site response and attendance at board meetings. Geography is a hard constraint, not a scoring penalty."
+    },
+    {
+      "fixture": "coastal-bend-college-erp-sis-rfp-2026-01.pdf",
+      "label": "no_bid",
+      "reason_class": "functional_stack_not_held",
+      "title_signal": "consistent",
+      "evidence": "experience and ability to provide Enterprise Resource Planning",
+      "rationale": "A 64-page procure-to-award for an ERP and student information system, with selection resting on demonstrated ERP implementation experience and total cost. Functional ERP and student-systems delivery is explicitly outside the profile.",
+      "counterargument": "Large, well funded and multi-year — attractive on money alone, which is the trap the profile exists to catch."
+    },
+    {
+      "fixture": "city-of-spicer-mn-managed-it-services-2026.pdf",
+      "label": "no_bid",
+      "reason_class": "operations_not_projects",
+      "title_signal": "consistent",
+      "evidence": "24x7x365 monitoring of denoted servers and critical network components ... Full-service desk ... Less than 4-hour response time for server down emergencies",
+      "rationale": "A managed-service retainer for a small city: round-the-clock monitoring, a service desk, an operations centre, and SQL Server, Laserfiche and Hyper-V administration. Three-year term with predictable revenue, and still an operations business the profile excludes."
+    },
+    {
+      "fixture": "city-of-snohomish-it-strategic-plan-rfp.pdf",
+      "label": "bid",
+      "reason_class": "in_scope",
+      "title_signal": "consistent",
+      "evidence": "soliciting proposals from qualified consultant firms to develop a Six-Year Information Technology Strategic Plan",
+      "rationale": "A pure advisory deliverable — a six-year IT strategic plan for a city with about 60 users — with no on-site, licence, monitoring or hosting requirement anywhere in the text. Small in value, squarely in scope.",
+      "counterargument": "The contract is small enough that declining it would be a policy choice about revenue, not a capability judgement."
+    },
+    {
+      "fixture": "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf",
+      "label": "bid",
+      "reason_class": "in_scope",
+      "title_signal": "consistent",
+      "evidence": "Design and build the data commons website and backend infrastructure ... Implement metadata management, cataloging, and discovery tools (e.g., CKAN, Dataverse) ... AI Fairness and Bias Framework",
+      "rationale": "An implementation project in the profile's exact lane: platform build, metadata and API design, synthetic data tooling, and a fairness and bias framework with audit dashboards, plus governance, training and launch. Remote-friendly, with travel reimbursed at the standard mileage rate."
+    },
+    {
+      "fixture": "community-action-partnership-kern-information-systems-consultant.pdf",
+      "label": "bid",
+      "reason_class": "in_scope",
+      "title_signal": "misleading",
+      "evidence": "The engagement will include advisory, implementation, and knowledge transfer components.",
+      "rationale": "AI integration, a Microsoft Fabric migration, a Dynamics 365 migration for a 211 call centre and an intelligent virtual assistant, specified as projects with deliverables and a one-year term. The work is squarely in scope even though the title says only consultant.",
+      "counterargument": "The summary line reads as staff augmentation — act as an extension of our Information Systems team, on an as-needed basis — which the profile excludes. Agreed as a bid: the deliverables are project-shaped, so this is the label with the least margin in the set."
+    }
+  ]
+}

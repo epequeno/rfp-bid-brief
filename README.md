@@ -7,14 +7,15 @@ verbatim citations. The point of the repository is not the brief. It is that eve
 brief traces to a span of the source document, and that the decision layer's probabilities are
 **calibrated and published at an operating point fixed in advance**.
 
-## Status: inputs frozen, pipeline not built
+## Status: inputs frozen and labelled — pipeline not built
 
-The repository currently contains the **frozen inputs and the conventions**, and no model-facing
-code. That ordering is the point — see [`adr/0003`](adr/0003-pre-register-the-operating-point.md):
+The repository currently contains the **frozen inputs, the ground truth and the conventions**, and
+no model-facing code. That ordering is the point — see
+[`adr/0003`](adr/0003-pre-register-the-operating-point.md):
 
-1. the bidder profile is committed and hashed,
-2. the decision threshold and headline metrics are pre-registered,
-3. the ground-truth labels are committed,
+1. the bidder profile is committed and hashed, ✅
+2. the decision threshold and headline metrics are pre-registered, ✅
+3. the ground-truth labels are committed, ✅
 4. *then* a model sees a fixture.
 
 Recording a threshold after seeing results is not calibration, it is a fitted number.
@@ -23,11 +24,16 @@ What exists today:
 
 | Path | What it is |
 |---|---|
-| `bidder-profile.json` | The narrow profile every decision is made against. Frozen before labelling. |
+| `bidder-profile.json` | The narrow profile every decision is made against. Frozen and hashed before labelling. |
 | `fixtures/` | Eleven public solicitation documents, with provenance, notice and a hash manifest. |
+| `fixtures/labels.json` | Ground truth — 4 bid, 7 no-bid — with the reason for each label. Held out from the model path entirely. |
 | `fixtures/PROVENANCE.md` | Issuer, source URL, page count, sha256, and what each fixture may be read as. |
 | `adr/` | The decisions taken so far. |
-| `tools/verify-fixtures.sh` | `make verify-fixtures` — proves the fixtures are still the documents their issuers published. |
+| `tools/verify-fixtures.sh` | `just verify-fixtures` — proves the fixtures are still the documents their issuers published. |
+| `tools/status.sh` | `just status` — what exists, and what explicitly does not. |
+
+Run `just` for the recipe list; the task runner is [`just`](https://github.com/casey/just), not
+`make`.
 
 ## Why a bidder profile is a required input
 
@@ -63,6 +69,12 @@ When the harness lands, a number from this repository will always come with:
 Eleven public solicitations from eleven independent issuers — municipal, county, community college,
 university system, state agency, and two state-chartered non-profits. All are public records,
 retrieved from the issuers' own published copies, all with extractable text and no OCR anywhere.
+
+The labels are not a coin flip: the set is deliberately skewed toward no-bid, because that is the
+honest shape of capture decisions for a narrow practice, and each no-bid has a *reason class* —
+buying a product rather than services, a functional stack the profile does not hold, operations
+rather than a project, or geography. Four positives is thin, and the calibration curve will be
+reported as indicative rather than conclusive because of it.
 
 They are third-party documents, reproduced unmodified. Read [`fixtures/NOTICE.md`](fixtures/NOTICE.md)
 before redistributing, and [`fixtures/PROVENANCE.md`](fixtures/PROVENANCE.md) for the source of each.

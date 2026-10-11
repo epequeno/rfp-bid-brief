@@ -7,7 +7,7 @@ not the design; design lives in `docs/` (when it exists) and the rationale in `a
 
 - **New fixtures cost a provenance row.** A document may only enter `fixtures/` with: the issuing
   organisation, the issuer's own published URL, the retrieval date, the page count, and its sha256
-  added to the manifest in `fixtures/PROVENANCE.md`. `make verify-fixtures` fails an unlisted
+  added to the manifest in `fixtures/PROVENANCE.md`. `just verify-fixtures` fails an unlisted
   fixture, because a fixture nothing vouches for is worse than a missing one.
 - **Solicitations only.** Documents issued *by* buyers. No vendor response, proposal, pricing
   schedule or contract from any supplier may enter this repository, ever — a response does not
@@ -21,6 +21,16 @@ not the design; design lives in `docs/` (when it exists) and the rationale in `a
   not a review finding.
 - **No number is reported without its conditions.** Class balance, operating point, and the
   confusion matrix travel with every metric. A bare accuracy figure is not allowed in this repo.
+
+## Task runner
+
+The runner is **`just`**, not `make`. Recipes: `just status`, `just verify-fixtures`, and
+`just check` for everything runnable today. `just test`, `just eval` and `just site` exist and exit
+non-zero until the stage they name is built — deliberately, so that a stage which does not exist is
+visible rather than silently absent. A task runner that pretends is worse than one that says
+"not yet".
+
+This is a standing preference for new projects in this portfolio, not a local accident.
 
 ## ADR rules
 

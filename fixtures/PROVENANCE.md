@@ -60,7 +60,7 @@ selection, not an accident of searching.
 ## Integrity manifest
 
 `tools/verify-fixtures.sh` recomputes these hashes and fails if any fixture has changed. Run it
-with `make verify-fixtures`. A fixture that has been edited in place is no longer the document its
+with `just verify-fixtures`. A fixture that has been edited in place is no longer the document its
 issuer published, and any span citation against it is void — so this is a gate, not a formality.
 
 ```
