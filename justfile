@@ -72,6 +72,13 @@ briefs:
 baseline:
     @uv run rfpbrief baseline
 
+# is the intended decision model callable yet? (adr/0007)
+#
+# probes the provider rather than remembering: a listing can precede an API and an API can serve a
+# model a catalogue has not listed yet. Exit 0 when callable, 1 when not.
+provider-check:
+    @uv run rfpbrief provider
+
 # run the eval harness — not built yet
 eval:
     @echo "just eval: not built yet — extraction and the decision layer come first."

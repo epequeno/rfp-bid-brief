@@ -18,7 +18,7 @@ import re
 import sys
 from pathlib import Path
 
-from . import brief, decide, evaluate, extract, model_extractor, spans, variance
+from . import brief, decide, evaluate, extract, model_extractor, providers, spans, variance
 from .spans import collapse_ws
 
 REPO = Path(__file__).resolve().parents[2]
@@ -362,6 +362,13 @@ def cmd_variance(args: argparse.Namespace) -> int:
     return 0 if lo == hi else 1 if args.strict else 0
 
 
+def cmd_provider(args: argparse.Namespace) -> int:
+    """Probe whether the intended decision model is callable yet. Exit 0 when it is."""
+    p = providers.probe(args.model)
+    print(providers.render(p))
+    return 0 if p.callable_now else 1
+
+
 def cmd_stats(args: argparse.Namespace) -> int:
     doc = spans.build(Path(args.fixture), fixture_name=Path(args.fixture).name)
     lengths = sorted(len(s.text) for s in doc.spans)
@@ -453,6 +460,10 @@ def main(argv: list[str] | None = None) -> int:
     vr.add_argument("--strict", action="store_true",
                     help="exit non-zero unless every run was identical")
     vr.set_defaults(func=cmd_variance)
+
+    pv = sub.add_parser("provider", help="is the intended decision model callable yet?")
+    pv.add_argument("--model", default=providers.WANTED)
+    pv.set_defaults(func=cmd_provider)
 
     args = ap.parse_args(argv)
     return args.func(args)
