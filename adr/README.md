@@ -34,3 +34,4 @@ Consequences.
 | [0012](0012-the-fifth-exclusion-class-and-its-re-freeze.md) | The fifth exclusion class, and the re-freeze it forces | accepted |
 | [0013](0013-unreachable-outranks-unsuitable.md) | Unreachable outranks unsuitable, and a class must be visible to every judge | accepted |
 | [0014](0014-a-sixth-class-and-when-a-re-freeze-is-needed.md) | A sixth class: staff augmentation, and when a re-freeze is actually needed | accepted |
+| [0015](0015-this-is-an-evaluation-not-an-agent-application.md) | This is a decision-layer evaluation, not an agent application | accepted |
