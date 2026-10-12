@@ -5,21 +5,21 @@
 Primary reason class: **Functional stack not held**
 
 > deterministic verdict: this layer emits a verdict, not a probability — the probability channel, the pre-registered operating point and the census are under Decision below
-> profile eap-software-narrow-2026-10-11 — 1 exclusion(s) matched, 0 requirement(s) considered and not excluded
+> profile eap-software-narrow-2026-10-11-r2 — 1 exclusion(s) matched, 0 requirement(s) considered and not excluded
 
 ## Decision
 
-**Probability channel** `typesafe/jev-1.13` (resolved `typesafe/jev-1.13-20260917`, served by TypeSafe): **P(bid) = 0.2300** → NO-BID at the pre-registered operating point τ = 0.50.
+**Probability channel** `typesafe/jev-1.13` (resolved `typesafe/jev-1.13-20260917`, served by TypeSafe): **P(bid) = 0.1600** → NO-BID at the pre-registered operating point τ = 0.50.
 
-**Comparator** `microsoft/microsoft-decision-1` (resolved `microsoft/microsoft-decision-1-20261009`, served by Azure): P(bid) = 0.7311 → BID.
+**Comparator** `microsoft/microsoft-decision-1` (resolved `microsoft/microsoft-decision-1-20261009`, served by Azure): P(bid) = 0.5312 → BID.
 
-**Census of 14 served decision models on this fixture: 7 bid, 7 no-bid** (probabilities 0.131–0.856).
+**Census of 14 served decision models on this fixture: 4 bid, 10 no-bid** (probabilities 0.005–0.651).
 
 **The models disagree with each other here.** That makes this call close however it is labelled — a recommendation is not the same thing as a settled question — and it marks this fixture as the one to re-read first.
 
 The deterministic rules layer above reaches the **same** call as the channel.
 
-_Caveat that travels with the number: 11 fixtures, 4 of them bid, one call per (model, fixture). Repeats move individual probabilities by up to 0.45 and this fixture's bid count between 6 and 7, so read the count above as one draw (`results/census-repeats/README.md`). Per-model calibration and Brier scores: `results/calibration.json`._
+_Caveat that travels with the number: 18 fixtures, 6 of them bid, one call per (model, fixture). Repeats move individual probabilities by up to 0.45 and this fixture's bid count between 6 and 7, so read the count above as one draw (`results/census-repeats/README.md`). Per-model calibration and Brier scores: `results/calibration.json`._
 
 ## Why not
 

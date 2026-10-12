@@ -36,7 +36,7 @@ NO_BID = "no_bid"
 # Unreachable outranks unsuitable: if the firm is ineligible before capability is assessed, no other
 # reason is the interesting one. That is why not_qualified sorts first (adr/0013).
 PRIORITY = ("not_qualified", "geography", "product_not_services", "functional_stack_not_held",
-            "operations_not_projects")
+            "staff_augmentation", "operations_not_projects")
 
 
 @dataclass(frozen=True)
@@ -110,6 +110,18 @@ BINDINGS: tuple[Binding, ...] = (
         profile_exclusion="supplying a hosted product",
         reason_class="product_not_services",
         summary="the issuer is buying a product and the services are incidental",
+    ),
+    # Staff augmentation is its own class because the profile excludes it as its own delivery model
+    # ("staff augmentation or body-shop placements"). Expressing it as continuous_operations made the
+    # brief say "continuous operations" about a document whose own words are "staff augmentation" --
+    # a reason that misdescribes the thing it is refusing (adr/0014).
+    Binding(
+        requirement="delivery_model",
+        test=lambda v: v == "staff_augmentation",
+        profile_exclusion="staff augmentation or body-shop placements",
+        reason_class="staff_augmentation",
+        summary="the issuer is buying hours or bodies under a standing agreement rather than "
+                "commissioning a delivered project",
     ),
     Binding(
         requirement="delivery_model",

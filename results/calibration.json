@@ -2,410 +2,599 @@
  "schema": "calibration/1",
  "operating_point_tau": 0.5,
  "sample": {
-  "fixtures": 11,
-  "positives": 4,
+  "fixtures": 18,
+  "positives": 6,
   "note": "The sample size does not grow with the number of models: each model's probabilities are compared against the same eleven labels. Several thin calibration curves are still thin."
  },
  "models": [
   {
-   "model": "cloudflare/clef",
-   "provider": "PrimeIntellect",
-   "resolved_model": "cloudflare/clef",
-   "answered": 11,
+   "model": "cloudflare/clef-omni-20261009",
+   "provider": "Cloudflare",
+   "resolved_model": "cloudflare/clef-omni-20261009",
+   "answered": 18,
    "refused": 0,
-   "correct_at_tau": 11,
+   "correct_at_tau": 18,
    "confusion_at_tau": {
     "no_bid": {
-     "no_bid": 7
+     "no_bid": 12
     },
     "bid": {
-     "bid": 4
+     "bid": 6
     }
    },
-   "brier": 0.0069,
+   "brier": 0.0279,
    "reliability": [
     {
      "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.0224,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.2-0.4",
-     "n": 1,
-     "mean_p": 0.2303,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.9402,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.5,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.0018312,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0201,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9846,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.0382,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.2303,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0099,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0474,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0088,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0101,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9477,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.8891,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9394
-   }
-  },
-  {
-   "model": "cloudflare/clef-flash",
-   "provider": "PrimeIntellect",
-   "resolved_model": "cloudflare/clef-flash",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 11,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 7
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0273,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.0953,
+     "n": 12,
+     "mean_p": 0.0395,
      "observed": 0.0
     },
     {
      "bucket": "0.4-0.6",
      "n": 1,
-     "mean_p": 0.4127,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.6-0.8",
-     "n": 1,
-     "mean_p": 0.7926,
+     "mean_p": 0.5726,
      "observed": 1.0
     },
     {
-     "bucket": "0.8-1.0",
+     "bucket": "0.6-0.8",
      "n": 3,
-     "mean_p": 0.915,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.5,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00028994,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0583,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9241,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.1628,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.4127,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0623,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.1247,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.1122,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0516,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9219,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.7926,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.8991
-   }
-  },
-  {
-   "model": "cloudflare/clef-omni-20261009",
-   "provider": "Cloudflare",
-   "resolved_model": "cloudflare/clef-omni-20261009",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 11,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 7
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0207,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 7,
-     "mean_p": 0.0375,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.6-0.8",
-     "n": 2,
-     "mean_p": 0.7291,
+     "mean_p": 0.7248,
      "observed": 1.0
     },
     {
      "bucket": "0.8-1.0",
      "n": 2,
-     "mean_p": 0.836,
+     "mean_p": 0.8562,
      "observed": 1.0
     }
    ],
    "post_hoc_threshold": 0.5,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.0011148,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.002571,
    "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0284,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.6792,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.0371,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.1311,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0139,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0156,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0204,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0159,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.863,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.779,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.8091
-   }
-  },
-  {
-   "model": "liquid/d1-20260930",
-   "provider": "Liquid",
-   "resolved_model": "liquid/d1-20260930",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 11,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 7
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0095,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.0017,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.2-0.4",
-     "n": 1,
-     "mean_p": 0.3208,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.981,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.5,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00025636,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0005884086958775345,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9706877684006775,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.009125635772280672,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.32082130082460697,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 9.818323179779489e-06,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.00010889691813912326,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0004583129074613026,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 4.0929112329522365e-06,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9850429107723174,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9840936103874667,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9840936115537341
-   }
-  },
-  {
-   "model": "nace-ai/drex-v1.5-20261009",
-   "provider": "DeepInfra",
-   "resolved_model": "nace-ai/drex-v1.5-20261009",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 11,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 7
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0125,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.0064,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.2-0.4",
-     "n": 1,
-     "mean_p": 0.3696,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.9922,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.5,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00024932,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0048,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9907,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.0296,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.3696,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0013,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0015,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.001,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0004,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9987,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9954,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9839
-   }
-  },
-  {
-   "model": "perplexity/pplx-decider-v1.1-27b-20261006",
-   "provider": "Perplexity",
-   "resolved_model": "perplexity/pplx-decider-v1.1-27b-20261006",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 11,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 7
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0021,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 7,
-     "mean_p": 0.0229,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.9979,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.5,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00013984,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0023059936400729175,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9989774686085182,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.00409426540236516,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.15292426913280907,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 5.661117570364185e-05,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 7.563054473428498e-05,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0004800977284163364,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 6.620280370530943e-05,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9991436002792078,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9949076338898686,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9987097258855256
-   }
-  },
-  {
-   "model": "typesafe/jev-1.13-20260917",
-   "provider": "TypeSafe",
-   "resolved_model": "typesafe/jev-1.13-20260917",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 11,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 7
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0199,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.0667,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.2-0.4",
-     "n": 1,
-     "mean_p": 0.23,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.6-0.8",
-     "n": 2,
-     "mean_p": 0.77,
-     "observed": 1.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 2,
-     "mean_p": 0.875,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.5,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00037909,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.09,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.79,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.07,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.23,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.06,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.07,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.07,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.04,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.89,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.75,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.86
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0162,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.8781,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.0294,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.1739,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.012,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0165,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0281,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0158,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.6612,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.7758,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.8344,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.5726,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.7373,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.0153,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.0555,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.0804,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.0163,
+    "savec-alaska-managed-it-services-2026.pdf": 0.015
    }
   },
   {
    "model": "inception/mercury-decide-20260930",
    "provider": "Inception",
    "resolved_model": "inception/mercury-decide-20260930",
-   "answered": 11,
+   "answered": 18,
    "refused": 0,
-   "correct_at_tau": 10,
+   "correct_at_tau": 18,
    "confusion_at_tau": {
     "no_bid": {
-     "no_bid": 6,
-     "bid": 1
+     "no_bid": 12
     },
     "bid": {
-     "bid": 4
+     "bid": 6
     }
    },
-   "brier": 0.0257,
+   "brier": 0.0,
    "reliability": [
     {
      "bucket": "0.0-0.2",
+     "n": 12,
+     "mean_p": 0.0006,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.8-1.0",
      "n": 6,
-     "mean_p": 0.0001,
+     "mean_p": 0.997,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.000318,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 4.832564786324163e-05,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9953904288910647,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.00020342707247990026,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.0052201266559707684,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 7.031184273462797e-05,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 6.205051088831413e-05,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 3.763644679542052e-05,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 2.4300243040307207e-05,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9984988173970584,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9940889320166312,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9968273165286684,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.9982992777387814,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.9988304898178982,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.00013135178786107747,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.0005527786883123499,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.00031503876733557395,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 1.777855837848255e-05,
+    "savec-alaska-managed-it-services-2026.pdf": 4.8325616810083257e-05
+   }
+  },
+  {
+   "model": "liquid/d1-20260930",
+   "provider": "Liquid",
+   "resolved_model": "liquid/d1-20260930",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 18,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 12
+    },
+    "bid": {
+     "bid": 6
+    }
+   },
+   "brier": 0.0108,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 11,
+     "mean_p": 0.019,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.2-0.4",
+     "n": 1,
+     "mean_p": 0.2689,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.6-0.8",
+     "n": 1,
+     "mean_p": 0.7663,
+     "observed": 1.0
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 5,
+     "mean_p": 0.9313,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.00062708,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.00012339462746411867,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.766293664434876,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.004905404687394699,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.19193278644723683,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 6.9622585325283116e-06,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0009110510180770795,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 9.028036055676963e-05,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 2.726470433205784e-06,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.8933094202563038,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9553191252750104,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.8872046086290859,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.9808759649262345,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.9399133498259924,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 6.605217044355765e-05,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.2689414448079646,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.010986941497157156,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 3.7266377848486278e-06,
+    "savec-alaska-managed-it-services-2026.pdf": 2.2828000594447227e-05
+   }
+  },
+  {
+   "model": "nace-ai/drex-v1.5-20261009",
+   "provider": "DeepInfra",
+   "resolved_model": "nace-ai/drex-v1.5-20261009",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 18,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 12
+    },
+    "bid": {
+     "bid": 6
+    }
+   },
+   "brier": 0.0095,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 12,
+     "mean_p": 0.0213,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.6-0.8",
+     "n": 1,
+     "mean_p": 0.7794,
+     "observed": 1.0
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 5,
+     "mean_p": 0.8877,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.00061064,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0021,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.8183,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.0012,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.1833,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0013,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0009,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0007,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0002,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.936,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.7794,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.822,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.9937,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.8687,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.0021,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.0399,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.0235,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.0002,
+    "savec-alaska-managed-it-services-2026.pdf": 0.0005
+   }
+  },
+  {
+   "model": "openai/gpt-6-luna-decisions-20261006",
+   "provider": "OpenAI",
+   "resolved_model": "openai/gpt-6-luna-decisions-20261006",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 18,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 12
+    },
+    "bid": {
+     "bid": 6
+    }
+   },
+   "brier": 0.0236,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 11,
+     "mean_p": 0.0045,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.2-0.4",
+     "n": 1,
+     "mean_p": 0.38,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.4-0.6",
+     "n": 1,
+     "mean_p": 0.51,
+     "observed": 1.0
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 5,
+     "mean_p": 0.92,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.0017094,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.97,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.0,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.38,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.94,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.86,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.91,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.92,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.51,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.0,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.04,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.01,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.0,
+    "savec-alaska-managed-it-services-2026.pdf": 0.0
+   }
+  },
+  {
+   "model": "perplexity/pplx-decider-v1.1-27b-20261006",
+   "provider": "Perplexity",
+   "resolved_model": "perplexity/pplx-decider-v1.1-27b-20261006",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 18,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 12
+    },
+    "bid": {
+     "bid": 6
+    }
+   },
+   "brier": 0.0049,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 11,
+     "mean_p": 0.0191,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.2-0.4",
+     "n": 1,
+     "mean_p": 0.2559,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 6,
+     "mean_p": 0.9962,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.00033016,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0012635010198482732,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9992668718919572,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.0022762941942778277,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.12854617847505706,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 5.5647332942788564e-05,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 7.673700745367463e-05,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0002358830325280066,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 5.201040090598136e-05,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9989993917883838,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9899278424780462,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9984110949136772,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.9969509004234759,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.9937216698056204,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 5.42309526944846e-05,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.25594307001021355,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.0776941289330797,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 6.827066608741111e-05,
+    "savec-alaska-managed-it-services-2026.pdf": 3.598042357034006e-05
+   }
+  },
+  {
+   "model": "typesafe/jev-1.13-20260917",
+   "provider": "TypeSafe",
+   "resolved_model": "typesafe/jev-1.13-20260917",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 18,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 12
+    },
+    "bid": {
+     "bid": 6
+    }
+   },
+   "brier": 0.0274,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 11,
+     "mean_p": 0.0782,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.2-0.4",
+     "n": 1,
+     "mean_p": 0.26,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.6-0.8",
+     "n": 4,
+     "mean_p": 0.7375,
+     "observed": 1.0
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 2,
+     "mean_p": 0.845,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.00083647,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.08,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.76,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.07,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.16,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.06,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.06,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.06,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.04,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.88,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.78,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.81,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.74,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.67,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.05,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.26,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.19,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.04,
+    "savec-alaska-managed-it-services-2026.pdf": 0.05
+   }
+  },
+  {
+   "model": "cloudflare/clef",
+   "provider": "PrimeIntellect",
+   "resolved_model": "cloudflare/clef",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 17,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 12
+    },
+    "bid": {
+     "bid": 5,
+     "no_bid": 1
+    }
+   },
+   "brier": 0.0419,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 11,
+     "mean_p": 0.0481,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.2-0.4",
+     "n": 2,
+     "mean_p": 0.3474,
+     "observed": 0.5
+    },
+    {
+     "bucket": "0.6-0.8",
+     "n": 1,
+     "mean_p": 0.7739,
+     "observed": 1.0
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 4,
+     "mean_p": 0.9057,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 17,
+   "cost_usd": 0.00421248,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0215,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9719,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.0326,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.1694,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0088,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0499,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0093,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0087,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9456,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.7739,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.8533,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.8521,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.3298,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.0127,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.365,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.1987,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.0088,
+    "savec-alaska-managed-it-services-2026.pdf": 0.0086
+   }
+  },
+  {
+   "model": "cloudflare/clef-flash",
+   "provider": "PrimeIntellect",
+   "resolved_model": "cloudflare/clef-flash",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 17,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 12
+    },
+    "bid": {
+     "bid": 5,
+     "no_bid": 1
+    }
+   },
+   "brier": 0.0554,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 13,
+     "mean_p": 0.0934,
+     "observed": 0.0769
+    },
+    {
+     "bucket": "0.6-0.8",
+     "n": 1,
+     "mean_p": 0.7786,
+     "observed": 1.0
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 4,
+     "mean_p": 0.8704,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 17,
+   "cost_usd": 0.00066698,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0542,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.8971,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.0815,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.172,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.072,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0979,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0876,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0558,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.88,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.7786,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.8578,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.8468,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.129,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.0287,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.1168,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.1744,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.0546,
+    "savec-alaska-managed-it-services-2026.pdf": 0.0903
+   }
+  },
+  {
+   "model": "microsoft/microsoft-decision-1-20261009",
+   "provider": "Azure",
+   "resolved_model": "microsoft/microsoft-decision-1-20261009",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 17,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 11,
+     "bid": 1
+    },
+    "bid": {
+     "bid": 6
+    }
+   },
+   "brier": 0.0183,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 11,
+     "mean_p": 0.0172,
      "observed": 0.0
     },
     {
@@ -416,357 +605,329 @@
     },
     {
      "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.9994,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.9987,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00013168,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 4.26474612351299e-05,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.99973880972328,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.00014883845916748242,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.5312093733737563,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 7.484620172133298e-05,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 8.481107359191134e-05,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 3.535626468629356e-05,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 2.1444952769759962e-05,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9997388095608298,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9986749775079191,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9995121427891164
-   }
-  },
-  {
-   "model": "jaredpalmer/kev-4b-20260924",
-   "provider": "SiliconFlow",
-   "resolved_model": "jaredpalmer/kev-4b-20260924",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 10,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 6,
-     "bid": 1
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0517,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 5,
-     "mean_p": 0.09,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.2-0.4",
-     "n": 1,
-     "mean_p": 0.2346,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.6-0.8",
-     "n": 1,
-     "mean_p": 0.6754,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.9426,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.9374,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00026179,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.1245,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9483,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.2346,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.6754,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0848,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0599,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.118,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0628,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9408,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.944,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9374
-   }
-  },
-  {
-   "model": "microsoft/microsoft-decision-1-20261009",
-   "provider": "Azure",
-   "resolved_model": "microsoft/microsoft-decision-1-20261009",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 10,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 6,
-     "bid": 1
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0494,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
      "n": 6,
-     "mean_p": 0.0242,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.6-0.8",
-     "n": 1,
-     "mean_p": 0.7311,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.9721,
+     "mean_p": 0.9433,
      "observed": 1.0
     }
    ],
-   "post_hoc_threshold": 0.9466,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00026699,
+   "post_hoc_threshold": 0.8176,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.00065129,
    "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.042088216278593375,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9465965526096382,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.04208804630928271,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.731060396170699,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.009708588563737736,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.012431756110588735,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.03732711137425518,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.001700750980889586,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9890130447609802,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9820137347111971,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9706876982502471
-   }
-  },
-  {
-   "model": "openai/gpt-6-luna-decisions-20261006",
-   "provider": "OpenAI",
-   "resolved_model": "openai/gpt-6-luna-decisions-20261006",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 10,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 6,
-     "bid": 1
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0312,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.0,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.4-0.6",
-     "n": 1,
-     "mean_p": 0.56,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.93,
-     "observed": 1.0
-    }
-   ],
-   "post_hoc_threshold": 0.88,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.0007474,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.98,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.0,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.56,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.0,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.98,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.88,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.88
-   }
-  },
-  {
-   "model": "togethercomputer/tev1-4b-experimental-20260923",
-   "provider": "Together",
-   "resolved_model": "togethercomputer/tev1-4b-experimental-20260923",
-   "answered": 11,
-   "refused": 0,
-   "correct_at_tau": 10,
-   "confusion_at_tau": {
-    "no_bid": {
-     "no_bid": 6,
-     "bid": 1
-    },
-    "bid": {
-     "bid": 4
-    }
-   },
-   "brier": 0.0638,
-   "reliability": [
-    {
-     "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.0149,
-     "observed": 0.0
-    },
-    {
-     "bucket": "0.8-1.0",
-     "n": 5,
-     "mean_p": 0.9565,
-     "observed": 0.8
-    }
-   ],
-   "post_hoc_threshold": 0.974,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.00029841,
-   "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.008577483364269398,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9964063966702159,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.03308597902853007,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.8354835494740082,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.00116950987875085,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0024726234612486905,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.042087724408096445,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.001926734498524466,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9890130554243515,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9875683466422845,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.97404264002101
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.017986402203305593,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9465966199445319,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.014063737454579079,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.5312123242617184,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0040701971432271725,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.0035936363733882933,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.015906668445982052,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0013250439821894582,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9669139978446019,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9820137667824119,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.9626730999926543,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.9840935810764025,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.8175749950510113,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.005911152509930461,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.060087366961056696,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.0600872081789136,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.003172717273961582,
+    "savec-alaska-managed-it-services-2026.pdf": 0.003172720765425747
    }
   },
   {
    "model": "upstage/solar-decide-20260928",
    "provider": "Upstage",
    "resolved_model": "upstage/solar-decide-20260928",
-   "answered": 11,
+   "answered": 18,
    "refused": 0,
-   "correct_at_tau": 10,
+   "correct_at_tau": 17,
    "confusion_at_tau": {
     "no_bid": {
-     "no_bid": 6,
+     "no_bid": 11,
      "bid": 1
     },
     "bid": {
-     "bid": 4
+     "bid": 6
     }
    },
-   "brier": 0.0348,
+   "brier": 0.0288,
    "reliability": [
     {
      "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.079,
+     "n": 11,
+     "mean_p": 0.0761,
      "observed": 0.0
     },
     {
-     "bucket": "0.4-0.6",
+     "bucket": "0.6-0.8",
      "n": 1,
-     "mean_p": 0.5649,
+     "mean_p": 0.6333,
      "observed": 0.0
     },
     {
      "bucket": "0.8-1.0",
-     "n": 4,
-     "mean_p": 0.9369,
+     "n": 6,
+     "mean_p": 0.9368,
      "observed": 1.0
     }
    ],
-   "post_hoc_threshold": 0.9192,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.0005083,
+   "post_hoc_threshold": 0.8876,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.00108155,
    "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.088608,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.919223,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.071834,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.564889,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.029592,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.042635,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.147936,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.093175,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.971471,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.922396,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.934614
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.079204,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.941949,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.050161,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.633272,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.034901,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.018918,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.06526,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.085105,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.945537,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.887617,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.90445,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.941369,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.999743,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.057879,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.172273,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.146193,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.097514,
+    "savec-alaska-managed-it-services-2026.pdf": 0.030203
    }
   },
   {
    "model": "upstage/solar-decide-flash-20261008",
    "provider": "Upstage",
    "resolved_model": "upstage/solar-decide-flash-20261008",
-   "answered": 11,
+   "answered": 18,
    "refused": 0,
-   "correct_at_tau": 10,
+   "correct_at_tau": 17,
    "confusion_at_tau": {
     "no_bid": {
-     "no_bid": 6,
+     "no_bid": 11,
      "bid": 1
     },
     "bid": {
-     "bid": 4
+     "bid": 6
     }
    },
-   "brier": 0.0724,
+   "brier": 0.0493,
    "reliability": [
     {
      "bucket": "0.0-0.2",
-     "n": 6,
-     "mean_p": 0.0797,
+     "n": 9,
+     "mean_p": 0.0572,
      "observed": 0.0
+    },
+    {
+     "bucket": "0.2-0.4",
+     "n": 1,
+     "mean_p": 0.234,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.4-0.6",
+     "n": 1,
+     "mean_p": 0.4799,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.6-0.8",
+     "n": 2,
+     "mean_p": 0.6598,
+     "observed": 0.5
     },
     {
      "bucket": "0.8-1.0",
      "n": 5,
-     "mean_p": 0.9204,
-     "observed": 0.8
+     "mean_p": 0.9102,
+     "observed": 1.0
     }
    ],
-   "post_hoc_threshold": 0.9056,
-   "correct_at_post_hoc": 11,
-   "cost_usd": 0.0005083,
+   "post_hoc_threshold": 0.6755,
+   "correct_at_post_hoc": 18,
+   "cost_usd": 0.00108155,
    "probabilities": {
-    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.082256,
-    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.94483,
-    "hacc-rfp-26022-cloud-document-management.pdf": 0.058763,
-    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.855696,
-    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.046699,
-    "tahoe-transportation-district-it-consulting-2025.pdf": 0.036429,
-    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.121535,
-    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.132479,
-    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.967616,
-    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.905613,
-    "community-action-partnership-kern-information-systems-consultant.pdf": 0.928411
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.067159,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.917919,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.054055,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.479892,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.032046,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.022014,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.05153,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.105373,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.942476,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.864876,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.900238,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.925417,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.675509,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.043068,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.234049,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.644154,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.109587,
+    "savec-alaska-managed-it-services-2026.pdf": 0.030377
+   }
+  },
+  {
+   "model": "togethercomputer/tev1-4b-experimental-20260923",
+   "provider": "Together",
+   "resolved_model": "togethercomputer/tev1-4b-experimental-20260923",
+   "answered": 18,
+   "refused": 0,
+   "correct_at_tau": 16,
+   "confusion_at_tau": {
+    "no_bid": {
+     "no_bid": 11,
+     "bid": 1
+    },
+    "bid": {
+     "bid": 5,
+     "no_bid": 1
+    }
+   },
+   "brier": 0.0336,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 11,
+     "mean_p": 0.0184,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.4-0.6",
+     "n": 2,
+     "mean_p": 0.5,
+     "observed": 0.5
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 5,
+     "mean_p": 0.9445,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.4688,
+   "correct_at_post_hoc": 17,
+   "cost_usd": 0.0007027,
+   "probabilities": {
+    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": 0.0017007227032922825,
+    "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": 0.9890130574998016,
+    "hacc-rfp-26022-cloud-document-management.pdf": 0.008577485065051595,
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.5312093733737563,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.0010322311535858812,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.001032231200813269,
+    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": 0.010986946412041764,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0015011821903344507,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9579122700685636,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9796676472947475,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.914900969318703,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.8807970643287156,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.46879062662624377,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.0075772409873712835,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.0474258725902702,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.11920293357141241,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.0028009263543188998,
+    "savec-alaska-managed-it-services-2026.pdf": 0.0007096701835848405
+   }
+  },
+  {
+   "model": "jaredpalmer/kev-4b-20260924",
+   "provider": "SiliconFlow",
+   "resolved_model": null,
+   "answered": 14,
+   "refused": 4,
+   "correct_at_tau": 13,
+   "confusion_at_tau": {
+    "no_bid": {
+     "bid": 1,
+     "no_bid": 8
+    },
+    "bid": {
+     "bid": 5
+    }
+   },
+   "brier": 0.0725,
+   "reliability": [
+    {
+     "bucket": "0.0-0.2",
+     "n": 6,
+     "mean_p": 0.0699,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.2-0.4",
+     "n": 1,
+     "mean_p": 0.3291,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.4-0.6",
+     "n": 2,
+     "mean_p": 0.4915,
+     "observed": 0.5
+    },
+    {
+     "bucket": "0.6-0.8",
+     "n": 1,
+     "mean_p": 0.6515,
+     "observed": 0.0
+    },
+    {
+     "bucket": "0.8-1.0",
+     "n": 4,
+     "mean_p": 0.8965,
+     "observed": 1.0
+    }
+   ],
+   "post_hoc_threshold": 0.5,
+   "correct_at_post_hoc": 13,
+   "cost_usd": 0.00051152,
+   "probabilities": {
+    "energy-trust-of-oregon-crm-migration-to-d365.pdf": 0.6515,
+    "palm-beach-mpo-rfp-2026-07-it-services.pdf": 0.072,
+    "tahoe-transportation-district-it-consulting-2025.pdf": 0.053,
+    "city-of-spicer-mn-managed-it-services-2026.pdf": 0.0404,
+    "city-of-snohomish-it-strategic-plan-rfp.pdf": 0.9071,
+    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": 0.9167,
+    "community-action-partnership-kern-information-systems-consultant.pdf": 0.8974,
+    "indian-river-county-utilities-technology-master-plan-rfp.pdf": 0.8647,
+    "allentown-school-district-data-warehousing-services-2026.pdf": 0.5431,
+    "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": 0.1251,
+    "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": 0.3291,
+    "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": 0.4398,
+    "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": 0.0996,
+    "savec-alaska-managed-it-services-2026.pdf": 0.0292
    }
   }
  ],
  "disagreement": {
   "tau": 0.5,
   "fixtures": {
+   "allentown-school-district-data-warehousing-services-2026.pdf": {
+    "models": 14,
+    "bid": 11,
+    "no_bid": 3,
+    "min": 0.129,
+    "median": 0.7373,
+    "max": 0.9997,
+    "split": true
+   },
+   "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf": {
+    "models": 14,
+    "bid": 0,
+    "no_bid": 14,
+    "min": 0.0,
+    "median": 0.0127,
+    "max": 0.1251,
+    "split": false
+   },
    "city-of-snohomish-it-strategic-plan-rfp.pdf": {
     "models": 14,
     "bid": 14,
     "no_bid": 0,
-    "min": 0.863,
-    "median": 0.98,
-    "max": 0.9997,
+    "min": 0.6612,
+    "median": 0.9425,
+    "max": 0.999,
     "split": false
    },
    "city-of-spicer-mn-managed-it-services-2026.pdf": {
@@ -774,62 +935,98 @@
     "bid": 0,
     "no_bid": 14,
     "min": 0.0,
-    "median": 0.0101,
-    "max": 0.1325,
+    "median": 0.0087,
+    "max": 0.1054,
     "split": false
    },
    "coastal-bend-college-erp-sis-rfp-2026-01.pdf": {
-    "models": 14,
+    "models": 13,
     "bid": 0,
-    "no_bid": 14,
+    "no_bid": 13,
     "min": 0.0,
-    "median": 0.0373,
-    "max": 0.1479,
+    "median": 0.011,
+    "max": 0.0876,
     "split": false
+   },
+   "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf": {
+    "models": 14,
+    "bid": 1,
+    "no_bid": 13,
+    "min": 0.0003,
+    "median": 0.1192,
+    "max": 0.6442,
+    "split": true
    },
    "community-action-partnership-kern-information-systems-consultant.pdf": {
     "models": 14,
     "bid": 14,
     "no_bid": 0,
-    "min": 0.8091,
-    "median": 0.9394,
-    "max": 0.9995,
+    "min": 0.81,
+    "median": 0.9002,
+    "max": 0.9984,
     "split": false
    },
    "energy-trust-of-oregon-crm-migration-to-d365.pdf": {
     "models": 14,
-    "bid": 7,
-    "no_bid": 7,
-    "min": 0.1311,
-    "median": 0.5312,
-    "max": 0.8557,
+    "bid": 4,
+    "no_bid": 10,
+    "min": 0.0052,
+    "median": 0.1919,
+    "max": 0.6515,
     "split": true
    },
    "hacc-rfp-26022-cloud-document-management.pdf": {
+    "models": 13,
+    "bid": 0,
+    "no_bid": 13,
+    "min": 0.0,
+    "median": 0.0141,
+    "max": 0.0815,
+    "split": false
+   },
+   "indian-river-county-utilities-technology-master-plan-rfp.pdf": {
+    "models": 14,
+    "bid": 14,
+    "no_bid": 0,
+    "min": 0.5726,
+    "median": 0.9254,
+    "max": 0.9983,
+    "split": false
+   },
+   "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": {
+    "models": 13,
+    "bid": 13,
+    "no_bid": 0,
+    "min": 0.76,
+    "median": 0.9419,
+    "max": 0.9993,
+    "split": false
+   },
+   "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf": {
     "models": 14,
     "bid": 0,
     "no_bid": 14,
     "min": 0.0,
-    "median": 0.0382,
-    "max": 0.2346,
+    "median": 0.0088,
+    "max": 0.1096,
     "split": false
    },
-   "inprs-rfp-23-04-cloud-migration-iam-ztna.pdf": {
+   "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf": {
     "models": 14,
-    "bid": 14,
-    "no_bid": 0,
-    "min": 0.6792,
-    "median": 0.9707,
-    "max": 0.9997,
+    "bid": 0,
+    "no_bid": 14,
+    "min": 0.0006,
+    "median": 0.1723,
+    "max": 0.365,
     "split": false
    },
    "mass-tech-ai-hub-data-commons-consulting-2026-jaii-01.pdf": {
     "models": 14,
     "bid": 14,
     "no_bid": 0,
-    "min": 0.75,
-    "median": 0.944,
-    "max": 0.9987,
+    "min": 0.7739,
+    "median": 0.8876,
+    "max": 0.9941,
     "split": false
    },
    "palm-beach-mpo-rfp-2026-07-it-services.pdf": {
@@ -837,8 +1034,17 @@
     "bid": 0,
     "no_bid": 14,
     "min": 0.0,
-    "median": 0.0099,
-    "max": 0.0848,
+    "median": 0.0088,
+    "max": 0.072,
+    "split": false
+   },
+   "savec-alaska-managed-it-services-2026.pdf": {
+    "models": 14,
+    "bid": 0,
+    "no_bid": 14,
+    "min": 0.0,
+    "median": 0.0086,
+    "max": 0.0903,
     "split": false
    },
    "tahoe-transportation-district-it-consulting-2025.pdf": {
@@ -846,21 +1052,21 @@
     "bid": 0,
     "no_bid": 14,
     "min": 0.0,
-    "median": 0.0156,
-    "max": 0.1247,
+    "median": 0.0165,
+    "max": 0.0979,
     "split": false
    },
    "u-maine-system-rfp-2026-065-enterprise-genai-services.pdf": {
-    "models": 14,
+    "models": 13,
     "bid": 0,
-    "no_bid": 14,
+    "no_bid": 13,
     "min": 0.0,
-    "median": 0.0284,
-    "max": 0.1245,
+    "median": 0.0162,
+    "max": 0.08,
     "split": false
    }
   },
-  "unanimous": 10,
-  "split": 1
+  "unanimous": 15,
+  "split": 3
  }
 }

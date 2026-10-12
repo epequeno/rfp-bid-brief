@@ -237,13 +237,21 @@ def _baseline():
 
 
 def test_every_labelled_fixture_has_an_extraction_and_agrees_on_the_label() -> None:
-    """11/11 on the call. This checks the decision layer and the vocabulary, not extraction:
-    the extractions were hand-authored knowing the labels, and baseline.json says so."""
+    """Full agreement on the call. This checks the decision layer and the vocabulary, not extraction:
+    the extractions were hand-authored knowing the labels, and baseline.json says so.
+
+    The expectation is derived from the labels rather than written down, because a hard-coded set size
+    is a test that has to be edited every time a fixture is admitted — and an edited expectation is one
+    that can be edited to pass.
+    """
     base = _baseline()
     assert base.missing_extraction == []
-    assert base.n == len(LABELS["labels"]) == 11
+    assert base.n == len(LABELS["labels"]) == 18
     assert base.label_agree == base.n
-    assert base.confusion() == {"bid": {"bid": 4}, "no_bid": {"no_bid": 7}}
+    expected = {"bid": {"bid": 0}, "no_bid": {"no_bid": 0}}
+    for entry in LABELS["labels"]:
+        expected[entry["label"]][entry["label"]] += 1
+    assert base.confusion() == expected
 
 
 def test_the_labelled_reason_class_is_always_found() -> None:

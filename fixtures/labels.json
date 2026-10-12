@@ -11,9 +11,9 @@
   "operating_point_tau": 0.5,
   "held_out": true,
   "balance": {
-    "bid": 4,
-    "no_bid": 7,
-    "total": 11
+    "bid": 6,
+    "no_bid": 12,
+    "total": 18
   },
   "reason_classes": {
     "in_scope": "the profile's core work: scoped advisory, discovery or implementation in cloud, IAM, data or AI",
@@ -21,7 +21,8 @@
     "functional_stack_not_held": "winning requires vendor-specific functional expertise the profile excludes (ERP or student systems, SAP/Oracle/Workday configuration, Dynamics functional work)",
     "operations_not_projects": "the work is continuous monitoring, service desk or managed operations rather than a project",
     "geography": "winning requires a recurring on-site presence the profile cannot commit to",
-    "not_qualified": "a minimum track record, contract vehicle, credential or clearance makes the firm ineligible before capability is assessed \u2014 unreachable rather than unsuitable"
+    "not_qualified": "a minimum track record, contract vehicle, credential or clearance makes the firm ineligible before capability is assessed \u2014 unreachable rather than unsuitable",
+    "staff_augmentation": "the issuer is buying hours or bodies under a standing agreement rather than commissioning a delivered project"
   },
   "baseline_note": "The title-only keyword baseline is expected to fail on at least three of these. u-maine-system and hacc both read as AI or software work by title and are product purchases; tahoe reads as a plain IT consulting engagement and is a geography no-bid. If the baseline does not fail there, the pipeline is adding nothing and that is the finding (adr/0003).",
   "labels": [
@@ -118,6 +119,62 @@
       "evidence": "The engagement will include advisory, implementation, and knowledge transfer components.",
       "rationale": "AI integration, a Microsoft Fabric migration, a Dynamics 365 migration for a 211 call centre and an intelligent virtual assistant, specified as projects with deliverables and a one-year term. The work is squarely in scope even though the title says only consultant.",
       "counterargument": "The summary line reads as staff augmentation \u2014 act as an extension of our Information Systems team, on an as-needed basis \u2014 which the profile excludes. Agreed as a bid: the deliverables are project-shaped, so this is the label with the least margin in the set."
+    },
+    {
+      "fixture": "indian-river-county-utilities-technology-master-plan-rfp.pdf",
+      "label": "bid",
+      "reason_class": "in_scope",
+      "title_signal": "consistent",
+      "evidence": "The Scope of Services for the UTMP includes a comprehensive review of IRCDUS's existing business processes",
+      "rationale": "An assessment engagement producing a technology master plan, plus vendor-neutral CIS selection support. Deliverables and phases rather than staffing, no on-site requirement, and the experience language is a scored demonstration rather than a minimum. The closest call is whether CIS selection support drifts into functional configuration of a customer information system; it does not \u2014 the work is evaluating vendor solutions, not configuring one."
+    },
+    {
+      "fixture": "allentown-school-district-data-warehousing-services-2026.pdf",
+      "label": "bid",
+      "reason_class": "in_scope",
+      "title_signal": "consistent",
+      "evidence": "The purpose of this RFP is to procure comprehensive data warehousing services from a single vendor",
+      "rationale": "Explicitly a services procurement with a scope, deliverables and milestone-based pricing. The experience line asks for 'at least three (3) comparable engagements, preferably for public school districts' \u2014 'preferably' makes it scored, not a gate, which is what keeps it out of the fifth class and in scope."
+    },
+    {
+      "fixture": "cisd-texas-rfp-26-10-enterprise-data-warehouse-software.pdf",
+      "label": "no_bid",
+      "reason_class": "not_qualified",
+      "title_signal": "misleading",
+      "evidence": "Enterprise Data Warehouse and Performance Management Software and Related Items",
+      "rationale": "Two independent reasons. It is a software purchase \u2014 the title says so \u2014 and it is gated: a minimum of five years of K-12 data warehouse solutions, at least five successful Texas K-12 implementations, existing Texas references from similarly sized districts. The gate is primary because the firm is ineligible before capability is assessed. Partnering with a K-12-experienced sub would not fix the software gap, so the no-bid does not depend on which reading is taken."
+    },
+    {
+      "fixture": "kansas-city-kansas-cc-rfp-26-003-data-warehouse-analytics-platform.pdf",
+      "label": "no_bid",
+      "reason_class": "product_not_services",
+      "title_signal": "misleading",
+      "evidence": "seeking transparent, pre-delivered analytics",
+      "rationale": "'Pre-delivered' is the decisive word: the analytics exist before the contract, so the issuer is buying a platform rather than commissioning one. The counterargument, and the weakest call in this round: the document also asks for 'the proposed solution and implementation approach', and a platform procurement with a build phase is a services engagement wearing a product's name. Reviewed and agreed as a product purchase on 2026-10-11."
+    },
+    {
+      "fixture": "college-of-western-idaho-rfp-05-2024-ai-technology-services.pdf",
+      "label": "no_bid",
+      "reason_class": "product_not_services",
+      "title_signal": "misleading",
+      "evidence": "any licenses, service terms",
+      "rationale": "The College's own cover sheet calls this 'RFP 05-2024 AI Software', the requirements score software access through the LMS, and the contract terms are licence terms. Buying AI tooling with services attached, not commissioning AI engineering \u2014 the award depends on supplying a product the firm does not have."
+    },
+    {
+      "fixture": "judicial-council-of-california-rfp-it-2026-213-rb-technical-staff-augmentation.pdf",
+      "label": "no_bid",
+      "reason_class": "staff_augmentation",
+      "title_signal": "consistent",
+      "evidence": "MASTER AGREEMENTS FOR TECHNICAL STAFF AUGMENTATION SERVICES",
+      "rationale": "The title is the finding. Up to sixteen master agreements awarded to 'technical staff augmentation staffing agencies', two years plus three one-year options, with work issued as Work Orders on an as-needed basis. The firm does not do staff augmentation, and a five-year standing agreement is not a project with an end. This fixture is why the sixth class exists: as continuous_operations the reason text said 'continuous operations' about a document whose own words are 'staff augmentation'."
+    },
+    {
+      "fixture": "savec-alaska-managed-it-services-2026.pdf",
+      "label": "no_bid",
+      "reason_class": "geography",
+      "title_signal": "consistent",
+      "evidence": "Help Desk support (remote and on-site)",
+      "rationale": "A monthly managed-service contract with priced on-site labour \u2014 monthly managed services, hourly on-site support, emergency after-hours support \u2014 in Bristol Bay, Alaska. Two exclusions match: a recurring on-site presence outside DFW, and continuous operations rather than a project. 'Remote and on-site' describes the service, not an option; the profile treats geography as a hard constraint rather than a scoring penalty."
     }
   ],
   "refrozen": {
@@ -129,5 +186,17 @@
     "effect": "no existing label changed; tau unchanged at 0.50; the eleven labels remain valid against the revised profile",
     "check_performed": "pattern search over all eleven fixtures for minimum-experience, contract-vehicle, credential and eligibility phrasings \u2014 zero matches",
     "note": "The new class currently has no fixture that triggers it. It is expressible but unexercised, which is recorded here rather than hidden."
+  },
+  "round_2": {
+    "on": "2026-10-11",
+    "authored_by": "Steven Pequeno (the labels) with personal-agent (proposed reasoning); proposals reviewed and confirmed 2026-10-11",
+    "added": 7,
+    "profile_unchanged": true,
+    "note": "Seven fixtures admitted in round 3 of sourcing. Confirmed after reviewing LABELS-PROPOSED.md, which recorded the counterargument for each. No re-freeze: the profile was already refrozen for the fifth class (adr/0012), and the sixth class (adr/0014) cites a phrase the profile already carried.",
+    "balance": {
+      "bid": 6,
+      "no_bid": 12,
+      "total": 18
+    }
   }
 }

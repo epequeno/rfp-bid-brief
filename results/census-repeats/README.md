@@ -1,5 +1,11 @@
 # Is the census reproducible? Four runs of one frozen state
 
+> **HISTORICAL — profile v1.** These four runs were made against `eap-software-narrow-2026-10-11` and a
+> state that carried neither the eligibility gates nor the firm's experience record. Both changed
+> (adr/0012, adr/0013), so the numbers below describe a state no model will see again. The *finding*
+> stands — the census is stable in structure and not exactly reproducible — and the current numbers are
+> in `results/calibration.json`. Repeating this under profile v2 is cheap (~$0.05) and not yet done.
+
 The extractor turned out to be nondeterministic — "clean on the first attempt" ranged 7–8/11 across
 three identical runs — so assuming the decision layer *was* deterministic would have been the one
 untested assumption left in the pipeline. Four censuses of the same frozen state cost **$0.028** total

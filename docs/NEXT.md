@@ -88,9 +88,21 @@ class had no binding, and neither `profile_exclusions()` nor `build_state()` kne
 so the models would have been judging without the class the profile had just gained. Both fixed;
 `adr/0013` records it.
 
-**Still outstanding: the seven labels — yours.** Pre-filled proposals with evidence and counterargument
-are in `outbox/2026-10-11-fixture-expansion/LABELS-PROPOSED.md`. Nothing has been run against a model;
-the ADR 0003 order holds, and the census re-run waits for the labels. Seven new candidates (8.3 MB,
+**Labels confirmed and written as round 2; the census has been re-run under profile v2.** Set: 18
+fixtures, 6 bid / 12 no_bid. Deterministic baseline: 18/18 label agreement, 17/18 primary reason class
+(one pre-existing ranking divergence, palm-beach). Census: **248/252 answered** — the first refusals this
+pipeline has seen, 4 from one model — **7 models perfect at 18/18**, Brier 0.0000–0.0725.
+
+What the re-freeze changed, which is the most interesting result in the repository so far: the Energy
+Trust split **narrowed from 7 bid / 7 no-bid to 4/14** once the state carried the gates and the firm's
+experience record. The contested fixture became less contested *because the judges could see more of the
+profile*, not because the profile was edited to resolve it. Three fixtures now split (allentown 11/14,
+College of Western Idaho 1/14, Energy Trust 4/14); fifteen are unanimous, including every gated and
+product case.
+
+**Still open:** a sixth class was added (`staff_augmentation`, `adr/0014` — no re-freeze, it cites a
+phrase the profile already carried), and the repeats under profile v2 have not been re-run (~$0.05).
+The enrichment question from round 3 is still unanswered. Seven new candidates (8.3 MB,
 HTTP 200, real text layers, no employer/client relationship, no vendor responses) sit in
 `outbox/2026-10-11-fixture-expansion/candidates/` with proposed labels and evidence per document in
 `CANDIDATES.md`. Two are bid-likely, five are not, and **that ratio is the finding**: the bid-likely

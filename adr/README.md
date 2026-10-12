@@ -33,3 +33,4 @@ Consequences.
 | [0011](0011-the-contested-fixture-is-a-finding.md) | The contested fixture is a finding, not a defect to be resolved | accepted |
 | [0012](0012-the-fifth-exclusion-class-and-its-re-freeze.md) | The fifth exclusion class, and the re-freeze it forces | accepted |
 | [0013](0013-unreachable-outranks-unsuitable.md) | Unreachable outranks unsuitable, and a class must be visible to every judge | accepted |
+| [0014](0014-a-sixth-class-and-when-a-re-freeze-is-needed.md) | A sixth class: staff augmentation, and when a re-freeze is actually needed | accepted |

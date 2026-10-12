@@ -24,15 +24,15 @@
   },
   "requirements": {
     "delivery_model": {
-      "value": "continuous_operations",
+      "value": "staff_augmentation",
+      "kind": "enum",
       "citations": [
         {
-          "span_id": "p4-s6",
-          "page": 4,
-          "quote": "anticipates contracting for technical consultants on an as-needed basis to assist with its various technology initiatives to support automated systems in the California courts and Judicial Council."
+          "span_id": "p1-s0",
+          "page": 1,
+          "quote": "MASTER AGREEMENTS FOR TECHNICAL STAFF AUGMENTATION SERVICES RFP NUMBER: RFP-IT-2026-213-RB PROPOSALS DUE: AUGUST 21, 2026 NO LATER THAN 1:00 PM PACIFIC TIME (PT) JBCM RFP IT Goods-Services vJCC \u2013 Rev."
         }
-      ],
-      "kind": "enum"
+      ]
     },
     "requires_product_supply": {
       "value": false,
@@ -90,7 +90,7 @@
       "kind": "list"
     }
   },
-  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Every value carries the span that grounds it; quotes are sliced out of the span index programmatically rather than typed, because these documents contain non-breaking hyphens. Standing agreements to supply technical staff on demand (up to 16 master agreements, two years plus three one-year options). The document's OWN term for the delivery model is 'staff augmentation', which the profile excludes -- but the bindings express that as continuous_operations, not as a class of its own. The issuer also asks for 'staff augmentation staffing agencies' as the vendor type; recorded here rather than scored as a gate, because the delivery model already decides it.",
+  "_note": "Hand-authored 2026-10-11 as a stand-in for the model-backed extractor: the producer is swappable, the citation contract is not. Every value carries the span that grounds it; quotes are sliced out of the span index programmatically rather than typed, because these documents contain non-breaking hyphens. Standing agreements to supply technical staff on demand (up to 16 master agreements, two years plus three one-year options). The document's OWN term for the delivery model is 'staff augmentation', which the profile excludes -- but the bindings express that as continuous_operations, not as a class of its own. The document's own term for the delivery model is 'staff augmentation', and as of adr/0014 that is a class of its own rather than a reading of continuous_operations.",
   "schema": "extraction/1",
   "produced_by": "hand-authored (stand-in)"
 }
