@@ -13,7 +13,7 @@ Primary reason class: **Buying a product, not services**
 
 **Comparator** `microsoft/microsoft-decision-1` (resolved `microsoft/microsoft-decision-1-20261009`, served by Azure): P(bid) = 0.0180 → NO-BID.
 
-**Census of 13 served decision models on this fixture: 0 bid, 13 no-bid** (probabilities 0.000–0.080).
+**Census of 14 served decision models on this fixture: 0 bid, 13 no-bid, 1 refused** (probabilities 0.000–0.080).
 
 Every model in the census read this solicitation the same way.
 

@@ -234,6 +234,7 @@ class FixtureVerdict:
     comparator: dict | None
     sample_fixtures: int = 0
     sample_positives: int = 0
+    asked: int = 0
 
     @property
     def contested(self) -> bool:
@@ -276,14 +277,16 @@ def fixture_verdict(decisions: dict, calibration: dict | None, fixture: str,
     comparator = comparator or COMPARATOR
     calibration = calibration or {}
     tau = float(decisions.get("operating_point_tau") or calibration.get("operating_point_tau") or 0.5)
-    values = [float(a["noul"]) for a in decisions.get("answers", [])
+    answers = decisions.get("answers", [])
+    asked = sum(1 for a in answers if a.get("fixture") == fixture)
+    values = [float(a["noul"]) for a in answers
               if a.get("fixture") == fixture and a.get("noul") is not None]
     sample = calibration.get("sample") or {}
-    answers = decisions.get("answers", [])
     return FixtureVerdict(
         fixture=fixture,
         tau=tau,
         total=len(values),
+        asked=asked,
         bid=sum(1 for v in values if v >= tau),
         no_bid=sum(1 for v in values if v < tau),
         lo=min(values) if values else None,

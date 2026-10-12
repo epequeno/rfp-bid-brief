@@ -72,9 +72,14 @@ def _decision_section(decision: Decision, verdict: FixtureVerdict | None) -> lis
             f"P(bid) = {m['probability']:.4f} → {_call(m['probability'], verdict.tau)}."
         )
         out.append("")
+    refused = verdict.asked - verdict.total
+    # A refusal is a result, not a gap in the record: saying "14 models, 0 bid, 13 no-bid" would be
+    # arithmetic that does not add up, and saying "13 models" would hide the one that declined to
+    # answer. Both are avoided by naming it (adr/0009, adr/0010).
+    tail = f", {refused} refused" if refused else ""
     out.append(
-        f"**Census of {verdict.total} served decision models on this fixture: "
-        f"{verdict.bid} bid, {verdict.no_bid} no-bid** (probabilities "
+        f"**Census of {verdict.asked or verdict.total} served decision models on this fixture: "
+        f"{verdict.bid} bid, {verdict.no_bid} no-bid{tail}** (probabilities "
         f"{verdict.lo:.3f}–{verdict.hi:.3f})."
     )
     out.append("")

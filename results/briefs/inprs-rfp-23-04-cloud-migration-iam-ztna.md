@@ -14,7 +14,7 @@ Primary reason class: **In scope**
 
 **Comparator** `microsoft/microsoft-decision-1` (resolved `microsoft/microsoft-decision-1-20261009`, served by Azure): P(bid) = 0.9466 → BID.
 
-**Census of 13 served decision models on this fixture: 13 bid, 0 no-bid** (probabilities 0.760–0.999).
+**Census of 14 served decision models on this fixture: 13 bid, 0 no-bid, 1 refused** (probabilities 0.760–0.999).
 
 Every model in the census read this solicitation the same way.
 

@@ -41,18 +41,28 @@ def test_no_census_means_no_number_is_shown():
 
 
 def test_the_real_census_is_reported_for_a_unanimous_fixture():
-    verdict = calibrate.fixture_verdict(_decisions(), _calibration(), UMAINE)
+    d = _decisions()
+    verdict = calibrate.fixture_verdict(d, _calibration(), UMAINE)
+    # Derived, not written down: one model refused four fixtures in the current census, so a fixture's
+    # total is however many models actually answered it. Hard-coding 14 made this test fail for a
+    # reason that had nothing to do with what it is checking.
+    answered = sum(1 for a in d["answers"] if a["fixture"] == UMAINE and a.get("noul") is not None)
     text = "\n".join(brief._decision_section(_decision(), verdict))
-    assert verdict.bid == 0 and verdict.no_bid == 14 and not verdict.contested
+    assert verdict.total == answered
+    assert verdict.bid == 0 and verdict.no_bid == answered and not verdict.contested
     assert "P(bid)" in text and "τ = 0.50" in text
-    assert "Census of 14 served decision models" in text
+    assert f"Census of {verdict.asked} served decision models" in text
+    assert ("refused" in text) == (verdict.asked > verdict.total)
     assert "Every model in the census read this solicitation the same way." in text
     assert "same** call as the channel" in text
 
 
 def test_the_committed_split_fixture_is_reported_as_contested():
-    verdict = calibrate.fixture_verdict(_decisions(), _calibration(), SPLIT)
-    assert verdict.contested and (verdict.bid, verdict.no_bid) == (7, 7)
+    d = _decisions()
+    verdict = calibrate.fixture_verdict(d, _calibration(), SPLIT)
+    values = [a["noul"] for a in d["answers"] if a["fixture"] == SPLIT and a.get("noul") is not None]
+    expected = sum(1 for v in values if v >= d["operating_point_tau"])
+    assert verdict.contested and verdict.bid == expected and 0 < expected < len(values)
     text = "\n".join(brief._decision_section(_decision(), verdict))
     assert "disagree with each other" in text
 
@@ -73,12 +83,20 @@ def test_a_disagreement_between_the_rules_layer_and_the_channel_is_not_averaged_
 
 
 def test_every_committed_fixture_has_a_full_census_behind_it():
+    """Every labelled fixture must appear in the census, and every model that answered must be counted.
+
+    A refusal is not a missing fixture: the census is expected to have fewer answers than models when one
+    refuses, which is why the count is checked against the answers rather than against a number.
+    """
     d, c = _decisions(), _calibration()
+    labels = json.loads((REPO / "fixtures" / "labels.json").read_text(encoding="utf-8"))["labels"]
     fixtures = sorted({a["fixture"] for a in d["answers"]})
-    assert len(fixtures) == 11
+    assert len(fixtures) == len(labels) == 18
+    assert {entry["fixture"] for entry in labels} == set(fixtures)
     for f in fixtures:
         v = calibrate.fixture_verdict(d, c, f)
-        assert v.total == 14, f
+        answered = sum(1 for a in d["answers"] if a["fixture"] == f and a.get("noul") is not None)
+        assert v.total == answered >= 13, f
         assert v.lo is not None and v.hi is not None and v.lo <= v.hi, f
 
 
